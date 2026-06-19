@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+server.js
+*.tsbuildinfo
+
+# Local env files — must never be committed
+.env
+.env.*
+!.env.example
+
+# Local data (replaced by Supabase Postgres)
+data/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+nul
+
+# Claude / OpenClaude session artifacts
+.openclaude/
+
+# Local-only scripts
+start-openclaude.sh

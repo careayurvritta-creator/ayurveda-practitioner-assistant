@@ -1,0 +1,6 @@
+{
+  "name": "Ayurveda Practitioner Assistant",
+  "description": "A clinical Ayurveda AI companion for doctors and practitioners to generate treatment protocols, track patient case history, and consult clinical knowledge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
