@@ -1,7 +1,7 @@
 # AyurScribe v0 — Migration to GitHub + Vercel + Supabase
 
 **Date:** 2026-06-19
-**Status:** Draft (pending implementation plan)
+**Status:** Draft (pending implementation plan) — baseline commit `1639eda` on branch `migration/v0`; secret-bearing files scrubbed from disk before first commit.
 **Owner:** user
 **Repository root:** `E:/ayurveda-practitioner-assistant`
 
@@ -101,7 +101,7 @@ ayurScribe/
         └── _health/index.ts  (smoke endpoint)
 ```
 
-The repo is not yet under git. Initial commit happens during implementation step 1.
+Status as of 2026-06-19: repo **is now** initialized on branch `migration/v0` (baseline commit `1639eda`); `.env`, `nvidia-proxy.cjs`, Firebase files, `security_spec.md` were scrubbed before the first commit. Further commits on this branch execute the v0 migration in place.
 
 ## 6. Data model
 
@@ -234,6 +234,8 @@ The committed `nvidia-proxy.cjs` hardcoded key is **deleted** during this migrat
 - `seed-knowledge.ts` is run once as a local script (not in the function runtime). It uses the service-role key to populate caches/derived tables if needed during step 3.
 
 ## 10. Client rewrite (`src/App.tsx`)
+
+**Decision (agent, 2026-06-19):** **Option (a)** — server-side broker holds Google's `client_id`/`client_secret` as Supabase secrets; client only ever exchanges a stored `refresh_token` for a short-lived `access_token`. Rejected (b)+(c) because Vercel-static+Supabase-Edge forbids storing `client_secret` in the browser, and Supabase JWTs cannot mint Google tokens. (See `project-google-drive-open-question.md`.)
 
 - Replace Firebase imports with `import { createClient } from '@supabase/supabase-js'` and a typed client instantiated with `VITE_SUPABASE_URL` + `VITE_SUPABASE_ANON_KEY`.
 - Replace `googleSignIn` with `supabase.auth.signInWithOAuth({ provider: 'google', options: { scopes: 'https://www.googleapis.com/auth/drive', access_type: 'offline', prompt: 'consent' } })`. Capture the **Google refresh token** from the resulting session (`session.provider_refresh_token`) and persist it in `localStorage`.
