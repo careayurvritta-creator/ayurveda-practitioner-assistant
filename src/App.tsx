@@ -398,16 +398,12 @@ export default function App() {
   const [generatedProtocolText, setGeneratedProtocolText] = useState<string>('');
   const [selectedProtocolToPrint, setSelectedProtocolToPrint] = useState<Protocol | null>(null);
 
-  // NVIDIA NIM Model Selection States
-  const [selectedModel, setSelectedModel] = useState<string>('gemini-3.5-flash');
-  const [isNvidiaConfigured, setIsNvidiaConfigured] = useState<boolean>(false);
+  // Model Selection States
+  const [selectedModel, setSelectedModel] = useState<string>('gemini-2.5-pro');
+  const [isMinimaxConfigured, setIsMinimaxConfigured] = useState<boolean>(false);
   const [availableModels, setAvailableModels] = useState<any[]>([
-    { id: 'gemini-3.5-flash', name: 'Gemini 3.5 Flash', provider: 'Google', description: 'Default Google GenAI clinical assistant. Extremely fast, intelligent and reliable.', rating: 'Excellent general model', tag: 'Fast Default' },
-    { id: 'meta/llama-3.3-70b-instruct', name: 'Llama 3.3 70B Instruct', provider: 'NVIDIA NIM', description: 'State-of-the-art reasoning model on NVIDIA NIM, superb for deep Ayurvedic diagnostic correlation and Sanskrit analysis.', rating: 'SOTA Clinical', tag: 'Recommended' },
-    { id: 'nvidia/llama-3.1-nemotron-70b-instruct', name: 'Llama 3.1 Nemotron 70B', provider: 'NVIDIA NIM', description: 'NVIDIA-enhanced. Excellent for highly structured charts, tables, and step-by-step Ayurvedic Panchakarma protocols.', rating: 'Top Structure', tag: 'Aesthetic Charts' },
-    { id: 'meta/llama-3.1-405b-instruct', name: 'Llama 3.1 405B Instruct', provider: 'NVIDIA NIM', description: 'Flagship reasoning intelligence. Superior depth for highly complex chronic multi-dosha diseases.', rating: 'Deepest Reasoning', tag: 'Complex Cases' },
-    { id: 'mistralai/mixtral-8x22b-instruct-v0.1', name: 'Mixtral 8x22B Instruct', provider: 'NVIDIA NIM', description: 'High-speed Mixture of Experts. Excellent at separating classical Sanskrit scriptures and modern drug correlations cleanly.', rating: 'Balanced speed', tag: 'Fast Clinical' },
-    { id: 'microsoft/phi-3-medium-128k-instruct', name: 'Phi 3 Medium 128k', provider: 'NVIDIA NIM', description: 'Lightweight and highly responsive. Great for simple diet charts and daily clinical checks.', rating: 'Highly Responsive', tag: 'Lightweight' }
+    { id: 'gemini-2.5-pro', name: 'Gemini 2.5 Pro', provider: 'Google', description: 'Default Google GenAI clinical assistant. Extremely fast, intelligent and reliable.', rating: 'Excellent general model', tag: 'Fast Default' },
+    { id: 'minimaxai/minimax-m3', name: 'MiniMax M3', provider: 'MiniMax', description: 'Unified embedding + generation model for deep Ayurvedic diagnostic correlation and Sanskrit analysis.', rating: 'SOTA Clinical', tag: 'Recommended' },
   ]);
  
   // Fetch verified active models on mount
@@ -421,8 +417,8 @@ export default function App() {
         if (data.models && Array.isArray(data.models) && data.models.length > 0) {
           setAvailableModels(data.models);
         }
-        if (data.isNvidiaConfigured !== undefined) {
-          setIsNvidiaConfigured(data.isNvidiaConfigured);
+        if (data.isMinimaxConfigured !== undefined) {
+          setIsMinimaxConfigured(data.isMinimaxConfigured);
         }
       })
       .catch(err => console.log('Using pre-populated clinical models selection:', err));
@@ -1626,7 +1622,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                           </h4>
                         </div>
                         <p className="text-[10px] text-stone-500 mt-1">
-                          Synthesize prescriptions with state-of-the-art clinical reasoning LLMs, optimized by NVIDIA NIM.
+                          Synthesize prescriptions with state-of-the-art clinical reasoning LLMs, powered by MiniMax M3.
                         </p>
                       </div>
                       <div className="flex items-center gap-2 w-full sm:w-auto">
@@ -1657,11 +1653,11 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                         </span>
                       </div>
                     </div>
-                    {selectedModel !== 'gemini-3.5-flash' && !isNvidiaConfigured && (
+                    {selectedModel !== 'gemini-2.5-pro' && !isMinimaxConfigured && (
                       <div className="mt-2 bg-amber-50/70 border border-amber-200/50 rounded-lg p-2 text-[10px] text-amber-800 leading-normal flex items-start gap-1.5">
                         <span className="font-bold underline shrink-0 mt-0.5">⚠️ KEY NOT CONFIGURED:</span>
                         <span>
-                          NVIDIA NIM Key is not configured. Running in high-fidelity <strong>Gemini Emulation Mode</strong>. To connect directly to real NVIDIA NIM servers, configure the <code>NVIDIA_API_KEY</code> variable inside the Settings Secrets menu.
+                          MiniMax M3 Key is not configured. To connect directly to MiniMax M3 servers, configure the <code>MINIMAX_M3_API_KEY</code> variable inside the Settings Secrets menu.
                         </span>
                       </div>
                     )}
@@ -1809,7 +1805,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                     </div>
 
                     <div className="border-t border-stone-200/80 pt-3">
-                      <label className="font-bold text-stone-600 block mb-1 text-xs">Clinical Synthesis Backbone Engine (NVIDIA NIM):</label>
+                      <label className="font-bold text-stone-600 block mb-1 text-xs">Clinical Synthesis Backbone Engine (MiniMax M3):</label>
                       <select
                         value={selectedModel}
                         onChange={(e) => setSelectedModel(e.target.value)}
@@ -1837,11 +1833,11 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                           </span>
                         </div>
                       </div>
-                      {selectedModel !== 'gemini-3.5-flash' && !isNvidiaConfigured && (
+                      {selectedModel !== 'gemini-2.5-pro' && !isMinimaxConfigured && (
                         <div className="mt-2 bg-amber-50/70 border border-amber-200/50 rounded-lg p-2 text-[10px] text-amber-800 leading-normal flex items-start gap-1.5">
                           <span className="font-bold underline shrink-0 mt-0.5">⚠️ KEY NOT CONFIGURED:</span>
                           <span>
-                            NVIDIA NIM Key is not configured. Running in high-fidelity <strong>Gemini Emulation Mode</strong>. To connect directly to real NVIDIA NIM servers, configure the <code>NVIDIA_API_KEY</code> variable inside the Settings Secrets menu.
+                            MiniMax M3 Key is not configured. To connect to MiniMax M3 servers, configure the <code>MINIMAX_M3_API_KEY</code> variable inside the Settings Secrets menu.
                           </span>
                         </div>
                       )}

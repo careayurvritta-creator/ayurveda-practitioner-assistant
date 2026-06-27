@@ -276,7 +276,7 @@ After deploy:
 
 ## 13. Order of operations (each step is independently revertable)
 
-1. **Secrets & repo hygiene.** `git init`, scrub `nvidia-proxy.cjs` and committed `.env` from history (using `git filter-repo`), add `.gitignore`, push to a fresh GitHub repo.
+1. **Secrets & repo hygiene.** `git init`, scrub `nvidia-proxy.cjs` and committed `.env` from history (using `git filter-repo`), add `.gitignore`, push to a fresh GitHub repo. — _Status 2026-06-19:_ already complete on `migration/v0` (baseline `1639eda` captured the clean tree). Do not redo; the next steps start at 2.
 2. **Stand up Supabase.** Create the project under the existing org (`AYurvritta Ayurveda Hospital and Panchkarma Center`); apply migrations 0001 and 0002; enable Email + Magic Link.
 3. **Bootstrap the four Edge Functions** against the current local client URLs first; verify them through `supabase functions invoke`.
 4. **Port the React client.** Replace Firebase auth and the `/api/*` calls per §10. Test against `supabase start` locally.

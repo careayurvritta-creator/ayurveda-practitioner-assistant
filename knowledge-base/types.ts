@@ -46,63 +46,9 @@ export interface ModelOption {
 
 export const MODELS: ModelOption[] = [
   {
-    id: 'mistralai/mistral-large-3-675b-instruct-2512',
-    name: 'Mistral Large 3 (675B)',
-    description: 'Best reasoning for clinical decisions',
-    context: '128K',
-  },
-  {
-    id: 'qwen/qwen3-coder-480b-a35b-instruct',
-    name: 'Qwen 3 Coder (480B)',
-    description: 'Massive MoE, strong clinical reasoning',
-    context: '128K',
-  },
-  {
-    id: 'nvidia/llama-3.3-nemotron-super-49b-v1.5',
-    name: 'Nemotron Super 49B',
-    description: 'Fast with strong clinical reasoning',
-    context: '128K',
-  },
-  {
-    id: 'qwen/qwen3.5-397b-a17b',
-    name: 'Qwen 3.5 (397B)',
-    description: 'Powerful reasoning, excellent clinical depth',
-    context: '128K',
-  },
-  {
-    id: 'meta/llama-3.3-70b-instruct',
-    name: 'Llama 3.3 70B',
-    description: 'Reliable general-purpose clinical model',
-    context: '128K',
-  },
-  {
-    id: 'mistralai/mistral-nemotron',
-    name: 'Mistral Nemotron',
-    description: 'NVIDIA-tuned, balanced clinical reasoning',
-    context: '128K',
-  },
-  {
-    id: 'qwen/qwen3-next-80b-a3b-instruct',
-    name: 'Qwen 3 Next 80B',
-    description: 'Fast MoE, good for quick queries',
-    context: '128K',
-  },
-  {
-    id: 'deepseek-ai/deepseek-v4-flash',
-    name: 'DeepSeek V4 Flash',
-    description: 'Fast, strong reasoning',
-    context: '128K',
-  },
-  {
-    id: 'meta/llama-3.2-90b-vision-instruct',
-    name: 'Llama 3.2 90B Vision',
-    description: 'Image analysis + text',
-    context: '128K',
-  },
-  {
-    id: 'meta/llama-3.1-8b-instruct',
-    name: 'Llama 3.1 8B',
-    description: 'Ultra-fast, low cost',
+    id: 'minimaxai/minimax-m3',
+    name: 'MiniMax M3',
+    description: 'Unified embedding and generation for Ayurvedic clinical knowledge',
     context: '128K',
   },
 ]
