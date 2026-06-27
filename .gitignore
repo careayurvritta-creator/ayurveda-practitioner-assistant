@@ -26,3 +26,6 @@ nul
 
 # Local-only scripts
 start-openclaude.sh
+
+# Build artifacts / archives
+*.zip
