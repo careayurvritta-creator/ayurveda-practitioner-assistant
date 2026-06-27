@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "sthana": "Nidana Sthana",
+    "sthanaNumber": 2,
+    "chapterNumber": 8,
+    "chapterTitleEnglish": "Diagnosis of seizure disorders",
+    "chapterTitleSanskrit": "Apasmara Nidana Adhyaya",
+    "chapterTitleDevanagari": "Apasmara Nidana",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": "None",
+    "translators": [],
+    "reviewer": "Khandel S.K",
+    "editors": [
+      "Khandel S.K",
+      "Godatwar P."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s02.009"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Apasmara_Nidana_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "In this important section dealing with the diagnoses of some common disorders of the body and the mind, this chapter deals with apasmara, a disorder afflicting the mind and sharing similar etiological and pathological factors as unmada (the subject of the preceding chapter). apasmara (Sanskrit for apa (to lose) or leave, and smara (memory)) is a psychosomatic disorder involving memory, intellect and mind and present with cardinal features such as transient loss of memory, abnormal movements of body and blackouts. apasmara is counted, in Ayurvedic texts, among the eight mahagada (most dreadful diseases). The extent of knowledge on the disease indicates that it must have been quite prevalent in antiquity. Ayurvedic scholars have observed that apasmara simulates epilepsy in its features&#91;1&#93; &#91;2&#93;. Epilepsy is a common neuropsychiatric condition involving mainly the brain, nervous system and the psyche. However, Ayurveda emphasizes heart, the abode of consciousness and mind, as its core pathological site while covering diseases of memory, intellect as well as psyche under the umbrella of apasmara. Causative factors of apasmara can be categorized under dietary, lifestyle, psychological and iatrogenic factors. Vitiated doshas get through the vessels of the heart and when exposed to predisposing psychological factors like excess worry, grief, anger, and fear, move upwards from the heart, the abode of all consciousness, to the brain, afflicting the senses while altering memory. This eventually leads to apasmara. The etiology of the disease and specific features of the dominant doshas involved, and nidanarthakara roga (one disease causing other disease) and its importance in diagnosis and treatment have been described in detail in this chapter, with some important aspects of diagnosis addressed. In some cases, both diseases (the causative and the secondary ones) coexist while in other cases, the causative disease disappears and the new disease remains present. Thus, this chapter, while focusing on apasmara, also talks of complications that lead to secondary conditions and their treatment.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Four types of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Persons prone to apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristic features of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific types and features of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Manifestation of various diseases",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diagnostic principles of diseases",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "History and origin of the disease in ancient medical literature",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Definition of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Impairment of knowledge and coordination",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Sara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Predisposing factors for apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Six stages of pathogenesis of epilepsy (shatkriyakala for apasmara)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitory signs of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Differential diagnosis of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Reasons behind aggressive and dormant stages of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Practical application of principles",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Research areas",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Research works done on apasmara at post graduate/post doctoral level:",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Research papers published",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related Chapters",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "In this important section dealing with the diagnoses of some common disorders of the body and the mind, this chapter deals with apasmara, a disorder afflicting the mind and sharing similar etiological and pathological factors as unmada (the subject of the preceding chapter). apasmara (Sanskrit for apa (to lose) or leave, and smara (memory)) is a psychosomatic disorder involving memory, intellect and mind and present with cardinal features such as transient loss of memory, abnormal movements of body and blackouts. apasmara is counted, in Ayurvedic texts, among the eight mahagada (most dreadful diseases). The extent of knowledge on the disease indicates that it must have been quite prevalent in antiquity. Ayurvedic scholars have observed that apasmara simulates epilepsy in its features&#91;1&#93; &#91;2&#93;. Epilepsy is a common neuropsychiatric condition involving mainly the brain, nervous system and the psyche. However, Ayurveda emphasizes heart, the abode of consciousness and mind, as its core pathological site while covering diseases of memory, intellect as well as psyche under the umbrella of apasmara. Causative factors of apasmara can be categorized under dietary, lifestyle, psychological and iatrogenic factors. Vitiated doshas get through the vessels of the heart and when exposed to predisposing psychological factors like excess worry, grief, anger, and fear, move upwards from the heart, the abode of all consciousness, to the brain, afflicting the senses while altering memory. This eventually leads to apasmara. The etiology of the disease and specific features of the dominant doshas involved, and nidanarthakara roga (one disease causing other disease) and its importance in diagnosis and treatment have been described in detail in this chapter, with some important aspects of diagnosis addressed. In some cases, both diseases (the causative and the secondary ones) coexist while in other cases, the causative disease disappears and the new disease remains present. Thus, this chapter, while focusing on apasmara, also talks of complications that lead to secondary conditions and their treatment.",
+  "vidhiVimarsha": "In this important section dealing with the diagnoses of some common disorders of the body and the mind, this chapter deals with apasmara, a disorder afflicting the mind and sharing similar etiological and pathological factors as unmada (the subject of the preceding chapter). apasmara (Sanskrit for apa (to lose) or leave, and smara (memory)) is a psychosomatic disorder involving memory, intellect and mind and present with cardinal features such as transient loss of memory, abnormal movements of body and blackouts. apasmara is counted, in Ayurvedic texts, among the eight mahagada (most dreadful diseases). The extent of knowledge on the disease indicates that it must have been quite prevalent in antiquity. Ayurvedic scholars have observed that apasmara simulates epilepsy in its features&#91;1&#93; &#91;2&#93;. Epilepsy is a common neuropsychiatric condition involving mainly the brain, nervous system and the psyche. However, Ayurveda emphasizes heart, the abode of consciousness and mind, as its core pathological site while covering diseases of memory, intellect as well as psyche under the umbrella of apasmara. Causative factors of apasmara can be categorized under dietary, lifestyle, psychological and iatrogenic factors. Vitiated doshas get through the vessels of the heart and when exposed to predisposing psychological factors like excess worry, grief, anger, and fear, move upwards from the heart, the abode of all consciousness, to the brain, afflicting the senses while altering memory. This eventually leads to apasmara. The etiology of the disease and specific features of the dominant doshas involved, and nidanarthakara roga (one disease causing other disease) and its importance in diagnosis and treatment have been described in detail in this chapter, with some important aspects of diagnosis addressed. In some cases, both diseases (the causative and the secondary ones) coexist while in other cases, the causative disease disappears and the new disease remains present. Thus, this chapter, while focusing on apasmara, also talks of complications that lead to secondary conditions and their treatment.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 Four types of apasmara",
+    "2.2 Persons prone to apasmara",
+    "2.3 Characteristic features of apasmara",
+    "2.4 Specific types and features of apasmara 2.4.1 Vata dosha dominant apasmara",
+    "2.4.2 Pitta-dominant apasmara",
+    "2.4.3 Kapha-dominant apasmara",
+    "2.4.4 Sannipatika apasmara with dominance of all dosha",
+    "2.4.5 apasmara with extrinsic factors",
+    "2.5 Management of apasmara",
+    "2.6 Manifestation of various diseases",
+    "2.7 Summary",
+    "2.8 Diagnostic principles of diseases 2.8.1 Nidanarthakara roga (disease specific causes)",
+    "2.8.2 Ideal therapy without adverse effects",
+    "2.8.3 Diagnostic aspect of etiological factors",
+    "2.8.4 Diagnostic aspect of symptoms",
+    "2.8.5 Therapeutic considerations",
+    "2.8.6 Prognostic aspect in therapy",
+    "2.8.7 Examination of stages of disease",
+    "2.9 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences) 4.1 History and origin of the disease in ancient medical literature",
+    "4.2 Definition of apasmara",
+    "4.3 Impairment of knowledge and coordination",
+    "4.4 Tattva Sara",
+    "4.5 Predisposing factors for apasmara 4.5.1 Rajas–tamas affliction",
+    "4.5.2 Sharira dosha vitiation",
+    "4.5.3 Role of diet",
+    "4.5.4 Improper methods – lifestyle factors",
+    "4.5.5 Improper techniques",
+    "4.5.6 Incorrect postures and movements",
+    "4.5.7 Excessive degeneration and debility",
+    "4.5.8 Additional factors by Sushruta",
+    "4.6 Six stages of pathogenesis of epilepsy (shatkriyakala for apasmara) 4.6.1 Sanchaya",
+    "4.6.2 Prakopa",
+    "4.6.3 Prasara",
+    "4.6.4 Sthanasamshraya",
+    "4.6.5 Vyakta",
+    "4.6.6 Bheda avastha",
+    "4.7 Types of apasmara 4.7.1 Agantu Apasmara",
+    "4.7.2 Skanda graha and Skandapasmara",
+    "4.8 Premonitory signs of apasmara",
+    "4.9 Differential diagnosis of apasmara",
+    "4.10 Prognosis of apasmara",
+    "4.11 Reasons behind aggressive and dormant stages of apasmara",
+    "4.12 Management of apasmara",
+    "4.13 Practical application of principles",
+    "4.14 Research areas",
+    "4.15 Research works done on apasmara at post graduate/post doctoral level:",
+    "4.16 Research papers published",
+    "4.17 Related Chapters",
+    "5 References"
+  ]
+}

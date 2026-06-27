@@ -1,0 +1,275 @@
+{
+  "sthana": "Vimana Sthana",
+  "sthanaNumber": 3,
+  "chapterNumber": 1,
+  "titleEnglish": "Taste-based factors",
+  "titleSanskrit": "Rasa Vimana Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातो रसविमानं व्याख्यास्यामः||१|| \nइति ह स्माह भगवानात्रेयः||२||",
+      "english": "Now we shall expound the chapter Rasa Vimana(Taste-based factors for the measurement of diseases and drugs). Thus said Lord Atreya. [1-2]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "इह खलु व्याधीनां निमित्तपूर्वरूपरूपोपशयसङ्ख्याप्राधान्यविधिविकल्प बलकालविशेषाननुप्रविश्यानन्तरं दोषभेषजदेशकालबलशरीरसाराहारसात्म्यसत्त्वप्रकृतिवयसां मानमवहितमनसा यथावज्ज्ञेयं भवति भिषजा, दोषादिमानज्ञानायत्तत्वात् क्रियायाः| न ह्यमानज्ञो दोषादीनां भिषग् व्याधिनिग्रहसमर्थो भवति| तस्माद्दोषादिमानज्ञानार्थं विमानस्थानमुपदेक्ष्यामोऽग्निवेश! ||३||",
+      "english": "After comprehending the features of a disease in terms of its etiology, prodromal features, signs and symptoms, suitability, number, predominance of morbid factor, classification, proportional variation, intensity and duration, the physician should assess carefully the features of the drugs, agents, and the constitution of the patient (dosha, drugs, place, time, strength, body, constitutional dominance of one or the other dhatu, diet, suitability, psyche, constitution and age) because the therapeutic interventions depend on the knowledge of the features of dosha, etc. A physician having no knowledge of the features of dosha is incapable of controlling the disease. Hence O Agnivesha! For the knowledge of the features of dosha, etc., we shall describe this section on vimana (specific features)",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "तत्रादौ रसद्रव्यदोषविकारप्रभावान् वक्ष्यामः| रसास्तावत् षट्- मधुराम्ललवणकटुतिक्तकषायाः| ते सम्यगुपयुज्यमानाः शरीरं यापयन्ति, मिथ्योपयुज्यमानास्तु खलु दोषप्रकोपायोपकल्पन्ते||४||",
+      "english": "To start with, we shall talk about the effects of rasa, dravya (substance), dosha and vikara (disorder). Rasas, as we know, are six – sweet, sour, saline, pungent, bitter and astringent. These maintain the body in harmony if used appropriately otherwise vitiate the dosha.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "दोषाः पुनस्त्रयो वातपित्तश्लेष्माणः| ते प्रकृतिभूताः शरीरोपकारका भवन्ति, विकृतिमापन्नास्तु खलु नानाविधैर्विकारैः शरीरमुपतापयन्ति||५||",
+      "english": "Dosha are three – vata, pitta and kapha. In their normal state, these are beneficial to the body while in an abnormal state, these afflict the body with various disorders.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 6,
+      "devanagari": "तत्र दोषमेकैकं त्रयस्त्रयो रसा जनयन्ति, त्रयस्त्रयश्चोपशमयन्ति| तद्यथा- कटुतिक्तकषाया वातं जनयन्ति, मधुराम्ललवणास्त्वेनं\nशमयन्ति; कट्वम्ललवणाः पित्तं जनयन्ति, मधुरतिक्तकषायास्त्वेनच्छ्मयन्ति;\nमधुराम्ललवणाः श्लेष्माणं जनयन्ति, कटुतिक्तकषायास्त्वेनं शमयन्ति||६||",
+      "english": "Three rasas aggravate one dosha while the other three pacify it. For example, pungent, bitter and astringent (rasa) aggravate vata while sweet, sour and saline pacify it. Likewise, pungent, sour and saline rasas aggravate pitta while sweet, bitter and astringent ones pacify it. Sweet, sour and saline rasa aggravate kapha while pungent, bitter and astringent pacify it.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 7,
+      "devanagari": "रसदोषसन्निपाते तु ये रसा यैर्दोषैः समानगुणाः समानगुणभूयिष्ठा वा भवन्ति ते तानभिवर्धयन्ति, विपरीतगुणा विपरीतगुणभूयिष्ठा वा शमयन्त्यभ्यस्यमाना इति| एतद्व्यवस्थाहेतोः षट्त्वमुपदिश्यते रसानां परस्परेणासंसृष्टानां, त्रित्वं च दोषाणाम्||७||",
+      "english": "In case of the conjunction of rasa and dosha, rasas aggravate those dosha sharing similar properties and pacify those that have opposing or antagonistic properties. This explains six rasas for the three dosha.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 8,
+      "devanagari": "संसर्गविकल्पविस्तरो ह्येषामपरिसङ्ख्येयो भवति, विकल्पभेदापरिसङ्ख्येयत्वात्||८||",
+      "english": "Details of mutual combinations and proportional variations with regard to them are innumerable because these variations are innumerable.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "तत्र खल्वनेकरसेषु द्रव्येष्वनेकदोषात्मकेषु च विकारेषु रसदोषप्रभावमेकैकश्येनाभिसमीक्ष्य ततो द्रव्यविकारयोः प्रभावतत्त्वं व्यवस्येत्||९||",
+      "english": "Whether it is an agent (generically termed dravya in Sanskrit) with multiple rasas or a disorder having afflictions of various dosha, one should first critically analyze the role of each rasa or dosha individually and then determine the effect of the dravya and the disorder.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 10,
+      "devanagari": "न त्वेवं खलु सर्वत्र| न हि विकृतिविषमसमवेतानां नानात्मकानां परस्परेण चोपहतानामन्यैश्च विकल्पनैर्विकल्पितानामवयवप्रभावानुमानेनैव समुदायप्रभावतत्त्वमध्यवसातुं शक्यम्||१०||",
+      "english": "But this rule is not applicable universally because in case of complex disorders (and dravya) where the effect is not exactly in accordance with the cause due to multiple causative factors operating, with differing (often conflicting) modes of operation, it is not possible to determine the effect of the dravya or the disease on the basis of the effect of individual rasa or dosha.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 11,
+      "devanagari": "तथायुक्ते हि समुदये समुदायप्रभावतत्त्वमेवमेवोपलभ्य ततो द्रव्यविकारप्रभावतत्त्वं व्यवस्येत्||११||",
+      "english": "In such cases, the effect of the dravya or the disease is ascertained on the basis of their cumulative action.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 12,
+      "devanagari": "तस्माद्रसप्रभावतश्च द्रव्यप्रभावतश्च दोषप्रभावतश्च विकारप्रभावतश्च तत्त्वमुपदेक्ष्यामः||१२||",
+      "english": "Hence we shall describe the concept according to the effect of rasa (individual) and dravya (total) on one side and dosha (individual) and disease (total) on the other.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 13,
+      "devanagari": "तत्रैष रसप्रभाव उपदिष्टो भवति|\nद्रव्यप्रभावं पुनरुपदेक्ष्यामः|\nतैलसर्पिर्मधूनि वातपित्तश्लेष्मप्रशमनार्थानि द्रव्याणि भवन्ति||१३||",
+      "english": "The effects of the six types of rasa were described in an earlier verse. Now we shall describe the effect of dravya. Oil, ghee and honey are the substances capable of pacifying vata, pitta and kapha respectively.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 14,
+      "devanagari": "तत्र तैलं स्नेहौष्ण्यगौरवोपपन्नत्वाद्वातं जयति सततमभ्यस्यमानं; वातो हि रौक्ष्यशैत्यलाघवोपपन्नो विरुद्धगुणो भवति, विरुद्धगुणसन्निपाते हि भूयसाऽल्पमवजीयते, तस्मात्तैलं वातं जयति सततमभ्यस्यमानम्| सर्पिः खल्वेवमेव पित्तं जयति, माधुर्याच्छैत्यान्मन्दत्वाच्च; पित्तं ह्यमधुरमुष्णं तीक्ष्णं च| मधु च श्लेष्माणं जयति, रौक्ष्यात्तैक्ष्ण्यात् कषायत्वाच्च; श्लेष्मा हि स्निग्धो मन्दो मधुरश्च | यच्चान्यदपि किञ्चिद्द्रव्यमेवं वातपित्तकफेभ्यो गुणतो विपरीतं स्यात्तच्चैताञ्जयत्यभ्यस्यमानम्||१४||",
+      "english": "Oil possesses the properties of unctuousness, hotness and heaviness and as such pacifies vata when used regularly. Vata possesses roughness, coldness and lightness and is thus pacified by the habitual use of oil. In the same way, ghee’s sweetness, coldness and dullness overcomes pitta’s non-sweet, hot and sharp properties. Finally, honey’s roughness, sharpness and astringency neutralizes the effects of kapha’s unctuous, dull and sweet properties. Any other substance which is antagonistic in properties to vata, pitta and kapha will similarly help in pacifying them when used regularly.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 15,
+      "devanagari": "अथ खलु त्रीणि द्रव्याणि नात्युपयुञ्जीताधिकमन्येभ्यो द्रव्येभ्यः; तद्यथा- पिप्पली, क्षारः, लवणमिति||१५||",
+      "english": "Now there are three substances whose excessive use is strictly prohibited in comparison to other ones - long pepper, alkali and salt.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 16,
+      "devanagari": "पिप्पल्यो हि कटुकाः सत्यो मधुरविपाका गुर्व्योनात्यर्थं स्निग्धोष्णाः प्रक्लेदिन्यो भेषजाभिमताश्चताः सद्यः; शुभाशुभकारिण्यो भवन्ति; आपातभद्राः, प्रयोगसमसाद्गुण्यात्; दोषसञ्चयानुबन्धाः;- सततमुपयुज्यमाना हि गुरुप्रक्लेदित्वाच्छ्लेष्माणमुत्क्लेशयन्ति, औष्ण्यात् पित्तं, न च वातप्रशमनायोपकल्पन्तेऽल्पस्नेहोष्णभावात्; योगवाहिन्यस्तु खलु भवन्ति;तस्मात् पिप्पलीर्नात्युपयुञ्जीत||१६|",
+      "english": "Long peppers are pungent but sweet in vipaka, heavy, not too unctuous, hot and moistening. They are considered to be among the most effective of drugs and exhibit their good or bad effect fairly quickly. If used properly and sparingly, they are beneficial but still lead to consequent accumulation of doshas. If used regularly, however, they aggravate kapha due to their heaviness and moistening properties, pitta due to their hotness while they are unable to pacify vata because of little unctuousness and hotness. Hence one should not use long peppers excessively.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "क्षारः पुनरौष्ण्यतैक्ष्णयलाघवोपपन्नः क्लेदयत्यादौ पश्चाद्विशोषयति, स पचनदहनभेदनार्थमुपयुज्यते; सोऽतिप्रयुज्यमानः केशाक्षिहृदयपुंस्त्वोपघातकरः सम्पद्यते|\nये ह्येनं ग्रामनगरनिगमजनपदाः सततमुपयुञ्जते त आन्ध्यषाण्ढ्यखालित्यपालित्यभाजो हृदयापकर्तिनश्च भवन्ति, तद्यथा- प्राच्याश्चीनाश्च; तस्मात् क्षारं नात्युपयुञ्जीत||१७||",
+      "english": "Alkali, endowed with hotness, sharpness and lightness at first acts like a liquid, but dries up subsequently. It is used for digestion, burning, and tearing but if used excessively, damages hair, eyes, heart and virility. The people of villages, cities, communes and districts who use it continuously suffer from blindness, impotency, baldness and grey hair, and constricting pain in the cardiac region, such as the inhabitants of the eastern region and China. Hence one should not use alkali excessively.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 18,
+      "devanagari": "लवणं पुनरौष्ण्यतैक्ष्ण्योपपन्नम्, अनतिगुरु, अनतिस्निग्धम्, उपक्लेदि, विस्रंसनसमर्थम्, अन्नद्रव्यरुचिकरम्, आपातभद्रं प्रयोगसमसाद्गुण्यात्, दोषसञ्चयानुबन्धं, तद्रोचनपाचनोपक्लेदनविस्रंसनार्थमुपयुज्यते| तदत्यर्थमुपयुज्यमानं ग्लानिशैथिल्यदौर्बल्याभिनिर्वृत्तिकरं शरीरस्य भवति| ये ह्येनद्ग्रामनगरनिगमजनपदाः सततमुपयुञ्जते, ते भूयिष्ठं ग्लास्नवः शिथिलमांसशोणिता अपरिक्लेशसहाश्च भवन्ति| तद्यथा- बाह्लीकसौराष्ट्रिकसैन्धवसौवीरकाः; ते हि पयसाऽपि सह लवणमश्नन्ति| येऽपीह भूमेरत्यूषरा देशास्तेष्वोषधिवीरुद्वनस्पतिवानस्पत्या न जायन्तेऽल्पतेजसो वा भवन्ति, लवणोपहतत्वात्| तस्माल्लवणं नात्युपयुञ्जीत| ये ह्यतिलवणसात्म्याः पुरुषास्तेषामपि खालित्यपालित्यानि वलयश्चाकाले भवन्ति||१८||",
+      "english": "Salt is endowed with hotness, sharpness, moistening, laxative, and relishing qualities and is not much heavy to digest and unctuous. It gives immediate benefits when used proper course and combination. But when used habitually or excessively, it causes accumulation of dosha.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 19,
+      "devanagari": "तस्मात्तेषां तत्सात्म्यतः क्रमेणापगमनं श्रेयः|\nसात्म्यमपि हि क्रमेणोपनिवर्त्यमानमदोषमल्पदोषं वा भवति||१९||",
+      "english": "Hence it is beneficial for them to wean themselves away gradually from the habit of using these substances. The habituated things, if given up gradually, cause no or little harm.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "सात्म्यं नाम तद् यदात्मन्युपशेते; सात्म्यार्थो ह्युपशयार्थः| तत्त्रिविधं प्रवरावरमध्यविभागेन; सप्तविधं तु रसैकैकत्वेन सर्वरसोपयोगाच्च| तत्र सर्वरसं प्रवरम्, अवरमेकरसं, मध्यं तु प्रवरावरमध्यस्थम्| तत्रावरमध्याभ्यां सात्म्याभ्यां क्रमेणैव प्रवरमुपपादयेत् सात्म्यम्| सर्वरसमपि च सात्म्यमुपपन्नः प्रकृत्याद्युपयोक्त्रष्टमानि सर्वाण्याहारविधिविशेषायतनान्यभिसमीक्ष्य हितमेवानुरुध्येत||२०||",
+      "english": "Satmya(habituation) means that which suits the self. Satmya and upashaya have the same meaning. Based on one’s habitual usage of rasas, satmya could be categorized into three types- superior, inferior and medium/average. The use of all the rasas collectively is considered superior, those that use only one rasa are considered inferior, while all scenarios that lie between these two are considered medium. Effort should be made to gradually move up from the inferior and the medium types of satmya to the superior type. Even if one has achieved the superior satmya or is habituated of using all the rasas collectively, the individual should strive to abide by the factors of dietetics and nutrition as mentioned in the following verse.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "तत्र खल्विमान्यष्टावाहारविधिविशेषायतनानि भवन्ति; तद्यथा- प्रकृतिकरणसंयोगराशिदेशकालोपयोगसंस्थोपयोक्त्रष्टमानि (भवन्ति)||२१||",
+      "english": "These are eight specific factors of method of dieting - prakriti (nature), karana (processing), samyoga (combination), rashi (quantity), desha (place), kala (time/ stage of the disease), upayoga -samstha (rules for use) and upayoktra (consumer).",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "तत्र प्रकृतिरुच्यते स्वभावो यः, स पुनराहारौषधद्रव्याणां स्वाभाविको गुर्वादिगुणयोगः; तद्यथा माषमुद्गयोः, शूकरैणयोश्च (१) |२२|",
+      "english": "Prakriti is swabhava, or the natural attribute or trait of a substance, such as heaviness, etc. For example, the prakriti of black gram or pork is heavy, while that of green gram or deer meat is light. [22.1]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "करणं पुनः स्वाभाविकानां द्रव्याणामभिसंस्कारः|\nसंस्कारो हि गुणान्तराधानमुच्यते|\nते गुणास्तोयाग्निसन्निकर्षशौचमन्थनदेशकालवासनभावनादिभिः\nकालप्रकर्षभाजनादिभिश्चाधीयन्ते (२) |२२|",
+      "english": "Karana (processing) is the making or refinement of the dravya, or the samskara that are added to the properties of those substances. These properties are imparted by contact of water and fire, by cleansing, churning, place, time, infusing, steeping, etc. and also by the medium used for storage or processing (e.g., copper vessel, or earthen pot), etc. [22.2]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "संयोगः पुनर्द्वयोर्बहूनां वा द्रव्याणां संहतीभावः, स विशेषमारभते, यं पुनर्नैकैकशो द्रव्याण्यारभन्ते; तद्यथा- मधुसर्पिषोः, मधुमत्स्यपयसां च संयोगः (३) |२२|",
+      "english": "Samyoga (combination) is the aggregation or combination of two or more dravya. This exhibits peculiarities that are not seen in case of individual substances, such as combination of honey and ghee, and that of honey, fish and milk. [22.3]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "राशिस्तु सर्वग्रहपरिग्रहौ मात्रामात्रफलविनिश्चयार्थः| तत्र सर्वस्याहारस्य प्रमाणग्रहणमेकपिण्डेन सर्वग्रहः, परिग्रहः पुनः प्रमाणग्रहणमेकैकश्येनाहारद्रव्याणाम्| सर्वस्य हि ग्रहः सर्वग्रहः, सर्वतश्च ग्रहः परिग्रह उच्यते (४) |२२|",
+      "english": "Rashi (quantity) consists of sarvagraha (account of a whole amount or unit) and parigraha (account of part of a substance, or of individual parts (in case the substance is a combination of multiple ingredients or parts)) which ascertain the effect of any food article taken in proper or improper quantity. [22.4]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "देशः पुनः स्थानं; स द्रव्याणामुत्पत्तिप्रचारौ देशसात्म्यं चाचष्टे (५) |२२|",
+      "english": "Desha denotes the geographic region relating that the substance(s) are local or endemic to, and thus, are suitable to. [22.5]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "कालो हि नित्यगश्चावस्थिकश्च; तत्रावस्थिको विकारमपेक्षते, नित्यगस्तु ऋतुसात्म्यापेक्षः (६) |२२|",
+      "english": "Kala is time. It can be taken to be the ever moving time, as in seasons (e.g., suitable to seasons), or as duration from the standpoint of a condition (e.g., a condition that does not get treated within a specific duration becomes incurable). [22.6]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "उपयोगसंस्था तूपयोगनियमः; स जीर्णलक्षणापेक्षः (७) |२२|",
+      "english": "Upayogasamastha denotes the rules for dieting. This depends on the digestible features (of the food). [22.7]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "उपयोक्ता पुनर्यस्तमाहारमुपयुङ्क्ते, यदायत्तमोकसात्म्यम्| इत्यष्टावाहारविधिविशेषायतनानि व्याख्यातानि भवन्ति||२२||",
+      "english": "Upayokta is the one who consumes the food. On him depends the oka-satmya (i.e.,habituation developed by practice). Thus, are described the specific factors of the method of dieting.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 23,
+      "devanagari": "एषां विशेषाः शुभाशुभफलाः परस्परोपकारका भवन्ति; तान् बुभुत्सेत, बुद्ध्वा\nच हितेप्सुरेव स्यात्; नच मोहात् प्रमादाद्वा प्रियमहितमसुखोदर्कमुपसेव्यमाहारजातमन्यद्वा किञ्चित्||२३||",
+      "english": "The characteristics of the eight factors mentioned in the above verses are inter-dependent (for example, a substance of optimum quantity taken in the right season and in the right place). Any regimen prescribed should be done after gaining a thorough understanding of the food articles from these eight aspects for them to be wholesome. Food or any other dravya that is liked but is unwholesome and likely to result in unpleasant consequences should not be used by ignorance or carelessness.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 24,
+      "devanagari": "तत्रेदमाहारविधिविधानमरोगाणामातुराणां चापि केषाञ्चित् काले प्रकृत्यैव हिततमं भुञ्जानानां भवति- उष्णं, स्निग्धं, मात्रावत्, जीर्णे वीर्याविरुद्धम्, इष्टे देशे, इष्टसर्वोपकरणं, नातिद्रुतं, नातिविलम्बितम्, अजल्पन्, अहसन्, तन्मना भुञ्जीत, आत्मानमभिसमीक्ष्य सम्यक्||२४||",
+      "english": "The prescribed method of eating for the healthy and the sick (in certain cases) who take wholesome food timely and habitually is that one should eat warm, unctuous food in proper quantity, after the previously consumed food is digested. The food eaten should be non-antagonistic (i.e., not unsuitable to one’s constitution or habit) and should be consumed in a favorable place, with all the favorable accessories, not too fast, not too slow, not while talking or laughing, and with full concentration.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "तस्य साद्गुण्यमुपदेक्ष्यामः- उष्णमश्नीयात्; उष्णं हि भुज्यमानं स्वदते, भुक्तं चाग्निमौदर्यमुदीरयति, क्षिप्रं जरां गच्छति, वातमनुलोमयति, श्लेष्माणं च परिह्राससयति; तस्मादुष्णमश्नीयात् (१) |२५|",
+      "english": "(I will now explain their merits). One should eat warm (freshly cooked food) because it tastes well and the food consumed stimulates the digestive process, gets digested quickly, normalizes functions of vata dosha and reduces kapha dosha (which obstructs digestion process).[25.1]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "स्निग्धमश्नीयात्; स्निग्धं हि भुज्यमानं स्वदते, भुक्तं चानुदीर्णमग्निमुदीरयति, क्षिप्रं जरां गच्छति, वातमनुलोमयति, शरीरमुपचिनोति, दृढीकरोतीन्द्रियाणि, बलाभिवृद्धिमुपजनयति, वर्णप्रसादं चाभिनिर्वर्तयति; तस्मात् स्निग्धमश्नीयात् (२) |२५|",
+      "english": "One should eat unctuous because it tastes well, the food consumed stimulates any dormant digestive process, gets digested quickly, normalizes functions of vata, nourishes body, provides firmness to sense organs, increases strength, and enhances complexion. [25.2]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "मात्रावदश्नीयात्; मात्रावद्धि भुक्तं वातपित्तकफानपीडयदायुरेव विवर्धयति केवलं, सुखं गुदमनुपर्येति, न चोष्माणमुपहन्ति, अव्यथं च परिपाकमेति; तस्मान्मात्रावदश्नीयात् (३) |२५|",
+      "english": "One should eat in proper quantity without disturbing vata, pitta and kapha because that only helps promote one’s life-span, easily passes down the bowels, does not disturb the agni (digestive capacity), and gets digested without discomfort. [25.3]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "जीर्णेऽश्नीयात्; अजीर्णे हि भुञ्जानस्याभ्यवहृतमाहारजातं पूर्वस्याहारस्य रसमपरिणतमुत्तरेणाहाररसेनोपसृजत् सर्वान् दोषान् प्रकोपयत्याशु, जीर्णे तु भुञ्जानस्य स्वस्थानस्थेषु दोषेष्वग्नौ चोदीर्णे जातायां च बुभुक्षायां विवृतेषु च स्रोतसां मुखेषु विशुद्धे चोद्गारे हृदये विशुद्धे वातानुलोम्ये विसृष्टेषु च वातमूत्रपुरीषवेगेष्वभ्यवहृतमाहारजातं सर्वशरीरधातूनप्रदूषयदायुरेवाभिवर्धयति केवलं; तस्माज्जीर्णेऽश्नीयात् (४) |२५|",
+      "english": "One should eat when the previous meal is digested because if one eats before earlier meal is digested, mixing with undigested food will vitiate all the dosha quickly. On the other hand, when one eats after the previous meal is well digested, the dosha do not get vitiated or unsettled from their natural locations, agni is stimulated, appetite is increased, entrances of the channels get cleared, eructation is pure, heart is normal, there are natural urges to pass bodily wastes and there is no obstruction to their passage, and the eaten food enhances one’s life without afflicting any dhatu. [25.4]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "वीर्याविरुद्धमश्नीयात्; अविरुद्धवीर्यमश्नन् हि विरुद्धवीर्याहारजैर्विकारैर्नोपसृज्यते; तस्माद्वीर्याविरुद्धमश्नीयात् (५) |२५|",
+      "english": "One should take food consisting of the items that are non-antagonistic in nature to ensure one is not afflicted with the disorders caused by food that is unsuitable to the individual. [25.5]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "इष्टे देशे इष्टसर्वोपकरणं चाश्नीयात्; इष्टे हि देशे भुञ्जानो नानिष्टदेशजैर्मनोविघातकरैर्भावैर्मनोविघातं प्राप्नोति, तथैवेष्टैः सर्वोपकरणैः; तस्मादिष्टे देशे तथेष्टसर्वोपकरणं चाश्नीयात् (६) |२५|",
+      "english": "One should eat in a favorable place and with favorable accessories because it is important to feel comfortable and satisfied while eating. [25.6]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "नातिद्रुतमश्नीयात्; अतिद्रुतं हि भुञ्जानस्योत्स्नेहनमवसादनं भोजनस्याप्रतिष्ठानं च, भोज्यदोषसाद्गण्योपलब्धिश्च न नियता; तस्मान्नातिद्रुतमश्नीयात् (७) |२५|",
+      "english": "One should not eat too quickly to ensure the food does not get into the wrong passage, and that the person is able to ascertain the qualities and taste of the food or even detect any defects in the food. [25.7]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "नातिविलम्बितमश्नीयात्; अतिविलम्बितं हि भुञ्जानो न तृप्तिमधिगच्छति, बहु भुङ्क्ते, शीतीभवत्याहारजातं, विषमं च पच्यते; तस्मान्नातिविलम्बितमश्नीयात् (८) |२५|",
+      "english": "One should not eat too slow, because by eating too slow one does not get satisfaction, eats much, and the food becomes cold and is digested irregularly. [25.8]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "अजल्पन्नहसन् तन्मना भुञ्जीत; जल्पतो हसतोऽन्यमनसो वा भुञ्जानस्य त एव हि दोषा भवन्ति, य एवातिद्रुतमश्नतः; तस्मादजल्पन्नहसंस्तन्मना भुञ्जीत (९) |२५|",
+      "english": "One should eat with utmost concentration on the food, while not talking or laughing. By taking food while talking or laughing or with mind elsewhere, he is inflicted with the same defects as by eating too fast. [25.9]",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "आत्मानमभिसमीक्ष्य भुञ्जीत सम्यक्; इदं ममोपशेते इदं नोपशेत इत्येवं विदितं ह्यस्यात्मन आत्मसात्म्यं भवति; तस्मादात्मानमभिसमीक्ष्य भुञ्जीत सम्यगिति||२५||",
+      "english": "One should eat with due consideration to self, i.e., knowing one’s own constitution and tastes. He/she should take food that is suitable to him/her.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 26,
+      "devanagari": "भवति चात्र- रसान् द्रव्याणि दोषांश्च विकारांश्च प्रभावतः|\nवेद यो देशकालौ च शरीरं च स[१] नो भिषक्||२६||",
+      "english": "He is (or should be) our physician who knows the rasas, dravyas, dosha, disorders, place, time and body.",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "तत्र श्लोकौ- विमानार्थो रसद्रव्यदोषरोगाः प्रभावतः|\nद्रव्याणि नातिसेव्यानि त्रिविधं सात्म्यमेव च||२७|| आहारायतनान्यष्टौ भोज्यसाद्गुण्यमेव च|\nविमाने रससङ्ख्याते सर्वमेतत् प्रकाशितम्||२८||",
+      "english": "To sum up (all the verses of this chapter):",
+      "section": "Taste-based factors"
+    },
+    {
+      "verseNumber": 1,
+      "devanagari": "इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते विमानस्थाने रसविमानं नाम प्रथमोऽध्यायः||१||",
+      "english": "Thus ends the first chapter on Rasa Vimana in Vimana Sthana in the treatise composed by Agnivesha and redacted by Charak.",
+      "section": "Taste-based factors"
+    }
+  ],
+  "tattvaVimarsha": "The chapter Rasa Vimana deals with rasa and dosha, since rasa is the primary trigger for the action of drugs on dosha. Three rasa act as either enhancers or suppressors for each dosha. Once the action of a particular rasa on a dosha is known, the effect of dravya can be predicted in the same manner and after knowing the action of dosha one can understand the disease process. Prolonged usage of certain food articles is known to vitiate dosha. For example, if a person is consuming kshara (alkali) and lavana (salt) for a long time, he is advised to decrease the quantity gradually to prevent the effect on dosha. Typically, it is advised to take meals that have all the six rasas, since that helps neutralize the effect of any particular rasa on a dosha.\n\nThus, considering the beneficial and harmful effects of food, eight types of dietary regimen have been described in Ayurveda, collectively called ashta ahara vidhi vishesh aayatana, with special instructions like eating freshly prepared warm food that is unctuous, neither more or less in quantity, is suitable to the individual’s capacity to digest, is suitable to the location, and that the food is not eaten too slow or too quickly.\n\nAnother agent discussed in this chapter is drugs used in pacifying aggravated dosha. The use of a dravya in a specific scenario depends on its intrinsic rasa and guna and its effect on a dosha. In cases where the use of a food article or an agent/dravya results in direct action that is well understood, is called prakriti samavaya. For example, taila (oil), ghrita (clarified butter) and madhu (honey) are known to pacify vata, pitta and kapha respectively.\n\nThis rule is, however, not applicable for all afflictions or agents because when a dravya is combined with another dravya in different quantity and/or of varying purity, then the outcome could be quite different than that of a basic dravya. Such outcomes are known as vikriti vishama samavaya. Rasa, dravya, dosha and vikara prabhava are based upon these two principles. The three dravya mentioned earlier (taila, ghrita and madhu) are largely used in formulations of other drugs, as diet, or as anupana (concomitant drug). These three do not have any side effects. On the other hand, pippali (piper longum), alkaline and saline substances invariably vitiate dosha on frequent use and are advised for limited use.",
+  "vidhiVimarsha": "The chapter Rasa Vimana deals with rasa and dosha, since rasa is the primary trigger for the action of drugs on dosha. Three rasa act as either enhancers or suppressors for each dosha. Once the action of a particular rasa on a dosha is known, the effect of dravya can be predicted in the same manner and after knowing the action of dosha one can understand the disease process. Prolonged usage of certain food articles is known to vitiate dosha. For example, if a person is consuming kshara (alkali) and lavana (salt) for a long time, he is advised to decrease the quantity gradually to prevent the effect on dosha. Typically, it is advised to take meals that have all the six rasas, since that helps neutralize the effect of any particular rasa on a dosha.\n\nThus, considering the beneficial and harmful effects of food, eight types of dietary regimen have been described in Ayurveda, collectively called ashta ahara vidhi vishesh aayatana, with special instructions like eating freshly prepared warm food that is unctuous, neither more or less in quantity, is suitable to the individual’s capacity to digest, is suitable to the location, and that the food is not eaten too slow or too quickly.\n\nAnother agent discussed in this chapter is drugs used in pacifying aggravated dosha. The use of a dravya in a specific scenario depends on its intrinsic rasa and guna and its effect on a dosha. In cases where the use of a food article or an agent/dravya results in direct action that is well understood, is called prakriti samavaya. For example, taila (oil), ghrita (clarified butter) and madhu (honey) are known to pacify vata, pitta and kapha respectively.\n\nThis rule is, however, not applicable for all afflictions or agents because when a dravya is combined with another dravya in different quantity and/or of varying purity, then the outcome could be quite different than that of a basic dravya. Such outcomes are known as vikriti vishama samavaya. Rasa, dravya, dosha and vikara prabhava are based upon these two principles. The three dravya mentioned earlier (taila, ghrita and madhu) are largely used in formulations of other drugs, as diet, or as anupana (concomitant drug). These three do not have any side effects. On the other hand, pippali (piper longum), alkaline and saline substances invariably vitiate dosha on frequent use and are advised for limited use.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Rasa_Vimana_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s03.002"
+}

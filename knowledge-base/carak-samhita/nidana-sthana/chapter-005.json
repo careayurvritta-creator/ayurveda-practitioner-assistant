@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "sthana": "Nidana Sthana",
+    "sthanaNumber": 2,
+    "chapterNumber": 5,
+    "chapterTitleEnglish": "Diagnosis of Skin diseases",
+    "chapterTitleSanskrit": "Kushtha Nidana Adhyaya",
+    "chapterTitleDevanagari": "Kushtha Nidana",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Nimbalkar R.",
+    "editors": [
+      "Khandel S.K",
+      "Godatwar P."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s02.006"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Kushtha_Nidana_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "The term 'kushtha' literally means disfigurement of skin. Thus all the dermatological manifestations have been clubbed under the term kushtha. For which Charak has devoted two full chapters, the fifth chapter in Nidana Sthana dealing with the etiopathogenesis and the seventh chapter in the Chikitsa Sthana deals with etiopathogenesis and treatment. Dermatological diseases have been classified into four groups, which include seven types of kushtha (dermatosis), seven types of visarpa (a form of acute dermatitis like erysipelas), seven types of pidaka (papular presentations) and three types of kilasa (vitiligo) (Sutra Sthana 19/3). However, looking to the clinical importance, acuteness and progression, one full chapter has been devoted to visarpa, one of the major dermatological conditions. [Cha.Sa.Chikitsa Sthana 21] Some other clinical presentations like Urticaria (udarda, kotha), nilika (bluish discoloration of the skin), tilalklaka (mole), piplu(port wine mark on skin), vyanga etc. have also been explained briefly at other places. Detailed description and classification of pidaka (papules) is given in the seventeenth chapter of Sutra Sthana. Some scholars like William Monier and others have translated the word kushtha as leprosy which is incorrect, because skin manifestations of advanced kushtha resemble leprosy, but there is absence of Mycobacterium leprea. In advanced stages of kushtha, secondary infection with bacteria occurs (jantudagdha or eaten by microorganism). Skin disorders are innumerable, and accordingly a broad pathogenesis and management has been described. Among the two broad groups, Mahakushtha (major dermatosis) has seven types which include the conditions where all the seven pathological components are involved. The disease progresses beyond the skin and may lead to destruction of limbs. Whereas kshudra-kushtha (minor dermatosis) has eleven types which includes the conditions where some of the seven pathological components are involved, have few symptoms, disease runs a chronic course and is usually curable. kushtha is described in such a fashion that it may explain any of the dermatological conditions of present era. Their pathological features can be ascertained and treatment protocol can be established. The concept of micro-organism and parasitology was established by Charak and he had the knowledge that micro-organisms are responsible for the causation of dermatological manifestations [Cha.Sa. Vimana Sthana 7/11]. Their treatment is to be followed like the treatment of kushtha. In the symptomatology of kushtha presence of krimi is described as one of the symptoms, which denotes visible worms usually maggots (samsvedaja krimi).",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenic factors in kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Possible types of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Seven types of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Common etiological factors of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitory signs of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific features of kapala kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Audumbara kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mandala kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rishyajihva kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pundarika kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sidhma kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kakanaka kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complications of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causes of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Layers of skin",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dosha specific variation in kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Research works on kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related Chapters",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "The term 'kushtha' literally means disfigurement of skin. Thus all the dermatological manifestations have been clubbed under the term kushtha. For which Charak has devoted two full chapters, the fifth chapter in Nidana Sthana dealing with the etiopathogenesis and the seventh chapter in the Chikitsa Sthana deals with etiopathogenesis and treatment. Dermatological diseases have been classified into four groups, which include seven types of kushtha (dermatosis), seven types of visarpa (a form of acute dermatitis like erysipelas), seven types of pidaka (papular presentations) and three types of kilasa (vitiligo) (Sutra Sthana 19/3). However, looking to the clinical importance, acuteness and progression, one full chapter has been devoted to visarpa, one of the major dermatological conditions. [Cha.Sa.Chikitsa Sthana 21] Some other clinical presentations like Urticaria (udarda, kotha), nilika (bluish discoloration of the skin), tilalklaka (mole), piplu(port wine mark on skin), vyanga etc. have also been explained briefly at other places. Detailed description and classification of pidaka (papules) is given in the seventeenth chapter of Sutra Sthana. Some scholars like William Monier and others have translated the word kushtha as leprosy which is incorrect, because skin manifestations of advanced kushtha resemble leprosy, but there is absence of Mycobacterium leprea. In advanced stages of kushtha, secondary infection with bacteria occurs (jantudagdha or eaten by microorganism). Skin disorders are innumerable, and accordingly a broad pathogenesis and management has been described. Among the two broad groups, Mahakushtha (major dermatosis) has seven types which include the conditions where all the seven pathological components are involved. The disease progresses beyond the skin and may lead to destruction of limbs. Whereas kshudra-kushtha (minor dermatosis) has eleven types which includes the conditions where some of the seven pathological components are involved, have few symptoms, disease runs a chronic course and is usually curable. kushtha is described in such a fashion that it may explain any of the dermatological conditions of present era. Their pathological features can be ascertained and treatment protocol can be established. The concept of micro-organism and parasitology was established by Charak and he had the knowledge that micro-organisms are responsible for the causation of dermatological manifestations [Cha.Sa. Vimana Sthana 7/11]. Their treatment is to be followed like the treatment of kushtha. In the symptomatology of kushtha presence of krimi is described as one of the symptoms, which denotes visible worms usually maggots (samsvedaja krimi).",
+  "vidhiVimarsha": "The term 'kushtha' literally means disfigurement of skin. Thus all the dermatological manifestations have been clubbed under the term kushtha. For which Charak has devoted two full chapters, the fifth chapter in Nidana Sthana dealing with the etiopathogenesis and the seventh chapter in the Chikitsa Sthana deals with etiopathogenesis and treatment. Dermatological diseases have been classified into four groups, which include seven types of kushtha (dermatosis), seven types of visarpa (a form of acute dermatitis like erysipelas), seven types of pidaka (papular presentations) and three types of kilasa (vitiligo) (Sutra Sthana 19/3). However, looking to the clinical importance, acuteness and progression, one full chapter has been devoted to visarpa, one of the major dermatological conditions. [Cha.Sa.Chikitsa Sthana 21] Some other clinical presentations like Urticaria (udarda, kotha), nilika (bluish discoloration of the skin), tilalklaka (mole), piplu(port wine mark on skin), vyanga etc. have also been explained briefly at other places. Detailed description and classification of pidaka (papules) is given in the seventeenth chapter of Sutra Sthana. Some scholars like William Monier and others have translated the word kushtha as leprosy which is incorrect, because skin manifestations of advanced kushtha resemble leprosy, but there is absence of Mycobacterium leprea. In advanced stages of kushtha, secondary infection with bacteria occurs (jantudagdha or eaten by microorganism). Skin disorders are innumerable, and accordingly a broad pathogenesis and management has been described. Among the two broad groups, Mahakushtha (major dermatosis) has seven types which include the conditions where all the seven pathological components are involved. The disease progresses beyond the skin and may lead to destruction of limbs. Whereas kshudra-kushtha (minor dermatosis) has eleven types which includes the conditions where some of the seven pathological components are involved, have few symptoms, disease runs a chronic course and is usually curable. kushtha is described in such a fashion that it may explain any of the dermatological conditions of present era. Their pathological features can be ascertained and treatment protocol can be established. The concept of micro-organism and parasitology was established by Charak and he had the knowledge that micro-organisms are responsible for the causation of dermatological manifestations [Cha.Sa. Vimana Sthana 7/11]. Their treatment is to be followed like the treatment of kushtha. In the symptomatology of kushtha presence of krimi is described as one of the symptoms, which denotes visible worms usually maggots (samsvedaja krimi).",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 Pathogenic factors in kushtha",
+    "2.2 Possible types of kushtha",
+    "2.3 Seven types of kushtha",
+    "2.4 Common etiological factors of kushtha",
+    "2.5 Premonitory signs of kushtha",
+    "2.6 Specific features of kapala kushtha",
+    "2.7 Audumbara kushtha",
+    "2.8 Mandala kushtha",
+    "2.9 Rishyajihva kushtha",
+    "2.10 Pundarika kushtha",
+    "2.11 Sidhma kushtha",
+    "2.12 Kakanaka kushtha",
+    "2.13 Prognosis",
+    "2.14 Complications of kushtha",
+    "2.15 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences) 4.1 Causes of kushtha",
+    "4.2 Classification of kushtha",
+    "4.3 Layers of skin",
+    "4.4 Dosha specific variation in kushtha",
+    "4.5 Prognosis of kushtha",
+    "4.6 Research works on kushtha",
+    "5 Related Chapters"
+  ]
+}

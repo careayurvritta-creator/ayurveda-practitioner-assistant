@@ -1,0 +1,473 @@
+{
+  "sthana": "Chikitsa Sthana",
+  "sthanaNumber": 6,
+  "chapterNumber": 29,
+  "titleEnglish": "Vata-Rakta disorders",
+  "titleSanskrit": "Vatarakta Chikitsa Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातो वातशोणितचिकित्सितं व्याख्यास्यामः ||१|| इति ह स्माह भगवानात्रेयः ||२||",
+      "english": "Now we shall expound the chapter \"Vatashonita (or vatarakta) Chikitsa\" (Management of diseases involving vata and rakta). Thus said Lord Atreya. [1–2]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "हुताग्निहोत्रमासीनमृषिमध्येपुनर्वसुम् |  \nपृष्टवान् गुरुमेकाग्रमग्निवेशोऽग्निवर्चसम् ||३|| अग्निमारुततुल्यस्य संसर्गस्यानिलासृजोः |  \nहेतुलक्षणभैषज्यान्यथास्मै गुरुरब्रवीत् ||४||",
+      "english": "After finishing his daily worship and yagna (religious sacrifice), Punarvasu was sitting admidst the sages.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "लवणाम्लकटुक्षारस्निग्धोष्णाजीर्णभोजनैः |  \nक्लिन्नशुष्काम्बुजानूपमांसपिण्याकमूलकैः ||५|| कुलत्थमाषनिष्पावशाकादिपललेक्षुभिः |  \nदध्यारनालसौवीरशुक्ततक्रसुरासवैः ||६|| विरुद्धाध्यशनक्रोधदिवास्वप्नप्रजागरैः |  \nप्रायशः सुकुमाराणां मिष्टान्नसुखभोजिनाम् [१] ||७|| अचङ्क्रमणशीलानां कुप्यते वातशोणितम् |  \nअभिघातादशुद्ध्या च प्रदुष्टे शोणिते नृणाम् ||८|| कषायकटुतिक्ताल्परूक्षाहारादभोजनात् |  \nहयोष्ट्रयानयानाम्बुक्रीडाप्लवनलङ्घनैः [२] ||९|| उष्णे चात्यध्ववैषम्याद्व्यवायाद्वेगनिग्रहात् [३] |  \nवायुर्विवृद्धो वृद्धेन रक्तेनावारितः पथि ||१०|| कृत्स्नं सन्दूषयेद्रक्तं तज्ज्ञेयं वातशोणितम् |  \nखुडं वातबलासाख्यमाढ्यवातं च नामभिः ||११||",
+      "english": "Excess intake of salty, sour, pungent, alkalies and fatty substances, hot food, consumption of rotten and dried flesh, fleshes of aquatic animals like fish, animals living in the area where there are dense forest and heavy rainfall, cake of oil seeds after extraction of oil (pindyaka), radish (Raphanus sativus), red gram, black gram, green vegetables, palala (grated flesh), sugarcane, curd, sour gruel, sauvira and shukta (vinegar), butter milk, sura and asava (alcohol and medicinal preparations having high concentration of alcohol), intake of food inspite of indigestion (ajirna), incompatible food (viruddhahara), eating food before proper digestion of previous one (adhyashana), anger, sleeping in daytime and vigil during the night; in general the delicate persons who are indulged in sweet and delicious food substances and are not in habit of physical activities, the vata and shonita vitiates.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 12,
+      "devanagari": "तस्य स्थानं करौ पादावङ्गुल्यः सर्वसन्धयः |  \nकृत्वाऽऽदौ हस्तपादे तु मूलं देहे विधावति ||१२||",
+      "english": "Its sites are hands, feet, fingers and all other joints. At first it settles its root (initial involvement) in hands and feet and then spread all over the body.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 13,
+      "devanagari": "सौक्ष्म्यात् सर्वसरत्वाच्च पवनस्यासृजस्तथा |  \nतद्द्रवत्वात् सरत्वाच्च देहं गच्छन् सिरायनैः ||१३|| पर्वस्वभिहतं क्षुब्धं वक्रत्वादवतिष्ठते |  \nस्थितं पित्तादिसंसृष्टं तास्ताः सृजति वेदनाः ||१४|| करोति दुःखं तेष्वेव तस्मात् प्रायेण सन्धिषु |  \nभवन्ति वेदनास्तास्ता अत्यर्थं दुःसहा नृणाम् ||१५||",
+      "english": "Due to subtleness and pervasiveness of vata, and liquidity and flowing property of rakta, they travel all over the body through blood vessels.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 16,
+      "devanagari": "स्वेदोऽत्यर्थं न वा कार्ष्ण्यं स्पर्शाज्ञत्वं क्षतेऽतिरुक् |  \nसन्धिशैथिल्यमालस्यं सदनं पिडकोद्गमः ||१६|| जानुजङ्घोरुकट्यंसहस्तपादाङ्गसन्धिषु |  \nनिस्तोदः स्फुरणं भेदो गुरुत्वं सुप्तिरेव च ||१७|| कण्डूः सन्धिषु रुग्भूत्वा भूत्वा नश्यति चासकृत् |  \nवैवर्ण्यं मण्डलोत्पत्तिर्वातासृक्पूर्वलक्षणम् ||१८||",
+      "english": "There is excessive or absence of perspiration, blackishness of the body, poor or lack of tactile sensation, high intensity of pain on trauma, laxity of joints, lassitude, malaise, appearance of boils, feeling of heaviness, numbness and itching in knee, thigh, waist, shoulder, hands, legs and other joints of the body, appearance of pain in the joints and abatement (without treatment), discoloration of body, appearance of mandala (circular skin lesions) are the premonitory symptoms of vatashonita. [16–18]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 19,
+      "devanagari": "उत्तानमथ गम्भीरं द्विविधं तत् प्रचक्षते |  \nत्वङ्मांसाश्रयमुत्तानं गम्भीरं त्वन्तराश्रयम् ||१९||",
+      "english": "As this is said there are two types of vatashonita - uttana (superficial) and gambhira (deep). The uttana is located in twaka(skin) and mamsa dhatu (muscles) while the gambhira is located in the deep tissues.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "कण्डूदाहरुगायामतोदस्फुरणकुञ्चनैः |  \nअन्विता श्यावरक्ता त्वग्बाह्ये ताम्रा तथेष्यते ||२०||",
+      "english": "Symptoms of uttana vatashonita are itching, burning sensation, pain, stretching sensation, piercing pain, fasciculation, feeling of constricting and the color of skin becomes blackish, red or coppery.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "गम्भीरे श्वयथुः स्तब्धः कठिनोऽन्तर्भृशार्तिमान्| \nश्यावस्ताम्रोऽथवा दाहतोदस्फुरणपाकवान् ||२१|| रुग्विदाहान्वितोऽभीक्ष्णं वायुः सन्ध्यस्थिमज्जसु |  \nछिन्दन्निव चरत्यन्तर्वक्रीकुर्वंश्च वेगवान् ||२२|| करोति खञ्जं पङ्गुं वा शरीरे सर्वतश्चरन् |  \nसर्वैर्लिङ्गैश्च विज्ञेयं वातासृगुभयाश्रयम् ||२३||",
+      "english": "Symptoms of gambhira vatashonita are – edema in the involved parts of the body, stiffness of joints, hardness of the part, severe pain inside, the color of the part involved becomes either blackish or coppery. There is burning sensation, pricking pain, fasciculation and finally the part become inflamed and ulcerated. When vata reaches sandhi, asthi dhatu and majja dhatu (joints, bones and bone marrow) it causes severe pain and burning sensation. The forcefully moving vayu having reached the joints causes cutting nature of pain whereby making them crooked, produces limping or lameness while moving all over the body. When the symptoms of both types – uttana and gambhira are present in a patient, it should be considered as ubhayashrita (superficial and deep both). [21–23]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 24,
+      "devanagari": "तत्र वातेऽधिके वा स्याद्रक्ते पित्ते कफेऽपि वा |  \nसंसृष्टेषु समस्तेषु यच्च तच्छृणु लक्षणम् ||२४|| विशेषतः सिरायामशूलस्फुरणतोदनम् [१] |  \nशोथस्य कार्ष्ण्यं रौक्ष्यं च श्यावतावृद्धिहानयः ||२५|| धमन्यङ्गुलिसन्धीनां सङ्कोचोऽङ्गग्रहोऽतिरुक् |  \nकुञ्चनस्तम्भने शीतप्रद्वेषश्चानिलेऽधिके ||२६|| श्वयथुर्भृशरुक् [२] तोदस्ताम्रश्चिमिचिमायते |  \nस्निग्धरूक्षैः शमं नैति कण्डूक्लेदान्वितोऽसृजि [३] ||२७|| विदाहो वेदना मूर्च्छा स्वेदस्तृष्णा मदो भ्रमः |  \nरागः पाकश्च भेदश्च शोषश्चोक्तानि पैत्तिके ||२८|| स्तैमित्यं गौरवं स्नेहः सुप्तिर्मन्दा च रुक् कफे |  \nहेतुलक्षणसंसर्गाद्विद्याद्द्वन्द्वत्रिदोषजम् ||२९||",
+      "english": "Now listen the clinical features found in predominance of vata, rakta, pitta, kapha or in combination of two or all three dosha. If vata is predominant, there is sirayama (stretching sensation in sira or veins), pain, fasciculation, pricking pain, swollen part becomes blackish , dry , increasing and decreasing grayish hue, constrictions of dhamani (arteries, ligaments) of fingers, stiffness of body parts and intense pain, constriction, stiffness and hatred to cold by the patient. These are the symptoms of vata predominance.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 30,
+      "devanagari": "एकदोषानुगं साध्यं नवं, याप्यं द्विदोषजम् |  \nत्रिदोषजमसाध्यं स्याद्यस्य च स्युरुपद्रवाः ||३०||",
+      "english": "When there is recent onset and predominance of single dosha, vatashonita is sadhya (curable). The disease arising from predominance of two dosha is yapya (palliable). The disease arising from predominance of all three dosha and has developed upadrava (complications) as well, is asadhya (incurable).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "अस्वप्नारोचकश्वासमांसकोथशिरोग्रहाः |  \nमूर्च्छायमदरुक्तृष्णाज्वरमोहप्रवेपकाः ||३१|| हिक्कापाङ्गुल्यवीसर्पपाकतोदभ्रमक्लमाः |  \nअङ्गुलीवक्रता स्फोटा दाहमर्मग्रहार्बुदाः ||३२|| एतैरुपद्रवैर्वर्ज्यं मोहेनैकेन वाऽपि यत् |  \nसम्प्रस्रावि विवर्णं च स्तब्धमर्बुदकृच्च यत् ||३३|| वर्जयेच्चैव सङ्कोचकरमिन्द्रियतापनम् |  \nअकृत्स्नोपद्रवं याप्यं साध्यं स्यान्निरुपद्रवम् ||३४||",
+      "english": "Insomnia, anorexia, dyspnea, gangrene, stiffness in the head, fainting, narcosis, pain, thirst, fever, mental confusion, shivering, hiccup, lameness, eryseplas, inflammation and ulceration, pricking pain, giddiness, exhaustion, crook like deformity of fingers, appearance of blisters, burning sensation, stiffness in marma (vital part of the body), appearance of tumors, if these symptoms have appeared the disease is incurable. Even if there is mental confusion alone, then also the disease is incurable. The patient should not be treated if there is profuse discharge from the ulcer, discoloration, stiffness, the lesion has become like tumor, constriction of the part and damage to the senses.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 35,
+      "devanagari": "रक्तमार्गं निहन्त्याशु  शाखासन्धिषु मारुतः |  \nनिविश्यान्योन्यमावार्य  वेदनाभिर्हरेदसून् ||३५||",
+      "english": "Vitiated vata having reached the joints of extremities obstruct the way of the rakta and vitiated rakta obstructs the way of vata, thus causes the unbearable pain and leads to death.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 36,
+      "devanagari": "तत्र मुञ्चेदसृक् शृङ्गजलौकःसूच्यलाबुभिः |  \nप्रच्छनैर्वा सिराभिर्वा यथादोषं यथाबलम् ||३६||",
+      "english": "In this condition, the blood should let out with shringa (horn), jalauka (leech application), suchi (needle), alabu (hollow bitter gourd), pracchana (scratching) or siravyadha (venesection) depending on morbidity and strength of the patient.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 37,
+      "devanagari": "रुग्दाहशूलतोदार्तादसृक्  स्राव्यं जलौकसा |  \nशृङ्गैस्तुम्बैर्हरेत् सुप्तिकण्डूचिमिचिमायनात् ||३७||",
+      "english": "Bloodletting should be done by applying the leech if one is suffering from discomfort, burning sensation, pain and pricking sensation. If the patient is suffering from tactile dysfunction, itching and tingling, his blood should let out with either shringa (animal horn) or alabu (hollow gourd).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 1,
+      "devanagari": "देशाद्देशं व्रजत् स्राव्यं सिराभिः प्रच्छनेन वा |  \nअङ्गग्लानौ न तु स्राव्यं रूक्षे वातोत्तरे च यत् [४] ||३८ ||",
+      "english": "If the symptoms and complications in vatashonita are not localised to a specific part rather are of fleeting nature, the blood should be let out with siravyadha (venesection) or by pracchana. In case if there are angaglani (anga shosha i.e.atrophy), dryness, and other symptoms of vata dominance, the bloodletting should not be done.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "गम्भीरं श्वयथुं स्तम्भं कम्पं स्नायुसिरामयान् |  \nग्लानिं चापि ससङ्कोचां कुर्याद्वायुरसृक्क्षयात् ||३९|| खाञ्ज्यादीन् वातरोगांश्च मृत्युं चात्यवसेचनात् |  \nकुर्यात्तस्मात् प्रमाणेन स्निग्धाद्रक्तं विनिर्हरेत् ||४०||",
+      "english": "Blood loss due to blood letting may cause aggravation of vata dosha, leading to deep swelling, stiffness, tremors, disorders of sira and snayu (blood vessels and ligaments), debility and constriction of the part. If there is excessive blood loss, the complications like limping and other vāta disorders and even death will occur. Hence one should let the blood out in proper quantity, after proper oleation. [39–40]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 41,
+      "devanagari": "विरेच्यः स्नेहयित्वाऽऽदौ स्नेहयुक्तैर्विरेचनैः |  \nरूक्षैर्वा मृदुभिः शस्तमसकृद्वस्तिकर्म च ||४१|| सेकाभ्यङ्गप्रदेहान्नस्नेहाः प्रायोऽविदाहिनः |  \nवातरक्ते प्रशस्यन्त ... |४२|",
+      "english": "After proper oleation, vatarakta patient shall be treated with mild therapeutic purgation with unctuous substances or with dry substances (in case of excess oleated patient). After purgation, the patient should be given frequent basti (enema of medicated substances) including anuvasana basti (unctuous enema) and niruha basti (enema made from decoction of medicinal herbs). Besides fomentation, massage, ointments, food and sneha (unctuous substances) be given to the patient which do not cause burning sensation. Now listen; specific remedies. [41–42]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 42,
+      "devanagari": "……विशेषं तु निबोध मे||४२|| \nबाह्यमालेपनाभ्यङ्गपरिषेकोपनाहनैः| विरेकास्थापनस्नेहपानैर्गम्भीरमाचरेत् ||४३|| सर्पिस्तैलवसामज्जापानाभ्यञ्जनबस्तिभिः |  \nसुखोष्णैरुपनाहैश्च वातोत्तरमुपाचरेत् ||४४|| विरेचनैर्घृतक्षीरपानैः सेकैः सबस्तिभिः |  \nशीतैर्निर्वापणैश्चापि रक्तपित्तोत्तरं जयेत् ||४५|| वमनं मृदु नात्यर्थं स्नेहसेकौ विलङ्घनम् |  \nकोष्णा लेपाश्च शस्यन्ते वातरक्ते कफोत्तरे ||४६||",
+      "english": "In case of uttana vatashonita affecting superficial tissues only, the patient should be treated with alepana (affected part is covered with medicinal paste), abhyanga (massage), parisheka (bathing in warm decoction or unctuous substances) and upanaha (application of poultice).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 47,
+      "devanagari": "कफवातोत्तरे शीतैः प्रलिप्ते वातशोणिते |  \nदाहशोथरुजाकण्डूविवृद्धिः स्तम्भनाद्भवेत् ||४७|| रक्तपित्तोत्तरे चोष्णैर्दाहः क्लेदोऽवदारणम् |  \nभवेत्तस्माद्भिषग्दोषबलं बुद्ध्वाऽऽचरेत्क्रियाम् ||४८||",
+      "english": "In the patients of vatarakta with vata-kapha predominance, if cold pralepa is applied then there will be complications like burning sensation, swelling of the part, pain and itching due to stasis of the dosha, like wise in the patients suffering from vatarakta with rakta and pitta predominance, if are applied with ushna dravya will cause daha (burning sensation), kleda (moistening) and tearing of the skin. Therefore, in cases of vatarakta, the physician should apply the treatment measures after well considering the bala (strength) of the dosha. [47–48]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 49,
+      "devanagari": "दिवास्वप्नं ससन्तापं व्यायामं मैथुनं तथा |  \nकटूष्णं गुर्वभिष्यन्दि लवणाम्लं च वर्जयेत् ||४९||",
+      "english": "The patient of vatarakta should abstain from day sleep, exposure to heat, excessive physical exertion, coitus, eating of pungent, salty, sour, ushna, guru (difficult to digest) and abhishyandi food (food articles which after consumption are responsible for the excessive secretions in the body) substances.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 50,
+      "devanagari": "पुराणा यवगोधूमनीवाराः शालिषष्टिकाः |  \nभोजनार्थं रसार्थं वा विष्किरप्रतुदा हिताः ||५०|| आढक्यश्चणका मुद्गा मसूराः समकुष्ठकाः |  \nयूषार्थं बहुसर्पिष्काः प्रशस्ता वातशोणिते ||५१|",
+      "english": "Old barley, wheat, nevara, shali and shashtika dhanya (special qualities of red rice) are good to eat and soup of flesh of vishkira (birds which scratch the ground) and pratuda (birds which pick the food and eat like pigeon) or soup of pulses, pea, bengal gram, lentils and makushtha (motha) can be taken by adding plenty of ghee, by the patients of vatarakta. [50–51]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 52,
+      "devanagari": "सुनिषण्णकवेत्राग्रकाकमाचीशतावरी |  \nवास्तुकोपोदिकाशाकं शाकं सौवर्चलं तथा ||५२|| घृतमांसरसैर्भृष्टं शाकसात्म्याय दापयेत् |  \nव्यञ्जनार्थं, तथा गव्यं माहिषाजं पयो हितम् ||५३|| इति सङ्क्षेपतः प्रोक्तं वातरक्तचिकित्सितम् |  \nएतदेव पुनः सर्वं व्यासतः सम्प्रवक्ष्यते ||५४||",
+      "english": "Green vegetables like sunishnaka (Marsilia minula), vetagra (new buddings of Salix caprea), kakmachi (Solanaum nigrum) buddings of shatavari (new buddings of Asparagus racesmosa), vastuka (Chemopodium album), upodika and sauvarchala (Gynandropis pentaphylla), cooked with either ghee or mamsa rasa (soup of fleshes) can be given to the patients who are suited for these and followed by intake of milk of cow, buffaloes, or goats is beneficial. Thus, the treatment of vatarakta is said to be in brief, the same will be said again in details. [52–54]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 55,
+      "devanagari": "श्रावणीक्षीरकाकोलीजीवकर्षभकैः समैः |  \nसिद्धं समधुकैः सर्पिः सक्षीरं वातरक्तनुत् ||५५||",
+      "english": "Sravani (Gorakha mundi), kshirakakoli, jeevaka, rishabhaka and madhuka are to be taken in equal quantity, after crushing these all, the kalka (paste) to be cooked with cow’s milk and ghee, this sravani ghrita alleviates vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 56,
+      "devanagari": "बलामतिबलां मेदामात्मगुप्तां शतावरीम् |  \nकाकोलीं क्षीरकाकोलीं रास्नामृद्धिं च पेषयेत् ||५६|| घृतं चतुर्गुणक्षीरं तैः सिद्धं वातरक्तनुत् |  \nहृत्पाण्डुरोगवीसर्पकामलाज्वरनाशनम् ||५७||",
+      "english": "Bala, atibala, meda, shatavari, atmagupta, kakoli, kshirakakoli, rasna, riddhima is to be taken in equal quantity and crushed then take one part kalka, four times ghee and milk and mix it and carryout snehasiddhi. This baladi ghrita alleviates vatarakta, hridroga (Cardiac disorders), pandu (anemia), visarpa (erysepales), kamala (jaundice) and jwara (fever). [56–57]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 58,
+      "devanagari": "त्रायन्तिकातामलकीद्विकाकोलीशतावरी |  \nकशेरुकाकषायेण कल्कैरेभिः पचेद्धृतम् ||५८|| दत्त्वा परूषकाद्राक्षाकाश्मर्येक्षुरसान् समान् |  \n`पृथग्विदार्याः स्वरसं तथा क्षीरं चतुर्गुणम् ||५९|| एतत् प्रायोगिकं सर्पिः पारूषकमिति स्मृतम् |  \nवातरक्ते क्षते क्षीणे वीसर्पे पैत्तिके ज्वरे ||६०|| इति पारूषकम घृतं",
+      "english": "Decoction of trayamana, tamalaki (Phyllinthus niruri), kakoli, kshirkakoli, shatavari and kasheru (Scirpus kysoor) is to be prepared by using paste of same drugs and decoction of all to be taken with juice of parushaka (Grewia asciatica), draksha (Vitis vinifera), kashmarya (Gmelina arboria), ikshu (Saccharum officinarium) and vidarikanda (Pueraria tuberose) are to be taken in equal quantity. Add one part of kalka, four times ghee, five times juice, and sixteen times cow’s milk and then cook it till the liquid part is dried, the ghee is separated. This parushaka ghrita alleviates vātarakta, wasting due to injury or trauma, visarpa and paittika jwara. [58–60]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 61,
+      "devanagari": "द्वे पञ्चमूले वर्षाभूमेरण्डं सपुनर्नवम् |  \nमुद्गपर्णीं महामेदां माषपर्णीं शतावरीम् ||६१|| शङ्खपुष्पीमवाक्पुष्पीं रास्नामतिबलां बलाम् |  \nपृथग्द्विपलिकं कृत्वा जलद्रोणे विपाचयेत् ||६२|| पादशेषे समान् क्षीरधात्रीक्षुच्छागलान् रसान् |  \nघृताढकेन संयोज्य शनैर्मृद्वग्निना पचेत् ||६३|| कल्कानावाप्य मेदे द्वे काश्मर्यफलमुत्पलम् |  \nत्वक्क्षीरीं पिप्पलीं द्राक्षां पद्मबीजं पुनर्नवाम् ||६४|| नागरं क्षीरकाकोलीं पद्मकं बृहतीद्वयम् |  \nवीरां शृङ्गाटकं भव्यमुरुमाणं निकोचकम् ||६५|| खर्जूराक्षोटवाताममुञ्जाताभिषुकांस्तथा |  \nएतैर्घृताढके सिद्धे क्षौद्रं शीते प्रदापयेत् ||६६|| सम्यक् सिद्धं च विज्ञाय सुगुप्तं सन्निधापयेत् |  \nकृतरक्षाविधिं चौक्षे प्राशयेदक्षसम्मितम् ||६७|| पाण्डुरोगं ज्वरं हिक्कां स्वरभेदं भगन्दरम् |  \nपार्श्वशूलं क्षयं कासं प्लीहानं वातशोणितम् ||६८|| क्षतशोषमपस्मारमश्मरीं शर्करां तथा |  \nसर्वाङ्गैकाङ्गरोगांश्च मूत्रसङ्गं च नाशयेत् ||६९|| बलवर्णकरं धन्यं वलीपलितनाशनम् |  \nजीवनीयमिदं सर्पिर्वृष्यं वन्ध्यासुतप्रदम् ||७०||",
+      "english": "Both laghu and brihad panchamula (dashmula), varshabhu (Trianthema portulacastrum), eranda, punarnava, mudgaparni (Phaseolus trilobus), mahameda, mashaparni (Teramnus labialis), shatavari, shankhapushpi, avakpushpi, rasna (Pluchea lanceolata), bala, atibala, are to be taken 80 gm each and crushed then boiled in one drone water (approximately 10.24 litre) when the water is reduced to one fourth then liquid portion is taken away. Cow’s milk, amalaki (Phyllanthus emblica), sugarcane and soup of goat meat each to be taken in equal quantity of decoction. Milk, decoction, amalaki juice, sugarcane juice and meat soup are mixed and then added one adhaka (2.56 kg) ghee and then cooked in mild heat. Meda, mahameda, fruit of kashmarya, utpalam, tvakkshiri (Bambusa arundinacia), pippali (Piper longum), draksha (Vitis vinifera), padmabeeja (Nelumbium speciosum), punarnava, brihati (Solanum indicum), kantakari,(Solanum xanthocarpum), vidarikanda, shringataka (Trapa bispinosa), bhavya, urumana (Prunna armeniaca), nikocha (roots of Alangium lamarckii thwaites), kharjura (Phoenix dactylifera), akshothaka (Juglans regia), vatama (Prunus amygdalus), munjata (Pistacia vera), and abhishuka (Pinus gerardiana) are to be taken in equal quantity and crushed to powder and about 64 gm of the powder is added with them when the ghritasiddhi is observed then ghrita should be separated, allow to cool and then 640 gm honey should be added to it. The preparation should be stored well and protected in a clean container. After observing rituals the jeevaniya ghrita in the dose of one tola (about 10 gm) be given to the patient. This ghrita alleviates pandu (anemia), jwara (fever), hikka (hiccup), svarabheda (abnormality of voice), bhagandara (fistula in ano) parshvashula (chest pain), kshaya (tuberculosis), kasa (cough), pleeha (disorders of spleen), vatarakta, urakshata (internal injury of chest), shosha (wasting), apasmara (epilepsy), ashmari (urinary calculus), sharkara (urinary gravels), generalized or localized vātik disorders and mutra sanga (retention of urine). This ghrita promotes strength, complexion and is auspicious, it also removes wrinkles and graying of hairs, is aphrodisiac and may provide progeny even to a sterile woman. [61–70]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 71,
+      "devanagari": "द्राक्षामधु(धू)कतोयाभ्यां सिद्धं वा ससितोपलम् |  \nपिबेद्धृतं तथा क्षीरं गुडूचीस्वरसे शृतम् ||७१||",
+      "english": "Patient of vatarakta should take ghee cooked with decoction of draksha (vitis vinifera) and madhuka (Bassia latifolia), along with sugar candy or be given with milk, which is well boiled with juice of guduchi (Tinospora cordifolia).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 72,
+      "devanagari": "जीवकर्षभकौ मेदामृष्यप्रोक्तां शतावरीम् |  \nमधुकं मधुपर्णीं च काकोलीद्वयमेव च ||७२|| मुद्गमाषाख्यपर्णिन्यौ दशमूलं पुनर्नवाम् |  \nबलामृताविदारीश्च साश्वगन्धाश्मभेदकाः ||७३|| एषां कषायकल्काभ्यां सर्पिस्तैलं च साधयेत् |  \nलाभतश्च वसामज्जधान्वप्रातुदवैष्किरम् ||७४|| चतुर्गुणेन पयसा तत् सिद्धं वातशोणितम् |  \nसर्वदेहाश्रितं हन्ति व्याधीन् घोरांश्च वातजान् ||७५||",
+      "english": "Jeevaka, rishabhaka, meda, rishyaprokta, shatavari, madhuka, madhuparni, kakoli, kshirakakoli mudgaparni (Phaseolus trilobus), mashaparni (Teramnus labialis), dashamula, punarnava, bala, amrita, vidari, aswagandha and pasanabheda (Saxifraga lingulata), decoction of all these substances is made and again paste of these substances is added to decoction, then oil and ghee cooked along with four times milk, vasā (fat) and majja (marrow) of pecking and gallinaceous birds living in dhanva (dessert) area may be added. Prepared ghee alleviates vatarakta and severe vātik disorders pertaining to all over the body. [72–75]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 76,
+      "devanagari": "स्थिरा श्वदंष्ट्रा बृहती सारिवा सशतावरी |  \nकाश्मर्याण्यात्मगुप्ता च वृश्चीरो द्वे बले तथा ||७६|| एषां क्वाथे चतुःक्षीरं पृथक् तैलं पृथग्घृतम् |  \nमेदाशतावरीयष्टिजीवन्तीजीवकर्षभैः ||७७|| पक्त्वा मात्रा ततः क्षीरत्रिगुणाऽध्यर्धशर्करा |  \nखजेन मथिता पेया वातरक्ते त्रिदोषजे ||७८||",
+      "english": "Oil and ghee should be cooked separately with decoction of sthira (Desmodium gangeticum), shvadamishtra (Tribulus terrestris), brihati (Solanum indicum), sariva, shatavari, kashmarya, kapikachhu, vrischira (Boerhavia diffusa), bala and atibala with four times milk and paste of meda, shatavari, madhuyashti, jivanti, jivaka and rishabhaka. Prepared yamaka (combination of two sneha) is kept. One part of yamaka (about 12 ml), three times milk and one and half times sugar mixed together and churned with the churning stick. This mixture should be given to the patient suffering from tridoshaja vatarakta. [76-78]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 79,
+      "devanagari": "तैलं पयः शर्करां च पाययेद्वा सुमूर्च्छितम् |  \nसर्पिस्तैलसिताक्षौद्रैर्मिश्रं वाऽपि पिबेत् पयः ||७९||",
+      "english": "Oil, sugar and milk mixed together and churned should be given to the patient or ghee, taila, sugar and honey mixed with milk should be given to the patients of vatarakta (tridoshaja).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 80,
+      "devanagari": "अंशुमत्या शृतः प्रस्थः पयसो द्विसितोपलः |  \nपाने प्रशस्यते तद्वत् पिप्पलीनागरैः शृतः ||८०||",
+      "english": "Milk (640 ml) boiled in decoction of shalaparni and added with 80 gm sugar is recommended for drink. Like wise milk boiled with pippali and shunthi is useful in vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 81,
+      "devanagari": "बलाशतावलीरास्नादशमूलैः सपीलुभिः |  \nश्यामैरण्डस्थिराभिश्च वातार्तिघ्नं शृतं पयः ||८१||",
+      "english": "Milk boiled with bala, shatavari, rasna, dashamula, peelu (Salva dorapersica), shyama, eranda and shalaparni, alleviates vatika disorders (and vatarakta)",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 82,
+      "devanagari": "धारोष्णं मूत्रयुक्तं वा क्षीरं दोषानुलोमनम् |  \nपिबेद्वा सत्रिवृच्चूर्णं पित्तरक्तावृतानिलः ||८२||",
+      "english": "For the anulomana of the dosha (downward movement of the mala dosha), dharoshana dugdha (fresh warm milk) mixed with mutra (cow’s urine) should be given to drink, if the vata is avrita by the pitta and rakta, the patient should be given fresh warm milk mixed with trivrita churna to drink.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 83,
+      "devanagari": "क्षीरेणैरण्डतैलं वा प्रयोगेण पिबेन्नरः |  \nबहुदोषो विरेकार्थं जीर्णे क्षीरौदनाशनः ||८३|| कषायमभयानां [१] वा घृतभृष्टं पिबेन्नरः |  \nक्षीरानुपानं त्रिवृताचूर्णं द्राक्षारसेन वा ||८४||",
+      "english": "In the patient whom dosha are excessively aggravated should be given eranda taila (castor oil) with milk for purgation. After digestion, the patient should be given rice with milk.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 85,
+      "devanagari": "काश्मर्यं त्रिवृतां द्राक्षां त्रिफलां सपरूषकाम् |  \nशृतं पिबेद्विरेकाय लवणक्षौद्रसंयुतम् ||८५|| त्रिफलायाः कषायं वा पिबेत् क्षौद्रेण संयुतम् |  \nधात्रीहरिद्रामुस्तानां कषायं वा कफाधिकः ||८६||",
+      "english": "For purgation, decoction of kashmarya, trivrita, draksha and parushaka (Grewia asiatica) added with salt and honey should be given.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 87,
+      "devanagari": "योगैश्च कल्पविहितैरसकृत्तं विरेचयेत् |  \nमृदुभिः स्नेहसंयुक्तैर्ज्ञात्वा वातं मलावृतम् ||८७||",
+      "english": "In case when vata is avrita with mala (waste products of the body) the patient should be given mridu virechana (mild purgatives) mentioned in Kalpa Sthana along with sneha (unctuous substances).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 88,
+      "devanagari": "निर्हरेद्वा मलं तस्य सघृतैः क्षीरबस्तिभिः |  \nन हि बस्तिसमं किञ्चिद्वातरक्तचिकित्सितम् ||८८||",
+      "english": "Mala (excrements) of the patients of vatarakta should be eliminated by administrating basti (enema) of ksheera (milk) mixed with ghrita. There is no treatment of vatarakta efficient as basti.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 89,
+      "devanagari": "बस्तिवङ्क्षणपार्श्वोरुपर्वास्थिजठरार्तिषु |  \nउदावर्ते च शस्यन्ते निरूहाः सानुवासनाः ||८९||",
+      "english": "If the patient is suffering from pain in pelvis, groin, flanks, thighs, small joints, bones, upper abdomen and if there is udavarta, niruha basti (enema of decoction made from medicinal herbs) along with anuvasna basti(unctuous enema) are recommended.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 90,
+      "devanagari": "दद्यात्तैलानि चेमानि बस्तिकर्मणि बुद्धिमान् |  \nनस्याभ्यञ्जनसेकेषु दाहशूलोपशान्तये ||९०||",
+      "english": "The wise physician should administer the following oils as basti (enema) or nasya (nasal medication), abhyanga (massage) and parisheka to alleviate daha (burning sensation) and pain.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 91,
+      "devanagari": "मधुयष्ट्यास्तुलायास्तु [१] कषाये पादशेषिते |  \nतैलाढकं समक्षीरं पचेत् कल्कैः पलोन्मितैः ||९१|| शतपुष्पावरीमूर्वापयस्यागुरुचन्दनैः |  \nस्थिराहंसपदीमांसीद्विमेदामधुपर्णिभिः ||९२|| काकोलीक्षीरकाकोलीतामलक्यृद्धिपद्मकैः |  \nजीवकर्षभजीवन्तीत्वक्पत्रनखवालकैः ||९३|| प्रपौण्डरीकमञ्जिष्ठासारिवैन्द्रीवितुन्नकैः |  \nचतुष्प्रयोगात्तद्धन्ति तैलं मारुतशोणितम् ||९४|| सोपद्रवं साङ्गशूलं सर्वगात्रानुगं तथा |  \nवातासृक्पित्तदाहार्तिज्वरघ्नं बलवर्णकृत् ||९५|| इति मधुपर्ण्यादितैलम् |",
+      "english": "Decoction of four kg madhuyashti (Glycyrrhiza glabra) should be prepared and than 2.56 kg oil with equal quantity of milk be cooked with decoction in mild flame, during cooking kalka ( paste ) of shatapushpa, shatavari, murva, payasya (Holostemma rheedianum), aguru, chandana, shalparni, hansapadi(Adiantum lunulatum), mansi, meda, mahameda, madhuparni (Tinospora cordifolia), kakoli, kshirakakoli, tamalaki, ṛiddhi,padmaka, jeevaka, risbhaka, jeevanti (Leptadenia reticulate), twak, patra, nakha (Helix aspera), sugandhabala (Pabonia podorata), prapondarika (Cassia absus), manjishtha, sariva, aindri (Citrullus colocynthis) and vitunnaka (Coriandrum sativum) be added. This madhuparnayadi tailam be used in four ways pana, nasya, basti and snehana (intake, nasal medication, enema of medicated substance and massage with medicated oils) alleviates vatarakta associated with complications, pain in the body and disease spread all over the body. This oil is very effective in vatarakta with daha (burning sensation) caused by pitta and fever, it also promotes strength of the body and complexion. [91–95]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 96,
+      "devanagari": "मधुकस्य शतं द्राक्षा खर्जूराणि परूषकम् |  \nमधूकौदनपाक्यौ च प्रस्थं मुञ्जातकस्य च ||९६|| काश्मर्याढकमित्येतच्चतुर्द्रोणे पचेदपाम् |  \nशेषेऽष्टभागे पूते च तस्मिंस्तैलाढकं पचेत् ||९७|| तथाऽऽमलककाश्मर्यविदारीक्षुरसैः समैः |  \nचतुर्द्रोणेन पयसा कल्कं दत्त्वा पलोन्मितम् ||९८|| कदम्बामलकाक्षोटपद्मबीजकशेरुकम् |  \nशृङ्गाटकं शृङ्गवेरं लवाणं पिप्पलीं सिताम् ||९९|| जीवनीयैश्च संसिद्धं क्षौद्रप्रस्थेन संसृजेत् |  \nनस्याभ्यञ्जनपानेषु बस्तौ चापि नियोजयेत् ||१००|| वातव्याधिषु सर्वेषु मन्यास्तम्भे हनुग्रहे |  \nसर्वाङ्गैकाङ्गवाते च क्षतक्षीणे क्षतज्वरे ||१०१|| सुकुमारकमित्येतद्वातास्रामयनाशनम् |  \nस्वरवर्णकरं तैलमारोग्यबलपुष्टिदम् ||१०२|| इति सुकुमारकतैलम् |",
+      "english": "Madhuka 100 pala (about 4 kg) draksha, kharjura (Phoenix dactylifera), parushaka, madhuka (Bassia latifolia), audanapaki (abutilon indicum), munjataka (Saccharum munja) each one pala (400 gm) kashmarya, one adhaka (about 2.56 kg) all ingredients to be crushed and boiled in 40.96 liters of water, reduced to one eighth and filtered, with the decoction 2.56 kg oil, equal quantity of the juices of amalaki, kashmarya, vidari (Pueraria tuberosa) and sugarcane alongwith 40.96 liters of milk and 40 gms each of paste of following drugs– kadamba (Anthocephalus kadama),amalaki, akshota (Juglans regia), lotus seeds (Nelumbium speciosum), kasheruka (Scirpus kysoor), shringataka (Trapa bispinosa), shunthi, saindhava, lavana (rock salt), pippali, sarkara (cane sugar), and herbs of jeevaniya gana (Ca. Su 4 /8-1) to be mixed and cooked. Then oil is prepared it allow to cool and then honey 640 gm should be added with and kept. This sukumaraka taila should be used in the form of nasyam (nasal medication), abhyanga (massage with medicated oils), pāna (intake) and basti (enema) in all vata disorders, manyastambha (torticollis), hanugraha (lock jaw) sarvanga vata (generalized vata), ekanga vata (localized vata), kshatakshina (wasting caused by injury) and kshataja jwara (fever caused by wound) and it alleviates vatarakta; promotes voice, complexion, health, strength and corpulence of the body. [96–102]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 103,
+      "devanagari": "गुडूचीं मधुकं ह्रस्वं पञ्चमूलं पुनर्नवाम् |  \nरास्नामेरण्डमूलं च जीवनीयानि लाभतः ||१०३|| पलानां शतकैर्भागैर्बलापञ्चशतं तथा |  \nकोलबिल्वयवान्माषान्कुलत्थांश्चाढकोन्मितान् ||१०४|| काश्मर्याणां सुशुष्काणां द्रोणं द्रोणशतेऽम्भसि |  \nसाधयेज्जर्जरं धौतं चतुर्द्रोणं च शेषयेत् ||१०५|| तैलद्रोणं पचेत्तेन दत्त्वा पञ्चगुणं पयः |  \nपिष्ट्वा त्रिपलिकं चैव चन्दनोशीरकेशरम् ||१०६|| पत्रैलागुरुकुष्ठानि तगरं मधुयष्टिकाम् |  \nमञ्जिष्ठाष्टपलं चैव तत् सिद्धं सार्वयौगिकम् ||१०७|| वातरक्ते क्षतक्षीणे भारार्ते क्षीणरेतसि |  \nवेपनाक्षेपभग्नानां सर्वाङ्गैकाङ्गरोगिणाम् ||१०८|| योनिदोषमपस्मारमुन्मादं खञ्जपङ्गुताम् |  \nहन्यात् प्रसवनं [१] चैतत्तैलाग्र्यममृताह्वयम् ||१०९|| इत्यमृताद्यं तैलम् |",
+      "english": "Guduchi, madhuka, laghu panchamula (shalparni, prishnaparni, choti kateri, badi kateri, gokshura), punarnava, rasna, eranda moola, herbs of jeevaniya gana (each 4 kg), bala (20 kg), kola (Zizyphus jujuba), bilwa, yava, masha (black gram) and kulattha (horse shoe gram ) each 2.56 kg, dried fruit of kashmarya, all substances well crushed and then boiled in 1024 liters water and reduced to about 40.96 liters and filtered, now 10.24 liters oil and five times (about 56.20 liters ) milk is added with decoction and cooked alongwith the paste of chandana, usheera (Andropogon muricatus), keshara, tejapatra, aguru, kustha, tagara, madhuyashti and manjishtha each 120 gm be added with. After well cooked as per sneha siddhi lakshana the oil is separated. This oil known as amritadya taila is very effective in vatarakta, kshatakshina (wasting caused by injury), affliction by carrying heavy load, ksheena sukra (weakness/ dyskinesia of semen), vepana (tremors), convulsions, fractures and generalized or localized diseases. It also alleviates yonidosha (diseases of female reproductive system), apasmara (epilepsy), unmada (insanity), khanjapangutam (limping and lameness) and makes possible easy delivery of foetus. [103–109]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 110,
+      "devanagari": "पद्मवेतसयष्ट्याह्वफेनिलापद्मकोत्पलैः |  \nपृथक्पञ्चपलैर्दर्भबलाचन्दनकिंशुकैः ||११०|| जले शृतैः पचेत्तैलप्रस्थं सौवीरसम्मितम् |  \nलोध्रकालीयकोशीरजीवकर्षभकेशरैः ||१११|| मदयन्तीलतापत्रपद्मकेशरपद्मकैः |  \nप्रपौण्डरीककाश्मर्यमांसीमेदाप्रियङ्गुभिः ||११२|| कुङ्कुमस्य पलार्धेन मञ्जिष्ठायाः पलेन च |  \nमहापद्ममिदं तैलं वातासृग्ज्वरनाशनम् ||११३|| इति महापद्मं तैलम् |",
+      "english": "Padma, vetasa (Salix caprea), madhuyashti, phenila (Sapindus mukorossi), kamala, utapala, bala, chandana and kinshuka (butea frondośa) each 200 gm crushed and decocted in water. With this decoction 640 gm of oil should be cooked with equal quantity of sauvira (type of vinegar) and paste of lodhra, kaliyaka (Barberis aristata), ushira, jeevaka, risbhaka (in lieu Pueraria tuberosa) nagakeshara, padmaka, prapaundrika, kashmarya, mansi, meda, priyangu and kumkuma 20 gm and manjishta 40 gm. This mahapadma taila alleviates vatarakta and jwara (fever). [110-113]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 114,
+      "devanagari": "पद्मकोशीरयष्ट्याह्वरजनीक्वाथसाधितम् |  \nस्यात् पिष्टैः सर्जमञ्जिष्ठावीराकाकोलिचन्दनैः ||११४|| खुड्डाकपद्मकमिदं तैलं वातास्रदाहनुत् |११५| इति खुड्डाकपद्मकं तैलम् |",
+      "english": "Oil fortified with the decoction of padmaka, ushira, madhuyashti, and haridra along with the paste of sarja (Shorea robusta) manjishtha, veera, kakoli, and chandana. This khuddakapadmaka taila alleviates vatarakta and daha (burning sensation) [114–115]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 115,
+      "devanagari": "शतेन यष्टिमधुकात् साध्यं दशगुणं पयः ||११५|| तस्मिंस्तैले चतुर्द्रोणे मधुकस्य पलेन तु |\nसिद्धं मधुककाश्मर्यसैर्वा वातरक्तनुत् ||११६|| मधुपर्ण्याः पलं पिष्ट्वा तैलप्रस्थं चतुर्गुणे| \nक्षीरे साध्यं शतं कृत्वा तदेवं मधुकाच्छते ||११७|| सिद्धं देयं त्रिदोषे [१] स्याद्वातास्रे श्वासकासनुत् |  \nहृत्पाण्डुरोगवीसर्पकामलादाहनाशनम् ||११८|| इति शतपाकं मधुकतैलम् ||",
+      "english": "4 kg of madhuyaśti is boiled in ten times of milk (40 litres) and reduced to 10 litres, with this oil 40.96 litres should be cooked with the paste of 40 gm of madhuka or juice of madhuka and kashmarya. This taila alleviates vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 119,
+      "devanagari": "बलाकषायकल्काभ्यां तैलं क्षीरसमं पचेत् |  \nसहस्रं [१] शतवारं वा वातासृग्वातरोगनुत् ||११९|| रसायनमिदं श्रेष्ठमिन्द्रियाणां प्रसादनम् |  \nजीवनं बृंहणं स्वर्यं शुक्रासृग्दोषनाशनम् ||१२०|| इति सहस्रपाकं शतपाकं वा बलातैलम् |",
+      "english": "Take decoction of bala, paste of bala, milk and oil and cook till siddha lakshana is observed. The process should be repeated either hundred or thousand times. This bala taila alleviates vatarakta and vata disorders. It is an excellent rasayana, which is very good promoter of sensual well being, vitaliser, promote body build, very well for voice, and alleviates shukra dhatu elated as well as menstrual disorders. [119–120]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 121,
+      "devanagari": "गुडूचीरसदुग्धाभ्यां तैलं द्राक्षारसेन वा |  \nसिद्धं मधुककाश्मर्यरसैर्वा वातरक्तनुत् ||१२१|| आरनालाढके तैलं पादसर्जरसं शृतम् |  \nप्रभूते खजितं तोये ज्वरदाहार्तिनुत् परम् ||१२२||",
+      "english": "Oil cooked with the juice of the guduchi and milk or with grape juice or with the juice of madhuka and kashmarya alleviates vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 123,
+      "devanagari": "समधूच्छिष्टमाञ्जिष्ठं ससर्जरससारिवम् |  \nपिण्डतैलं तदभ्यङ्गाद्बातरक्तरुजापहम् ||१२३|| इति पिण्डतैलम् |",
+      "english": "Oil cooked with the honey bee wax, manjistha, sarja rasa (resin of shorea robusta) and sariva. This oil known as pinda taila, if applied on the body alleviates pain in vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 124,
+      "devanagari": "दशमूलशृतं क्षीरं सद्यः शूलनिवारणम् |  \nपरिषेकोऽनिलप्राये तद्वत् कोष्णेन सर्पिषा ||१२४||",
+      "english": "The milk boiled with decoction of dashamula alleviates pain immediately. Application of warm ghee on the body may remove vatika shula (pain caused by vata).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 125,
+      "devanagari": "स्नेहैर्मधुरसिद्धैर्वा चतुर्भिः परिषेचयेत् |  \nस्तम्भाक्षेपकशूलार्तं कोष्णैर्दाहे तु शीतलैः ||१२५|| तद्वद्गव्याविकच्छागैः क्षीरैस्तैलविमिश्रितैः |  \nक्वाथैर्वा जीवनीयानां पञ्चमूलस्य वा भिषक् ||१२६||",
+      "english": "In case, if the patient of vatarakta is suffering from stambha (stiffness of the joints), akshepa (convulsions), and pain, one should apply four types of sneha (taila, ghee, vasa and majja) all over the body processed with herbs of madhura gana (jeevaniya gana) and apply warm sneha, if there is burning sensation than cold sneha be applied. Milk of cow, sheep and goat mixed with oil or decoction of jeevaniya gana mixed with oil or decoction of panchamula mixed with oil is sprinkled over in similar ways. [125-126]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 127,
+      "devanagari": "द्राक्षेक्षुरसमद्यानि दधिमस्त्वम्लकाञ्जिकम् |  \nसेकार्थे तण्डुलक्षौद्रशर्कराम्बु च शस्यते ||१२७||",
+      "english": "Either juice of grapes or decoction of dried grapes (Vitis vinifera), juice of sugarcane, wine, curd water, sour gruel, rice water, honey and sugar well mixed and sprinkled over the body of the patient suffering from vatarakta to alleviate daha (burning sensation).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 128,
+      "devanagari": "कुमुदोत्पलपद्माद्यैर्मणिहारैः सचन्दनैः |  \nशीततोयानुगैर्दाहे प्रोक्षणं स्पर्शनं हितम् ||१२८||",
+      "english": "In case of burning sensation sponging and contact with the flowers of kumuda, utpala, padma (different varieties of lotus) etc, necklace of gems and sandal wood pieces immersed in cold water is beneficial.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 129,
+      "devanagari": "चन्द्रपादाम्बुसंसिक्ते क्षौमपद्मदलच्छदे |  \nशयने पुलिनस्पर्शशीतमारुतवीजिते ||१२९|| चन्दनार्द्रस्तनकराः प्रिया नार्यः प्रियंवदाः |  \nस्पर्शशीताः सुखस्पर्शा घ्नन्ति दाहं रुजं क्लमम् ||१३०||",
+      "english": "The patient lying on a bed moistened with dews, exposed to moon rays, covered with flax and lotus leaves and fanned with breeze cooled by contact of sandy beach, and touched by beloved and sweet spoken women who have applied sandal paste on their breasts and hands due to which their body touch has become cold and smooth, it reduces burning sensation, pain and exhaustion. [129-130]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 131,
+      "devanagari": "सरागे सरुजे दाहे रक्तं विस्राव्य लेपयेत् |  \nमधुकाश्वत्थत्वङ्मांसीवीरोदुम्बरशाद्वलैः ||१३१|| जलजैर्यवचूर्णैर्वा सयष्ट्याह्वपयोघृतैः |  \nसर्पिषा जीवनीयैर्वा पिष्टैर्लेपोऽर्तिदाहनुत् ||१३२||",
+      "english": "In case of patient of vatarakta having redness, pain, and burning sensation, blood letting should be done followed by application of paste prepared from madhuka, ashvattha, mamsi, udumbara, shadvala (green Cynodon dactylon) and kshirakakoli or paste prepared either from aquatic flowers (lotus etc.) or barley, yashtimadhu, milk and ghee or that of herbs of jeevaniya gana mixed with ghee. [131–132]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 133,
+      "devanagari": "तिलाः [१] प्रियालो मधुकं बिसं मूलं च वेतसात् |  \nआजेन पयसा पिष्टः प्रलेपो दाहरागनुत् ||१३३||",
+      "english": "Tila (sesame), priyala, madhuka, bisa (lotus rhizome) and vetas (root of salix capria) pounded with goat’s milk and applied on the body in the form of paste relieves burning sensation (in vatarakta).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 134,
+      "devanagari": "प्रपौण्डरीकमञ्जिष्ठादार्वीमधुकचन्दनैः |  \nसितोपलैरकासक्तुमसूरोशीरपद्मकैः ||१३४|| लेपो रुग्दाहवीसर्परागशोफनिवारणः |  \nपित्तरक्तोत्तरे त्वेते, लेपान् वातोत्तरे शृणु ||१३५|| वातघ्नैः साधितः स्निग्धः सक्षीरमुद्गपायसः [२] |  \nतिलसर्षपपिण्डैर्वाऽप्युपनाहो रुजापहः ||१३६||",
+      "english": "Prapaundarika, manjishtha, daru haridra, madhuka, chandana, ereka, saktu (flour of roasted grains), masura (lentil), uśira and padmaka all are crushed (and made paste with water), its paste is applied on the body, it alleviates pain, burning sensation, visarpa (cellulitis or erysipalus), redness, shopha (inflammation). This formulation is beneficial in pitta and rakta predominant vatarakta. Porridge of green gram prepared with milk, unctuous substance and vata subjugator herbs or poultice prepared with sesame and mustard alleviate pain of vata predominant vatarakta. [134–136]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 137,
+      "devanagari": "औदकप्रसहानूपवेशवाराः सुसंस्कृताः |  \nजीवनीयौषधैः स्नेहयुक्ताः स्युरुपनाहने ||१३७|| स्तम्भतोदरुगायामशोथाङ्गग्रहनाशनाः |  \nजीवनीयौषधैः सिद्धा सपयस्का वसाऽपि वा ||१३८||",
+      "english": "Poultice of vesavara (crushed and fried boneless meat) prepared from the meat of prasaha (animals who catch their food by the teeth and eat for eg. cow, ass, mule, horse, camel, leopard, lion, bear, dog, cat, rat etc.) well processed with the herbs of jeevaniya gana and sneha (ghee, taila, vasa, majja), applied on the part of the body affected by the vata predominant vatarakta alleviate stiffness, pricking pain, organ tension, immobility and edema or crushed powder of herbs of jeevaniya gana processed with milk and fat is equally effective. [137–138]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 139,
+      "devanagari": "घृतं सहचरान्मूलं जीवन्ती च्छागलं पयः |  \nलेपः पिष्टास्तिलास्तद्वद्भृष्टाः पयसि निर्वृताः ||१३९||",
+      "english": "Root of sahachara and jeevanti are mashed with goat’s milk and added with ghrita then applied on the body, like wise roasted sesame mashed with goat’s milk and applied on the body, both formulations are effective in relieving daha (burning sensation).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 140,
+      "devanagari": "क्षीरपिष्टमुमालेपमेरण्डस्य फलानि च |  \nकुर्याच्छूलनिवृत्त्यर्थं शताह्वामनिलेऽधिके ||१४०||",
+      "english": "If the paste of either seeds of eranda or uma (Foeniculum vulgare) mashed with goat’s milk, applied on the body relieves pain caused by predominance of vata in vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 141,
+      "devanagari": "समूलाग्रच्छदैरण्डक्वाथे द्विप्रास्थिकं पृथक् |  \nघृतं तैलं वसा मज्जा चानूपमृगपक्षिणाम् ||१४१|| कल्कार्थे जीवनीयानि गव्यं क्षीरमथाजकम् |  \nहरिद्रोत्पलकुष्ठैलाशताह्वाश्वहनच्छदान् [३] ||१४२|| बिल्वमात्रान् पृथक् पुष्पं काकुभं चापि साधयेत् |  \nमधूच्छिष्टपलान्यष्टौ दद्याच्छीतेऽवतारिते ||१४३|| शूलेनैषोऽर्दिताङ्गानां लेपः सन्धिगतेऽनिले |  \nवातरक्ते च्युते भग्ने खञ्जे कुब्जे च शस्यते ||१४४||",
+      "english": "320 ml decoction of new leaves and root of eranda is prepared and then total 1.28 kg of ghrita, taila, vasa (fat) and majja (marrow derived from marshy animals and birds) are mashed and cooked. During cooking kalka (crushed powder) of jeevaniya gana, cow’s milk, goat’s milk, and kalka of haridra, utpala, kushtha, ela, shatahva, leaves of karavira and flowers of kakubha 40 gms each be mixed with and obtained sneha (fatty material) after sneha siddhi lakshana and allowed to become cooled, then 320 gm of bee wax should be added. This formulation is applied on the body in case of pain (bodyache), sandhivata (osteoarthritis), vatarakta (conditions like gouty arthritis and others), sandhichyuti (dislocation of joint), bhagna (fracture), khanja (limping) and kubjatwa (humpedness). [141–144]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 145,
+      "devanagari": "शोफगौरवकण्ड्वाद्यैर्युक्ते त्वस्मिन् कफोत्तरे |  \nमूत्रक्षारसुरापक्वं घृतमभ्यञ्जने हितम् ||१४५||",
+      "english": "In case of kapha predominant vatarakta with swelling, heaviness, and itching etc. than the part be applied ghr̥ta which is cooked with cow’s urine, alkalies and wine.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 146,
+      "devanagari": "पद्मकं त्वक् समधुकं सारिवा चेति तैर्घृतम् |  \nसिद्धं समधुशुक्तं स्यात् सेकाभ्यङ्गे कफोत्तरे ||१४६||",
+      "english": "Ghrita cooked with padmaka, tvak, madhuka sariva and madhushukta (type of vinegar) be mixed with prepared ghrita. This formulation is useful if sprinkled and massaged in kapha predominant vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 147,
+      "devanagari": "क्षारस्तैलं [४] गवां [५] मूत्रं जलं च कटुकैः शृतम् |  \nपरिषेके प्रशंसन्ति वातरक्ते कफोत्तरे ||१४७||",
+      "english": "Alkalies, oil, urine, pungent herbs and water in equal quantity and decocted. Parisheka (sprinkling) of this decoction is beneficial in kapha predominant vatarakta and this is well praised.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 148,
+      "devanagari": "लेपः सर्षपनिम्बार्कहिंस्राक्षीरतिलैर्हितः |  \nश्रेष्ठः सिद्धः [६] कपित्थत्वग्घृतक्षीरैः ससक्तुभिः ||१४८||",
+      "english": "Paste prepared from sarshapa, nimba, arka, himsra, tila and bark of kapittha, milk and ghee with saktu (flour of roasted grains) is effective.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 149,
+      "devanagari": "गृहधूमो वचा कुष्ठं शताह्वा रजनीद्वयम् |  \nप्रलेपः शूलनुद्वातरक्ते वातकफोत्तरे ||१४९||",
+      "english": "Paste preparation from grihadhumo (soot), vacha, kushtha, shatahva, haridra and daru haridra alleviates pain of vata- kapha predominant vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 150,
+      "devanagari": "तगरं त्वक् शताह्वैला कुष्ठं मुस्तं हरेणुका |  \nदारु व्याघ्रनखं चाम्लपिष्टं वातकफास्रनुत् ||१५०||",
+      "english": "Tagara, tvak, satahva, ela, kushtha, mushta, harenuka, devadaru, vyaghranakha (Capparis sepiaria), all these are pounded with sour liquid and applied as a paste, alleviates vata kapha predominant vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 151,
+      "devanagari": "मधुशिग्रोर्हितं तद्वद्बीजं धान्याम्लसंयुतम् |  \nमुहूर्तं लिप्तमम्लैश्च सिञ्चेद्वातकफोत्तरम् ||१५१||",
+      "english": "Seeds of sweet shigru triturated with dhanyamla (sour gruel) and paste applied on the part of the body for a while and then washed with sour liquid in vata kapha predominant vatarakta (to alleviate pain).",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 152,
+      "devanagari": "त्रिफलाव्योषपत्रैलात्वक्क्षीरीचित्रकं वचाम् |  \nविडङ्गं पिप्पलीमूलं रोमशं वृषकत्वचम् ||१५२|| ऋद्धिं तामलकीं चव्यं समभागानि पेषयेत् |  \nकल्यं लिप्तमयस्पात्रे [७] मध्याह्ने भक्षयेत्ततः ||१५३|| वर्जयेद्दधिशुक्तानि क्षारं वैरोधिकानि च |  \nवातास्रे सर्वदोषेऽपि हितं शूलार्दिते परम् ||१५४||",
+      "english": "Triphala, vyosha (trikatu), patra (Cinnamomum lamella), ela, tvakkshiri (Bambusa arundinacia), chitraka, vacha, vidanga, pippalimula, romasha (kasheesa), bark of adulsa (Adhatoda vasica), riddhi, tamalaki and chavya, take all in equal quantity and crushed. The powder of all herbs is pasted on the iron utensil in early morning and be eaten in the noon. During this treatment one should avoid curd, vinegar, alkalies and incompatible food items. It is very efficacious in removing pain of vatarakta caused by all dosha. [152–154]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 155,
+      "devanagari": "बुद्ध्वा स्थानविशेषांश्च दोषाणां च बलाबलम् |  \nचिकित्सितमिदं कुर्यादूहापोहविकल्पवित् ||१५५||",
+      "english": "After considering specific position and strength of vitiated dosha, the physician who is well conversant in reasoning and variation should apply aforesaid treatment.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 156,
+      "devanagari": "कुपिते मार्गसंरोधान्मेदसो वा कफस्य वा |  \nअतिवृद्ध्याऽनिले [१] नादौ शस्तं स्नेहनबृंहणम् ||१५६|| व्यायामशोधनारिष्टमूत्रपानैर्विरेचनैः |  \nतक्राभयाप्रयोगैश्च क्षपयेत् कफमेदसी ||१५७||",
+      "english": "If vata is vitiated due to obstruction either by excessive aggravated meda dhatu or kapha, one should not apply unctuous and stouting drugs in the beginning. Instead kapha and meda dhatu subjugate with physical exercises, shodhana (purification), virechana (purgation), and intake of arishta (fermentated preparation of medicinal herbs etc.) and butter milk with abhaya.[156-157]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 158,
+      "devanagari": "बोधिवृक्षकषायं तु प्रपिबेन्मधुना सह |  \nवातरक्तं जयत्याशु त्रिदोषमपि दारुणम् ||१५८||",
+      "english": "One should take decoction of bodhivriksa with honey. It vanquishes severe vatarakta even caused by all three dosha.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 159,
+      "devanagari": "पुराणयवगोधूमसीध्वरिष्टसुरासवैः |  \nशिलाजतुप्रयोगैश्च गुग्गुलोर्माक्षिकस्य च ||१५९||",
+      "english": "One should use old wheat and barley to eat and sidhu, arishtha, sura, asava (medicated beverages) to drink and shilajatu (black bitumen), guggulu (commiphora mukul) and makshika as well.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 160,
+      "devanagari": "गम्भीरे रक्तमाक्रान्तं स्याच्चेत्तद्वातवज्जयेत् |  \nपश्चाद्वाते क्रियां कुर्याद्वातरक्तप्रसादनीम् ||१६०||",
+      "english": "In gambhira vatarakta if blood is vitiated severely, it should be treated like vāta first and there after steps should be taken to pacify vatarakta.",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 161,
+      "devanagari": "रक्तपित्तातिवृद्ध्या तु पाकमाशु नियच्छति |  \nभिन्नं स्रवति वा रक्तं विदग्धं पूयमेव वा ||१६१|| तयोः क्रिया विधातव्या भेदशोधनरोपणैः [१] |  \nकुर्यादुपद्रवाणां च क्रियां स्वां स्वाच्चिकित्सितात् ||१६२||",
+      "english": "The disordered part due to excessive aggravation of rakta and pitta get inflammed or torn and discharging blood or pus with property of burning sensation should be treated with incision, cleansing and healing applications. Complications should be managed according to their respective treatment (mentioned earlier). [161–162]",
+      "section": "Vata-Rakta disorders"
+    },
+    {
+      "verseNumber": 163,
+      "devanagari": "तत्र श्लोकाः- हेतुः स्थानानि मूलं च यस्मात् प्रायेण सन्धिषु |  \nकुप्यति प्राक् च यद्रूपं द्विविधस्य च लक्षणम् ||१६३|| पृथग्भिन्नस्य लिङ्गं च दोषाधिक्यमुपद्रवाः |  \nसाध्यं याप्यमसाध्यं च क्रिया साध्यस्य चाखिला ||१६४|| वातरक्तस्य निर्दिष्टा समासव्यासतस्तथा |  \nमहर्षिणाऽग्निवेशाय तथैवावस्थिकी क्रिया ||१६५||",
+      "english": "In this chapter of vatarakta the etiological factors, location and root, reason for its prevalence of aggravation in general in joints, prodromal symptoms, clinical features, symptoms of both types (uttana and gambhira), different symptom produced by the dosha predominance and complications, prognostic description of different stages of the disease (sadhya, yapya and asadhya), management of sadhya vatarakta (curable vatarakta) and symptomatic treatment of all stages as well has been described in brief and details by the great sage Atreya for Agnivesha.",
+      "section": "Vata-Rakta disorders"
+    }
+  ],
+  "tattvaVimarsha": "After describing the chapter on various presentations of vata dominant disorders, the chapter on vata being afflicted by vitiated rakta is narrated. Vatashonita is caused by vitiated vata doshaand rakta which impede the gati (movement) of each other. It is also called as adhyaroga because it affects mainly affluent people who are not habitual to physical activity and indulged in factors responsible for vitiation of rakta. People of pitta Prakriti (pitta constitution) are prone to develop vatashonita, because sukumaratva (youthful personality) is the characteristic feature of pitta Prakriti.\n\nIn vatashonita, there is abnormality in movements of vata dosha due to abnormality of rakta. It is a group of inflammatory rheumatic disorders covering gouty arthritis, rheumatoid arthritis, connective tissue disorders, inflammatory polyarthritis, vasculitis depending upon the site of vitiation.\n\nThe vitiated factors impair agni (digestion and metabolism) at jatharagni and dhatvagni level. In vatarakta, the vitiated vata dosha affects jatharagni to cause vishamagni and rakta dhatvagni. This impairment leads to increase in blood and serological parameters like uric acid, C-reactive protein etc. These can be used as biomarkers for assessment of efficacy of therapy.\n\nIn process of rakta-dhatvagni, sira (vessels) and kandara (tendons) are byproducts. Therefore, impairment of rakta-dhatvagni leads to involvement of deep vessels and connective tissues. This indicates vatarakta also covers diseases like vasculitis along with thrombosis and embolism, Thromboangiitis obliterans (Burger’s disease), and Raynaud’s disease.\n\nThe chapter explains various conditions of involvement of dosha, dushya and the site of vitiation. Treatment depends upon the assessment and correction of these factors causing the conditions.",
+  "vidhiVimarsha": "After describing the chapter on various presentations of vata dominant disorders, the chapter on vata being afflicted by vitiated rakta is narrated. Vatashonita is caused by vitiated vata doshaand rakta which impede the gati (movement) of each other. It is also called as adhyaroga because it affects mainly affluent people who are not habitual to physical activity and indulged in factors responsible for vitiation of rakta. People of pitta Prakriti (pitta constitution) are prone to develop vatashonita, because sukumaratva (youthful personality) is the characteristic feature of pitta Prakriti.\n\nIn vatashonita, there is abnormality in movements of vata dosha due to abnormality of rakta. It is a group of inflammatory rheumatic disorders covering gouty arthritis, rheumatoid arthritis, connective tissue disorders, inflammatory polyarthritis, vasculitis depending upon the site of vitiation.\n\nThe vitiated factors impair agni (digestion and metabolism) at jatharagni and dhatvagni level. In vatarakta, the vitiated vata dosha affects jatharagni to cause vishamagni and rakta dhatvagni. This impairment leads to increase in blood and serological parameters like uric acid, C-reactive protein etc. These can be used as biomarkers for assessment of efficacy of therapy.\n\nIn process of rakta-dhatvagni, sira (vessels) and kandara (tendons) are byproducts. Therefore, impairment of rakta-dhatvagni leads to involvement of deep vessels and connective tissues. This indicates vatarakta also covers diseases like vasculitis along with thrombosis and embolism, Thromboangiitis obliterans (Burger’s disease), and Raynaud’s disease.\n\nThe chapter explains various conditions of involvement of dosha, dushya and the site of vitiation. Treatment depends upon the assessment and correction of these factors causing the conditions.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Vatarakta_Chikitsa_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s06.030"
+}

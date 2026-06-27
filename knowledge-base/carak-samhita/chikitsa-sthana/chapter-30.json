@@ -1,0 +1,1091 @@
+{
+  "sthana": "Chikitsa Sthana",
+  "sthanaNumber": 6,
+  "chapterNumber": 30,
+  "titleEnglish": "Genital tract disorders",
+  "titleSanskrit": "Yonivyapat Chikitsa Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातो योनिव्यापच्चिकित्सितं व्याख्यास्यामः ||१|| इति ह स्माह भगवानात्रेयः ||२||",
+      "english": "Now we shall expound the chapter \"Yonivyapat Chikitsa\" (Management of disorders of the genital tract). Thus said Lord Atreya.[1-2]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "दिव्यतीर्थौषधिमतश्चित्रधातुशिलावतः | \nपुण्ये हिमवतः पार्श्वे सुरसिद्धर्षिसेविते ||३|| विहरन्तं तपोयोगात्तत्त्वज्ञानार्थदर्शिनम् | \nपुनर्वसुं  जितात्मानमग्निवेशोऽनु पृष्टवान् ||४||",
+      "english": "Agnivesha asked to Punarvasu who was self controlled, seer of the ideas, spiritual knowledge, wandering besides Himalaya which was endowed with sacred water sources like Ganga, devine herbs, various metals and stones of different colors, as well as inhabited by gods, virtue of knowledge of penance accomplished by the sages. [3-4]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "भगवन्! यदपत्यानां मूलं नार्यः परं नृणाम् | \nतद्विघातो गदैश्चासां क्रियते योनिमाश्रितैः ||५|| तस्मात्तेषां समुत्पत्तिमुत्पन्नानां च लक्षणम् | \nसौषधं श्रोतुमिच्छामि प्रजानुग्रहकाम्यया ||६||",
+      "english": "Oh Lord ! The prime source of progeny is the woman. An offspring cannot be conceived if there are disorders in the genital tract. Hence,for the welfare of people, I want to hear or know the causes of disorders of the genital tract,their symptoms as well as the treatment. [5-6]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 7,
+      "devanagari": "इति शिष्येण पृष्टस्तु प्रोवाचर्षिवरोऽत्रिजः | \nविंशतिर्व्यापदो योनेर्निर्दिष्टा रोगसङ्ग्रहे ||७||",
+      "english": "Thus after queried by the disciple Agnivesha, the son of Atri, best among the sages said that twenty types of the disorders of the genital tract were mentioned in the Rogasangraha (enumeration of diseases) chapter.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 8,
+      "devanagari": "मिथ्याचारेण ताः स्त्रीणां प्रदुष्टेनार्तवेन च | \nजायन्ते बीजदोषाच्च दैवाच्च शृणु ताः पृथक् ||८||",
+      "english": "Those occur in women due to their faulty lifestyle habits, vitiated menstrual blood, defects in ovum (beeja)(hereditary or congenital defects) and the destiny. (Now) Listen about each of them.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "वातलाहारचेष्टाया वातलायाः समीरणः | \nविवृद्धो योनिमाश्रित्य योनेस्तोदं सवेदनम् ||९|| स्तम्भं पिपीलिकासृप्तिमिव कर्कशतां तथा | \nकरोति सुप्तिमायासं वातजांश्चापरान् गदान् ||१०|| सा स्यात् सशब्दरुक्फेनतनुरूक्षार्तवाऽनिलात् |",
+      "english": "If woman of vatika constitution follows vata-aggravating diet and life style, then vata gets aggravated and reaches the genital tract. This leads to piercing pain, stiffness, feeling of crawling of ants, hardness, numbness and exhaustion. Beside this, other vatika disorders are likely to occur. Vitiated yoni due to vata, secretes frothy, thin, rough menstrual blood with sound and pain. [9-10]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 11,
+      "devanagari": "व्यापत्कट्वम्ललवणक्षाराद्यैः पित्तजा भवेत् ||११|| दाहपाकज्वरोष्णार्ता नीलपीतासितार्तवा | \nभृशोष्णकुणपस्रावा योनिः स्यात्पित्तदूषिता||१२||",
+      "english": "Due to excessive use of pungent, sour, salty, alkaline substances etc. pitta dominant type of disorders of the genital tract are prone to occur. In the vagina, which is vitiated by pitta, the burning sensation, suppuration (inflammation) and heat occurs with the feeling of fever and heat. The menstrual blood flow is of blue, yellow and black color with excessive heat and as the smell of cadaver. [11-12]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 13,
+      "devanagari": "कफोऽभिष्यन्दिभिर्वृद्धो योनिं चेद्दूषयेत् स्त्रियाः | \nस कुर्यात् पिच्छिलां शीतां कण्डुग्रस्ताल्पवेदनाम् ||१३|| पाण्डुवर्णां तथा पाण्डुपिच्छिलार्तववाहिनीम् |",
+      "english": "If kapha aggravating substances are used in excess then kapha gets aggravated and affects the genital tract of woman which makes it slimy, cold, associated with itching and mild pain. Woman becomes pale and secretes the pale and slimy menstrual blood.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 14,
+      "devanagari": "समश्नन्त्या रसान् सर्वान्दूषयित्वा त्रयो मलाः ||१४|| योनिगर्भाशयस्थाः स्वैर्योनिं युञ्जन्ति लक्षणैः | \nसा भवेद्दाहशूलार्ता श्वेतपिच्छिलवाहिनी ||१५|",
+      "english": "When a woman uses all the rasas in excess and by mixing wholesome and unwholesome food articles together, then all three dosha located in her uterus vitiate the genital tract and produce their symptoms. Thus the vitiated genital tract suffers from the burning sensation and pain and discharges the white, slimy menstrual blood. [14-15]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 16,
+      "devanagari": "रक्तपित्तकरैर्नार्या रक्तं पित्तेन दूषितम् | \nअतिप्रवर्तते योन्यां लब्धे गर्भेऽपि सासृजा ||१६||",
+      "english": "The menstrual blood (stored in yoni) is vitiated by the pitta due to excessive intake of rakta &amp; pitta aggravating diet and lifestyle, then even after conception, the menstrual blood flows excessively. It is known as asrija (raktaja) yoni. Here, even after conception, the pregnancy does not continue because of the excessive flow of blood. So in place of Asrijasome scholars read it as \"Apraja\".",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "योनिगर्भाशयस्थं चेत् पित्तं सन्दूषयेदसृक् | \nसाऽरजस्का मता कार्श्यवैवर्ण्यजननी भृशम् ||१७||",
+      "english": "If the blood is vitiated by the pitta which is located in the genital tract and uterus, then the patient becomes emaciated and develops abnormal complexion. This condition is known as Arajaska.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 18,
+      "devanagari": "योन्यामधावनात् कण्डूं जाताः कुर्वन्ति जन्तवः | \nसा स्यादचरणा कण्ड्वा तयाऽतिनरकाङ्क्षिणी ||१८||",
+      "english": "When a woman does not wash her external genitalia , then micro-organisms (bacteria, virus) are likely to grow and cause itching, by which woman has frequent desire of man. This is known as Acharna.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 19,
+      "devanagari": "पवनोऽतिव्यवायेन शोफसुप्तिरुजः स्त्रियाः | \nकरोति कुपितो योनौ सा चातिचरणा मता ||१९||",
+      "english": "Due to excessive coitus, the vata gets aggravated and causes swelling, numbness, pain in female genital tract. This is known as Aticharana.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "मैथुनादतिबालायाः पृष्ठकट्यूरुवङ्क्षणम् | \nरुजन् दूषयते योनिं वायुः प्राक्चरणा हि सा ||२०||",
+      "english": "When the sexual intercourse is performed in too premature (younger/adolescent) girls, then vata gets aggravated leading to vitiation of the genital tract and produces pain in back, waist, thighs and groins. This is known as Prakcharana.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "गर्भिण्याः श्लेष्मलाभ्यासाच्छर्दिनिःश्वासनिग्रहात् | \nवायुः क्रुद्धः कफं योनिमुपनीय प्रदूषयेत् ||२१|| पाण्डुं सतोदमास्रावं श्वेतं स्रवति वा कफम् | \nकफवातामयव्याप्ता सा स्याद्योनिरुपप्लुता ||२२||",
+      "english": "If a woman ingests kapha aggravating substances and suppresses the urges of vomiting and expiration, then vitiated vayu carries the aggravated kapha to the genital tract and leads to its vitiation. In this condition pale colored fluid with piercing pain or white mucus is secreted. The defects of kapha and vata are involved in this genital disorder. This is known as upapluta [21-22]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 23,
+      "devanagari": "पित्तलाया नृसंवासे क्षवथूद्गारधारणात् | \nपित्तसम्मूर्च्छितो वायुर्योनिं दूषयति स्त्रियाः ||२३|| शूना स्पर्शाक्षमा सार्तिर्नीलपीतमसृक् स्रवेत् | \nश्रोणिवङ्क्षणपृष्ठार्तिज्वरार्तायाः परिप्लुता ||२४||",
+      "english": "When a woman of pitta dominant constitution uses the pitta aggravating things, suppresses the urges of sneezing and eructation during coitus, then vayu mixed with pitta gets aggravated affecting the female genital tract. Due to this woman suffers from fever and yoni (female genital tract) becomes swollen, inflamed, tender and painful. The menstrual blood becomes blue, yellow in colour and associated with pain in pelvis, groin and back. This is known as paripluta. [23-24]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "वेगोदावर्तनाद्योनिमुदावर्तयतेऽनिलः | \nसा रुगार्ता रजः कृच्छ्रेणोदावृत्तं विमुञ्चति ||२५|| आर्तवे सा विमुक्ते तु तत्क्षणं लभते सुखम् | \nरजसो गमनादूर्ध्वं ज्ञेयोदावर्तिनी बुधैः ||२६||",
+      "english": "When natural urges are suppressed, then vayu goes upwards and takes the genital tract in upward direction (retroversion condition). Due to this, severe pain occurs by which eviction of the menstrual blood is very difficult because of its upward tendency. After discharge of menstrual blood, pain subsides. It is known by the wise physician as udavartini because of the upward course of menstrual blood.[25-26]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "अकाले वाहमानाया गर्भेण पिहितोऽनिलः | \nकर्णिकां जनयेद्योनौ श्लेष्मरक्तेन मूर्च्छितः ||२७|| रक्तमार्गावरोधिन्या सा  तया कर्णिनी मता |२८|",
+      "english": "If woman, without labor pain strains untimely to deliver a fetus, vayu gets obstructed by the fetus and combined with kapha and blood it produces small muscular sprouts or knots called \"Karnika\" in the yoni which obstructs the passage of menstrual blood. This is known as karnini.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 28,
+      "devanagari": "रौक्ष्याद्वायुर्यदा गर्भं जातं जातं विनाशयेत् ||२८|| दुष्टशोणितजं नार्याः पुत्रघ्नी नाम सा मता |२९|",
+      "english": "Due to dryness (consumption of ununctuous diet and lifestyle), the aggravated vayu destroys the fetus which is formed by the abnormal shonita causing repeated loss of pregnancy.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 29,
+      "devanagari": "व्यवायमतितृप्ताया भजन्त्यास्त्वन्नपीडितः ||२९|| वायुर्मिथ्यास्थिताङ्गाया योनिस्रोतसि संस्थितः | \nवक्रयत्याननं योन्याः  साऽस्थिमांसानिलार्तिभिः ||३०|| भृशार्तिर्मैथुनाशक्ता योनिरन्तर्मुखी मता |३१|",
+      "english": "When a woman overeats and indulges in coitus in an abnormal posture, then vayu situated in genital tract and pressed with food, twists the opening of Yoni and produces different types of vatika pains in the bone and muscles. There is severe pain in vagina leading to intolerance of coital act. This is known as antarmukhi. [29-30]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "गर्भस्थायाः स्त्रिया रौक्ष्याद्वायुर्योनिं प्रदूषयन् ||३१|| मातृदोषादणुद्वारां कुर्यात् सूचीमुखी तु सा |३२|",
+      "english": "If pregnant woman consumes the vata aggravating ununctuous diet and lifestyle, then the yoni (genital tract) of female fetus is affected. Due to this, orifice of Yoni becomes narrow. This anatomical defect happening in female fetus is due to faulty habits of mother and it is known as suchimukhi.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 32,
+      "devanagari": "व्यवायकाले रुन्धन्त्या वेगान् प्रकुपितोऽनिलः ||३२|| कुर्याद्विण्मूत्रसङ्गार्तिं शोषं योनिमुखस्य च |३३|",
+      "english": "During coitus, if the natural urges are suppressed, then vitiated vayu causes pain and retention of feces and urine, dryness of the vaginal orifice. This is known as sushkayoni.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 33,
+      "devanagari": "षडहात् सप्तरात्राद्वा शुक्रं गर्भाशयं गतम् ||३३|| सरुजं नीरुजं वाऽपि या स्रवेत् सा तु वामिनी |३४|",
+      "english": "The condition in which there is expulsion of the shukra with or without pain within six or seven days after entry in the uterus, is known as vamini.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 34,
+      "devanagari": "बीजदोषात्तु गर्भस्थमारुतोपहताशया ||३४|| नृद्वेषिण्यस्तनी चैव षण्ढी स्यादनुपक्रमा |३५|",
+      "english": "Due to the genetic defects and abnormalities of sperm and ovum of the parents, the uterus of the female fetus is affected with abnormal vata. The woman dislikes the males and is having underdeveloped breasts. This is incurable and is known as shandhi.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 35,
+      "devanagari": "विषमं दुःखशय्यायां मैथुनात् कुपितोऽनिलः ||३५|| गर्भाशयस्य योन्याश्च मुखं विष्टम्भयेत् स्त्रियाः | \nअसंवृतमुखी सार्ती रूक्षफेनास्रवाहिनी ||३६|| मांसोत्सन्ना महायोनिः पर्ववङ्क्षणशूलिनी |३७|",
+      "english": "If coitus is performed with difficulty on an uncomfortable bed, the vitiated vata dilates the orifices of uterus and vagina. By this, vaginal opening is unclosed, painful and rough, frothy menstrual blood comes out. There is muscular protuberance in the vagina and there is associated pain in the joints and groin. This is known as mahayoni. [35-37]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 37,
+      "devanagari": "इत्येतैर्लक्षणैः प्रोक्ता विंशतिर्योनिजा गदाः ||३७|| न शुक्रं धारयत्येभिर्दोषैर्योनिरुपद्रुता | \nतस्माद्गर्भं न गृह्णाति स्त्री गच्छत्यामयान् बहून् ||३८|| गुल्मार्शःप्रदरादींश्च वाताद्यैश्चातिपीडनम् |३९|",
+      "english": "Thus, the twenty female gynecological disorders (disorders of the genital tract) have been described based upon clinical features. The affected yoni (uterus) due to these defects is unable to hold the semen (sperm). So, woman does not conceive and suffers from gulma, piles, heavy bleeding and gets afflicted with various disorders of vata, pitta and kapha. [37-39]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "आसां षोडश यास्त्वन्त्या आद्ये द्वे पित्तदोषजे ||३९|| परिप्लुता वामिनी च वातपित्तात्मिके मते | \nकर्णिन्युपप्लुते वातकफाच्छेषास्तु वातजाः ||४०|| देहं वातादयस्तासां स्वैर्लिङ्गैः पीडयन्ति हि |४१|",
+      "english": "Sixteen disorders mentioned in the end (excluding those four, described first with specific dosha dominance). Among these, the first two are caused by pitta dosha.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 41,
+      "devanagari": "स्नेहनस्वेदबस्त्यादि वातजास्वनिलापहम् ||४१|| कारयेद्रक्तपित्तघ्नं शीतं पित्तकृतासु च | \nश्लेष्मजासु च रूक्षोष्णं कर्म कुर्याद्विचक्षणः ||४२|| सन्निपाते विमिश्रं तु संसृष्टासु च कारयेत् |",
+      "english": "In vatika disorders, vata alleviating procedures such as snehana (unction), swedana(fomentation), basti (enema) should be prescribed.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 43,
+      "devanagari": "स्निग्धस्विन्नां तथा योनिं दुःस्थितां स्थापयेत्पुनः ||४३|| पाणिना नामयेज्जिह्मां संवृतां वर्धयेत् पुनः | \nप्रवेशयेन्निःसृतां च विवृतां परिवर्तयेत् ||४४|| योनिः स्थानापवृत्ता हि शल्यभूता मता स्त्रियाः |",
+      "english": "If vagina or genital organs are displaced from their place, it should be brought to its normal position after the snehana (unction) and swedana (fomentation).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 45,
+      "devanagari": "सर्वां व्यापन्नयोनिं तु कर्मभिर्वमनादिभिः ||४५|| मृदुभिः पञ्चभिर्नारीं स्निग्धस्विन्नामुपाचरेत् |",
+      "english": "In all the disorders of the genital tract, female should be treated with application of five mild vamanadi (evacuative) measures after snehana (unction) and swedana (fomentation).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 46,
+      "devanagari": "सर्वतः सुविशुद्धायाः शेषं कर्म विधीयते ||४६||",
+      "english": "Now when woman is evacuated by the mild application of five evacuative measures, remaining measures should be applied.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 47,
+      "devanagari": "वातव्याधिहरं कर्म वातार्तानां सदा हितम् | \nऔदकानूपजैर्मांसैः क्षीरैः सतिलतण्डुलैः ||४७|| सवातघ्नौषधैर्नाडीकुम्भीस्वेदैरुपाचरेत् | \nअक्तां लवणतैलेन साश्मप्रस्तरसङ्करैः ||४८|| स्विन्नां कोष्णाम्बुसिक्ताङ्गीं वातघ्नैर्भोजयेद्रसैः |४९|",
+      "english": "The woman who is suffering from the vataja yoni roga (disorders of genital tract, affected by the vata), vata alleviating treatment is always beneficial. Yoni (vagina) should be fomented with the meat of aquatic and marshy animals or milk mixed with sesame and rice and vata-alleviating drugs. Or vagina should be massaged with salt and oil and fomented with warm iron, stone or bolus. When vagina is completely smooth, then woman should take the bath with warm water and take vata alleviating meat soup. [47-49]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 49,
+      "devanagari": "बलाद्रोणद्वयक्वाथे घृततैलाढकं  पचेत् ||४९|| स्थिरापयस्याजीवन्तीवीरर्षभकजीवकैः | \nश्रावणीपिप्पलीमुद्गपीलुमाषाख्यपर्णिभिः ||५०|| शर्कराक्षीरकाकोलीकाकनासाभिरेव च | \nपिष्टैश्चतुर्गुणक्षीरे सिद्धं पेयं यथाबलम् ||५१|| वातपित्तकृतान् रोगान् हत्वा गर्भं दधाति तत् |",
+      "english": "One adhaka (approx. 2.50kg) ghrita and oil mixed and should be cooked in the two drone decoction (approx. 20 lts.) of bala, At the time of preparation, the decoction of paste of sariwana, payasya, jivanti, veera, rishbhaka, jivaka, shravani, pippali, mudaga parni, pilu, mashaparni, sharkara, ksheerakakoli and kakanasa should be mixed. This should be cooked tactfully along with the mixing of four times (four adhaka) milk. After processed, it should be used according to strength. It helps in conception after treating the yoni rogas (genital disorders) caused by the vata and pitta. [49-51]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 52,
+      "devanagari": "काश्मर्यत्रिफलाद्राक्षाकासमर्दपरूषकैः ||५२|| पुनर्नवाद्विरजनीकाकनासासहचरैः | \nशतावर्या गुडूच्याश्च प्रस्थमक्षसमैर्घृतात् ||५३|| साधितं  योनिवातघ्नं गर्भदं परमं पिबेत् |",
+      "english": "One prastha (approx. 640 gm) ghrita should be cooked with the paste of one karsha each of kashmarya, triphala, draksha, kasamarda, parushaka, punarnava, haridra, daruharidra, kakanasa, sahachara, shatavari and guduchi. This should be taken to destroy the vataja yoni roga and is best for conception.[52-53]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 54,
+      "devanagari": "पिप्पलीकुञ्चिकाजाजिवृषकं सैन्धवं वचाम् ||५४|| यवक्षाराजमोदे च शर्करां चित्रकं तथा | \nपिष्ट्वा सर्पिषि भृष्टानि पाययेत् प्रसन्नया ||५५|| योनिपार्श्वार्तिहृद्रोगगुल्मार्शोविनिवृत्तये |",
+      "english": "The equal quantity of pippali, upakunchika, jiraka, vrishaka, saindhava, vacha, yavakshara, ajmoda, sharkara, and chitraka mula should be crushed, fried in ghrita and consumed after mixing with prasanna (clear wine).It helps to alleviate the pain in vagina, flanks, heart diseases, gulma and the piles. [54-55]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 56,
+      "devanagari": "वृषकं मातुलुङ्गस्य मूलानि मदयन्तिकाम् ||५६|| पिबेत् सलवणैर्मद्यैः पिप्पलीकुञ्चिके तथा |",
+      "english": "Vrishaka, matulunga mula, madayantika should be pounded and drink with wine and rock salt. Or pippali and upakunchika should also be pounded and drink with alcohol and rock salt. Both these preparations helps to pacify the pain of vagina (genital tract).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 57,
+      "devanagari": "रास्नाश्वदंष्ट्रावृषकैः पिबेच्छूले शृतं पयः ||५७|| गुडूचीत्रिफलादन्तीक्वाथैश्च परिषेचयेत् |",
+      "english": "In case of pain in vagina the rasna, shwadransta, vrishaka should be pasted and cooked with milk or yoni should be irrigated with the decoction of guduchi, triphala and dantimula in equal parts. It helps to relieve the yonishula.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 58,
+      "devanagari": "सैन्धवं तगरं कुष्ठं बृहती देवदारु च ||५८|| समांशैः साधितं कल्कैस्तैलं धार्यं रुजापहम् |",
+      "english": "Oil should be cooked with the paste of equal parts of saindhava, tagara, kushtha, brahati and devadaru. Tamponing in vagina with this medicated oil helps to relieve the yonishula.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 59,
+      "devanagari": "गुडूचीमालतीरास्नाबलामधुकचित्रकैः ||५९|| निदिग्धिकादेवदारुयूथिकाभिश्च कार्षिकैः | \nतैलप्रस्थं गवां मूत्रे क्षीरे च द्विगुणे पचेत् ||६०|| वातार्तायाः पिचुं दद्याद्योनौ च प्रणयेत्ततः |",
+      "english": "One prastha oil (approx. 640ml) should be cooked with the paste of guduchi, jati, rasna, bala, madhuka, chitraka, kantakari, devadaru, yuthika each 1-1 karsha (10gm) along with the cow’s urine and milk (two prastha each). The vaginal tamponing should be done with this oil especially in those who suffer from Vata predominant Yonivyapad. This oil should also be used for uttarabasti. [59-60]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 61,
+      "devanagari": "वातार्तानां च योनीनां सेकाभ्यङ्गपिचुक्रियाः ||६१|| (उष्णाः स्निग्धाः प्रकर्तव्यास्तैलानि स्नेहनानि च) |",
+      "english": "The vatika disorders of the female genital tract should be treated with warm and unctous substances in the form of irrigation, massage and tamponing. The oil for unction (snehana) should be prepared and used.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 62,
+      "devanagari": "हिंस्राकल्कं तु वातार्ता कोष्णमभ्यज्य धारयेत् | \nपञ्चवल्कस्य पित्तार्ता श्यामादीनां कफातुरा ||६२||",
+      "english": "If the vagina is afflicted due to vata, it should be massaged with warm oil and the paste of hanspadi root should be retained.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 63,
+      "devanagari": "पित्तलानां तु योनीनां सेकाभ्यङ्गपिचुक्रियाः | \nशीताः पित्तहराः कार्याः स्नेहनार्थं घृतानि च ||६३|| (पित्तघ्नौषधसिद्धानि कार्याणि भिषजा तथा) |",
+      "english": "In gynaecological disorders (disorders of the genital tract) which are caused by pitta then cold, pitta alleviating irrigation, massage and tamponing etc. should be done. A vaidya should use the ghrita (processed with vata alleviating drugs) for unction (snehana).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 64,
+      "devanagari": "शतावरीमूलतुलाश्चतस्रः सम्प्रपीडयेत् ||६४|| रसेन क्षीरतुल्येन पचेत्तेन घृताढकम् | \nजीवनीयैः शतावर्या मृद्वीकाभिः परूषकैः ||६५|| पिष्टैः प्रियालैश्चाक्षांशैर्द्वियष्टिमधुकैर्भिषक् | \nसिद्धे शीते च मधुनः पिप्पल्याश्च पलाष्टकम् ||६६|| सितादशपलोन्मिश्राल्लिह्यात् पाणितलं ततः | \nयोन्यसृक्शुक्रदोषघ्नं वृष्यं पुंसवनं च तत् ||६७|| क्षतं क्षयं रक्तपित्तं कासं श्वासं हलीमकम् | \nकामलां वातरक्तं च वीसर्पं हृच्छिरोग्रहम् ||६८|| उन्मादारत्यपस्मारान् वातपित्तात्मकाञ्जयेत् | \nइति बृहच्छतावरीघृतम् |",
+      "english": "Four tula (16 kg) shatavari root should be crushed to evict the juice. With this juice, an equal quantity of milk to be mixed and one adhaka (2.56 kg) ghrita should be cooked with the paste of jivaniya varga(vitalizer) drugs, shatavari, draksha, parushaka, priyala and two types of madhuka one karsha (10gm) each. When ghrita is prepared, it should be poured and cooled. Then it is mixed with honey, pippali powder each eight pala (320 gm) and sugar 10 pala (400 gm). This should be used in dose of one karsha (10 gm). It relieves the abnormalities or defects of the genital tract, menses and the semen. It is an aphrodisiac and helps in healthy progeny. It helps to treat the chest wound, tuberculosis or wasting, internal hemorrhage (raktapitta), cough, dyspnea, halimaka, kamala (jaundice), vatarakta, visarpa, heart diseases, shiroroga and insanity, restlessness, epilepsy and other caused by the vata and pitta dosha. [64-68]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 69,
+      "devanagari": "एवमेव क्षीरसर्पिर्जीवनीयोपसाधितम् ||६९|| गर्भदं पित्तलानां च योनीनां स्याद्भिषग्जितम् |७०|",
+      "english": "Thus, milk and ghrita processed with vitalizer drugs (jivaniya varga) helps in conception and it is the best treatment for the paittika disorders of the female genital tract.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 70,
+      "devanagari": "योन्यां श्लेष्मप्रदुष्टायां वर्तिः संशोधनी हिता ||७०|| वाराहे बहुशः पित्ते भावितैर्लक्तकैः कृता |",
+      "english": "In the kaphaja disorders of the female genital tract, the application of cleansing suppository made of piece of cloth and impregnated many times in the bile of pig is beneficial.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 71,
+      "devanagari": "भावितं पयसाऽर्कस्य यवचूर्णं ससैन्धवम् ||७१|| वर्तिः कृता मुहुर्धार्या ततः सेच्या सुखाम्बुना |",
+      "english": "The suppository made of rock salt and barley should be impregnated with milk of Arka and it should be kept in vagina frequently and after this vagina should be washed with warm water.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 72,
+      "devanagari": "पिप्पल्या मरिचैर्माषैः शताह्वाकुष्ठसैन्धवैः ||७२|| वर्तिस्तुल्या प्रदेशिन्या धार्या योनिविशोधनी |७३|",
+      "english": "In kaphaja disorders of the genital tract, the suppository should be made as the size of index finger with the paste of pippali, maricha, masha, shatahva, kushtha and rock salt and it should be kept in vagina for cleansing.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 73,
+      "devanagari": "उदुम्बरशलाटूनां द्रोणमब्द्रोणसंयुतम् ||७३|| सपञ्चवल्ककुलकमालतीनिम्बपल्लवम् | \nनिशां स्थाप्य जले तस्मिंस्तैलप्रस्थं विपाचयेत् ||७४|| लाक्षाधवपलाशत्वङ्निर्यासैः शाल्मलेन च | \nपिष्टैः सिद्धस्य तैलस्य पिचुं योनौ निधापयेत् ||७५|| सशर्करैः कषायैश्च शीतैः कुर्वीत सेचनम् | \nपिच्छिला विवृता कालदुष्टा योनिश्च दारुणा ||७६|| सप्ताहाच्छुध्यति क्षिप्रमपत्यं चापि विन्दति |",
+      "english": "Unripe fruit of udumbara, panchavalkala, kulattha, leaves of jati and nimba should be taken in equal part and all in quantity of one drona (10.24 kg). All these should be crushed and soaked in one drone (10.24 lts) of water overnight. In early morning should be pressed with hands and pour the water. In this extract one prastha oil should be mixed and cooked with the paste of lac, dhava, bark and exudation or gum of palash and shalmali, each 1-1 karsha (10 gms) each.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 77,
+      "devanagari": "उदुम्बरस्य दुग्धेन षट्कृत्वो भावितात्तिलात् ||७७|| तैलं क्वाथेन तस्यैव सिद्धं धार्यं च पूर्ववत् |",
+      "english": "Oil should be extracted from the sesame seeds which are impregnated six times with the milk of udumbara and cooked in the decoction of udumbara. With this oil a tampon should be put into the vagina.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 78,
+      "devanagari": "धातक्यामलकीपत्रस्रोतोजमधुकोत्पलैः ||७८|| जम्ब्वाम्रमध्यकासीसलोध्रकट्फलतिन्दुकैः | \nसौराष्ट्रिकादाडिमत्वगुदुम्बरशलाटुभिः ||७९|| अक्षमात्रैरजामूत्रे क्षीरे च द्विगुणे पचेत् | \nतैलप्रस्थं पिचुं दद्याद्योनौ च प्रणयेत्ततः ||८०|| कटीपृष्ठत्रिकाभ्यङ्गं स्नेहबस्तिं च दापयेत् | \nपिच्छिला स्राविणी  योनिर्विप्लुतोपप्लुता तथा ||८१|| उत्ताना चोन्नता शूना सिध्येत् सस्फोटशूलिनी |",
+      "english": "Dhataki flower, leaves of amalaki, srotanjana, madhuka, utpala, seed pulp of jambu and mango, kasisa, lodhra, katphala, tinduka, saurashtrika, covering of pomegranate, tender fruits of udumbara, each should be taken one karsha (10 gms each), pounded and pasted and cooked in the double quantity of goat’s urine and milk.Then one prastha (640 ml) oil should be mixed and cooked. With this oil, vaginal tamponing should be done and followed by the massage of the pelvis or waist, back and the sacral region. Anuvasana basti (unctuous enema) should be given with this oil. This oil should be used to treat the pichchhila yoni, discharges from the vagina, vipluta,Upapluta, antarmukhi, suchimukhi yoni and also the swelling and eruptions in the yoni. [78-81]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 82,
+      "devanagari": "करीरधवनिम्बार्कवेणुकोशाम्रजाम्बवैः ||८२|| जिङ्गिनीवृषमूलानां क्वाथैर्मार्द्वीकसीधुभिः | \nसशुक्तैर्धावनं मिश्रैर्योन्यास्रावविनाशनम् ||८३|| कुर्यात् सतक्रगोमूत्रशुक्तैर्वा त्रिफलारसैः |८४|",
+      "english": "The vagina should be washed with the decoction of karira, dhava, bark of nimba, flower of arka, venu, koshamra, jambu, roots of jingini and vasa, mixed with sidhu and sukta (vinegar) of draksha. It helps to treat the vaginal discharges or vagina should be washed with the decoction or juice of triphala mixed with takra (butter milk), cow’s urine or sukta. [82-83]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 84,
+      "devanagari": "पिप्पल्ययोरजःपथ्याप्रयोगा मधुना हिताः ||८४||",
+      "english": "This powder of pippali, lohabhasma and haritaki mixed with honey is useful in vaginal discharges.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 85,
+      "devanagari": "श्लेष्मलायां कटुप्रायाः समूत्रा बस्तयो हिताः | \nपित्ते समधुरक्षीरा वाते तैलाम्लसंयुताः ||८५|| सन्निपातसमुत्थायाः कर्म साधारणं हितम् |८६|",
+      "english": "In case of genital tract disorders with predominance of kapha, basti ]of pungent drugs(predominantly) along with cow’s urine is beneficial.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 86,
+      "devanagari": "रक्तयोन्यामसृग्वर्णैरनुबन्धं समीक्ष्य च ||८६|| ततः कुर्याद्यथादोषं रक्तस्थापनमौषधम् |",
+      "english": "In rakta yoni (bleeding through the vagina), the color of bleeding should be observed for the association of dosha and hemostatic drugs should be used according to the involvement of dosha.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 87,
+      "devanagari": "तिलचूर्णं दधि घृतं फाणितं शौकरी वसा ||८७|| क्षौद्रेण संयुतं पेयं वातासृग्दरनाशनम् |",
+      "english": "For relief (alleviation) of vataja asrigdara(menorrhagia due to vata), powder of sesame, curd, ghee, phanitam, pigfat all mixed with honey and should be used.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 88,
+      "devanagari": "वराहस्य रसो मेद्यः सकौलत्थोऽनिलाधिके ||८८|| शर्कराक्षौद्रयष्ट्याह्वनागरैर्वा युतं दधि |",
+      "english": "The use of fat rich pig flesh juice mixed with the decoction of kulattha destroys the vataja asrigdara or curd prepared with the sugar, honey, yashtimadhu and shunthi is beneficial in vataja asrigdara.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 89,
+      "devanagari": "पयस्योत्पलशालूकबिसकालीयकाम्बुदम् ||८९|| सपयःशर्कराक्षौद्रं पैत्तिकेऽसृग्दरे  पिबेत् |९०|",
+      "english": "In paittika pradara roga, payasya, uttapala, shaluka, bisa, kaliyaka, musta, all these together or single drug should be taken along with milk, sugar and honey.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 90,
+      "devanagari": "पाठा जम्ब्वाम्रयोर्मध्यं शिलोद्भेदं रसाञ्जनम् ||९०|| अम्बष्ठा शाल्मलीश्लेषं समङ्गां वत्सकत्वचम् | \nबाह्लीकातिविषे बिल्वं मुस्तं लोध्रं सगैरिकम् ||९१|| कट्वङ्गं मरिचं शुण्ठीं मृद्वीकां रक्तचन्दनम् | \nकट्फलं वत्सकानन्ताधातकीमधुकार्जुनम् ||९२|| पुष्येणोद्धृत्य तुल्यानि सूक्ष्मचूर्णानि कारयेत् | \nतानि क्षौद्रेण संयोज्य पिबेत्तण्डुलवारिणा ||९३|| अर्शःसु चातिसारेषु रक्तं यच्चोपवेश्यते | \nदोषागन्तुकृता ये च बालानां तांश्च नाशयेत् ||९४|| योनिदोषं रजोदोषं श्वेतं नीलं सपीतकम् | \nस्त्रीणां श्यावारुणं यच्च प्रसह्य विनिवर्तयेत् ||९५|| चूर्णं पुष्यानुगं नाम हितमात्रेयपूजितम् |९६| इति पुष्यानुगचूर्णम् |",
+      "english": "Patha, kernel of jamun, kernel of mango, shilabheda, rasanjana, ambashtha, mocharasa, lajjalu, bark of kutaja, kesara, ativisha, bilva, musta, lodhra, gairika, aralu, maricha, shunthi, mridvika, red sandal, katphala, indrayava, ananta, dhataki, madhuka and arjuna all these drugs should be collected in pushya constellation in equal quantity. Prepare the fine powder of these. It should be given to lick with madhu and followed by rice water. It helps to stop the bleeding caused by the piles and diarrhea. It also stops the bleeding in children caused by the dosha or extraneous factor. It cures the genital tract disorders, menstrual disorders and discharges as white, blue, yellow, blackish and reddish. This powder named as pushyanuga is praised by Atreya and extremely beneficial in above mentioned disorders. [90-96]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 96,
+      "devanagari": "तण्डुलीयकमूलं तु सक्षौद्रं तण्डुलाम्बुना ||९६|| रसाञ्जनं च लाक्षां च छागेन पयसा पिबेत् |",
+      "english": "The paste of tanduliyaka mula mixed with honey should be taken with rice water and rasanjana and lac should be drink with goat’s milk.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 97,
+      "devanagari": "पत्रकल्कौ घृते भृष्टौ राजादनकपित्थयोः ||९७|| पित्तानिलहरौ, पैत्ते सर्वथैवास्रपित्तजित् |",
+      "english": "Paste of rasanjana and kapittha leaves, roasted in ghee destroys the disorders due to pitta and kapha.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 98,
+      "devanagari": "मधुकं त्रिफलां लोध्रं मुस्तं सौराष्ट्रिकां मधु ||९८|| मद्यैर्निम्बगुडूच्यौ वा कफजेऽसृग्दरे पिबेत् |",
+      "english": "In kaphaja asrigdara, fine powder (kaphadachana) of mulethi, amalaki, haridra, baheda, lodhra, musta, sourashtrika in equal quantity, should be taken in dose of one gm with honey. Or the paste of nimba leaves and guduchi should be taken with liquor.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 99,
+      "devanagari": "विरेचनं महातिक्तं पैत्तिकेऽसृग्दरे पिबेत् ||९९|| हितं गर्भपरिस्रावे यच्चोक्तं तच्च कारयेत् |१००|",
+      "english": "In paittika type of pradara, mahatikta ghrita should be used for purgation. The beneficial measures mentioned in management of abortion should be followed.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 100,
+      "devanagari": "काश्मर्यकुटजक्वाथसिद्धमुत्तरबस्तिना ||१००|| रक्तयोन्यरजस्कानां पुत्रघ्न्याश्च हितं घृतम् |",
+      "english": "Ghrita prepared with the decoction of kashmarya and kutaja should be used in raktayoni, arajaska and putraghani yonivyapada, by the uttara basti.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 101,
+      "devanagari": "मृगाजाविवराहासृग्दध्यम्लफलसर्पिषा [१] ||१०१|| अरजस्का पिबेत् सिद्धं जीवनीयैः पयोऽपि वा |",
+      "english": "The woman having arajaska (amenorrhea) yoni, should take blood of deer or goat or sheep or pig mixed with curd, sour fruit juice and ghee, in variation with sour curd, honey and ghee or she should drink milk processed with jivaniya varga (vitalizer) drugs.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 102,
+      "devanagari": "कर्णिन्यचरणाशुष्कयोनिप्राक्चरणासु च ||१०२|| कफवाते च दातव्यं तैलमुत्तरबस्तिना |",
+      "english": "The oil processed with jivaniya varga (vitalizer) drugs should be given by the uttarabasti or through the vaginal douche in these karnini, acharna, sushkayoni, prakcharna gynecological disorders and other disorders of genital tract due to kapha and vata.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 103,
+      "devanagari": "गोपित्ते मत्स्यपित्ते वा क्षौमं त्रिःसप्तभावितम् ||१०३|| मधुना किण्वचूर्णं वा दद्यादचरणापहम् | स्रोतसां शोधनं कण्डूक्लेदशोफहरं च तत् ||१०४||",
+      "english": "A flaxen cloth impregnated (bhavana) 21 times with bile of cow or bile of fish, should be kept inside the vagina or a wick prepared with the mixture of yeast (surakitta) powder and honey should be put to clean the channels of menstrual blood and it cures the itching, moisture and swelling. [103-104]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 105,
+      "devanagari": "वातघ्नैः शतपाकैश्च तैलैः प्रागतिचारिणी | आस्थाप्या चानुवास्या च स्वेद्या चानिलसूदनैः ||१०५|| स्नेहद्रव्यैस्तथाऽऽहारैरुपनाहैश्च युक्तितः |",
+      "english": "The woman suffering from prakcharna and aticharna should be administered enema (niruha and anuvasana basti) with vata alleviating oil cooked hundred times. Or sudation should be done with vata-alleviating drugs or oily food substances and poultice should be used tactically.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 106,
+      "devanagari": "शताह्वायवगोधूमकिण्वकुष्ठप्रियङ्गुभिः ||१०६|| बलाखुपर्णिकाश्र्याह्वैः संयावो धारणः स्मृतः |",
+      "english": "A wick (utkarika) cooked with the paste of ground drugs shatahva (aniseed), barley, wheat, yeast, kushtha, priyangu, bala, akhuparni, gandhaviroja should be put into the vagina. This purifies the aticharana and acharana yoni and becomes fit for conception.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 107,
+      "devanagari": "वामिन्युपप्लुतानां च स्नेहस्वेदादिकः क्रमः ||१०७|| कार्यस्ततः स्नेहपिचुस्ततः सन्तर्पणं भवेत् |",
+      "english": "In vamini and upapluta disorders, oleation and sudation should be done. After this yoni should be saturated with the application of unctuous tampons. After fomentation, a cloth soaked in vata alleviating oil should be kept into the vagina.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 108,
+      "devanagari": "शल्लकीजिङ्गिनीजम्बूधवत्वक्पञ्चवल्कलैः ||१०८|| कषायैः साधितः स्नेहपिचुः स्याद्विप्लुतापहः |",
+      "english": "A tampon or cloth soaked in oil, cooked with the decoction of bark of sallaki, jingini (majitha), bark of jambu, bark of dhava, panchavalkala (vata, pipal, paras, gular, pakad) should be put in vagina which purifies the vipluta yoni.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 109,
+      "devanagari": "कर्णिन्यां वर्तिका कुष्ठपिप्पल्यर्काग्रसैन्धवैः ||१०९|| बस्तमूत्रकृता धार्या सर्वं च श्लेष्मनुद्धितम् |",
+      "english": "In karnini yoni roga, a long, fatty suppository or a wick as an index finger, made up of equal parts of kushtha, pippali, front part of leaf of madara, rock salt pasted with goat’s urine, should be applied into the vagina. Besides, all kapha alleviating measures should be used.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 110,
+      "devanagari": "त्रैवृतं स्नेहनं स्वेदो ग्राम्यानूपौदका रसाः ||११०|| दशमूलपयोबस्तिश्चोदावर्तानिलार्तिषु | \nत्रैवृतेनानुवास्या च बस्तिश्चोत्तरसञ्ज्ञितः ||१११|| एतदेव महायोन्यां स्रस्तायां च विधीयते |",
+      "english": "In udavarta yoni and vatika disorders, unction (snehana) with traivruta sneha (mixture of ghee,oil and animal fat) and fomentation (swedana), meat soup of birds and animals living in domestic,marshy area or in water are beneficial. Basti with milk processed using dashamula should be given. The unctuous enema (anuvasana basti) and uttarabasti with traivruta sneha are efficacious. The same treatment should be given in mahayoni and srasta yoni.[110-111]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 112,
+      "devanagari": "वसा  ऋक्षवराहाणां घृतं च मधुरैः शृतम् ||११२|| पूरयित्वा  महायोनिं बध्नीयात् क्षौमलक्तकैः |",
+      "english": "Fat of bear and pig or cow’s ghrita with sweet drugs should be put into mahayoni and bandaged the yoni with flaxen piece. Here bandaging gives support and helps plugged fat or ghrita not leak out of vagina.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 113,
+      "devanagari": "प्रस्रस्तां सर्पिषाऽभ्यज्य क्षीरस्विन्नां प्रवेश्य च ||११३|| बध्नीयाद्वेशवारस्य पिण्डेनामूत्रकालतः |",
+      "english": "Uterus or genital organs which are displaced, should be massaged with ghrita first, after that fomentation or sudation should be done with milk. After proper fomentation, the displaced genital organs or uterus should be placed inside manually, bandaging should be done after putting the bolus of vesavara into the vagina. This bandage should not be removed till the urge of micturition.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 114,
+      "devanagari": "यच्च वातविकाराणां कर्मोक्तं तच्च कारयेत् ||११४|| सर्वव्यापत्सु मतिमान्महायोन्यां विशेषतः |",
+      "english": "It should be decided by the skilled physician that the remedy or treatment of vatika disorders should be applied in all types of yonivyapat disorders and specially in mahayoni.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 115,
+      "devanagari": "नहि वातादृते योनिर्नारीणां सम्प्रदुष्यति ||११५|| शमयित्वा तमन्यस्य कुर्याद्दोषस्य भेषजम् |११६|",
+      "english": "The yoni (genital tract or uterus) is never vitiated without involvement of vata dosha. So, vata should be pacified first then treat other dosha. [115-116]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 116,
+      "devanagari": "रोहीतकान्मूलकल्कं पाण्डुरेऽसृग्दरे पिबेत् ||११६|| जलेनामलकीबीजं कल्कं वा ससितामधुम् |",
+      "english": "In shweta pradara (excessive whitish discharge), the paste of root of rohitaka should be taken with water or pasted seeds or amalaki mixed with sugar and honey should be taken with water.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 117,
+      "devanagari": "मधुनाऽऽमलकाच्चूर्णं रसं वा लेहयेच्च  ताम् ||११७|| न्यग्रोधत्वक्कषायेण लोध्रकल्कं तथा पिबेत् | \nआस्रावे क्षौमपट्टं वा भावितं तेन धारयेत् ||११८|| प्लक्षत्वक्चूर्णपिण्डं वा धारयेन्मधुना कृतम् | \nयोन्या स्नेहाक्तया लोध्रप्रियङ्गुमधुकस्य वा ||११९|| धार्या मधुयुता वर्तिः कषायाणां च सर्वशः | \nस्रावच्छेदार्थमभ्यक्तां धूपयेद्वा घृताप्लुतैः ||१२०|| सरलागुग्गुलुयवैः सतैलकटुमत्स्यकैः |",
+      "english": "The woman suffering from shweta pradara should be advised to lick the powder or juice of amalaki, mixed with honey. She should take the paste of lodhra with the decoction of bark of nyagrodha or in case of excessive discharge, a flaxen cloth should be impregnated with the decoction of nyagrodha and put into the vagina.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 121,
+      "devanagari": "कासीसं त्रिफला काङ्क्षी समङ्गाऽऽम्रास्थि धातकी ||१२१|| पैच्छिल्ये क्षौद्रसंयुक्तश्चूर्णो वैशद्यकारकः |",
+      "english": "In pichchhila yoni roga, a powder of kasisa, triphala, saurashtri, lajjalu, amra seeds and dhataki mixed with honey should be applied into the vagina. It makes the genital tract clean.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 122,
+      "devanagari": "पलाशसर्जजम्बूत्वक्समङ्गामोचधातकीः ||१२२|| \nसपिच्छिलापरिक्लिन्नास्तम्भनः कल्क इष्यते |",
+      "english": "A paste of bark of palasha, sarja, bark of jambu, lajjalu, mocharasa, flower of dhataki should be applied locally. It cures the sliminess (greasiness) and wetness of the genital tract.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 123,
+      "devanagari": "स्तब्धानां कर्कशानां च कार्यं मार्दवकारकम् ||१२३|| धारयेद्वेशवारं वा पायसं कृशरां तथा |",
+      "english": "In stiffed (stambha) and hard (karkash) genital tract, the seeds of softness or flabbiness should be adopted and vesavara or payasa or krishara should be retained in vagina.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 124,
+      "devanagari": "दुर्गन्धानां कषायः स्यात्तौवरः कल्क एव वा ||१२४|| चूर्णं वा सर्वगन्धानां पूतिगन्धापकर्षणम् |",
+      "english": "In foul smell from the genital tract, the decoction of tuvaraka should be used to clean or wash or paste of tuvaraka should be applied or the powder of sarvagandha dravyas helps to remove the foul smell.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 125,
+      "devanagari": "एवं योनिषु शुद्धासु गर्भं विन्दन्ति योषितः ||१२५|| अदुष्टे प्राकृते बीजे जीवोपक्रमणे सति |१२६|",
+      "english": "Thus when the genital tract is purified and the seeds (sperm and ovum) are normal (in their own form), undamaged, then the jivatma or consciousness wants to come into the fetus (garbha) then women conceive.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 126,
+      "devanagari": "पञ्चकर्मविशुद्धस्य पुरुषस्यापि चेन्द्रियम् ||१२६|| परीक्ष्य वर्णैर्दोषाणां दुष्टं तद्घ्नैरुपाचरेत् |१२७|",
+      "english": "The purification of man should be done by five measures (Panchakarma) and Shukra(semen) should be examined in terms of Varna(colour) etc for assessing the involvement of vitiated dosha and he should be treated with those drugs which pacify the vitiated dosha in semen. [126-127]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 127,
+      "devanagari": "भवन्ति चात्र- सलिङ्गा व्यापदो योनेः सनिदानचिकित्सिताः ||१२७|| उक्ता विस्तरतः सम्यङ्मुनिना तत्त्वदर्शिना |",
+      "english": "The disorders of the female genital tract along with the symptoms, causes and treatment have been said in detail by the sage Atreya.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 128,
+      "devanagari": "पुनरेवाग्निवेशस्तु पप्रच्छ भिषजां वरम् ||१२८|| आत्रेयमुपसङ्गम्य शुक्रदोषास्त्वयाऽनघ! | \nरोगाध्याये समुद्दिष्टा ह्यष्टौ पुंसामशेषतः ||१२९|| तेषां हेतुं भिषक्श्रेष्ठ! दुष्टादुष्टस्य चाकृतिम् | \nचिकित्सितं च कार्त्स्न्येन क्लैब्यं यच्च चतुर्विधम् ||१३०|| उपद्रवेषु योनीनां प्रदरो यश्च कीर्तितः | \nतेषां निदानं लिङ्गं च चिकित्सां चैव तत्त्वतः ||१३१|| समासव्यासभेदेन प्रब्रूहि भिषजांवर! |",
+      "english": "Agnivesha approached Atreya, the best preceptor among physicians, and asked that Oh ! Innocent or sinless, you have mentioned the eight defects of semen in the chapter on diseases in Sutra Sthana. Oh best among the phsyicians, you have told about the causes of eight defects of semen (shukra), symptoms of normal and abnormal semen, its proper treatment, four types of impotency and pradara (menorrhea or D.U.B.)as mentioned as a complication of disorders of genital tract or uterus. please explain me, in brief as well as in detail about etiology, symptoms and proper treatment of those disorders. [128-131] Atreya, the foremost or leading among the sages, said to devoted Agnivesha.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 132,
+      "devanagari": "तस्मै शुश्रूषमाणाय प्रोवाच मुनिपुङ्गवः ||१३२|| बीजं यस्माद्व्यवाये तु हर्षयोनिसमुत्थितम् | \nशुक्रं पौरुषमित्युक्तं तस्माद्वक्ष्यामि तच्छृणु ||१३३|| यथा बीजमकालाम्बुकृमिकीटाग्निदूषितम् | \nन विरोहति सन्दुष्टं तथा शुक्रं शरीरिणाम् ||१३४|| अतिव्यवायाद्व्यायामादसात्म्यानां च सेवनात् | \nअकाले वाऽप्ययोनौ वा मैथुनं न च गच्छतः ||१३५|| रूक्षतिक्तकषायातिलवणाम्लोष्णसेवनात् | \nनारीणामरसज्ञानां गमनाज्जरया तथा ||१३६|| चिन्ताशोकादविस्रम्भाच्छस्त्रक्षाराग्निविभ्रमात् | \nभयात्क्रोधादभीचाराद्व्याधिभिः कर्शितस्य च ||१३७|| वेगाघातात् क्षताच्चापि धातूनां सम्प्रदूषणात् | \nदोषाः पृथक् समस्ता वा प्राप्य रेतोवहाः सिराः ||१३८|| शुक्रं सन्दूषयन्त्याश ... |१३९|",
+      "english": "As the semen (shukra) gets ejaculated as a result of excitement and it is the sign of masculinity. The reason behind calling it as seed will be explained by me . The seed as an effect of delighted coitus, has been described as shukra,it is the male characteristic known as semen. As the (plant) seed at inappropriate time, affected by unseasonal rains, worms, pests &amp; fire does not grow out, in the same way the semen (does not grow up) in human body.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 139,
+      "devanagari": "... तद्वक्ष्यामि विभागशः | \t\nफेनिलं तनु रूक्षं च विवर्णं पूति पिच्छिलम् ||१३९|| अन्यधातूपसंसृष्टमवसादि तथाऽष्टमम् | \nफेनिलं तनु रूक्षं च कृच्छ्रेणाल्पं च मारुतात् ||१४०|| भवत्युपहतं शुक्रं न तद्गर्भाय कल्पते | \nसनीलमथवा पीतमत्युष्णं पूतिगन्धि च ||१४१|| दहल्लिङ्गं विनिर्याति शुक्रं पित्तेन दूषितम् | \nश्लेष्मणा बद्धमार्गं तु भवत्यत्यर्थपिच्छिलम् ||१४२|| स्त्रीणामत्यर्थगमनादभिघातात् क्षतादपि | \nशुक्रं प्रवर्तते जन्तोः प्रायेण रुधिरान्वयम् ||१४३|| वेगसन्धारणाच्छुक्रं वायुना विहतं पथि | \nकृच्छ्रेण याति ग्रथितमवसादि तथाऽऽष्टमम् ||१४४|| इति दोषाः समाख्याताः शुक्रस्याष्टौ सलक्षणाः |",
+      "english": "It is (The disorders of shukra) being described discretely.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 145,
+      "devanagari": "स्निग्धं घनं पिच्छिलं च मधुरं चाविदाहि च ||१४५|| रेतः शुद्धं विजानीयाच्छ्वेतं स्फटिकसन्निभम् |१४६|",
+      "english": "(Retah)virile semen which is snigdha (unctous), ghana (viscous), picchila (slimy), madhura (sweet), avidahi (non-blazing), looking like white crystal quartz; known as normal (semen).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 146,
+      "devanagari": "वाजीकरणयोगैस्तैरुपयोगसुखैर्हितैः ||१४६|| रक्तपित्तहरैर्योगैर्योनिव्यापदिकैस्तथा | \nदुष्टं यदा भवेच्छुक्रं तदा तत् समुपाचरेत् ||१४७|| घृतं च जीवनीयं यच्च्यवनप्राश एव च | \nगिरिजस्य प्रयोगश्च रेतोदोषानपोहति ||१४८|| वातान्विते हिताः शुक्रे निरूहाः सानुवासनाः | \nअभयामलकीयं च पैत्ते शस्तं रसायनम् ||१४९|| मागध्यमृतलोहानां त्रिफलाया रसायनम्| \nकफोत्थितं शुक्रदोषं हन्याद्भल्लातकस्य च||१५०|| यदन्यधातुसंसृष्टं शुक्रं तद्वीक्ष्य युक्तितः| \nयथादोषं प्रयुञ्जीत दोषधातुभिषग्जितम्||१५१|| सर्पिः पयो रसाः शालिर्यवगोधूमषष्टिकाः|\nप्रशस्ताः शुक्रदोषेषु बस्तिकर्म विशेषतः||१५२|| इत्यष्टशुक्रदोषाणां मुनिनोक्तं चिकित्सितम्|१५३|",
+      "english": "In case of diseases of semen, treatment with use of vajikarana formulations (aphrodisiac) are beneficial.The formulations which are Raktapittahara in nature, and those explained in the context of Yonivyapad can also be used according to the nature of vitiation. Management with jeevaneeya ghritam, chyavanaprasham, (girija) shilajatu remove the diseases of virile semen.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 153,
+      "devanagari": "रेतोदोषोद्भवं क्लैब्यं यस्माच्छुद्ध्यैव सिध्यति ||१५३|| ततो वक्ष्यामि ते सम्यगग्निवेश! यथातथम् |१५४|",
+      "english": "An impotency due to disorders of semen is cured by elimination of the disorder; which is appropriately being described as it is (Agnivesha).[153-154]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 154,
+      "devanagari": "बीजध्वजोपघाताभ्यां जरया शुक्रसङ्क्षयात् ||१५४|| क्लैब्यं सम्पद्यते तस्य शृणु सामान्यलक्षणम् | \nसङ्कल्पप्रवणो नित्यं प्रियां वश्यामपि स्त्रियम् ||१५५|| न याति लिङ्गशैथिल्यात् कदाचिद्याति वा यदि | \nश्वासार्तः स्विन्नगात्रश्च मोघसङ्कल्पचेष्टितः ||१५६|| म्लानशिश्नश्च निर्बीजः  स्यादेतत् क्लैब्यलक्षणम् | \nसामान्यलक्षणं ह्येतद्विस्तरेण प्रवक्ष्यते ||१५७||",
+      "english": "Common symptoms of the impotency caused by the beeja-upaghata (hereditary/congenital defect), dhwajopaghata (erectile dysfunction), jara (senility), shukrasamkshaya (diminished semen) shall be explained.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 158,
+      "devanagari": "शीतरूक्षाल्पसङ्क्लिष्टविरुद्धाजीर्णभोजनात्| \nशोकचिन्ताभयत्रासात् स्त्रीणां चात्यर्थसेवनात् ||१५८|| अभिचारादविस्रम्भाद्रसादीनां च सङ्क्षयात् | \nवातादीनां च वैषम्यात्तथैवानशनाच्छ्रमात् ||१५९|| नारीणामरसज्ञत्वात् पञ्चकर्मापचारतः | \nबीजोपघाताद्भवति पाण्डुवर्णः सुदुर्बलः ||१६०|| अल्पप्राणोऽल्पहर्षश्च प्रमदासु भवेन्नरः | \nहृत्पाण्डुरोगतमककामलाश्रमपीडितः ||१६१|| छर्द्यतीसारशूलार्तः कासज्वरनिपीडितः | \nबीजोपघातजं क्लैब्यं ... |१६२|",
+      "english": "Intake of sheeta (cold), ruksha (arid), less, sanklishta (muddled), incompatible, unprocessed food; shoka (anguish), chinta (apprehension), bhaya (fear), trasa (trouble), excess indulgence in women, exorcism, suspicion, deficiency of Rasadi dhatu, dosha imbalances (vata,pitta, kapha), fasting, exertion, unawareness of female interests, undergoing incorrect Panchakarma, and deficient semen leads to pallor, weak, less vital person with incomplete erection (even) for young women; may get affected with disorders of the heart, pandu, tamaka (disorders of respiratory system), kamala (liver disorders), exhaustion, vomiting, diarrhea, colic, cough, and jwara (fever). This impotency is due to loss of beeja (sperms).[158-162]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 162,
+      "devanagari": "... ध्वजभङ्गकृतं शृणु ||१६२|| अत्यम्ललवणक्षारविरुद्धासात्म्यभोजनात् | \nअत्यम्बुपानाद्विषमात् पिष्टान्नगुरुभोजनात् ||१६३|| दधिक्षीरानूपमांससेवनाद्व्याधिकर्षणात् | \nकन्यानां चैव गमनादयोनिगमनादपि ||१६४|| दीर्घरोगां चिरोत्सृष्टां तथैव च रजस्वलाम् | \nदुर्गन्धां दुष्टयोनिं च तथैव च परिस्रुताम् ||१६५|| ईदृशीं प्रमदां मोहाद्यो गच्छेत् कामहर्षितः | \nचतुष्पदाभिगमनाच्छेफसश्चाभिघाततः ||१६६|| अधावनाद्वा मेढ्रस्य शस्त्रदन्तनखक्षतात् | \nकाष्ठप्रहारनिष्पेषाच्छूकानां चातिसेवनात् ||१६७|| रेतसश्च प्रतीघाताद्ध्वजभङ्गः प्रवर्तते | (भवन्ति यानि रूपाणि तस्य वक्ष्याम्यतः परम्) | \nश्वयथुर्वेदना मेढ्रे रागश्चैवोपलक्ष्यते ||१६८|| स्फोटाश्च तीव्रा जायन्ते लिङ्गपाको भवत्यपि | \nमांसवृद्धिर्भवेच्चास्य व्रणाः क्षिप्रं भवन्त्यपि ||१६९|| पुलाकोदकसङ्काशः स्रावः श्यावारुणप्रभः | \nवलयीकुरुते चापि कठिनश्च परिग्रहः ||१७०|| ज्वरस्तृष्णा भ्रमो मूर्च्छा च्छर्दिश्चास्योपजायते | \nरक्तं कृष्णं स्रवेच्चापि नीलमाविललोहितम् ||१७१|| अग्निनेव च दग्धस्य तीव्रो दाहः सवेदनः | \nबस्तौ वृषणयोर्वाऽपि सीवन्यां वङ्क्षणेषु च ||१७२|| कदाचित्पिच्छिलो वाऽपि पाण्डुः स्रावश्च जायते | \nश्वयथुर्जायते मन्दः स्तिमितोऽल्पपरिस्रवः ||१७३|| चिराच्च पाकं व्रजति शीघ्रं वाऽथ प्रमुच्यते | \nजायन्ते क्रिमयश्चापि क्लिद्यते पूतिगन्धि च ||१७४|| विशीर्यते मणिश्चास्य मेढ्रं मुष्कावथापि च | \nध्वजभङ्गकृतं क्लैब्यमित्येतत् समुदाहृतम् ||१७५|| एतं पञ्चविधं केचिद्ध्वजभङ्गं प्रचक्षते |१७६|",
+      "english": "Lets us understand that (the impotency) due to erectile dysfunction.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 176,
+      "devanagari": "क्लैब्यं जरासम्भवं हि प्रवक्ष्याम्यथ तच्छृणु ||१७६|| जघन्यमध्यप्रवरं वयस्त्रिविधमुच्यते | \nअतिप्रवयसां शुक्रं प्रायशः क्षीयते नृणाम् ||१७७|| रसादीनां सङ्क्षयाच्च तथैवावृष्यसेवनात् | \nबलवीर्येन्द्रियाणां च क्रमेणैव परिक्षयात् ||१७८|| परिक्षयादायुषश्चाप्यनाहाराच्छ्रमात् क्लमात् | \nजरासम्भवजं क्लैब्यमित्येतैर्हेतुभिर्नृणाम् ||१७९|| जायते तेन सोऽत्यर्थं क्षीणधातुः सुदुर्बलः | \nविवर्णो दुर्बलो दीनः क्षिप्रं व्याधिमथाश्नुते ||१८०|| एतज्जरासम्भवं हि ... |१८१|",
+      "english": "The impotency due to senility is being described here for understanding.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 181,
+      "devanagari": "... चतुर्थं क्षयजं शृणु | \nअतीव चिन्तनाच्चैव शोकात्क्रोधाद्भयात्तथा ||१८१|| ईर्ष्योत्कण्ठामदोद्वेगान् सदा विशति यो नरः | \nकृशो वा सेवते रूक्षमन्नपानं तथौषधम् ||१८२|| दुर्बलप्रकृतिश्चैव निराहारो भवेद्यदि | \nअसात्म्यभोजनाच्चापि  हृदये यो व्यवस्थितः ||१८३|| रसः प्रधानधातुर्हि क्षीयेताशु ततो नृणाम् | \nरक्तादयश्च क्षीयन्ते धातवस्तस्य देहिनः ||१८४|| शुक्रावसानास्तेभ्योऽपि शुक्रं धाम परं मतम् | \nचेतसो वाऽतिहर्षेण व्यवायं सेवतेऽति यः ||१८५|| तस्याशु क्षीयते शुक्रं ततः प्राप्नोति सङ्क्षयम् | \nघोरं व्याधिमवाप्नोति मरणं वा स गच्छति ||१८६|| शुक्रं तस्माद्विशेषेण रक्ष्यमारोग्यमिच्छता | \nएवं निदानलिङ्गाभ्यामुक्तं क्लैब्यं चतुर्विधम् ||१८७|| केचित् क्लैब्ये त्वसाध्ये द्वे ध्वजभङ्गक्षयोद्भवे | \nवदन्ति शेफसश्छेदाद्वृषणोत्पाटनेन च ||१८८|| मातापित्रोर्बीजदोषादशुभैश्चाकृतात्मनः | \nगर्भस्थस्य यदा दोषाः प्राप्य रेतोवहाःसिराः ||१८९|| शोषयन्त्याशु तन्नाशाद्रेतश्चाप्युपहन्यते | \nतत्र सम्पूर्णसर्वाङ्गः स भवत्यपुमान् पुमान् ||१९०|| एते त्वसाध्या व्याख्याताः सन्निपातसमुच्छ्रयात् |१९१|",
+      "english": "Let’s understand fourth (type) is kshayaja (due to deficiency)—",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 191,
+      "devanagari": "चिकित्सितमतस्तूर्ध्वं समासव्यासतः शृणु ||१९१|| शुक्रदोषेषु निर्दिष्टं भेषजं यन्मयाऽनघ! | \nक्लैब्योपशान्तये कुर्यात् क्षीणक्षतहितं च यत् ||१९२|| बस्तयः क्षीरसर्पींषि वृष्ययोगाश्च ये मताः | \nरसायनप्रयोगाश्च सर्वानेतान् प्रयोजयेत् ||१९३|| समीक्ष्य देहदोषाग्निबलं भेषजकालवित् | \nव्यवायहेतुजे क्लैब्ये तथा धातुविपर्ययात् ||१९४|| दैवव्यपाश्रयं चैव भेषजं चाभिचारजे  | \nसमासेनैतदुद्दिष्टं भेषजं क्लैब्यशान्तये ||१९५||",
+      "english": "Let’s understand general and specific treatments of above mentioned (diseases)—",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 196,
+      "devanagari": "विस्तरेण प्रवक्ष्यामि क्लैब्यानां भेषजं पुनः | \nसुस्विन्नस्निग्धगात्रस्य स्नेहयुक्तं विरेचनम् ||१९६|| अन्नाशनं ततः कुर्यादथवाऽऽस्थापनं पुनः | \nप्रदद्यान्मतिमान् वैद्यस्ततस्तमनुवासयेत् ||१९७|| पलाशैरण्डमुस्ताद्यैः पश्चादास्थापयेत्ततः | \nवाजीकरणयोगाश्च पूर्वं ये समुदाहृताः ||१९८|| भिषजा ते प्रयोज्याः स्युः क्लैब्ये बीजोपघातजे | \nध्वजभङ्गकृतं क्लैब्यं ज्ञात्वा तस्याचरेत् क्रियाम् ||१९९|| प्रदेहान् परिषेकांश्च कुर्याद्वा रक्तमोक्षणम् | \nस्नेहपानं च कुर्वीत सस्नेहं च विरेचनम् ||२००|| अनुवासं ततः कुर्यादथवाऽऽस्थापनं पुनः | \nव्रणवच्च क्रियाः सर्वास्तत्र कुर्याद्विचक्षणः ||२०१|| जरासम्भवजे क्लैब्ये क्षयजे चैव कारयेत् | \nस्नेहस्वेदोपपन्नस्य सस्नेहं शोधनं हितम् ||२०२|| क्षीरसर्पिर्वृष्ययोगा बस्तयश्चैव यापनाः | \nरसायनप्रयोगाश्च तयोर्भेषजमुच्यते ||२०३|| विस्तरेणैतदुद्दिष्टं क्लैब्यानां भेषजं मया |२०४|",
+      "english": "The treatment of the impotency is being redescribed in detail. Snehana and swedana shall be done in the patient of impotency; along with the unctuous therapeutic purgation. After that either the patient shall be nourished or asthapana basti shall be given by the sound physician followed by the anuvasana basti.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 204,
+      "devanagari": "यः पूर्वमुक्तः प्रदरः शृणु हेत्वादिभिस्तु तम् ||२०४|| याऽत्यर्थं सेवते नारी लवणाम्लगुरूणि च | \nकटून्यथ विदाहीनि स्निग्धानि पिशितानि च ||२०५|| ग्राम्यौदकानि मेद्यानि कृशरां पायसं दधि  | \nशुक्तमस्तुसुरादीनि भजन्त्याः कुपितोऽनिलः ||२०६|| रक्तं  प्रमाणमुत्क्रम्य गर्भाशयगताः सिराः | \nरजोवहाः समाश्रित्य रक्तमादाय तद्रजः ||२०७|| यस्माद्विवर्धयत्याशु रसभावाद्विमानता | \nतस्मादसृग्दरं प्राहुरेतत्तन्त्रविशारदाः ||२०८|| रजः प्रदीर्यते यस्मात् प्रदरस्तेन स स्मृतः | \nसामान्यतः समुद्दिष्टं कारणं लिङ्गमेव च ||२०९||",
+      "english": "Now listen about the Pradara (menorrhagia) which has been mentioned earlier and its etiology etc. The woman who consumes excessive salty, sour, food heavy to digest, pungent,those causing burning sensation,unctous and fatty diets, meat of domestic and aquatic animals, cooked rice with pulse (krishira), rice cooked with milk (payasa), curd, vinegar (shukta), curd water(mastu), alcohol etc. causes vitiation of vata dosha. Along with this, vitiated Rakta (because of above factors) increases its amount and such increased rakta stays in the artava vaha strotas and hence immediately increases the menstrual blood. The increased raja is by virtue of mixture with increased rakta. The erudite (experts) named it as Asrigdara and because of excessive flow of menstrual blood it is called Pradara (menorrhagia). The general causes and symptoms of Pradara are directed here. [204-209]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 210,
+      "devanagari": "चतुर्विधं व्यासतस्तु वाताद्यैः सन्निपाततः | \nअतःपरं प्रवक्ष्यामि हेत्वाकृतिभिषग्जितम् ||२१०||",
+      "english": "By description, pradara is classified in for types. Three by single dosha (vataja, pittaja, kaphaja) and the fourth type is by all three dosha (sannipataja). After this, I am describing the causes, symptoms and treatment of pradara roga.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 211,
+      "devanagari": "रूक्षादिभिर्मारुतस्तु रक्तमादाय पूर्ववत् | \nकुपितः प्रदरं कुर्याल्लक्षणं तस्य मे शृणु ||२११|| फेनिलं तनु रूक्षं च श्यावं चारुणमेव च | \nकिंशुकोदकसङ्काशं सरुजं वाऽथ नीरुजम् ||२१२|| कटिवङ्क्षणहृत्पार्श्वपृष्ठश्रोणिषु मारुतः | \nकुरुते वेदनां तीव्रामेतद्वातात्मकं विदुः ||२१३||",
+      "english": "The vitiated vata due to intake of dry diet etc, along with rakta (blood) causes pradara roga as aforesaid etiology. Now listen to the symptoms of vatika pradara. The menstrual blood is frothy, thin, rough, dark (blackish), reddish, resembling water of palasha flower in colour, comes with or without pain. During menstruation, intense pain occurs in waist, groin, cardiac region, back, flanks and pelvic region this should be known as vataja pradara. [211-213]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 214,
+      "devanagari": "अम्लोष्णलवणक्षारैः पित्तं प्रकुपितं यदा | \nपूर्ववत् प्रदरं कुर्यात् पैत्तिकं लिङ्गतः शृणु ||२१४|| सनीलमथवा पीतमत्युष्णमसितं तथा | \nनितान्तरक्तं स्रवति मुहुर्मुहुरथार्तिमत् ||२१५|| दाहरागतृषामोहज्वरभ्रमसमायुतम् | \nअसृग्दरं पैत्तिकं स्याच्छ्लैष्मिकं तु प्रवक्ष्यते ||२१६||",
+      "english": "Pitta is aggravated by intake of sour, hot, salty,alkaline things in excess, causes the pradara like aforesaid etiology. After this, listen about the symptoms of pittaja pradara. The menstrual blood is bluish, yellow or blackish in color, very hot, and it is discharged in profuse amount frequently with pain, burning, redness, thirst, mental confusion, fever and dizziness, it is known as pittaja pradara. Now kaphaja pradara will be described. [214-216]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 217,
+      "devanagari": "गुर्वादिभिर्हेतुभिश्च पूर्ववत् कुपितः कफः | \nप्रदरं कुरुते तस्य लक्षणं तत्त्वतः शृणु ||२१७|| पिच्छिलं पाण्डुवर्णं च गुरु स्निग्धं च शीतलम् | \nस्रवत्यसृक् श्लेष्मलं च घनं मन्दरुजाकरम् ||२१८|| छर्द्यरोचकहृल्लासश्वासकाससमन्वितम् | \n(वक्ष्यते [४] क्षीरदोषाणां सामान्यमिह कारणम् ||२१९|| यत्तदेव त्रिदोषस्य कारणं प्रदरस्य तु | )",
+      "english": "The vitiated kapha due to intake of heavy food or diet causes the pradara like condition and listen the exact symptoms of it. The menstrual blood flows out as greasy (slimy), pale, heavy, unctuous, cold, mixed with kapha, viscous and with mild pain. It is associated with vomiting, loss of appetite, alacrity or nausea, breathlessness and cough. (Further the general causes of vitiated milk will be described which are the causes of tridoshaja pradara). [217-219]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 220,
+      "devanagari": "त्रिलिङ्गसंयुतं विद्यान्नैकावस्थमसृग्दरम् ||२२०|| नारी त्वतिपरिक्लिष्टा यदा प्रक्षीणशोणिता | \nसर्वहेतुसमाचारादतिवृद्धस्तदाऽनिलः ||२२१|| रक्तमार्गेण सृजति प्रत्यनीकबलं कफम् | \nदुर्गन्धं पिच्छिलं पीतं विदग्धं पित्ततेजसा ||२२२|| वसां मेदश्च यावद्धि समुपादाय वेगवान् | \nसृजत्यपत्यमार्गेण सर्पिर्मज्जवसोपमम् ||२२३||",
+      "english": "If the different symptoms which are mentioned for vata, pitta and kapha are present collectively then it is said to be sannipataja pradara. When a women who is severely ill and anaemic is indulged in consuming diet capable of aggravating all dosha, the intensely aggravated vata due to use of all etiological factors, pushes out from the vagina ,the kapha which is responsible for strength . The discharge is foul smelling, slimy and yellow due to burning with the heat of pitta. Along with this, the yoni also expels with force the muscle fat etc, burnt with pitta hence resembling like marrow and blood or fat. [220-223]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 224,
+      "devanagari": "शश्वत् स्रवत्यथास्रावं तृष्णादाहज्वरान्विताम् | \nक्षीणरक्तां दुर्बलां स तामसाध्यां विवर्जयेत् ||२२४||",
+      "english": "If there is continuous discharge from the vagina of woman and associated with thirst, burning sensation and fever and if she is anemic and weak then her pradara roga is incurable, and it should not be treated.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 225,
+      "devanagari": "मासान्निष्पिच्छदाहार्ति पञ्चरात्रानुबन्धि च | \nनैवातिबहु नात्यल्पमार्तवं शुद्धमादिशेत् ||२२५|| गुञ्जाफलसवर्णं च पद्मालक्तकसन्निभम् | \nइन्द्रगोपकसङ्काशमार्तवं शुद्धमादिशेत् ||२२६||",
+      "english": "If menstrual discharge (artava) comes after a month without stickiness (sliminess), burning sensation and pain, persists for five days, neither too little nor excess in quantity then it is considered as free from dosha or normal. In color, artava (menstrual blood) should be red like gunja fruit, red lotus flower or mahavara or red as indragopaka insect, such artava is considered as normal menstrual blood. [225-226]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 227,
+      "devanagari": "योनीनां वातलाद्यानां यदुक्तमिह भेषजम् | \nचतुर्णां प्रदराणां च तत् सर्वं कारयेद्भिषक् ||२२७||",
+      "english": "The treatment of vatala and other yonivyapat which has been mentioned earlier in this chapter, should also be administered in all four types of pradara roga respectively.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 228,
+      "devanagari": "रक्तातिसारिणां यच्च तथा शोणितपित्तिनाम् | \nरक्तार्शसां च यत् प्रोक्तं भेषजं तच्च कारयेत् ||२२८||",
+      "english": "The treatment which is advised for raktatisara (diarrhea with expulsion of blood), raktapitta (internal hemorrhage) and raktarsha (bleeding piles) should be administered in pradara roga.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 229,
+      "devanagari": "धात्रीस्तनस्तन्यसम्पदुक्ता विस्तरतः पुरा | \nस्तन्यसञ्जननं चैव स्तन्यस्य च विशोधनम् ||२२९|| वातादिदुष्टे लिङ्गं च क्षीणस्य च चिकित्सितम् | \nतत्सर्वमुक्तं ये त्वष्टौ क्षीरदोषाः प्रकीर्तिताः ||२३०|| वातादिष्वेव तान् विद्याच्छास्त्रचक्षुर्भिषक्तमः | \nत्रिविधास्तु यतः शिष्यास्ततो वक्ष्यामि विस्तरम् ||२३१|",
+      "english": "The excellent characteristics of foster mother (wet nurse), breast and breast milk have been described earlier. The stanya samjanana (galactogogue), purification of milk, symptoms of breast milk vitiated by vatadi dosha, symptoms and treatment of poor breast milk production, eight types of milk defects have been mentioned earlier. The eight types of breast milk morbidities are also caused by vata (and other) dosha, which is known to physician well versed in knowledge of Ayurveda. Disciples are of three types, pravara (with high intelligence), madhyama (with mediocre intelligence) and avara (with low intelligence). Hence, for the knowledge of all three types of disciples, the details of these eight types of morbidities of breast milk is described in detail hereafter. [229-231]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 232,
+      "devanagari": "अजीर्णासात्म्यविषमविरुद्धात्यर्थभोजनात् | \nलवणाम्लकटुक्षारप्रक्लिन्नानां च सेवनात् ||२३२|| मनःशरीरसन्तापादस्वप्नान्निशि चिन्तनात् | \nप्राप्तवेगप्रतीघातादप्राप्तोदीरणेन च ||२३३|| परमान्नं गुडकृतं कृशरां दधि मन्दकम् | \nअभिष्यन्दीनि मांसानि ग्राम्यानूपौदकानि च ||२३४|| भुक्त्वा भुक्त्वा दिवास्वप्नान्मद्यस्यातिनिषेवणात् | \nअनायासादभीघातात् क्रोधाच्चातङ्ककर्शनैः ||२३५|| दोषाः क्षीरवहाः प्राप्य सिराः स्तन्यं प्रदूष्य च | \nकुर्युरष्टविधं भूयो दोषतस्तन्निबोध मे ||२३६||",
+      "english": "Due to indigestion, intake of unsuitable, irregular, excessive and contradictory food, excessive intake of salty, sour, pungent, alkaline and rotten substances, mental and physical stress, insomnia, awakening at night, anxiety, suppression of urges and propulsion of non occurring urges, frequent intake of parmanna (milk pudding), eatable substances prepared with jaggery and rice cooked with pulse (khichari), curd, slowly formed curd or which is not fully fermented, kapha stimulating food like those having \"abhishyandi\" property, meat of domestic, marshy and aquatic animals, daily sleeping during day time after having food, excess use of wine, lack of physical stress, injury, anger and emaciation of body as a result of chronic illness,vatadi dosha get vitiated and they reach the milk carrying vessels and vitiate the breast milk, thus eight types of Stanyadushti are manifested. The clinical features of vitiated breast milk by different dosha will be described hereafter. [232-236]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 237,
+      "devanagari": "वैरस्यं फेनसङ्घातो रौक्ष्यं चेत्यनिलात्मके | \nपित्ताद्वैवर्ण्यदौर्गन्ध्ये स्नेहपैच्छिल्यगौरवम् ||२३७|| कफाद्भवति रूक्षाद्यैरनिलः स्वैः प्रकोपणैः | \nक्रुद्धः क्षीराशयं प्राप्य रसं स्तन्यस्य [३] दूषयेत् ||२३८||",
+      "english": "The breast milk vitiated by vata dosha shows abnormal taste, presence of froth and roughness; whereas pitta vitiated breast milk becomes discolored and foul smelling. Due to kapha, the breast milk becomes excessive unctuous, slimy and heavy in digestion. Vata and other dosha are vitiated by intake of ununctuous and other dietary factors. These vitiated dosha reach the breast and adversely affect the taste of the milk. [237-238]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 239,
+      "devanagari": "विरसं वातसंसृष्टं कृशीभवति तत् पिबन् | \nन चास्य  स्वदते क्षीरं कृच्छ्रेण च विवर्धते ||२३९||",
+      "english": "The child who feeds on the milk of abnormal taste affected by the vata, becomes very weak. The child does not enjoy the taste of milk and thus his growth gets impaired.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 240,
+      "devanagari": "तथैव वायुः कुपितः स्तन्यमन्तर्विलोडयन् | \nकरोति फेनसङ्घातं तत्तु  कृच्छ्रात् प्रवर्तते ||२४०||",
+      "english": "The aggravated vata reaches the breast and churns the milk by which excessive froth is produced and hence such milk flows out of breast with great difficulty.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 241,
+      "devanagari": "तेन क्षामस्वरो बालो बद्धविण्मूत्रमारुतः | \nवातिकं शीर्षरोगं वा पीनसं वाऽधिगच्छति ||२४१||",
+      "english": "By consuming the frothy milk, the child’s voice becomes feeble. His stool, urine and flatus are retained. He suffers from shirorogas due to vata and pinasa (chronic coryza).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 242,
+      "devanagari": "पूर्ववत् कुपितः स्तन्ये स्नेहं शोषयतेऽनिलः | \nरूक्षं तत् पिबतो रौक्ष्याद्बलह्रासः प्रजायते ||२४२||",
+      "english": "The vitiated vata due to consumption of rough food items etc, dries up unctuousness or fat of milk. If the child takes this harsh or rough milk, it causes the decrease in strength.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 243,
+      "devanagari": "पित्तमुष्णादिभिः क्रुद्धं स्तन्याशयमभिप्लुतम् | \nकरोति स्तन्यवैवर्ण्यं नीलपीतासितादिकम् ||२४३||",
+      "english": "The vitiated pitta due to intake of hot items etc. reaches in the seat of milk and produces the discolored milk such as blue, yellow, black.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 244,
+      "devanagari": "विवर्णगात्रः स्विन्नः स्यात्तृष्णालुर्भिन्नविट् शिशुः | \nनित्यमुष्णशरीरश्च नाभिनन्दति तं स्तनम् ||२४४||",
+      "english": "If the child consumes the milk,there will be discolouration of the body and the child will also suffer from excessive perspiration, excessive feeling of thirst, diarrhea and constant warmness of body.The child also refuses or dislikes the breast feeding.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 245,
+      "devanagari": "पूर्ववत् कुपिते पित्ते दौर्गन्ध्यं क्षीरमृच्छति | \nपाण्ड्वामयस्तत्पिबतः कामला च भवेच्छिशोः ||२४५||",
+      "english": "The vitiated pitta due to intake of pitta aggravating factors produces the foul smell in the milk. If the child consumes this kind of milk, he suffers from anemia and jaundice.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 246,
+      "devanagari": "क्रुद्धो गुर्वादिभिः श्लेष्मा क्षीराशयगतः स्त्रियाः | \nस्नेहान्वितत्वात्तत्क्षीरमतिस्निग्धं करोति तु ||२४६||",
+      "english": "The vitiated kapha due to intake of heavy substances or food items etc. reaches the breast of woman and makes it too unctuous because of its own unctuous quality.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 247,
+      "devanagari": "छर्दनः कुन्थनस्तेन लालालुर्जायते शिशुः | \nनित्योपदिग्धैः स्रोतोभिर्निद्राक्लमसमन्वितः ||२४७|| श्वासकासपरीतस्तु प्रसेकतमकान्वितः |",
+      "english": "The child who takes or consumes this too unctuous (atisnigdha) milk suffers from vomiting, gripping pain, and excessive salivation. As the channels are constantly filled or smeared with kapha, the child suffers from sleep, exhaustion, breathlessness, cough, excessive dribbling of saliva and darkness (tamaka).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 248,
+      "devanagari": "अभिभूय कफः स्तन्यं पिच्छिलं कुरुते यदा ||२४८|| लालालुः शूनवक्त्राक्षिर्जडः स्यात्तत् पिबञ्छिशुः |",
+      "english": "When kapha is vitiated or predominates with its own factors, it makes the breast milk slimy. The child who consumes this slimy milk suffers from the excessive salivation, swelling of face, dull eyes and becomes inactive .",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 249,
+      "devanagari": "कफः क्षीराशयगतो गुरुत्वात् क्षीरगौरवम् ||२४९|| करोति गुरु तत् पीत्वा बालो हृद्रोगमृच्छति | \nअन्यांश्च विविधात्रोगान्कुर्यात्क्षीरसमाश्रितान् ||२५०||",
+      "english": "When aggravated Kapha which is heavy in attribute afflicts the breasts, it also causes heaviness in the milk. The child who consumes this kind of milk will suffer from heart disease and other various disorders are also caused by the heavy milk.(250)",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 251,
+      "devanagari": "क्षीरे वातादिभिर्दुष्टे सम्भवन्ति तदात्मकाः | \nतत्रादौ स्तन्यशुद्ध्यर्थं धात्रीं स्नेहोपपादिताम् ||२५१|| संस्वेद्य विधिवद्वैद्यो वमनेनोपपादयेत् |",
+      "english": "When the breast milk is vitiated by aggravated vata and other dosha, other various disorders specific to such dosha afflict the child.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 252,
+      "devanagari": "वचाप्रियङ्गुयष्ट्याह्वफलवत्सकसर्षपैः ||२५२|| कल्कैर्निम्बपटोलानां क्वाथैः सलवणैर्वमेत् |",
+      "english": "The paste of vacha, priyangu, yashtimadhu, madanaphala, kutaja and yellow mustard with saindhava lavana, mixed in the decoction of nimba and patola should be given to the wet nurse for the emesis.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 253,
+      "devanagari": "सम्यग्वान्तां यथान्यायं कृतसंसर्जनां ततः ||२५३|| दोषकालबलापेक्षी स्नेहयित्वा विरेचयेत् |",
+      "english": "After proper emesis, dhatri (wet nurse) should be administered samsarjana kriya (diet as prescribed). She should be given purgation therapy after proper oleation, considering the dosha, season and strength of patient.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 254,
+      "devanagari": "त्रिवृतामभयां वाऽपि त्रिफलारससंयुताम् ||२५४|| पाययेन्मधुसंयुक्तामभयां वाऽपि केवलाम् | \n(पाययेन्मूत्रसंयुक्तां विरेकार्थं च शास्त्रवित् ) ||२५५||",
+      "english": "Trivrit or haritaki mixed with the decoction of triphala or only powder of haritaki mixed with honey should be given.These drugs can also be given with cow’s urine, by a wise physician for the purpose of purgation. [254-255]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 256,
+      "devanagari": "सम्यग्विरिक्तां मतिमान् कृतसंसर्जनां पुनः | \nततो दोषावशेषघ्नैरन्नपानैरुपाचरेत्  ||२५६||",
+      "english": "After proper purgation, again she should be given proper dietetic regimens (sansarjana kriya should be performed) and for removal of the remaining dosha, suitable diet and drinks should be given as follows.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 257,
+      "devanagari": "शालयः षष्टिका वा स्युः श्यामाका भोजने हिताः | \nप्रियङ्गवः कोरदूषा यवा वेणुयवास्तथा ||२५७||",
+      "english": "Shali rice, shashthi rice or shyama rice, priyangu, kodrava, barley, bamboo and yava are beneficial diet.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 258,
+      "devanagari": "वंशवेत्रकलायाश्च शाकार्थे स्नेहसंस्कृताः | \nमुद्गान् मसूरान् यूषार्थे कुलत्थांश्च प्रकल्पयेत् ||२५८||",
+      "english": "For shaka, (vegetable preparation) the bamboo shoots, vetra and peas processed with ghrita or oil should be taken. Green gram,lentils and kulattha should be used for yusha (vegetarian soup).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 259,
+      "devanagari": "निम्बवेत्राग्रकुलकवार्ताकामलकैः शृतान् | \nसव्योषसैन्धवान् यूषान्दापयेत्स्तन्यशोधनान् ||२५९|| शशान् कपिञ्जलानेणान् संस्कृतांश्च प्रदापयेत् |",
+      "english": "The soup which is used for purification of breast milk, should be prepared with tender leaves of neem and vetra, parvala leaves, brinjal and amalaka added with dry zinger (shunthi), pepper, pippali and rock salt.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 260,
+      "devanagari": "शार्ङ्गेष्टासप्तपर्णत्वगश्वगन्धाशृतं जलम् ||२६०|| पाययेताथवा स्तन्यशुद्धये रोहिणीशृतम् |",
+      "english": "For purification of breast milk of dhatri; decoction of kakajangha, bark of chhativana (sapta parna) and ashwagandha or simply decoction of katuki (rohini) should be given to drink.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 261,
+      "devanagari": "अमृतासप्तपर्णत्वक्क्वाथं चैव सनागरम् ||२६१|| किराततिक्तकक्वाथं श्लोकपादेरितान् पिबेत् | \nत्रीनेतान्स्तन्यशुद्ध्यर्थमिति सामान्यभेषजम् ||२६२||",
+      "english": "The decoction of guduchi and bark of saptaparna or decoction of dry ginger (shunthi) or decoction of chiraita (kiratatikta) should be given to the dhatri for purification of milk. Thus the general medicines are described here for the purification of milk. [261-262]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 263,
+      "devanagari": "कीर्तितं स्तन्यदोषाणां पृथगन्यं निबोधत |\nपाययेद्विरसक्षीरां द्राक्षामधुकसारिवाः ||२६३|| श्लक्ष्णपिष्टां पयस्यां च समालोड्य सुखाम्बुना |",
+      "english": "Now listen the treatment of other specific defects of the breast milk.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 264,
+      "devanagari": "पञ्चकोलकुलत्थैश्च पिष्टैरालेपयेत् स्तनौ ||२६४|| शुष्कौ प्रक्षाल्य निर्दुह्यात्तथा स्तन्यं विशुध्यति |",
+      "english": "The paste of panchakola and kulatha should be applied locally on the breast and when the paste dries, it should be washed with warm water and milk to be expressed from the breast. Thus the affected milk gets purified.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 265,
+      "devanagari": "फेनसङ्घातवत्क्षीरं यस्यास्तां पाययेत् स्त्रियम् ||२६५|| पाठानागरशार्ङ्गेष्टामूर्वाः पिष्ट्वा सुखाम्बुना |",
+      "english": "The woman whose milk gets frothy, she should be given to drink the paste of patha, sunthi, kakajangha and murva with warm water.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 266,
+      "devanagari": "अञ्जनं नागरं  दारु बिल्वमूलं प्रियङ्गवः ||२६६|| स्तनयोः पूर्ववत् कार्यं लेपनं क्षीरशोधनम् |",
+      "english": "In the woman lactating thick frothy milk, the paste of anjana, shunthi, devadaru, crust of bilva root and fruit of priyangu should be applied on the breast to purify the milk. (As mentioned before after the paste dries, the breast should be cleaned with warm water and breast milk should be pumped out).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 267,
+      "devanagari": "किराततिक्तकं शुण्ठीं सामृतां क्वाथयेद्भिषक् ||२६७|| तं क्वाथं पाययेद्धात्रीं स्तन्यदोषनिबर्हणम् |",
+      "english": "The vaidya should prescribe decoction of kiratatikta shunthi and guduchi to the wet nurse to purify the defective breast milk.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 268,
+      "devanagari": "स्तनौ चालेपयेत् पिष्टैर्यवगोधूमसर्षपैः ||२६८||",
+      "english": "The paste of barley, wheat and mustard seed should be applied on the breast in the manner described previously.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 269,
+      "devanagari": "षड्विरेकाश्रितीयोक्तैरौषधैः स्तन्यशोधनैः | \nरूक्षक्षीरा  पिबेत् क्षीरं तैर्वा सिद्धं घृतं पिबेत् ||२६९||",
+      "english": "The woman having ununctuous milk should be given the milk or ghrita processed with ten stanya shodhana drugs, which are mentioned in the fourth chapter of Sutra Sthana named shadvirekashritiya.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 270,
+      "devanagari": "पूर्ववज्जीवकाद्यं च पञ्चमूलं प्रलेपनम् | \nस्तनयोः संविधातव्यं सुखोष्णं स्तन्यशोधनम् ||२७०||",
+      "english": "As earlier the lukewarm paste of jivaniya varga and five drugs of brihat panchamula should be applied over the breast for purification of breast milk. (Washing of breast and manual expression of milk after drying of paste).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 271,
+      "devanagari": "यष्टीमधुकमृद्वीकापयस्यासिन्धुवारिकाः | \nशीताम्बुना पिबेत्कल्कं क्षीरवैवर्ण्यनाशनम् ||२७१||",
+      "english": "To remove the discolouration of milk the dhatri (wetnurse) should take the paste of yashtimadhu, draksha, ksheera vidari, sindubara with cold water.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 272,
+      "devanagari": "द्राक्षामधुककल्केन स्तनौ चास्याः प्रलेपयेत् | \nप्रक्षाल्य वारिणा चैव निर्दुह्यात्तौ पुनः पुनः ||२७२||",
+      "english": "The paste of madhuka should be applied on the breasts of the dhatri and after drying it is washed with warm water and milk should be expressed repeatedly.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 273,
+      "devanagari": "विषाणिकाजशृङ्ग्यौ च त्रिफलां रजनीं वचाम् | \nपिबेच्छीताम्बुना पिष्ट्वा क्षीरदौर्गन्ध्यनाशिनीम् ||२७३||",
+      "english": "To remove the foul smell from milk, the paste of aja shringi, meshashringi, triphala, haridra and vacha should be taken with cold water.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 274,
+      "devanagari": "लिह्याद्वाऽप्यभयाचूर्णं सव्योषं माक्षिकप्लुतम् | \nक्षीरदौर्गन्ध्यनाशार्थं धात्री पथ्याशिनी तथा ||२७४||",
+      "english": "The wet nurse should follow the wholesome diet chart and should take the powder of shunthi, pippali, maricha and haritaki, mixed with honey to alleviate the foul smell from the breast milk.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 275,
+      "devanagari": "सारिवोशीरमञ्जिष्ठाश्लेष्मातककुचन्दनैः | \nपत्राम्बुचन्दनोशीरैः स्तनौ चास्याः प्रलेपयेत् ||२७५||",
+      "english": "The paste of sariva, ushira, manjishtha, bark of shlesmantaka, rakta chandana or the paste of tejapatra, sugandha bala or rakta chandana, ushira should be applied on the breasts ( when it is dried, the breast should be washed with water and milk to be expressed to remove foul smell from breast milk.)",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 276,
+      "devanagari": "स्निग्धक्षीरा दारुमुस्तपाठाः पिष्ट्वा सुखाम्बुना | \nपीत्वा ससैन्धवाः क्षिप्रं क्षीरशुद्धिमवाप्नुयात् ||२७६||",
+      "english": "The woman whose milk is too unctuous, she should take the powder of devadaru, musta, patha with rock salt and should drink with lukewarm water to purify the breast milk quickly.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 277,
+      "devanagari": "पाययेत् पिच्छिलक्षीरां शार्ङ्गेष्टामभयां वचाम् | \nमुस्तनागरपाठाश्च पीताः स्तन्यविशोधनाः ||२७७||",
+      "english": "The paste or decoction of kakamachi, haritaki, vacha, musta, shunthi and patha should be given to drink to the woman whose milk is slimy for the purification of milk.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 278,
+      "devanagari": "तक्रारिष्टं पिबेच्चापि यदुक्तं गुदजापहम् | \nविदारीबिल्वमधुकैः स्तनौ चास्याः प्रलेपयेत् ||२७८||",
+      "english": "To purify the slimy milk the dhatri (wet nurse) should take the takrarishta as prescribed in treatment of piles. She should apply the paste of vidarikanda, crust of bilva’s root and yashtimadhu on her breasts.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 279,
+      "devanagari": "त्रायमाणामृतानिम्बपटोलत्रिफलाशृतम् | \nगुरुक्षीरा पिबेदाशु स्तन्यदोषविशुद्धये ||२७९||",
+      "english": "The woman having heavy milk should take the decoction of trayamana, guduchi, bark of nimba, patola leaves, triphala for purification of defects of breast milk quickly.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 280,
+      "devanagari": "पिबेद्वा पिप्पलीमूलचव्यचित्रकनागरम् | \nबलानागरशार्ङ्गेष्टामूर्वाभिर्लेपयेत् स्तनौ ||२८०|| पृश्निपर्णीपयस्याभ्यां स्तनौ चास्याः प्रलेपयेत् |",
+      "english": "She can either drink the decoction of pippali mula, chavya, chitraka and shunthi or apply the paste of bala, shunthi, kakamachi and murva on her breasts. Similarly application of paste of prusniparni and ksheeravidari can also be done on her breasts.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 281,
+      "devanagari": "अष्टावेते क्षीरदोषा हेतुलक्षणभेषजैः ||२८१|| निर्दिष्टाः क्षीरदोषोत्थास्तथोक्ताः केचिदामयाः |२८२|",
+      "english": "Thus these eight defects of breast milk have been described here with their causes, symptoms and treatment and some ailments caused by the defects of milk have also described here. [281-282]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 282,
+      "devanagari": "दोषदूष्यमलाश्चैव महतां व्याधयश्च ये ||२८२|| त एव सर्वे बालानां मात्रा त्वल्पतरा मता | \nनिवृत्तिर्वमनादीनां मृदुत्वं परतन्त्रताम् ||२८३|| वाक्चेष्टयोरसामर्थ्यं वीक्ष्य बालेषु शास्त्रवित् | \nभेषजं स्वल्पमात्रं तु यथाव्याधि प्रयोजयेत् ||२८४|| मधुराणि कषायाणि क्षीरवन्ति मृदूनि च | \nप्रयोजयेद्भिषग्बाले मतिमानप्रमादतः ||२८५|| अत्यर्थस्निग्धरूक्षोष्णमम्लं कटुविपाकि च | \nगुरु चौषधपानान्नमेतद्बालेषु गर्हितम् ||२८६|| समासात् सर्वरोगाणामेतद्बालेषु भेषजम् | \nनिर्दिष्टं शास्त्रविद्वैद्यः प्रविविच्य  प्रयोजयेत् ||२८७||",
+      "english": "The vitiation of dosha, body elements, mala and the diseases which affect adults also affect children similarly, but in lesser degree.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 288,
+      "devanagari": "भवन्ति चात्र- इति सर्वविकाराणामुक्तमेतच्चिकित्सितम् | \nस्थानमेतद्धि तन्त्रस्य रहस्यं परमुत्तमम्||२८८||",
+      "english": "Thus has been expounded the therapeutics of all diseases; and this section of chikitsa (management) contains the most essential part of this treatise.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 289,
+      "devanagari": "अस्मिन् सप्तदशाध्यायाः कल्पाः सिद्धय एव च | \nनासाद्यन्तेऽग्निवेशस्य तन्त्रे चरकसंस्कृते ||२८९|| तानेतान् कापिलबलिः शेषान् दृढबलोऽकरोत् | \nतन्त्रस्यास्य महार्थस्य पूरणार्थं यथातथम् ||२९०||",
+      "english": "Seventeen chapters of Chikitsa Sthana, all chapters of Kalpa Sthana and Siddhi Sthana are not found in treatise composed by Agnivesha and revised by Charaka.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 291,
+      "devanagari": "रोगा येऽप्यत्र नोद्दिष्टा बहुत्वान्नामरूपतः | \nतेषामप्येतदेव स्याद्दोषादीन् वीक्ष्य भेषजम् ||२९१||",
+      "english": "The disease which are not described here due to their various names and clinical presentations shall also be treated according to the dominance of dosha, etc.factors (as mentioned earlier).",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 292,
+      "devanagari": "दोषदूष्यनिदानानां विपरीतं हितं ध्रुवम् | \nउक्तानुक्तान् गदान् सर्वान् सम्यग्युक्तं नियच्छति ||२९२||",
+      "english": "The treatment that is opposite to dosha, dushya and nidana (causative factors) is always beneficial. The diseases that are told and untold here can be treated with proper implementation of this principle.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 293,
+      "devanagari": "देशकालप्रमाणानां सात्म्यासात्म्यस्य चैव हि | \nसम्यग्योगोऽन्यथा ह्येषां पथ्यमप्यन्यथा भवेत् ||२९३||",
+      "english": "The medicines shall be prescribed after due consideration of desha (habitat), kala (season), pramana (dosage), satmya(adaptability) and asatmya (non-adaptability). If this is properly considered, then it is pathya (beneficial to body systems). Otherwise it is non-beneficial.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 294,
+      "devanagari": "आस्यादामाशयस्थान् हि रोगान् नस्तःशिरोगतान् | \nगुदात् पक्वाशयस्थांश्च हन्त्याशु दत्तमौषधम् ||२९४|| शरीरावयवोत्थेषु विसर्पपिडकादिषु | \nयथादेशं प्रदेहादि शमनं स्याद्विशेषतः ||२९५||",
+      "english": "If the doshas are located in stomach, then medicines shall be administered orally; if at head region, then through nose; and if at colon then medicines quickly act if given per rectum. The doshas at other body parts and diseases originated from them like visarpa, pidaka etc, shall be treated with pradeha etc. specific local pacification procedures. [294-295]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 296,
+      "devanagari": "दिनातुरौषधव्याधिजीर्णलिङ्गर्त्ववेक्षणम् | \nकालं विद्याद्दिनावेक्षः पूर्वाह्णे वमनं यथा ||२९६||",
+      "english": "Medicines must be administered taking into consideration of day (time), patient, type of medicine, disease, digestive status, and season. The time of administration of medicine depends on the day like emetics should be given early in the morning.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 297,
+      "devanagari": "रोग्यवेक्षो यथा प्रातर्निरन्नो बलवान् पिबेत् | \nभेषजं लघुपथ्यान्नैर्युक्तमद्यात्तु दुर्बलः ||२९७||",
+      "english": "The time of administration and the type of medicine must be decided as per the condition and diseased status of the patient. Patient in good condition who is strong should consume medicine early in the morning prior to morning meals and a person who is weak should take medicines along with food which is very light to get digested.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 298,
+      "devanagari": "भैषज्यकालो भुक्तादौ मध्ये पश्चान्मुहुर्मुहुः | \nसामुद्गं भक्तसंयुक्तं ग्रासग्रासान्तरे दश ||२९८||",
+      "english": "Ten slots or times of consuming medicines are described here. These include the two timings which are described in previous sutra, before meals, in between meals, at the end of meals, frequently,before and after the intake of light food, medicine mixed with the morsel,medicine given along with each morsel and medicine administrated in between each morsel.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 299,
+      "devanagari": "अपाने विगुणे पूर्वं, समाने मध्यभोजनम् | \nव्याने तु प्रातरशितमुदाने भोजनोत्तरम् ||२९९||",
+      "english": "In vitiation of apana vayu medicines must be consumed before food , in vitiation of samana vayu food must be consumed in between meals, in vyana [[vayu] ]vitiation early morning medication is advised and in udana vayu vitiation medicine is advised after meals.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 300,
+      "devanagari": "वायौ प्राणे प्रदुष्टे तु ग्रासग्रासान्तरिष्यते | \nश्वासकासपिपासासु त्ववचार्यं मुहुर्मुहुः ||३००||",
+      "english": "When prana vayu is vitiated medicines is to be advocated along with each morsel and in between two morsel. In diseases like shwasa, kasa, pippasa (thirst) frequent doses of medicines must be given.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 301,
+      "devanagari": "सामुद्गं हिक्किने देयं लघुनाऽन्नेन संयुतम् | \nसम्भोज्यं त्वौषधं भोज्यैर्विचित्रैररुचौ हितम् ||३०१||",
+      "english": "In diseases like hikka, medicines are to be used before and after, along with light meal to get digested. In patient with anorexia, medicines are to be given with different (attractive) meals.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 302,
+      "devanagari": "ज्वरे पेयाः कषायाश्च क्षीरं सर्पिर्विरेचनम् | \nषडहे षडहे देयं कालं वीक्ष्यामयस्य च ||३०२||",
+      "english": "Peya , kashaya ( decoction), kshira (medicated milk), medicated ghee and purgation must be advocated every six days taking into consideration status of the diseases like Jvara.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 303,
+      "devanagari": "क्षुद्वेगमोक्षौ लघुता विशुद्धिर्जीर्णलक्षणम् | \nतदा भेषजमादेयं स्याद्धि दोषवदन्यथा ||३०३||",
+      "english": "Good appetite, proper passage of natural urges like stools and urine, lightness in the body and udgāra viśuddhi(purity of eructation) are the Lakshana of jeerna (complete digestion of food). The medicines are to be given after observing these symptoms for pacifying the diseases.If medicine is given in the absence of such symptoms, it may lead to adverse effects.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 304,
+      "devanagari": "चयादयश्च दोषाणां वर्ज्यं सेव्यं च यत्र यत् | \nऋताववेक्ष्यं यत् कर्म पूर्वं सर्वमुदाहृतम् ||३०४||",
+      "english": "The pattern of vitiation of dosha as per the seasonal variation, and what are the dietary do’s and don’ts and which treatment should be administered in which season is well elaborated previously in Sutra Sthana.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 305,
+      "devanagari": "(उपक्रमाणां करणं प्रतिषेधे च कारणम् | \nव्याख्यातमबलानां सविकल्पानामवेक्षणे ||३०५||",
+      "english": "The contraindicated treatment in certain period are explained well, as well as management of a weak patient and a strong patient is very well elaborated.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 306,
+      "devanagari": "मुहुर्मुहुश्च रोगाणामवस्थामातुरस्य च | \nअवेक्षमाणस्तु भीषक् चिकित्सायां न मुह्यति) ||३०६|| इत्येवं षड्विधं कालमनवेक्ष्य भिषग्जितम् | \nप्रयुक्तमहिताय स्यात् सस्यस्याकालवर्षवत् ||३०७||",
+      "english": "That vaidya who keenly observes the status of the patient and status of the disease and then treats the patient never makes a mistake while managing the patient. The vaidya who does not follow the above six dosage timings of administration of medicines would not treat the disease properly and as unseasonal rain damages the crops; same way the medicines given at the wrong time damages health of patient. [306-307]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 308,
+      "devanagari": "व्याधीनामृत्वहोरात्रवयसां भोजनस्य च | \nविशेषो भिद्यते यस्तु कालावेक्षः स उच्यते ||३०८|| वसन्ते श्लेष्मजा रोगाः शरत्काले तु पित्तजाः | \nवर्षासु वातिकाश्चैव प्रायः प्रादुर्भवन्ति हि ||३०९||",
+      "english": "With reference to kālā, the specific classification of diseases (as per the vitiation of Dosha) during different seasons, day and night,different ages and different stages of digestion of food will be described hereafter. In general, kaphaja disorders are manifested in vasanta ritu, pittaja disorders appear during sharada ritu and vataja disorders manifest during varsha ritu. [308-309]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 310,
+      "devanagari": "निशान्ते दिवसान्ते च वर्षान्ते वातजा गदाः | \nप्रातः क्षपादौ कफजास्तयोर्मध्ये तु पित्तजाः ||३१०||",
+      "english": "End of night, end of day, end of rainy season time is prone for vataja disorders. Beginning of day, morning and evening times is susceptible for kaphaja disorders and middle time of day is prone for pittaja disorders.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 311,
+      "devanagari": "वयोन्तमध्यप्रथमे वातपित्तकफामयाः | \nबलवन्तो भवन्त्येव स्वभावाद्वयसो नृणाम् ||३११||",
+      "english": "In prathama vaya(childhood), there is predominance of kapha; in madhya vaya (youth and adulthood), there is predominance of pitta and in anta vaya (old age), there is predominance of vata dosha. These dosha have a natural predominance as per the age of the person.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 312,
+      "devanagari": "जीर्णान्ते वातजा रोगा जीर्यमाणे तु पित्तजाः | \nश्लेष्मजा भुक्तमात्रे तु लभन्ते प्रायशो बलम् ||३१२||",
+      "english": "Taking into consideration the time of digestion of food, when it gets completely digested, that is at the end of digestion vataja disorders occur; in middle of digestion pittaja disorders manifest and immediately when food is under process of digestion kapha dosha dominant disorders may appear with more severity.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 313,
+      "devanagari": "नाल्पं हन्त्यौषधं व्याधिं यथाऽऽपोऽल्पा महानलम् | \nदोषवच्चातिमात्रं स्यात्सस्यस्यात्युदकं यथा ||३१३|| सम्प्रधार्य बलं तस्मादामयस्यौषधस्य च | \nनैवातिबहु नात्यल्पं भैषज्यमवचारयेत् ||३१४||",
+      "english": "As very small quantity of water cannot extinguish big fire, similarly small doses (insufficient dose) of medicine cannot inhibit or treat disease. Similarly excess water in field damages crop, the same way excess of medicine damages health of a person. Hence medicine should be given as per the status of disease; neither should it be given in very higher dose nor in very smaller doses to treat disease.[313-314]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 315,
+      "devanagari": "औचित्याद्यस्य यत् सात्म्यं देशस्य पुरुषस्य च | \nअपथ्यमपि नैकान्तात्तत्त्यजंल्लभते सुखम् ||३१५|| बाह्लीकाः पह्लवाश्चीनाः शूलीका यवनाः शकाः | \nमांसगोधूममाध्वीकशस्त्रवैश्वानरोचिताः ||३१६|| मत्स्यसात्म्यास्तथा प्राच्याः क्षीरसात्म्याश्च सैन्धवाः | \nअश्मकावन्तिकानां तु तैलाम्लं सात्म्यमुच्यते ||३१७|| कन्दमूलफलं सात्म्यं विद्यान्मलयवासिनाम् | \nसात्म्यं दक्षिणतः पेया मन्थश्चोत्तरपश्चिमे ||३१८|| मध्यदेशे भवेत् सात्म्यं यवगोधूमगोरसाः | \nतेषां तत्सात्म्ययुक्तानि भैषजान्यवचारयेत् ||३१९|| सात्म्यं ह्याशु बलं धत्ते नातिदोषं च बह्वपि |\nयोगैरेव चिकित्सन् हि देशाद्यज्ञोऽपराध्यति ||३२०||",
+      "english": "Any food substance which is habituated to a particular person in a particular geographical area,even if they are not conducive or not wholesome to body and mind, it should not be withdrawn instantaneously. If any unwholesome food is prohibited instantly the person may not be benefited from it.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 321,
+      "devanagari": "वयोबलशरीरादिभेदा हि बहवो मताः |\nतथाऽन्तःसन्धिमार्गाणां दोषाणां गूढचारिणाम् ||३२१|| भवेत् कदाचित् कार्याऽपि विरुद्धाभिमता क्रिया | \nपित्तमन्तर्गतं गूढं  स्वेदसेकोपनाहनैः ||३२२|| नीयते बहिरुष्णैर्हि तथोष्णं शमयन्ति ते | \nबाह्यैश्च शीतैः सेकाद्यैरूष्माऽन्तर्याति पीडितः ||३२३|| सोऽन्तर्गूढं कफं हन्ति शीतं शीतैस्तथा जयेत् | \nश्लक्ष्णपिष्टो घनो लेपश्चन्दनस्यापि दाहकृत् ||३२४|| त्वग्गतस्योष्मणो रोधाच्छीतकृच्चान्यथाऽगुरोः | \nछर्दिघ्नी मक्षिकाविष्ठा मक्षिकैव तु वामयेत् ||३२५|| द्रव्येषु स्विन्नजग्धेषु चैव तेष्वेव विक्रिया |\nतस्माद्दोषौषधादीनि परीक्ष्य दशतत्वतः ||३२६|| कुर्याच्चिकित्सितं प्राज्ञो न योगैरेव केवलम् |",
+      "english": "On the basis of age, strength, physical characters etc there are innumerable types or combinations.To manage the Dosha which is deeply seated into the tissue, many procedures which seems to be opposite or contradictory as per the classical concepts may have to be advocated. For example pitta which is ushna (hot) in nature is treated by sheeta (cold) procedures generally, but the deep seated vitiated pitta is to be treated by giving hot fomentation or poultice. If cold procedures are implemented in this condition, it may worsen the condition. Similarly , deep seated kapha dosha is to be treated withsheeta procedures . Here,Lepas made out of sheeta dravyas like chandana may be applied. Even though chandana is a sheeta dravya,the lepa made out of superfine powder of chandana , if it is applied on the lesion, it will block the heat coming out of the skin. This accumulated heat creates burning at the site. In opposite, if lepa of agaru which is hot in nature is applied, it will impart coldness in that part. It is said that the stool of fly is having anti-emetic property but if someone consumes the fly,it will induces vomiting. Food substances if boiled or baked may get changed in their properties. Thus it’s important for a vaidya, that he should not depend only on the properties of the yoga (formulation). He must consider all the ten factors discussed earlier along with different types of factors, their classification and some exceptional rules while treating the disorders. [321-326]",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 327,
+      "devanagari": "निवृत्तोऽपि पुनर्व्याधिः स्वल्पेनायाति हेतुना ||३२७|| क्षीणे मार्गीकृते देहे शेषः सूक्ष्म इवानलः | \nतस्मात्तमनुबध्नीयात् प्रयोगेणानपायिना ||३२८|| सिद्ध्यर्थं प्राक्प्रयुक्तस्य सिद्धस्याप्यौषधस्य तु | \nकाठिन्यादूनभावाद्वा दोषोऽन्तः कुपितो महान् ||३२९|| पथ्यैर्मृद्वल्पतां नीतो मृदुदोषकरो भवेत् | \nपथ्यमप्यश्नतस्तस्माद्यो व्याधिरुपजायते ||३३०|| ज्ञात्वैवं वृद्धिमभ्यासमथवा तस्य कारयेत् |\nसातत्यात्स्वाद्वभावाद्वा पथ्यं द्वेष्यत्वमागतम् ||३३१|| कल्पनाविधिभिस्तैस्तैः प्रियत्वं गमयेत् पुनः |\nमनसोऽर्थानुकूल्याद्धि तुष्टिरूर्जा रुचिर्बलम् ||३३२|| सुखोपभोगता च स्याद्व्याधेश्चातो बलक्षयः | \nलौल्याद्दोषक्षयाद्व्याधेर्वैधर्म्याच्चापि या रुचिः ||३३३|| तासु पथ्योपचारः स्याद्योगेनाद्यं विकल्पयेत् |",
+      "english": "As a small sparkle of fire flares up when it comes in contact with wind or wood and gets converted into huge flames of fire. Similarly in a weak body in which previously a disease pathology had occurred and it has just recovered from the disease, whenever it gets chance, the disease may again relapse the body. Hence for the better results of the medicines administered, pathya (wholesome diet) must be followed even after the disease symptoms are completely disappeared.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 334,
+      "devanagari": "तत्र श्लोकाः- विंशतिर्व्यापदो योनेर्निदानं लिङ्गमेव च ||३३४|| चिकित्सा चापि निर्दिष्टा शिष्याणां हितकाम्यया | \nशुक्रदोषास्तथा चाष्टौ निदानाकृतिभेषजैः ||३३५|| क्लैब्यान्युक्तानि चत्वारि चत्वारः प्रदरास्तथा | \nतेषां निदानं लिङ्गं च भैषज्यं चैव कीर्तितम् ||३३६|| क्षीरदोषास्तथा चाष्टौ हेतुलिङ्गभिषग्जितैः | \nरेतसो रजसश्चैव कीर्तितं शुद्धिलक्षणम् ||३३७|| उक्तानुक्तचिकित्सा च सम्यग्योगस्तथैव च | \nदेशादिगुणशंसा च कालः षङ्विध एव च ||३३८|| देशे देशे च यत् सात्म्यं यथा वैद्योऽपराध्यति |\nचिकित्सा चापि निर्दिष्टा दोषाणां गूढचारिणाम् ||३३९|| यो हि सम्यङ्ग जानाति शास्त्रं शास्त्रार्थमेव च | \nन कुर्यात् स क्रियां चित्रमचक्षुरिव चित्रकृत् ||३४०|| अग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते | \nचिकित्सितमिदं स्थानं षष्ठं परिसमापितम् ||३४१||",
+      "english": "In this chapter of Yonivyapat Chikitsa twenty types of yoni roga, their causes, symptoms and treatment, eight types of disorders of veerya (semen), their causes, symptoms and treatment, four types of infertility and four types of pradara (vaginal discharges) their causes, symptoms and treatment, eight types of disorders of breast milk their causes, symptoms and its short and detail treatment, symptoms of shuddha shukra(normal semen) and shuddha artava(menstrual bleeding), management of explained and unexplained diseases, importance of place and time in treatment, six type of classification regarding time in general or the period regarding day, month, season etc, satmya of people residing in different area, how vaidya can cause error in conducting any treatment or procedure and treatment of deep seated dosha are explained.",
+      "section": "Genital tract disorders"
+    },
+    {
+      "verseNumber": 30,
+      "devanagari": "इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृतेऽप्राप्ते दृढबलसम्पूरिते चिकित्सास्थाने योनिव्यापच्चिकित्सितं नाम त्रिंशोऽध्यायः ||३०|| श्रीचरकसंहितायां चिकित्सितस्थानं समाप्तम् ||३१||",
+      "english": "Thus ends the thirtieth chapter of Chikitsa Sthana in the treatise by Agnivesha, revised by Charak and redacted by Dridhabala.",
+      "section": "Genital tract disorders"
+    }
+  ],
+  "tattvaVimarsha": "Yoni means origin or source. The source of birth of human being is in the male and female genital tracts. The present chapter describes the disorders of male and female genital tracts.\n\nIt largely describes disorders of female genital tract due to excessive aggravation of dosha i.e.vata, pitta, kapha and rakta. The chapter explains causes, numbers, classifications, symptoms, clinical features, complications and treatment of gynecological and menstrual disorders. Some references about this are also available in 19th chapter of Sutra Sthana.\n\nAs female is considered to be the root of a healthy offspring, due importance is given to her reproductive health especially external and internal reproductive system and the diseases which affect those. A female afflicted with any such diseases will not be able to conceive and will be susceptible for various other disorders.\n\nAbnormal diet and lifestyle, abnormalities of sperm and ovum are responsible for vitiation of dosha mainly vata dosha, causing gynecological disorders. All gynecological disorders should be managed with purvakarma like proper oleation and sudation followed by Panchakarma. Besides Panchakarma and special therapies, healthy diet, purgatives and milk are also beneficial to treat the gynecological disorders. Importance of purification before conception for healthy progeny is highlighted.\n\nThis is highly significant to prevent hereditary or genetic disorders from passing them to next generations.\n\nThe second part of this chapter deals with disorders of male genital tract. It mentions factors causing male infertility.\n\nCharacteristics of abnormal semen and dosha involvement, shuddha shukra (normal semen) characteristics, male impotency, coital dysfunction, its classifications and causes are discussed. The treatment of shukra dushti (faulty semen) and other dysfunctions need Panchakarma, rasayana and vajikarana treatment. It also gives guidelines of management of diseases in newborn originated due to defective breast milk.\n\nThe third part guides some common factors to be considered in clinical management of diseases like habitat, season, time of administration and adaptability. Consideration of assessment of dosha dominance in anukta vyadhi (diseases which are not mentioned in the text) is important guideline given in this chapter.",
+  "vidhiVimarsha": "Yoni means origin or source. The source of birth of human being is in the male and female genital tracts. The present chapter describes the disorders of male and female genital tracts.\n\nIt largely describes disorders of female genital tract due to excessive aggravation of dosha i.e.vata, pitta, kapha and rakta. The chapter explains causes, numbers, classifications, symptoms, clinical features, complications and treatment of gynecological and menstrual disorders. Some references about this are also available in 19th chapter of Sutra Sthana.\n\nAs female is considered to be the root of a healthy offspring, due importance is given to her reproductive health especially external and internal reproductive system and the diseases which affect those. A female afflicted with any such diseases will not be able to conceive and will be susceptible for various other disorders.\n\nAbnormal diet and lifestyle, abnormalities of sperm and ovum are responsible for vitiation of dosha mainly vata dosha, causing gynecological disorders. All gynecological disorders should be managed with purvakarma like proper oleation and sudation followed by Panchakarma. Besides Panchakarma and special therapies, healthy diet, purgatives and milk are also beneficial to treat the gynecological disorders. Importance of purification before conception for healthy progeny is highlighted.\n\nThis is highly significant to prevent hereditary or genetic disorders from passing them to next generations.\n\nThe second part of this chapter deals with disorders of male genital tract. It mentions factors causing male infertility.\n\nCharacteristics of abnormal semen and dosha involvement, shuddha shukra (normal semen) characteristics, male impotency, coital dysfunction, its classifications and causes are discussed. The treatment of shukra dushti (faulty semen) and other dysfunctions need Panchakarma, rasayana and vajikarana treatment. It also gives guidelines of management of diseases in newborn originated due to defective breast milk.\n\nThe third part guides some common factors to be considered in clinical management of diseases like habitat, season, time of administration and adaptability. Consideration of assessment of dosha dominance in anukta vyadhi (diseases which are not mentioned in the text) is important guideline given in this chapter.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Yonivyapat_Chikitsa_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s06.031"
+}

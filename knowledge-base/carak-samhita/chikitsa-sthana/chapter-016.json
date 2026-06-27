@@ -1,0 +1,510 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 16,
+    "chapterTitleEnglish": "Management of Pandu",
+    "chapterTitleSanskrit": "Pandu Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Pandu Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Ojha S.N.",
+    "editors": [
+      "Singh G.",
+      "Goyal M."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.017"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Pandu_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "After the description of grahani dosha, the chapter on pandu roga is given, as the causative factors of pandu roga are quite similar to that of grahani dosha. Probably it is because that the various gastrointestinal problems can also lead to development of pandu roga. The chapter deals with general discoloration of the body such as pallor, yellowish, greenish and whitish discoloration which is seen in skin, eyes, lips, face, nails, urine feces etc. Kamala (jaundice) and haleemaka (severe obstructive jaundice) have also been included in this chapter as they are also characterized by the discoloration and may relate to pandu roga. Kamala is of two types, swatantra (primary) and partantra (secondary). The etiological factors of primary kamala are described later. Secondary kamala develops in chronic phase of pandu in which vitiated pitta is seated in rasa dhatu and in kamala, pitta goes deeper in rakta dhatu and continues to go deeper in mamsa dhatu and meda dhatu, then it is called haleemaka and kumbha kamala respectively. Kamala is of two types in repect to location, shakhshrita kamala located in body tissues in the form of obstructed pitta and koshthashrita kamala, localized to gut and can be easily removed by purgation while shakhashrita kamala needs to be brought to gut for removal.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Five types of pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis of pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General etio-pathogenesis of pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitory symptoms",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General symptoms of pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vatika pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Paittika pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kaphaja pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tridoshaja pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mrittika bhakshana pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis of pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Koshthashakhashraya kamala",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kumbha kamala",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Bad prognostic symptoms of kamala",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principles of treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dadimadya ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Katukadyam ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathya ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Danti ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Drakshaghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Haridradi ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Darvyadi ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Preparations for pandu roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navayasa churnam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mandura vataka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tapayadi lauha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Yogaraja",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shilajatu Vataka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Punarnava Mandura",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Darvyadi leha and other two recipes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dhatryavaleha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mandura vatakah",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gaudo arishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Beejakarishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dhatryarishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Medicated water",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principles of treatment according to dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of mrittika bhakshanajanya pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shakhashrita kamala (kamala in body tissue with obstructive pathology)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of shakhashriat kamala",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Haleemaka (obstructive jaundice)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of haleemaka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathological factors",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General considerations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiological factors observed in present era",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kamala",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Haleemaka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Panaki",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kumbha Kamala",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of Diseases (Treatment Protocols)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Research studies on pandu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principle of treatment for kamala",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "List of Research Works done",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "IPGT&amp;RA, Jamnagar",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Banaras Hindu University, Varanasi",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "National Institute of Ayurveda, Jaipur and others",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Potential areas /scope for further research",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "After the description of grahani dosha, the chapter on pandu roga is given, as the causative factors of pandu roga are quite similar to that of grahani dosha. Probably it is because that the various gastrointestinal problems can also lead to development of pandu roga. The chapter deals with general discoloration of the body such as pallor, yellowish, greenish and whitish discoloration which is seen in skin, eyes, lips, face, nails, urine feces etc. Kamala (jaundice) and haleemaka (severe obstructive jaundice) have also been included in this chapter as they are also characterized by the discoloration and may relate to pandu roga. Kamala is of two types, swatantra (primary) and partantra (secondary). The etiological factors of primary kamala are described later. Secondary kamala develops in chronic phase of pandu in which vitiated pitta is seated in rasa dhatu and in kamala, pitta goes deeper in rakta dhatu and continues to go deeper in mamsa dhatu and meda dhatu, then it is called haleemaka and kumbha kamala respectively. Kamala is of two types in repect to location, shakhshrita kamala located in body tissues in the form of obstructed pitta and koshthashrita kamala, localized to gut and can be easily removed by purgation while shakhashrita kamala needs to be brought to gut for removal.",
+  "vidhiVimarsha": "After the description of grahani dosha, the chapter on pandu roga is given, as the causative factors of pandu roga are quite similar to that of grahani dosha. Probably it is because that the various gastrointestinal problems can also lead to development of pandu roga. The chapter deals with general discoloration of the body such as pallor, yellowish, greenish and whitish discoloration which is seen in skin, eyes, lips, face, nails, urine feces etc. Kamala (jaundice) and haleemaka (severe obstructive jaundice) have also been included in this chapter as they are also characterized by the discoloration and may relate to pandu roga. Kamala is of two types, swatantra (primary) and partantra (secondary). The etiological factors of primary kamala are described later. Secondary kamala develops in chronic phase of pandu in which vitiated pitta is seated in rasa dhatu and in kamala, pitta goes deeper in rakta dhatu and continues to go deeper in mamsa dhatu and meda dhatu, then it is called haleemaka and kumbha kamala respectively. Kamala is of two types in repect to location, shakhshrita kamala located in body tissues in the form of obstructed pitta and koshthashrita kamala, localized to gut and can be easily removed by purgation while shakhashrita kamala needs to be brought to gut for removal.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 Five types of pandu",
+    "2.2 Pathogenesis of pandu",
+    "2.3 General etio-pathogenesis of pandu",
+    "2.4 Premonitory symptoms",
+    "2.5 General symptoms of pandu",
+    "2.6 Vatika pandu",
+    "2.7 Paittika pandu",
+    "2.8 Kaphaja pandu",
+    "2.9 Tridoshaja pandu",
+    "2.10 Mrittika bhakshana pandu",
+    "2.11 Prognosis of pandu",
+    "2.12 Koshthashakhashraya kamala",
+    "2.13 Kumbha kamala",
+    "2.14 Bad prognostic symptoms of kamala",
+    "2.15 Principles of treatment",
+    "2.16 Dadimadya ghritam",
+    "2.17 Katukadyam ghritam",
+    "2.18 Pathya ghritam",
+    "2.19 Danti ghritam",
+    "2.20 Drakshaghritam",
+    "2.21 Haridradi ghritam",
+    "2.22 Darvyadi ghritam",
+    "2.23 Preparations for pandu roga",
+    "2.24 Navayasa churnam",
+    "2.25 Mandura vataka",
+    "2.26 Tapayadi lauha",
+    "2.27 Yogaraja",
+    "2.28 Various formulations",
+    "2.29 Shilajatu Vataka",
+    "2.30 Punarnava Mandura",
+    "2.31 Darvyadi leha and other two recipes",
+    "2.32 Dhatryavaleha",
+    "2.33 Mandura vatakah",
+    "2.34 Gaudo arishta",
+    "2.35 Beejakarishta",
+    "2.36 Dhatryarishta",
+    "2.37 Medicated water",
+    "2.38 Principles of treatment according to dosha",
+    "2.39 Treatment of mrittika bhakshanajanya pandu",
+    "2.40 Shakhashrita kamala (kamala in body tissue with obstructive pathology)",
+    "2.41 Treatment of shakhashriat kamala",
+    "2.42 Haleemaka (obstructive jaundice)",
+    "2.43 Treatment of haleemaka",
+    "2.44 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Pathological factors",
+    "4.2 General considerations",
+    "4.3 Etiological factors observed in present era 4.3.1 Diet",
+    "4.3.2 Lifestyle",
+    "4.3.3 Psychological factors",
+    "4.3.4 Iatrogenic factors",
+    "4.3.5 Pathophysiology",
+    "4.3.6 Clinical features and conditions resembling the disease",
+    "4.3.7 Signs",
+    "4.3.8 Symptoms",
+    "4.3.9 Differentiating features of dosha dominance",
+    "4.3.10 Consequences of dhatu kshaya",
+    "4.3.11 List of diseases with features as observed in pandu",
+    "4.4 Kamala 4.4.1 Types of kamala",
+    "4.4.2 1. Shakhashrita Kamala/Alpa pitta (Dhatu ashrita)",
+    "4.4.3 2. Kostha Shakhashrita Kamala/bahu pitta (Maha Srotasashrita)",
+    "4.5 Haleemaka",
+    "4.6 Panaki",
+    "4.7 Kumbha Kamala",
+    "4.8 Management of Diseases (Treatment Protocols) 4.8.1 Current clinical practices in treatment of pandu and kamala ( referred from Chikitsa Pradeep)",
+    "4.8.2 Evidence based clinical practices",
+    "4.9 Research studies on pandu",
+    "4.10 Principle of treatment for kamala",
+    "4.11 List of Research Works done",
+    "4.12 IPGT&amp;RA, Jamnagar",
+    "4.13 Banaras Hindu University, Varanasi",
+    "4.14 National Institute of Ayurveda, Jaipur and others",
+    "4.15 Potential areas /scope for further research",
+    "5 References"
+  ]
+}

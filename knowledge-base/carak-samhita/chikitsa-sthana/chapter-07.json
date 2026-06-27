@@ -1,0 +1,641 @@
+{
+  "sthana": "Chikitsa Sthana",
+  "sthanaNumber": 6,
+  "chapterNumber": 7,
+  "titleEnglish": "Skin diseases treatment",
+  "titleSanskrit": "Kushtha Chikitsa Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातः कुष्ठचिकित्सितं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२|| हेतुं द्रव्यं लिङ्गं कुष्ठानामाश्रयं प्रशमनं च| \nशृण्वग्निवेश! सम्यग्विशेषतः स्पर्शनघ्नानाम्||३||",
+      "english": "",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "विरोधीन्यन्नपानानि द्रवस्निग्धगुरूणि च| \nभजतामागतां छर्दिं वेगांश्चान्यान्प्रतिघ्नताम्||४|| व्यायाममतिसन्तापमतिभुक्त्वोपसेविनाम्| \nशीतोष्णलङ्घनाहारान् क्रमं मुक्त्वा निषेविणाम्||५|| घर्मश्रमभयार्तानां द्रुतं शीताम्बुसेविनाम्| \nअजीर्णाध्यशिनां चैव पञ्चकर्मापचारिणाम्||६|| नवान्नदधिमत्स्यातिलवणाम्लनिषेविणाम्| \nमाषमूलकपिष्टान्नतिलक्षीरगुडाशिनाम्||७|| व्यवायं चाप्यजीर्णेऽन्ने निद्रां च भजतां दिवा| \nविप्रान् गुरून् धर्षयतां पापं कर्म च कुर्वताम्||८||",
+      "english": "",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "वातादयस्त्रयो दुष्टास्त्वग्रक्तं मांसमम्बु च| \nदूषयन्ति स कुष्ठानां सप्तको द्रव्यसङ्ग्रहः||९|| अतः कुष्ठानि जायन्ते सप्त चैकादशैव च| \nन चैकदोषजं किञ्चित् कुष्ठं समुपलभ्यते||१०||",
+      "english": "",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 11,
+      "devanagari": "स्पर्शाज्ञत्वमतिस्वेदो न वा वैवर्ण्यमुन्नतिः| \nकोठानां लोमहर्षश्च कण्डूस्तोदः श्रमः क्लमः||११|| व्रणानामधिकं शूलं शीघ्रोत्पत्तिश्चिरस्थितिः| \nदाहः [१] सुप्ताङ्गता चेति कुष्ठलक्षणमग्रजम्||१२||",
+      "english": "Decreased touch sensation, excessive sweating or absence of sweating (which may be localized or generalized), change in color (discoloration), papules on skin, horripilation, pruritus, pricking pain, physical exhaustion, mental fatigue, severe pain in ulcerated area, sudden appearance and chronic the ulcers, burning sensation, numbness are the premonitory symptoms of skin disease.[11-12]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 13,
+      "devanagari": "अत ऊर्ध्वमष्टादशानां कुष्ठानां कपालोदुम्बरमण्डलर्ष्यजिह्वपुण्डरीकसिध्मकाकणकैककुष्ठचर्माख्य-किटिभविपादिकालसकदद्रुचर्मदलपामाविस्फोटकशतारुर्विचर्चिकानां लक्षणान्युपदेक्ष्यामः||१३||",
+      "english": "Henceforth 18 types of kushtha alongwith their signs and symptoms are described viz. kapāla, udumbara, maṇḍala, rṣyajihva, puṇḍarīka, sidhma, kākaṇaka, ekkuṣṭha, carmākhya, kiṭibha, vipādikā, alasaka, dadru, charmadala, pāmā, visphōṭaka, śatāru and vicārchikā.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 14,
+      "devanagari": "कृष्णारुणकपालाभं यद्रूक्षं परुषं तनु| \nकापालं तोदबहुलं तत्कुष्ठं विषमं स्मृतम्||१४||",
+      "english": "The clinical presentation of kapala kushtha is as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 15,
+      "devanagari": "दाहकण्डूरुजारागपरीतं लोमपिञ्जरम्| \nउदुम्बरफलाभासं कुष्ठमौदुम्बरं विदुः||१५||",
+      "english": "The clinical presentation of udumbara kushtha is as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 16,
+      "devanagari": "श्वेतं रक्तं स्थिरं स्त्यानं स्निग्धमुत्सन्नमण्डलम्| \nकृच्छ्रमन्योन्यसंसक्तं कुष्ठं मण्डलमुच्यते||१६||",
+      "english": "The clinical features of mandala kushtha are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "कर्कशं रक्तपर्यन्तमन्तः श्यावं सवेदनम्| \nयदृष्यजिह्वासंस्थानमृष्यजिह्वं तदुच्यते||१७||",
+      "english": "The clinical features of rishyajivha kushtha are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 18,
+      "devanagari": "सश्वेतं रक्तपर्यन्तं पुण्डरीकदलोपमम्| \nसोत्सेधं च सदाहं च पुण्डरीकं तदुच्यते||१८||",
+      "english": "The clinical features of pundarika kushtha are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 19,
+      "devanagari": "श्वेतं ताम्रं तनु च यद्रजो [१] घृष्टं विमुञ्चति| \nअलाबूपुष्पवर्णं तत् सिध्मं प्रायेण चोरसि||१९||",
+      "english": "The clinical features of sidhma kushtha are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "यत् काकणन्तिकावर्णमपाकं तीव्रवेदनम्| \nत्रिदोषलिङ्गं तत् कुष्ठं काकणं नैव सिध्यति||२०||",
+      "english": "The clinical features of Kākaṇaka kuṣṭha are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 1,
+      "devanagari": "इति सप्तमहाकुष्ठानि",
+      "english": "This ends the explanation of seven mahakushtha.[14-20]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 2,
+      "devanagari": "अस्वेदनं महावास्तु यन्मत्स्यशकलोपमम्| \nतदेककुष्ठ",
+      "english": "The clinical features of eka kushtha are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "चर्माख्यं बहलं हस्तिचर्मवत्||२१||",
+      "english": "The clinical features of charmakhya are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "श्यावं किणखरस्पर्शं परुषं किटिभं स्मृतम्|",
+      "english": "The clinical features of are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "वैपादिकं पाणिपादस्फुटनं तीव्रवेदनम्||२२||",
+      "english": "The clinical features are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "कण्डूमद्भिः सरागैश्च गण्डैरलसकं चितम्|",
+      "english": "The clinical features are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 23,
+      "devanagari": "सकण्डूरागपिडकं दद्रुमण्डलमुद्गतम्||२३||",
+      "english": "The clinical features are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 24,
+      "devanagari": "रक्तं [१] सकण्डु सस्फोटं सरुग्दलति चापि यत्| \nतच्चर्मदलमाख्यातं संस्पर्शासहमुच्यते||२४||",
+      "english": "The clinical features are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "पामाश्वेतारुणश्यावाः कण्डूलाः पिडका भृशम्|",
+      "english": "The clinical features are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "स्फोटाः श्वेतारुणाभासो विस्फोटाः स्युस्तनुत्वचः||२५||",
+      "english": "The clinical features are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 6,
+      "devanagari": "रक्तं श्यावं सदाहार्ति शतारुः स्याद्बहुव्रणम्|",
+      "english": "The clinical features are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 26,
+      "devanagari": "सकण्डूः पिडका श्यावा बहुस्रावा विचर्चिका||२६||",
+      "english": "The clinical features are as follows:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 7,
+      "devanagari": "इत्येकादश क्षुद्रकुष्ठानि",
+      "english": "This ends the explanation of 11 ksudrakuṣṭha.[21-26]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "वातेऽधिकतरे कुष्ठं कापालं मण्डलं कफे| \nपित्ते त्वौदुम्बरं विद्यात् काकणं तु त्रिदोषजम्||२७|| वातपित्ते श्लेष्मपित्ते वातश्लेष्मणि चाधिके| \nऋष्यजिह्वं पुण्डरीकं सिध्मकुष्ठं च जायते||२८|| चर्माख्यमेककुष्ठं च किटिमं सविपादिकम्| \nकुष्ठं चालसकं ज्ञेयं प्रायो वातकफाधिकम्||२९|| पामा शतारुर्विस्फोटं दद्रुश्चर्मदलं तथा| \nपित्तश्लेष्माधिकं प्रायः कफप्राया विचर्चिका||३०||",
+      "english": "The dosha dominance in types of kushtha is as enlisted below:",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "सर्वं त्रिदोषजं कुष्ठं दोषाणां तु बलाबलम्| \nयथास्वैर्लक्षणैर्बुद्ध्वा कुष्ठानां क्रियते क्रिया||३१|| दोषस्य यस्य पश्येत् कुष्ठेषु विशेषलिङ्गमद्रिक्तम्| \nतस्यैव शमं कुर्यात्ततः परं चानुबन्धस्य||३२||",
+      "english": "Tridosha are involved in pathogenesis of all types of kushtha. Depending on dosha predominant symptoms are manifested and treatment should be decided on the basis of symptoms shown in specific kushtha. The dosha presenting important and specific symptoms should be alleviated firstly followed by the treatment of associated dosha.[31-32]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 33,
+      "devanagari": "कुष्ठविशेषैर्दोषा दोषविशेषैः पुनश्च कुष्ठानि| \nज्ञायन्ते तैर्हेतुर्हेतुस्तांश्च [१] प्रकाशयति||३३||",
+      "english": "Specific kushtha determine the predominance of specific dosha and vice versa is also true i.e. predominance of dosha determines the specific type of kushtha. Similarly specific symptoms determine the causative factors vice versa causative factors determine the specific symptoms.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 34,
+      "devanagari": "रौक्ष्यं शोषस्तोदः शूलं सङ्कोचनं तथाऽऽयामः| \nपारुष्यं खरभावो हर्षः श्यावारुणत्वं च||३४|| कुष्ठेषु वातलिङ्गं, दाहो रागः परिस्रवः पाकः| \nविस्रो गन्धः क्लेदस्तथाऽङ्गपतनं च पित्तकृतम्||३५|| श्वैत्यं शैत्यं कण्डूः स्थैर्यं चोत्सेधगौरवस्नेहाः| \nकुष्ठेषु तु कफलिङ्गं जन्तुभिरभिभक्षणं क्लेदः||३६||",
+      "english": "Symptoms due to dosha predominance include dryness, atrophy, pricking pain / paraesthesia, pain, constriction or loss of elasticity, hardness, roughness, horripilation, blackish, brownish, slight reddish in color are manifestation of vata dosha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 37,
+      "devanagari": "सर्वैर्लिङ्गैर्युक्तं मतिमान् विवर्जयेदबलम्| \nतृष्णादाहपरीतं शान्ताग्निं जन्तुभिर्जग्धम्||३७|| वातकफप्रबलं यद्यदेकदोषोल्बणं न तत् कृच्छ्रम्| \nकफपित्त-वातपित्तप्रबलानि तु कृच्छ्रसाध्यानि||३८||",
+      "english": "If all the symptoms are simultaneously observed, in weak (immune-compromised) patient, suffering from morbid thirst, burning sensation, loss of digestive power and presence of maggots then the intelligent person should avoid treatment (as it is incurable). Further vata kapha predominated kushtha and single dosha predominated kushtha are not so difficult to treat. Whereas kapha pitta and vata pitta dominated kushtha are krichchra sadhya i.e. curable, but with efforts. [37-38]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "वातोत्तरेषु सर्पिर्वमनं श्लेष्मोत्तरेषु कुष्ठेषु| \nपित्तोत्तरेषु मोक्षो रक्तस्य विरेचनं चाग्रे||३९||",
+      "english": "In vataja kushtha, firstly administer ghritapana, whereas in kaphaja kushtha vamana procedure should be done and in pittaja kushtha, virechana along with raktamokshana should be first line of treatment.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 40,
+      "devanagari": "वमनविरेचनयोगाः कल्पोक्ताः कुष्ठिनां प्रयोक्तव्याः| \nप्रच्छनमल्पे कुष्ठे महति च शस्तं सिराव्यधनम्||४०||",
+      "english": "For vamana and virechana drugs mentioned in Kalpa Sthana should be used. Prachhana karma i.e. blood letting by rubbing with coarse device should be carried out if dushya dushti is less and venesection should be carried out in condition where dosha dusya dusti is strong.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 41,
+      "devanagari": "बहुदोषः संशोध्यः कुष्ठी बहुशोऽनुरक्षता प्राणान्| \nदोषे ह्यतिमात्रहृते वायुर्हन्यादबलमाशु||४१||",
+      "english": "Patients with excessive vitiated dosha should be given shodhana therapy repeatedly; taking care about their prana (strength). Excessive elimination of dosha may increase vata dosha which may bring about weakness and in rare condition endanger the life of patient.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 42,
+      "devanagari": "स्नेहस्य पानमिष्टं शुद्धे कोष्ठे प्रवाहिते रक्ते| \nवायुर्हि शुद्धकोष्ठं कुष्ठिनमबलं विशति शीघ्रम्||४२||",
+      "english": "After shodhana and letting of blood, sneha should be administered since after shodhana, vata dosha enters the shuddha koshtha of patient and is cause for immediate bala kshaya.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 43,
+      "devanagari": "दोषोत्क्लिष्टे हृदये वाम्यः कुष्ठेषु चोर्ध्वभागेषु| \nकुटजफलमदनमधुकैः सपटोलैर्निम्बरसयुक्तैः||४३|| शीतरसः पक्वरसो मधूनि मधुकं च वमनानि|",
+      "english": "If dosha are utklishta and located in hridaya or kushtha is manifested in the upper part of body, then vamana should be administered with help of fruit of kuthaja, madanaphala and madhuka along with juice of patola and nimba. Sheeta rasa (cold effusion), pakva rasa(decoction), honey and madhuka should be used for vamana.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 44,
+      "devanagari": "कुष्ठेषु त्रिवृता दन्ती त्रिफला च विरेचने शस्ता||४४|| सौवीरकं तुषोदकमालोडनमासवाश्च सीधूनि| \nशंसन्त्यधोहराणां यथाविरेकं क्रमश्चेष्टः||४५||",
+      "english": "Trivrita, danti and triphala are to be used for virechana in kushtha. Sauviraka, tushodaka, alodhana, asava, sidhu are types of aushadi kalpana to be used in virechana. Further sansarjana karma should be followed as per order. [44-45]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 46,
+      "devanagari": "दार्वीबृहतीसेव्यैः पटोलपिचुमर्दमदनकृतमालैः| \nसस्नेहैरास्थाप्यः कुष्ठी सकलिङ्गयवमुस्तैः||४६|| वातोल्बणं विरिक्तं निरूढमनुवासनार्हमालक्ष्य| \nफलमधुकनिम्बकुटजैः सपटोलैः साधयेत्स्नेहम्||४७||",
+      "english": "Darvi, brihati, patola, pichumarda, madanphala, kritamala, kalinga, yava and musta should be used along with sneha for asthapana. After virechana and asthapana basti still if there is excess of vata than give anuvasana basti should be given. In such condition sneha fortified with madanaphala, madhuka, nimba, kutaja, and patola should be used. [46-47]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 48,
+      "devanagari": "सैन्धवदन्तीमरिचं फणिज्झकः पिप्पली करञ्जफलम्| \nनस्यं स्यात्सविडङ्गं क्रिमिकुष्ठकफप्रकोपघ्नम् [१] ||४८|| वैरेचनिकैर्धूमैः श्लोकस्थानेरितैः प्रशाम्यन्ति| \nकृमयः कुष्ठकिलासाः प्रयोजितैरुत्तमाङ्गस्थाः||४९||",
+      "english": "Saindhava, dantī, maricha, phaṇijjhaka, pippali, fruit of karanja and vidanga should be used for nasya especially in case of krimi and kapha pradhan kushtha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 50,
+      "devanagari": "स्थिरकठिनमण्डलानां स्विन्नानां प्रस्तरप्रणाडीभिः| \nकूर्चैर्विघट्टितानां रक्तोत्क्लेशोऽपनेतव्यः||५०||",
+      "english": "If the patches are stable and hard, then give fomentation by prastara sweda or nadi sweda method and later on with the help of kurcha (a surgical instrument) scrub the patches so that there is increased flow of rakta in that specific area along with blood letting.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 51,
+      "devanagari": "आनूपवारिजानां मांसानां पोट्टलैः सुखोष्णैश्च| \nस्विन्नोत्सन्नं [१] विलिखेत् कुष्ठं तीक्ष्णेन शस्त्रेण||५१|| रुधिरागमार्थमथवा शृङ्गालाबूनि [२] योजयेत् कुष्ठे| \nप्रच्छितमल्पं कुष्ठं विरेचयेद्वा जलौकोभिः||५२|| ये लेपाः कुष्ठानां युज्यन्ते निर्हृतास्रदोषाणाम्| \nसंशोधिताशयानां सद्यः सिद्धिर्भवेत्तेषाम्||५३||",
+      "english": "If the patches are elevated then swedana with lukewarm poultice of meat of aquatic animals should be followed by scrubbing with sharp edge surgical instrument for blood letting. For blood letting shringa (horn), alabu (gourd) may be used. Especially in alpa kushtha, prachana, virechana and/or use of jaluka should be done.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 54,
+      "devanagari": "येषु न शस्त्रं क्रमते स्पर्शेन्द्रियनाशनानि यानि स्युः| \nतेषु निपात्यः क्षारो रक्तं दोषं च विस्राव्य||५४|| पाषाणकठिनपरुषे सुप्ते कुष्ठे स्थिरे पुराणे च| \nपीतागदस्य कार्यो विषैः प्रदेहोऽगदैश्चानु||५५|| स्तब्धानि सुप्तसुप्तान्यस्वेदनकण्डुलानि कुष्ठानि| \nकूर्चैर्दन्तीत्रिवृताकरवीरकरञ्जकुटजानाम्||५६|| जात्यर्कनिम्बजैर्वा पत्रैः शस्त्रैः समुद्रफेनैर्वा| \nघृष्टानि गोमयैर्वा ततः प्रदेहैः प्रदेह्यानि||५७||",
+      "english": "When there is loss of sensation and/or surgical interventions is prohibited, kshara should be used after rakta and dosha are eliminated.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 58,
+      "devanagari": "मारुतकफकुष्ठघ्नं कर्मोक्तं पित्तकुष्ठिनां कार्यम्| \nकफपित्तरक्तहरणं तिक्तकषायैः प्रशमनं च||५८|| सर्पींषि तिक्तकानि च यच्चान्यद्रक्तपित्तनुत् [१] कर्म| \nबाह्याभ्यन्तरमग्र्यं तत् कार्यं पित्तकुष्ठेषु||५९||",
+      "english": "In pittaja kushtha line of treatment followed in vata kaphaja kushtha should be followed along with kapha, pitta and rakta should be eliminated and tikta (bitter), kashaya (astringent) drugs are to be used for pacifying the dosha. Ghee fortified with tikta (bitter) drugs and line of treatment of raktapitta should be followed internally and externally for treatment of pittaja kushtha. [58-59]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 60,
+      "devanagari": "दोषाधिक्यविभागादित्येतत् कर्म कुष्ठनुत् प्रोक्तम्| \nवक्ष्यामि कुष्ठशमनं प्रायस्त्वग्दोषसामान्यात्||६०||",
+      "english": "Treatment of different kushtha categorized on basis of aggravated dosha has been explained henceforth treatment for pacifying of kushtha is being explained wherein defect in skin is general symptom.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 61,
+      "devanagari": "दार्वी रसाञ्जनं वा गोमूत्रेण प्रबाधते कुष्ठम्| \nअभया प्रयोजिता वा मासं सव्योषगुडतैला||६१||",
+      "english": "Dārvi or rasāñjana along with cow’s urine helps in treatment of kushtha. Similarly haritaki along with trikatu or gud and taila for period of one month is helpful.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 62,
+      "devanagari": "मूलं पटोलस्य तथा गवाक्ष्याः पृथक् पलांशं त्रिफलात्वचश्च [१] | \nस्यात्त्रायमाणा कटुरोहिणी च भागार्धिका नागरपादयुक्ता||६२|| पलं तथैषां सह चूर्णितानां जले शृतं दोषहरं पिबेन्ना| \nजीर्णे रसैर्धन्वमृगद्विजानां पुराणशाल्योदनमाददीत||६३|| कुष्ठानि शोफं ग्रहणीप्रदोषमर्शांसि कृच्छ्राणि हलीमकं च| \nषड्रात्रयोगेन निहन्ति चैष हृद्बस्तिशूलं विषमज्वरं च||६४||",
+      "english": "One pala of root of patola and gavakshi, contents of triphala (haritaki, bibhataki and amalaki) taken separately in one pala quantity each. Trayamana and katuki in quantity of 6 sanas and 4 sana of sunthi, should be taken together. One pala of this combination should be boiled in water and administered for elimination of dosha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 65,
+      "devanagari": "मुस्तं व्योषं त्रिफला मञ्जिष्ठा दारु पञ्चमूल्यौ द्वे| \nसप्तच्छदनिम्बत्वक् सविशालश्चित्रको मूर्वा||६५|| चूर्णं तर्पणभागैर्नवभिः संयोजितं समध्वाज्यम् [१] | \nसिद्धं कुष्ठनिबर्हणमेतत् प्रायोगिकं भक्ष्यम्||६६|| श्वयथुं सपाण्डुरोगं श्वित्रं ग्रहणीप्रदोषमर्शांसि| \nब्रघ्नभगन्दरपिडकाकण्डूकोठांश्च विनिहन्ति||६७|| इति मुस्तादिचूर्ण",
+      "english": "Musta, trikatu, triphala, manjishthā, dāruharidra, two panchamūla (brihat and laghu) saptacchada, bark of nimba, viśāla, chitraka, mūrvā are taken in equal quantity and powdered together. This powder should be mixed with nine times of saktu and should be prescribed with honey and ghrita. It is among the best treatment for kushtha which should be given everyday. The combination is also useful in shotha, pāṇḍu, śvitra, grahaṇīdoṣa, arśa, braghna, bhagandar, piḍakā, kaṇḍū, kōṭhā.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 68,
+      "devanagari": "त्रिफलाफलातिविषाकटुकानिम्बकलिङ्गकवचापटोलानाम्| \nमागधिकारजनीद्वयपद्मकमूर्वाविशालानाम्||६८|| भूनिम्बपलाशानां दद्याद्विपलं ततस्त्रिवृद्द्विगुणा| \nतस्याश्च पुनर्ब्राह्मी तच्चूर्णं सुप्तिनुत् परमम्||६९||",
+      "english": "Triphala, ativiṣā, kaṭuki, nimba, kaliṅgaka, vachā, paṭōla, pippali, haridra, dāruharidra, padmaka, mūrvā, viśālā, bhūnimba and palāśa, all are taken in two pala quantity each (i.e. total 34 pala), double the total quantity of above churna (68 pala) trivrita is taken and double of trivrita (136 pala) brahmi churna should be taken. It is a best combination for numbness.[68-69]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 70,
+      "devanagari": "लेलीतकप्रयोगो [१] रसेन जात्याः समाक्षिकः परमः| \nसप्तदशकुष्ठघाती माक्षिकधातुश्च मूत्रेण||७०||",
+      "english": "Lelitaka (sulphur) when administered with juice of jāti (āmalaki) along with honey is beneficial in 17 types of kushtha. Similarly use of makshika (copper pyrite) with cows’ urine too is very beneficial.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 71,
+      "devanagari": "श्रेष्ठं [२] गन्धकयोगात् सुवर्णमाक्षिकप्रयोगाद्वा| \nसर्वव्याधिनिबर्हणमद्यात् कुष्ठी रसं च निगृहीतम्||७१|| वज्रशिलाजतुसहितं सहितं वा योगराजेन| \nसर्वव्याधिप्रशमनमद्यात्कुष्ठी निगृह्य नित्यं च||७२||",
+      "english": "Gandhaka (sulphur) and/or suvarṇamākṣika when used for processing of rasa (mercury) acts as the best medicine in treatment of all disease especially kushtha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 73,
+      "devanagari": "खदिरसुरदारुसारं श्रपयित्वा तद्रसेन तोयार्थः| \nक्षौद्रप्रस्थे कार्यः कार्ये ते चाष्टपलिके च||७३|| तत्राश्चूर्णानामष्टपलं प्रक्षिपेत्तथाऽमूनि| \nत्रिफलैले त्वङ्मरिचं पत्रं कनकं च कर्षांशम्||७४|| मत्स्यण्डिका मधुसमा तन्मासं जातमायसे भाण्डे| \nमध्वासवमाचरतः कुष्ठकिलासे शमं यातः||७५|| इति मध्वासवः",
+      "english": "Decoction should be prepared from 8 pala each of water extract of khadira and devadāru to this one prastha of honey should be added. To this powder (bhasma / mandura) of iron in 8 pala quantity should be added along with triphala, ela, tvak, maricha, patra and kanaka (nagkeshara) in one karsa quantity. Matsyaṇḍikā (sugar) should be added in quantity equal to honey (one prastha). This preparation should be kept in an iron jar for one month. This is called as madhvāsava and it is administered in kushtha and kilāsa.[73-75]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 76,
+      "devanagari": "खदिरकषायद्रोणं कुम्भे घृतभाविते समावाप्य| \nद्रव्याणि चूर्णितानि च षट्पलिकान्यत्र देयानि||७६|| त्रिफलाव्योषविडङ्गरजनीमुस्ताटरूषकेन्द्रयवाः| \nसौवर्णी च तथा त्वक् छिन्नरुहा चेति तन्मासम्||७७|| निदधीत धान्यमध्ये प्रातः प्रातः पिबेत्ततो युक्त्या| \nमासेन महाकुष्ठं हन्त्येवाल्पं तु पक्षेण||७८|| अर्शःश्वासभगन्दरकासकिलासप्रमेहशोषांश्च| \nना भवति कनकवर्णः पीत्वाऽरिष्टं कनकबिन्दुम्||७९|| इति कनकबिन्द्वरिष्टम् \nकुष्ठेष्वनिलकफकृतेष्वेवं पेयस्तथाऽपि पैत्तेषु| \nकृतमालक्वाथश्चाप्येष विशेषात् कफकृतेषु||८०||",
+      "english": "In ghee smeared jar one drona of decoction of khadira should be added. To these 6 palas each of powdered triphala, trikatu, viḍaṅga, haridra, musta, vāsā, indrayava, bark of sauvarni (dāruharidra), and guduchi should be added. The jar should be kept for one month inside a heap of grains. Every morning if this preparation is taken then in one month mahakuṣṭha gets cured and within 15 days ksudrakuṣṭha is cured. It is also useful arśa, śvāsa, bhagandar, kasa, kilasa, prameha and shosha. Skin achieves golden complexion after having kanakabindu. This ends explanation of kanakabindvariṣṭa. It is useful in all vataja, pittaja and kaphaja kushtha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 81,
+      "devanagari": "त्रिफलासवश्च गौडः सचित्रकः कुष्ठरोगविनिहन्ता| \nक्रमुकदशमूलदन्तीवराङ्गमधुयोगसंयुक्तः||८१||",
+      "english": "Triphalāsava prepared from jaggery along with chitraka, kramuka, daśamūla, dantī, varā (triphala) and honey helps in treating various kushtha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 82,
+      "devanagari": "लघूनि चान्नानि हितानि विद्यात् कुष्ठेषु शाकनि च तिक्तकानि| \nभल्लातकैः सत्रिफलैः सनिम्बैर्युक्तानि चान्नानि घृतानि चैव||८२|| पुराणधान्यान्यथ जाङ्गलानि मांसानि मुद्गाश्च पटोलयुक्ताः| \nशस्ता, न गुर्वम्लपयोदधीनि नानूपमत्स्या न गुडस्तिलाश्च||८३||",
+      "english": "Easily digestible and wholesome food, green leafy vegetables bitter in taste, food and ghee prepared by fortifying with bhallataka, triphala and nimba, one year old cereals, meat of animals inhabiting from arid area, preparations of mudga and patola.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 84,
+      "devanagari": "एला कुष्ठं दार्वी शतपुष्पा चित्रको विडङ्गश्च| \nकुष्ठालेपनमिष्टं रसाञ्जनं चाभया चैव||८४||",
+      "english": "Ela, kuṣṭha, dārvi, śatapuṣpā, chitraka, viḍaṅga, rasāñjana and abhaya taken together and their paste when applied has a very efficacious role in kushtha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 85,
+      "devanagari": "चित्रकमेलां बिम्बीं [१] वृषकं त्रिवृदर्कनागरकम्| \nचूर्णीकृतमष्टाहं भावयितव्यं पलाशस्य||८५|| क्षारेण गवां मूत्रस्रुतेन तेनास्य मण्डलान्याशु| \nभिद्यन्ते विलयन्ति च लिप्तान्यर्काभितप्तानि||८६||",
+      "english": "Chitraka, ela, bimbi, vr̥ṣaka, trivr̥tā, arka and shunthi should be powdered together and trichurate with palāśa kshara and fortify it with cows urine for eight days. Application of this paste followed by sun exposure leads to bursting and dissolution of maṇḍala. [85-86]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 87,
+      "devanagari": "मांसी मरिचं लवणं रजनी तगरं सुधा गृहाद्धूमः| \nमूत्रं पित्तं [२] क्षारः पालाशः कुष्ठहा लेपः||८७||",
+      "english": "Māṁsī, maricha, lavana, haridra, tagara, sudhā and gr̥hāddhūma paste should be prepared along with cow urine, cow’s bile and palasha kshara should be applied.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 88,
+      "devanagari": "त्रपु सीसमयश्चूर्णं मण्डलनुत् फल्गुचित्रकौ बृहती| \nगोधारसः सलवणो दारु च मूत्रं च मण्डलनुत्||८८||",
+      "english": "Trapu (tin), sīsa (lead) and ayaś (iron) powders when applied treats maṇḍala kuṣṭha. Similarly application of phalgu, citraka, br̥hatī, gōdhārasa (meat soup of iguana) lavana, devdāru and cow’s urine is also helpful in maṇḍala.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 89,
+      "devanagari": "कदलीपलाशपाटलिनिचुलक्षाराम्भसा प्रसन्नेन| \nमांसेषु तोयकार्यं कार्यं पिष्टे च किण्वे [३] च||८९|| तैर्मेदकः सुजातः किण्वैर्जनितं प्रलेपनं शस्तम्| \nमण्डलकुष्ठविनाशनमातपसंस्थं कृमिघ्नं च||९०||",
+      "english": "From kshara of kadalī, palāśa, pātalā and nichula kshara jala (alkaline water) should be prepared which should be well filtered. The same should be added to meat of animals for cleaning of meat, for making paste and for fermentation process. A self fermented (medaka) alcoholic formulation should be prepared. After well fermented medaka prepared the kinva (fermented paste of drug) should be removed and applied as paste. It is useful in maṇḍala kuṣṭha and other kr̥imi infestations.[89-90]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 91,
+      "devanagari": "मुस्तं मदनं त्रिफला करञ्ज आरग्वधकलिङ्गयवाः| \nदार्वी ससप्तपर्णा स्नानं सिद्धार्थकं नाम||९१|| एष कषायो वमनं विरेचनं वर्णकस्तथोद्घर्षः| \nत्वग्दोषकुष्ठशोफप्रबाधनः पाण्डुरोगघ्नः||९२||",
+      "english": "Powder of musta, madanphala, triphala, karañja, āragvadha, kaliṅgaka, yava, dārvi, saptaparna are boiled in water and used for bath. This preparation is called as siddhārthaka snana.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 93,
+      "devanagari": "कुष्ठं करञ्जबीजान्येडगजः कुष्ठसूदनो लेपः| \nप्रपुन्नाडबीजसैन्धवरसाञ्जनकपित्थलोध्राश्च||९३|| श्वेतकरवीरमूलं कुटजकरञ्जयोः फलं त्वचो दार्व्याः| \nसुमनःप्रवालयुक्तो लेपः कुष्ठापहः सिद्धः||९४||",
+      "english": "Lepa of kuṣṭha (herb), seeds of karañja and ēḍagaja is useful in kuṣṭha roga. Similarly, paste of seeds prapunnāḍa, saindhava, rasāñjana, kapittha, lōdhra, root of white variety of karavīra, fruits of kuṭaja and karañja, bark of dāruharidra along with tender leaves of jati is useful in kuṣṭha. [93-94]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 95,
+      "devanagari": "लोध्रस्य धातकीनां वत्सकबीजस्य नक्तमालस्य| \nकल्कश्च मालतीनां कुष्ठेषून्मर्दनालेपौ||९५||",
+      "english": "Paste of lōdhra, dhātakī, seeds of vatsaka (kuṭaja), naktamāla and malati is to be used externally for udvartan and lepa.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 96,
+      "devanagari": "शैरीषी त्वक् पुष्पं कार्पास्या राजवृक्षपत्राणि| \nपिष्टा च काकमाची चतुर्विधः कुष्ठनुल्लेपः||९६|| इति लेपाः",
+      "english": "Paste of bark of shirīṣa or flowers of kārpās, leaves of rājavr̥kksha or paste of kākamācī are 4 different types of lepa useful in kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 97,
+      "devanagari": "दार्व्या रसाञ्जनस्य च निम्बपटोलस्य खदिरसारस्य| \nआरग्वधवृक्षकयोस्त्रिफलायाः सप्तपर्णस्य||९७|| इति षट् कषाययोगाः कुष्ठघ्नाः सप्तमश्च तिनिशस्य| \nस्नाने पाने च हितास्तथाऽष्टमश्चाश्वमारस्य||९८|| आलेपनं प्रघर्षणमवचूर्णनमेत एव च कषायाः| \nतैलघृतपाकयोगे चेष्यन्ते कुष्ठशान्त्यर्थम्||९९||",
+      "english": "Following six decoctions viz.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 100,
+      "devanagari": "त्रिफला निम्बपटोलं मञ्जिष्ठा रोहिणी वचा रजनी| \nएष कषायोऽभ्यस्तो निहन्ति कफपित्तजं कुष्ठम्||१००|| एतैरेव च सर्पिः सिद्धं वातोल्बणं जयति कुष्ठम्| \nएष च कल्पो दिष्टः खदिरासनदारुनिम्बानाम्||१०१||",
+      "english": "In kaphaja-pittaja kuṣṭha, triphala, nimba, paṭōla, mañjiṣṭhā, rōhiṇī, vacā, rajani should be regularly taken in the form of decoction. The same medicine, when used to fortify ghr̥ita helps in curing vataja kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 102,
+      "devanagari": "कुष्ठार्कतुत्थकट्फलमूलकबीजानि रोहिणी कटुका| \nकुटजफलोत्पलमुस्तं बृहतीकरवीरकासीसम्||१०२|| एडगजनिम्बपाठा दुरालभा चित्रको विडङ्गश्च| \nतिक्तालाबुकबीजं कम्पिल्लकसर्षपौ वचा दार्वी||१०३|| एतैस्तैलं सिद्धं कुष्ठघ्नं योग एष चालेपः| \nउद्वर्तनं प्रघर्षणमवचूर्णनमेष एवेष्टः||१०४||",
+      "english": "Kuṣṭha, arka, tuttha, katphala, seeds of mūlaka, katukarōhiṇī, fruits of kuṭaja, utpala, musta, br̥hatī, karavīra, kāsīsa, ēḍagaja, nimba, pāṭhā, durālabhā, citraka, viḍaṅga, seeds of alābū which is bitter in taste, kampillaka, sarṣapa, vacā and dārvī when used for preparation of medicated oil helps in reducing kuṣṭha. The same contents may be used for lepa, udvartana, scrubbing and dusting. [102-104]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 105,
+      "devanagari": "श्वेतकरवीरकरसो गोमूत्रं चित्रको विडङ्गश्च| \nकुष्ठेषु तैलयोगः सिद्धोऽयं सम्मतो भिषजाम्||१०५|| इति श्वेतकरवीराद्यं तैलम्",
+      "english": "Physicians recommend that, medicated oil prepared with the help of juice of white variety of karavīra, cows’ urine, chitraka and viḍaṅga cures all type of kuṣṭha. This ends the explanation of śvēta karavīrādya taila.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 106,
+      "devanagari": "श्वेतकरवीरपल्लवमूलत्वग्वत्सको विडङ्गश्च| \nकुष्ठार्कमूलसर्षपशिग्रुत्वग्रोहिणी कटुका||१०६|| एतैस्तैलं सिद्धं कल्कैः पादांशिकैर्गवां मूत्रम्| \nदत्त्वा तैलचतुर्गुणमभ्यङ्गात् कुष्ठकण्डूघ्नम्||१०७|| इति श्वेतकरवीरपल्लवाद्यं तैलम्",
+      "english": "Paste of tender leaves of śvēta karavīra, root and bark of vatsaka, viḍaṅga, kuṣṭha, root of arka, sarṣapa, bark of śigru, rōhiṇī, 1/4th quantity of oil and cows urine in quantity four times that of oil and then taila siddhi is done then it helps in treating kuṣṭha and itching. The preparation is known as śvēta karavīrapallavādya tailam.[106-107]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 108,
+      "devanagari": "तिक्तालाबुकबीजं द्वे तुत्थे रोचना हरिद्रे द्वे| \nबृहतीफलमेरण्डः सविशालश्चित्रको मूर्वा||१०८|| कासीसहिङ्गुशिग्रुत्र्यूषणसुरदारुतुम्बुरुविडङ्गम्| \nलाङ्गालकं कुटजत्वक् कटुकाख्या रोहिणी चैव||१०९|| सर्षपतैलं कल्कैरेतैर्मूत्रे चतुर्गुणे साध्यम्| \nकण्डूकुष्ठविनाशनमभ्यङ्गान्मारुतकफहन्तृ||११०|| इति तिक्तेक्ष्वाक्वादितैलम्",
+      "english": "Seeds of bitter variety of alābu, both varieties of tuttha (mayura and kharparika tuttha) gorōcanā, haridra, dāruharidra, fruit of br̥hatī, ēraṇḍa, viśāla, citraka, murva, kāsīsa, hiṅgu, śigru, trikatu suradāru, tumburu, viḍaṅga, lāṅgāli, bark of kuṭaja, katukarōhiṇī are pasted together and mustard oil is fortified with above medicines and cow’s urine taken in quantity four times of oil.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 111,
+      "devanagari": "कनकक्षीरी शैला भार्गी दन्त्याः फलानि मूलं च| \nजातीप्रवालसर्षपलशुनविडङ्गं करञ्जत्वक्||१११|| सप्तच्छदार्कपल्लवमूलत्वङ्निम्बचित्रकास्फोताः| \nगुञ्जैरण्डं बृहतीमूलकसुरसार्जकफलानि||११२|| कुष्ठं पाठा मुस्तं तुम्बुरुमूर्वावचाः सषड्ग्रन्थाः [१] | \nएडगजकुटजशिग्रुत्र्यूषणभल्लातकक्षवकाः||११३|| हरितालमवाक्पुष्पी तुत्थं कम्पिल्लकोऽमृतासञ्ज्ञः| \nसौराष्ट्री कासीसं दार्वीत्वक् सर्जिकालवणम्||११४|| कल्कैरेतैस्तैलं करवीरकमूलपल्लवकषाये| \nसार्षपमथवा तैलं गोमूत्रचतुर्गुणं साध्यम्||११५|| स्थाप्यं कटुकालाबुनि तत्सिद्धं तेन मण्डलान्याशु| \nभिन्द्याद्भिषगभ्यङ्गात्कृमींश्च कण्डूं च विनिहन्यात्||११६|| इति कनकक्षीरीतैलम्",
+      "english": "Kanakakṣīrī (Kankuṣṭha), śailā (manashila), bhārangi, fruits, root and tender leaves of dantī, sarṣapa, laśuna, viḍaṅga, bark of karañja, saptacchadā, tender leaves, root and bark of arka, nimba, chitraka, āsphōtāḥ, guñja, eraṇḍa, root of br̥hatī, seeds of surasā and fruits of arjaka kuṣṭha, pāṭhā, musta, tumburu, vacā, murva, ṣaḍgranthā, ēḍagaja, kuṭaja, śigru, trikatu, bhallataka, kṣavaka, haritāla, avākpuṣpī (apāmārga), tuttha, kampillaka, amr̥tāsañjña (kharparika tuttha), saurāṣṭrī, kāsīsa, bark of dārvi, sarjikālavaṇa. All the above medicines should be pasted and oil should be added (either sesame or mustard oil) along with decoction of root and tender leaves of karavira and four times of oil, cows urine should be added and the same should be stored in container of kaṭukālābu. It immediately cures maṇḍala kuṣṭha by bhedana of mandala also cures kr̥imi and itching. This preparation is known as kanakakṣīrī taila .[111-116]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 117,
+      "devanagari": "कुष्ठं तमालपत्रं मरिचं समनःशिलं सकासीसम्| \nतैलेन युक्तमुषितं सप्ताहं भाजने ताम्रे||११७|| तेनालिप्तं सिध्मं सप्ताहाह्येति [१] तिष्ठतो घर्मे| \nमासान्नवं किलासं स्नानं मुक्त्वा विशुद्धतनोः||११८|| इति सिध्मे लेपः",
+      "english": "The paste of kuṣṭha, tamālapatra, maricha, manaḥśila, kāsīsa should be mixed with oil and kept for seven days in copper vessel. Application of this oil and exposure to sun helps in curing siddhma within a week and kilāsa gets cured within a month provided the patient does not take bath but maintains cleaned body. The preparation is called as sidhma lepa.[117-118]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 119,
+      "devanagari": "सर्षपकरञ्जकोषातकीनां तैलान्यथेङ्गुदीनां च| \nकुष्ठेषु हितान्याहुस्तैलं यच्चापि खदिरसारस्य||११९||",
+      "english": "Oil extracted from sarṣapa, karañja, kōṣātakī, and ingudi when fortified with heartwood of khadira is useful in kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 120,
+      "devanagari": "जीवन्ती मञ्जिष्ठा दार्वी कम्पिल्लकः पयस्तुत्थम्| \nएष घृततैलपाकः सिद्धः सिद्धे च सर्जरसः||१२०|| देयः समधूच्छिष्टो विपादिका तेन शाम्यतेऽभ्यक्ता| \nचर्मैककुष्ठकिटिमं कुष्ठं शाम्यत्यलसकं च||१२१|| इति विपादिकाहरघृततैले",
+      "english": "With jīvantī, mañjiṣṭhā, dārvi, kampillaka, payas (milk) and tuttha should be used to prepare ghee and/or fortify oil. Once sneha siddhi lakshana are seen sarjarasa and madhūcchiṣṭa should be added. Application of the oil cures, charmakuṣṭha, ekakuṣṭha, kiṭibha and alasaka type of kuṣṭha. This preparation is called as vipādikāhara ghr̥ita and taila.[120-121]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 122,
+      "devanagari": "किण्वं [१] वराहरुधिरं पृथ्वीका सैन्धवं च लेपः स्यात्| \nलेपो योज्यः कुस्तुम्बुरूणि कुष्ठं च मण्डलनुत्||१२२||",
+      "english": "Application of paste of kiṇva (enzyme used for fermentation), blood of boar, pr̥thvīkā and saindhava or lepa of kustumburūṇi cures maṇḍala type of kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 123,
+      "devanagari": "पूतीकदारुजटिलाः पक्वसुरा क्षौद्रमुद्गपर्ण्यौ च| \nलेपः सकाकनासो मण्डलकुष्ठापहः सिद्धः||१२३||",
+      "english": "Application of lepa of pūtīka, devadāru, jaṭi, pakvasurā, ksaudravalli (guduchi) mudgaparṇi and kākanāsa cures maṇḍala kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 124,
+      "devanagari": "चित्रकशोभाञ्जनकौ गुडूच्यपामार्गदेवदारूणि| \nखदिरो धवश्च लेपः श्यामा दन्ती द्रवन्ती च||१२४|| लाक्षारसाञ्जनैलाः पुनर्नवा चेति कुष्ठिनो लेपाः| \nदधिमण्डयुताः सर्वे देयाः षण्मारुतकफकुष्ठघ्नाः||१२५||",
+      "english": "",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 126,
+      "devanagari": "एडगजकुष्ठसैन्धवसौवीरकसर्षपैः कृमिघ्नैश्च| \nकृमिकुष्ठमण्डलाख्यं दद्रूकुष्ठं च शममुपैति||१२६||",
+      "english": "Application of ēḍagaja, kuṣṭha, saindhava, sauviraka, sarṣapa and kr̥mighna (viḍaṅga) cures kr̥mi, maṇḍala and dadru kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 127,
+      "devanagari": "एडगजः सर्जरसो मूलकबीजं च सिध्मकुष्ठानाम्| \nकाञ्जिकयुक्तं तु पृथङ्मतमिदमुद्वर्तनं लेपाः||१२७||",
+      "english": "Application of ēḍagaja or sarjarasa or seeds of mūlaka prepared by adding kāñji should be used as udvartana or in the form of lepa it cures sidhma.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 128,
+      "devanagari": "वासा त्रिफला पाने स्नाने चोद्वर्तने प्रलेपे च| \nबृहतीसेव्यपटोलाः ससारिवा रोहिणी चैव||१२८|| खदिरावघातककुभरोहीतकलोध्रकुटजधवनिम्बाः| \nसप्तच्छदकरवीराः शस्यन्ते स्नानपानेषु||१२९||",
+      "english": "Vāsā and triphalā may be used internally, for bathing, udvartana and lepa along with br̥hatī, sēvya, paṭōla, sārivā, rōhiṇī.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 130,
+      "devanagari": "जलवाप्यलोहकेशरपत्रप्लवचन्दनं मृणालानि| \nभागोत्तराणि सिद्धं प्रलेपनं पित्तकफकुष्ठे||१३०||",
+      "english": "Application of water (one part), vāpya (kuṣṭha herb) (2 part), lōha (agaru) (3 part) kēśara (4 part), patra (5 part), plava or kaivartamusta (6 part), chāndana, mr̥ṇāla (8 part) is useful in pitta-kapha type of kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 131,
+      "devanagari": "यष्ट्याह्वलोध्रपद्मकपटोलपिचुमर्दचन्दनरसाश्च| \nस्नाने पाने च हिताः सुशीतलाः पित्तकुष्ठिभ्यः||१३१||",
+      "english": "Decoction of yaṣṭyāhva, lōdhra, padmaka, paṭōla, pichumarda and chandana may be used externally for bathing and internal use. It has cooling effect and is beneficial in pittaja kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 132,
+      "devanagari": "आलेपनं प्रियङ्गुर्हरेणुका वत्सकस्य च फलानि| \nसातिविषा च ससेव्या सचन्दना रोहिणी कटुका||१३२||",
+      "english": "Application of priyaṅgu, harēṇuka, fruits of vatsaka, ativiṣā, sēvyā, chandana and katu rōhiṇī is also useful in paittika kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 133,
+      "devanagari": "तिक्तघृतैर्धौतघृतैरभ्यङ्गो दह्यमानकुष्ठेषु| \nतैलैश्चन्दनमधुकप्रपौण्डरीकोत्पलयुतैश्च||१३३||",
+      "english": "Massaging with tiktaghr̥ta and dhautaghr̥ta helps in reducing burning sensation in kuṣṭha. Similarly medicated oil prepared from chandana, madhuka, prapauṇḍarīka and utpala also has similar effect.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 134,
+      "devanagari": "क्लेदे प्रपतति चाङ्गे दाहे विस्फोटके सचर्मदले| \nशीताः प्रदेहसेका व्यधो विरेको घृतं तिक्तम्||१३४||",
+      "english": "If there is excessive secretions from skin lesion, sloughing of body parts, burning sensation, eruptions and exfoliation of skin then shitā pradēha (application of lepa with shitā dravya), sēkā, virechana and use of tikta ghr̥ita should be done.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 135,
+      "devanagari": "खदिरघृतं निम्बघृतं दार्वीघृतमुत्तमं पटोलघृतम्| \nकुष्ठेषु रक्तपित्तप्रबलेषु भिषग्जितं सिद्धम्||१३५||",
+      "english": "Khandiraghr̥ta, nimbaghr̥ta, dārvighr̥ta and paṭōlaghr̥ta are among the best to be used in rakta and pitta pradhana kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 136,
+      "devanagari": "त्रिफलात्वचोऽर्धपलिकाः पटोलपत्रं च कार्षिकाः शेषाः| \nकटुरोहिणी सनिम्बा यष्ट्याह्वा त्रायमाणा च||१३६|| एष कषायः साध्यो दत्त्वा द्विपलं मसूरविदलानाम्| \nसलिलाढकेऽष्टभागे शेषे पूतो रसो ग्राह्यः||१३७|| ते च [१] कषायेऽष्टपले चतुष्पलं सर्पिषश्च पक्तव्यम्| \nयावत्स्यादष्टपलं शेषं पेयं ततः कोष्णम्||१३८|| तद्वातपित्तकुष्ठं वीसर्पं वातशोणितं प्रबलम्| \nज्वरदाहगुल्मविद्रधिविभ्रमविस्फोटकान् हन्ति||१३९||",
+      "english": "Triphala fruit pulp in quantity of ½ pala each, paṭōla patra ½ pala quantity, one karsa each of katurōhiṇī, nimba, yaṣṭyāhva and trāyamāṇa and two pala of dehusked seeds of masūra which should be boiled in one āḍhaka of water and reduced to 1/8th. The decoction should be filtered and to this eight pala of decoction, four pala of ghee should be added and cooked till 8 palas remain and this medicated ghee should be administered lukewarm. It is useful in vata pitta kuṣṭha, visarpa, vātarakta, jwara, daha, gulma, vidradhi, giddiness and visphōṭaka. [136-139]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 140,
+      "devanagari": "निम्बपटोलं दार्वीं दुरालभां तिक्तरोहिणीं त्रिफलाम्| \nकुर्यादर्धदलांशं पर्पटकं त्रायमाणां च||१४०|| सलिलाढकसिद्धानां रसेऽष्टभागस्थिते क्षिपेत् पूते| \nचन्दनकिराततिक्तकमागधिकास्त्रायमाणां च||१४१|| मुस्तं वत्सकबीजं कल्कीकृत्यार्धकार्षिकान् भागान्| \nनवसर्पिषश्च षट्पलमेतत्सिद्धं [३] घृतं पेयम्||१४२|| कुष्ठज्वरगुल्मार्शोग्रहणीपाण्ड्वामयश्वयथुहारि| \nपामाविसर्पपिडकाकण्डूमदगण्डनुत्सिद्धम्||१४३|| इति तिक्तषट्पलकं घृतम्",
+      "english": "Nimba, paṭōla, dārvi, duralabha, tiktarōhiṇī, triphala, parpaṭaka and trāyamāṇa are taken in half pala quantity and boiled with water in quantity of one āḍhaka and reduced to 1/8th. The decoction should be filtered and to it paste of chandana, kirātatiktaka, pippali, trāyamāṇa, musta, seeds of vatsaka in quantity of half karsa should be added along with 6 palas of ghr̥ita and sneha siddhi should be carried out. This tiktaṣaṭpala ghr̥ita is useful in kuṣṭha, jwara, gulma, arśa, grahani, pāṇḍu, śvayathu, pāmā, visarpa, piḍakā, kaṇḍū, mada and galagaṇḍa. [140-143]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 144,
+      "devanagari": "सप्तच्छदं प्रतिविषां शम्पाकं तिक्तरोहिणीं पाठाम्| \nमुस्तमुशीरं त्रिफलां पटोलपिचुमर्दपर्पटकम्||१४४|| धन्वयवासं चन्दनमुपकुल्यां पद्मकं हरिद्रे द्वे| \nषड्ग्रन्थां सविशालां शतावरीं सारिवे चोभे||१४५|| वत्सकबीजं यासं [४] मूर्वाममृतां किराततिक्तं च| \nकल्कान् कुर्यान्मतिमान्यष्ट्याह्वं त्रायमाणां च||१४६|| कल्कश्चातुर्भागो [५] जलमष्टगुणं रसोऽमृतफलानाम्| \nद्विगुणो घृतात्प्रदेयस्तत्सर्पिः पाययेत्सिद्धम्||१४७|| कुष्ठानि रक्तपित्तप्रबलान्यर्शांसि रक्तवाहीनि| \nवीसर्पमम्लपित्तं [६] वातासृक् पाण्डुरोगं च||१४८|| विस्फोटकान्सपामानुन्मादं कामलां ज्वरं कण्डूम्| \nहृद्रोगगुल्मपिडका असृग्दरं गण्दमालां च||१४९|| हन्यादेतत् सर्पिः पीतं काले यथाबलं सद्यः| \nयोगशतैरप्यजितान्महाविकारान्महातिक्तम्||१५०|| इति महातिक्तकं घृतम्",
+      "english": "Saptacchada, prativiṣā, śampāka (āragvada), tiktarōhiṇī, pāṭhā, musta, uśīra, triphala, paṭōla, picumarda, parpaṭaka, dhanvayavās, candana, upakulyā (pippali), padmaka haridra, dāruharidra, ṣaḍgrantha, viśālā, śatāvarī, both the type of sāriva (Krsna and sveta), seeds of vatsaka, yāsa, mūrvā, amr̥tā, kirātatikta, yastimadhu and trayamana are taken together and paste is prepared in quantity of one fourth of ghr̥ita. To this water should be added in quantity of 8 times of ghee along with juice of amr̥taphala (amalaki) in quantity of twice of ghr̥ita and siddha ghr̥ita should be prepared. It is beneficial in kuṣṭha, raktapitta, serious type of bleeding piles, vīsarpa, amlapitta, vātarakta, pāṇḍurōga, visphōṭakaka, pāmā, unmāda, kāmalā, jwara, kaṇḍū, hr̥drōga, gulma, piḍakā, raktapradar, gaṇdamālā. This ghee should be administered at recommended time and dose according to the strength of patient. This mahātiktakaghr̥ita is useful in above mentioned disease conditions where hundred of other preparations do not cure above diseases. [144-150]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 151,
+      "devanagari": "दोषे हृतेऽपनीते रक्ते बाह्यान्तरे कृते शमने [७] | \nस्नेहे च कालयुक्ते न कुष्ठमनुवर्तते [८] साध्यम्||१५१||",
+      "english": "After shodhana of dosha, blood letting, external and internal shamana therapies and administration of ghee at appropriate time helps in curing skin diseases and also prevents recurrence.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 152,
+      "devanagari": "खदिरस्य तुलाः पञ्च शिंशपासनयोस्तुले| \nतुलार्धाः सर्व एवैते करञ्जारिष्टवेतसाः||१५२|| पर्पटः कुटजश्चैव वृषः कृमिहरस्तथा| \nहरिद्रे कृतमालश्च गुडूची त्रिफला त्रिवृत्||१५३|| सप्तपर्णश्च सङ्क्षुण्णा दशद्रोणेषु वारिणः| \nअष्टभागावशेषं तु कषायमवतारयेत्||१५४|| धात्रीरसं च तुल्यांशं सर्पिषश्चाढकं पचेत्| \nमहातिक्तककल्कैस्तु यथोक्तैः पलसम्मितैः||१५५|| निहन्ति सर्वकुष्ठानि पानाभ्यङ्गनिषेवणात्| \nमहाखदिरमित्येतत् परं कुष्ठविकारनुत्||१५६|| इति महाखदिरं घृतम्",
+      "english": "Five tulā of khadira, one tulā each of śiṁśapa and āsana, half tulā each of karañja, ariṣṭa, vētasa, parpata, kuṭaja, vrsa, kr̥mi hara (viḍaṅga), haridra, kr̥tamāla, guḍūcī, triphala, trivr̥t, saptaparṇa should be cut into small parts and boiled in 10 drōṇa of water and reduced to 1/8th . To this add one ādhaka each of ghrit and juice of āmalaki along with one pala of mahātiktaka kalka content. Sneha siddhi should be done; this mahākhadira ghr̥ita when used internally and for application cures all type of kuṣṭha.[152-156]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 157,
+      "devanagari": "प्रपतत्सु लसीकाप्रस्रुतेषु गात्रेषु जन्तुजग्धेषु| \nमूत्रं निम्बविडङ्गे स्नानं पानं प्रदेहश्च||१५७||",
+      "english": "If there is sloughing of phalanges, exudation, maggots than such kuṣṭha patient should use gomūtra, nimba and viḍaṅga in appropriated quantity for bath (dressing), internally and for lepa.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 158,
+      "devanagari": "वृषकुटजसप्तपर्णाः करवीरकरञ्जनिम्बखदिराश्च| \nस्नाने पाने लेपे क्रिमिकुष्ठनुदः सगोमूत्राः||१५८||",
+      "english": "Vr̥ṣa, kuṭaja, saptaparna, karavira, karañja, nimba, khadira, along with gomūtra is useful in kr̥imi and kuṣṭha in the form of lepa, internal and external use.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 159,
+      "devanagari": "पानाहारविधाने प्रसेचने धूपने प्रदेहे च| \nकृमिनाशनं विडङ्गं विशिष्यते कुष्ठहा खदिरः||१५९||",
+      "english": "For internal use in the form of medicine and diet along with external use in the form of prasēchana, dhupana, lepa viḍaṅga which is effective in kr̥imi and khadira which is special drug for kuṣṭha should be used.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 160,
+      "devanagari": "एडगजः सविडङ्गो मूलान्यारग्वधस्य कुष्ठानाम्| \nउद्दालनं श्वदन्ता गोश्ववराहोष्ट्रदन्ताश्च||१६०||",
+      "english": "Ēḍagaja, viḍaṅga, root of āragvadha and tooth of dog, cow, horse, boar and camel are useful in kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 161,
+      "devanagari": "एडगजः सविडङ्गो द्वे च निशे राजवृक्षमूलं च| \nकुष्ठोद्दालनमग्र्यं सपिप्पलीपाकलं योज्यम्||१६१||",
+      "english": "Ēḍagaja, viḍaṅga, haridra, dāruharidra, root of rājavr̥kṣa, pippali, pākala (kuṣṭha herb) are useful in kuṣṭha.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 162,
+      "devanagari": "श्वित्राणां सविशेषं [१] योक्तव्यं सर्वतो विशुद्धानाम्| \nश्वित्रे स्रंसनमग्र्यं मलपूरस इष्यते सगुडः||१६२|| तं पीत्वा सुस्निग्धो यथाबलं सूर्यपादसन्तापम्| \nसंसेवेत विरिक्तस्त्र्यहं पिपासुः पिबेत् पेयाम्||१६३||",
+      "english": "In case of śvitrā, shodhana is the specific treatment especially purgation with malapūrasa along with jaggery is the best treatment for leucoderma. The patient must be firstly oleated and should take the above mentioned combination as per his bala and disease bala and later on expose to sunlight. Purgation will be started and whenever patient feels thirsty pēyā should be given for next three days. [162-163]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 164,
+      "devanagari": "श्वित्रेऽङ्गे ये स्फोटा जायन्ते कण्टकेन तान्भिन्द्यात्| \nस्फोटेषु विस्रुतेषु प्रातः प्रातः पिबेत् पक्षम्||१६४|| मलपूमसनं प्रियङ्गुं शतपुष्पां चाम्भसा समुत्क्वाथ्य| \nपालाशं वा क्षारं यथाबलं फाणितोपेतम्||१६५||",
+      "english": "Eruptions that occur over the hypo-pigmented patches should be punctured with thorn so that the exudation within the eruptions is removed. Later on for 15 days malapū, asana, priyaṅgu, śatapuṣpā should be boiled in water and should be administered as per strength with pālāśa kṣāra and/or with phāṇita.[164-165]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 166,
+      "devanagari": "यच्चान्यत् कुष्ठघ्नं श्वित्राणां सर्वमेव तच्छस्तम्| \nखदिरोदकसंयुक्तं खदिरोदकपानग्र्यं वा||१६६||",
+      "english": "All the treatment which is kuṣṭhaghna is also useful in śvitrā especially drinks of khadira or mixed with decoctions of khadira.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 167,
+      "devanagari": "समनःशिलं विडङ्गं कासीसं रोचनां कनकपुष्पीम्| \nश्वित्राणां प्रशमार्थं ससैन्धवं लेपनं दद्यात्||१६७||",
+      "english": "Manaḥśila, viḍaṅga, kāsīsa, gorōcana, kanakapuṣpī (svarnakshri) and saindhava when applied externally is useful in leucoderma.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 168,
+      "devanagari": "कदलीक्षारयुतं वा खरास्थि दग्धं गवां रुधिरयुक्तम्| \nहस्तिमदाध्युषितं वा मालत्याः कोरकक्षारम्||१६८|| नीलोत्पलं सकुष्ठं ससैन्धवं हस्तिमूत्रपिष्टं वा| \nमूलकबीजावल्गुजलेपः पिष्टो गवां मूत्रे||१६९|| काकोदुम्बरिका वा सावल्गुजचित्रका गवां मूत्रे| \nपिष्टा मनःशिला वा संयुक्ता बर्हिपित्तेन||१७०|| लेपः किलासहन्ता बीजान्यावल्गुजानि लाक्षा च| \nगोपित्तमञ्जने द्वे पिप्पल्यः काललोहरजः||१७१||",
+      "english": "",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 172,
+      "devanagari": "शुद्ध्या शोणितमोक्षैर्विरूक्षणैर्भक्षणैश्च सक्तूनाम्| \nश्वित्रं कस्यचिदेव प्रणश्यति क्षीणपापस्य||१७२||",
+      "english": "After shodhana therapy raktamokshana and also intake of ununctuous food like saktū (roasted corn flour) leucoderma is cured only in few who are free from effects of sinful deeds.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 173,
+      "devanagari": "दारुणं चारुणं [१] श्वित्रं किलासं नामभिस्त्रिभिः| \nविज्ञेयं त्रिविधं तच्च [२] त्रिदोषं प्रायशश्च तत्||१७३|| दोषे रक्ताश्रिते रक्तं ताम्रं मांससमाश्रिते| \nश्वेतं मेदःश्रिते श्वित्रं गुरु तच्चोत्तरोत्तरम्||१७४||",
+      "english": "Dāruṇa, chāruṇa, and kilāsa are the various synonyms for śvitrā. It is of 3 types and generally all the tridosha are involved. If the dosha responsible for śvitrā are seated in the rakta dhatu then the color of hypo-pigmentation is red. It is copper-colored if dosha are seated in mamsa dhatu and whitish in color if located in meda dhatu. The subsequent ones are more difficult to treat than earlier ones.[173-174]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 175,
+      "devanagari": "यत् परस्परतोऽभिन्नं बहु यद्रक्तलोमवत्| \nयच्च वर्षगणोत्पन्नं तच्छ्वित्रं नैव सिध्यति||१७५|| अरक्तलोम तनु यत् पाण्डु नातिचिरोत्थितम्| \nमध्यावकाशे चोच्छूनं श्वित्रं तत्साध्यमुच्यते||१७६||",
+      "english": "If the patches are conjoined together and are more in number, if the body hair above the patches are red in color and if the disease is more than one year old. Such śvitrā never gets cured. If body hair over the patches is not red if skin is thin and pale in color. The disease, if is not old, space between patches is elevated then such śvitrā is sādhya (curable). [175-176]",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 177,
+      "devanagari": "वचांस्यतथ्यानि कृतघ्नभावो निन्दा सुराणां [१] गुरुधर्षणं च| \nपापक्रिया पूर्वकृतं च कर्म हेतुः किलासस्य विरोधि चान्नम्||१७७||",
+      "english": "Untruthfulness, ungratefulness, no respect for the gods, disrespect for the peers (guru), sinful acts, and misdeeds of past life and intake of mutually contradictory food are the causes for śvitrā.",
+      "section": "Skin diseases treatment"
+    },
+    {
+      "verseNumber": 178,
+      "devanagari": "तत्र श्लोकाः- हेतुर्द्रव्यं लिङ्गं विविधं ये येषु चाधिका दोषाः| \nकुष्ठेषु दोषलिङ्गं समासतो दोषनिर्देशः||१७८|| साध्यमसाध्यं कृच्छ्रं कुष्ठं कुष्ठापहाश्च ये योगाः| \nसिद्धाः किलासहेतुर्लिङ्गं गुरुलाघवं तथा शान्तिः||१७९|| इति सङ्ग्रहः प्रणीतो महर्षिणा कुष्ठनाशनेऽध्याये| \nस्मृतिबुद्धिवर्घनार्थं शिष्याय हुताशवेशाय||१८०||",
+      "english": "Etiology, dravya (tridosha, rasa, rakta, mamsa, ambu), various signs and symptoms, predominance of dosha in various kushtha and symptoms as per type of vitiated dosha, curable and difficult to cure types of kushtha, preparation useful in kushtha. Similarly etiology, symptoms, curable and incurable symptoms and treatment of śvitrā have been explained.",
+      "section": "Skin diseases treatment"
+    }
+  ],
+  "tattvaVimarsha": "Skin is the largest organ of the body constituting the integumentary system, comprising of skin, hair and nails etc. It constitutes 16% of body weight. Skin has the total surface area varying 1.2-2.2 sq.m. It is a combined product of ectoderm as well as of mesoderm. Kushtha (skin disorder or dermatosis) is a chronic disease which presents with ugly colors / complexion/ texture and altered tactile perceptions of the skin. The word kushtha is derived from kushnati vapuh meaning that which alters complexion of body by extracting.\n\nAll the types of kushtha are caused due to vitiation of tridosha with involvement of skin, blood, lymph and muscular issue. Kushtha is often translated in English as leprosy, which is not correct because of absence of Mycobacterium leprae, though the appearance of skin lesions of mahakushtha resemble leprosy. Etiological factors of kushtha are antagonistic food, toxins released from suppressed natural urges, and practices harmful to the blood and skin. It is tridoshaja disease, but because of variable proportion of one specific dosha, causes variation in features and prognosis. Variable doshic impact on skin, gives different color, complexion, pain sensitivity, texture, deformities, discharge, and tactile perception. Generalized symptoms appear only in prodromal stage.\n\nIn the context of kushtha, four aspects of skin are important. First is that it consists of six layers as described in [Cha. Sa.Sharira Sthana chapter 4], and each layer is seat of specific type of gradually progressing kushtha.\n\nSecond aspect is that it is a sensory organ too, and is seat of vata dosha. In case of kushtha vitiated vata in skin manifests as, horripilations, numbness, and loss of tactile perceptions.\n\nThird aspect, skin is the sub-tissue or upadhatu of mamsa dhatu, texture of skin depends upon muscle texture, so the dermal deformities spread upto the mamsa dhatu or musculature and skin texture causing ugly shape of skin lesions. Lastly, affliction of deeper layers of skin deteriorates the ulcer healing ability of skin and damages the defense mechanisms against enormous pathological invasions. Thus, the kushtha stands for long time with more and more uglier shape.\n\nThis chapter is placed after Prameha Chikitsa, because one of the complications of prameha is carbuncle, which penetrates deeper into the muscles and is very similar to kushtha but the etio-pathogenesis is very different. Indulging in heavy to digest food products is responsible for increase of kleda (excess moisture) in the body. Such kleda is carried by mutra and leads to increase in quantity and frequency of mutra leading to pathogenesis of prameha. When same kleda spreads throughout the body causes shaithilyata (looseness of body tissue) and also vitiates meda dhatu. Vitiated kleda and meda are responsible for mamsa dusti which is responsible for pidika genesis and manifest as change in color, texture and sensation of tvacha (skin). This leads to various skin diseases.\n\nAnother disease named visarpa is explained later in 21st chapter of this section also has these components commonly, but due to prominence of impurity in blood that is a rapidly spreading disease whereas kushtha is slow progressing disease. Whereas visarpa advances into the visceral parts, kushtha spreads horizontally and limited to skin only.",
+  "vidhiVimarsha": "Skin is the largest organ of the body constituting the integumentary system, comprising of skin, hair and nails etc. It constitutes 16% of body weight. Skin has the total surface area varying 1.2-2.2 sq.m. It is a combined product of ectoderm as well as of mesoderm. Kushtha (skin disorder or dermatosis) is a chronic disease which presents with ugly colors / complexion/ texture and altered tactile perceptions of the skin. The word kushtha is derived from kushnati vapuh meaning that which alters complexion of body by extracting.\n\nAll the types of kushtha are caused due to vitiation of tridosha with involvement of skin, blood, lymph and muscular issue. Kushtha is often translated in English as leprosy, which is not correct because of absence of Mycobacterium leprae, though the appearance of skin lesions of mahakushtha resemble leprosy. Etiological factors of kushtha are antagonistic food, toxins released from suppressed natural urges, and practices harmful to the blood and skin. It is tridoshaja disease, but because of variable proportion of one specific dosha, causes variation in features and prognosis. Variable doshic impact on skin, gives different color, complexion, pain sensitivity, texture, deformities, discharge, and tactile perception. Generalized symptoms appear only in prodromal stage.\n\nIn the context of kushtha, four aspects of skin are important. First is that it consists of six layers as described in [Cha. Sa.Sharira Sthana chapter 4], and each layer is seat of specific type of gradually progressing kushtha.\n\nSecond aspect is that it is a sensory organ too, and is seat of vata dosha. In case of kushtha vitiated vata in skin manifests as, horripilations, numbness, and loss of tactile perceptions.\n\nThird aspect, skin is the sub-tissue or upadhatu of mamsa dhatu, texture of skin depends upon muscle texture, so the dermal deformities spread upto the mamsa dhatu or musculature and skin texture causing ugly shape of skin lesions. Lastly, affliction of deeper layers of skin deteriorates the ulcer healing ability of skin and damages the defense mechanisms against enormous pathological invasions. Thus, the kushtha stands for long time with more and more uglier shape.\n\nThis chapter is placed after Prameha Chikitsa, because one of the complications of prameha is carbuncle, which penetrates deeper into the muscles and is very similar to kushtha but the etio-pathogenesis is very different. Indulging in heavy to digest food products is responsible for increase of kleda (excess moisture) in the body. Such kleda is carried by mutra and leads to increase in quantity and frequency of mutra leading to pathogenesis of prameha. When same kleda spreads throughout the body causes shaithilyata (looseness of body tissue) and also vitiates meda dhatu. Vitiated kleda and meda are responsible for mamsa dusti which is responsible for pidika genesis and manifest as change in color, texture and sensation of tvacha (skin). This leads to various skin diseases.\n\nAnother disease named visarpa is explained later in 21st chapter of this section also has these components commonly, but due to prominence of impurity in blood that is a rapidly spreading disease whereas kushtha is slow progressing disease. Whereas visarpa advances into the visceral parts, kushtha spreads horizontally and limited to skin only.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Kushtha_Chikitsa_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s06.008"
+}

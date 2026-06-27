@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "sthana": "Sutra Sthana",
+    "sthanaNumber": 1,
+    "chapterNumber": 14,
+    "chapterTitleEnglish": "Sudation Therapies",
+    "chapterTitleSanskrit": "Sweda Adhyaya",
+    "chapterTitleDevanagari": "Swedadhyaya",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Galib, Dwivedi L.K., Thakar A. B., Patil V.",
+    "editors": [
+      "Mangalasseri P."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s01.016"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Sweda_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "As per Ayurveda, the functioning of the universe depends upon agni and soma which symbolize sources of hot and cold energy. Uttarayana (northward sojourn of sun) and dakshinayana (southward sojourn of sun) are together responsible for maintaining homeostasis on this planet. This homeostasis is also mirrored in the individual through the concept of loka purusha samanya siddhantha (that the individual is a microcosm of the universe, the macrocosm). The purusha (individual human being) imbibes this energy and confines it in the sharira (body) as pitta. This pitta controls, or rather regulates, the ushmanattva (core body temperature) of the body. [Cha.Sa.Sutra Sthana 12/11] It is responsible for all the metabolic processes at the cellular level and digestion at the level of the gut. Pitta is the contributor of ushna guna (warmth) to the body. The stimulator (preraka) of pitta is vata (the accelator-sameerano agnehe. [Cha.Sa.Sutra Sthana 12] Vata, in association with pitta and kapha, maintains the normal core body temperature by controlling the heat regulating system and balancing the sheeta and ushna guna. Swedana uses the agni principle in therapy. Practical applications of swedana procedures, along with indications, contraindications and complications associated with their management have been described in this chapter. It is recommended after proper snehana and is enlisted as one among six important therapies along with langhana (fasting or reducing therapy), brimhana (nourishing therapy), snehana (oleation), stambhana (styptic therapy) and rukshana (drying therapy).Swedana has to be adopted based on the symptoms and conditions considering the samanya visesha sidhantha (theory of similarity and dissimilarity). Swedana procedures are indicated in vata, kapha and vata-kapha dosha dominant disorders, but are contraindicated in pittaja disorders. There are three types of twin procedures (with opposing actions to each other) used for various conditions: Thirteen types of procedures of sagni sweda (induced with help of fire) and ten types of niragni/anagniswedana (induced without help of fire) described for various sudation procedures. Ekangtah-sarvangtah (localized-generalized). An ekangtah, or localized swedana, is administered by means of sankara sweda (bolus fomentation) and naadisweda (using a tube for fomentation) etc. and sarvantah or generalized swedana is administered by means of prastar (lying down on medicated hot mattress) and jentaaka, (sudation in a heated room) etc. Snigdha (unctuous) procedures for vata dominant disorders and ruksha (dry) procedures for kapha dominant disorders are advised. In vata-kapha dominant disorders, snigdha-ruksha procedures are recommended.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of swedana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Scope of Swedana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mode of swedana as per site of dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sensitive body parts for swedana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pre-sudation care",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Care during sudation therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications for stopping sudation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of over-sudation and its treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indications of swedana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of swedana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Swedana dravya (material for sudation)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Preparation for comfortable sudation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Decoctions for nadi sweda (tubular fomentation)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Material for avagaha sweda (tub fomentation)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Material for upanaha sweda (poultice fomentation)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Thirteen types of sweda",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ten sudation methods without using fire",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical administration of swedana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kizhi / Pinda / Pottali",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prakriti &amp; season specific indications of kizhi",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Patrapottali sweda (sudation using bolus made of herbal leaves)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Jambeera pinda sweda (sudation using bolus made of lemon)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Churna pinda sweda (Sudation using bolus made of herbal powders)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shashtika pinda sweda (sudation using bolus made of shashtika rice)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ksheera dhuma (fomentation by steam of medicated milk)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Avagaha (sitz bath)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pizhicchil",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dhanyamla dhara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "As per Ayurveda, the functioning of the universe depends upon agni and soma which symbolize sources of hot and cold energy. Uttarayana (northward sojourn of sun) and dakshinayana (southward sojourn of sun) are together responsible for maintaining homeostasis on this planet. This homeostasis is also mirrored in the individual through the concept of loka purusha samanya siddhantha (that the individual is a microcosm of the universe, the macrocosm). The purusha (individual human being) imbibes this energy and confines it in the sharira (body) as pitta. This pitta controls, or rather regulates, the ushmanattva (core body temperature) of the body. [Cha.Sa.Sutra Sthana 12/11] It is responsible for all the metabolic processes at the cellular level and digestion at the level of the gut. Pitta is the contributor of ushna guna (warmth) to the body. The stimulator (preraka) of pitta is vata (the accelator-sameerano agnehe. [Cha.Sa.Sutra Sthana 12] Vata, in association with pitta and kapha, maintains the normal core body temperature by controlling the heat regulating system and balancing the sheeta and ushna guna. Swedana uses the agni principle in therapy. Practical applications of swedana procedures, along with indications, contraindications and complications associated with their management have been described in this chapter. It is recommended after proper snehana and is enlisted as one among six important therapies along with langhana (fasting or reducing therapy), brimhana (nourishing therapy), snehana (oleation), stambhana (styptic therapy) and rukshana (drying therapy).Swedana has to be adopted based on the symptoms and conditions considering the samanya visesha sidhantha (theory of similarity and dissimilarity). Swedana procedures are indicated in vata, kapha and vata-kapha dosha dominant disorders, but are contraindicated in pittaja disorders. There are three types of twin procedures (with opposing actions to each other) used for various conditions: Thirteen types of procedures of sagni sweda (induced with help of fire) and ten types of niragni/anagniswedana (induced without help of fire) described for various sudation procedures. Ekangtah-sarvangtah (localized-generalized). An ekangtah, or localized swedana, is administered by means of sankara sweda (bolus fomentation) and naadisweda (using a tube for fomentation) etc. and sarvantah or generalized swedana is administered by means of prastar (lying down on medicated hot mattress) and jentaaka, (sudation in a heated room) etc. Snigdha (unctuous) procedures for vata dominant disorders and ruksha (dry) procedures for kapha dominant disorders are advised. In vata-kapha dominant disorders, snigdha-ruksha procedures are recommended.",
+  "vidhiVimarsha": "As per Ayurveda, the functioning of the universe depends upon agni and soma which symbolize sources of hot and cold energy. Uttarayana (northward sojourn of sun) and dakshinayana (southward sojourn of sun) are together responsible for maintaining homeostasis on this planet. This homeostasis is also mirrored in the individual through the concept of loka purusha samanya siddhantha (that the individual is a microcosm of the universe, the macrocosm). The purusha (individual human being) imbibes this energy and confines it in the sharira (body) as pitta. This pitta controls, or rather regulates, the ushmanattva (core body temperature) of the body. [Cha.Sa.Sutra Sthana 12/11] It is responsible for all the metabolic processes at the cellular level and digestion at the level of the gut. Pitta is the contributor of ushna guna (warmth) to the body. The stimulator (preraka) of pitta is vata (the accelator-sameerano agnehe. [Cha.Sa.Sutra Sthana 12] Vata, in association with pitta and kapha, maintains the normal core body temperature by controlling the heat regulating system and balancing the sheeta and ushna guna. Swedana uses the agni principle in therapy. Practical applications of swedana procedures, along with indications, contraindications and complications associated with their management have been described in this chapter. It is recommended after proper snehana and is enlisted as one among six important therapies along with langhana (fasting or reducing therapy), brimhana (nourishing therapy), snehana (oleation), stambhana (styptic therapy) and rukshana (drying therapy).Swedana has to be adopted based on the symptoms and conditions considering the samanya visesha sidhantha (theory of similarity and dissimilarity). Swedana procedures are indicated in vata, kapha and vata-kapha dosha dominant disorders, but are contraindicated in pittaja disorders. There are three types of twin procedures (with opposing actions to each other) used for various conditions: Thirteen types of procedures of sagni sweda (induced with help of fire) and ten types of niragni/anagniswedana (induced without help of fire) described for various sudation procedures. Ekangtah-sarvangtah (localized-generalized). An ekangtah, or localized swedana, is administered by means of sankara sweda (bolus fomentation) and naadisweda (using a tube for fomentation) etc. and sarvantah or generalized swedana is administered by means of prastar (lying down on medicated hot mattress) and jentaaka, (sudation in a heated room) etc. Snigdha (unctuous) procedures for vata dominant disorders and ruksha (dry) procedures for kapha dominant disorders are advised. In vata-kapha dominant disorders, snigdha-ruksha procedures are recommended.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Importance of swedana",
+    "2.2 Scope of Swedana",
+    "2.3 Mode of swedana as per site of dosha",
+    "2.4 Sensitive body parts for swedana",
+    "2.5 Pre-sudation care",
+    "2.6 Care during sudation therapy",
+    "2.7 Indications for stopping sudation",
+    "2.8 Signs of over-sudation and its treatment",
+    "2.9 Contra-indications of swedana",
+    "2.10 Indications of swedana",
+    "2.11 Swedana dravya (material for sudation)",
+    "2.12 Preparation for comfortable sudation",
+    "2.13 Decoctions for nadi sweda (tubular fomentation)",
+    "2.14 Material for avagaha sweda (tub fomentation)",
+    "2.15 Material for upanaha sweda (poultice fomentation)",
+    "2.16 Thirteen types of sweda 2.16.1 Sankara sweda (bolus fomentation)",
+    "2.16.2 Prastara sweda (lying on a medicinal mattress)",
+    "2.16.3 Nadi sweda (tubular steam sudation)",
+    "2.16.4 Parisheka sweda (shower technique for fomentation)",
+    "2.16.5 Avagaha sweda (tub fomentation)",
+    "2.16.6 Jentaka sweda (sudation therapy in room)",
+    "2.16.7 Ashmaghana sweda (sudation on heated slab of stone)",
+    "2.16.8 Karshu sweda (sudation by using heat in a trench under bed)",
+    "2.16.9 Kuti sweda (sudation in a cottage) and bhu sweda (sudation on floor)",
+    "2.16.10 Kumbhi sweda (sudation with a pitcher)",
+    "2.16.11 Kupa sweda (sudation in a pit)",
+    "2.16.12 Holaka sweda (sudation using a heap of dung)",
+    "2.17 Ten sudation methods without using fire",
+    "2.18 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences) 4.1 Clinical administration of swedana",
+    "4.2 Kizhi / Pinda / Pottali 4.2.1 Preparation of Kizhi",
+    "4.2.2 Preparation of the patient",
+    "4.2.3 Application of kizhi",
+    "4.2.4 General Indications of swedana by kizhi",
+    "4.2.5 Dosha-specific indications of kizhi",
+    "4.3 Prakriti &amp; season specific indications of kizhi",
+    "4.4 Patrapottali sweda (sudation using bolus made of herbal leaves) 4.4.1 Materials required",
+    "4.4.2 Preparation of pottali",
+    "4.4.3 Procedure",
+    "4.4.4 Indications",
+    "4.5 Jambeera pinda sweda (sudation using bolus made of lemon) 4.5.1 Materials required",
+    "4.5.2 Preparation of medicine",
+    "4.5.3 Preparation of the patient &amp; Procedure",
+    "4.5.4 Indications",
+    "4.5.5 Specific care",
+    "4.6 Churna pinda sweda (Sudation using bolus made of herbal powders) 4.6.1 Material required",
+    "4.6.2 Preparation of pottali",
+    "4.6.3 Procedure",
+    "4.6.4 Indications",
+    "4.6.5 Special care",
+    "4.7 Shashtika pinda sweda (sudation using bolus made of shashtika rice) 4.7.1 Materials required",
+    "4.7.2 Preparation of medicine",
+    "4.7.3 Preparation of shashtika",
+    "4.7.4 Preparation of pottali",
+    "4.7.5 Procedure",
+    "4.7.6 Indications",
+    "4.7.7 Special care",
+    "4.8 Ksheera dhuma (fomentation by steam of medicated milk) 4.8.1 Materials required",
+    "4.8.2 Preparation of medicine",
+    "4.8.3 Preparation of the patient",
+    "4.8.4 Procedure",
+    "4.8.5 Indications",
+    "4.9 Avagaha (sitz bath) 4.9.1 Materials required",
+    "4.9.2 Preparation of patient",
+    "4.9.3 Procedure",
+    "4.9.4 Indications",
+    "4.10 Pizhicchil 4.10.1 Materials required (for 7 days)",
+    "4.10.2 Preparation of patient",
+    "4.10.3 Preparation of medicine",
+    "4.10.4 Procedure",
+    "4.10.5 Complications",
+    "4.10.6 Indications",
+    "4.11 Dhanyamla dhara 4.11.1 Materials required",
+    "4.11.2 Preparation of patient",
+    "4.11.3 Procedure",
+    "4.11.4 Indications",
+    "4.11.5 Practical tips",
+    "5 References"
+  ]
+}

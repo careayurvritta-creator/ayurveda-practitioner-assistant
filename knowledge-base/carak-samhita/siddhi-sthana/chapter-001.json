@@ -1,0 +1,539 @@
+{
+  "metadata": {
+    "sthana": "Siddhi Sthana",
+    "sthanaNumber": 8,
+    "chapterNumber": 1,
+    "chapterTitleEnglish": "Standard administration of purification procedures",
+    "chapterTitleSanskrit": "Kalpana Siddhi Adhyaya",
+    "chapterTitleDevanagari": "Kalpana Siddhi",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Mangalasseri P.",
+    "editors": [
+      "Thakar A. B.",
+      "Mangalasseri P."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s08.002"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Kalpana_Siddhi_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "1 Introduction 2",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Queries asked by Agnivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Duration of oleation therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effect of oleation therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effect of fomentation therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Measures to be adopted before vamana and virechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Reasons for vamana and virechana working in opposite ways",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Order of administration of emesis and purgation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Post purificatory regimen (samsarjana krama)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of three types of emesis and purgation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features of proper emesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features of insufficient emesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features of excess emesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features of proper purgation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features of inadequate purgation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features of excess purgation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Follow up after purification",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Time of anuvasana (unctuous enema)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Number of basti as per dosha dominance",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sequence of niruha (decoction enema) and purgation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Beneficial effects of basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Benefits of unctuous enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific indications and benefits of enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Selection of type of enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indications of unctuous enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indications of decoction type of enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of basti therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mode of action of basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of properly administered niruha basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of inadequately administered niruha basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of excessively administered niruha basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of proper administration of unctuous enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of inadequate administration of unctuous enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of excess administration of unctuous enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Duration of retaining unctuous enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Duration and schedule of karma, kala and yoga basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Proper, inadequate and excess administration of shirovirechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors to be avoided during Panchakarma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Reason for failure of basti to cure curable diseases",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Queries asked by Agnivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Duration of oleation therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effect of oleation and fomentation therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diet before shodhana and reasons for vamana and virechana working in opposite ways",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Post therapeutic measures (samsarjana krama)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of three types of emesis and purgation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Time to anuvasana (unctuous enema) or oleation after cleansing process",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Number and sequence of unctuous and niruha type of enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Benefits of niruha type of medicated enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Benefits of unctuous type of medicated enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of unctuous and evacuating type of medicated enema in general",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Selection of type of enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of basti therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mode of action of basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sign and symptoms of proper, improper and excess use of evacuating type of medicated enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sign and symptoms of proper, improper and excess use of unctuous type of medicated enema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Karma, kala and yoga basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shirovirechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Do’s and don’ts in Panchakarma procedures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Reason for failure of basti to cure curable diseases and importance of dose in cleansing therapies",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Practical guidelines for vamana and virechana procedures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Practical guideline for therapeutic enema procedure",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Practical guideline for shirovirechana procedure",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Advanced researches",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Scope for further research",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "Kalpana Siddhi can be described as a guideline index for all cleansing processes described in various chapters. Kalpa Sthana deals with the formulations useful especially for vamana (therapeutic emesis) and virechana (therapeutic purgation). Thus, after meticulous knowledge of drugs useful for cleansing processes the clinical applicability is described. Hence Charaka named the chapter as Kalpana Siddhi meaning the excellence or successful application of the formulations described earlier. The chapter is formulated in a manner of answers given to the queries asked by Agnivesha which are actually meant for a brief and sequential description of the subject.",
+  "vidhiVimarsha": "Kalpana Siddhi can be described as a guideline index for all cleansing processes described in various chapters. Kalpa Sthana deals with the formulations useful especially for vamana (therapeutic emesis) and virechana (therapeutic purgation). Thus, after meticulous knowledge of drugs useful for cleansing processes the clinical applicability is described. Hence Charaka named the chapter as Kalpana Siddhi meaning the excellence or successful application of the formulations described earlier. The chapter is formulated in a manner of answers given to the queries asked by Agnivesha which are actually meant for a brief and sequential description of the subject.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Queries asked by Agnivesha",
+    "2.2 Duration of oleation therapy",
+    "2.3 Effect of oleation therapy",
+    "2.4 Effect of fomentation therapy",
+    "2.5 Measures to be adopted before vamana and virechana",
+    "2.6 Reasons for vamana and virechana working in opposite ways",
+    "2.7 Order of administration of emesis and purgation",
+    "2.8 Post purificatory regimen (samsarjana krama)",
+    "2.9 Characteristics of three types of emesis and purgation",
+    "2.10 Features of proper emesis",
+    "2.11 Features of insufficient emesis",
+    "2.12 Features of excess emesis",
+    "2.13 Features of proper purgation",
+    "2.14 Features of inadequate purgation",
+    "2.15 Features of excess purgation",
+    "2.16 Follow up after purification",
+    "2.17 Time of anuvasana (unctuous enema)",
+    "2.18 Number of basti as per dosha dominance",
+    "2.19 Sequence of niruha (decoction enema) and purgation",
+    "2.20 Beneficial effects of basti",
+    "2.21 Benefits of unctuous enema",
+    "2.22 Specific indications and benefits of enema",
+    "2.23 Selection of type of enema",
+    "2.24 Contra-indications of unctuous enema",
+    "2.25 Contra-indications of decoction type of enema",
+    "2.26 Importance of basti therapy",
+    "2.27 Mode of action of basti",
+    "2.28 Signs of properly administered niruha basti",
+    "2.29 Signs of inadequately administered niruha basti",
+    "2.30 Signs of excessively administered niruha basti",
+    "2.31 Signs of proper administration of unctuous enema",
+    "2.32 Signs of inadequate administration of unctuous enema",
+    "2.33 Signs of excess administration of unctuous enema",
+    "2.34 Duration of retaining unctuous enema",
+    "2.35 Duration and schedule of karma, kala and yoga basti",
+    "2.36 Proper, inadequate and excess administration of shirovirechana",
+    "2.37 Factors to be avoided during Panchakarma",
+    "2.38 Reason for failure of basti to cure curable diseases",
+    "2.39 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Queries asked by Agnivesha",
+    "4.2 Duration of oleation therapy",
+    "4.3 Effect of oleation and fomentation therapy",
+    "4.4 Diet before shodhana and reasons for vamana and virechana working in opposite ways",
+    "4.5 Post therapeutic measures (samsarjana krama)",
+    "4.6 Characteristics of three types of emesis and purgation 4.6.1 Symptomatic evaluation of cleansing processes",
+    "4.7 Time to anuvasana (unctuous enema) or oleation after cleansing process",
+    "4.8 Number and sequence of unctuous and niruha type of enema",
+    "4.9 Benefits of niruha type of medicated enema",
+    "4.10 Benefits of unctuous type of medicated enema",
+    "4.11 Effects of unctuous and evacuating type of medicated enema in general",
+    "4.12 Selection of type of enema",
+    "4.13 Importance of basti therapy",
+    "4.14 Mode of action of basti",
+    "4.15 Sign and symptoms of proper, improper and excess use of evacuating type of medicated enema",
+    "4.16 Sign and symptoms of proper, improper and excess use of unctuous type of medicated enema",
+    "4.17 Karma, kala and yoga basti",
+    "4.18 Shirovirechana",
+    "4.19 Do’s and don’ts in Panchakarma procedures",
+    "4.20 Reason for failure of basti to cure curable diseases and importance of dose in cleansing therapies",
+    "4.21 Practical guidelines for vamana and virechana procedures",
+    "4.22 Practical guideline for therapeutic enema procedure",
+    "4.23 Practical guideline for shirovirechana procedure",
+    "4.24 Advanced researches",
+    "4.25 Scope for further research",
+    "4.26 Summary",
+    "5 References"
+  ]
+}

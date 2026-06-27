@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 19,
+    "chapterTitleEnglish": "Management of Atisara",
+    "chapterTitleSanskrit": "Atisara Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Atisara Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Prasad B.S.",
+    "editors": [
+      "Singh G.",
+      "Goyal M."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.020"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Atisara_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "Grahani and atisara - both manifest due to the vitiation of agni and share common features of impairment of digestion resulting in indigestion and loose motions. Therefore, this chapter should logically precede or succeed the chapter on grahani. But it is described three chapters after that on grahani. The reason for this unusual sequencing of these topics is that since pandu is a common symptom and sequelae of the malabsorption syndrome (grahani), the chapter on pandu follows grahani. Now, dyspnea (shwasa) is a major symptom of pandu, and thus, follows the chapter on pandu. Similarly, chapter on kasa (cough) follows shwasa because of their relationship. That explains the sequencing of grahani and atisara in Charak Samhita. Ayurveda considers atisara as a defense mechanism of the body to eject out any toxic material from it. Therefore, it is recommended that in amaja (or initial) state loose motions should not be checked. After evacuation of toxins from the body, fasting and digestive drugs are prescribed as a cure for milder forms of diarrhea. However, for other types of diarrhea, various preparations, diet and basti are advised. Picchabasti (mucilegue type of medicated enema) is prescribed particularly if blood accompanies the stool. Appropriate treatments for ulcer, suppuration of anus and prolapse of anus are dealt with, since these accompany the more complex forms of diarrhea. Atisara leads to the depletion of water and beneficial salts, causing dehydration in the body. This provokes vata, and therefore requires taking special care of vata, particularly if, the atisara is caused by all the three dosha. Hydration of the body by means of oral administration of milk, buttermilk and various liquid preparations is advised. Goat’s milk is very useful in bloody diarrhea.The treatment of cholera and other dehydrating diarrheal diseases was revolutionized by the promotion of oral rehydration solution (ORS), the efficacy of which depends on the fact that glucose-facilitated absorption of sodium and water in the small intestine remains intact in the presence of cholera toxin. Where indicated, appropriate antimicrobial agents can shorten the duration of illness from 3–4 days to 24–36 h, hence it should be started depending on the course of illness. Adequate prophylaxis measures should be taken to prevent the infectious diarrhoea.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Query by Agnivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Historical origins of atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vataja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pittaja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kaphaja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sannipataja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of sannipataja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for starting treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Exogenous (psychological) diarrhea",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of exogenous (psychological) diarrhea",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principles of treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipes of pramathya",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diet and drinks for atisara patient",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of vataja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of diarrhea associated with pain",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of pravahika (dysentery)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of varcha-kshaya (scanty formation of stool)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of prolapse of rectum",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Changeri ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chavyadi ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Anuvasana basti in prolapse of rectum",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of strangulated prolapsed rectum",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Use of medicated milk",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of pittaja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipes for pittaja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Administration of milk",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Piccha basti (slimy medicated enema)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Raktatisara (bloody diarrhoea)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of raktatisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Measures to alleviate bleeding in raktatisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of sannipataja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hemostatic recipes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of anal suppuration",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pichcha-basti(mucilaginous enema) for dysentery",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Medicated enema and recipes of linctus",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Suppuration of anal sphincters",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of kaphaja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of complications of atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Piccha-basti and anuvasana-basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Need for immediate control of vata",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principle of treatment of sannipataja atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Acute (sudden onset) diarrhea",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chronic (or relapsing) diarrhea &#91;1&#93;",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathophysiological factors of endogenous diarrhea",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management protocol of endogenous diarrhea",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prevention of atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of exogenous diarrhea/atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Important guidelines and precautions for diarrhea management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "List of research on review of atisara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Research Areas",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Further reading",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "Grahani and atisara - both manifest due to the vitiation of agni and share common features of impairment of digestion resulting in indigestion and loose motions. Therefore, this chapter should logically precede or succeed the chapter on grahani. But it is described three chapters after that on grahani. The reason for this unusual sequencing of these topics is that since pandu is a common symptom and sequelae of the malabsorption syndrome (grahani), the chapter on pandu follows grahani. Now, dyspnea (shwasa) is a major symptom of pandu, and thus, follows the chapter on pandu. Similarly, chapter on kasa (cough) follows shwasa because of their relationship. That explains the sequencing of grahani and atisara in Charak Samhita. Ayurveda considers atisara as a defense mechanism of the body to eject out any toxic material from it. Therefore, it is recommended that in amaja (or initial) state loose motions should not be checked. After evacuation of toxins from the body, fasting and digestive drugs are prescribed as a cure for milder forms of diarrhea. However, for other types of diarrhea, various preparations, diet and basti are advised. Picchabasti (mucilegue type of medicated enema) is prescribed particularly if blood accompanies the stool. Appropriate treatments for ulcer, suppuration of anus and prolapse of anus are dealt with, since these accompany the more complex forms of diarrhea. Atisara leads to the depletion of water and beneficial salts, causing dehydration in the body. This provokes vata, and therefore requires taking special care of vata, particularly if, the atisara is caused by all the three dosha. Hydration of the body by means of oral administration of milk, buttermilk and various liquid preparations is advised. Goat’s milk is very useful in bloody diarrhea.The treatment of cholera and other dehydrating diarrheal diseases was revolutionized by the promotion of oral rehydration solution (ORS), the efficacy of which depends on the fact that glucose-facilitated absorption of sodium and water in the small intestine remains intact in the presence of cholera toxin. Where indicated, appropriate antimicrobial agents can shorten the duration of illness from 3–4 days to 24–36 h, hence it should be started depending on the course of illness. Adequate prophylaxis measures should be taken to prevent the infectious diarrhoea.",
+  "vidhiVimarsha": "Grahani and atisara - both manifest due to the vitiation of agni and share common features of impairment of digestion resulting in indigestion and loose motions. Therefore, this chapter should logically precede or succeed the chapter on grahani. But it is described three chapters after that on grahani. The reason for this unusual sequencing of these topics is that since pandu is a common symptom and sequelae of the malabsorption syndrome (grahani), the chapter on pandu follows grahani. Now, dyspnea (shwasa) is a major symptom of pandu, and thus, follows the chapter on pandu. Similarly, chapter on kasa (cough) follows shwasa because of their relationship. That explains the sequencing of grahani and atisara in Charak Samhita. Ayurveda considers atisara as a defense mechanism of the body to eject out any toxic material from it. Therefore, it is recommended that in amaja (or initial) state loose motions should not be checked. After evacuation of toxins from the body, fasting and digestive drugs are prescribed as a cure for milder forms of diarrhea. However, for other types of diarrhea, various preparations, diet and basti are advised. Picchabasti (mucilegue type of medicated enema) is prescribed particularly if blood accompanies the stool. Appropriate treatments for ulcer, suppuration of anus and prolapse of anus are dealt with, since these accompany the more complex forms of diarrhea. Atisara leads to the depletion of water and beneficial salts, causing dehydration in the body. This provokes vata, and therefore requires taking special care of vata, particularly if, the atisara is caused by all the three dosha. Hydration of the body by means of oral administration of milk, buttermilk and various liquid preparations is advised. Goat’s milk is very useful in bloody diarrhea.The treatment of cholera and other dehydrating diarrheal diseases was revolutionized by the promotion of oral rehydration solution (ORS), the efficacy of which depends on the fact that glucose-facilitated absorption of sodium and water in the small intestine remains intact in the presence of cholera toxin. Where indicated, appropriate antimicrobial agents can shorten the duration of illness from 3–4 days to 24–36 h, hence it should be started depending on the course of illness. Adequate prophylaxis measures should be taken to prevent the infectious diarrhoea.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 Query by Agnivesha",
+    "2.2 Historical origins of atisara",
+    "2.3 Vataja atisara",
+    "2.4 Pittaja atisara",
+    "2.5 Kaphaja atisara",
+    "2.6 Sannipataja atisara",
+    "2.7 Signs and symptoms of sannipataja atisara",
+    "2.8 Guidelines for starting treatment",
+    "2.9 Exogenous (psychological) diarrhea",
+    "2.10 Management of exogenous (psychological) diarrhea",
+    "2.11 Principles of treatment",
+    "2.12 Recipes of pramathya",
+    "2.13 Diet and drinks for atisara patient",
+    "2.14 Treatment of vataja atisara",
+    "2.15 Management of diarrhea associated with pain",
+    "2.16 Treatment of pravahika (dysentery)",
+    "2.17 Treatment of varcha-kshaya (scanty formation of stool)",
+    "2.18 Treatment of prolapse of rectum",
+    "2.19 Changeri ghritam",
+    "2.20 Chavyadi ghritam",
+    "2.21 Anuvasana basti in prolapse of rectum",
+    "2.22 Management of strangulated prolapsed rectum",
+    "2.23 Use of medicated milk",
+    "2.24 Treatment of pittaja atisara",
+    "2.25 Recipes for pittaja atisara",
+    "2.26 Administration of milk",
+    "2.27 Piccha basti (slimy medicated enema)",
+    "2.28 Raktatisara (bloody diarrhoea)",
+    "2.29 Treatment of raktatisara",
+    "2.30 Measures to alleviate bleeding in raktatisara",
+    "2.31 Treatment of sannipataja atisara",
+    "2.32 Hemostatic recipes",
+    "2.33 Treatment of anal suppuration",
+    "2.34 Pichcha-basti(mucilaginous enema) for dysentery",
+    "2.35 Medicated enema and recipes of linctus",
+    "2.36 Suppuration of anal sphincters",
+    "2.37 Treatment of kaphaja atisara",
+    "2.38 Management of complications of atisara",
+    "2.39 Piccha-basti and anuvasana-basti",
+    "2.40 Need for immediate control of vata",
+    "2.41 Principle of treatment of sannipataja atisara",
+    "2.42 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Acute (sudden onset) diarrhea",
+    "4.2 Chronic (or relapsing) diarrhea [1]",
+    "4.3 Pathophysiological factors of endogenous diarrhea",
+    "4.4 Management protocol of endogenous diarrhea 4.4.1 Assessment of strength of patient",
+    "4.4.2 Subjective and objective parameters",
+    "4.5 Prevention of atisara 4.5.1 Atisara can be prevented by following measures",
+    "4.5.2 Current clinical management in Ayurveda practice",
+    "4.5.3 Researches on atisara and medicines",
+    "4.6 Management of exogenous diarrhea/atisara",
+    "4.7 Important guidelines and precautions for diarrhea management",
+    "4.8 List of research on review of atisara",
+    "4.9 Research Areas",
+    "4.10 Further reading",
+    "5 References"
+  ]
+}

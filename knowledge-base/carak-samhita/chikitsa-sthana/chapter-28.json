@@ -1,0 +1,401 @@
+{
+  "sthana": "Chikitsa Sthana",
+  "sthanaNumber": 6,
+  "chapterNumber": 28,
+  "titleEnglish": "Vata diseases",
+  "titleSanskrit": "Vatavyadhi Chikitsa Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातो वातव्याधिचिकित्सितं व्याख्यास्यामः ||१|| इति ह स्माह भगवानात्रेयः ||२||",
+      "english": "Now we shall expound the chapter Vata vyadhi chikitsa (Management of diseases caused by vata dosha). Thus said Lord Atreya.[1-2]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "वायुरायुर्बलं वायुर्वायुर्धाता शरीरिणाम् | \nवायुर्विश्वमिदं सर्वं प्रभुर्वायुश्च कीर्तितः ||३||",
+      "english": "Vayu is life, vayu is strength, vayu mainstays living organism, the same vayu is verily the universe, and hence the Lord Vayu is praised.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "अव्याहतगतिर्यस्य स्थानस्थः प्रकृतौ स्थितः | \nवायुः स्यात्सोऽधिकं जीवेद्वीतरोगः समाः शतम् ||४||",
+      "english": "When normal (non vitiated) vayu is at its abode with unobstructed (free) movement, is responsible for long lifespan of hundred years devoid of diseases.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "प्राणोदानसमानाख्यव्यानापानैः स पञ्चधा | \nदेहं तन्त्रयते सम्यक् स्थानेष्वव्याहतश्चरन् ||५|| स्थानं प्राणस्य मूर्धोरःकण्ठजिह्वास्यनासिकाः [१] | \nष्ठीवनक्षवथूद्गारश्वासाहारादि कर्म च ||६|| उदानस्य पुनः स्थानं नाभ्युरः कण्ठ एव च | \nवाक्प्रवृत्तिः प्रयत्नौर्जोबलवर्णादि कर्म च ||७|| स्वेददोषाम्बुवाहीनि स्रोतांसि समधिष्ठितः | \nअन्तरग्नेश्च पार्श्वस्थः समानोऽग्निबलप्रदः ||८|| देहं व्याप्नोति सर्वं तु व्यानः शीघ्रगतिर्नृणाम् | \nगतिप्रसारणाक्षेपनिमेषादिक्रियः सदा ||९|| वृषणौ बस्तिमेढ्रं च नाम्भूरू वङ्क्षणौ गुदम् | \nअपानस्थानमन्त्रस्थः शुक्रमूत्रशकृन्ति [२] च ||१०|| सृजत्यार्तवगर्भौ च युक्ताः स्थानस्थिताश्च ते | \nस्वकर्म कुर्वते देहो धार्यते तैरनामयः ||११||",
+      "english": "Vayu is of five types namely prana, udana, samana, vyana and apana and they mechanize the body optimally occupying their sites without any irregular movement.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 12,
+      "devanagari": "विमार्गस्था ह्ययुक्ता वा रोगैः स्वस्थानकर्मजैः | \nशरीरं पीडयन्त्येते प्राणानाशु हरन्ति च ||१२|| सङ्ख्यामप्यतिवृत्तानां तज्जानां हि प्रधानतः | \nअशीतिर्नखभेदाद्या रोगाः सूत्रे निदर्शिताः ||१३|| तानुच्यमानान् पर्यायैः सहेतूपक्रमाञ्छृणु | \nकेवलं वायुमुद्दिश्य स्थानभेदात्तथाऽऽवृतम् ||१४||",
+      "english": "When dislodged or impaired, dosha harm the body by diseases according to their respective site and function, and may even lead to instantaneous death.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 15,
+      "devanagari": "रूक्षशीताल्पलघ्वन्नव्यवायातिप्रजागरैः | \nविषमादुपचाराच्च दोषासृक्स्रवणादति ||१५|| लङ्घनप्लवनात्यध्वव्यायामातिविचेष्टितैः | \nधातूनां सङ्क्षयाच्चिन्ताशोकरोगातिकर्षणात् ||१६|| दुःखशय्यासनात् क्रोधाद्दिवास्वप्नाद्भयादपि | \nवेगसन्धारणादामादभिघातादभोजनात् ||१७|| मर्माघाताद्गजोष्ट्राश्वशीघ्रयानापतंसनात् | \nदेहे स्रोतांसि रिक्तानि पूरयित्वाऽनिलो बली ||१८|| करोति विविधान् व्याधीन् सर्वाङ्गैकाङ्गसंश्रितान् |१९|",
+      "english": "Due to intake of dry, cold, deficient and light food; excessive sex and sleeplessness; improper treatments; expelling of dosha or blood letting; by excessive fasting, swimming, walking, exercising, and physical activity; depletion of tissue elements; worrying, grief, debilitating diseases; usage of uncomfortable beds or seats; anger, day sleep or even with fright; suppression of natural urges, indigestion, trauma, abstaining from food; injury to vital areas, falling from swift moving elephant, camel or horse etc. vata is aggravated. This gets filled in the vacuous channels in the body and leads to various generalized or localized disorders. [15-19]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 19,
+      "devanagari": "अव्यक्तं लक्षणं तेषां पूर्वरूपमिति स्मृतम् ||१९|| आत्मरूपं तु तद्व्यक्तमपायो लघुता पुनः |२०|",
+      "english": "Indistinct manifestation of the diseases are considered as prodromal symptoms.When the cardinal feature is clearly manifested, it is called as symptom, while the lessening of features are indicative of cure. [19-20]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "सङ्कोचः पर्वणां स्तम्भो भेदोऽस्थ्नां पर्वणामपि ||२०|| लोमहर्षः प्रलापश्च पाणिपृष्ठशिरोग्रहः | \nखाञ्ज्यपाङ्गुल्यकुब्जत्वं शोषोऽङ्गानामनिद्रता ||२१|| गर्भशुक्ररजोनाशः स्पन्दनं गात्रसुप्तता | \nशिरोनासाक्षिजत्रूणां ग्रीवायाश्चापि हुण्डनम् ||२२|| भेदस्तोदार्तिराक्षेपो मोहश्चायास एव च | \nएवंविधानि रूपाणि करोति कुपितोऽनिलः ||२३|| हेतुस्थानविशेषाच्च भवेद्रोगविशेषकृत् |२४|",
+      "english": "Vitiated vata causes various symptoms like contractures, joint stiffness, splitting of bones and joints, horripilation, delirium, spasticity of hands, back and neck; limping, paraplegia, hunch back; organ atrophy, insomnia, intrauterine death of embryo and fetus, diminishing sperms and menstruation fasciculation, generalized numbness, benumbing or paralysis of muscles of head, nose, eyes, supraclavicular part and neck; splitting, pricking or aching type of pains; convulsions, loss of consciousness, fatigue etc. Different specific diseases of vata are caused by specificity in etiological factors and site of affliction. [20-24]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 24,
+      "devanagari": "तत्र कोष्ठाश्रिते दुष्टे निग्रहो मूत्रवर्चसोः ||२४|| ब्रध्नहृद्रोगगुल्मार्शःपार्श्वशूलं च मारुते |",
+      "english": "When vitiated vata is located in gastrointestinal tract or in abdomen it leads to urinary retention and constipation, intestinal and epigastric discomforts, gulma, piles and pain in flanks.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "सर्वाङ्गुकुपिते वाते गात्रस्फुरणभञ्जने ||२५|| वेदनाभिः परीतश्च स्फुटन्तीवास्य सन्धयः |",
+      "english": "When vitiated vata is located all over the body, it produces generalized fasciculation and breaking pain; different types of pain and the generalized joint crepitus.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 26,
+      "devanagari": "ग्रहो विण्मूत्रवातानां शूलाध्मानाश्मशर्कराः ||२६|| जङ्घोरुत्रिकपात्पृष्ठरोगशोषौ  गुदस्थिते |",
+      "english": "When vitiated vata is located in anus, it leads to retention of feces, urine and flatus; colicky pain, flatulence, renal calculi, micro-calculi; diseases with atrophy in calf, thigh, pelvis, and the back.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "हृन्नाभिपार्श्वोदररुक्तृष्णोद्गारविसूचिकाः ||२७|| कासः कण्ठास्यशोषश्च श्वासश्चामाशयस्थिते |",
+      "english": "When vitiated vata is located in stomach, symptoms manifest as pain in epigastrium, umbilicus, flanks and abdomen; morbid thirst, eructation, acute gastroenteritis, cough, dryness of throat and mouth and breathing difficulty.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 28,
+      "devanagari": "पक्वाशयस्थोऽन्त्रकूजं शूलाटोपौ करोति च ||२८|| कृच्छ्रमूत्रपुरीषत्वमानाहं त्रिकवेदनाम् |",
+      "english": "When vitiated vata is located in colon it causes gurgling, colicky pain, tympanites, difficulty in defecation and urination, flatulence and lumbar/ sacroiliac pain.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 29,
+      "devanagari": "श्रोत्रादिष्विन्द्रियवधं कुर्याद्दुष्टसमीरणः ||२९||",
+      "english": "When vitiated vata is located in ear like sense organs leads to sensorial loss in the respective organs.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 30,
+      "devanagari": "त्वग्रूक्षा स्फुटिता सुप्ता कृशा कृष्णा च तुद्यते | \nआतन्यते सरागा च पर्वरुक् त्वक्स्थितेऽनिले ||३०||",
+      "english": "When vitiated vata is located in skin it becomes dry, fissured, numb, thin, blackish. It causes pain along with erythema and strain and leads to pain in distal end of bones.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "रुजस्तीव्राः ससन्तापा वैवर्ण्यं कृशताऽरुचिः | \nगात्रे चारूंषि भुक्तस्य स्तम्भश्चासृग्गतेऽनिले ||३१||",
+      "english": "When vitiated vata is located in blood it manifests as severe pain with warmth and discoloration; weight loss, anorexia, specific raised rashes in body and esophageal spasm.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 32,
+      "devanagari": "गुर्वङ्गं तुद्यतेऽत्यर्थं दण्डमुष्टिहतं तथा | \nसरुक् श्रमितमत्यर्थं [२] मांसमेदोगतेऽनिले ||३२||",
+      "english": "When vitiated vata is located in muscles and fat, it manifest as heaviness of body, pricking pain and as if beaten by a strong rod or fist cuff and painful severe fatigue.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 33,
+      "devanagari": "भेदोऽस्थिपर्वणां सन्धिशूलं मांसबलक्षयः | \nअस्वप्नः सन्तता रुक् च मज्जास्थिकुपितेऽनिले ||३३||",
+      "english": "When vitiated vata is located in bones and marrow it leads to splitting pain of bones and joints, arthralgia, loss of muscle strength, insomnia and continuous pain.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 34,
+      "devanagari": "क्षिप्रं मुञ्चति बध्नाति शुक्रं गर्भमथापि वा | \nविकृतिं जनयेच्चापि शुक्रस्थः कुपितोऽनिलः ||३४||",
+      "english": "When vitiated vata is located in semen, it causes premature ejaculation or anejaculation. It may also lead to preterm or delayed labor. It may also cause deformity in fetus.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 35,
+      "devanagari": "बाह्याभ्यन्तरमायामं खल्लिं कुब्जत्वमेव च | \nसर्वाङ्गैकाङ्गरोगांश्च कुर्यात् स्नायुगतोऽनिलः ||३५||",
+      "english": "When vitiated vata is located in neural tissue or tendons, it leads to ophisthotonus or emprosthotonus, radiculopathy, kyphosis, quadriplegia or hemiplegia.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 36,
+      "devanagari": "शरीरं मन्दरुक्शोफं शुष्यति स्पन्दते तथा | \nसुप्तास्तन्व्यो महत्यो वा सिरा वाते सिरागते ||३६||",
+      "english": "When vitiated vata is located in vascular tissue it leads to mildly painful edema in the body, emaciation, twitching, loss of pulsation along with dilation or coarctation of vessels.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 37,
+      "devanagari": "वातपूर्णदृतिस्पर्शः शोथः सन्धिगतेऽनिले | \nप्रसारणाकुञ्चनयोः प्रवृत्तिश्च [३] सवेदना ||३७|| (इत्युक्तं [४] स्थानभेदेन वायोर्लक्षणमेव च) |३८|",
+      "english": "When vitiated vata is located in joints, it leads to palpatory feeling of air in joints(crepitus), swelling along with painful flexion and extension.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 38,
+      "devanagari": "अतिवृद्धः शरीरार्धमेकं वायुः प्रपद्यते | \nयदा तदोपशोष्यासृग्बाहुं पादं च जानु च ||३८|| तस्मिन् सङ्कोचयत्यर्धे मुखं जिह्मं करोति च | \nवक्रीकरोति नासाभूललाटाक्षिहनूस्तथा ||३९|| ततो वक्रं व्रजत्यास्ये भोजनं वक्रनासिकम् [१] | \nस्तब्धं नेत्रं कथयतः क्षवथुश्च निगृह्यते ||४०|| दीना जिह्मा समुत्क्षिप्ता कला [२] सज्जति चास्य वाक् | \nदन्ताश्चलन्ति बाध्येते श्रवणौ भिद्यते स्वरः ||४१|| पादहस्ताक्षिजङ्घोरुशङ्खश्रवणगण्डरुक् [३] | \nअर्धे तस्मिन्मुखार्धे वा केवले स्यात्तदर्दितम् ||४२||",
+      "english": "If the excessively increased vata affects one half of the body, as it diminishes the blood there, leads to contracture of arm, leg and knee of the affected half, and causes distortion of one side of the face and produces asymmetry of the nose, eye brow, fore head, eye and jaw.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 43,
+      "devanagari": "मन्ये संश्रित्य वातोऽन्तर्यदा नाडीः प्रपद्यते | \nमन्यास्तम्भं तदा कुर्यादन्तरायामसञ्ज्ञितम् ||४३|| अन्तरायम्यते ग्रीवा मन्या च स्तभ्यते भृशम् | \nदन्तानां दंशनं लाला पृष्ठायामः [१] शिरोग्रहः ||४४|| जृम्भा वदनसङ्गश्चाप्यन्तरायामलक्षणम् | \n(इत्युक्तस्त्वन्तरायामो [२] ... |४५|",
+      "english": "When vata get localised in the manya (neck), lateral aspect of the neck and gets spread into the internal vessels, it causes manyastambha otherwise named as antarayam (Emprosthotonus). So the neck becomes convulsed inward and the lateral aspect becomes very stiff, the teeth get clenched with salivation, contraction of the back muscles and the head is stiff; yawning and lock jaw; these are the symptoms of antarayam. Thus antarayam is explained. [43-45]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 45,
+      "devanagari": "...बहिरायाम उच्यते) ||४५|| पृष्ठमन्याश्रिता बाह्याः शोषयित्वा सिरा बली | \nवायुः कुर्याद्धनुस्तम्भं बहिरायामसञ्ज्ञकम् ||४६|| चापवन्नाम्यमानस्य पृष्ठतो नीयते शिरः | \nउर उत्क्षिप्यते मन्या स्तब्धा ग्रीवाऽवमृद्यते ||४७|| दन्तानां दशनं जृम्भा लालास्रावश्च वाग्ग्रहः | \nजातवेगो निहन्त्येष वैकल्यं वा प्रयच्छति ||४८||",
+      "english": "Bahirayama, will now be described. The potently provoked vata, on getting localized in the posterior and lateral of the neck and constricting external vessels, causes bow leg like rigidity of the body which is called as bahirayama (ophisthotonous).",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 49,
+      "devanagari": "हनुमूले स्थितो बन्धात् संस्रयत्यनिलो हनू | \nविवृतास्यत्वमथवा कुर्यात् [१] स्तब्धमवेदनम् ||४९|| हनुग्रहं च संस्तभ्य हनुं(नू)संवृतवक्रताम् |५०|",
+      "english": "When the vata gets localized at the root of the jaws causes dislocation of the jaws and produces either a condition of stiff gaping of mouth without any pain; or by causing spasticity of the jaw, the mouth becomes fixed and cannot be opened. This is called as hanugraha (lock jaw)",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 50,
+      "devanagari": "मुहुराक्षिपति क्रुद्धो गात्राण्याक्षेपकोऽनिलः ||५०|| पाणिपादं च संशोष्य सिराः सस्नायुकण्डराः |५१|",
+      "english": "In akshepaka (..), the provoked vata contracts vessels, tendons and ligaments of the hands and feet cause episodic contraction in different parts of the body. [50-51]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 51,
+      "devanagari": "पाणिपादशिरःपृष्ठश्रोणीः स्तभ्नाति मारुतः ||५१|| दण्डवत्स्तब्धगात्रस्य दण्डकः सोऽनुपक्रमः |५२|",
+      "english": "When vata causes rigidity of muscles of the hands, feet, head, back and hips, so that the body becomes stiff as a stick, is called as dandaka, the condition is irremediable. [51-52]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 52,
+      "devanagari": "स्वस्थः स्यादर्दितादीनां मुहुर्वेगे [१] गतेऽगते ||५२|| पीड्यते पीडनैस्तैस्तैर्भिषगेतान् विवर्जयेत् |५३|",
+      "english": "In diseases like ardita etc. when the episodic convulsions are gone, the patient returns to normal. Later as the episodes return the patient gets severely afflicted with characteristic features; the physicians should regard this condition as incurable. [52-53]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 53,
+      "devanagari": "हत्वैकं मारुतः पक्षं दक्षिणं वाममेव वा ||५३|| कुर्याच्चेष्टानिवृत्तिं हि रुजं वाक्स्तमभमेव [१] च | \nगृहीत्वाऽर्धं शरीरस्य सिराः स्नायूर्विशोष्य च ||५४|| पादं सङ्कोचयत्येकं हस्तं वा तोदशूलकृत् | \nएकाङ्गरोगं तं विद्यात् सर्वाङ्गं [२] सर्वदेहजम् ||५५||",
+      "english": "When vata paralyze one side of the body either right or left, leads to motor deficit, pain and aphasia on the affected side. [This is called as pakshaghata (hemiplegia)]. By afflicting one side of the body,vata causes diminution of the vessels and nerves lead to contraction of either one leg or one arm with aching and piercing pain. That condition is to be known ekangaroga (monoplegia). If it affects whole body it is called sarvangaroga (quadriplegia).[53-55]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 56,
+      "devanagari": "स्फिक्पूर्वा कटिपृष्ठोरुजानुजङ्घापदं क्रमात् | \nगृध्रसी स्तम्भरुक्तोदैर्गृह्णाति स्पन्दते मुहुः ||५६|| वाताद्वातकफात्तन्द्रागौरवारोचकान्विता | \nखल्ली तु पादजङ्घोरुकरमूलावमोटनी ||५७||",
+      "english": "Gridhrasi due to vata is manifested as; stiffness, ache and pricking pain in the course of gluteal region, hip and posterior aspect of thigh, knee, calf and soles and twitching infrequently. If it is due to combined vata and kapha, there will be additional symptoms of listlessness, heaviness and anorexia. The condition is known as khalli where there is kneading pain referable to feet, calf, thigh and shoulder. [56-57]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 58,
+      "devanagari": "स्थानानामनुरूपैश्च लिङ्गैः शेषान् विनिर्दिशेत् |५८|",
+      "english": "The rest of the disorders should be diagnosed according to the symptoms characteristic of the seat of affection.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 58,
+      "devanagari": "सर्वेष्वेतेषु संसर्गं पित्ताद्यैरुपलक्षयेत् ||५८|| वायोर्धातुक्षयात् कोपो मार्गस्यावरणेन च (वा) | \nवातपित्तकफा देहे सर्वस्रोतोऽनुसारिणः ||५९|| वायुरेव हि सूक्ष्मत्वाद्द्वयोस्तत्राप्युदीरणः [१] | \nकुपितस्तौ समुद्धूय तत्र तत्र क्षिपन् गदान् ||६०|| करोत्यावृतमार्गत्वाद्रसादींश्चोपशोषयेत् |६१|",
+      "english": "In all these disorders, the association of other dosha like pitta etc. is to be considered.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 61,
+      "devanagari": "लिङ्गं पित्तावृते दाहस्तृष्णा शूलं भ्रमस्तमः [१] ||६१|| कट्वम्ललवणोष्णैश्च विदाहः शीतकामिता | शैत्यगौरवशूलानि कट्वाद्युपशयोऽधिकम् ||६२|| लङ्घनायासरूक्षोष्णकामिता च कफावृते | रक्तावृते सदाहार्तिस्त्वङ्मांसान्तरजो भृशम् ||६३|| भवेत् सरागः श्वयथुर्जायन्ते मण्डलानि च | कठिनाश्च विवर्णाश्च पिडकाः श्वयथुस्तथा ||६४||\nहर्षः पिपीलिकानां च सञ्चार इव मांसगे | चलः स्निग्धो मृदुः शीतः शोफोऽङ्गेष्वरुचिस्तथा ||६५|| आढ्यवात इति ज्ञेयः स कृच्छ्रो मेदसाऽऽवृतः | स्पर्शमस्थ्नाऽऽवृते तूष्णं पीडनं चाभिनन्दति ||६६|| सम्भज्यते सीदति च सूचीभिरिव तुद्यते | मज्जावृते विनामः [२] स्याज्जृम्भणं परिवेष्टनम् ||६७|| शूलं तु पीड्यमाने च पाणिभ्यां लभते सुखम् | शुक्रावेगोऽतिवेगो वा निष्फलत्वं च शुक्रगे ||६८|| भुक्ते कुक्षौ च रुग्जीर्णे शाम्यत्यन्नावृतेऽनिले | मूत्राप्रवृत्तिराध्मानं बस्तौ मूत्रावृतेऽनिले ||६९|| वर्चसोऽतिविबन्धोऽधः स्वे स्थाने परिकृन्तति | व्रजत्याशु जरां स्नेहो भुक्ते चानह्यते नरः ||७०|| चिरात् पीडितमन्नेन दुःखं शुष्कं शकृत् सृजेत् | श्रोणीवङ्क्षणपृष्ठेषु रुग्विलोमश्च मारुतः ||७१|| अस्वस्थं हृदयं चैव वर्चसा त्वावृतेऽनिले |७२|",
+      "english": "",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 72,
+      "devanagari": "सन्धिच्युतिर्हनुस्तम्भः [१] कुञ्चनं कुब्जताऽर्दितः ||७२|| पक्षाघातोऽङ्गसंशोषः [२] पङ्गुत्वं खुडवातता | \nस्तम्भनं चाढ्यवातश्च रोगा मज्जास्थिगाश्च ये ||७३|| एते स्थानस्य गाम्भीर्याद्यत्नात् सिध्यन्ति वा न वा | \nनवान् बलवतस्त्वेतान् साधयेन्निरुपद्रवान् ||७४||",
+      "english": "Joint dislocation, lock jaw, contracture, hunch back(kyphosis), facial paralysis, hemiplegia, atrophy of a part, paraplegia, arthritis, stiffness, rheumatic conditions and disorders due to affliction of vāta in the marrow; all these on account of their seriousness of the seat affected , may or may not be cured even after deliberate treatment. These can be cured when they are of recent origin in strong patient and without any complications. [72-74]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 75,
+      "devanagari": "क्रियामतः परं सिद्धां वातरोगापहां शृणु | \nकेवलं निरुपस्तम्भमादौ स्नेहैरुपाचरेत् ||७५|| वायुं सर्पिर्वसातैलमज्जपानैर्नरं ततः | \nस्नेहक्लान्तं समाश्वास्य पयोभिः स्नेहयेत् पुनः ||७६|| यूषैर्ग्राम्याम्बुजानूपरसैर्वा स्नेहसंयुतैः | \nपायसैः कृशरैः साम्ललवणैरनुवासनैः ||७७|| नावनैस्तर्पणैश्चान्नैः [१] सुस्निग्धं स्वेदयेत्ततः | \nस्वभ्यक्तं स्नेहसंयुक्तैर्नाडीप्रस्तरसङ्करैः ||७८|| तथाऽन्यैर्विविधैः स्वेदैर्यथायोगमुपाचरेत् | \nस्नेहाक्तं [२] स्विन्नमङ्गं तु वक्रं स्तब्धमथापि वा ||७९|| शनैर्नामयितुं शक्यं यथेष्टं शुष्कदारुवत् | \nहर्षतोदरुगायामशोथस्तम्भग्रहादयः ||८०|| स्विन्नस्याशु प्रशाम्यन्ति मार्दवं चोपजायते | \nस्नेहश्च धातून्संशुष्कान् पुष्णात्याशु प्रयोजितः ||८१|| बलमग्निबलं पुष्टिं प्राणांश्चाप्यभिवर्धयेत् | \nअसकृत्तं पुनः स्नेहैः स्वेदैश्चाप्युपपादयेत् ||८२|| तथा स्नेहमृदौ कोष्ठे न तिष्ठन्त्यनिलामयाः |८३|",
+      "english": "Now listen to the effective line of treatment for the cure of diseases due to vata. If there is absolute vitiation of vata without any kind of association(obstruction), it should be treated at first with oleation therapy, such as internal administration of ghee, fat, oil and marrow. Then as the person, when saturated by the oleation, should be eased by consolation and should again be oleated with unctuous articles added milk; thin gruel of cereals and pulses or meat juice of domestic, wet-land and aquatic animals, milk or meat without bones mixed with sour and salt articles; followed with unctuous enema, nasal medications and nutritive food. [75-77]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 83,
+      "devanagari": "यद्यनेन सदोषत्वात् कर्मणा न प्रशाम्यति ||८३|| मृदुभिः स्नेहसंयुक्तैरौषधैस्तं विशोधयेत् | \nघृतं तिल्वकसिद्धं वा सातलासिद्धमेव वा ||८४|| पयसैरण्डतैलं वा पिबेद्दोषहरं शिवम् | \nस्निग्धाम्ललवणोष्णाद्यैराहारैर्हि मलश्चितः ||८५|| स्रोतो बद्ध्वाऽनिलं रुन्ध्यात्तस्मात्तमनुलोमयेत् [१] | \nदुर्बलो योऽविरेच्यः स्यात्तं निरूहैरुपाचरेत् ||८६|| पाचनैर्दीपनीयैर्वा भोजनैस्तद्युतैर्नरम् | \nसंशुद्धस्योत्थिते चाग्नौ स्नेहस्वेदौ पुनर्हितौ ||८७|| स्वाद्वम्ललवणस्निग्धैराहारैः सततं पुनः | \nनावनैर्धूमपानैश्च सर्वानेवोपपादयेत् ||८८|| इति सामान्यतः प्रोक्तं वातरोगचिकित्सितम् |८९|",
+      "english": "If due to residual morbidity, the symptoms did not subside with the above procedures, then the patient should be cleansed by means of mild drugs mixed with unctuous articles.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 89,
+      "devanagari": "विशेषतस्तु कोष्ठस्थे वाते क्षारं [१] पिबेन्नरः ||८९|| पाचनैर्दीपनैर्युक्तैरम्लैर्वा [२] पाचयेन्मलान् | \nगुदपक्वाशयस्थे तु कर्मोदावर्तनुद्धितम् ||९०|| आमाशयस्थे शुद्धस्य यथादोषहरीः क्रियाः | \nसर्वाङ्गकुपितेऽभ्यङ्गो बस्तयः सानुवासनाः ||९१|| स्वेदाभ्यङ्गावगाहाश्च हृद्यं चान्नं त्वगाश्रिते | \nशीताः प्रदेहा रक्तस्थे विरेको रक्तमोक्षणम् ||९२|| विरेको मांसमेदःस्थे निरूहाः शमनानि च | \nबाह्याभ्यन्तरतः स्नेहैरस्थिमज्जगतं जयेत् ||९३|| हर्षोऽन्नपानं शुक्रस्थे बलशुक्रकरं हितम् | \nविबद्धमार्गं दृष्ट्वा वा शुक्रं दद्याद्विरेचनम् ||९४|| विरिक्तप्रतिभुक्तस्य पूर्वोक्तां कारयेत् क्रियाम् | \nगर्भे शुष्के तु वातेन बालानां चापि शुष्यताम् ||९५|| सिताकाश्मर्यमधुकैर्हितमुत्थापने पयः | \nहृदि प्रकुपिते सिद्धमंशुमत्या पयो हितम् ||९६|| मत्स्यान्नाभिप्रदेशस्थे सिद्धान् बिल्वशलाटुभिः | \nवायुना वेष्ट्यमाने तु गात्रे स्यादुपनाहनम् ||९७|| तैलं सङ्कुचितेऽभ्यङ्गो माषसैन्धवसाधितम् | \nबाहुशीर्षगते नस्यं पानं चौत्तरभक्तिकम् ||९८|| बस्तिकर्म त्वधो नाभेः शस्यते चावपीडकः |९९|",
+      "english": "",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 99,
+      "devanagari": "अर्दिते नावनं मूर्ध्नि तैलं तर्पणमेव च ||९९|| नाडीस्वेदोपनाहाश्चाप्यानूपपिशितैर्हिताः | \nस्वेदनं स्नेहसंयुक्तं पक्षाघाते विरेचनम् ||१००|| अन्तराकण्डरागुल्फं  सिरा बस्त्यग्निकर्म च | \nगृध्रसीषु प्रयुञ्जीत खल्ल्यां तूष्णोपनाहनम् ||१०१|| पायसैः कृशरैर्मांसैः शस्तं तैलघृतान्वितैः | \nव्यात्तानने  हनुं स्विन्नामङ्गुष्ठाभ्यां प्रपीड्य च ||१०२|| प्रदेशिनीभ्यां चोन्नाभ्य चिबुकोन्नामनं हितम् | \nस्रस्तं स्वं गमयेत्स्थानं स्तब्धं स्विन्नं विनामयेत् ||१०३||",
+      "english": "In facial paralysis, nasal medication, overhead application of oil, tarpaṇa, tubular fomentation and poultices prepared of the flesh of aquatic animals are beneficial.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 104,
+      "devanagari": "प्रत्येकं स्थानदूष्यादिक्रियावैशेष्यमाचरेत् [१] |१०४|",
+      "english": "Specific line of treatment should be adopted in specific condition depending on site of affliction and the vitiated tissue involved.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 104,
+      "devanagari": "सर्पिस्तैलवसामज्जसेकाभ्यञ्जनबस्तयः [१] ||१०४|| स्निग्धाः स्वेदा निवातं च स्थानं प्रावरणानि च | \nरसाः पयांसि भोज्यानि स्वाद्वम्ललवणानि च ||१०५|| बृंहणं यच्च तत् सर्वं प्रशस्तं वातरोगिणाम् |१०६|",
+      "english": "Ghee, oil, fat, marrow, affusion, massage, enema, unctuous sudation, staying at calm places (without strong wind), covering with blankets, meat soups, various milks, articles of diet of sweet, sour and salt tastes and whatever is nourishing are beneficial for disorders due to vata.[104-106]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 106,
+      "devanagari": "बलायाः पञ्चमूलस्य दशमूलस्य वा रसे ||१०६|| अजशीर्षाम्बुजानूपमांसादपिशितैः पृथक् | \nसाधयित्वा रसान् स्निग्धान्दध्यम्लव्योषसंस्कृतान् ||१०७|| भोजयेद्वातरोगार्तं तैर्व्यक्तलवणैर्नरम् | \nएतैरेवोपनाहांश्च पिशितैः सम्प्रकल्पयेत् ||१०८||",
+      "english": "The patient afflicted with vata disorders should be given meat soup of the flesh of the head of the goat, or of the aquatic, wet land or carnivorous animals prepared separately in the decoction of sida species, panchamoola and dashamoola seasoned with unctuous articles, sour curds and trikatu which is salted liberally.[106-107]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 109,
+      "devanagari": "घृततैलयुतैः साम्लैः क्षुण्णस्विन्नैरनस्थिभिः | \nपत्रोत्क्वाथपयस्तैलद्रोण्यः स्युरवगाहने ||१०९|| स्वभ्यक्तानां प्रशस्यन्ते सेकाश्चानिलरोगिणाम् | \nआनूपौदकमांसानि दशमूलं शतावरीम् ||११०|| कुलत्थान् बदरान्माषांस्तिलान्रास्नां यवान् बलाम् | \nवसादध्यारनालाम्लैः सह कुम्भ्यां विपाचयेत् ||१११|| नाडीस्वेदं प्रयुञ्जीत पिष्टैश्चाप्युपनाहनम् | \nतैश्च सिद्धं घृतं तैलमभ्यङ्गं पानमेव च ||११२|| मुस्तं किण्वं तिलाः कुष्ठं सुराह्वं लवणं नतम् | \nदधिक्षीरचतुःस्नेहैः सिद्धं स्यादुपनाहनम् ||११३|| उत्कारिकावेसवारक्षीरमाषतिलौदनैः | \nएरण्डबीजगोधूमयवकोलस्थिरादिभिः ||११४|| सस्नेहैः सरुजं गात्रमालिप्य बहलं भिषक् | \nएरण्डपत्रैर्बध्नीयाद्रात्रौ कल्यं विमोक्षयेत् ||११५|| क्षीराम्बुना ततः सिक्तं पुनश्चैवोपनाहितम् | \nमुञ्चेद्रात्रौ दिवाबद्धं चर्मभिश्च सलोमभिः ||११६|| फलानां तैलयोनीनामम्लपिष्टान् सुशीतलान् | \nप्रदेहानुपनाहांश्च गन्धैर्वातहरैरपि ||११७|| पायसैः कृशरैश्चैव कारयेत् स्नेहसंयुतैः |११८| रूक्षशुद्धानिलार्तानामतः स्नेहान् प्रचक्ष्महे||११८|| \nविविधान् विविधव्याधिप्रशमायामृतोपमान्|",
+      "english": "For immersion bath, vessel should be filled with the decoction of the leaves curative of vata or with medicated milk or oil.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 119,
+      "devanagari": "द्रोणेऽम्भसः पचेद्भागान् दशमूलाच्चतुष्पलान्||११९|| यवकोलकुलत्थानां भागैः प्रस्थोन्मितैः सह| \nपादशेषे रसे पिष्टैर्जीवनीयैः सशर्करैः||१२०|| तथा खर्जूरकाश्मर्यद्राक्षाबदरफल्गुभिः| \nसक्षीरैः सर्पिषः प्रस्थः सिद्धः केवलवातनुत्||१२१|| निरत्ययः प्रयोक्तव्यः पानाभ्यञ्जनबस्तिषु| \nचित्रकं नागरं रास्नां पौष्करं पिप्पलीं शटीम्||१२२|| पिष्ट्वा विपाचयेत् सर्पिर्वातरोगहरं परम्| \nबलाबिल्वशृते क्षीरे घृतमण्डं विपाचयेत्||१२३|| तस्य शुक्तिः प्रकुञ्चो वा नस्यं मूर्धगतेऽनिले| \nग्राम्यानूपौदकानां तु भित्वाऽस्थीनि पचेज्जले||१२४|| तं स्नेहं दशमूलस्य कषायेण पुनः पचेत्| \nजीवकर्षभकास्फोताविदारीकपिकच्छुभिः||१२५|| वातघ्नैर्जीवनीयैश्च कल्कैर्द्विक्षीरभागिकम्| \nतत्सिद्धं नावनाभ्यङ्गात्तथा पानानुवासनात्||१२६|| सिरापर्वास्थिकोष्ठस्थं प्रणुदत्याशु मारुतम्| \nये स्युः प्रक्षीणमज्जानः क्षीणशुक्रौजसश्च ये||१२७|| बलपुष्टिकरं तेषामेतत् स्यादमृतोपमम्| \nतद्वत्सिद्धा वसा नक्रमत्स्यकूर्मचुलूकजा||१२८|| प्रत्यग्रा विधिनाऽनेन नस्यपानेषु शस्यते| \nप्रस्थः स्यात्त्रिफलायास्तु कुलत्थकुडवद्वयम्||१२९|| कृष्णगन्धात्वगाढक्योः पृथक् पञ्चपलं भवेत्| \nरास्नाचित्रकयोर्द्वे द्वे दशमूलं पलोन्मितम्||१३०|| जलद्रोणे पचेत् पादशेषे प्रस्थोन्मितं पृथक्| \nसुरारनालदध्यम्लसौवीरकतुषोदकम्||१३१|| कोलदाडिमवृक्षाम्लरसं तैलं वसां घृतम्| \nमज्जानं च पयश्चैव जीवनीयपलानि षट्||१३२|| कल्कं दत्त्वा महास्नेहं सम्यगेनं विपाचयेत्| \nसिरामज्जास्थिगे वाते सर्वाङ्गैकाङ्गरोगिषु||१३३|| वेपनाक्षेपशूलेषु तदभ्यङ्गे प्रयोजयेत्| \nनिर्गुण्ड्या मूलपत्राभ्यां गृहीत्वा स्वरसं ततः||१३४|| तेन सिद्धं समं तैलं नाडीकुष्ठानिलार्तिषु| \nहितं पामापचीनां च पानाभ्यञ्जनपूरणम्||१३५|| कार्पासास्थिकुलत्थानां रसे सिद्धं च वातनुत्|१३६|",
+      "english": "Four pala (192 gm) of dashamoola should be decocted in one drone of water adding 64 tolas (768 gm) of barley, badara and horse gram. When it is reduced to one fourth quantity, prepare a medicated ghee in this decoction by taking 16 pala (768 gm) of ghee and adding milk, the paste of the jeevaniya drugs, sugar, dates, white teak, grape, badara and fig. This ghee is curative of disorders due to absolute vata. This preparation is harmless and should be used for internal administration, external massage and enema. [119-121]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 136,
+      "devanagari": "मूलकस्वरसे क्षीरसमे स्थाप्यं त्र्यहं दधि||१३६|| तस्याम्लस्य त्रिभिः प्रस्थैस्तैलप्रस्थं विपाचयेत् | \nयष्ट्याह्वशर्करारास्नालवणार्द्रकनागरैः ||१३७|| सुपिष्टैः पलिकैः पानात्तदभ्यङ्गाच्च वातनुत् |१३८|",
+      "english": "Curds should be kept for three days in a mixture of equal measures of the expressed juice of radish and milk. Prepare medicated oil by taking 64 tolas (768 gm) of oil and triple the quantity of this sour preparation adding the paste of 4 tolas (48 gm) each of liquorice, sugar, rasna, rock salt and green ginger. This oil can be used for internal administration and external application as curative of vata. [136-137]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 138,
+      "devanagari": "पञ्चमूलकषायेण पिण्याकं बहुवार्षिकम् ||१३८|| पक्त्वा तस्य रसं पूत्वा  तैलप्रस्थं विपाचयेत् | \nपयसाऽष्टगुणेनैतत् सर्ववातविकारनुत् ||१३९|| संसृष्टे श्लेष्मणा चैतद्वाते शस्तं विशेषतः | \nयवकोलकुलत्थानां श्रेयस्याः शुष्कमूलकात् ||१४०|| बिल्वाच्चाञ्जलिमेकैकं द्रवैरम्लैर्विपाचयेत् | \nतेन तैलं कषायेण फलाम्लैः कटुभिस्तथा ||१४१|| पिष्टैः सिद्धं महावातैरार्तः शीते प्रयोजयेत् |१४२|",
+      "english": "Cook very old oil-cake in the decoction of dashamūla; strain the solution and prepare a medicated oil in this solution by taking 64 tolas (768 gm) of oil and eight times the quantity of milk. This oil is curative of all disorders of vata. This is specially recommended in conditions of vata associated with kapha.[138-139]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 142,
+      "devanagari": "सर्ववातविकाराणां तैलान्यन्यान्यतः शृणु ||१४२|| चतुष्प्रयोगाण्यायुष्यबलवर्णकराणि च | \nरजःशुक्रप्रदोषघ्नान्यपत्यजननानि च ||१४३|| निरत्ययानि सिद्धानि सर्वदोषहराणि च | \nसहाचरतुलायाश्च रसे तैलाढकं पचेत् ||१४४|| मूलकल्काद्दशपलं पयो दत्त्वा चतुर्गुणम् | \nसिद्धेऽस्मिञ्छर्कराचूर्णादष्टादशपलं भिषक् ||१४५|| विनीय दारुणेष्वेतद्वातव्याधिषु योजयेत् | \nश्वदंष्ट्रास्वरसप्रस्थौ द्वौ समौ पयसा सह ||१४६|| षट्पलं शृङ्गवेरस्य गुडस्याष्टपलं तथा | \nतैलप्रस्थं विपक्वं तैर्दद्यात् सर्वानिलार्तिषु ||१४७|| जीर्णे तैले च दुग्धेन पेयाकल्पः प्रशस्यते | \nबलाशतं गुडूच्याश्च पादं रास्नाष्टभागिकम् ||१४८|| जलाढकशते पक्त्वा दशभागस्थिते रसे | \nदधिमस्त्विक्षुनिर्यासशुक्तैस्तैलाढकं समैः ||१४९|| पचेत् साजपयोऽर्धांशैः कल्कैरेभिः पलोन्मितैः | \nशटीसरलदार्वेलामञ्जिष्ठागुरुचन्दनैः ||१५०|| पद्मकातिविषामुस्तसूर्पपर्णीहरेणुभिः | \nयष्ट्याह्वसुरसव्याघ्रनखर्षभकजीवकैः ||१५१|| पलाशरसकस्तूरीनलिकाजातिकोषकैः | \nस्पृक्काकुङ्कुमशैलेयजातीकटुफलाम्बुभिः ||१५२|| त्वचाकुन्दुरुकर्पूरतुरुष्कश्रीनिवासकैः [१] | \nलवङ्गनखकक्कोलकुष्ठमांसीप्रियङ्गुभिः ||१५३|| स्थौणेयतगरध्यामवचामदनपल्लवैः | \nसनागकेशरैः सिद्धे क्षिपेच्चात्रावतारिते ||१५४|| पत्रकल्कं ततः पूतं विधिना तत् प्रयोजयेत् | \nश्वासं कासं ज्वरं हिक्कां [२] छर्दिं गुल्मान् क्षतं क्षयम् ||१५५|| प्लीहशोषावपस्मारमलक्ष्मीं च प्रणाशयेत् | \nबलातैलमिदं श्रेष्ठं वातव्याधिविनाशनम् ||१५६|| (अग्निवेशाय गुरुणा कृष्णात्रेयेण भाषितम्) | \nइति बलातैलम् |",
+      "english": "Listen now to the description of other preparations of oils for all types of diseases of vata that can be used in all the four therapeutic modes; that are promotive of longevity, strength and complexion; that are curative of menstrual and seminal disorders; which are inductive of progeny; and which are free from harmful effects and are generally curative of all kinds of morbidity. [142-143]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 157,
+      "devanagari": "अमृतायास्तुलाः पञ्च द्रोणेष्वष्टस्वपां पचेत् ||१५७|| पादशेषे समक्षीरं तैलस्य द्व्याढकं पचेत् | \nएलामांसीनतोशीरसारिवाकुष्ठचन्दनैः ||१५८|| बलातामलकीमेदाशतपुष्पर्धिजीवकैः [१] | \nकाकोलीक्षीरकाकोलीश्रावण्यतिबलानखैः ||१५९|| महाश्रावणिजीवन्तीविदारीकपिकच्छुभिः | \nशतावरीमहामेदाकर्कटाख्याहरेणुभिः ||१६०|| वचागोक्षुरकैरण्डरास्नाकालासहाचरैः | \nवीराशल्लकिमुस्तत्वक्पत्रर्षभकबालकैः ||१६१|| सहैलाकुङ्कुमस्पृक्कात्रिदशाह्वैश्च कार्षिकैः | \nमञ्जिष्ठायास्त्रिकर्षेण मधुकाष्टपलेन च ||१६२|| कल्कैस्तत् क्षीणवीर्याग्निबलसम्मूढचेतसः | \nउन्मादारत्यपस्मारैरार्तांश्च प्रकृतिं नयेत् ||१६३|| वातव्याधिहरं श्रेष्ठं तैलाग्र्यममृताह्वयम् | \n(कृष्णात्रेयेण [२] गुरुणा भाषितं वैद्यपूजितम्) ||१६४|| इत्यमृताद्यं तैलम् |",
+      "english": "Prepare decoction of 2000 tolas (24 kg) of guduchi in 5 drone (98.304 l) of water by reducing to ¼th its quantity. Later add 512 tolas (60144 l) of sesame oil and equal quantity of milk in this decoction, along with paste of 1 tola (12 gm) each of cardamom, ela, mamsi, nata, ushira, sariva, kushtha, chandana, bala, tamalaki, meda, shatapushpa, riddhi, jeevaka, kakoli, ksheerakakoli, shravani, atibala, nakha, mahashravani, jeevanti,vidari, kapikacchu, shatavari, mahameda, karkata, harenu, vacha, gokshura, eranda, rasna, kala, sahachara, bala, veera, shallaki, musta, tvak, patra, rishabhaka, balaka, ela, kunkuma, sprikka and three tolas (36 gm) of manjishtha and 32 tolas (384 gm) of yashtimadhu. It restores the health of those affected with reduced semen, digestive power and vitality. Normalizes individuals with insanity and epilepsy and is excellent to cure vata disorder. This is the amritadya taila propounded by preceptor krishnatreya who was respected by reverent physicians. [157- 164]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 165,
+      "devanagari": "रास्नासहस्रनिर्यूहे तैलद्रोणं विपाचयेत् | \nगन्धैर्हैमवतैः पिष्टैरेलाद्यैश्चानिलार्तिनुत् ||१६५|| कल्पोऽयमश्वगन्धायां प्रसारण्यां बलाद्वये | \nक्वाथकल्कपयोभिर्वा बलादीनां पचेत् पृथक् ||१६६|| इति रास्नातैलम् |",
+      "english": "The medicated oil is prepared by taking 1024 tolas (12.288 l) of oil and cooking it in 4000 tolas (48 l) of the decoction of rasna along with the paste of the fragrant groups of drugs grown in the Himalayas, as well as the cardamom group of drugs. This oil is curative of vata. A similar preparation of ashvagandha and prasarani and the two varieties of sida or the medicated oil of sida and other drugs may be prepared using these drugs individually in the form of decoction, paste or milk.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 167,
+      "devanagari": "मूलकस्वरसं क्षीरं तैलं दध्यम्लकाञ्जिकम् | \nतुल्यं विपाचयेत् कल्कैर्बलाचित्रकसैन्धवैः ||१६७|| पिप्पल्यतिविषारास्नाचविकागुरुशिग्रुकैः | \nभल्लातकवचाकुष्ठश्वदंष्ट्राविश्वभेषजैः ||१६८|| पुष्कराह्वशटीबिल्वशताह्वानतदारुभिः | \nतत्सिद्धं पीतमत्युग्रान् हन्ति वातात्मकान् गदान् ||१६९|| इति मूलकाद्यं तैलम् | वृषमूलगुडूच्योश्च द्विशतस्य शतस्य च | \nचित्रकात् साश्वगन्धाच्च क्वाथे तैलाढकं पचेत् ||१७०|| सक्षीरं वायुना भग्ने दद्याज्जर्जरिते तथा | \nप्राक्तैलावापसिद्धं च भवेदेतद्गुणोत्तरम् ||१७१|| इति वृषमूलादितैलम् |",
+      "english": "Medicated oil is prepared by taking 64 tolas (768 gm) of oil and cooking it in equal quantities of radish juice, milk, sour curds, and sour kanji, the paste of sida, chitraka, rock salt, pippali, ativisha, rasna, chavika, agaru, shigru, bhallataka, vacha, kushtha, shvadamishtra, vishvabheshaja, pushkara, shati, bilwa, shatahva, nata, and devadaru. This mulakadya taila, when taken internally, cures even very severe types of vata disorders. [167-169]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 172,
+      "devanagari": "रास्नाशिरीषयष्ट्याह्वशुण्ठीसहचरामृताः ||१७२|| स्योनाकदारुशम्पाकहयगन्धात्रिकण्टकाः | \nएषां दशपलान् भागान् कषायमुपकल्पयेत् ||१७३|| ततस्तेन कषायेण सर्वगन्धैश्च कार्षिकैः | \nदध्यारनालमाषाम्बुमूलकेक्षुरसैः [१] शुभैः ||१७४|| पृथक् प्रस्थोन्मितैः सार्धं तैलप्रस्थं विपाचयेत् | \nप्लीहमूत्रग्रहश्वासकासमारुतरोगनुत् [२] ||१७५|| एतन्मूलकतैलाख्यं [३] वर्णायुर्बलवर्धनम् | \nइति मूलकतैलम् | यवकोलकुलत्थानां मत्स्यानां शिग्रुबिल्वयोः | \nरसेन मूलकानां च तैलं दधिपयोन्वितम् ||१७६|| साधयित्वा भिषग्दद्यात् सर्ववातामयापहम् | \nलशुनस्वरसे सिद्धं तैलमेभिश्च वातनुत् ||१७७|| तैलान्येतान्यृतुस्नातामङ्गनां पाययेत च | \nपीत्वाऽन्यतममेषां हि वन्ध्याऽपि जनयेत् सुतम् ||१७८|| यच्च शीतज्वरे तैलमगुर्वाद्यमुदाहृतम् | \nअनेकशतशस्तच्च सिद्धं स्याद्वातरोगनुत् ||१७९|| वक्ष्यन्ते यानि तैलानि वातशोणितकेऽपि च | \nतानि चानिलशान्त्यर्थं सिद्धिकामः प्रयोजयेत् ||१८०|| नास्ति तैलात् परं किञ्चिदौषधं मारुतापहम् | \nव्यवाय्युष्णगुरुस्नेहात् संस्काराद्वलवत्तरम् ||१८१|| गणैर्वातहरैस्तस्माच्छतशोऽथं सहस्रशः | \nसिद्धं क्षिप्रतरं हन्ति सूक्ष्ममार्गस्थितान् गदान् ||१८२||",
+      "english": "Prepare a decoction by taking 40 tolas (48 gm) of each of rasna, shirisha, liquorice, dry ginger, sahachara, guduchi, syonaka, devadaru, shampaka, ashvagandha and gokshura. Then oil is prepared by taking 64 tolas (768 ml) of sesame oil and cooking it in the above said decoction along with 64 tolas (768 ml) each of curds, aranala, decoction of black gram, juices of good quality of radish, and sugar cane, adding one tola (12 gm) of the paste of each of the gandhavarga drugs. This mūlaka oil is curative of splenic disorders, retention of urine, dyspnoea, cough and other vata disorders. It is also promotive of complexion, life and vitality. Thus mūlaka taila is explained. [172-173]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 183,
+      "devanagari": "क्रिया साधारणी सर्वा संसृष्टे चापि शस्यते | \nवाते पित्तादिभिः स्रोतःस्वावृतेषु विशेषतः ||१८३|| पित्तावृते विशेषेण शीतामुष्णां तथा क्रियाम् | \nव्यत्यासात् कारयेत् सर्पिर्जीवनीयं च शस्यते ||१८४|| धन्वमांसं यवाः शालिर्यापनाः क्षीरबस्तयः | \nविरेकः क्षीरपानं च पञ्चमूलीबलाशृतम् ||१८५|| मधुयष्टिबलातैलघृतक्षीरैश्च सेचनम् | \nपञ्चमूलकषायेण कुर्याद्वा शीतवारिणा ||१८६|| कफावृते यवान्नानि जाङ्गला मृगपक्षिणः | \nस्वेदास्तीक्ष्णा निरूहाश्च वमनं सविरेचनम् ||१८७|| जीर्णं सर्पिस्तथा तैलं तिलसर्षपजं हितम् | \nसंसृष्टे कफपित्ताभ्यां पित्तमादौ विनिर्जयेत् ||१८८||",
+      "english": "This general line of treatment is also recommended in conditions of association with morbidity of other humors, but especially when the body channels have been occluded by pitta and kapha in vata disorders.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 189,
+      "devanagari": "आमाशयगतं मत्वा  कफं वमनमाचरेत् ||१८९|| पक्वाशये विरेकं तु पित्ते सर्वत्रगे तथा | \nस्वेदैर्विष्यन्दितः श्लेष्मा यदा पक्वाशये स्थितः ||१९०|| पित्तं वा दर्शयेल्लिङ्गं बस्तिभिस्तौ विनिर्हरेत् | \nश्लेष्मणाऽनुगतं वातमुष्णैर्गोमूत्रसंयुतैः ||१९१|| निरूहैः पित्तसंसृष्टं निर्हरेत् क्षीरसंयुतैः | \nमधुरौषधसिद्धैश्च तैलैस्तमनुवासयेत् ||१९२|| शिरोगते तु सकफे धूमनस्यादि कारयेत् | \nहृते पित्ते कफे यः स्यादुरःस्रोतोऽनुगोऽनिलः ||१९३|| सशेषः  स्यात् क्रिया तत्र कार्या केवलवातिकी | \nशोणितेनावृते कुर्याद्वातशोणितकीं क्रियाम् ||१९४|| प्रमेहवातमेदोघ्नीमामवाते [३] प्रयोजयेत् | \nस्वेदाभ्यङ्गरसक्षीरस्नेहा मांसावृते हिताः ||१९५|| महास्नेहोऽस्थिमज्जस्थे पूर्ववद्रेतसाऽऽवृते | \nअन्नावृते तदुल्लेखः [४] पाचनं दीपनं लघु ||१९६|| मूत्रलानि तु मूत्रेण स्वेदाः सोत्तरबस्तयः | \nशकृता तैलमैरण्डं स्निग्धोदावर्तवत्क्रिया [५] ||१९७|| स्वस्थानस्थो बली दोषः प्राक् तं स्वैरौषधैर्जयेत् | \nवमनैर्वा विरेकैर्वा बस्तिभिः शमनेन वा ||१९८|| (इत्युक्तमावृते वाते पित्तादिभिर्यथायथम् [६] ) |१९९|",
+      "english": "On finding that kapha is located in the stomach (amashaya), emesis should be given and if it is located in the colon (pakvashaya), the treatment of choice is purgation. If pitta has pervaded all over the body, again the same (purgation) should be given. [189-189 ½]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 199,
+      "devanagari": "मारुतानां हि पञ्चानामन्योन्यावरणे शृणु ||१९९|| लिङ्गं व्याससमासाभ्यामुच्यमानं मयाऽनघ! | \nप्राणो वृणोत्युदानादीन् प्राणं वृण्वन्ति तेऽपि च ||२००|| उदानाद्यास्तथाऽन्योन्यं सर्व एव यथाक्रमम् | \nविंशतिर्वरणान्येतान्युल्बणानां [१] परस्परम् ||२०१|| मारुतानां हि पञ्चानां तानि सम्यक् प्रतर्कयेत् | \nसर्वेन्द्रियाणां शून्यत्वं ज्ञात्वा स्मृतिबलक्षयम् ||२०२|| व्याने प्राणावृते लिङ्गं कर्म तत्रोर्ध्वजत्रुकम् | \nस्वेदोऽत्यर्थं लोमहर्षस्त्वग्दोषः सुप्तगात्रता ||२०३|| प्राणे व्यानावृते तत्र स्नेहयुक्तं विरेचनम् | \nप्राणावृते समाने स्युर्जडगद्गदमूकताः ||२०४|| चतुष्प्रयोगाः शस्यन्ते स्नेहास्तत्र सयापनाः | \nसमानेनावृतेऽपाने [२] ग्रहणीपार्श्वहृद्गदाः ||२०५|| शूलं चामाशये तत्र दीपनं सर्पिरिष्यते |२०६|",
+      "english": "Oh Sinless Dear! I shall next describe the mutual obstruction between the five types of vata in detailed and concised manner. [199-199 ½]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 206,
+      "devanagari": "शिरोग्रहः प्रतिश्यायो निःश्वासोच्छ्वाससङ्ग्रहः ||२०६|| हृद्रोगो मुखशोषश्चाप्युदाने प्राणसंवृते | \nतत्रोर्ध्वभागिकं कर्म कार्यमाश्वासनं तथा ||२०७|| कर्मौजोबलवर्णानां नाशो मृत्युरथापि वा | \nउदानेनावृते प्राणे तं शनैः शीतवारिणा ||२०८|| सिञ्चेदाश्वासयेच्चैनं सुखं चैवोपपादयेत् | \nउर्ध्वगेनावृतेऽपाने छर्दिश्वासादयो गदाः ||२०९|| स्युर्वाते तत्र बस्त्यादि भोज्यं चैवानुलोमनम् | \nमोहोऽल्पोऽग्निरतीसार ऊर्ध्वगेऽपानसंवृते ||२१०|| वाते स्याद्वमनं तत्र दीपनं ग्राहि चाशनम् | \nवम्याध्मानमुदावर्तगुल्मार्तिपरिकर्तिकाः ||२११|| लिङ्गं व्यानावृतेऽपाने तं स्निग्धैरनुलोमयेत् | \nअपानेनावृते व्याने भवेद्विण्मूत्ररेतसाम् ||२१२|| अतिप्रवृत्तिस्तत्रापि सर्वं सङ्ग्रहणं मतम् | \nमूर्च्छा तन्द्रा प्रलापोऽङ्गसादोऽग्न्योजोबलक्षयः ||२१३|| समानेनावृते व्याने व्यायामो लघुभोजनम् | \nस्तब्धताऽल्पाग्निताऽस्वेदश्चेष्टाहानिर्निमीलनम् ||२१४|| उदानेनावृते व्याने तत्र पथ्यं मितं लघु | \nपञ्चान्योन्यावृतानेवं वातान् बुध्येत लक्षणैः ||२१५|| एषां स्वकर्मणां हानिर्वृद्धिर्वाऽऽवरणे मता | \nयथास्थूलं समुद्दिष्टमेतदावरणेऽष्टकम् ||२१६|| सलिङ्गभेषजं सम्यग्बुधानां बुद्धिवृद्धये |२१७|",
+      "english": "In conditions of occlusion of udana by prana, there is neck rigidity, coryza, impediment to inspiration and expiration, cardiac disorders and dryness of the mouth.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 217,
+      "devanagari": "स्थानान्यवेक्ष्य वातानां वृद्धिं हानिं च कर्मणाम् ||२१७|| द्वादशावरणान्यन्यान्यभिलक्ष्य भिषग्जितम् | \nकुर्यादभ्यञ्जनस्नेहपानबस्त्यादि [१] सर्वशः ||२१८|| क्रममुष्णमनुष्णं वा व्यत्यासादवचारयेत् |२१९|",
+      "english": "On investigating the habitat of each type of vata, as well as the signs of increase or decrease of its functions, the physician should diagnose the remaining twelve conditions of mutual occlusions and should treat them by means of external application, unctuous internal administration, enema and all other procedures, or he may be alternatively given cold and hot measures. [217-218½]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 219,
+      "devanagari": "उदानं योजयेदूर्ध्वमपानं चानुलोमयेत् ||२१९|| समानं शमयेच्चैव त्रिधा व्यानं तु योजयेत् | \nप्राणो रक्ष्यश्चतुर्भ्योऽपि स्थाने ह्यस्य स्थितिर्ध्रुवा ||२२०|| स्वं स्थानं गमयेदेवं वृतानेतान् विमार्गगान् |२२१|",
+      "english": "The udana should be regulated upwards and the apana downwards. The samana should be alleviated and the vyana should be treated by all the three methods. Even more carefully than the other four types of vata, the prana should be maintained, because life depends on the proper maintenance of it in its habitat.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 221,
+      "devanagari": "मूर्च्छा दाहो भ्रमः शूलं विदाहः शीतकामिता ||२२१|| छर्दनं च विदग्धस्य प्राणे पित्तसमावृते | \nष्ठीवनं क्षवथूद्गारनिःश्वासोच्छ्वाससङ्ग्रहः ||२२२|| प्राणे कफावृते रूपाण्यरुचिश्छर्दिरेव च | \nमूर्च्छाद्यानि च रूपाणि दाहो नाभ्युरसः क्लमः ||२२३|| ओजोभ्रंशश्च सादश्चाप्युदाने पित्तसंवृते | \nआवृते श्लेष्मणोदाने वैवर्ण्यं वाक्स्वरग्रहः ||२२४|| दौर्बल्यं गुरुगात्रत्वमरुचिश्चोपजायते | \nअतिस्वेदस्तृषा दाहो मूर्च्छा चारुचिरेव [१] च ||२२५|| पित्तावृते समाने स्यादुपघातस्तथोष्मणः | \nअस्वेदो वह्निमान्द्यं च लोमहर्षस्तथैव च ||२२६|| कफावृते समाने स्याद्गात्राणां चातिशीतता | \nव्याने पित्तावृते तु स्याद्दाहः सर्वाङ्गगः क्लमः ||२२७|| गात्रविक्षेपसङ्गश्च ससन्तापः सवेदनः | \nगुरुता सर्वगात्राणां सर्वसन्ध्यस्थिजा रुजः ||२२८|| व्याने कफावृते लिङ्गं गतिसङ्गस्तथाऽधिकः [२] | \nहारिद्रमूत्रवर्चस्त्वं तापश्च गुदमेढ्रयोः ||२२९|| लिङ्गं पित्तावृतेऽपाने रजसश्चातिवर्तनम् | \nभिन्नामश्लेष्मसंसृष्टगुरुवर्चःप्रवर्तनम् ||२३०|| श्लेष्मणा संवृतेऽपाने कफमेहस्य चागमः |२३१|",
+      "english": "In occlusion of prana by pitta fainting, giddiness, colic, burning sensation, craving for cold things and vomiting of acidic gastric material are seen as symptoms. [221-221½]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 231,
+      "devanagari": "लक्षणानां तु मिश्रत्वं पित्तस्य च कफस्य च ||२३१|| उपलक्ष्य भिषग्विद्वान् मिश्रमावरणं वदेत् | \nयद्यस्य वायोर्निर्दिष्टं स्थानं तत्रेतरौ स्थितौ ||२३२|| दोषौ बहुविधान् व्याधीन् दर्शयेतां यथानिजान् | \nआवृतं श्लेष्मपित्ताभ्यां प्राणं चोदानमेव च ||२३३|| गरीयस्त्वेन पश्यन्ति भिषजः शास्त्रचक्षुषः | \nविशेषाज्जीवितं प्राणे उदाने संश्रितं बलम् ||२३४|| स्यात्तयोः पीडनाद्धानिरायुषश्च बलस्य च | \nसर्वेऽप्येतेऽपरिज्ञाताः परिसंवत्सरास्तथा ||२३५|| उपेक्षणादसाध्याः स्युरथवा दुरुपक्रमाः [१] |२३६|",
+      "english": "On observing the mixed symptoms of pitta and kapha, the learned physician should diagnose it as a condition of combined occlusion. [231-231½]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 236,
+      "devanagari": "हृद्रोगो विद्रधिः प्लीहा गुल्मोऽतीसार एव च ||२३६|| भवन्त्युपद्रवास्तेषामावृतानामुपेक्षणात् | \nतस्मादावरणं वैद्यः पवनस्योपलक्षयेत् ||२३७|| पञ्चात्मकस्य वातेन पित्तेन श्लेष्मणाऽपि वा | \nभिषग्जितमतः सम्यगुपलक्ष्य समाचरेत् ||२३८|| अनभिष्यन्दिभिः स्निग्धैः स्रोतसां शुद्धिकारकैः | \nकफपित्ताविरुद्धं यद्यच्च वातानुलोमनम् ||२३९|| सर्वस्थानावृतेऽप्याशु तत् कार्यं मारुते हितम् | \nयापना बस्तयः प्रायो मधुराः सानुवासनाः ||२४०|| प्रसमीक्ष्य बलाधिक्यं मृदु वा स्रंसनं हितम् | \nरसायनानां सर्वेषामुपयोगः प्रशस्यते ||२४१|| शैलस्य जतुनोऽत्यर्थं पयसा गुग्गुलोस्तथा | \nलेहं वा भार्गवप्रोक्तमभ्यसेत् क्षीरभुङ्नरः ||२४२|| अभयामलकीयोक्तमेकादशसिताशतम् [१] | \nअपानेनावृते सर्वं दीपनं ग्राहि भेषजम् ||२४३|| वातानुलोमनं यच्च पक्वाशयविशोधनम् | \nइति सङ्क्षेपतः प्रोक्तमावृतानां चिकित्सितम् ||२४४|| प्राणादीनां भिषक् कुर्याद्वितर्क्य स्वयमेव तत् | पित्तावृते तु पित्तघ्नैर्मारुतस्याविरोधिभिः | \nकफावृते कफघ्नैस्तु मारुतस्यानुलोमनैः ||२४५||",
+      "english": "As a result of neglecting these conditions of occlusions, there occur complications such as cardiac disorders, abscesses, splenic disorders, gulma and diarrhea. [236-236½]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 246,
+      "devanagari": "लोके वाय्वर्कसोमानां दुर्विज्ञेया यथा गतिः | \nतथा शरीरे वातस्य पित्तस्य च कफस्य च ||२४६||",
+      "english": "Just as in the universe the courses of the air, the sun and the moon are difficult to comprehend, even so are the forces of vata, pitta and kapha in the body.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 247,
+      "devanagari": "क्षयं वृद्धिं समत्वं च तथैवावरणं भिषक् | \nविज्ञाय पवनादीनां न प्रमुह्यति कर्मसु ||२४७||",
+      "english": "The physician who understand the condition of decrease, increase, normality and occlusion of vata and other dosha, is not deluded with regard to treatment.",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 248,
+      "devanagari": "तत्र श्लोकौ- पञ्चात्मनः स्थानवशाच्छरीरे स्थानानि कर्माणि च देहधातोः | \nप्रकोपहेतुः कुपितश्च रोगान् स्थानेषु चान्येषु वृतोऽवृतश्च ||२४८|| प्राणेश्वरः प्राणभृतां करोति क्रिया च तेषामखिला निरुक्ता | \nतां देशसात्म्यर्तुबलान्यवेक्ष्य प्रयोजयेच्छास्त्रमतानुसारी ||२४९||",
+      "english": "The vata being the subject of this chapter, the habitats and functions of the five-fold body sustaining element vata, have been dealt with here. The causes of provocation, the diseases which this life controlling principle of vata gives rise to in the persons, when provoked, both in its own habitat and in other places, both in conditions of occlusion and in no occlusion, and the treatment of all those disease have been fully expounded here. The physician guided by the directions of the science, should administer the treatment, giving full consideration to factors of place, similarity, season and strength. [248-249]",
+      "section": "Vata diseases"
+    },
+    {
+      "verseNumber": 28,
+      "devanagari": "इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृतेऽप्राप्ते दृढबलसम्पूरिते चिकित्सास्थाने वातव्याधिचिकित्सितं नामाष्टाविंशोऽध्यायः ||२८||",
+      "english": "Thus, in the section on ‘Therapeutics’, in the treatise compiled by Agnivesha and revised by Charak, the twenty-eighth chapter entitled Vatavyadhi Chikitsa not being available, the same as restored by Dridhabala, is completed.",
+      "section": "Vata diseases"
+    }
+  ],
+  "tattvaVimarsha": "Vatavyadhi Chikitsa exclusively deals with certain common disorders where the specific vitiation of vata takes place. Before entering the chapter, let us consider the etymological derivations of the term vata. The technical term vata is derived from Sanskrit root verb va which means gati gandhanayoh (movement and continued efforts/enthusiasm.) or by the application of kta to the root verb va which again means the same as above, vatiti vata, the term vata is derived. As all ancient Indian scientific treatise observe strict rules regarding formation of a word, for the brevity and secrecy of expressions, it should be analyzed in detail for better understanding. The meaning of gati is to acquire; and jnana is to get aware or to sense. The term gandhana means to enthuse, to excite or to stimulate. Considering the different meanings of gati, and gandhana it is understood that the term vata itself conveys its role as a receptor as well as stimulator. Hence it can be said that vata is the biological force which recognizes and stimulates all the activities in the body.\n\nVata is the prime dosha. Owing to its incorporeal nature and instability it is inaccessible in comparison to other two dosha. The inaccessibility is characterized in regard to its functional and physical attributes but is more relevant regarding the therapeutic aspect. Vata is also explained as achintyaveerya (inconceivable prowess) and doshaanaam netah (propeller of all functional elements in the body).&#91;1&#93;\n\nBefore discussing the importance and implications of vata, the references on vata and neurological elements in vedic literature is to be highlighted. In vedic science two terminologies namely prana and pranaja were used to denote nerve impulses. Prana is kriyashakti (power for action) and may be compared with motor impulse. Pranaja is also same as prana but conveys sensation of taste, smell, vision, sound, coitus, reproduction, pleasure and pain. It can be compared with sensory afferent impulse. Both prana and pranaja leave body at death. The entire neural axis is explained as sushumna (spinal cord) and it extends from the mid-perineum to inside of cranium runing through the middle of the spine to reach the cerebrum, twelve fingers breadth from nose. The shape of sushumna is compared with flower of datura alba with two dilatations at thoracic and lumbar areas. The cross section of spinal column is compared with the letter Aum in which grey matter and white matter is identified as chitrini (name for grey matter) and vajra (name for white matter). The neural networks are compared with luta tantu (spider web).&#91;2&#93; Ten subtypes of vata are explained and dhananjaya (the tenth and last subtype) does not leave the body even after death. This is responsible for tissue transplantation after death. The description of shadchakra (six chakras) is also very striking with latest functional modern neurology. The difference between vedic and ayurvedic neurology is that vedic science used it to attain higher level of consciousness through control of one’s nerve impulses. Ayurvedic science is meant for academic advancement or therapeutics. In Ayurveda it can be seen that practical utilization of vedic knowledge for therapeutic purpose by modification through experiments and experiences is done. Detailed descriptions of features of vata are available in various chapters of Charak Samhita including Deerghanjiviteeya Adhyaya, Vatakalakaliya Adhyaya and Rogabhishagjitiya Vimana, etc. The pathology and therapeutic aspects of vata is explained in this chapter. There is no separate chapter for diseases of pitta and kapha dosha. Vatavyadhi Chikitsa is an exclusive chapter dealing with vata janita vishesha vyadhi (diseases caused by vata vitiation). It is because of the supremacy of vata. The chapter is kept just after Urustambha Chikitsa since in that particular disease ama, kapha, meda, etc. are associated to cause vataprakopa and urustambha. On application of strenuous rukshana chikitsa in urustambha, vataprakopa alone may also happen. Even though in nanatmaja (single dosha) vatavyadhi the presence of other dosha can be traced, the disease cannot manifest without the vitiation of vata.\n\nVata as explained earlier is the biological force present in the body which recognizes and stimulates all the activities. Instability of vata makes it inaccessible. It is characterized by an increase in the chala (motion) property, which is favored and contributed by other properties also. The chala guna is directional in nature and termed as gati. Gati is the distinct quality of vata, very important on physiological and pathological aspects. The gati of individual components of vata is to be analyzed according to the intensity, direction and area; depending upon the particular function it is carrying out. When the gati is aggravated (gatatva) or obstructed (avarana) the functional normality’s of vata are impaired. The gati or gatatva have two implications, one subjected to activity (to move, carry out or reach-gata) and the second subjected to abode of activity (pathway). Gatatva is an essential part of any vataja samprapti (pathogenesis). Gatatva of vata is possible in dhatu, upadhatu, asaya (sites or hollow cavities of organs), avayava (part or organ), etc. Consumption of ahara of relatively higher kittansha (waste products) leads to diminution of dhatu and aggravation of vata [ Cha. Sa. Sutra Sthana 28/4]. It leads to riktata (emptiness) and more avakasha (space) in dhatu, makes the engorgement and hyper movement of aggravated vata in the site. Dhatugatavata and dhatuavrita vata are also distinct pathologies as in avarana the vitiation of vata is passive and the gati is obstructed.\n\nThe chapter begins with praising of powerful vata followed with five subtypes of vata. After these descriptions, the etiopathological and therapeutic aspects of vata are explained. In the present chapter the two distinct pathology of vata is explained with possible causative factors. In the context of gatavata, the pathology is related to the various dhatu, ashaya or avayava involved in gatatva. The same way different avarana of vata by other two dosha, dhatu, mala, anna, etc. are explained. Since different subtypes of vata possess different gati mutual avarana among subtypes are also possible. The chapter also explains various disorders like pakshaghata, ardita, akshepaka, avabahuka etc. The general line of treatment of absolute vata vitiation is detailed in the chapter by giving importance to snehana, swedana, samshodhana, etc. An ample amount of medications including various taila yoga, ghr̥ita yoga, etc. are also given in the chapter. The specific treatment approaches in exclusive conditions are also explained.\n\nVata vyadhi are group of disorders which are very commonly encountered by ayurvedic physicians. In many diseases like pakshaghata, ardita, gridhrasi, kateegraha, etc. ayurvedic physicians are claiming better results and it is widely accepted also. Critical understandings of pathology, types, prognostic factors etc. are very important for academic and clinical success. Thus, thorough understanding of vata roga is essential for every treating physician.",
+  "vidhiVimarsha": "Vatavyadhi Chikitsa exclusively deals with certain common disorders where the specific vitiation of vata takes place. Before entering the chapter, let us consider the etymological derivations of the term vata. The technical term vata is derived from Sanskrit root verb va which means gati gandhanayoh (movement and continued efforts/enthusiasm.) or by the application of kta to the root verb va which again means the same as above, vatiti vata, the term vata is derived. As all ancient Indian scientific treatise observe strict rules regarding formation of a word, for the brevity and secrecy of expressions, it should be analyzed in detail for better understanding. The meaning of gati is to acquire; and jnana is to get aware or to sense. The term gandhana means to enthuse, to excite or to stimulate. Considering the different meanings of gati, and gandhana it is understood that the term vata itself conveys its role as a receptor as well as stimulator. Hence it can be said that vata is the biological force which recognizes and stimulates all the activities in the body.\n\nVata is the prime dosha. Owing to its incorporeal nature and instability it is inaccessible in comparison to other two dosha. The inaccessibility is characterized in regard to its functional and physical attributes but is more relevant regarding the therapeutic aspect. Vata is also explained as achintyaveerya (inconceivable prowess) and doshaanaam netah (propeller of all functional elements in the body).&#91;1&#93;\n\nBefore discussing the importance and implications of vata, the references on vata and neurological elements in vedic literature is to be highlighted. In vedic science two terminologies namely prana and pranaja were used to denote nerve impulses. Prana is kriyashakti (power for action) and may be compared with motor impulse. Pranaja is also same as prana but conveys sensation of taste, smell, vision, sound, coitus, reproduction, pleasure and pain. It can be compared with sensory afferent impulse. Both prana and pranaja leave body at death. The entire neural axis is explained as sushumna (spinal cord) and it extends from the mid-perineum to inside of cranium runing through the middle of the spine to reach the cerebrum, twelve fingers breadth from nose. The shape of sushumna is compared with flower of datura alba with two dilatations at thoracic and lumbar areas. The cross section of spinal column is compared with the letter Aum in which grey matter and white matter is identified as chitrini (name for grey matter) and vajra (name for white matter). The neural networks are compared with luta tantu (spider web).&#91;2&#93; Ten subtypes of vata are explained and dhananjaya (the tenth and last subtype) does not leave the body even after death. This is responsible for tissue transplantation after death. The description of shadchakra (six chakras) is also very striking with latest functional modern neurology. The difference between vedic and ayurvedic neurology is that vedic science used it to attain higher level of consciousness through control of one’s nerve impulses. Ayurvedic science is meant for academic advancement or therapeutics. In Ayurveda it can be seen that practical utilization of vedic knowledge for therapeutic purpose by modification through experiments and experiences is done. Detailed descriptions of features of vata are available in various chapters of Charak Samhita including Deerghanjiviteeya Adhyaya, Vatakalakaliya Adhyaya and Rogabhishagjitiya Vimana, etc. The pathology and therapeutic aspects of vata is explained in this chapter. There is no separate chapter for diseases of pitta and kapha dosha. Vatavyadhi Chikitsa is an exclusive chapter dealing with vata janita vishesha vyadhi (diseases caused by vata vitiation). It is because of the supremacy of vata. The chapter is kept just after Urustambha Chikitsa since in that particular disease ama, kapha, meda, etc. are associated to cause vataprakopa and urustambha. On application of strenuous rukshana chikitsa in urustambha, vataprakopa alone may also happen. Even though in nanatmaja (single dosha) vatavyadhi the presence of other dosha can be traced, the disease cannot manifest without the vitiation of vata.\n\nVata as explained earlier is the biological force present in the body which recognizes and stimulates all the activities. Instability of vata makes it inaccessible. It is characterized by an increase in the chala (motion) property, which is favored and contributed by other properties also. The chala guna is directional in nature and termed as gati. Gati is the distinct quality of vata, very important on physiological and pathological aspects. The gati of individual components of vata is to be analyzed according to the intensity, direction and area; depending upon the particular function it is carrying out. When the gati is aggravated (gatatva) or obstructed (avarana) the functional normality’s of vata are impaired. The gati or gatatva have two implications, one subjected to activity (to move, carry out or reach-gata) and the second subjected to abode of activity (pathway). Gatatva is an essential part of any vataja samprapti (pathogenesis). Gatatva of vata is possible in dhatu, upadhatu, asaya (sites or hollow cavities of organs), avayava (part or organ), etc. Consumption of ahara of relatively higher kittansha (waste products) leads to diminution of dhatu and aggravation of vata [ Cha. Sa. Sutra Sthana 28/4]. It leads to riktata (emptiness) and more avakasha (space) in dhatu, makes the engorgement and hyper movement of aggravated vata in the site. Dhatugatavata and dhatuavrita vata are also distinct pathologies as in avarana the vitiation of vata is passive and the gati is obstructed.\n\nThe chapter begins with praising of powerful vata followed with five subtypes of vata. After these descriptions, the etiopathological and therapeutic aspects of vata are explained. In the present chapter the two distinct pathology of vata is explained with possible causative factors. In the context of gatavata, the pathology is related to the various dhatu, ashaya or avayava involved in gatatva. The same way different avarana of vata by other two dosha, dhatu, mala, anna, etc. are explained. Since different subtypes of vata possess different gati mutual avarana among subtypes are also possible. The chapter also explains various disorders like pakshaghata, ardita, akshepaka, avabahuka etc. The general line of treatment of absolute vata vitiation is detailed in the chapter by giving importance to snehana, swedana, samshodhana, etc. An ample amount of medications including various taila yoga, ghr̥ita yoga, etc. are also given in the chapter. The specific treatment approaches in exclusive conditions are also explained.\n\nVata vyadhi are group of disorders which are very commonly encountered by ayurvedic physicians. In many diseases like pakshaghata, ardita, gridhrasi, kateegraha, etc. ayurvedic physicians are claiming better results and it is widely accepted also. Critical understandings of pathology, types, prognostic factors etc. are very important for academic and clinical success. Thus, thorough understanding of vata roga is essential for every treating physician.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Vatavyadhi_Chikitsa_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s06.029"
+}

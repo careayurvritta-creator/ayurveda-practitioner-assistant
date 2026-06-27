@@ -1,0 +1,392 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 10,
+    "chapterTitleEnglish": "Management of Apasmara",
+    "chapterTitleSanskrit": "Apasmara Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Apasmara Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Bhagwat M., Tripathi J.S.",
+    "editors": [
+      "Baghel M.S."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.011"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Apasmara_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "All psychiatric and psycho-somatic diseases find their roots in the two chapters of unmada and apasmara. These diseases are caused by similar etiological factors and both manifest as manasika vikara (psychiatric diseases). Therefore these two chapters are placed in succession. Manas (mind), buddhi (intellect), and smriti (memory) are integral parts combined with atma (self) in understanding Ayurvedic psychiatry. The series of pathological events that take place to occlude consciousness in heart and loss of memory is distinctive feature of apasmara. As mentioned earlier in Apasmara Nidana, first the aggravation of doshas at somatic level occurs by improper and impure/foul food and excess affliction of negative emotions like worries, passion, fright, anger, grief etc at psychic level. The disease precipitates in the form of paroxysmal attack, then the negative psychological emotions occlude the consciousness at heart and thereafter leading to loss of memory. There is always a possibility of food contamination as a causative factor for epilepsy. A case in point is of endrin-laced taquitos causing seizures in the United States&#91;1&#93;. Balance between sattva, rajas and tamas is important by avoiding the stressors that precipitate the episode of apasmara. Various animal products like ghee processed with medicinal herbs are utilized for medicine preparation. Atattvabhinivesha is another disease specially mentioned in this chapter. It is termed as the single major disease ,i.e., mahagada, leading to affliction of mind and intellect. Its management is also mentioned in this context.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Definition of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiopathology",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis and features of pre-ictal phase",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Post-ictal phase of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features (Ictal phase)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diagnosis as per frequency of seizures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Purification based on dosha dominance",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Assurance and counselling therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Panchagavya ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mahapanchagavya ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Brahmi ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Saindhava hingu ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vacha-shampakadi ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Jivaniya Yamaka Sneha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Drugs for external application",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Different unction formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Drugs for nasya (nasal errhines)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pradhamana nasya formulation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Medicated wicks",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of Aagantu apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mahagada chikitsa (management of atattvabhinivesha)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiopathology and clinical features of atattvabhinivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of atattvabhinivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Protection of patients and precautionary measures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Relation between diet, dosha specificity and apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Memory and consciousness",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Brain and heart connection Neurocardiology",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gut-brain connection in apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etio-Pathogenesis of Atattvabhinivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Patho-physiology of atattvabhinivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Researches on Apasmara",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Apasmara (epilepsy) and its management with maha-panchagavya ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Review of kushmanda ghrita in the management of Generalized Tonic-Clonic Seizures (GTCS)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ayurvedic management of apasmara w.s.r. to epilepsy- A Case Report",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Therapeutic potential of ayurveda treatment (panchakarma and herbal medicine) in epilepsy in children",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Efficacy of Shatavari taila nasya and internal administration of brahmi ghrita in the management of apasmara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effect of Brahmi Ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related Chapter",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "All psychiatric and psycho-somatic diseases find their roots in the two chapters of unmada and apasmara. These diseases are caused by similar etiological factors and both manifest as manasika vikara (psychiatric diseases). Therefore these two chapters are placed in succession. Manas (mind), buddhi (intellect), and smriti (memory) are integral parts combined with atma (self) in understanding Ayurvedic psychiatry. The series of pathological events that take place to occlude consciousness in heart and loss of memory is distinctive feature of apasmara. As mentioned earlier in Apasmara Nidana, first the aggravation of doshas at somatic level occurs by improper and impure/foul food and excess affliction of negative emotions like worries, passion, fright, anger, grief etc at psychic level. The disease precipitates in the form of paroxysmal attack, then the negative psychological emotions occlude the consciousness at heart and thereafter leading to loss of memory. There is always a possibility of food contamination as a causative factor for epilepsy. A case in point is of endrin-laced taquitos causing seizures in the United States&#91;1&#93;. Balance between sattva, rajas and tamas is important by avoiding the stressors that precipitate the episode of apasmara. Various animal products like ghee processed with medicinal herbs are utilized for medicine preparation. Atattvabhinivesha is another disease specially mentioned in this chapter. It is termed as the single major disease ,i.e., mahagada, leading to affliction of mind and intellect. Its management is also mentioned in this context.",
+  "vidhiVimarsha": "All psychiatric and psycho-somatic diseases find their roots in the two chapters of unmada and apasmara. These diseases are caused by similar etiological factors and both manifest as manasika vikara (psychiatric diseases). Therefore these two chapters are placed in succession. Manas (mind), buddhi (intellect), and smriti (memory) are integral parts combined with atma (self) in understanding Ayurvedic psychiatry. The series of pathological events that take place to occlude consciousness in heart and loss of memory is distinctive feature of apasmara. As mentioned earlier in Apasmara Nidana, first the aggravation of doshas at somatic level occurs by improper and impure/foul food and excess affliction of negative emotions like worries, passion, fright, anger, grief etc at psychic level. The disease precipitates in the form of paroxysmal attack, then the negative psychological emotions occlude the consciousness at heart and thereafter leading to loss of memory. There is always a possibility of food contamination as a causative factor for epilepsy. A case in point is of endrin-laced taquitos causing seizures in the United States&#91;1&#93;. Balance between sattva, rajas and tamas is important by avoiding the stressors that precipitate the episode of apasmara. Various animal products like ghee processed with medicinal herbs are utilized for medicine preparation. Atattvabhinivesha is another disease specially mentioned in this chapter. It is termed as the single major disease ,i.e., mahagada, leading to affliction of mind and intellect. Its management is also mentioned in this context.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Definition of apasmara",
+    "2.2 Etiopathology",
+    "2.3 Pathogenesis and features of pre-ictal phase",
+    "2.4 Post-ictal phase of apasmara",
+    "2.5 Types of apasmara",
+    "2.6 Features (Ictal phase) 2.6.1 Apasmara with vata dominance",
+    "2.6.2 Apasmara with pitta dominance",
+    "2.6.3 Apasmara with kapha dominance",
+    "2.6.4 Apasmara with mixed features of all dosha dominance and prognosis",
+    "2.7 Diagnosis as per frequency of seizures",
+    "2.8 Management of apasmara",
+    "2.9 Purification based on dosha dominance",
+    "2.10 Assurance and counselling therapy",
+    "2.11 Panchagavya ghee 2.11.1 Ingredients of panchagavya ghee",
+    "2.11.2 Indications",
+    "2.12 Mahapanchagavya ghee 2.12.1 Ingredients of mahapanchagavya ghee",
+    "2.12.2 Indications",
+    "2.13 Brahmi ghee",
+    "2.14 Saindhava hingu ghee",
+    "2.15 Vacha-shampakadi ghee",
+    "2.16 Jivaniya Yamaka Sneha",
+    "2.17 Drugs for external application",
+    "2.18 Different unction formulations",
+    "2.19 Drugs for nasya (nasal errhines)",
+    "2.20 Pradhamana nasya formulation",
+    "2.21 Medicated wicks",
+    "2.22 Effects of therapy",
+    "2.23 Treatment of Aagantu apasmara",
+    "2.24 Mahagada chikitsa (management of atattvabhinivesha)",
+    "2.25 Etiopathology and clinical features of atattvabhinivesha",
+    "2.26 Management of atattvabhinivesha",
+    "2.27 Prognosis",
+    "2.28 Protection of patients and precautionary measures",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Relation between diet, dosha specificity and apasmara",
+    "4.2 Memory and consciousness",
+    "4.3 Brain and heart connection Neurocardiology",
+    "4.4 Signs and symptoms of apasmara",
+    "4.5 Gut-brain connection in apasmara",
+    "4.6 Etio-Pathogenesis of Atattvabhinivesha",
+    "4.7 Patho-physiology of atattvabhinivesha 4.7.1 Differential diagnosis",
+    "4.7.2 Management of apasmara",
+    "4.7.3 I. Purification therapies",
+    "4.7.4 II. Assurance and consolation therapies",
+    "4.7.5 III. Pacification (shamana) therapy",
+    "5 Researches on Apasmara 5.1 Apasmara (epilepsy) and its management with maha-panchagavya ghrita",
+    "5.2 Review of kushmanda ghrita in the management of Generalized Tonic-Clonic Seizures (GTCS)",
+    "5.3 Ayurvedic management of apasmara w.s.r. to epilepsy- A Case Report",
+    "5.4 Therapeutic potential of ayurveda treatment (panchakarma and herbal medicine) in epilepsy in children",
+    "5.5 Efficacy of Shatavari taila nasya and internal administration of brahmi ghrita in the management of apasmara",
+    "5.6 Effect of Brahmi Ghrita",
+    "5.7 Related Chapter",
+    "6 References"
+  ]
+}

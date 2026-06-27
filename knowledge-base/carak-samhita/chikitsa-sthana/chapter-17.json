@@ -1,0 +1,257 @@
+{
+  "sthana": "Chikitsa Sthana",
+  "sthanaNumber": 6,
+  "chapterNumber": 17,
+  "titleEnglish": "Hiccups and Dyspnea",
+  "titleSanskrit": "Hikka Shwasa Chikitsa Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातो हिक्काश्वासचिकित्सितं व्याख्यास्यामः ||१|| इति ह स्माह भगवानात्रेयः ||२||",
+      "english": "",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "वेदलोकार्थतत्त्वज्ञमात्रेयमृषिमुत्तमम् | अपृच्छत् संशयं धीमानग्निवेशः कृताञ्जलिः ||३|| य इमे द्विविधाः प्रोक्तास्त्रिदोषास्त्रिप्रकोपणाः | रोगा नानात्मकास्तेषां कस्को भवति दुर्जयः ||४||",
+      "english": "Agnivesha , an intelligent disciple, asked his doubt with modest salute of folded hands to Lord Atreya, who has the knowledge about the subject and principles of the Vedas “The diseases are categorized under two categories (samanyaja and nanatmaja) of three dosha (vata, pitta and kapha) aggravated due to three factors (like unwholesome utilization of sense organs (asatmendriyartha samyoga), intellectual errors (pajnaparadha) and advent of maturity of time (parinama)). Which among these diseases is most difficult to cure?” [3-4]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "अग्निवेशस्य तद्वाक्यं श्रुत्वा मतिमतां वरः | उवाच परमप्रीतः परमार्थविनिश्चयम् ||५|| कामं प्राणहरा रोगा बहवो न तु ते तथा | यथा श्वासश्च हिक्का च प्राणानाशु निकृन्ततः ||६|| अन्यैरप्युपसृष्टस्य रोगैर्जन्तोः पृथग्विधैः | अन्ते सञ्जायते हिक्का श्वासो वा तीव्रवेदनः ||७||",
+      "english": "After listening to Agnivesha, Lord Punarvasu, the most prudent among the sages was very delighted and made ultimate and conclusive statement. “In fact there are many diseases which can kill a patient. But none of the diseases is as lethal as shwasa and hikka as they can cause immediate death. The person suffering from any other disease can also get eventually afflicted with enormously painful hikka and shwasa at the time of death.”[3-7]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 8,
+      "devanagari": "कफवातात्मकावेतौ पित्तस्थानसमुद्भवौ | हृदयस्य रसादीनां धातूनां चोपशोषणौ ||८|| तस्मात् साधारणावेतौ मतौ परमदुर्जयौ | मिथ्योपचरितौ क्रुद्धौ हत आशीविषाविव ||९||",
+      "english": "Hikka and shwasa are mainly kapha and vata dominant in nature. They originate at the site of pitta (upper part of stomach). This results in further depletion of dhatu like rasa dhatu situated in heart. Hence generally they are extremely difficult to treat. After getting afflicted with this disease, if one indulges in unwholesome regimens, then disease gets aggravated and results in death just as from fatal snake venom. [8-9]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 10,
+      "devanagari": "पृथक् पञ्चविधावेतौ निर्दिष्टौ रोगसङ्ग्रहे | तयोः शृणु समुत्थानं लिङ्गं च सभिषग्जितम् ||१०|| रजसा धूमवाताभ्यां शीतस्थानाम्बुसेवनात् | व्यायामाद्ग्राम्यधर्माध्वरूक्षान्नविषमाशनात् ||११|| आमप्रदोषादानाहाद्रौक्ष्यादत्यपतर्पणात् | दौर्बल्यान्मर्मणो घाताद्द्वन्द्वाच्छुद्ध्यतियोगतः ||१२|| अतीसारज्वरच्छर्दिप्रतिश्यायक्षतक्षयात् | रक्तपित्तादुदावर्ताद्विसूच्यलसकादपि ||१३|| पाण्डुरोगाद्विषाच्चैव प्रवर्तेते गदाविमौ | निष्पावमाषपिण्याकतिलतैलनिषेवणात् ||१४|| पिष्टशालूकविष्टम्भिविदाहिगुरुभोजनात् | जलजानूपपिशितदध्यामक्षीरसेवनात् ||१५|| अभिष्यन्द्युपचाराच्च श्लेष्मलानां च सेवनात् | कण्ठोरसः प्रतीघाताद्विबन्धैश्च पृथग्विधैः ||१६||",
+      "english": "Five types of hikka and shwasa, based on etiology, signs, symptoms and treatment are being elaborated here, listen to them carefully:",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "मारुतः प्राणवाहीनि स्रोतांस्याविश्य कुप्यति | उरःस्थः कफमुद्धूय हिक्काश्वासान् करोति सः ||१७|| घोरान् प्राणोपरोधाय प्राणिनां पञ्च पञ्च च |१८|",
+      "english": "By the above mentioned etiological factors the vata gets aggravated in the pranavahasrotas ( channels carrying prana) and deranges the kapha situated in the chest region producing lethal blockage of pranavayu and five types of dreadful hikka and shwasa. [17-18]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 18,
+      "devanagari": "उभयोः पूर्वरूपाणि शृणु वक्ष्याम्यतः परम् ||१८|| कण्ठोरसोर्गुरुत्वं च वदनस्य कषायता | \nहिक्कानां पूर्वरूपाणि कुक्षेराटोप एव च ||१९|| आनाहः पार्श्वशूलं च पीडनं हृदयस्य च | \nप्राणस्य च विलोमत्वं श्वासानां पूर्वलक्षणम् ||२०||",
+      "english": "Following are the premonitory symptoms of both the diseases:",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "प्राणोदकान्नवाहीनि स्रोतांसि सकफोऽनिलः | \nहिक्का करोति संरुध्य तासां लिङ्गं पृथक् शृणु ||२१|| क्षीणमांसबलप्राणतेजसः सकफोऽनिलः | \nगृहीत्वा सहसा कण्ठमुच्चैर्घोषवतीं भृशम् ||२२|| करोति सततं हिक्कामेकद्वित्रिगुणं तथा | \nप्राणः स्रोतांसि मर्माणि संरुध्योष्माणमेव च ||२३|| सञ्ज्ञां मुष्णाति गात्राणां स्तम्भं सञ्जनयत्यपि | \nमार्गं चैवान्नपानानां रुणद्ध्युपहतस्मृतेः ||२४|| साश्रुविप्लुतनेत्रस्य स्तब्धशङ्खच्युतभ्रुवः | \nसक्तजल्पप्रलापस्य निर्वृतिं नाधिगच्छतः ||२५|| महामूला महावेगा महाशब्दा महाबला | \nमहाहिक्केति सा नॄणां सद्यः प्राणहरा मता ||२६|| इति महाहिक्का |",
+      "english": "",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "हिक्कते यः प्रवृद्धस्तु कृशो दीनमना नरः | \nजर्जरेणोरसा कृच्छ्रं गम्भीरमनुनादयन् ||२७|| सञ्जृम्भन् सङ्क्षिपंश्चैव तथाऽङ्गानि प्रसारयन् | \nपार्श्वे चोभे समायम्य कूजन् स्तम्भरुगर्दितः ||२८|| नाभेः पक्वाशयाद्वाऽपि हिक्का चास्योपजायते | \nक्षोभयन्ती भृशं देहं नामयन्तीव ताम्यतः ||२९|| रुणद्ध्युच्छ्वासमार्गं तु प्रनष्टबलचेतसः | \nगम्भीरा नाम सा तस्य हिक्का प्राणान्तिकी मता ||३०|| इति गम्भीरा हिक्का |",
+      "english": "Excessive aggravation of kapha and vayu in an aged, emaciated and mentally depressed individual leads to hikka. This hikka is characterised by deep and resonant sound, and affliction of the chest. He yawns, contracts and expands his body, and while respiring he contracts both the flanks making murmuring sounds, and suffers from stiffness and pain. In such a patient the hikka arises from the umbilicus or pakvashaya (intestines) with pain all over the body. During this time his body bends and he suffers from black outs, obstruction in the respiratory tract and loss of strength and unconsciousness. Such hikka is known as gambhira hikka which ultimately results in death. [27-30]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "व्यपेता जायते हिक्का याऽन्नपाने चतुर्विधे | \nआहारपरिणामान्ते भूयश्च लभते बलम् ||३१|| प्रलापवम्यतीसारतृष्णार्तस्य विचेतसः | \nजृम्भिणो विप्लुताक्षस्य शुष्कास्यस्य विनामिनः ||३२|| पर्याध्मातस्य हिक्का या जत्रुमूलादसन्तता | \nसा व्यपेतेति विज्ञेया हिक्का प्राणोपरोधिनी ||३३|| इति व्यपेता हिक्का |",
+      "english": "The vyapeta hikka produced after the intake of four types of food (i.e. eatable, chewable, drinkable, lickable) and gets aggravated after food gets digested. He suffers from delirium, vomiting, diarrhea, thirst and unconsciousness. There is yawning, watering of eyes, dryness of mouth and bending of the body, and adhmana (distension of the abdomen). This hikka originates from the root of the clavicle and attack is not continuous. Hikka is injurious to life. [31-33]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 34,
+      "devanagari": "क्षुद्रवातो यदा कोष्ठाद्व्यायामपरिघट्टितः | \nकण्ठे प्रपद्यते हिक्कां तदा क्षुद्रां करोति सः ||३४|| अतिदुःखा न सा चोरःशिरोमर्मप्रबाधिनी | \nन चोच्छ्वासान्नपानानां मार्गमावृत्य तिष्ठति ||३५|| वृद्धिमायस्यतो याति भुक्तमात्रे च मार्दवम् | \nयतः प्रवर्तते पूर्वं तत एव निवर्तते ||३६|| हृदयं क्लोम कण्ठं च तालुकं च समाश्रिता | \nमृद्वी सा क्षुद्रहिक्केति नृणां साध्या प्रकीर्तिता ||३७|| इति क्षुद्रहिक्का |",
+      "english": "The vayu gets slightly aggravated in the koshtha (alimentary tract), due to the physical exercises and reaches the throat and produces kshudra hikka. This does not produce much pain and does not afflict the head and vital parts (hridaya marma). In this type of hikka, the doshas do not reside or get lodged in the channels of respiration, food and drinks. This gets aggravated on exertion and subsides on taking food. Hikka gets subsided by itself also. The doshas are situated in cardiac region, kloma, throat and palate. This mild form of hikka is curable and known as kshudra hikka. [35-37]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 38,
+      "devanagari": "सहसाऽत्यभ्यवहृतैः पानान्नैः पीडितोऽनिलः | \nऊर्ध्वं प्रपद्यते कोष्ठान्मद्यैर्वाऽतिमदप्रदैः ||३८|| तथाऽतिरोषभाष्याध्वहास्यभारातिवर्तनैः | \nवायुः कोष्ठगतो धावन् पानभोज्यप्रपीडितः ||३९|| उरःस्रोतः समाविश्य कुर्याद्धिक्कां ततोऽन्नजाम् | \nतथा शनैरसम्बन्धं क्षुवंश्चापि स हिक्कते ||४०|| न मर्मबाधाजननी नेन्द्रियाणां प्रबाधिनी | \nहिक्का पीते तथा भुक्ते शमं याति च साऽन्नजा ||४१|| इत्यन्नजा हिक्का |",
+      "english": "The vayu gets aggravated and moves in the upward direction due to the intake of excess food or drinks in hurry or excess of alcohol, anger, talking, laughing, weightlifting etc. factors aggravate vayu in koshtha (alimentary tract) gets afflicted by food and drinks and move in the upward direction and get lodged in channels of chest and produce annaja hikka. This hikka occurs slowly and intermittently along with sneezing. The hikka that does not afflict vital points (marma) and organs and it subsides after drinking water or taking food is known as annaja hikka.[38-41]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 42,
+      "devanagari": "अतिसञ्चितदोषस्य भक्तच्छेदकृशस्य च | \nव्याधिभिः क्षीणदेहस्य वृद्धस्यातिव्यवायिनः ||४२|| आसां या सा समुत्पन्ना हिक्का हन्त्याशु जीवितम् | \nयमिका च प्रलापार्तितृष्णामोहसमन्विता ||४३|| अक्षीणश्चाप्यदीनश्च स्थिरधात्विन्द्रियश्च यः | \nतस्य साधयितुं शक्या यमिका हन्त्यतोऽन्यथा ||४४||",
+      "english": "The hikka destroys a person suffering from excessive accumulation of dosha, emaciated due to fasting, emaciated due to disease, weak due to ageing or excessive indulgence in sex. The symptoms of delirium, pain, excess thirst and stupor in yamika hikka patient make it incurable for treatment.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 45,
+      "devanagari": "यदा स्रोतांसि संरुध्य मारुतः कफपूर्वकः | \nविष्वग्व्रजति संरुद्धस्तदा श्वासान्करोति सः ||४५||",
+      "english": "The aggravated vayu along with vitiated kapha obstructs the channels (of prana, udaka and annavaha) and spreads throughout the body and produces shwasa.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 46,
+      "devanagari": "उद्धूयमानवातो यः शब्दवद्दुखितो नरः | \nउच्चैः श्वसिति संरुद्धो मत्तर्षभ इवानिशम् ||४६|| प्रनष्टज्ञानविज्ञानस्तथा विभ्रान्तलोचनः | \nविकृताक्ष्याननो बद्धमूत्रवर्चा विशीर्णवाक् ||४७|| दीनः प्रश्वसितं चास्य दूराद्विज्ञायते भृशम् | \nमहाश्वासोपसृष्टः स क्षिप्रमेव विपद्यते ||४८|| इति महाश्वासः |",
+      "english": "The patient breathes with a loud noise during the night due to the upward movement of aggravated vayu like intoxicated bull. The vayu gets obstructed and the person becomes unconscious. The eyes get distorted and he cannot visualize properly. The eyes and face become abnormal and the elimination of urine and feces is obstructed and the voice becomes feeble and the person looks tired and respiration could be heard from distance, such person suffering from mahashwasa succumbs to death very fast. [46-48]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 49,
+      "devanagari": "दीर्घं श्वसिति यस्तूर्ध्वं न च प्रत्याहरत्यधः | \nश्लेष्मावृतमुखस्रोताः क्रुद्धगन्धवहार्दितः ||४९|| ऊर्ध्वदृष्टिर्विपश्यंश्च विभ्रान्ताक्ष इतस्ततः | \nप्रमुह्यन् वेदनार्तश्च शुष्कास्योऽरतिपीडितः ||५०|| ऊर्ध्वश्वासे प्रकुपिते  ह्यधःश्वासो निरुध्यते | \nमुह्यतस्ताम्यतश्चोर्ध्वं श्वासस्तस्यैव हन्त्यसून् ||५१|| इत्यूर्ध्वश्वासः |",
+      "english": "The vitiated kapha obstructs channels of respiration leading to aggravation of vata resulting in prolonged expiration and shallow inspiration (breath doesn’t get deeply inspired). The patient looks up with moving eye balls as if he is scared of something. When he gets afflicted with this type of shwasa he suffers from unconsciousness, dryness of mouth, restlessness. The upward movement of vayu is aggravated resulting in obstruction of downward movement and unconsciousness, black outs and he succumbs to death quickly. [49-51]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 52,
+      "devanagari": "यस्तु श्वसिति विच्छिन्नं सर्वप्राणेन पीडितः | \nन वा श्वसिति दुःखार्तो मर्मच्छेदरुगर्दितः ||५२|| आनाहस्वेदमूर्च्छार्तो दह्यमानेन बस्तिना | \nविप्लुताक्षः परिक्षीणः श्वसन् रक्तैकलोचनः ||५३|| विचेताः परिशुष्कास्यो विवर्णः प्रलपन्नरः | \nछिन्नश्वासेन विच्छिन्नः स शीघ्रं प्रजहात्यसून् ||५४|| इति छिन्नश्वासः |",
+      "english": "The patient suffering from chhinna shwasa has interrupted breath as the prana(vital centers) [Cha. Sa. Sutra Sthana 29] is afflicted. There is complete stoppage of breath, such individual suffers from intense pain as if cutting of the marma (vital parts), constipation with abdominal distension, sweating, unconsciousness, burning sensation in basti (bladder and urinary system), excessive tears in the eyes, emaciation of the body, the eyes become red when patient struggles to breath, mental disorientation, dryness of mouth, discoloration of skin, delirium, looseness of joints. An individual suffering from above said features of chhinna shwasa succumbs to death very quickly. [52-54]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 55,
+      "devanagari": "प्रतिलोमं यदा वायुः स्रोतांसि प्रतिपद्यते | \nग्रीवां शिरश्च सङ्गृह्य श्लेष्माणं समुदीर्य च ||५५|| करोति पीनसं तेन रुद्धो घुर्घुरुकं तथा | \nअतीव तीव्रवेगं च श्वासं प्राणप्रपीडकम् ||५६|| प्रताम्यत्यतिवेगाच्च कासते सन्निरुध्यते | \nप्रमोहं कासमानश्च स गच्छति मुहुर्मुहुः ||५७|| श्लेष्मण्यमुच्यमाने तु भृशं भवति दुःखितः | \nतस्यैव च विमोक्षान्ते मुहूर्तं लभते सुखम् ||५८|| अथास्योद्ध्वंसते कण्ठः कृच्छ्राच्छक्नोति भाषितुम् | \nन चापि निद्रां लभते शयानः श्वासपीडितः ||५९|| पार्श्वे तस्यावगृह्णाति शयानस्य समीरणः | \nआसीनो लभते सौख्यमुष्णं चैवाभिनन्दति ||६०|| उच्छ्रिताक्षो ललाटेन स्विद्यता भृशमर्तिमान् | \nविशुष्कास्यो मुहुः श्वासो मुहुश्चैवावधम्यते ||६१|| मेघाम्बुशीतप्राग्वातैः श्लेष्मलैश्चाभिवर्धते | \nस याप्यस्तमकश्वासः साध्यो वा स्यान्नवोत्थितः ||६२|| इति तमकश्वासः |",
+      "english": "The vayu moves in the opposite direction due to the obstruction in the respiratory tract, stiffness in the neck, head aggravates the kapha and produces rhinorrhoea, and gurghuraka sound (rhonchi). Exceedingly severe attack afflicts the prana and enhances severity. During severe attack, the patient faints repeatedly, has severe cough and becomes unconscious. The patient finds it difficult to expectorate the phlegm and feels relieved for period of 1 muhurta (3 hours) after expectoration of phlegm. There is hoarseness of voice and patient speaks with difficulty, even he does not get proper sleep, and on lying down he suffers from dyspnea as his flanks are afflicted by vayu. He feels comfortable in the sitting position. He likes hot things. His eye balls are always prominent, there is sweat on the forehead, dryness of the mouth, gets repeated attacks of dyspnea, and it increases and subsides repeatedly. In gets aggravated when appearance of clouds in the sky, rains, cold weather, easterly winds and kapha enhancing food and behavior. The tamaka shwasa having above mentioned features is yapya (palliable) and in the initial stages it is curable disease. [55-62]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 63,
+      "devanagari": "ज्वरमूर्च्छापरीतस्य विद्यात् प्रतमकं तु तम् | \nउदावर्तरजोऽजीर्णक्लिन्नकायनिरोधजः ||६३|| तमसा वर्धतेऽत्यर्थं शीतैश्चाशु प्रशाम्यति | \nमज्जतस्तमसीवाऽस्य विद्यात् सन्तमकं तु तम् ||६४|| इति प्रतमकसन्तमकश्वासौ |",
+      "english": "In a patient of tamaka shwasa if jwara (fever) and unconsciousness are occurring as complication, then it is called as pratamaka shwasa. The shwasa produced due to udavarta (upward movement of vayu in koshtha), dust, indigestion, excessive liquid accumulation in the body (klinna kaya), and suppression of natural urges results in increase of tama. This gets relieved by following of cooling regimen. The person suffering from this shwasa feels as if he is submerged in darkness, thus it is known as santamaka.[63-64]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 65,
+      "devanagari": "रूक्षायासोद्भवः कोष्ठे क्षुद्रो वात उदीरयन् | \nक्षुद्रश्वासो न सोऽत्यर्थं दुःखेनाङ्गप्रबाधकः ||६५|| हिनस्ति न स गात्राणि न च दुःखो यथेतरे | \nन च भोजनपानानां निरुणद्ध्युचितां गतिम् ||६६|| नेन्द्रियाणां व्यथां नापि काञ्चिदापादयेद्रुजम् | \nस साध्य उक्तो बलिनः सर्वे चाव्यक्तलक्षणाः ||६७|| इति श्वासाः समुद्दिष्टा हिक्काश्चैव स्वलक्षणैः |६८|",
+      "english": "Due to intake of dry food and exertion, vata is mildly vitiated in koshtha and moves in the upward direction i.e respiratory tract resulting in kshudra shwasa. The patient suffering from this type of shwasa does not have any affliction of various body parts and the functions are not affected. It is not very painful as it does not affect the channels of food and drinks nor does it cause pain to the sense organs. This is curable if the symptom is not completely manifested and the patient is strong. Thus all the types of hikka and shwasa are elaborated along with their signs and symptoms.[65-67]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 68,
+      "devanagari": "एषां प्राणहरा वर्ज्या घोरास्ते ह्याशुकारिणः ||६८|| भेषजैः साध्ययाप्यांस्तु क्षिप्रं भिषगुपाचरेत् | \nउपेक्षिता दहेयुर्हि शुष्कं कक्षमिवानलः ||६९||",
+      "english": "Among them the fatal varieties (like maha hikka, gambhira hikka, vyapeta hikka, maha shwasa, urdhva shwasa, chhinna shwasa are incurable types) should not be treated. While the curable and controllable variety of hikka and shwasa should be treated with medicine quickly. If neglected then it destroys the prana of the patient as the fire burns away the dry grass very fast.[68-69]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 70,
+      "devanagari": "कारणस्थानमूलैक्यादेकमेव चिकित्सितम् | \nद्वयोरपि यथादृष्टमृषिभिस्तन्निबोधत ||७०|| हिक्काश्वासार्दितं स्निग्धैरादौ स्वेदैरुपाचरेत् | \nआक्तं लवणतैलेन नाडीप्रस्तरसङ्करैः ||७१|| तैरस्य ग्रथितः श्लेष्मा स्रोतःस्वभिविलीयते | \nखानि मार्दवमायान्ति ततो वातानुलोमता ||७२|| यथाऽद्रिकुञ्जेष्वर्कांशुतप्तं विष्यन्दते हिमम् | \nश्लेष्मा तप्तः स्थिरो देहे स्वेदैर्विष्यन्दते तथा ||७३|| स्विन्नं ज्ञात्वा ततस्तूर्णं भोजयेत् स्निग्धमोदनम् | \nमत्स्यानां शूकराणां वा रसैर्दध्युत्तरेण वा ||७४|| ततः श्लेष्मणि संवृद्धे वमनं पाययेत्तु तम् | \nपिप्पलीसैन्धवक्षौद्रैर्युक्तं वाताविरोधि यत् ||७५|| निर्हृते सुखमाप्नोति स कफे दुष्टविग्रहे | \nस्रोतःसु च विशुद्धेषु चरत्यविहतोऽनिलः ||७६||",
+      "english": "The etiological factors, site, origin of both hikka and shwasa are same and hence the treatment is also same. Kindly listen attentively the treatment of hikka and shwasa as known by the seers.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 77,
+      "devanagari": "लीनश्चेद्दोषशेषः स्याद्धूमैस्तं निर्हरेद्बुधः | \nहरिद्रां पत्रमेरण्डमूलं लाक्षां मनःशिलाम् ||७७|| सदेवदार्वलं मांसीं पिष्ट्वा वर्तिं प्रकल्पयेत् | \nतां घृताक्तां पिबेद्धूमं यवैर्वा घृतसंयुतैः ||७८|| मधूच्छिष्टं सर्जरसं घृतं मल्लकसम्पुटे | \nकृत्वा धूमं पिबेच्छृङ्गं बालं वा स्नायु वा गवाम् ||७९|| स्योनाकवर्धमानानां नाडीं शुष्कां कुशस्य वा | \nपद्मकं गुग्गुलुं लोहं शल्लकीं वा घृताप्लुतम् ||८०||",
+      "english": "The dosha remaining after the administration of vamana treatment should be expelled by means of dhuma (medicated smoking). The haridra (turmeric), roots of eranda (Ricinus communis Linn), laksha (Ficus Lacor Buch-Ham), manahshila (realgar, an Arsenic compound), jatamansi (Nardostachys jatamansone BC), are powdered properly and wick is prepared. This wick is smeared with ghee and used for medicated smoking. The barley should be mixed with ghee and used for smoking.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 81,
+      "devanagari": "स्वरक्षीणातिसारासृक्पित्तदाहानुबन्धजान् | \nमधुरस्निग्धशीताद्यैर्हिक्काश्वासानुपाचरेत् ||८१||",
+      "english": "The hikka and shwasa patient accompanied with complications like feeble voice, diarrhea, raktapitta (bleeding disorder) should be treated with medicines having properties of sweet, unctuous, and cold.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 82,
+      "devanagari": "न स्वेद्याः पित्तदाहार्ता रक्तस्वेदातिवर्तिनः | \nक्षीणधातुबला रूक्षा गर्भिण्यश्चापि पित्तलाः ||८२|| कोष्णैः काममुरःकण्ठं स्नेहसेकैः सशर्करैः | \nउत्कारिकोपनाहैश्च स्वेदयेन् मृदुभिः क्षणम् ||८३|| तिलोमामाषगोधूमचूर्णैर्वातहरैः सह | \nस्नेहैश्चोत्कारिका साम्लैः सक्षीरैर्वा कृता हिता ||८४|| नवज्वरामदोषेषु रूक्षस्वेदं विलङ्घनम् | \nसमीक्ष्योल्लेखनं वाऽपि कारयेल्लवणाम्बुना ||८५|| अतियोगोद्धतं वातं दृष्ट्वा वातहरैर्भिषक् | \nरसाद्यैर्नातिशीतोष्णैरभ्यङ्गैश्च शमं नयेत् ||८६|| उदावर्ते तथाऽऽध्माने मातुलुङ्गाम्लवेतसैः | \nहिङ्गुपीलुबिडैश्चान्नं युक्तं स्यादनुलोमनम् ||८७||",
+      "english": "",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 88,
+      "devanagari": "हिक्काश्वासामयी ह्येको बलवान् दुर्बलोऽपरः | \nकफाधिकस्तथैवैको रूक्षो बह्वनिलोऽपरः ||८८|| कफाधिके बलस्थे च वमनं सविरेचनम् | \nकुर्यात् पथ्याशिने धूमलेहादिशमनं ततः ||८९|| वातिकान् दुर्बलान् बालान् वृद्धांश्चानिलसूदनैः | \nतर्पयेदेव शमनैः स्नेहयूषरसादिभिः ||९०||",
+      "english": "The patients suffering from hikka and shwasa are of two types i.e. one having strength and other weak. One has aggravation of kapha and other having dryness and vata predominance.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 91,
+      "devanagari": "अनुत्क्लिष्टकफास्विन्नदुर्बलानां विशोधनात् | \nवायुर्लब्धास्पदो मर्म संशोष्याशु हरेदसून् ||९१|| दृढान् बहुकफांस्तस्माद्रसैरानूपवारिजैः | \nतृप्तान्विशोधयेत्स्विन्नान् बृंहयेदितरान् भिषक् ||९२|| बर्हितित्तिरिदक्षाश्च जाङ्गलाश्च मृगद्विजाः | \nदशमूलीरसे सिद्धाः कौलत्थे वा रसे हिताः ||९३||",
+      "english": "If purification therapy is administered in the hikka shwasa patients without aggravation of kapha, in patients contraindicated for swedana or in very weak patients, then the aggravated vayu afflicts marma (vital points) and results in death instantaneously.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 94,
+      "devanagari": "निदिग्धिकां बिल्वमध्यं कर्कटाख्यां दुरालभाम् | \nत्रिकण्टकं गुडूचीं च कुलत्थांश्च सचित्रकान् ||९४|| जले पक्त्वा रसः पूतः पिप्पलीघृतभर्जितः | \nसनागरः सलवणः स्याद्यूषो भोजने हितः ||९५|| रास्नां बलां पञ्चमूलं ह्रस्वं मुद्गान् सचित्रकान् | \nपक्त्वाऽम्भसि रसे तस्मिन् यूषः साध्यश्च पूर्ववत् ||९६|| पल्लवान्मातुलुङ्गस्य निम्बस्य कुलकस्य च | \nपक्त्वा मुद्गांश्च सव्योषान् क्षारयूषं विपाचयेत् ||९७|| दत्त्वा सलवणं क्षारं शिग्रूणि मरिचानि च | \nयुक्त्या संसाधितो यूषो हिक्काश्वासविकारनुत् ||९८|| कासमर्दकपत्राणां यूषः शोभाञ्जनस्य च | \nशुष्कमूलकयूषश्च हिक्काश्वासनिवारणः ||९९|| सदधिव्योषसर्पिष्को यूषो वार्ताकजो हितः | \nशालिषष्टिकगोधूमयवान्नान्यनवानि च ||१००|| हिङ्गुसौवर्चलाजाजीबिडपौष्करचित्रकैः | \nसिद्धा कर्कटशृङ्ग्या च यवागूः श्वासहिक्किनाम् ||१०१|| दशमूलीशटीरास्नापिप्पलीमूलपौष्करैः | \nशृङ्गीतामलकीभार्गीगुडूचीनागराम्बुभिः ||१०२|| यवागूं विधिना सिद्धां कषायं वा पिबेन्नरः | \nकासहृद्ग्रहपार्श्वार्तिहिक्काश्वासप्रशान्तये ||१०३|| पुष्कराह्वशटीव्योषमातुलुङ्गाम्लवेतसैः | \nयोजयेदन्नपानानि ससर्पिर्बिडहिङ्गुभिः ||१०४||",
+      "english": "Nidigdhikadi yoga: Nidigdhika (Solanum surattense Burm. f), bilva (Aegle marmelos Corr.), karkta (Rhus succedania Linn.), duralabha (Fagonia cretica Linn.), trikanthaka (Tribulus terrestris Linn.), guduchi (Tinospora cordifolia Willd Miers ex Hook f. &amp; Thoms ), chitraka (Plumbago zyelanica Linn.) and kulattha (horse gram- Dolicus lab lab) are taken in equal quantity and boiled in water as yusha and filtered. This filtrate is fried in ghee and taken with pippali (Piper longum Linn.), shunthi (Zingiber officinale Roxb.) and saindhava lavana (rock salt) is conducive to hikka shwasa patients.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 105,
+      "devanagari": "दशमूलस्य वा क्वाथमथवा देवदारुणः | \nतृषितो मदिरां वाऽपि हिक्काश्वासी पिबेन्नरः ||१०५|| पाठां मधुरसां रास्नां सरलं देवदारु च | \nप्रक्षाल्य जर्जरीकृत्य सुरामण्डे निधापयेत् ||१०६|| तं मन्दलवणं कृत्वा भिषक् प्रसृतसम्मितम् | \nपाययेत्तु ततो हिक्का श्वासश्चैवोपशाम्यति ||१०७|| हिङ्गु सौवर्चलं कोलं समङ्गां पिप्पलीं बलाम् | \nमातुलुङ्गरसे पिष्टमारनालेन वा पिबेत् ||१०८|| सौवर्चलं नागरं च भार्गीं द्विशर्करायुतम् | \nउष्णाम्बुना पिबेदेतद्धिक्काश्वासविकारनुत् ||१०९|| भार्गीनागरयोः कल्कं मरिचक्षारयोस्तथा | \nपीतद्रुचित्रकास्फोतामूर्वाणां चाम्बुना पिबेत् ||११०|| मधूलिका तुगाक्षीरी नागरं पिप्पली तथा | \nउत्कारिका घृते सिद्धा श्वासे पित्तानुबन्धजे ||१११|| श्वाविधं शशमांसं च शल्लकस्य च शोणितम् | \nपिप्पलीघृतसिद्धानि श्वासे वातानुबन्धजे ||११२|| सुवर्चलारसो दुग्धं घृतं त्रिकटुकान्वितम् | \nशाल्योदनस्यानुपानं वातपित्तानुगे हितम् ||११३|| शिरीषपुष्पस्वरसः सप्तपर्णस्य वा पुनः | \nपिप्पलीमधुसंयुक्तः कफपित्तानुगे मतः ||११४|| मधुकं पिप्पलीमूलं गुडो गोश्वशकृद्रसः [१] | \nघृतं क्षौद्रं कासश्वासहिक्काभिष्यन्दिनां शुभम् ||११५|| खराश्वोष्ट्रवराहाणां मेषस्य च गजस्य च | \nशकृद्रसं बहुकफे चैकैकं मधुना पिबेत् ||११६|| क्षारं चाप्यश्वगन्धाया लिह्यान्ना क्षौद्रसर्पिषा | \nमयूरपादनालं वा शकलं शल्लकस्य वा ||११७|| श्वाविज्जाण्डकचाषाणां [२] रोमाणि कुररस्य वा | \nशृङ्ग्येकद्विशफानां [३] वा चर्मास्थीनि खुरांस्तथा ||११८|| सर्वाण्येकैकशो वाऽपि दग्ध्वा क्षौद्रघृतान्वितम् | \nचूर्णं लीढ्वा जयेत् कासं हिक्कां श्वासं च दारुणम् ||११९|| एते हि कफसंरुद्धगतिप्राणप्रकोपजाः [४] | \nतस्मात्तन्मार्गशुद्ध्यर्थं देया लेहा न निष्कफे ||१२०||",
+      "english": "Drinks in hikka shwasa patients: The patient suffering from hikka shwasa should drink water prepared in dashamula or devadaru (Cedrus deodara (Roxb.) Loud.) or madira (variety of alcohol) on feeling thirst.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 121,
+      "devanagari": "कासिने च्छर्दनं दद्यात् स्वरभङ्गे च बुद्धिमान् | \nवातश्लेष्महरैर्युक्तं तमके तु विरेचनम् ||१२१|| उदीर्यते भृशतरं मार्गरोधाद्वहज्जलम् | \nयथा तथाऽनिलस्तस्य मार्गं नित्यं विशोधयेत् ||१२२||",
+      "english": "An intelligent doctor in shwasa associated with cough and hoarseness of voice should be administered vamana and in tamaka shwasa virechana should be given with vata-kaphahara medicines.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 123,
+      "devanagari": "शटीचोरकजीवन्तीत्वङ्मुस्तं पुष्कराह्वयम् | \nसुरसं तामलक्येला पिप्पल्यगुरु नागरम् ||१२३|| वालकं च समं चूर्णं कृत्वाऽष्टगुणशर्करम् | \nसर्वथा तमके श्वासे हिक्कायां च प्रयोजयेत् ||१२४||",
+      "english": "An equal quantity of the fine powders of shati (Hedychium spicatum Buch Ham.), choraka (Angelica glauca Edgew), jivanti (Leptadenia reticulate W &amp; A.), tvak (Cinnamomum zeylanica Breyn), musta (Cyperus rotundus Linn.), pushkara mula (Inula recimosa Hook f.), surasa (Ocimum sanctum Linn.), tamalaka (Phyllanthus urinaria Linn.), pippali (Piper longum Linn.), agaru (Aquilaria agollacha Roxb.), nagara (Zingiber officinale Roxb.), balaka (Vetiveria zizinioidis (Linn.) Nash.) is mixed with eight parts of sugar should be kept and us in tamaka shwasa and hikka. [123-124]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 125,
+      "devanagari": "मुक्ताप्रवालवैदूर्यशङ्खस्फटिकमञ्जनम् | \nससारगन्धकाचार्कसूक्ष्मैलालवणद्वयम् [१] ||१२५|| ताम्रायोरजसी रूप्यं ससौगन्धिकसीसकम् [२] | \nजातीफलं शणाद्बीजमपामार्गस्य तण्डुलाः ||१२६|| एषां पाणितलं चूर्णं तुल्यानां क्षौद्रसर्पिषा | \nहिक्कां श्वासं च कासं च लीढमाशु नियच्छति ||१२७|| अञ्जनात्तिमिरं काचं नीलिकां पुष्पकं तमः | \nमल्यं [३] कण्डूमभिष्यन्दमर्म चैव प्रणाशयेत् ||१२८|| इति मुक्ताद्यं चूर्णम् |",
+      "english": "Equal quantities of the bhasmas of mukta (pearls), pravala (coral), vaidurya (cat’s aye gem), shankha (conch), sphatika (crystal quartz), anjana (lead), sasara (potent crystals of above mentioned drugs), gandhaka (sulfur), arka (Calotropis procera (Ait) R Br.), sukshmaila (Elettaria cardomum Maton), lavana dvayam (sauvarchala and saindhava), tamra (copper), ayas (iron), rajata (silver), saugandhika (variety of manikya, ruby), jatiphala (Myristica fragrans Houtt), seeds of shana, apamarga (Achyranthes aspera Linn. ) are given in the dose of one panitala (karsha-12gms) along with ghee and honey. The administration of this powder cures hikka, shwasa and kasa. On application in the form of anjana (collyrium) to eyes destroys timira (blindness), kacha(glaucoma), nilika, pushpaka, vision defects, itching of eyes, abhishyanda (conjunctivitis) and arma (pterigium).[125-128]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 129,
+      "devanagari": "शटीपुष्करमूलानां चूर्णमामलकस्य च | \nमधुना संयुतं लेह्यं चूर्णं वा काललोहजम् ||१२९||",
+      "english": "Equal quantity of fine powders of shati (Hedychium spicatum Buch Ham.), pushkaramula (Inula racemosa Hook f.) or amalaki (Emblica officinalis Gaertn.) or loha bhasma ( iron ore) should be licked along with honey.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 130,
+      "devanagari": "सशर्करां तामलकीं द्राक्षां गोश्वशकृद्रसम् | \nतुल्यं गुडं नागरं च प्राशयेन्नावयेत्तथा ||१३०|| लशुनस्य पलाण्डोर्वा मूलं गृञ्जनकस्य वा | \nनावयेच्चन्दनं वाऽपि नारीक्षीरेण संयुतम् ||१३१|| सुखोष्णं घृतमण्डं वा सैन्धवेनावचूर्णितम् | \nनावयेन्माक्षिकीं विष्ठामलक्तकरसेन वा ||१३२|| नारीक्षीरेण सिद्धं वा सर्पिर्मधुरकैरपि | \nपीतं नस्तो निषिक्तं वा सद्यो हिक्कां नियच्छति ||१३३|| सकृदुष्णं सकृच्छीतं व्यत्यासाद्धिक्किनां पयः | \nपाने नस्तःक्रियायां वा शर्करामधुसंयुतम् ||१३४||",
+      "english": "Juice of tamalaki (Phyllanthus urinaria Linn.), draksha (Vitis vinifera Linn.), cow dung and horse mixed with sugar or equal quantities of jaggery, ginger should be used for licking or nasya.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 135,
+      "devanagari": "अधोभागैर्घृतं सिद्धं सद्यो हिक्कां नियच्छति | \nपिप्पलीमधुयुक्तौ वा रसौ धात्रीकपित्थयोः ||१३५|| लाजालाक्षामधुद्राक्षापिप्पल्यश्वशकृद्रसान् | \nलिह्यात् कोलमधुद्राक्षापिप्पलीनागराणि वा ||१३६|| शीताम्बुसेकः सहसा त्रासो विस्मापनं भयम् | \nक्रोधहर्षप्रियोद्वेगा हिक्काप्रच्यावना मताः ||१३७|| हिक्काश्वासविकाराणां निदानं यत् प्रकीर्तितम् | \nवर्ज्यमारोग्यकामैस्तद्धिक्काश्वासविकारिभिः ||१३८|| हिक्काश्वासानुबन्धा [१] ये शुष्कोरःकण्ठतालुकाः | \nप्रकृत्या रूक्षदेहाश्च सर्पिर्भिस्तानुपाचरेत् ||१३९|| दशमूलरसे सर्पिर्दधिमण्डे च साधयेत् | \nकृष्णासौवर्चलक्षारवयःस्थाहिङ्गुचोरकैः ||१४०|| कायस्थया च तत् पानाद्धिक्काश्वासौ प्रणाशयेत् |१४१|",
+      "english": "The administration of ghee prepared by boiling adhobhagahara (purgatives) drugs instantly cures hikka. Administration of pippali (Piper longum Linn.) along with honey or juice of dhatri (Emblica officinalis Gaertn.), and kapittha (Limonia acidissima L.) alleviates hikka quickly.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 141,
+      "devanagari": "तेजोवत्यभया कुष्ठं पिप्पली कटुरोहिणी ||१४१|| भूतीकं पौष्करं मूलं पलाशश्चित्रकः शटी | \nसौवर्चलं तामलकी सैन्धवं बिल्वपेशिका ||१४२|| तालीसपत्रं जीवन्ती वचा तैरक्षसम्मितैः | \nहिङ्गुपादैर्घृतप्रस्थं पचेत्तोये चतुर्गुणे ||१४३|| एतद्यथाबलं पीत्वा हिक्काश्वासौ जयेन्नरः | \nशोथानिलार्शोग्रहणीहृत्पार्श्वरुज [१] एव च ||१४४|| इति तेजोवत्यादिघृतम् |",
+      "english": "Tejovatyadi ghrita: Tejovati (Zanthoxylun armatum DC.), abhaya (Terminalia chebula Retz.), kushtha (Saussurea lappa C.B. Clarke.), pippali (Piper longum Linn.), katukarohini (Picrorhiza kurroa Royle ex Benth), bhutika (Cymbopogon Citratus), paushkara mula (Inula recemosa Hook f.), palasha (Butea monosperma (Linn.) Kuntze.), chitraka (Plumbago zeylanica Linn.), shati (Hedychium spicatium Buch Ham.), sauvarchala (variety of salt), tamalaki (Phyllanthus urinaria Linn.), saindhava (rock salt), bilva (Aegle marmelos Corr.), talisa patra (Abies webbiana Lindle.), jivanti (Leptadenia reticulate W &amp; A.), each are taken in one karsha quantity and hingu (Ferula narthex Boiss.) in 1/4th quantity and ghee in one prastha quantity (4 parts) and ghee is prepared as per classics. This ghee should be taken as per ones strength to conquer hikka and shwasa. It is also effective in edema vataja arsha (hemorrhoids), grahani (digestive disorders), hritparshva rija (pain in the cardiac region and flanks).[141-144]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 145,
+      "devanagari": "मनःशिलासर्जरसलाक्षारजनिपद्मकैः | \nमञ्जिष्ठैलैश्च कर्षांशैः प्रस्थः सिद्धो घृताद्धितः ||१४५|| जीवनीयोपसिद्धं वा सक्षौद्रं लेहयेद्धृतम् | \nत्र्यूषणं दाधिकं वाऽपि पिबेद्वासाघृतं तथा ||१४६|| इति मनःशिलादिघृतम् |",
+      "english": "Manashila (realgar), sarja rasa (exudate of Shorea robusta Gaertn.), laksha (Ficus lacor Buch Ham.), rajani (Curcuma longa Linn), padmaka (Nelumbo nucifera Gaertn.), manjishtha (Rubia cordifolia Linn.), alai (Haratala- yellow orpiment), are each taken in one karsha (12 gm) quantity and ghee in one prastha quantity and ghee is prepared in classical way. [145-146]",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 147,
+      "devanagari": "यत्किञ्चित् कफवातघ्नमुष्णं वातानुलोमनम् | \nभेषजं पानमत्रं वा तद्धितं श्वासहिक्किने ||१४७|| वातकृद्वा कफहरं कफकृद्वाऽनिलापहम् | \nकार्यं नैकान्तिकं ताभ्यां प्रायः श्रेयोऽनिलापहम् ||१४८|| सर्वेषां बृंहणे ह्यल्पः शक्यश्च प्रायशो भवेत् | \nनात्यर्थं  शमनेऽपायो भृशोऽशक्यश्च कर्शने ||१४९|| तस्माच्छुद्धानशुद्धांश्च शमनैर्बृंहणैरपि | \nहिक्काश्वासार्दिताञ्जन्तून् प्रायशः समुपाचरेत् ||१५०||",
+      "english": "The food, drinks and drugs having kapha-vatahara and ushna (hot) property which facilitate the normal movement of vata (vatanulomana) should be given in the patient of hikka and shwasa.",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 151,
+      "devanagari": "तत्र श्लोकः दुर्जयत्वे समुत्पत्तौ क्रियैकत्वे च कारणम् | \nलिङ्गं पथ्यं च हिक्कानां श्वासानां चेह दर्शितम् ||१५१||",
+      "english": "",
+      "section": "Hiccups and Dyspnea"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृतेऽप्राप्ते दृढबलसम्पूरिते चिकित्सास्थाने हिक्काश्वासचिकित्सितं नाम सप्तदशोऽध्यायः ||१७||",
+      "english": "In the chapter of hikka and shwasa the reason for explaining them together, their similarity in causes, treatment, the features and pathyas are explained. Thus in the treatise by Agnivesha, redacted by Charaka and completed by Dridhabala, this concludes the chapter entitled Hikka Shwasa Chikitsa.",
+      "section": "Hiccups and Dyspnea"
+    }
+  ],
+  "tattvaVimarsha": "Hikka (hiccups) and shwasa (dyspnea/shortness of breath) may be caused due to pandu roga with pathological signs of anemia (alpa rakta), abnormal fat metabolism(alpa medaska) and depletion of body constituents (dhatu-kshaya). [Chakrapani Cha.Sa. Chikitsa Sthana 17/1]. That is why this chapter follows the chapter on Pandu Chikitsa. The term 'Shwasa' denotes physiological process of respiration and pathological sign too. In physiological process, breathing without any distress is seen; however pathological signs can be diagnosed if person suffers any distress during breathing and has to take extra efforts for same.Hikka and shwasa have common etiological factors (karana) like raja (pollen or dust particles), dhuma (smoke) etc., location (sthana) and treatment or mula. For that reason, both conditions are described in the same chapter.\n\nHikka and shwasa are two diseases of serious nature which can be presented at terminal stages of life and as complication of other diseases [Cha.Sa. Chikitsa Sthana 17/6]. These can cause death if not treated properly. The etiological factors, site, origin of both hikka and shwasa are same, and hence the line of treatment is also common. The etiological factors related to food, regimen and mental faculties lead to the aggravation of vata in the pranavaha srotas and derangement of kapha situated in the chest region producing lethal blockage of prana vayu.\n\nThe maha (severe form), gambhira (having depth) and vyapeta (originating after food and with complications) types of hikka are incurable. If the vyapeta or yamala hikka (with two hiccups together) is associated with symptoms of emaciation, delirium, pain, excess thirst and stupor then it is incurable for treatment, while it is curable in non emaciated and mentally strong individual with unimpaired dhatus and indriyas performing their normal function. Kshudra hikka (minor variety) and annaja hikka (due to improper food intake) are curable types of hikka. Maha (severe form), urdhva (shallow respiration) and chinna (irregular pattern dyspnea) shwasa are incurable and lead to death very fast. Tamaka (with black outs) and kshudra shwasa (minor variety) are curable if patient is strong, and disease is in early stage, while in weak patients they are yapya (work as palliatives).\n\nThe patient suffering from hikka and shwasa should be treated with oleation, unctuous sudation to liquefy the accumulated kapha, soften the channels and to facilitate vatanulomana (movement of vata in its normal direction). This should be followed by the administration elimination therapy in the form of vamana (emesis therapy), virechana (purgation), nasya and following of wholesome diet and regimen. The palliative medications should be administered keeping in view the condition of patient and stage of disease. Avoiding the causative factors and following wholesome regimen is important to prevent progress of disease and to reverse the pathogenesis. In brief shodhana followed by brimhana therapy (nourishing therapy) and shamana treatment (palliative therapy) are the ideal management methods in hikka and shwasa. All diseases of respiratory system and channels transporting vital breath (pranvaha srotas) are treated based on the principles of management of shwasa laid down in this chapter. [Cha. Sa.Vimana Sthana 5/26]",
+  "vidhiVimarsha": "Hikka (hiccups) and shwasa (dyspnea/shortness of breath) may be caused due to pandu roga with pathological signs of anemia (alpa rakta), abnormal fat metabolism(alpa medaska) and depletion of body constituents (dhatu-kshaya). [Chakrapani Cha.Sa. Chikitsa Sthana 17/1]. That is why this chapter follows the chapter on Pandu Chikitsa. The term 'Shwasa' denotes physiological process of respiration and pathological sign too. In physiological process, breathing without any distress is seen; however pathological signs can be diagnosed if person suffers any distress during breathing and has to take extra efforts for same.Hikka and shwasa have common etiological factors (karana) like raja (pollen or dust particles), dhuma (smoke) etc., location (sthana) and treatment or mula. For that reason, both conditions are described in the same chapter.\n\nHikka and shwasa are two diseases of serious nature which can be presented at terminal stages of life and as complication of other diseases [Cha.Sa. Chikitsa Sthana 17/6]. These can cause death if not treated properly. The etiological factors, site, origin of both hikka and shwasa are same, and hence the line of treatment is also common. The etiological factors related to food, regimen and mental faculties lead to the aggravation of vata in the pranavaha srotas and derangement of kapha situated in the chest region producing lethal blockage of prana vayu.\n\nThe maha (severe form), gambhira (having depth) and vyapeta (originating after food and with complications) types of hikka are incurable. If the vyapeta or yamala hikka (with two hiccups together) is associated with symptoms of emaciation, delirium, pain, excess thirst and stupor then it is incurable for treatment, while it is curable in non emaciated and mentally strong individual with unimpaired dhatus and indriyas performing their normal function. Kshudra hikka (minor variety) and annaja hikka (due to improper food intake) are curable types of hikka. Maha (severe form), urdhva (shallow respiration) and chinna (irregular pattern dyspnea) shwasa are incurable and lead to death very fast. Tamaka (with black outs) and kshudra shwasa (minor variety) are curable if patient is strong, and disease is in early stage, while in weak patients they are yapya (work as palliatives).\n\nThe patient suffering from hikka and shwasa should be treated with oleation, unctuous sudation to liquefy the accumulated kapha, soften the channels and to facilitate vatanulomana (movement of vata in its normal direction). This should be followed by the administration elimination therapy in the form of vamana (emesis therapy), virechana (purgation), nasya and following of wholesome diet and regimen. The palliative medications should be administered keeping in view the condition of patient and stage of disease. Avoiding the causative factors and following wholesome regimen is important to prevent progress of disease and to reverse the pathogenesis. In brief shodhana followed by brimhana therapy (nourishing therapy) and shamana treatment (palliative therapy) are the ideal management methods in hikka and shwasa. All diseases of respiratory system and channels transporting vital breath (pranvaha srotas) are treated based on the principles of management of shwasa laid down in this chapter. [Cha. Sa.Vimana Sthana 5/26]",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Hikka_Shwasa_Chikitsa_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s06.018"
+}

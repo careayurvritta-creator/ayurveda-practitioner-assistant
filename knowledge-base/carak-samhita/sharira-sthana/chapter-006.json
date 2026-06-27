@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "sthana": "Sharira Sthana",
+    "sthanaNumber": 4,
+    "chapterNumber": 6,
+    "chapterTitleEnglish": "Analytical study of the Human body",
+    "chapterTitleSanskrit": "Sharira Vichaya Sharira Adhyaya",
+    "chapterTitleDevanagari": "Sharira Vichaya Sharira",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Patwardhan K., Shilwant A.A",
+    "editors": [
+      "Patwardhan K."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s04.007"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Sharira_Vichaya_Sharira_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "This sixth chapter of the Sharira Sthana, entitled Sharira Vichaya Sharira(analytical study of the body) follows the chapter on Purusha Vichaya Sharira (detail study of the purusha). To achieve divine bliss and moksha (salvation) that the preceding chapter talked about, it is imperative that the body is free from diseases. To achieve a disease-free life, it is of utmost importance to know the components of the body and what vitiates them or affects them, thus, causing diseases or complete destruction of the body, etc. Overall, the chapter is divided into two broad sections – the first one dealing with all the above mentioned subjects and the second one dealing with embryology, development and growth of various body parts in the fetus. The chapter ends with a very important aspect related to death viz. timely and untimely death. Since death is an inevitability, the discussion about timely and untimely death has been aptly placed here in this chapter after deliberations on the development and growth of an embryo, a person yet to born. The first section starts with a definition of the body, followed by the concept of homeostasis (balance of various bodily elements). Interestingly, disease or death has been defined as partial or complete deviation from the homeostasis respectively. In this context, the physiology of homeostasis and its importance as a final outcome while administering treatment has been narrated in a very systematic way. Samanya vishesha siddhanta (theory of similarity and dissimilarity) is one of the most important and fundamental principles of Ayurveda. The practical application of this siddhanta to maintain homeostasis has been well described in this chapter. Although samanya and vishesha can be understood in three broad categories - dravya, guna,and karma - the emphasis is given on guna samanya and vishesha in this chapter. The treatment of various conditions using dravya with similar or opposite guna has been given with examples. The primary objective of Ayurveda is to maintain health, or in other words, to maintain homeostasis and attain excellence in health of body elements. Hence, before the disease manifests, it is equally important to make efforts for growth and improved strength of the body. Accordingly, the factors responsible for both these things have been discussed. The third important thing for good health is proper nutrition. It is imperative therefore to know the factors responsible for digestion of food and further assimilation of the ingested food into body elements. The discussion about these factors is followed by types of body elements, their building blocks and waste products. The second part of the chapter deals with embryology, focusing specifically on the development of fetal organs, the fetus's position in the womb, its nourishment through placental blood, and the process of labor and post-labor survival of the new born. It is interesting to note that all these descriptions match with the current understanding of embryology. The chapter ends with a discussion on life expectancy in the present era and timely and untimely death.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Advantages of analytical knowledge of body",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Definition of sharira and disequilibrium in body elements",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors responsible for increase and decrease of body elements",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Objective of therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for sustaining equilibrium",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Increase and decrease in body elements",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Attributes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of disequilibrium of body elements",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors responsible for growth",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors responsible for strength",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors responsible for transformation of food",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Categories of attributes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Questions by Agnivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Different views regarding origin of foetus",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Position of foetus",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Timely and untimely death",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Lifespan of human beings",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Concept of analytical knowledge",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Definition of sharira and disequilibrium in body elements",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors responsible for increase and decrease of body elements",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Objective of therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for sustaining equilibrium",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Increase and decrease in body elements",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Attributes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors responsible for strength",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effect of season",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effect of nutrition",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effect of stress",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Excellence of mind",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors responsible for transformation of food",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Foetal development",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "This sixth chapter of the Sharira Sthana, entitled Sharira Vichaya Sharira(analytical study of the body) follows the chapter on Purusha Vichaya Sharira (detail study of the purusha). To achieve divine bliss and moksha (salvation) that the preceding chapter talked about, it is imperative that the body is free from diseases. To achieve a disease-free life, it is of utmost importance to know the components of the body and what vitiates them or affects them, thus, causing diseases or complete destruction of the body, etc. Overall, the chapter is divided into two broad sections – the first one dealing with all the above mentioned subjects and the second one dealing with embryology, development and growth of various body parts in the fetus. The chapter ends with a very important aspect related to death viz. timely and untimely death. Since death is an inevitability, the discussion about timely and untimely death has been aptly placed here in this chapter after deliberations on the development and growth of an embryo, a person yet to born. The first section starts with a definition of the body, followed by the concept of homeostasis (balance of various bodily elements). Interestingly, disease or death has been defined as partial or complete deviation from the homeostasis respectively. In this context, the physiology of homeostasis and its importance as a final outcome while administering treatment has been narrated in a very systematic way. Samanya vishesha siddhanta (theory of similarity and dissimilarity) is one of the most important and fundamental principles of Ayurveda. The practical application of this siddhanta to maintain homeostasis has been well described in this chapter. Although samanya and vishesha can be understood in three broad categories - dravya, guna,and karma - the emphasis is given on guna samanya and vishesha in this chapter. The treatment of various conditions using dravya with similar or opposite guna has been given with examples. The primary objective of Ayurveda is to maintain health, or in other words, to maintain homeostasis and attain excellence in health of body elements. Hence, before the disease manifests, it is equally important to make efforts for growth and improved strength of the body. Accordingly, the factors responsible for both these things have been discussed. The third important thing for good health is proper nutrition. It is imperative therefore to know the factors responsible for digestion of food and further assimilation of the ingested food into body elements. The discussion about these factors is followed by types of body elements, their building blocks and waste products. The second part of the chapter deals with embryology, focusing specifically on the development of fetal organs, the fetus's position in the womb, its nourishment through placental blood, and the process of labor and post-labor survival of the new born. It is interesting to note that all these descriptions match with the current understanding of embryology. The chapter ends with a discussion on life expectancy in the present era and timely and untimely death.",
+  "vidhiVimarsha": "This sixth chapter of the Sharira Sthana, entitled Sharira Vichaya Sharira(analytical study of the body) follows the chapter on Purusha Vichaya Sharira (detail study of the purusha). To achieve divine bliss and moksha (salvation) that the preceding chapter talked about, it is imperative that the body is free from diseases. To achieve a disease-free life, it is of utmost importance to know the components of the body and what vitiates them or affects them, thus, causing diseases or complete destruction of the body, etc. Overall, the chapter is divided into two broad sections – the first one dealing with all the above mentioned subjects and the second one dealing with embryology, development and growth of various body parts in the fetus. The chapter ends with a very important aspect related to death viz. timely and untimely death. Since death is an inevitability, the discussion about timely and untimely death has been aptly placed here in this chapter after deliberations on the development and growth of an embryo, a person yet to born. The first section starts with a definition of the body, followed by the concept of homeostasis (balance of various bodily elements). Interestingly, disease or death has been defined as partial or complete deviation from the homeostasis respectively. In this context, the physiology of homeostasis and its importance as a final outcome while administering treatment has been narrated in a very systematic way. Samanya vishesha siddhanta (theory of similarity and dissimilarity) is one of the most important and fundamental principles of Ayurveda. The practical application of this siddhanta to maintain homeostasis has been well described in this chapter. Although samanya and vishesha can be understood in three broad categories - dravya, guna,and karma - the emphasis is given on guna samanya and vishesha in this chapter. The treatment of various conditions using dravya with similar or opposite guna has been given with examples. The primary objective of Ayurveda is to maintain health, or in other words, to maintain homeostasis and attain excellence in health of body elements. Hence, before the disease manifests, it is equally important to make efforts for growth and improved strength of the body. Accordingly, the factors responsible for both these things have been discussed. The third important thing for good health is proper nutrition. It is imperative therefore to know the factors responsible for digestion of food and further assimilation of the ingested food into body elements. The discussion about these factors is followed by types of body elements, their building blocks and waste products. The second part of the chapter deals with embryology, focusing specifically on the development of fetal organs, the fetus's position in the womb, its nourishment through placental blood, and the process of labor and post-labor survival of the new born. It is interesting to note that all these descriptions match with the current understanding of embryology. The chapter ends with a discussion on life expectancy in the present era and timely and untimely death.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Advantages of analytical knowledge of body",
+    "2.2 Definition of sharira and disequilibrium in body elements",
+    "2.3 Factors responsible for increase and decrease of body elements",
+    "2.4 Objective of therapy",
+    "2.5 Guidelines for sustaining equilibrium",
+    "2.6 Increase and decrease in body elements",
+    "2.7 Attributes",
+    "2.8 Management of disequilibrium of body elements",
+    "2.9 Factors responsible for growth",
+    "2.10 Factors responsible for strength",
+    "2.11 Factors responsible for transformation of food",
+    "2.12 Categories of attributes",
+    "2.13 Questions by Agnivesha",
+    "2.14 Different views regarding origin of foetus",
+    "2.15 Position of foetus",
+    "2.16 Timely and untimely death",
+    "2.17 Lifespan of human beings",
+    "2.18 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences) 4.1 Concept of analytical knowledge",
+    "4.2 Definition of sharira and disequilibrium in body elements",
+    "4.3 Factors responsible for increase and decrease of body elements",
+    "4.4 Objective of therapy",
+    "4.5 Guidelines for sustaining equilibrium",
+    "4.6 Increase and decrease in body elements",
+    "4.7 Attributes",
+    "4.8 Factors responsible for strength",
+    "4.9 Effect of season",
+    "4.10 Effect of nutrition",
+    "4.11 Effect of stress",
+    "4.12 Excellence of mind",
+    "4.13 Factors responsible for transformation of food",
+    "4.14 Foetal development",
+    "5 References"
+  ]
+}

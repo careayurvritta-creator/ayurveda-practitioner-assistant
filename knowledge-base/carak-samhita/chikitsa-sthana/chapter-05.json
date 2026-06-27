@@ -1,0 +1,773 @@
+{
+  "sthana": "Chikitsa Sthana",
+  "sthanaNumber": 6,
+  "chapterNumber": 5,
+  "titleEnglish": "Abdominal lumps treatment",
+  "titleSanskrit": "Gulma Chikitsa Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातो गुल्मचिकित्सितं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||",
+      "english": "",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "सर्वप्रजानां पितृवच्छरण्यः पुनर्वसुर्भूतभविष्यदीशः| चिकित्सितं गुल्मनिबर्हणार्थं प्रोवाच सिद्धं वदतां वरिष्ठः||३||",
+      "english": "",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "विट्श्लेष्मपित्तातिपरिस्रवाद्वा तैरेव वृद्धैः परिपीडनाद्वा| वेगैरुदीर्णैर्विहतैरधो वा बाह्यभिघातैरतिपीडनैर्वा||४|| रूक्षान्नपानैरतिसेवितैर्वा शोकेन मिथ्याप्रतिकर्मणा वा| विचेष्टितैर्वा विषमातिमात्रैः कोष्ठे प्रकोपं समुपैति वायुः||५||",
+      "english": "",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 6,
+      "devanagari": "कफं च पित्तं च स दुष्टवायुरुद्धूय  मार्गान् विनिबद्ध्य ताभ्याम्| हृन्नाभिपार्श्वोदरबस्तिशूलं करोत्यथो याति न बद्धमार्गः||६||",
+      "english": "",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 7,
+      "devanagari": "पक्वाशये पित्तकफाशये वा स्थितः स्वतन्त्रः परसंश्रयो वा| स्पर्शोपलभ्यः परिपिण्डितत्वाद्गुल्मो यथादोषमुपैति नाम||७||",
+      "english": "Formation of a palpable mass in colon, gall-bladder or stomach which may be independent or associated with other dosha is known as gulma. It is named according to the dosha involved.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 8,
+      "devanagari": "बस्तौ च ना भ्यां हृदि पार्श्वयोर्वा स्थानानि गुल्मस्य भवन्ति पञ्च| पञ्चात्मकस्य प्रभवं तु तस्य वक्ष्यामि लिङ्गानि चिकित्सितं च||८||",
+      "english": "Five places of gulma are urinary bladder (hypogastric region), umbilical region (nabhi), cardiac region (hridi) and two flanks (parshva). Henceforth I will explain the causes, symptoms and the treatment of these five types of gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "रूक्षान्नपानं विषमातिमात्रं विचेष्टितं वेगविनिग्रहश्च| शोकोऽभिघातोऽतिमलक्षयश्च निरन्नता चानिलगुल्महेतुः||९||",
+      "english": "Excessive use of dry articles of food and drinks, excessive or wrong body activities, suppression of natural urges, excessive grief, too-much diminution of feces, trauma and excessive fasting are the causes of vata-gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 10,
+      "devanagari": "यः स्थानसंस्थानरुजां विकल्पं विड्वातसङ्गं गलवक्त्रशोषम्| श्यावारुणत्वं शिशिरज्वरं च हृत्कुक्षिपार्श्वांसशिरोरुजं च||१०|| करोति जीर्णेऽभ्यधिकं प्रकोपं भुक्ते मृदुत्वं समुपैति यश्च| वातात् स गुल्मो न च तत्र रूक्षं कषायतिक्तं कटु चोपशेते||११||",
+      "english": "Frequent change in the site, shape and pain of the lump along with obstruction of feces and flatus, dryness in throat and mouth, dusky-red color of body, fever with chills, pain in the cardiac, umbilical, flanks and shoulder regions and headache are the sign and symptoms of vata gulma. The symptoms decrease on taking of food but increase on completion of digestion as well as by taking dry substances or having astringent, bitter and pungent tastes [10-11]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 12,
+      "devanagari": "कट्वम्लतीक्ष्णोष्णविदाहिरूक्षक्रोधातिमद्यार्कहुताशसेवा| आमाभिघातो  रुधिरं च दुष्टं पैत्तस्य गुल्मस्य निमित्तमुक्तम्||१२||",
+      "english": "Taking of food articles having pungent and sour tastes and piercing, hot, irritant (vidahi) and dry properties; excessive wines; exposure to sun and heat; indulgence in anger, affliction by ama and vitiation of rakta are the causative factors of pitta-gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 13,
+      "devanagari": "ज्वरः पिपासा वदनाङ्गरागः शूलं महज्जीर्यति भोजने च| स्वेदो विदाहो व्रणवच्च गुल्मः स्पर्शासहः पैत्तिकगुल्मरूपम्||१३||",
+      "english": "Fever, thirst, redness of mouth and other organs, excessive pain during digestion, sweating, burning sensation and tenderness in the lesion like that of ulcer are the signs and symptoms of pitta-gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 14,
+      "devanagari": "शीतं गुरु स्निग्धमचेष्टनं च सम्पूरणं प्रस्वपनं दिवा च| गुल्मस्य हेतुः कफसम्भवस्य सर्वस्तु दिष्टो निचयात्मकस्य||१४||",
+      "english": "Excessive intake of food articles having cold, heavy and unctuous properties and excessive eating, sedentary life style and day-sleep are the causative factors of kapha-gulma.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 15,
+      "devanagari": "स्तैमित्यशीतज्वरगात्रसादहृल्लासकासारुचिगौरवाणि| शैत्यं रुगल्पा कठिनोन्नतत्वं गुल्मस्य रूपाणि कफात्मकस्य||१५||",
+      "english": "Feeling as covered by wet cloth, fever with chills, exhaustion of limbs, nausea, cough, anorexia, heaviness, cold and mild pain with palpable hard and protruded mass are the signs and symptoms of kaphaja-gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 16,
+      "devanagari": "निमित्तलिङ्गान्युपलभ्य गुल्मे द्विदोषजे दोषबलाबलं च| व्यामिश्रलिङ्गानपरांस्तु गुल्मांस्त्रीनादिशेदौषधकल्पनार्थम्||१६||",
+      "english": "Three types of dvi-doshaja gulma (vata-pitta, vata-kapha and kapha-pitta) are produced by the mixture of causative factors of two involved dosha. These gulma manifest the signs and symptoms of two involved dosha. These varieties are mentioned here for the purpose of the treatment which can be planned on the basis of degree of provocation of each dosha",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "महारुजं दाहपरीतमश्मवद्घनोन्नतं शीघ्रविदाहि दारुणम्| मनःशरीराग्निबलापहारिणं त्रिदोषजं गुल्ममसाध्यमादिशेत्||१७||",
+      "english": "The symptoms of tri-dosha gulma include agonizing pain and excessive burning sensation, elevated mass, stony hard and quick to mutilate. It is a very serious condition and leads to diminution of strength of body, mind and digestion. It is incurable",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 18,
+      "devanagari": "ऋतावनाहारतया भयेन विरूक्षणैर्वेगविनिग्रहैश्च| संस्तम्भनोल्लेखनयोनिदोषैर्गुल्मः स्त्रियं रक्तभवोऽभ्युपैति||१८||",
+      "english": "During ritu-kala (menstruation period) if a woman does fasting or takes dry food articles or indulges in fear and suppression of natural urges; or misuses styptic (stambhana) drugs i.e. try to stop the menstrual bleeding; improper conduction of vomiting therapy and disorders of genital organs, all these may lead to formation of rakta gulma in women",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 19,
+      "devanagari": "यः स्पन्दते पिण्डित एव नाङ्गैश्चिरात् सशूलः समगर्भलिङ्गः| स रौधिरः स्त्रीभव एव गुल्मो मासे व्यतीते दशमे चिकित्स्यः||१९||",
+      "english": "The lump slowly grows in the form of round mass which has pulsation as a whole but not in its part. It is associated with acute pain and signs and symptoms mimicking pregnancy. Raktaja gulma occurs only in women and should be treated after the completion of ten months",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "क्रियाक्रममतः सिद्धं गुल्मिनां गुल्मनाशनम्| प्रवक्ष्याम्यत ऊर्ध्वं च योगान् गुल्मनिबर्हणान्||२०||",
+      "english": "Now onward first the successful line of treatment shall be described for the cure of gulma. Thereafter, the remedies and recipes for its cure shall be described",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "रूक्षव्यायामजं गुल्मं वातिकं तीव्रवेदनम्| बद्धविण्मारुतं स्नेहैरादितः समुपाचरेत्||२१||",
+      "english": "As vata gulma is produced due to excessive dryness and exercise and is associated with severe pain and retention of feces and flatus, therefore in the beginning snehana (unctuous) therapy should be prescribed",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "भोजनाभ्यञ्जनैः पानैर्निरूहैः सानुवासनैः| स्निग्धस्य भिषजा स्वेदः कर्तव्यो गुल्मशान्तये||२२||",
+      "english": "Snehana is performed by administration of unctuous substances in the form of food and drink, oil massage and anuvasana basti along with niruha basti. After proper snehana, physician should subject the patient to swedana therapy",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 23,
+      "devanagari": "स्रोतसां मार्दवं कृत्वा जित्वा मारुतमुल्बणम्| भित्त्वा विबन्धं स्निग्धस्य स्वेदो गुल्ममपोहति||२३||",
+      "english": "Swedana therapy administered to a patient who has already undergone oil massage produces softness in the channels leading to alleviation of vata. Thus by breaking the obstruction and opening the channels the vata-gulma is cured",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 24,
+      "devanagari": "स्नेहपानं हितं गुल्मे विशेषेणोर्ध्वनाभिजे| पक्वाशयगते बस्तिरुभयं जठराश्रये||२४||",
+      "english": "Oral administration of unctuous substances is beneficial in vata gulma particularly if it is situated above the umbilicus i.e. in stomach. Anuvasana (unctuous) basti is beneficial if gulma is situated in colon and both oral administration of unctuous substances and unctuous basti are beneficial if it is situated in the middle of jathara i.e. in small intestine",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "दीप्तेऽग्नौ वातिके गुल्मे विबन्धेऽनिलवर्चसोः| बृंहणान्यन्नपानानि स्निग्धोष्णानि प्रयोजयेत्||२५||",
+      "english": "In vata gulma if the retention of feces and flatus is present but digestion is good then unctuous, hot and nourishing (brimhana) diet and drinks should be given",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 26,
+      "devanagari": "पुनः पुनः स्नेहपानं निरूहाः सानुवासनाः| प्रयोज्या वातगुल्मेषु कफपित्तानुरक्षिणा||२६||",
+      "english": "In vata gulma repeated use of unctuous drink and alternative use of anuvasana (unctuous) and niruha (un-unctuous) basti are advised in taking care of kapha and pitta",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "कफो वाते जितप्राये पित्तं शोणितमेव वा| यदि कुप्यति वा तस्य क्रियमाणे चिकित्सिते||२७|| यथोल्बणस्य दोषस्य तत्र कार्यं भिषग्जितम्| आदावन्ते च मध्ये च मारुतं परिरक्षता||२८||",
+      "english": "During the treatment when vata has almost subsided but kapha, pitta or rakta gets provoked, then routine treatment of these provoked dosha should be done. In this condition, the treatment should be according to the predominance of dosha but care should be taken to protect vata in the beginning, middle and at the end of the treatment [27-28]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 29,
+      "devanagari": "वातगुल्मे कफो वृद्धो हत्वाऽग्निमरुचिं यदि| हृल्लासं गौरवं तन्द्रां जनयेदुल्लिखेत्तु तम्||२९||",
+      "english": "In vata gulma if kapha gets increased, it causes diminution in digestion leading to anorexia, nausea, heaviness and sleepiness; such condition should be treated with vamana therapy",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 30,
+      "devanagari": "शूलानाहविबन्धेषु गुल्मे वातकफोल्बणे| वर्तयो गुटिकाश्चूर्णं कफवातहरं हितम्||३०||",
+      "english": "In vata-kapha dominant gulma if there is acute pain, distension of abdomen and constipation then it should be treated with suppositories, pills and powders which are prepared from vata and kapha pacifying drugs",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "पित्तं वा यदि संवृद्धं सन्तापं वातगुल्मिनः| कुर्याद्विरेच्यः स भवेत् सस्नेहैरानुलोमिकैः||३१||",
+      "english": "In vata gulma if increased pitta causes burning sensation then virechana should be done with laxative drugs mixed with unctuous substances",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 32,
+      "devanagari": "गुल्मो यद्यनिलादीनां कृते सम्यग्भिषग्जिते| न प्रशाम्यति रक्तस्य सोऽवसेकात् प्रशाम्यति||३२||",
+      "english": "If gulma does not subside even after proper treatment of vata etc. mentioned above then bloodletting is advised to cure it",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 33,
+      "devanagari": "स्निग्धोष्णेनोदिते गुल्मे पैत्तिके स्रंसनं हितम्| रूक्षोष्णेन तु सम्भूते सर्पिः प्रशमनं परम्||३३||",
+      "english": "If pitta gulma is caused by indulging in unctuous and hot substances then virechana is beneficial. But if it is caused by indulging in dry and hot substances then ghee is a choice of drug",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 34,
+      "devanagari": "पित्तं वा पित्तगुल्मं वा ज्ञात्वा पक्वाशयस्थितम्| कालविन्निर्हरेत् सद्यः सतिक्तैः क्षीरबस्तिभिः||३४|| पयसा वा सुखोष्णेन सतिक्तेन विरेचयेत्| भिषगग्निबलापेक्षी सर्पिषा तैल्वकेन वा||३५||",
+      "english": "If pitta or pitta-gulma is situated in colon, the physician expert in proper and timely treatment should eliminate it by giving kshira-basti mixed with bitter drugs immediately. The physician aiming to increase the digestive power should perform virechana with milk mixed with bitter drugs or with tilvaka ghrita [34-35]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 36,
+      "devanagari": "तृष्णाज्वरपरीदाहशूलस्वेदाग्निमार्दवे| गुल्मिनामरुचौ चापि रक्तमेवावसेचयेत्||३६||",
+      "english": "The patient of pitta-gulma if having thirst, fever, burning sensation, pain, perspiration, impaired digestion and anorexia is treated with bloodletting",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 37,
+      "devanagari": "छिन्नमूला विदह्यन्ते न गुल्मा यान्ति च क्षयम्| रक्तं हि व्यम्लतां याति, तच्च नास्ति न चास्ति रुक्||३७||",
+      "english": "Provoked rakta is responsible for inflammation (vidaha) which is removed by bloodletting; thus when root-cause is removed then there will be no inflammation resulting in vanishing of swelling and pain",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 38,
+      "devanagari": "हृतदोषं परिम्लानं जाङ्गलैस्तर्पितं रसैः| समाश्वस्तं सशेषार्तिं सर्पिरभ्यासयेत् पुनः||३८||",
+      "english": "The patient may become weak due to elimination of vitiated blood; hence he should be nourished by the diet comprising of meat soup of wild animals and comforted. To pacify the remaining complaints, he should be prescribed the medicated ghee again",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "रक्तपित्तातिवृद्धत्वात् क्रियामनुपलभ्य च| यदि गुल्मो विदह्येत शस्त्रं तत्र भिषग्जितम्||३९||",
+      "english": "In case of excessive increase of pitta and rakta or due to unavailability of proper treatment, if suppuration occurs then surgery should be performed by the surgeon",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 40,
+      "devanagari": "गुरुः कठिनसंस्थानो गूढमांसान्तराश्रयः| अविवर्णः स्थिरश्चैव ह्यपक्वो गुल्म उच्यते||४०||",
+      "english": "Immovable lump of gulma which is deeply situated under the flesh and hard and heavy to palpate and whose color remains unchanged is considered as apakva i.e. non-suppurative",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 41,
+      "devanagari": "दाहशूलार्तिसङ्क्षोभस्वप्ननाशारतिज्वरैः| विदह्यमानं जानीयाद्गुल्मं तमुपनाहयेत्||४१||",
+      "english": "The gulma with symptoms of burning sensation, much pain, very much irritation and discomfort, loss of sleep and fever indicates that it is about to suppurate. In this condition upanaha (poultice) is indicated.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 42,
+      "devanagari": "विदाहलक्षणे गुल्मे बहिस्तुङ्गे समुन्नते| श्यावे सरक्तपर्यन्ते संस्पर्शे बस्तिसन्निभे||४२|| निपीडितोन्नते स्तब्धे सुप्ते [४] तत्पार्श्वपीडनात्| तत्रैव पिण्डिते शूले सम्पक्वं गुल्ममादिशेत्||४३||",
+      "english": "If gulma protrudes pointing toward outside and skin over the lesion becomes stiff and numb and its color changes to dusky with red margins. On palpation, the lump resembles as bladder filled with water, pitting on pressure, but on pressing from side the mass becomes tense with mild pain, otherwise it feels compressed mass with acute pain; all these signs and symptoms indicate that the gulma has suppurated [42-43]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 44,
+      "devanagari": "तत्र धान्वन्तरीयाणामधिकारः क्रियाविधौ| वैद्यानां कृतयोग्यानां व्यधशोधनरोपणे||४४||",
+      "english": "The suppurated gulma requires surgical intervention such as incision, cleansing and healing therefore it should be treated by a surgeon",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 45,
+      "devanagari": "अन्तर्भागस्य चाप्येतत् पच्यमानस्य लक्षणम्| हृत्क्रोडशूनताऽन्तःस्थे [५] बहिःस्थे पार्श्वनिर्गतिः||४५||",
+      "english": "The above mentioned symptoms also occur in suppurating (pachyamana) internal gulma. Only difference is that in the internal gulma there is swelling in cardiac region of the abdomen while exterior gulma protrudes towards sides of abdomen",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 46,
+      "devanagari": "पक्वः स्रोतांसि सङ्क्लेद्य व्रजत्यूर्ध्वमधोऽपि वा| स्वयम्प्रवृत्तं तं दोषमुपेक्षेत हिताशनैः [६] ||४६|| दशाहं द्वादशाहं वा रक्षन् भिषगुपद्रवान्|",
+      "english": "Suppurated gulma on softening of the passage discharges the pus upwards or downwards. In case of gulma starts discharging at its own then the physician should wait and watch for ten or twelve days while taking care that no complication occurs",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 47,
+      "devanagari": "अत ऊर्ध्वं हितं पानं सर्पिषः सविशोधनम्||४७|| शुद्धस्य तिक्तं सक्षौद्रं प्रयोगे सर्पिरिष्यते|४८|",
+      "english": "Oral administration of ghee with cleansing of the discharging ulcer with shodhana drugs are beneficial. After the cleansing, medicated ghee prepared with bitter drugs should be given with honey",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 48,
+      "devanagari": "शीतलैर्गुरुभिः स्निग्धैर्गुल्मे जाते कफात्मके||४८|| अवम्यस्याल्पकायाग्नेः कुर्याल्लङ्घनमादितः|",
+      "english": "Kapha-gulma if caused by indulgence in cold, heavy and unctuous diet and in those not eligible for vamana, langhana (depletion) therapy should be prescribed in the beginning.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 49,
+      "devanagari": "मन्दोऽग्निर्वेदना मन्दा गुरुस्तिमितकोष्ठता||४९|| सोत्क्लेशा चारुचिर्यस्य स गुल्मी वमनोपगः|",
+      "english": "Vamana is indicated in a patient of gulma who is having low digestion, anorexia, nausea and mild pain, heaviness and stiffness in abdomen",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 50,
+      "devanagari": "उष्णैरेवोपचर्यश्च कृते वमनलङ्घने||५०|| योज्यश्चाहारसंसर्गो भेषजैः कटुतिक्तकैः|",
+      "english": "After the treatment with vamana and langhana, the patient should be given hot (ushna) therapy and food mixed with pungent and bitter substances",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 51,
+      "devanagari": "सानाहं सविबन्धं च गुल्मं कठिनमुन्नतम्||५१|| दृष्ट्वाऽऽदौ स्वेदयेद्युक्त्या स्विन्नं च विलयेद्भिषक्|",
+      "english": "If the gulma is hard and protruded accompanied with constipation and distension of abdomen then physician should give sudation locally to dissolve it",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 52,
+      "devanagari": "लङ्घनोल्लेखने स्वेदे कृतेऽग्नौ सम्प्रधुक्षिते||५२|| कफगुल्मी पिबेत् काले सक्षारकटुकं घृतम्|",
+      "english": "After performing langhana, vamana and swedana therapies when digestion is improved, the patient of kapha gulma should be given ghee prepared with bitter substances and kshara (alkali preparation) at the proper time",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 53,
+      "devanagari": "स्थानादपसृतं ज्ञात्वा कफगुल्मं विरेचनैः||५३|| सस्नेहैर्बस्तिभिर्वाऽपि शोधयेद्दाशमूलिकैः|",
+      "english": "By the above treatments when kapha gulma dislodges from its place, the patient should be given virechana for purification. Anuvasana basti with oil prepared with dashamula drugs can also be given for this purpose",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 54,
+      "devanagari": "मन्देऽग्नावनिले मूढे ज्ञात्वा सस्नेहमाशयम्||५४|| गुटिकाचूर्णनिर्यूहाः प्रयोज्याः कफगुल्मिनाम्|",
+      "english": "In the condition when digestion is low and dysfunction of vata, after proper oleation of the affected site (ashaya), the drugs in the form of pills, powder or decoction are administered to the patient of kapha gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 55,
+      "devanagari": "कृतमूलं महावास्तुं कठिनं स्तिमितं गुरुम्||५५|| जयेत्कफकृतं गुल्मं क्षारारिष्टाग्निकर्मभिः||",
+      "english": "If kapha-gulma has a deep root and is large in size, hard in consistency and heavy, then the patient should be treated with alkali preparation-kshara, arishta and agni karma (cauterization)",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 56,
+      "devanagari": "दोषप्रकृतिगुल्मर्तुयोगं बुद्ध्वा कफोल्बणे||५६|| बलदोषप्रमाणज्ञः क्षारं गुल्मे प्रयोजयेत्| एकान्तरं द्व्यन्तरं वा त्र्यहं विश्रम्य वा पुनः||५७|| शरीरबलदोषाणां वृद्धिक्षपणकोविदः|",
+      "english": "A physician expert in assessing the degree of strength of patient as well as of dosha should prescribe alkali preparation–kshara to the patient of kapha gulma by considering its dosha and nature as well as prevailing season. The expert physician should use kshara treatment on alternate day or at the interval of two or three days depending on the increase or decrease in the strength of the body and dosha [56-57]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 58,
+      "devanagari": "श्लेष्माणं मधुरं स्निग्धं मांसक्षीरघृताशिनः||५८|| छित्त्वा छित्त्वाऽऽशयात् क्षारः क्षरत्वात क्षारयत्यधः|",
+      "english": "Kapha is sweet and unctuous, so it is increased by indulging in the diet comprising of excessive meat, milk and ghee. Alkali preparation-kshara has an action of erosion (ksharana) due to which it erodes the gulma and tickles it down from its habitat",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 59,
+      "devanagari": "मन्देऽग्नावरुचौ सात्म्ये मद्ये सस्नेहमश्नताम्||५९|| प्रयोज्या मार्गशुद्ध्यर्थमरिष्टाः कफगुल्मिनाम्||",
+      "english": "The diminution in digestion and loss of appetite occur in a patient of kapha gulma due to excessive indulgence in unctuous diet, therefore for the purification of the channels medicated fermented preparation-arishta should be given provided the patient is habituated of taking alcohol",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 60,
+      "devanagari": "लङ्घनोल्लेखनैः स्वेदैः सर्पिःपानैर्विरेचनैः||६०|| बस्तिभिर्गुटिकाचूर्णक्षारारिष्टगणैरपि| श्लैष्मिकः कृतमूलत्वाद्यस्य गुल्मो न शाम्यति||६१|| तस्य दाहो हृते रक्ते शरलोहादिभिर्हितः|",
+      "english": "If the kapha gulma does not subside by langhana, vamana, swedana, oral administration of medicated ghee, virechana, basti, pills, powder, kshara and arishta due to its firm root in the body, then first bloodletting should be done and then cauterization with such means as arrow head should be done",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 62,
+      "devanagari": "औष्ण्यात्तैक्ष्ण्याच्च शमयेदग्निर्गुल्मे कफानिलौ||६२|| तयोः शमाच्च सङ्घातो गुल्मस्य विनिवर्तते|",
+      "english": "The fire heat due to its hot and sharp properties relieves kapha and vata in gulma, which in turn leads to dissolving the mass of gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 63,
+      "devanagari": "दाहे धान्वन्तरीयाणामत्रापि भिषजां बलम्||६३|| क्षारप्रयोगे भिषजां क्षारतन्त्रविदां बलम्||",
+      "english": "Cauterization comes under the purview of the surgeon and the use of kshara is the field of specialist in kshara karma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 64,
+      "devanagari": "व्यामिश्रदोषे व्यामिश्र एष एव क्रियाक्रमः||६४||",
+      "english": "If the gulma is due to two dosha then the mix treatment of the involved two dosha should be done",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 1,
+      "devanagari": "सिद्धानतः प्रवक्ष्यामि योगान् गुल्मनिबर्हणान्|",
+      "english": "Now the specific preparations for the cure of gulma will be described [64 ½]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 65,
+      "devanagari": "त्र्यूषणत्रिफलाधान्यविडङ्गचव्यचित्रकैः||६५|| कल्कीकृतैर्घृतं सिद्धं सक्षीरं वातगुल्मनुतिति त्र्यूषणादिघृतम्   |",
+      "english": "Ghee prepared with a paste of trayushna (dry ginger, black and long pepper), triphala, coriander, vidanga, chavya and chitraka by adding milk is known as tryushanadighritam. It is curative of vata gulma; thus described trayushanadighritam",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 66,
+      "devanagari": "एत एव च कल्काः स्युः कषायः पाञ्चमूलिकः  ||६६|| द्विपञ्चमूलिको वाऽपि तद्घृतं गुल्मनुत् परमिति त्र्यूषणादिघृतमपरम्",
+      "english": "Above mentioned paste if prepared with decoction of brihat panchamula or dashamula is known as parama tryushanadighritama. It is very much effective in curing gulma; thus described parama tryushanadighritama",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 67,
+      "devanagari": "(षट्पलं वा पिबेत् सर्पिर्यदुक्तं राजयक्ष्मणि)||६७||",
+      "english": "(shatpalam ghrita described for the treatment of rajayakshma may also be used orally)",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 68,
+      "devanagari": "प्रसन्नया वा क्षीरार्थं  सुरया दाडिमेन वा| दध्नः सरेण वा कार्यं घृतं मारुतगुल्मनुत्||६८||",
+      "english": "In place of milk in above preparation of tryushanadighritam, ghrita can also be prepared with prasanna wine, sura wine, pomegranate juice or cream of yogurt (curd). It also cures vata gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 69,
+      "devanagari": "हिङ्गुसौवर्चलाजाजीबिडदाडिमदीप्यकैः| पुष्करव्योषधन्याकवेतसक्षारचित्रकैः||६९|| शटीवचाजगन्धैलासुरसैश्च विपाचितम्| शूलानाहहरं सर्पिर्दध्ना चानिलगुल्मिनाम्||७०|| इति हिङ्गुसौवर्चलाद्यं घृतम्",
+      "english": "A ghrita prepared with paste of asafoetida, rock salt, cumin, Vit-salt, pomegranate, ajwan, pushkaramula, trikatu, coriander, vetas, yavakshara, chitraka, shati, vacha, ajagandha, cardamom and holy basil by adding curd/yogurt is known as hingusauvarchaladyam ghritam. It cures vata gulma, acute pain and distension of abdomen due to retention of gases (anaha). Thus hiṅgusauvarchaladyam ghritam is described [69-70]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 71,
+      "devanagari": "हपुषाव्योषपृथ्वीकाचव्यचित्रकसैन्धवैः| साजाजीपिप्पलीमूलदीप्यकैर्विपचेद्घृतम्||७१|| सकोलमूलकरसं सक्षीरदधिदाडिमम्| तत् परं वातगुल्मघ्नं शूलानाहविमोक्षणम्||७२|| योन्यर्शोग्रहणीदोषश्वासकासारुचिज्वरान्| बस्तिहृत्पार्श्वशूलं च घृतमेतद्व्यपोहति||७३|| इति हपुषाद्यं घृतम्",
+      "english": "Ghee prepared with a paste of hapusha, trikatu, cardamom, chavya, chitraka, rock salt, cumin, root of long pepper and ajwain along with juice of jujubes, radish and pomegranate, by adding milk and curd is known as hapushadyam ghritam. It is best drug to cure vata gulma, abdominal pain and distension of abdomen. It also provides relief in gynecological disorders, piles, grahani (assimilation disorders), dyspnea, cough, anorexia, fever and pain in hypogastric, epigastric and flanks regions of the abdomen. Thus, hapushadyam ghritam is described [71-73]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 74,
+      "devanagari": "पिप्पल्या पिचुरध्यर्धो दाडिमाद्द्विपलं पलम्| धान्यात्पञ्च घृताच्छुण्ठ्याः कर्षः क्षीरं चतुर्गुणम्||७४|| सिद्धमेतैर्घृतं सद्यो वातगुल्मं व्यपोहति| योनिशूलं शिरःशूलमर्शांसि विषमज्वरम्||७ ५|| इति पिप्पल्याद्यं घृतम्",
+      "english": "Ghee prepared with paste of one and half part of long pepper, eight parts of pomegranate seeds, four parts of coriander and one part of dry ginger in 20 parts of ghee and 80 parts of milk is known as pippalyadyam ghritam. It provides quick relief in vata gulma, pain in vagina, headache, piles and irregular fever. Thus pippalyadyam ghritam is described [74-75]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 76,
+      "devanagari": "घृतानामौषधगणा य एते परिकीर्तिताः| ते चूर्णयोगा वर्त्यस्ताः कषायास्ते च गुल्मिनाम्||७६||",
+      "english": "The drugs mentioned in the above ghrita preparations may also be used in form of powders, suppositories or decoctions for the treatment of gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 77,
+      "devanagari": "कोलदाडिमघर्माम्बुसुरामण्डाम्लकाञ्जिकैः| शूलानाहहरी पेया बीजपूररसेन वा||७७||",
+      "english": "The liquid gruel prepared from jujube, pomegranate, warm water, supernatant liquid of sura(wine) (sura manda), sour kanji or citron juice relieves abdominal pain and distension of abdomen",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 78,
+      "devanagari": "चूर्णानि मातुलुङ्गस्य भावितानि रसेन वा| कुर्याद्वर्तीः सगुटिका गुल्मानाहार्तिशान्तये||७८||",
+      "english": "Or prepare the suppositories and pills by impregnating the powders of the above drugs in the juice of pomelo (matulunga) and use them for providing relief in gulma, distension of abdomen and discomfort",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 79,
+      "devanagari": "हिङ्गु त्रिकटुकं पाठां हपुषामभयां शटीम्| अजमोदाजगन्धे च तिन्तिडीकाम्लवेतसौ||७९|| दाडिमं पुष्करं धान्यमजाजीं चित्रकं वचाम्| द्वौ क्षारौ लवणे द्वे च चव्यं चैकत्र चूर्णयेत्||८०|| चूर्णमेतत् प्रयोक्तव्यमन्नपानेष्वनत्ययम्| प्राग्भक्तमथवा पेयं मद्येनोष्णोदकेन वा||८१|| पार्श्वहृद्बस्तिशूलेषु गुल्मे वातकफात्मके| आनाहे मूत्रकृच्छ्रे च शूले च गुदयोनिजे [९] ||८२|| ग्रहण्यर्शोविकारेषु प्लीह्नि पाण्ड्वामयेऽरुचौ| उरोविबन्धे हिक्कायां कासे श्वासे गलग्रहे||८३|| भावितं मातुलुङ्गस्य चूर्णमेतद्रसेन वा| बहुशो गुटिकाः कार्याः कार्मुकाः स्युस्ततोऽधिकम्||८४|| इति हिङ्ग्वादिचूर्णं गुटिका च |",
+      "english": "Make fine powder of equal parts of asafoetida, trikatu, patha, hapusha, haritaki, shati, ajamoda, ajagandha, tintidika, amlavetas, pomegranate, pushkaramula, coriander, cumin, chitraka, vacha, two types of kshara, two types of salt and chavya. It is known as hingvadichurnam.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 85,
+      "devanagari": "मातुलुङ्गरसो हिङ्गु दाडिमं बिडसैन्धवे| सुरामण्डेन पातव्यं वातगुल्मरुजापहम्||८५||",
+      "english": "Mix asafoetida, pomegranate and bid and rock salts in juice of citron and take with supernatant fluid of surā wine. It cures pain of vata gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 86,
+      "devanagari": "शटीपुष्करहिङ्ग्वम्लवेतसक्षारचित्रकान्| धान्यकं च यवानीं च विडङ्गं सैन्धवं वचाम्||८६|| सचव्यपिप्पलीमूलामजगन्धां सदाडिमाम्| अजाजीं चाजमोदां च चूर्णं कृत्वा प्रयोजयेत्||८७|| रसेन मातुलुङ्गस्य मधुशुक्तेन वा पुनः| भावितं गुटिकां कृत्वा सुपिष्टां कोलसम्मिताम्||८८|| गुल्मं प्लीहानमानाहं श्वासं कासमरोचकम्| हिक्कां हृद्रोगमर्शांसि विविधां शिरसो रुजम्||८९|| पाण्ड्वामयं कफोत्क्लेशं सर्वजां च प्रवाहिकाम्| पार्श्वहृद्बस्तिशूलं च गुटिकैषा व्यपोहति||९०||",
+      "english": "Mix fine powders of shati, pushkaramula, asafoetida, amlavetasa, kshara, chitraka, coriander, ajwain (yavani), vidanga, rock-salt, vacha, chavya, pippalimula, ajagandha, pomegranate, ajaji and ajamoda. It may be used in powder form or in the form of pills made of size of jujube by impregnating these powders in juice of citron or vinegar of honey by rubbing well.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 91,
+      "devanagari": "नागरार्धपलं पिष्ट्वा द्वे पले लुञ्चितस्य च| तिलस्यैकं गुडपलं क्षीरेणोष्णेन ना पिबेत्||९१|| वातगुल्ममुदावर्तं योनिशूलं च नाशयेत्|",
+      "english": "Make paste of 25 gm of dried ginger, 100 gm pealed sesame and 50 gm of jaggery and administer to the patient with warm milk. It cures vata gulma, udavarta ( disorder due to improper direction of vata) and pain in vagina [91½]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 92,
+      "devanagari": "पिबेदेरण्डजं तैलं वारुणीमण्डमिश्रितम्||९२|| तदेव तैलं पयसा वातगुल्मी पिबेन्नरः| श्लेष्मण्यनुबले पूर्वं हितं पित्तानुगे परम्||९३||",
+      "english": "The patient of vata gulma associated with kapha dominance, then should take castor oil with supernatant of varuni wine and if pitta is associated then take castor oil with milk [92-93]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 94,
+      "devanagari": "साधयेच्छुद्धशुष्कस्य लशुनस्य चतुष्पलम्| क्षीरोदकेऽष्टगुणिते  क्षीरशेषं च ना पिबेत्||९४|| वातगुल्ममुदावर्तं गृध्रसीं विषमज्वरम्| हृद्रोगं विद्रधिं शोथं साधयत्याशु तत्पयः||९५|| इति लशुनक्षीरम् |",
+      "english": "Take 160 gm of dried and peeled garlic, add to it 640 ml of milk and 640 ml of water and boil on slow fire till only milk remains. It is known as lashuna kshiram and its oral administration provides quick relief in vata gulma, udavarta, sciatica, irregular fever, heart disease, abscess and inflammation [94-95]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 96,
+      "devanagari": "तैलं प्रसन्ना गोमूत्रमारनालं यवाग्रजम्| गुल्मं जठरमानाहं पीतमेकत्र साधयेत्||९६|| इति तैलपञ्चकम् |",
+      "english": "The mixture of castor oil, prasanna wine, cow’s urine, aranala (sour kanji) and yavakshara is known as tailapanchakam. Its oral administration cures gulma, gastric disorders and distension of abdomen",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 97,
+      "devanagari": "पञ्चमूलीकषायेण सक्षारेण  शिलाजतु| पिबेत्तस्य प्रयोगेण वातगुल्मात् प्रमुच्यते||९७|| इति शिलाजतुप्रयोगः |",
+      "english": "Taking of shilajatu with kshara and decoction of panchamula cures vata gulma. Thus administration of shilajatu is described",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 98,
+      "devanagari": "वाट्यं पिप्पलीयूषेण मूलकानां रसेन वा| भुक्त्वा स्निग्धमुदावर्ताद्वातगुल्माद्विमुच्यते||९८||",
+      "english": "Taking of barley meal mixed with unctuous substances along with soup of long pepper or juice of radish, provides relief in vata gulma and udavarta",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 99,
+      "devanagari": "शूलानाहविबन्धार्तं स्वेदयेद्वातगुल्मिनम्| स्वेदैः स्वेदविधावुक्तैर्नाडीप्रस्तरसङ्करैः||९९||",
+      "english": "If the patient of vata gulma is also having the complaints of distension of abdomen and constipation then swedana therapy should be given in the form of nadi (cattle sudation), prastara (stone slab sudation) and sankara (mix sudation) sweda as described in Swedadhyaya",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 100,
+      "devanagari": "बस्तिकर्म परं विद्याद्गुल्मघ्नं तद्धि मारुतम्| स्वे स्थाने प्रथमं जित्वा सद्यो गुल्ममपोहति||१००|| तस्मादभीक्ष्णशो गुल्मा निरूहैः सानुवासनैः| प्रयुज्यमानैः शाम्यन्ति वातपित्तकफात्मकाः||१०१|| गुल्मघ्ना विविधा दिष्टाः सिद्धाः सिद्धिषु बस्तयः|",
+      "english": "Basti Karma is the best treatment of gulma because it first conquers vata at its natural site and then cures gulma quickly. Therefore niruha and anuvasana basti should be administered repeatedly for cure of vata, pitta and kapha gulma. Various types of basti for the cure of gulma shall be described in Basti Siddhi [100-101]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 102,
+      "devanagari": "गुल्मघ्नानि च तैलानि वक्ष्यन्ते वातरोगिके||१०२|| तानि मारुतजे गुल्मे पानाभ्यङ्गानुवासनैः| प्रयुक्तान्याशु सिध्यन्ति तैलं ह्यनिलजित्परम् [१२] ||१०३||",
+      "english": "The various types of medicated oil useful for gulma will be described in Vatavyadhi Chikitsa. The medicated oils are used for oral administration, massage and anuvasana basti. As oil is best therapy for vata therefore it cures vata gulma quickly [102-103]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 104,
+      "devanagari": "नीलिनीचूर्णसंयुक्तं पूर्वोक्तं घृतमेव| समलाय प्रदातव्यं शोधनं वातगुल्मिने||१०४||",
+      "english": "Accumulated feces of the patient of vata gulma should be eliminated by giving earlier mentioned ghrita mixed with powder nilini.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 105,
+      "devanagari": "नीलिनीत्रिवृतादन्तीपथ्याकम्पिल्लकैः सह| शोधनार्थं घृतं देयं सबिडक्षारनागरम्||१०५||",
+      "english": "The ghee prepared with nilini, trivrita, danti, haritaki and kampillaka along with bid-salt and kshara should be given for shodhana",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 106,
+      "devanagari": "नीलिनीं त्रिफलां रास्नां बलां कटुकरोहिणीम्| पचेद्विडङ्गं व्याघ्रीं च पलिकानि जलाढके||१०६|| तेन पादावशेषेण घृतप्रस्थं विपाचयेत्| दध्नः प्रस्थेन संयोज्य सुधाक्षीरपलेन च||१०७|| ततो घृतपलं दद्याद्यवागूमण्डमिश्रितम्| जीर्णे सम्यग्विरिक्तं च भोजयेद्रसभोजनम्||१०८|| गुल्मकुष्ठोदरव्यङ्गशोफपाण्ड्वामयज्वरान्| श्वित्रं प्लीहानमुन्मादं घृतमेतद्व्यपोहति||१०९|| इति नीलिन्याद्यं घृतम्",
+      "english": "Take 50 gm each of nilini, triphala, rasna, bala, katuki, vidanga and kantakari and add to it 2.5 litres of water and prepare the decoction by reducing it to one-fourth. Add to it 640 ml of ghee, 640 ml of curd and 50 ml of latex of snuhi and prepare ghee as per method of sneha-paka. Its 40 ml mixed with manda (liquid obtained by filtering the boiled rice) should be given for virechana. When the patient is well purged and the drug is digested then meat soup is given in diet.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 110,
+      "devanagari": "कुक्कुटाश्च मयूराश्च तित्तिरिक्रौञ्चवर्तकाः| शालयो मदिरा सर्पिर्वातगुल्मभिषग्जितम्||११०|| हितमुष्णं द्रवं स्निग्धं भोजनं वातगुल्मिनाम्| समण्डवारुणीपानं पक्वं वा धान्यकैर्जलम्||१११||",
+      "english": "Hot, liquid and unctuous diet is beneficial for the patient of vata gulma. Red rice, wine and ghee; meats of chicken, peacock, partridge (tittara), krauncha (demoiselle) and quail (vartaka) are beneficial for the patient of vata gulma.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 112,
+      "devanagari": "मन्देऽग्नौ वर्धते गुल्मो दीप्ते चाग्नौ प्रशाम्यति| तस्मान्ना नातिसौहित्यं कुर्यान्नातिविलङ्घनम्||११२||",
+      "english": "With decrease in digestive-power (agni) the gulma is aggravated, while on augmentation of the digestion (agni) the gulma is pacified. Therefore, to the patient of gulma neither excessive nutritional food nor excessive fasting or light food/treatment should be prescribed",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 113,
+      "devanagari": "सर्वत्र गुल्मे प्रथमं स्नेहस्वेदोपपादिते| या क्रिया क्रियते सिद्धिं सा याति न विरूक्षिते||११३||",
+      "english": "In all types of gulma, only that successive treatment is fruitful which is given after subjecting first the patient to snehana and then swedana, but it never success if given after un-unctuous (ruksha) treatment",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 114,
+      "devanagari": "भिषगात्ययिकं बुद्ध्वा पित्तगुल्ममुपाचरेत्| वैरेचनिकसिद्धेन सर्पिषा तिक्तकेन  वा||११४||",
+      "english": "Physician while dealing with pitta gulma should know that it requires immediate treatment (atyayika). Pitta gulma patient should be given ghee prepared with purgative and bitter drugs",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 115,
+      "devanagari": "रोहिणीकटुकानिम्बमधुकत्रिफलात्वचः| कर्षांशास्त्रायमाणा च पटोलत्रिवृतोः पले||११५|| द्वे पले च मसूराणां साध्यमष्टगुणेऽम्भसि| शृताच्छेषं घृतसमं सर्पिषश्च चतुष्पलम्||११६|| पिबेत् सम्मूर्च्छितं तेन गुल्मः शाम्यति पैत्तिकः| ज्वरस्तृष्णा च शूलं च भ्रमो मूर्च्छाऽरुचिस्तथा||११७|| इति रोहिण्याद्यं घृतम्",
+      "english": "Take 10 gm each of katuka, neem, liquorices, triphala and trayamana; 40 gm each of patola and trivrita; 80 gm of lentil (masura) and add to it 8 times water; boil on low fire till it reduces to 160 ml. Add to it equal quantity of ghee i.e. 160 ml and administer it to the patient orally. It alleviates pitta gulma, fever, thirst, abdominal pain, giddiness, fainting and anorexia. Thus rohinyadi ghrita is described",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 118,
+      "devanagari": "जले दशगुणे साध्यं त्रायमाणाचतुष्पलम्| पञ्चभागस्थितं पूतं कल्कैः संयोज्य कार्षिकैः||११८|| रोहिणी कटुका मुस्ता त्रायमाणा दुरालभा| कल्कैस्तामलकीवीराजीवन्तीचन्दनोत्पलैः||११९|| रसस्यामलकानां च क्षीरस्य च घृतस्य च| पलानि पृथगष्टाष्टौ दत्त्वा सम्यग्विपाचयेत्||१२०|| पित्तरक्तभवं गुल्मं वीसर्पं पैत्तिकं ज्वरम्| हृद्रोगं कामलां कुष्ठं हन्यादेतद्घृतोत्तमम्||१२१|| इति त्रायमाणाद्यं घृतम्",
+      "english": "Make decoction by adding 10 times of water to 160 gm of trayamana and reducing it to one fifth. To this decoction add 10 gm paste of katuka, mustaka, trayamana and duralabha; 10 gm paste of tamalaki, veera, jivanti, chandana and lotus; add to it 320 ml juice of amalaki, milk and ghee. From all these, prepare ghrita as per method of sneha pāka. It is best ghrita to cure pitta and rakta-gulma, visarpa, pitta jwara, heart disease, jaundice and kushtha. Thus trayamanadi ghritam is described [118-121]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 122,
+      "devanagari": "रसेनामलकेक्षूणां घृतपादं  विपाचयेत्| पथ्यापदं पिबेत्सर्पिस्तत्सिद्धं पित्तगुल्मनुत्||१२२|| इत्यामलकाद्यं घृतम्",
+      "english": "Prepare ghrita with four parts of juice of amalaki and sugarcane juice, one-fourth part of paste of haritaki and one part of ghee. It is to be taken orally to cure pitta gulma. Thus amalakadyam ghritam is described",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 123,
+      "devanagari": "द्राक्षां मधूकं खर्जूरं विदारीं सशतावरीम्| परूषकाणि त्रिफलां साधयेत्पलसम्मितम्||१२३|| जलाढके पादशेषे रसमामलकस्य च| घृतमिक्षुरसं क्षीरमभयाकल्कपादिकम्||१२४|| साधयेत्तद्घृतं सिद्धं शर्कराक्षौद्रपादिकम्| प्रयोगात् पित्तगुल्मघ्नं सर्वपित्तविकारनुत्||१२५|| इति द्राक्षाद्यं घृतम्",
+      "english": "Take 40 gm each of raisin, madhuka (mahva), date, vidari, shatavari, parushaka and triphala and add to it 2560 ml of water and boil till reduced to one-fourth. To this decoction add 640 gm each of ghee, sugar-cane juice, juice of amalaki and milk and its one fourth part of paste of haritaki; and prepare ghrita as per method of sneha-paka. Take this ghee by adding one fourth quantities of sugar and honey. It cures pitta-gulma and all types of pitta disorders. Thus drakshdyam ghritam is described [123-125]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 126,
+      "devanagari": "वृषं समूलमापोथ्य पचेदष्टगुणे जले| शेषेऽष्टभागे तस्यैव पुष्पकल्कं प्रदापयेत्||१२६|| तेन सिद्धं घृतं शीतं सक्षौद्रं पित्तगुल्मनुत्| रक्तपित्तज्वरश्वासकासहृद्रोगनाशनम्||१२७|| इति वासाघृतम्",
+      "english": "Take whole plant of vasa including its root and make decoction by adding to it eight times water and reducing to one-eighth. Add to the decoction, paste of its flower and ghee and prepare the ghrita. It is to be taken with honey which cures pitta gulma, piles, fever, dyspnea, cough and heart disease. Thus vasaghritam is described [126-127]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 128,
+      "devanagari": "द्विपलं त्रायमाणाया जलद्विप्रस्थसाधितम्| अष्टभागस्थितं पूतं कोष्णं क्षीरसमं पिबेत्||१२८|| पिबेदुपरि तस्योष्णं क्षीरमेव यथाबलम्| तेन निर्हृतदोषस्य गुल्मः शाम्यति पैत्तिकः||१२९||",
+      "english": "Take 80 gm of trayamana and make decoction by adding 1.280 litre of water and reducing to one-eighth and filter it. Take it by adding equal quantity of warm milk and thereafter take as much milk as one can digest. This preparation eliminates the toxic substances and thus cures pitta gulma [128-129]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 130,
+      "devanagari": "द्राक्षाभयारसं गुल्मे पैत्तिके सगुडं पिबेत्| लिह्यात्कम्पिल्लकं वाऽपि विरेकार्थं मधुद्रवम्||१३०||",
+      "english": "In patient of pitta gulma the virechana can be performed by administration of decoction of raisins and haritaki with jaggery or by licking powder of kampillaka with honey",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 131,
+      "devanagari": "दाहप्रशमनोऽभ्यङ्गः सर्पिषा पित्तगुल्मिनाम्| चन्दनाद्येन तैलेन तैलेन मधुकस्य वा||१३१||",
+      "english": "For relieving burning sensation in the patient of gulma, massage with ghee or chandanadi taila or medicated oil prepared with madhuka should be done",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 132,
+      "devanagari": "ये च पित्तज्वरहराः  सतिक्ताः क्षीरबस्तयः| हितास्ते पित्तगुल्मिभ्यो वक्ष्यन्ते ये च सिद्धिषु||१३२||",
+      "english": "Kshira-basti comprising of bitter drugs described for pitta fever as well as which will be described in Siddhi Sthana are also beneficial for curing pitta gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 133,
+      "devanagari": "शालयो जाङ्गलं मांसं गव्याजे पयसी घृतम्| खर्जूरामलकं द्राक्षां दाडिमं सपरूषकम्||१३३|| आहारार्थं प्रयोक्तव्यं पानार्थं सलिलं शृतम्| बलाविदारीगन्धाद्यैः पित्तगुल्मचिकित्सितम्||१३४||",
+      "english": "Red rice, meat of wild animals, milk and ghee of cow and goat, dates, grapes, pomegranates, amalaki and parushaka are wholesome diet articles for eating and water boiled with bala-vidarigandhadi drugs for drinking for the patient of pitta gulma [133-134]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 135,
+      "devanagari": "आमान्वये पित्तगुल्मे सामे वा कफवातिके| यवागूभिः खडैर्यूषैः सन्धुक्ष्योऽग्निर्विलङ्घिते||१३५||",
+      "english": "Pitta gulma or kapha-vata gulma if associated with ama, first it should be subjected to langhana and then given cooked rice (yavagu) and vegetable or pulse soup to enhance the digestion",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 136,
+      "devanagari": "शमप्रकोपौ दोषाणां सर्वेषामग्निसंश्रितौ| तस्मादग्निं सदा रक्षेन्निदानानि च वर्जयेत्||१३६||",
+      "english": "Equilibrium or provocation of all the dosha depend upon the condition of agni (digestion and metabolism), hence one should always take its care and avoid such causes which disturb it",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 2,
+      "devanagari": "वमनं वमनार्हाय प्रदद्यात् कफगुल्मिने|",
+      "english": "Vamana karma should be done in kapha gulma provided the patient is fit for it [136½]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 137,
+      "devanagari": "स्निग्धस्विन्नशरीराय गुल्मे शैथिल्यमागते||१३७|| परिवेष्ट्य प्रदीप्तांस्तु बल्वजानथवा कुशान्| भिषक्कुम्भे समावाप्य गुल्मं घटमुखे न्यसेत्||१३८|| सङ्गृहीतो  यदा गुल्मस्तदा घटमथोद्धरेत्| वस्त्रान्तरं ततः कृत्वा भिन्द्याद्गुल्मं  प्रमाणवित्||१३९|| विमार्गाजपदादर्शैर्यथालाभं प्रपीडयेत्| मृद्नीयाद्गुल्ममेवैकं न त्वन्त्रहृदयं  स्पृशेत्||१४०||",
+      "english": "First make the kapha gulma loose (shaithilya) by snehana and swedana therapies then following operation should be performed on the patient:",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 141,
+      "devanagari": "तिलैरण्डातसीबीजसर्षपैः परिलिप्य च| श्लेष्मगुल्ममयःपात्रैः सुखोष्णैः स्वेदयेद्भिषक्||१४१||",
+      "english": "After the above operation apply the paste made from sesame, castor seed, linseeds and mustard seeds on the gulma and do its sudation through bearable hot iron pot",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 142,
+      "devanagari": "सव्योषक्षारलवणं दशमूलीशृतं घृतम्| कफगुल्मं जयत्याशु सहिङ्गुबिडदाडिमम्||१४२|| इति दशमूलीघृतम्|",
+      "english": "Prepare a medicated ghee with decoction of dashamula, paste of trikatu, yavakshara, salt, asafoetida, bid-salt and pomegranate, and ghee. Its oral use quickly subsides kapha gulma. Thus dashamuli-ghritam is described.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 143,
+      "devanagari": "भल्लातकानां द्विपलं पञ्चमूलं पलोन्मितम्| साध्यं विदारीगन्धाद्यमापोथ्य सलिलाढके||१४३|| पादशेषे रसे तस्मिन् पिप्पलीं नागरं वचाम्| विडङ्गं सैन्धवं हिङ्गु यावशूकं बिडं शटीम्||१४४|| चित्रकं मधुकं रास्नां पिष्ट्वा कर्षसमं भिषक्| प्रस्थं च पयसो दत्त्वा घृतप्रस्थं विपाचयेत्||१४५|| एतद्भल्लातकघृतं कफगुल्महरं परम्| प्लीहपाण्ड्वामयश्वासग्रहणीरोगकासनुत्||१४६|| इति भल्लातकाद्यं घृतम्",
+      "english": "Take coarse powder of 80 gm of bhallataka, 40 gm of laghu panchamula and 40 gm of vidarigandhadi and prepare a decoction by adding 2.5 liters of water and reducing to one-fourth. To this decoction add paste made of 10 gm each of long pepper, dry ginger, vacha, vidanga, rock and bid salts, asafoetida, yavakshara, chitraka, shati, liquorices and rasna; 640 ml each of milk and ghee and make ghrita as per method of sneha paka. Oral use of bhallatakadyam ghritam is best for providing cure to kapha gulma. It also provides relief in spleen disorders, anemia, asthma, assimilation disorders and cough. Thus bhallatakadyam ghritam is described [143-146]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 147,
+      "devanagari": "पिप्पलीपिप्पलीमूलचव्यचित्रकनागरैः| पलिकैः सयवक्षारैर्घृतप्रस्थं विपाचयेत्||१४७|| क्षीरप्रस्थं च तत् सर्पिहन्ति गुल्मं कफात्मकम्| ग्रहणीपाण्डुरोगघ्नं प्लीहकासज्वरापहम्||१४८|| इति क्षीरषट्पलकं घृतम्",
+      "english": "Make a paste of 40 gm each of fruits and roots of long pepper, chavya and chitraka, yavakshara and dried ginger and add to it 640 gm each of ghee and milk, and prepare a medicated ghee. This ghrita cures kapha gulma, grahani (chronic assimilation disorders), anemia, spleen disorders, cough and fever. Thus kshirashatpalakam ghritam is described [147-148]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 149,
+      "devanagari": "त्रिवृतां त्रिफलां दन्तीं दशमूलं पलोन्मितम्| जले चतुर्गुणे पक्त्वा चतुर्भागस्थितं रसम्||१४९|| सर्पिरेरण्डजं तैलं क्षीरं चैकत्र साधयेत्| स सिद्धो मिश्रकस्नेहः सक्षौद्रः कफगुल्मनुत्||१५०|| कफवातविबन्धेषु कुष्ठप्लीहोदरेषु च| प्रयोज्यो मिश्रकः स्नेहो योनिशूलेषु चाधिकम्||१५१|| इति मिश्रकः स्नेहः",
+      "english": "Prepare a decoction of 40 gm each of trivrita, triphala, danti and dashamula by adding four times of water and reducing to one-fourth. In this decoction add ghee, castor oil and milk and prepare medicated ghee. This mishraka sneha taken orally by adding honey cures kapha gulma. It also provides relief in constipation due to kapha and vata, kushtha (chronic skin disorders), spleen disorders and udara-roga (generalized enlargement of abdomen) and especially useful in vaginal pain. Thus mishraka sneha is described [149-151]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 152,
+      "devanagari": "यदुक्तं वातगुल्मघ्नं स्रंसनं नीलिनीघृतम्| द्विगुणं तद्विरेकार्थं प्रयोज्यं कफगुल्मिनाम्||१५२|| सुधाक्षीरद्रवे चूर्णं त्रिवृतायाः सुभावितम्| कार्षिकं मधुसर्पिभ्यां लीढ्वा  साधु विरिच्यते||१५३||",
+      "english": "Nilini-ghrita already described as laxative for the cure of vata gulma should be used in double the dose for virechana in the patient of kapha gulma.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 154,
+      "devanagari": "जलद्रोणे विपक्तव्या विंशतिः पञ्च चाभयाः| दन्त्याः पलानि तावन्ति चित्रकस्य तथैव च||१५४|| अष्टभागावशेषं तु रसं पूतमधिक्षिपेत्| दन्तीसमं गुडं पूतं क्षिपेत्तत्राभयाश्च ताः||१५५|| तैलार्धकुडवं चैव त्रिवृतायाश्चतुष्पलम्| चूर्णितं पलमेकं  तु पिप्पलीविश्वभेषजम्||१५६|| तत् साध्यं लेहवच्छीते तस्मिंस्तैलसमं मधु| क्षिपेच्चूर्णपलं चैकं त्वगेलापत्रकेशरात्||१५७|| ततो लेहपलं लीढ्वा जग्ध्वा चैकां हरीतकीम्| सुखं विरिच्यते स्निग्धो दोषप्रस्थमनामयम्||१५८|| गुल्मं श्वयथुमर्शांसि पाण्डुरोगमरोचकम्| हृद्रोगं ग्रहणीदोषं कामलां विषमज्वरम्||१५९|| कुष्ठं प्लीहानमानाहमेषा हन्युपसेविता| निरत्ययः क्रमश्चास्या द्रवो मांसरसौदनः||१६०|| इति दन्तीहरीतकी",
+      "english": "Prepare a decoction of 25 haritaki and 50 gm each of danti and chitraka in 10 liters of water by reducing it to one-eighth. Add jaggery equal to quantity of danti to the decoction and filter again and add to it haritaki, 80 ml of sesame oil, 160 gm of trivrita powder and 40 gm each of long pepper and dry ginger and by heating made into constituency of the jam. On cooling add 80 gm of honey, 40 gm powder of cinnamon, cardamom, tamalapatra and keshara. Administer its 40 gm with one haritaki daily to a person who has already been prepared with snehana and swedana for a good virechana. It will remove 640 gm of morbid material (dosha prastha) without producing any side effect.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 161,
+      "devanagari": "सिद्धाः सिद्धिषु वक्ष्यन्ते निरूहाः कफगुल्मिनाम्| अरिष्टयोगाः सिद्धाश्च ग्रहण्यर्शश्चिकित्सिते||१६१||",
+      "english": "The most effective niruha basti for kapha gulma will be described in Siddhi Sthana and most effective medicated wines (arishta) will be described in the chapter on Grahani Chikitsa and Arsha Chikitsa",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 162,
+      "devanagari": "यच्चूर्णं गुटिका याश्च विहिता वातगुल्मिनाम्| द्विगुणक्षारहिङ्ग्वम्लवेतसास्ताः कफे हिताः||१६२||",
+      "english": "Powder and pills which are described for the treatment of vata gulma should also be used for kapha gulma but added with double the quantity of mixture of kshara, asafoetida and amlavetasa",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 163,
+      "devanagari": "य एव ग्रहणीदोषे क्षारास्ते कफगुल्मिनाम्| सिद्धा निरत्ययाः शस्ता दाहस्त्वन्ते प्रशस्यते||१६३||",
+      "english": "Kshara preparations mentioned in Grahani Chikitsa are also beneficial for kapha gulma without any side effect. If above mentioned treatment does not cure kapha gulma then cauterization should be done as a last resort",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 164,
+      "devanagari": "प्रपुराणानि धान्यानि जाङ्गला मृगपक्षिणः| कौलत्थो मुद्गयूषश्च पिप्पल्या नागरस्य च||१६४|| शुष्कमूलकयूषश्च बिल्वस्य वरुणस्य  च| चिरबिल्वाङ्कुराणां च यवान्याश्चित्रकस्य च||१६५||",
+      "english": "More than one year old grains, meat of wild animals and birds, soup of horse-gram (kulattha) or green gram (mudga), long pepper, dry ginger, dry radish, bilva, varuna, sprouts of chirabilva, yavani and chitraka are beneficial diet articles for the patient of kapha gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 166,
+      "devanagari": "बीजपूरकहिङ्ग्वम्लवेतसक्षारदाडिमैः| तक्रेण तैलसर्पिर्भ्यां व्यञ्जनान्युपकल्पयेत्||१६६||",
+      "english": "Citron, asafoetida, amlavetas, kshara, pomegranate, butter milk, oil and ghee preparations are also wholesome for kapha gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 167,
+      "devanagari": "पञ्चमूलीशृतं तोयं पुराणं वारुणीरसम्| कफगुल्मी पिबेत्काले जीर्णं माध्वीकमेव वा||१६७||",
+      "english": "Water boiled in laghu panchamula or old varuni or old honey wine should be given to drink on getting the thirst to the patient of kapha gulma",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 168,
+      "devanagari": "यवानीचूर्णितं तक्रं बिडेन लवणीकृतम्| पिबेत् सन्दीपनं वातकफमूत्रानुलोमनम् ||१६८||",
+      "english": "Taking of butter milk mixed with yavani (ajwain) and salted with bid-salt acts as a digestive stimulant and the regulator of flatus, urine and kapha",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 169,
+      "devanagari": "सञ्चितः क्रमशो गुल्मो महावास्तुपरिग्रहः| कृतमूलः सिरानद्धो यदा कूर्म इवोन्नतः||१६९|| दौर्बल्यारुचिहृल्लासकासवम्यरतिज्वरैः  | तृष्णातन्द्राप्रतिश्यायैर्युज्यते न स सिध्यति||१७०||",
+      "english": "The gulma which gradually goes on increasing, spreading over a large area, has taken firm root, is covered by veins, has convex surface like that of tortoise, and which is accompanied with weakness, anorexia, thirst, nausea, vomiting, fever, cough, coryza and drowsiness is considered as incurable [169-170]",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 171,
+      "devanagari": "गृहीत्वा सज्वरश्वासं वम्यतीसारपीडितम्| हृन्नाभिहस्तपादेषु शोफः कर्षति गुल्मिनम्||१७१||",
+      "english": "The patient of gulma accompanied with fever, dyspnea, vomiting and diarrhea along with edema in the epigastric and umbilical regions and on hands and feet indicate that the patient is approaching to death",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 172,
+      "devanagari": "रौधिरस्य तु गुल्मस्य गर्भकालव्यतिक्रमे| स्निग्धस्विन्नशरीरायै दद्यात् स्नेहविरेचनम्||१७२||",
+      "english": "The treatment of rakta gulma should be under taken only after completion of normal period of gestation i.e. 10 months. The patient should be given unctuous virechana after preparing with snehana and swedana",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 173,
+      "devanagari": "पलाशक्षारपात्रे द्वे द्वे पात्रे तैलसर्पिषोः| गुल्मशैथिल्यजननीं पक्त्वा मात्रां प्रयोजयेत्||१७३||",
+      "english": "Make a semisolid preparation by heating 5 Kg of palasha-kshara with 5 kg each of ghee and oil. Administer it in sufficient dose to make the gulma soft/loose.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 174,
+      "devanagari": "प्रभिद्येत न यद्येवं दद्याद्योनिविशोधनम्  | क्षारेण युक्तं पललं सुधाक्षीरेण वा पुनः||१७४|| आभ्यां वा भावितान् दद्याद्योनौ कटुकमत्स्यकान्| वराहमत्स्यपित्ताभ्यां लक्तकान् वा सुभावितान्||१७५|| अधोहरैश्चोर्ध्वहरैर्भावितान् वा समाक्षिकैः| किण्वं वा सगुडक्षारं दद्याद्योनिविशोधनम्||१७६||",
+      "english": "If the above mentioned treatments do not break the rakta gulma then the preparations which cleans vagina should be used locally. A swab well saturated with one of the following pastes may be inserted in the vagina:",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 177,
+      "devanagari": "रक्तपित्तहरं क्षारं लेहयेन्मधुसर्पिषा| लशुनं मदिरां तीक्ष्णां मत्स्यांश्चास्यै प्रदापयेत्||१७७||",
+      "english": "Kshara which cures raktapitta may be licked with honey and ghee. Or garlic mixed with strong wine and fish may be given in diet",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 178,
+      "devanagari": "बस्तिं सक्षीरगोमूत्रं सक्षारं दाशमूलिकम्| अदृश्यमाने रुधिरे दद्याद्गुल्मप्रभेदनम्||१७८||",
+      "english": "Basti prepared with milk, cow’s urine, kshara and decoction of dashamula should be given. Even after all these treatments, if blood does not flow from vagina then surgical intervention is required",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 179,
+      "devanagari": "प्रवर्तमाने रुधिरे दद्यान्मांसरसौदनम्| घृततैलेन चाभ्यङ्गं पानार्थं तरुणीं सुराम्||१७९||",
+      "english": "When blood starts flowing through vagina then rice with meat soup should be given to eat. Massage with ghee or oil is done and for drink new wine may be given",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 180,
+      "devanagari": "रुधिरेऽतिप्रवृत्ते तु रक्तपित्तहरीः क्रियाः| कार्या वातरुगार्तायाः सर्वा वातहरीः पुनः||१८०||",
+      "english": "In case of excessive bleeding, the measures curative of raktapitta should be prescribed. If the patient gets vata type of pains then all the remedies curative of vata are given",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 181,
+      "devanagari": "घृततैलावसेकांश्च तित्तिरींश्चरणायुधान्| सुरां समण्डां पूर्वं च पानमम्लस्य सर्पिषः||१८१|| प्रयोजयेदुत्तरं वा जीवनीयेन सर्पिषा| अतिप्रवृत्ते रुधिरे सतिक्तेनानुवासनम्||१८२||",
+      "english": "Effusion with ghee and oil should be performed. Meat of partridge (tittara) and rooster (charanayudha), sura (wine) along with its upper fluid (manda) and ghee prepared with sour drugs may be given in diet.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 183,
+      "devanagari": "तत्र श्लोकाः- स्नेहः स्वेदः सर्पिर्बस्तिश्चूर्णानि बृंहणं गुडिकाः| वमनविरेकौ मोक्षः क्षतजस्य च वातगुल्मवताम्||१८३|| सर्पिः सतिक्तसिद्धं क्षीरं प्रस्रंसनं निरूहाश्च| रक्तस्य चावसेचनमाश्वासनसंशमनयोगाः||१८४|| उपनाहनं सशस्त्रं पक्वस्याभ्यन्तरप्रभिन्नस्य| संशोधनसंशमने पित्तप्रभवस्य गुल्मस्य||१८५|| स्नेहः स्वेदो भेदो लङ्घनमुल्लेखनं विरेकश्च| सर्पिर्बस्तिर्गुटिकाश्चूर्णमरिष्टाश्च सक्षाराः||१८६|| गुल्मस्यान्ते दाहः कफजस्याग्रेऽपनीतरक्तस्य| गुल्मस्य रौधिरस्य क्रियाक्रमः स्त्रीभवस्योक्तः||१८७|| पथ्यान्नपानसेवा हेतूनां वर्जनं यथास्वं च| नित्यं चाग्निसमाधिः स्निग्धस्य च सर्वकर्माणि||१८८|| हेतुर्लिङ्गं सिद्धिः क्रियाक्रमः साध्यता न योगाश्च| गुल्मचिकित्सितसङ्ग्रह एतावान् व्याहृतोऽग्निवेशस्य||१८९||",
+      "english": "In this chapter, sneha, sweda, sarpi-basti, churna, brimhana, gudika, vamana, virechana and raktamokshana for the patient suffering from vata-gulma have been described.",
+      "section": "Abdominal lumps treatment"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते चिकित्सितस्थाने गुल्मचिकित्सितं नाम पञ्चमोऽध्यायः||५||",
+      "english": "Thus fifth chapter named Gulma Chikitsa in Chikitsa Sthana in the treatise compiled by Agnivesha and revised by Charak is completed",
+      "section": "Abdominal lumps treatment"
+    }
+  ],
+  "tattvaVimarsha": "The word gulma stands for an entity that encircles, envelops or covers something. Situations such as panic, stress, or grief, usually associated with chaotic, cataclysmic event would lead to vitiation of vata causing the appearance of vata-dominant diseases like gulma, etc. The vitiated vata, in conjunction with other doshas, gets into the mahasrotas and get lodged either in the amashaya (stomach), pittashaya (gall bladder), pakwashaya (cecum) or in other regions like hridaya (epigastric), basti (bladder) and nabhi (umblicus) leading to formation of deep-rooted shrub-like mass. As mentioned earlier, gulma afflicts the gastrointestinal region between the heart and the bladder. Depending upon the region it afflicts, it can be classified into four general types common to males and females: vata gulma, pitta gulma, kapha gulma, and sannipatik gulma.\n\nSince gulma can occur as complication of raktapitta (bleeding disorders) Charak describes this chapter after the raktapitta chapter. Jwara is the disease of rasavah srotas whereas, raktapitta is a disease of raktavah srotas, in that sequence gulma is a disease of mansavah srotas and further prameha is of medavah srotas. However, this chapter seems to be designed with greater implication and term mahasrotasa has been used because manifestation of disease is in the viscera/ organs up to uterus. Even then the involvement of vata dosha and mamsa dhatu is predominant in final manifestation of disease gulma.\n\nIt should also be noted that the same pathogenesis route and treatment procedure should be kept in mind for the disease of the mahasrotasa occurring without the true manifestation of growth/tumor. Hence peptic ulcer and ulcer dyspepsia should be treated like pitta gulma etc.\n\nGulma is defined as a palpable round compact lump in the abdomen. Thus, all the localized palpable masses in the abdomen are classified under gulma, but they are named depending upon the dominance of dosha or the place. Its four types belong to dosha i.e. three of single dosha and one of a combination of all the three dosha and the fifth one is rakta gulma which occurs only in females in uterine cavity (garbhashayashroni). Sannipata Gulma has been given synonym as nichaya-gulma.",
+  "vidhiVimarsha": "The word gulma stands for an entity that encircles, envelops or covers something. Situations such as panic, stress, or grief, usually associated with chaotic, cataclysmic event would lead to vitiation of vata causing the appearance of vata-dominant diseases like gulma, etc. The vitiated vata, in conjunction with other doshas, gets into the mahasrotas and get lodged either in the amashaya (stomach), pittashaya (gall bladder), pakwashaya (cecum) or in other regions like hridaya (epigastric), basti (bladder) and nabhi (umblicus) leading to formation of deep-rooted shrub-like mass. As mentioned earlier, gulma afflicts the gastrointestinal region between the heart and the bladder. Depending upon the region it afflicts, it can be classified into four general types common to males and females: vata gulma, pitta gulma, kapha gulma, and sannipatik gulma.\n\nSince gulma can occur as complication of raktapitta (bleeding disorders) Charak describes this chapter after the raktapitta chapter. Jwara is the disease of rasavah srotas whereas, raktapitta is a disease of raktavah srotas, in that sequence gulma is a disease of mansavah srotas and further prameha is of medavah srotas. However, this chapter seems to be designed with greater implication and term mahasrotasa has been used because manifestation of disease is in the viscera/ organs up to uterus. Even then the involvement of vata dosha and mamsa dhatu is predominant in final manifestation of disease gulma.\n\nIt should also be noted that the same pathogenesis route and treatment procedure should be kept in mind for the disease of the mahasrotasa occurring without the true manifestation of growth/tumor. Hence peptic ulcer and ulcer dyspepsia should be treated like pitta gulma etc.\n\nGulma is defined as a palpable round compact lump in the abdomen. Thus, all the localized palpable masses in the abdomen are classified under gulma, but they are named depending upon the dominance of dosha or the place. Its four types belong to dosha i.e. three of single dosha and one of a combination of all the three dosha and the fifth one is rakta gulma which occurs only in females in uterine cavity (garbhashayashroni). Sannipata Gulma has been given synonym as nichaya-gulma.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Gulma_Chikitsa_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s06.006"
+}

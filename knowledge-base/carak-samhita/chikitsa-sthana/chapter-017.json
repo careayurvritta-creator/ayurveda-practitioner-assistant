@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 17,
+    "chapterTitleEnglish": "Management of Hikka and Shwasa",
+    "chapterTitleSanskrit": "Hikka Shwasa Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Hikka Shwasa Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Ojha S.N., Mali P.",
+    "editors": [
+      "Singh G.",
+      "Goyal M."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.018"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Hikka_Shwasa_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "Hikka (hiccups) and shwasa (dyspnea/shortness of breath) may be caused due to pandu roga with pathological signs of anemia (alpa rakta), abnormal fat metabolism(alpa medaska) and depletion of body constituents (dhatu-kshaya). [Chakrapani Cha.Sa. Chikitsa Sthana 17/1]. That is why this chapter follows the chapter on Pandu Chikitsa. The term 'Shwasa' denotes physiological process of respiration and pathological sign too. In physiological process, breathing without any distress is seen; however pathological signs can be diagnosed if person suffers any distress during breathing and has to take extra efforts for same.Hikka and shwasa have common etiological factors (karana) like raja (pollen or dust particles), dhuma (smoke) etc., location (sthana) and treatment or mula. For that reason, both conditions are described in the same chapter. Hikka and shwasa are two diseases of serious nature which can be presented at terminal stages of life and as complication of other diseases [Cha.Sa. Chikitsa Sthana 17/6]. These can cause death if not treated properly. The etiological factors, site, origin of both hikka and shwasa are same, and hence the line of treatment is also common. The etiological factors related to food, regimen and mental faculties lead to the aggravation of vata in the pranavaha srotas and derangement of kapha situated in the chest region producing lethal blockage of prana vayu. The maha (severe form), gambhira (having depth) and vyapeta (originating after food and with complications) types of hikka are incurable. If the vyapeta or yamala hikka (with two hiccups together) is associated with symptoms of emaciation, delirium, pain, excess thirst and stupor then it is incurable for treatment, while it is curable in non emaciated and mentally strong individual with unimpaired dhatus and indriyas performing their normal function. Kshudra hikka (minor variety) and annaja hikka (due to improper food intake) are curable types of hikka. Maha (severe form), urdhva (shallow respiration) and chinna (irregular pattern dyspnea) shwasa are incurable and lead to death very fast. Tamaka (with black outs) and kshudra shwasa (minor variety) are curable if patient is strong, and disease is in early stage, while in weak patients they are yapya (work as palliatives). The patient suffering from hikka and shwasa should be treated with oleation, unctuous sudation to liquefy the accumulated kapha, soften the channels and to facilitate vatanulomana (movement of vata in its normal direction). This should be followed by the administration elimination therapy in the form of vamana (emesis therapy), virechana (purgation), nasya and following of wholesome diet and regimen. The palliative medications should be administered keeping in view the condition of patient and stage of disease. Avoiding the causative factors and following wholesome regimen is important to prevent progress of disease and to reverse the pathogenesis. In brief shodhana followed by brimhana therapy (nourishing therapy) and shamana treatment (palliative therapy) are the ideal management methods in hikka and shwasa. All diseases of respiratory system and channels transporting vital breath (pranvaha srotas) are treated based on the principles of management of shwasa laid down in this chapter. [Cha. Sa.Vimana Sthana 5/26]",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Agnivesha’s query",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Atreya’s reply and nature of disease of shwasa and hikka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Predominance of dosha and affliction of dhatu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiological factors",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General Samprapti (pathogenesis)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitory symptoms",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific pathogenesis of hikka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gambhira hikka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vyapeta hikka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kshudra hikka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Annaja Hikka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis of hikka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific pathogenesis of Shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mahashwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Urdhva Shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chhinna Shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tamaka Shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of Tamaka Shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kshudra shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Necessity of quick management of hikka and shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for treatment of hikka and shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of remaining dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of complications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Precautions and guidelines for swedana (sudation)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Two types of patients as per dosha dominance",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indication for Purification therapy in hikka and shwasa patients",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for management of tamaka shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shatyadi churna",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Muktadi churna",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tejovatyadi ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Manahshiladi ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General guidelines for prevention and management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Origin of diseases",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causes of shwasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hikka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Current researches",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Experience based views",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "Hikka (hiccups) and shwasa (dyspnea/shortness of breath) may be caused due to pandu roga with pathological signs of anemia (alpa rakta), abnormal fat metabolism(alpa medaska) and depletion of body constituents (dhatu-kshaya). [Chakrapani Cha.Sa. Chikitsa Sthana 17/1]. That is why this chapter follows the chapter on Pandu Chikitsa. The term 'Shwasa' denotes physiological process of respiration and pathological sign too. In physiological process, breathing without any distress is seen; however pathological signs can be diagnosed if person suffers any distress during breathing and has to take extra efforts for same.Hikka and shwasa have common etiological factors (karana) like raja (pollen or dust particles), dhuma (smoke) etc., location (sthana) and treatment or mula. For that reason, both conditions are described in the same chapter. Hikka and shwasa are two diseases of serious nature which can be presented at terminal stages of life and as complication of other diseases [Cha.Sa. Chikitsa Sthana 17/6]. These can cause death if not treated properly. The etiological factors, site, origin of both hikka and shwasa are same, and hence the line of treatment is also common. The etiological factors related to food, regimen and mental faculties lead to the aggravation of vata in the pranavaha srotas and derangement of kapha situated in the chest region producing lethal blockage of prana vayu. The maha (severe form), gambhira (having depth) and vyapeta (originating after food and with complications) types of hikka are incurable. If the vyapeta or yamala hikka (with two hiccups together) is associated with symptoms of emaciation, delirium, pain, excess thirst and stupor then it is incurable for treatment, while it is curable in non emaciated and mentally strong individual with unimpaired dhatus and indriyas performing their normal function. Kshudra hikka (minor variety) and annaja hikka (due to improper food intake) are curable types of hikka. Maha (severe form), urdhva (shallow respiration) and chinna (irregular pattern dyspnea) shwasa are incurable and lead to death very fast. Tamaka (with black outs) and kshudra shwasa (minor variety) are curable if patient is strong, and disease is in early stage, while in weak patients they are yapya (work as palliatives). The patient suffering from hikka and shwasa should be treated with oleation, unctuous sudation to liquefy the accumulated kapha, soften the channels and to facilitate vatanulomana (movement of vata in its normal direction). This should be followed by the administration elimination therapy in the form of vamana (emesis therapy), virechana (purgation), nasya and following of wholesome diet and regimen. The palliative medications should be administered keeping in view the condition of patient and stage of disease. Avoiding the causative factors and following wholesome regimen is important to prevent progress of disease and to reverse the pathogenesis. In brief shodhana followed by brimhana therapy (nourishing therapy) and shamana treatment (palliative therapy) are the ideal management methods in hikka and shwasa. All diseases of respiratory system and channels transporting vital breath (pranvaha srotas) are treated based on the principles of management of shwasa laid down in this chapter. [Cha. Sa.Vimana Sthana 5/26]",
+  "vidhiVimarsha": "Hikka (hiccups) and shwasa (dyspnea/shortness of breath) may be caused due to pandu roga with pathological signs of anemia (alpa rakta), abnormal fat metabolism(alpa medaska) and depletion of body constituents (dhatu-kshaya). [Chakrapani Cha.Sa. Chikitsa Sthana 17/1]. That is why this chapter follows the chapter on Pandu Chikitsa. The term 'Shwasa' denotes physiological process of respiration and pathological sign too. In physiological process, breathing without any distress is seen; however pathological signs can be diagnosed if person suffers any distress during breathing and has to take extra efforts for same.Hikka and shwasa have common etiological factors (karana) like raja (pollen or dust particles), dhuma (smoke) etc., location (sthana) and treatment or mula. For that reason, both conditions are described in the same chapter. Hikka and shwasa are two diseases of serious nature which can be presented at terminal stages of life and as complication of other diseases [Cha.Sa. Chikitsa Sthana 17/6]. These can cause death if not treated properly. The etiological factors, site, origin of both hikka and shwasa are same, and hence the line of treatment is also common. The etiological factors related to food, regimen and mental faculties lead to the aggravation of vata in the pranavaha srotas and derangement of kapha situated in the chest region producing lethal blockage of prana vayu. The maha (severe form), gambhira (having depth) and vyapeta (originating after food and with complications) types of hikka are incurable. If the vyapeta or yamala hikka (with two hiccups together) is associated with symptoms of emaciation, delirium, pain, excess thirst and stupor then it is incurable for treatment, while it is curable in non emaciated and mentally strong individual with unimpaired dhatus and indriyas performing their normal function. Kshudra hikka (minor variety) and annaja hikka (due to improper food intake) are curable types of hikka. Maha (severe form), urdhva (shallow respiration) and chinna (irregular pattern dyspnea) shwasa are incurable and lead to death very fast. Tamaka (with black outs) and kshudra shwasa (minor variety) are curable if patient is strong, and disease is in early stage, while in weak patients they are yapya (work as palliatives). The patient suffering from hikka and shwasa should be treated with oleation, unctuous sudation to liquefy the accumulated kapha, soften the channels and to facilitate vatanulomana (movement of vata in its normal direction). This should be followed by the administration elimination therapy in the form of vamana (emesis therapy), virechana (purgation), nasya and following of wholesome diet and regimen. The palliative medications should be administered keeping in view the condition of patient and stage of disease. Avoiding the causative factors and following wholesome regimen is important to prevent progress of disease and to reverse the pathogenesis. In brief shodhana followed by brimhana therapy (nourishing therapy) and shamana treatment (palliative therapy) are the ideal management methods in hikka and shwasa. All diseases of respiratory system and channels transporting vital breath (pranvaha srotas) are treated based on the principles of management of shwasa laid down in this chapter. [Cha. Sa.Vimana Sthana 5/26]",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 Agnivesha’s query",
+    "2.2 Atreya’s reply and nature of disease of shwasa and hikka",
+    "2.3 Predominance of dosha and affliction of dhatu",
+    "2.4 Etiological factors",
+    "2.5 General Samprapti (pathogenesis)",
+    "2.6 Premonitory symptoms",
+    "2.7 Specific pathogenesis of hikka",
+    "2.8 Gambhira hikka",
+    "2.9 Vyapeta hikka",
+    "2.10 Kshudra hikka",
+    "2.11 Annaja Hikka",
+    "2.12 Prognosis of hikka",
+    "2.13 Specific pathogenesis of Shwasa",
+    "2.14 Mahashwasa",
+    "2.15 Urdhva Shwasa",
+    "2.16 Chhinna Shwasa",
+    "2.17 Tamaka Shwasa",
+    "2.18 Types of Tamaka Shwasa",
+    "2.19 Kshudra shwasa",
+    "2.20 Necessity of quick management of hikka and shwasa",
+    "2.21 Guidelines for treatment of hikka and shwasa",
+    "2.22 Treatment of remaining dosha",
+    "2.23 Management of complications",
+    "2.24 Precautions and guidelines for swedana (sudation) 2.24.1 Contra-indication for swedana in shwasa",
+    "2.24.2 Mridu swedana (mild sudation)",
+    "2.24.3 Utkarika(poultice)",
+    "2.24.4 Vamana",
+    "2.25 Two types of patients as per dosha dominance",
+    "2.26 Contra-indication for Purification therapy in hikka and shwasa patients",
+    "2.27 Various formulations",
+    "2.28 Guidelines for management of tamaka shwasa",
+    "2.29 Shatyadi churna",
+    "2.30 Muktadi churna 2.30.1 Shatyadi churna",
+    "2.30.2 Nasya formulations",
+    "2.30.3 Ghee formulations and other therapies",
+    "2.31 Tejovatyadi ghee",
+    "2.32 Manahshiladi ghee",
+    "2.33 General guidelines for prevention and management",
+    "2.34 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Origin of diseases",
+    "4.2 Pathogenesis",
+    "4.3 Causes of shwasa",
+    "4.4 Hikka 4.4.1 Matta rishabha eva nisha (like a bull)",
+    "4.5 Management",
+    "4.6 Current researches",
+    "4.7 Experience based views",
+    "5 References"
+  ]
+}

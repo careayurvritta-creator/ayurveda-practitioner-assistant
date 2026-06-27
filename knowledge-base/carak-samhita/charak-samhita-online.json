@@ -1,0 +1,1019 @@
+{
+  "source": "carakasamhitaonline.com",
+  "license": "CC BY-NC-SA 4.0",
+  "scrapedAt": "2026-06-27T11:20:57.793Z",
+  "totalChapters": 120,
+  "totalShlokas": 4652,
+  "sthanas": [
+    {
+      "number": 1,
+      "name": "Sutra Sthana",
+      "chapterCount": 30,
+      "shlokaCount": 1014
+    },
+    {
+      "number": 2,
+      "name": "Nidana Sthana",
+      "chapterCount": 8,
+      "shlokaCount": 191
+    },
+    {
+      "number": 3,
+      "name": "Vimana Sthana",
+      "chapterCount": 8,
+      "shlokaCount": 302
+    },
+    {
+      "number": 4,
+      "name": "Sharira Sthana",
+      "chapterCount": 8,
+      "shlokaCount": 419
+    },
+    {
+      "number": 5,
+      "name": "Indriya Sthana",
+      "chapterCount": 12,
+      "shlokaCount": 162
+    },
+    {
+      "number": 6,
+      "name": "Chikitsa Sthana",
+      "chapterCount": 30,
+      "shlokaCount": 1979
+    },
+    {
+      "number": 7,
+      "name": "Kalpa Sthana",
+      "chapterCount": 12,
+      "shlokaCount": 230
+    },
+    {
+      "number": 8,
+      "name": "Siddhi Sthana",
+      "chapterCount": 12,
+      "shlokaCount": 355
+    }
+  ],
+  "chapters": [
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 1,
+      "title": "Longevity",
+      "titleSanskrit": "Deerghanjiviteeya Adhyaya",
+      "shlokaCount": 83
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 2,
+      "title": "Dehusked Seeds of Apamarga",
+      "titleSanskrit": "Apamarga Tanduliya Adhyaya",
+      "shlokaCount": 28
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 3,
+      "title": "Aragvadha and other medicines",
+      "titleSanskrit": "Aragvadhiya Adhyaya",
+      "shlokaCount": 23
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 4,
+      "title": "Six Hundred Evacuatives",
+      "titleSanskrit": "Shadvirechanashatashritiya Adhyaya",
+      "shlokaCount": 22
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 5,
+      "title": "Proper quantity of food",
+      "titleSanskrit": "Matrashiteeya Adhyaya",
+      "shlokaCount": 41
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 6,
+      "title": "Seasonal regimen of diet",
+      "titleSanskrit": "Tasyashiteeya Adhyaya",
+      "shlokaCount": 47
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 7,
+      "title": "Suppressible and non-suppressible urges",
+      "titleSanskrit": "Naveganadharaniya Adhyaya",
+      "shlokaCount": 45
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 8,
+      "title": "Disciplinary Protocol for Sense Organs",
+      "titleSanskrit": "Indriyopakramaniya Adhyaya",
+      "shlokaCount": 31
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 9,
+      "title": "Four fundamental components of Healthcare",
+      "titleSanskrit": "Khuddakachatushpada Adhyaya",
+      "shlokaCount": 21
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 10,
+      "title": "Four important components of Therapeutics",
+      "titleSanskrit": "Mahachatushpada Adhyaya",
+      "shlokaCount": 14
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 11,
+      "title": "Three Desires of Life",
+      "titleSanskrit": "Tistraishaniya Adhyaya",
+      "shlokaCount": 48
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 12,
+      "title": "Merits and demerits of Vata",
+      "titleSanskrit": "Vatakalakaliya Adhyaya",
+      "shlokaCount": 12
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 13,
+      "title": "Oleation therapies",
+      "titleSanskrit": "Sneha Adhyaya",
+      "shlokaCount": 37
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 14,
+      "title": "Sudation Therapies",
+      "titleSanskrit": "Sweda Adhyaya",
+      "shlokaCount": 36
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 15,
+      "title": "Hospital Management and Purification",
+      "titleSanskrit": "Upakalpaniya Adhyaya",
+      "shlokaCount": 17
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 16,
+      "title": "Assessment in Panchakarma",
+      "titleSanskrit": "Chikitsaprabhritiya Adhyaya",
+      "shlokaCount": 19
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 17,
+      "title": "Diseases of three vital organs",
+      "titleSanskrit": "Kiyanta Shiraseeya Adhyaya",
+      "shlokaCount": 90
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 18,
+      "title": "Three Types of Swellings",
+      "titleSanskrit": "Trishothiya Adhyaya",
+      "shlokaCount": 39
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 19,
+      "title": "Numerical Classification of Diseases",
+      "titleSanskrit": "Ashtodariya Adhyaya",
+      "shlokaCount": 14
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 20,
+      "title": "Dosha specific classification",
+      "titleSanskrit": "Maharoga Adhyaya",
+      "shlokaCount": 19
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 21,
+      "title": "Eight Undesirable Constitutions",
+      "titleSanskrit": "Ashtauninditiya Adhyaya",
+      "shlokaCount": 21
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 22,
+      "title": "Reduction and nourishing therapies",
+      "titleSanskrit": "Langhanabrimhaniya Adhyaya",
+      "shlokaCount": 15
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 23,
+      "title": "Over-nutrition and under-nutrition",
+      "titleSanskrit": "Santarpaniya Adhyaya",
+      "shlokaCount": 25
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 24,
+      "title": "Characteristics of Blood",
+      "titleSanskrit": "Vidhishonitiya Adhyaya",
+      "shlokaCount": 19
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 25,
+      "title": "Origin of Human Beings",
+      "titleSanskrit": "Yajjah Purushiya Adhyaya",
+      "shlokaCount": 31
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 26,
+      "title": "Pharmacological principles of diet",
+      "titleSanskrit": "Atreyabhadrakapyiya Adhyaya",
+      "shlokaCount": 55
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 27,
+      "title": "Classification of food and beverages",
+      "titleSanskrit": "Annapanavidhi Adhyaya",
+      "shlokaCount": 95
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 28,
+      "title": "Sequential effects of food",
+      "titleSanskrit": "Vividhashitapitiya Adhyaya",
+      "shlokaCount": 27
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 29,
+      "title": "Ten Seats of Life Forces",
+      "titleSanskrit": "Dashapranayataneeya Adhyaya",
+      "shlokaCount": 7
+    },
+    {
+      "sthana": "Sutra Sthana",
+      "sthanaNumber": 1,
+      "chapterNumber": 30,
+      "title": "Ten great vessels from Heart",
+      "titleSanskrit": "Arthedashmahamooliya Adhyaya",
+      "shlokaCount": 33
+    },
+    {
+      "sthana": "Nidana Sthana",
+      "sthanaNumber": 2,
+      "chapterNumber": 1,
+      "title": "Fever diagnosis",
+      "titleSanskrit": "Jwara Nidana Adhyaya",
+      "shlokaCount": 43
+    },
+    {
+      "sthana": "Nidana Sthana",
+      "sthanaNumber": 2,
+      "chapterNumber": 2,
+      "title": "Bleeding Disorders",
+      "titleSanskrit": "Raktapitta Nidana Adhyaya",
+      "shlokaCount": 18
+    },
+    {
+      "sthana": "Nidana Sthana",
+      "sthanaNumber": 2,
+      "chapterNumber": 3,
+      "title": "Abdominal lumps",
+      "titleSanskrit": "Gulma Nidana Adhyaya",
+      "shlokaCount": 18
+    },
+    {
+      "sthana": "Nidana Sthana",
+      "sthanaNumber": 2,
+      "chapterNumber": 4,
+      "title": "Urinary Disorders",
+      "titleSanskrit": "Prameha Nidana Adhyaya",
+      "shlokaCount": 16
+    },
+    {
+      "sthana": "Nidana Sthana",
+      "sthanaNumber": 2,
+      "chapterNumber": 5,
+      "title": "Skin diseases",
+      "titleSanskrit": "Kushtha Nidana Adhyaya",
+      "shlokaCount": 18
+    },
+    {
+      "sthana": "Nidana Sthana",
+      "sthanaNumber": 2,
+      "chapterNumber": 6,
+      "title": "Wasting disease",
+      "titleSanskrit": "Shosha Nidana Adhyaya",
+      "shlokaCount": 13
+    },
+    {
+      "sthana": "Nidana Sthana",
+      "sthanaNumber": 2,
+      "chapterNumber": 7,
+      "title": "Psychosis",
+      "titleSanskrit": "Unmada Nidana Adhyaya",
+      "shlokaCount": 25
+    },
+    {
+      "sthana": "Nidana Sthana",
+      "sthanaNumber": 2,
+      "chapterNumber": 8,
+      "title": "Seizure disorders",
+      "titleSanskrit": "Apasmara Nidana Adhyaya",
+      "shlokaCount": 40
+    },
+    {
+      "sthana": "Vimana Sthana",
+      "sthanaNumber": 3,
+      "chapterNumber": 1,
+      "title": "Taste-based factors",
+      "titleSanskrit": "Rasa Vimana Adhyaya",
+      "shlokaCount": 43
+    },
+    {
+      "sthana": "Vimana Sthana",
+      "sthanaNumber": 3,
+      "chapterNumber": 2,
+      "title": "Three parts of abdomen",
+      "titleSanskrit": "Trividhakukshiya Vimana Adhyaya",
+      "shlokaCount": 19
+    },
+    {
+      "sthana": "Vimana Sthana",
+      "sthanaNumber": 3,
+      "chapterNumber": 3,
+      "title": "Destruction of communities",
+      "titleSanskrit": "Janapadodhvansaniya Vimana Adhyaya",
+      "shlokaCount": 23
+    },
+    {
+      "sthana": "Vimana Sthana",
+      "sthanaNumber": 3,
+      "chapterNumber": 4,
+      "title": "Three methods for disease knowledge",
+      "titleSanskrit": "Trividha Roga Vishesha Vijnaniya Vimana",
+      "shlokaCount": 13
+    },
+    {
+      "sthana": "Vimana Sthana",
+      "sthanaNumber": 3,
+      "chapterNumber": 5,
+      "title": "Channels of transport",
+      "titleSanskrit": "Sroto Vimana Adhyaya",
+      "shlokaCount": 13
+    },
+    {
+      "sthana": "Vimana Sthana",
+      "sthanaNumber": 3,
+      "chapterNumber": 6,
+      "title": "Classification of Diseases",
+      "titleSanskrit": "Roganika Vimana Adhyaya",
+      "shlokaCount": 18
+    },
+    {
+      "sthana": "Vimana Sthana",
+      "sthanaNumber": 3,
+      "chapterNumber": 7,
+      "title": "Types of patients",
+      "titleSanskrit": "Vyadhita Rupiya Vimana Adhyaya",
+      "shlokaCount": 25
+    },
+    {
+      "sthana": "Vimana Sthana",
+      "sthanaNumber": 3,
+      "chapterNumber": 8,
+      "title": "Conquering debate and disease",
+      "titleSanskrit": "Rogabhishagjitiya Vimana Adhyaya",
+      "shlokaCount": 148
+    },
+    {
+      "sthana": "Sharira Sthana",
+      "sthanaNumber": 4,
+      "chapterNumber": 1,
+      "title": "Holistic human being",
+      "titleSanskrit": "Katidhapurusha Sharira Adhyaya",
+      "shlokaCount": 154
+    },
+    {
+      "sthana": "Sharira Sthana",
+      "sthanaNumber": 4,
+      "chapterNumber": 2,
+      "title": "Clans and human birth",
+      "titleSanskrit": "Atulyagotriya Sharira Adhyaya",
+      "shlokaCount": 49
+    },
+    {
+      "sthana": "Sharira Sthana",
+      "sthanaNumber": 4,
+      "chapterNumber": 3,
+      "title": "Embryogenesis factors",
+      "titleSanskrit": "Khuddika Garbhavakranti Sharira",
+      "shlokaCount": 31
+    },
+    {
+      "sthana": "Sharira Sthana",
+      "sthanaNumber": 4,
+      "chapterNumber": 4,
+      "title": "Embryonic development",
+      "titleSanskrit": "Mahatigarbhavakranti Sharira",
+      "shlokaCount": 45
+    },
+    {
+      "sthana": "Sharira Sthana",
+      "sthanaNumber": 4,
+      "chapterNumber": 5,
+      "title": "Study of human being",
+      "titleSanskrit": "Purusha Vichaya Sharira Adhyaya",
+      "shlokaCount": 24
+    },
+    {
+      "sthana": "Sharira Sthana",
+      "sthanaNumber": 4,
+      "chapterNumber": 6,
+      "title": "Analytical study of body",
+      "titleSanskrit": "Sharira Vichaya Sharira Adhyaya",
+      "shlokaCount": 29
+    },
+    {
+      "sthana": "Sharira Sthana",
+      "sthanaNumber": 4,
+      "chapterNumber": 7,
+      "title": "Numerological account",
+      "titleSanskrit": "Sharira Sankhya Sharira Adhyaya",
+      "shlokaCount": 19
+    },
+    {
+      "sthana": "Sharira Sthana",
+      "sthanaNumber": 4,
+      "chapterNumber": 8,
+      "title": "Obstetrics and neonatal care",
+      "titleSanskrit": "Jatisutriya Sharira Adhyaya",
+      "shlokaCount": 68
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 1,
+      "title": "Fatal signs in complexion/voice",
+      "titleSanskrit": "Varnasvariyam Indriyam Adhyaya",
+      "shlokaCount": 17
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 2,
+      "title": "Tactile and olfactory fatal signs",
+      "titleSanskrit": "Pushpitakam Indriyam Adhyaya",
+      "shlokaCount": 8
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 3,
+      "title": "Palpable signs of death",
+      "titleSanskrit": "Parimarshaneeyam Indriyam Adhyaya",
+      "shlokaCount": 5
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 4,
+      "title": "Fatal signs in five senses",
+      "titleSanskrit": "Indriyaneekam Indriyam Adhyaya",
+      "shlokaCount": 17
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 5,
+      "title": "Prodromal symptoms prognosis",
+      "titleSanskrit": "Purvarupeeyam Indriyam Adhyaya",
+      "shlokaCount": 15
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 6,
+      "title": "Fatal clinical features",
+      "titleSanskrit": "Katamanisharireeyam Indriyam Adhyaya",
+      "shlokaCount": 12
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 7,
+      "title": "Shadows and luster signs",
+      "titleSanskrit": "Pannarupiyam Indriyam Adhyaya",
+      "shlokaCount": 13
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 8,
+      "title": "Inverted shadow signs",
+      "titleSanskrit": "Avakshiraseeyam Indriyam Adhyaya",
+      "shlokaCount": 26
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 9,
+      "title": "Palliative care signs",
+      "titleSanskrit": "Yasyashyavanimittiyam Indriyam",
+      "shlokaCount": 15
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 10,
+      "title": "Signs of instant death",
+      "titleSanskrit": "Sadyomaraneeyam Indriyam Adhyaya",
+      "shlokaCount": 4
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 11,
+      "title": "Death from diminished Agni",
+      "titleSanskrit": "Anujyotiyam Indriyam Adhyaya",
+      "shlokaCount": 15
+    },
+    {
+      "sthana": "Indriya Sthana",
+      "sthanaNumber": 5,
+      "chapterNumber": 12,
+      "title": "Messenger characteristics",
+      "titleSanskrit": "Gomayachurniyam Indriyam Adhyaya",
+      "shlokaCount": 15
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 1,
+      "title": "Rejuvenation therapy",
+      "titleSanskrit": "Rasayana Adhyaya",
+      "shlokaCount": 76
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 2,
+      "title": "Aphrodisiac therapy",
+      "titleSanskrit": "Vajikarana Adhyaya",
+      "shlokaCount": 47
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 3,
+      "title": "Fever treatment",
+      "titleSanskrit": "Jwara Chikitsa Adhyaya",
+      "shlokaCount": 106
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 4,
+      "title": "Bleeding disorders treatment",
+      "titleSanskrit": "Raktapitta Chikitsa Adhyaya",
+      "shlokaCount": 36
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 5,
+      "title": "Abdominal lumps treatment",
+      "titleSanskrit": "Gulma Chikitsa Adhyaya",
+      "shlokaCount": 126
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 6,
+      "title": "Diabetes treatment",
+      "titleSanskrit": "Prameha Chikitsa Adhyaya",
+      "shlokaCount": 32
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 7,
+      "title": "Skin diseases treatment",
+      "titleSanskrit": "Kushtha Chikitsa Adhyaya",
+      "shlokaCount": 104
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 8,
+      "title": "Wasting diseases treatment",
+      "titleSanskrit": "Rajayakshma Chikitsa Adhyaya",
+      "shlokaCount": 48
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 9,
+      "title": "Psychosis treatment",
+      "titleSanskrit": "Unmada Chikitsa Adhyaya",
+      "shlokaCount": 39
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 10,
+      "title": "Seizure disorders treatment",
+      "titleSanskrit": "Apasmara Chikitsa Adhyaya",
+      "shlokaCount": 43
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 11,
+      "title": "Emaciation treatment",
+      "titleSanskrit": "Kshatakshina Chikitsa Adhyaya",
+      "shlokaCount": 26
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 12,
+      "title": "Swellings treatment",
+      "titleSanskrit": "Shvayathu Chikitsa Adhyaya",
+      "shlokaCount": 72
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 13,
+      "title": "Abdominal enlargement",
+      "titleSanskrit": "Udara Chikitsa Adhyaya",
+      "shlokaCount": 103
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 14,
+      "title": "Hemorrhoids",
+      "titleSanskrit": "Arsha Chikitsa Adhyaya",
+      "shlokaCount": 105
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 15,
+      "title": "Digestive disorders",
+      "titleSanskrit": "Grahani Chikitsa Adhyaya",
+      "shlokaCount": 132
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 16,
+      "title": "Anemia",
+      "titleSanskrit": "Pandu Chikitsa Adhyaya",
+      "shlokaCount": 47
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 17,
+      "title": "Hiccups and Dyspnea",
+      "titleSanskrit": "Hikka Shwasa Chikitsa Adhyaya",
+      "shlokaCount": 40
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 18,
+      "title": "Cough",
+      "titleSanskrit": "Kasa Chikitsa Adhyaya",
+      "shlokaCount": 43
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 19,
+      "title": "Diarrhea",
+      "titleSanskrit": "Atisara Chikitsa Adhyaya",
+      "shlokaCount": 44
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 20,
+      "title": "Vomiting",
+      "titleSanskrit": "Chhardi Chikitsa Adhyaya",
+      "shlokaCount": 21
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 21,
+      "title": "Erysipelas",
+      "titleSanskrit": "Visarpa Chikitsa Adhyaya",
+      "shlokaCount": 33
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 22,
+      "title": "Morbid thirst",
+      "titleSanskrit": "Trishna Chikitsa Adhyaya",
+      "shlokaCount": 25
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 23,
+      "title": "Poisoning",
+      "titleSanskrit": "Visha Chikitsa Adhyaya",
+      "shlokaCount": 157
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 24,
+      "title": "Intoxication",
+      "titleSanskrit": "Madatyaya Chikitsa Adhyaya",
+      "shlokaCount": 34
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 25,
+      "title": "Ulcers",
+      "titleSanskrit": "Dwivraniya Chikitsa Adhyaya",
+      "shlokaCount": 39
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 26,
+      "title": "Three vital organs",
+      "titleSanskrit": "Trimarmiya Chikitsa Adhyaya",
+      "shlokaCount": 59
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 27,
+      "title": "Thigh and hip diseases",
+      "titleSanskrit": "Urustambha Chikitsa Adhyaya",
+      "shlokaCount": 23
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 28,
+      "title": "Vata diseases",
+      "titleSanskrit": "Vatavyadhi Chikitsa Adhyaya",
+      "shlokaCount": 64
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 29,
+      "title": "Vata-Rakta disorders",
+      "titleSanskrit": "Vatarakta Chikitsa Adhyaya",
+      "shlokaCount": 76
+    },
+    {
+      "sthana": "Chikitsa Sthana",
+      "sthanaNumber": 6,
+      "chapterNumber": 30,
+      "title": "Genital tract disorders",
+      "titleSanskrit": "Yonivyapat Chikitsa Adhyaya",
+      "shlokaCount": 179
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 1,
+      "title": "Madanaphala preparations",
+      "titleSanskrit": "Madana Kalpa Adhyaya",
+      "shlokaCount": 27
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 2,
+      "title": "Jimutaka preparations",
+      "titleSanskrit": "Jimutaka Kalpa Adhyaya",
+      "shlokaCount": 8
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 3,
+      "title": "Ikshvaku preparations",
+      "titleSanskrit": "Ikshvaku Kalpa Adhyaya",
+      "shlokaCount": 11
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 4,
+      "title": "Dhamargava preparations",
+      "titleSanskrit": "Dhamargava Kalpa Adhyaya",
+      "shlokaCount": 12
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 5,
+      "title": "Vatsaka preparations",
+      "titleSanskrit": "Vatsaka Kalpa Adhyaya",
+      "shlokaCount": 6
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 6,
+      "title": "Kritavedhana preparations",
+      "titleSanskrit": "Kritavedhana Kalpa Adhyaya",
+      "shlokaCount": 7
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 7,
+      "title": "Shyama Trivrita preparations",
+      "titleSanskrit": "Shyamatrivrita Kalpa Adhyaya",
+      "shlokaCount": 46
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 8,
+      "title": "Chaturangula preparations",
+      "titleSanskrit": "Chaturangula Kalpa Adhyaya",
+      "shlokaCount": 13
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 9,
+      "title": "Tilvaka preparations",
+      "titleSanskrit": "Tilvaka Kalpa Adhyaya",
+      "shlokaCount": 10
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 10,
+      "title": "Sudha preparations",
+      "titleSanskrit": "Sudha Kalpa Adhyaya",
+      "shlokaCount": 13
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 11,
+      "title": "Saptala and Shankhini",
+      "titleSanskrit": "Saptalashankhini Kalpa",
+      "shlokaCount": 14
+    },
+    {
+      "sthana": "Kalpa Sthana",
+      "sthanaNumber": 7,
+      "chapterNumber": 12,
+      "title": "Danti and Dravanti",
+      "titleSanskrit": "Dantidravanti Kalpa Adhyaya",
+      "shlokaCount": 63
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 1,
+      "title": "Purification procedures",
+      "titleSanskrit": "Kalpana Siddhi Adhyaya",
+      "shlokaCount": 48
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 2,
+      "title": "Panchakarma therapies",
+      "titleSanskrit": "Panchakarmiya Siddhi Adhyaya",
+      "shlokaCount": 21
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 3,
+      "title": "Basti practices",
+      "titleSanskrit": "Bastisutriyam Siddhi Adhyaya",
+      "shlokaCount": 31
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 4,
+      "title": "Unctuous enema complications",
+      "titleSanskrit": "Snehavyapat Siddhi Adhyaya",
+      "shlokaCount": 24
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 5,
+      "title": "Enema nozzle complications",
+      "titleSanskrit": "Netrabastivyapat Siddhi",
+      "shlokaCount": 11
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 6,
+      "title": "Emesis/purgation complications",
+      "titleSanskrit": "Vamana Virechana Vyapat",
+      "shlokaCount": 40
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 7,
+      "title": "Enema complications",
+      "titleSanskrit": "Bastivyapat Siddhi Adhyaya",
+      "shlokaCount": 20
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 8,
+      "title": "Enema formulations",
+      "titleSanskrit": "Prasrita Yogiyam Siddhi",
+      "shlokaCount": 36
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 9,
+      "title": "Three vital organs treatment",
+      "titleSanskrit": "Trimarmiya Siddhi Adhyaya",
+      "shlokaCount": 44
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 10,
+      "title": "Therapeutic enema success",
+      "titleSanskrit": "Basti Siddhi Adhyaya",
+      "shlokaCount": 24
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 11,
+      "title": "Medicinal fruits in enema",
+      "titleSanskrit": "Phalamatra Siddhi Adhyaya",
+      "shlokaCount": 26
+    },
+    {
+      "sthana": "Siddhi Sthana",
+      "sthanaNumber": 8,
+      "chapterNumber": 12,
+      "title": "Best therapeutic enema",
+      "titleSanskrit": "Uttar Basti Siddhi Adhyaya",
+      "shlokaCount": 30
+    }
+  ]
+}

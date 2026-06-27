@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 8,
+    "chapterTitleEnglish": "Management of Rajayakshma",
+    "chapterTitleSanskrit": "Rajayakshma Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Rajayakshma Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Singh R.H., Ghadi R.",
+    "editors": [
+      "Baghel M.S."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.009"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Rajayakshma_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "Rajayakshma has been identified since Vedic period (2400 BC). Yakshma,the word, first appeared in the vedas (Rigveda and Atharvaveda), but a detailed description was missing. In the Ayurvedic treatises, or the Samhitas (1000 BC to 500 AD), a detailed description of rajayakshma can be found. An account of its definition, etiology, pathogenesis, general features, management, and the prognosis is found in Charak Samhita, Sushruta Samhita, and Ashtanga Hridaya with more extensive description is in Charak Samhita. Four etiological factors are described, sahasa (over exertion or working beyond one's capacity), samdharana (suppression of natural urges), kshaya (depletion of tissue element) and vishamashana (irregular diet). The three chapters viz. Shosha Nidana, Rajayakshma Chikitsa and Kshatakshina Chikitsa deal with similar clinical presentation of disease and principles of management. Dhatukshaya is common feature in all. Advancement of dhatukshaya in shosha reaches a stage when immuno-suppression with resulting opportunistic infection occurs and is called rajayakshma. In kshatakshina or urakshata there is chest injury due to direct or indirect trauma along with dhatukshaya. Brimhana of dhatu (nourishment) is the principle line of management. Thus upsarga(additional contact or exposure to) may be considered as Sannikrishta Nidana (recent cause) of rajayakshma. Sushruta was aware of this fact, and he has described its contagious nature by saying that skin diseases, fever, rajayakshma and conjunctivitis are infectious diseases which spread from one man to another man. Symptomatology of rajayakshma has been described in three different categories viz. trirupa, shadrupa and ekadashrupa. It seems that trirupa denotes the description of early tuberculosis when the disease is of mild nature whereas shadrupa is the clinical manifestation of the moderately advanced disease. Shadrupa is the cardinal symptoms of pulmonary tuberculosis which are found in the majority of the patients. Ekadashrupa or eleven-fold manifestation may appear in the far advanced stage of tuberculosis or in those patients whose vyadhikshamatva (immunity) is hina (low). The clinical presentation of disease includes groups of signs with their specific pathogenesis. The increasing number of signs denote severity of disease and spread of disease over body organs. As far as the treatment is concerned, mild samshodhana therapy is indicated in excess aggravation of dosha. However drastic purification leading to emaciation is strictly contraindicated especially virechana (purgation) therapy. Samshamana (pacification) therapy includes treatment of symptoms and treatment of emaciation to increase the declining dhatus (tissues) of the body by using various types of meat and wines. Meat having high protein content helps in rebuilding body tissues whereas wine acts as a tonic and appetizer, it also helps open the blocked channels thereby providing proper nutrition to all the tissues of the body. Rasayana (rejuvenatives) have a significant role in enhancing immunity and thereby preventing infectious diseases. The formulations described in Rajayakshma Chikitsa enhance immunity as well as an adjuvant therapies to anti-tubercular treatments in current practices. This chapter underscores the importance of judicious combination of modern drug treatment of infectious diseases with Ayurvedic treatment to achieve better results.[1]",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "History of disease",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Synonyms of disease and history of yakshma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Four important causative factors of disease",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitory signs",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis and clinical features",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of pratishyaya",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Appearance of sputum",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of rajayakshma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Swarabheda (hoarseness of voice) and characteristics as per dosha affliction",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rakta shthivana (hemoptysis)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causes of depletion of tissues",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cause of anorexia",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cause of vomiting",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of rajayakshma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various dietary articles in treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Swedana (sudation)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Alepana (local applications)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Beneficial procedures of purification",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External applications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of shodhana (purification)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various formulations for nasya (nasal errhines)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various unctuous formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sitopaladi formulation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vasa ghee and shatavari ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Duralabhadi ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Jivantyadi ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Baladi medicated milk",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of burning sensation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of productive cough/excessive expectoration and vomiting",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of diarrhea",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Formulations for treatment of anorexia",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Yavani shadava formulation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Talisadi formulation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of meat in emaciation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Administration of meats in disguised form (or without telling the patient)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Best animal meats in rajayakshma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of meats for alleviation of specific dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prescription of wines in rajayakshma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various ghee formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External treatments",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Lifestyle treatments",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General pathogenesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis of various types of rajayakshma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contemporary Treatments",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cautions for purification treatments",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Role of rasayana in enhancing the immunity",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Research on Ayurveda treatment in tuberculosis patients",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related Chapter",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Further reading",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "Rajayakshma has been identified since Vedic period (2400 BC). Yakshma,the word, first appeared in the vedas (Rigveda and Atharvaveda), but a detailed description was missing. In the Ayurvedic treatises, or the Samhitas (1000 BC to 500 AD), a detailed description of rajayakshma can be found. An account of its definition, etiology, pathogenesis, general features, management, and the prognosis is found in Charak Samhita, Sushruta Samhita, and Ashtanga Hridaya with more extensive description is in Charak Samhita. Four etiological factors are described, sahasa (over exertion or working beyond one's capacity), samdharana (suppression of natural urges), kshaya (depletion of tissue element) and vishamashana (irregular diet). The three chapters viz. Shosha Nidana, Rajayakshma Chikitsa and Kshatakshina Chikitsa deal with similar clinical presentation of disease and principles of management. Dhatukshaya is common feature in all. Advancement of dhatukshaya in shosha reaches a stage when immuno-suppression with resulting opportunistic infection occurs and is called rajayakshma. In kshatakshina or urakshata there is chest injury due to direct or indirect trauma along with dhatukshaya. Brimhana of dhatu (nourishment) is the principle line of management. Thus upsarga(additional contact or exposure to) may be considered as Sannikrishta Nidana (recent cause) of rajayakshma. Sushruta was aware of this fact, and he has described its contagious nature by saying that skin diseases, fever, rajayakshma and conjunctivitis are infectious diseases which spread from one man to another man. Symptomatology of rajayakshma has been described in three different categories viz. trirupa, shadrupa and ekadashrupa. It seems that trirupa denotes the description of early tuberculosis when the disease is of mild nature whereas shadrupa is the clinical manifestation of the moderately advanced disease. Shadrupa is the cardinal symptoms of pulmonary tuberculosis which are found in the majority of the patients. Ekadashrupa or eleven-fold manifestation may appear in the far advanced stage of tuberculosis or in those patients whose vyadhikshamatva (immunity) is hina (low). The clinical presentation of disease includes groups of signs with their specific pathogenesis. The increasing number of signs denote severity of disease and spread of disease over body organs. As far as the treatment is concerned, mild samshodhana therapy is indicated in excess aggravation of dosha. However drastic purification leading to emaciation is strictly contraindicated especially virechana (purgation) therapy. Samshamana (pacification) therapy includes treatment of symptoms and treatment of emaciation to increase the declining dhatus (tissues) of the body by using various types of meat and wines. Meat having high protein content helps in rebuilding body tissues whereas wine acts as a tonic and appetizer, it also helps open the blocked channels thereby providing proper nutrition to all the tissues of the body. Rasayana (rejuvenatives) have a significant role in enhancing immunity and thereby preventing infectious diseases. The formulations described in Rajayakshma Chikitsa enhance immunity as well as an adjuvant therapies to anti-tubercular treatments in current practices. This chapter underscores the importance of judicious combination of modern drug treatment of infectious diseases with Ayurvedic treatment to achieve better results.[1]",
+  "vidhiVimarsha": "Rajayakshma has been identified since Vedic period (2400 BC). Yakshma,the word, first appeared in the vedas (Rigveda and Atharvaveda), but a detailed description was missing. In the Ayurvedic treatises, or the Samhitas (1000 BC to 500 AD), a detailed description of rajayakshma can be found. An account of its definition, etiology, pathogenesis, general features, management, and the prognosis is found in Charak Samhita, Sushruta Samhita, and Ashtanga Hridaya with more extensive description is in Charak Samhita. Four etiological factors are described, sahasa (over exertion or working beyond one's capacity), samdharana (suppression of natural urges), kshaya (depletion of tissue element) and vishamashana (irregular diet). The three chapters viz. Shosha Nidana, Rajayakshma Chikitsa and Kshatakshina Chikitsa deal with similar clinical presentation of disease and principles of management. Dhatukshaya is common feature in all. Advancement of dhatukshaya in shosha reaches a stage when immuno-suppression with resulting opportunistic infection occurs and is called rajayakshma. In kshatakshina or urakshata there is chest injury due to direct or indirect trauma along with dhatukshaya. Brimhana of dhatu (nourishment) is the principle line of management. Thus upsarga(additional contact or exposure to) may be considered as Sannikrishta Nidana (recent cause) of rajayakshma. Sushruta was aware of this fact, and he has described its contagious nature by saying that skin diseases, fever, rajayakshma and conjunctivitis are infectious diseases which spread from one man to another man. Symptomatology of rajayakshma has been described in three different categories viz. trirupa, shadrupa and ekadashrupa. It seems that trirupa denotes the description of early tuberculosis when the disease is of mild nature whereas shadrupa is the clinical manifestation of the moderately advanced disease. Shadrupa is the cardinal symptoms of pulmonary tuberculosis which are found in the majority of the patients. Ekadashrupa or eleven-fold manifestation may appear in the far advanced stage of tuberculosis or in those patients whose vyadhikshamatva (immunity) is hina (low). The clinical presentation of disease includes groups of signs with their specific pathogenesis. The increasing number of signs denote severity of disease and spread of disease over body organs. As far as the treatment is concerned, mild samshodhana therapy is indicated in excess aggravation of dosha. However drastic purification leading to emaciation is strictly contraindicated especially virechana (purgation) therapy. Samshamana (pacification) therapy includes treatment of symptoms and treatment of emaciation to increase the declining dhatus (tissues) of the body by using various types of meat and wines. Meat having high protein content helps in rebuilding body tissues whereas wine acts as a tonic and appetizer, it also helps open the blocked channels thereby providing proper nutrition to all the tissues of the body. Rasayana (rejuvenatives) have a significant role in enhancing immunity and thereby preventing infectious diseases. The formulations described in Rajayakshma Chikitsa enhance immunity as well as an adjuvant therapies to anti-tubercular treatments in current practices. This chapter underscores the importance of judicious combination of modern drug treatment of infectious diseases with Ayurvedic treatment to achieve better results.[1]",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 History of disease",
+    "2.2 Synonyms of disease and history of yakshma",
+    "2.3 Four important causative factors of disease 2.3.1 1. Sahasaja rajayakshma (due to over exertion beyond one’s capacity)",
+    "2.3.2 2. Vegasandharanaja rajayakshma (due to suppression of natural urges)",
+    "2.3.3 3. Kshayaja rajayakshma (due to depletion of tissues)",
+    "2.3.4 4. Vishamashanaja rajayakshma (due to irregular dietary habits)",
+    "2.4 Premonitory signs",
+    "2.5 Pathogenesis and clinical features",
+    "2.6 Signs of pratishyaya",
+    "2.7 Appearance of sputum",
+    "2.8 Clinical features of rajayakshma",
+    "2.9 Swarabheda (hoarseness of voice) and characteristics as per dosha affliction",
+    "2.10 Rakta shthivana (hemoptysis)",
+    "2.11 Causes of depletion of tissues",
+    "2.12 Cause of anorexia",
+    "2.13 Cause of vomiting",
+    "2.14 Management of rajayakshma",
+    "2.15 Various dietary articles in treatment",
+    "2.16 Swedana (sudation)",
+    "2.17 Alepana (local applications)",
+    "2.18 Beneficial procedures of purification",
+    "2.19 External applications",
+    "2.20 Indications of shodhana (purification)",
+    "2.21 Various formulations for nasya (nasal errhines)",
+    "2.22 Various unctuous formulations",
+    "2.23 Sitopaladi formulation",
+    "2.24 Vasa ghee and shatavari ghee",
+    "2.25 Duralabhadi ghee",
+    "2.26 Jivantyadi ghee",
+    "2.27 Baladi medicated milk",
+    "2.28 Treatment of burning sensation",
+    "2.29 Treatment of productive cough/excessive expectoration and vomiting",
+    "2.30 Treatment of diarrhea",
+    "2.31 Formulations for treatment of anorexia",
+    "2.32 Yavani shadava formulation",
+    "2.33 Talisadi formulation",
+    "2.34 Importance of meat in emaciation",
+    "2.35 Administration of meats in disguised form (or without telling the patient)",
+    "2.36 Best animal meats in rajayakshma",
+    "2.37 Types of meats for alleviation of specific dosha",
+    "2.38 Prescription of wines in rajayakshma",
+    "2.39 Various ghee formulations",
+    "2.40 External treatments",
+    "2.41 Lifestyle treatments",
+    "2.42 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 General pathogenesis",
+    "4.2 Pathogenesis of various types of rajayakshma",
+    "4.3 Contemporary Treatments 4.3.1 Medicine formulations used",
+    "4.4 Cautions for purification treatments",
+    "4.5 Role of rasayana in enhancing the immunity",
+    "4.6 Research on Ayurveda treatment in tuberculosis patients",
+    "4.7 Related Chapter",
+    "4.8 Further reading"
+  ]
+}

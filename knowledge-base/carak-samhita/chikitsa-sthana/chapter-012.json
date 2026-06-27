@@ -1,0 +1,553 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 12,
+    "chapterTitleEnglish": "Management of Shvayathu",
+    "chapterTitleSanskrit": "Shvayathu Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Shvayathu Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Singh G.",
+    "editors": [
+      "Singh G.",
+      "Goyal M."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.013"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Shvayathu_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "This chapter on Shvayathu Chikitsa (treatment of swelling) follows the chapter on kshata-kshina because in both the diseases vital organs are involved. Charaka defines shvayathu as bulging (utsedha) from the skin and this chapter mainly deals with the management of various types of general swellings and local swellings such as pidika (papules and pustules), nodules (including gandhamala), large swellings like galaganda (goiter), tumor etc are also described. Chapter 18th of Sutra Sthana deals with diagnostic aspects of swelling under the name of trishothiya. Therein the word shopha is frequently used for shotha. Thus, the words shvayathu, shotha and shopha are used as synonyms and all denote edema or swelling. For inflammatory swelling Sushruta has used the word vrana-shotha. In the Sutra Sthana, Charaka classified shotha in many ways but in this chapter which is mainly on the treatment, only those classifications are given which are important from treatment point of view, such as three types according to dosha viz, vata, pitta and kapha; two types viz. nija (endogenous) and agantuja (exogenous) as well as ekanga (local) and sarvanga (generalized ) types.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causative factors of nija (endogenous) swelling/edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causative factors of agantuka (exogenous) swelling",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis of swelling",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prodromal symptoms of edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tridoshaja nature of all swellings",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General symptoms of swelling",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of vataja dominant edema/swelling",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of pitta dominant swelling (inflammation)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of kapha-dominant edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of bad prognostic of edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of easily curable swelling",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principles of treatment of edema/swelling",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Apathya (unwholesome) for swelling/edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vyoshadi churna for kapha swelling/edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Remedy for tridoshaja edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Remedy for vata edema/swelling",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Remedy for vata-pitta swelling/edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General remedies for edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gandeeradyarishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ashtashato arishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Punarnavadi arishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Triphaladyarishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Powder preparations for edema",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ksharagudika",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Course of gud-adraka",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Course of shilajatu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kamsa haritaki",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Patoladi kashaya",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chitraka ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Yavagu preparations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathya (wholesome food) for shotha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External applications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shaileyadi taila",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Medicated water for bath",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External application in pitta dominance",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External application in kapha dominance",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External application in burning sensation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various types of local swellings",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shira Shopha (cellulitis of head) and Salūka (quinsy)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Bidalika (Ludwig’s angina)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Talu-vidradhi (palatal abscess), upajihvika (superficial glossitis) and adhijihvikā (sub-lingual glossitis)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Upakusha (gingivitis) and danta-vidradhi (dental abscess)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Galaganḍa (goiter),gandamala (cervical adenitis) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Granthi (nodule) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Surgical management of granthi",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Differential diagnosis of arbuda (tumor)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Alaji and akshata (whitlow)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidarika (lymphadenitis) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Visphotaka (eruption)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kaksha (herpes zoster)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Romantika (measles)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Masurika (chickenpox) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Bradhna (hernia) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Bhagandara (fistula-in-ano) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shlipada (elephantiasis) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Jalakagardabha and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General guidelines of management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Derivation of term",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of shotha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shat-kriya-kala of shotha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Differential Diagnosis of shotha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chikitsa Sutra (Principles of treatment)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical practices",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related Chapter",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "This chapter on Shvayathu Chikitsa (treatment of swelling) follows the chapter on kshata-kshina because in both the diseases vital organs are involved. Charaka defines shvayathu as bulging (utsedha) from the skin and this chapter mainly deals with the management of various types of general swellings and local swellings such as pidika (papules and pustules), nodules (including gandhamala), large swellings like galaganda (goiter), tumor etc are also described. Chapter 18th of Sutra Sthana deals with diagnostic aspects of swelling under the name of trishothiya. Therein the word shopha is frequently used for shotha. Thus, the words shvayathu, shotha and shopha are used as synonyms and all denote edema or swelling. For inflammatory swelling Sushruta has used the word vrana-shotha. In the Sutra Sthana, Charaka classified shotha in many ways but in this chapter which is mainly on the treatment, only those classifications are given which are important from treatment point of view, such as three types according to dosha viz, vata, pitta and kapha; two types viz. nija (endogenous) and agantuja (exogenous) as well as ekanga (local) and sarvanga (generalized ) types.",
+  "vidhiVimarsha": "This chapter on Shvayathu Chikitsa (treatment of swelling) follows the chapter on kshata-kshina because in both the diseases vital organs are involved. Charaka defines shvayathu as bulging (utsedha) from the skin and this chapter mainly deals with the management of various types of general swellings and local swellings such as pidika (papules and pustules), nodules (including gandhamala), large swellings like galaganda (goiter), tumor etc are also described. Chapter 18th of Sutra Sthana deals with diagnostic aspects of swelling under the name of trishothiya. Therein the word shopha is frequently used for shotha. Thus, the words shvayathu, shotha and shopha are used as synonyms and all denote edema or swelling. For inflammatory swelling Sushruta has used the word vrana-shotha. In the Sutra Sthana, Charaka classified shotha in many ways but in this chapter which is mainly on the treatment, only those classifications are given which are important from treatment point of view, such as three types according to dosha viz, vata, pitta and kapha; two types viz. nija (endogenous) and agantuja (exogenous) as well as ekanga (local) and sarvanga (generalized ) types.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Causative factors of nija (endogenous) swelling/edema",
+    "2.2 Causative factors of agantuka (exogenous) swelling",
+    "2.3 Pathogenesis of swelling",
+    "2.4 Prodromal symptoms of edema",
+    "2.5 Tridoshaja nature of all swellings",
+    "2.6 General symptoms of swelling",
+    "2.7 Symptoms of vataja dominant edema/swelling",
+    "2.8 Symptoms of pitta dominant swelling (inflammation)",
+    "2.9 Symptoms of kapha-dominant edema",
+    "2.10 Symptoms of bad prognostic of edema",
+    "2.11 Symptoms of easily curable swelling",
+    "2.12 Principles of treatment of edema/swelling",
+    "2.13 Apathya (unwholesome) for swelling/edema",
+    "2.14 Vyoshadi churna for kapha swelling/edema",
+    "2.15 Remedy for tridoshaja edema",
+    "2.16 Remedy for vata edema/swelling",
+    "2.17 Remedy for vata-pitta swelling/edema",
+    "2.18 General remedies for edema",
+    "2.19 Gandeeradyarishta",
+    "2.20 Ashtashato arishta",
+    "2.21 Punarnavadi arishta",
+    "2.22 Triphaladyarishta",
+    "2.23 Powder preparations for edema",
+    "2.24 Ksharagudika",
+    "2.25 Course of gud-adraka",
+    "2.26 Course of shilajatu",
+    "2.27 Kamsa haritaki",
+    "2.28 Patoladi kashaya",
+    "2.29 Chitraka ghrita",
+    "2.30 Yavagu preparations",
+    "2.31 Pathya (wholesome food) for shotha",
+    "2.32 External applications",
+    "2.33 Shaileyadi taila",
+    "2.34 Medicated water for bath",
+    "2.35 External application in pitta dominance",
+    "2.36 External application in kapha dominance",
+    "2.37 External application in burning sensation",
+    "2.38 Various types of local swellings",
+    "2.39 Shira Shopha (cellulitis of head) and Salūka (quinsy)",
+    "2.40 Bidalika (Ludwig’s angina)",
+    "2.41 Talu-vidradhi (palatal abscess), upajihvika (superficial glossitis) and adhijihvikā (sub-lingual glossitis)",
+    "2.42 Upakusha (gingivitis) and danta-vidradhi (dental abscess)",
+    "2.43 Galaganḍa (goiter),gandamala (cervical adenitis) and its management",
+    "2.44 Granthi (nodule) and its management",
+    "2.45 Surgical management of granthi",
+    "2.46 Differential diagnosis of arbuda (tumor)",
+    "2.47 Alaji and akshata (whitlow)",
+    "2.48 Vidarika (lymphadenitis) and its management",
+    "2.49 Visphotaka (eruption)",
+    "2.50 Kaksha (herpes zoster)",
+    "2.51 Romantika (measles)",
+    "2.52 Masurika (chickenpox) and its management",
+    "2.53 Bradhna (hernia) and its management",
+    "2.54 Bhagandara (fistula-in-ano) and its management",
+    "2.55 Shlipada (elephantiasis) and its management",
+    "2.56 Jalakagardabha and its management",
+    "2.57 General guidelines of management",
+    "2.58 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Derivation of term",
+    "4.2 Pathogenesis",
+    "4.3 Types of shotha",
+    "4.4 Complications",
+    "4.5 Shat-kriya-kala of shotha",
+    "4.6 Differential Diagnosis of shotha",
+    "4.7 Chikitsa Sutra (Principles of treatment)",
+    "4.8 Clinical practices",
+    "4.9 Related Chapter",
+    "5 References"
+  ]
+}

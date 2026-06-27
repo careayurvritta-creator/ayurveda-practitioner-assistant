@@ -1,0 +1,406 @@
+{
+  "metadata": {
+    "sthana": "Siddhi Sthana",
+    "sthanaNumber": 8,
+    "chapterNumber": 6,
+    "chapterTitleEnglish": "Management of complications of emesis and purgation",
+    "chapterTitleSanskrit": "Vamana Virechana Vyapat Siddhi Adhyaya",
+    "chapterTitleDevanagari": "Vamana Virechana Vyapat Siddhi",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Mangalasseri P.",
+    "editors": [
+      "Thakar A. B.",
+      "Mangalasseri P."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s08.007"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Vamana_Virechana_Vyapat_Siddhi_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "The chapter Vamana Virechana Vyapat Siddhi explains the complications of improper administration of shodhana karma and their effective management. Three earlier chapters dealt with complications of basti (therapeutic enema). In same sequence of describing complications of purification therapies, those of therapeutic emesis and purgation are described in this chapter. Earlier in Sutra Sthana 15th chapter (Upakalpaniya Adhyaya), the procedure of vamana and virechana are explained in detail. Their further specifications like signs and symptoms of proper, inadequate and excess actions are explained in first chapter (Kalpana Siddhi) of this section. The indications and and contra-indications are described in the second chapter (Panchakarmiya Siddhi). The remaining details of therapeutic emesis and purgation are explained in the present chapter. The suitable seasons for shodhana, proper timing for the administration of snehana (oleation) and swedana (sudation) are required because doshas get naturally vitiated in specific seasons and are associated in case of disease. Specific pre-requisites for adequate purification are to be considered prior to the procedure. Assessment of vitiation of dosha, agni (digestive power), koshtha (bowel) and unctuousness of patient are most important factors for administration of purification therapy. Proper diet and digestion of previous day meal, stable mental state of patient is important to get benefits of purification. The physician should keenly observe the patient during purification therapy for assessing signs of eliminating doshas otherwise complications may arise. The physician shall be well versed with diagnosis and management of these complications.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Seasons for purification",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of oleation in Panchakarma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of purification",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Procedure of taking purgatives for therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Consequences if medicines taken during indigestion",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of appropriate dosage of medicine",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Careful administration of medicine with mental concentration",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diet before purification therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of proper elimination",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of digested and undigested medicine",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ten complications of emesis and purgation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Three types of purification according to its signs",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various conditions and management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of excess elimination and management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of diet after purification",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complication of adhmana (abdominal distension) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complication of parikartika (fissure in ano) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complication of paristrava (discharge) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complication of hridgraha (chest congestion) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complication of gatra-graha (body stiffness) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complication of jeevadana (bleeding) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complication of gudavibhramsha (rectum prolapse) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complication of stambha (stiffness) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complications and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Klama (fatigue without exertion) and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of oleation and sudation therapies before purification",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of Virechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of Sneha Virechana and Ruksha Virechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Procedure of virechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Similes for action of virechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contraindication in state of indigestion",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of proper dosage",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of concentration while taking purification treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diet before purification treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of proper purification",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "After measures of vamana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of specific diet after purification treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of digestion of purification medicine",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complications of purification treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of improper purification and its consequences",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ayoga (less purification)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hazards of excess purification and its management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of excess emesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diet after procedure",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Important concepts in the chapter",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "The chapter Vamana Virechana Vyapat Siddhi explains the complications of improper administration of shodhana karma and their effective management. Three earlier chapters dealt with complications of basti (therapeutic enema). In same sequence of describing complications of purification therapies, those of therapeutic emesis and purgation are described in this chapter. Earlier in Sutra Sthana 15th chapter (Upakalpaniya Adhyaya), the procedure of vamana and virechana are explained in detail. Their further specifications like signs and symptoms of proper, inadequate and excess actions are explained in first chapter (Kalpana Siddhi) of this section. The indications and and contra-indications are described in the second chapter (Panchakarmiya Siddhi). The remaining details of therapeutic emesis and purgation are explained in the present chapter. The suitable seasons for shodhana, proper timing for the administration of snehana (oleation) and swedana (sudation) are required because doshas get naturally vitiated in specific seasons and are associated in case of disease. Specific pre-requisites for adequate purification are to be considered prior to the procedure. Assessment of vitiation of dosha, agni (digestive power), koshtha (bowel) and unctuousness of patient are most important factors for administration of purification therapy. Proper diet and digestion of previous day meal, stable mental state of patient is important to get benefits of purification. The physician should keenly observe the patient during purification therapy for assessing signs of eliminating doshas otherwise complications may arise. The physician shall be well versed with diagnosis and management of these complications.",
+  "vidhiVimarsha": "The chapter Vamana Virechana Vyapat Siddhi explains the complications of improper administration of shodhana karma and their effective management. Three earlier chapters dealt with complications of basti (therapeutic enema). In same sequence of describing complications of purification therapies, those of therapeutic emesis and purgation are described in this chapter. Earlier in Sutra Sthana 15th chapter (Upakalpaniya Adhyaya), the procedure of vamana and virechana are explained in detail. Their further specifications like signs and symptoms of proper, inadequate and excess actions are explained in first chapter (Kalpana Siddhi) of this section. The indications and and contra-indications are described in the second chapter (Panchakarmiya Siddhi). The remaining details of therapeutic emesis and purgation are explained in the present chapter. The suitable seasons for shodhana, proper timing for the administration of snehana (oleation) and swedana (sudation) are required because doshas get naturally vitiated in specific seasons and are associated in case of disease. Specific pre-requisites for adequate purification are to be considered prior to the procedure. Assessment of vitiation of dosha, agni (digestive power), koshtha (bowel) and unctuousness of patient are most important factors for administration of purification therapy. Proper diet and digestion of previous day meal, stable mental state of patient is important to get benefits of purification. The physician should keenly observe the patient during purification therapy for assessing signs of eliminating doshas otherwise complications may arise. The physician shall be well versed with diagnosis and management of these complications.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Seasons for purification",
+    "2.2 Importance of oleation in Panchakarma",
+    "2.3 Indications of purification",
+    "2.4 Procedure of taking purgatives for therapy",
+    "2.5 Consequences if medicines taken during indigestion",
+    "2.6 Characteristics of appropriate dosage of medicine",
+    "2.7 Careful administration of medicine with mental concentration",
+    "2.8 Diet before purification therapy",
+    "2.9 Signs of proper elimination",
+    "2.10 Signs of digested and undigested medicine",
+    "2.11 Ten complications of emesis and purgation",
+    "2.12 Three types of purification according to its signs",
+    "2.13 Various conditions and management",
+    "2.14 Signs of excess elimination and management",
+    "2.15 Importance of diet after purification",
+    "2.16 Complication of adhmana (abdominal distension) and its management",
+    "2.17 Complication of parikartika (fissure in ano) and its management",
+    "2.18 Complication of paristrava (discharge) and its management",
+    "2.19 Complication of hridgraha (chest congestion) and its management",
+    "2.20 Complication of gatra-graha (body stiffness) and its management",
+    "2.21 Complication of jeevadana (bleeding) and its management",
+    "2.22 Complication of gudavibhramsha (rectum prolapse) and its management",
+    "2.23 Complication of stambha (stiffness) and its management",
+    "2.24 Complications and its management",
+    "2.25 Klama (fatigue without exertion) and its management",
+    "2.26 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Importance of oleation and sudation therapies before purification",
+    "4.2 Indications of Virechana",
+    "4.3 Indications of Sneha Virechana and Ruksha Virechana",
+    "4.4 Procedure of virechana",
+    "4.5 Similes for action of virechana",
+    "4.6 Contraindication in state of indigestion",
+    "4.7 Characteristics of proper dosage",
+    "4.8 Importance of concentration while taking purification treatment",
+    "4.9 Diet before purification treatment",
+    "4.10 Signs of proper purification",
+    "4.11 After measures of vamana",
+    "4.12 Importance of specific diet after purification treatment",
+    "4.13 Signs of digestion of purification medicine",
+    "4.14 Complications of purification treatment",
+    "4.15 Signs of improper purification and its consequences",
+    "4.16 Ayoga (less purification)",
+    "4.17 Hazards of excess purification and its management",
+    "4.18 Management of excess emesis",
+    "4.19 Diet after procedure",
+    "4.20 Important concepts in the chapter",
+    "5 References"
+  ]
+}

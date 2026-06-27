@@ -7,6 +7,9 @@ export * from './allopathy'
 export * from './charak-samhita'
 export * from './charak'
 export * from './sushruta'
+export * from './ashtanga-hridaya'
+export * from './siddhanta-kosha'
+export * from './indian-vedas'
 export * from './clinical-evidence'
 export * from './external-qa'
 export * from './modern-medicines'
@@ -17,12 +20,27 @@ import { DISEASES } from './diseases'
 import { HERBS, DRUG_INTERACTIONS, RASAS, GUNAS, VIRYAS, VIPAKAS } from './herbs'
 import { TREATMENTS, PURVAKARMA, RASAYANA_THERAPIES, PATHYA_APATHYA, DINACHARYA, RITUCHARYA } from './treatments'
 import { ALLOPATHY_INTEGRATION, DRUG_INTERACTION_DATABASE, PRESCRIBING_GUIDELINES, SAFETY_WARNINGS } from './allopathy'
-import { CHARAK_SAMHITA, KEY_CONCEPTS, CHAPTER_SUMMARY } from './charak-samhita'
-import { CHARAK_SAMHITA_COMPLETE, searchCharakSamhita, getCharakTreatmentProtocols, getCharakDiseaseDescriptions } from './charak'
-import { SUSHruta_CHAPTERS } from './sushruta'
+import { CHARAK_SAMHITA, KEY_CONCEPTS, CHAPTER_SUMMARY, CHARAK_SAMHITA_CHAPTERS } from './charak-samhita'
+import { CHARAK_SAMHITA_COMPLETE, CHARAK_CHAPTERS, searchCharakSamhita, getCharakTreatmentProtocols, getCharakDiseaseDescriptions, getCharakChapterContent, getCharakChaptersBySthana, getAllCharakChapters } from './charak'
+import { SUSHRUTA_CHAPTERS } from './sushruta'
+import { ASHTANGA_HRIDAYA_COMPLETE, ASHTANGA_CHAPTERS, searchAshtangaHridaya } from './ashtanga-hridaya'
+import { SIDDHANTA_PRINCIPLES, SIDDHANTA_STATS, searchSiddhantaPrinciples } from './siddhanta-kosha'
+import { VEDAS_CORPUS, VEDAS_CORPUS_STATS, searchVedasCorpus } from './indian-vedas'
 import { CLINICAL_EVIDENCE } from './clinical-evidence'
 import { EXTERNAL_QA } from './external-qa'
 import { MODERN_MEDICINES } from './modern-medicines'
+import { VASISHTH_ARTICLES, VASISHTH_STATS } from '../vasishth-knowledge'
+import { CASE_STUDIES, CASE_TREATMENTS, CASE_STUDY_STATS } from '../case-studies-knowledge'
+import { PLANET_AYURVEDA_DISEASES, PLANET_AYURVEDA_STATS } from '../planetayurveda-knowledge'
+import { PLANET_AYURVEDA_HERBS, PLANET_AYURVEDA_HERB_STATS } from '../planetayurveda-herbs-knowledge'
+import { PLANET_AYURVEDA_FORMULATIONS, PLANET_AYURVEDA_FORMULATION_STATS } from '../planetayurveda-formulations-knowledge'
+import { AMIDHA_HERBS, AMIDHA_HERB_STATS, searchAmidhaHerbs } from '../amidha-herbs-knowledge'
+import { BHAISHAJYA_FORMULATIONS, BHAISHAJYA_FORMULATION_STATS, searchBhaishajyaFormulations } from '../bhaishajya-kalpana-kosha-knowledge'
+import { KERALA_AYURVEDA_DOCUMENTS, KERALA_AYURVEDA_STATS, searchKeralaAyurveda } from '../kerala-ayurveda-knowledge'
+import { AYURWIKI_HERBS, searchAyurwikiHerbs } from '../ayurwiki-herbs-knowledge'
+import { GITACARAK_SAMHITA, searchGitaCharak } from '../gita-datasets-charak-knowledge'
+import { CHARAK_ONLINE_SHLOKAS, CHARAK_ONLINE_CHAPTERS, CHARAK_ONLINE_STHANAS, CHARAK_ONLINE_STATS, searchCharakOnline, getCharakOnlineChapter, getCharakOnlineSthana } from '../carak-samhita-knowledge'
+import { TATTVA_VIDHI_VIMARSHA, searchTattvaVimarsha, getChapterVimarsha, getAllTattvaVimarsha, getAllVidhiVimarsha } from '../carak-samhita-knowledge/tattva-vimarsha'
 
 export const AYURVEDA_KNOWLEDGE = {
   fundamentals: FUNDAMENTALS,
@@ -50,18 +68,66 @@ export const AYURVEDA_KNOWLEDGE = {
   chapterSummary: CHAPTER_SUMMARY,
   charakAllChapters: CHARAK_SAMHITA_COMPLETE,
   charakComplete: CHARAK_SAMHITA_COMPLETE,
+  charakChapters: CHARAK_SAMHITA_CHAPTERS,
+  charakChapterData: CHARAK_CHAPTERS,
   charakSearch: searchCharakSamhita,
   charakProtocols: getCharakTreatmentProtocols,
   charakDiseases: getCharakDiseaseDescriptions,
-  charakMetadata: { totalChapters: 120, totalSthanas: 8 },
+  charakGetChapter: getCharakChapterContent,
+  charakGetBySthana: getCharakChaptersBySthana,
+  charakGetAllChapters: getAllCharakChapters,
+  charakMetadata: { totalChapters: CHARAK_SAMHITA_CHAPTERS.length, totalSthanas: 8, sthanaCounts: CHARAK_SAMHITA_CHAPTERS.reduce((acc, ch) => { acc[ch.sthana] = (acc[ch.sthana] || 0) + 1; return acc; }, {} as Record<string, number>) },
   whoMetadata: { totalTerms: 3545, source: 'WHO' },
   // External sources (populated by ingestion scripts)
-  sushrutaChapters: SUSHruta_CHAPTERS,
+  sushrutaChapters: SUSHRUTA_CHAPTERS,
   clinicalEvidence: CLINICAL_EVIDENCE,
   externalQA: EXTERNAL_QA,
   modernMedicines: MODERN_MEDICINES,
-  sushrutaMetadata: { totalChapters: SUSHruta_CHAPTERS.length, source: 'Sushruta Samhita' },
+  vasishthArticles: VASISHTH_ARTICLES,
+  vasishthStats: VASISHTH_STATS,
+  sushrutaMetadata: { totalChapters: SUSHRUTA_CHAPTERS.length, source: 'Sushruta Samhita' },
   clinicalEvidenceMetadata: { totalPapers: CLINICAL_EVIDENCE.length, source: 'PubMed' },
+  vasishthMetadata: { totalArticles: VASISHTH_ARTICLES.length, source: 'Dr. Vasishth WhatsApp', seriesCounts: VASISHTH_STATS.seriesCounts },
+  caseStudies: CASE_STUDIES,
+  caseTreatments: CASE_TREATMENTS,
+  caseStudyMetadata: { totalCases: CASE_STUDIES.length, totalTreatments: CASE_TREATMENTS.length, source: '3Ayur case-studies WhatsApp', categoryCounts: CASE_STUDY_STATS.categoryCounts },
+  planetAyurvedaDiseases: PLANET_AYURVEDA_DISEASES,
+  planetAyurvedaMetadata: { totalDiseases: PLANET_AYURVEDA_DISEASES.length, source: 'Planet Ayurveda', categoryCounts: PLANET_AYURVEDA_STATS.categoryCounts, avgSections: PLANET_AYURVEDA_STATS.avgSections },
+  planetAyurvedaHerbs: PLANET_AYURVEDA_HERBS,
+  planetAyurvedaHerbMetadata: { totalHerbs: PLANET_AYURVEDA_HERBS.length, source: 'Planet Ayurveda Herbs A-Z', avgSections: PLANET_AYURVEDA_HERB_STATS.avgSections, totalContentKb: PLANET_AYURVEDA_HERB_STATS.totalContentKb },
+  planetAyurvedaFormulations: PLANET_AYURVEDA_FORMULATIONS,
+  planetAyurvedaFormulationMetadata: { totalFormulations: PLANET_AYURVEDA_FORMULATIONS.length, source: 'Planet Ayurveda Classical Formulations', categoryCounts: PLANET_AYURVEDA_FORMULATION_STATS.categoryCounts, avgSections: PLANET_AYURVEDA_FORMULATION_STATS.avgSections, totalContentKb: PLANET_AYURVEDA_FORMULATION_STATS.totalContentKb },
+  // Amidha Herb Database (360 herbs)
+  amidhaHerbs: AMIDHA_HERBS,
+  amidhaHerbMetadata: { totalHerbs: AMIDHA_HERBS.length, uniqueFamilies: AMIDHA_HERB_STATS.uniqueFamilies, tridoshaHerbs: AMIDHA_HERB_STATS.tridoshaHerbs, source: 'Amidha Ayurveda Herb Database v2.0', familyCounts: AMIDHA_HERB_STATS.familyCounts, rasaCounts: AMIDHA_HERB_STATS.rasaCounts },
+  // Bhaishajya Kalpana Kosha (176 classical formulations)
+  bhaishajyaFormulations: BHAISHAJYA_FORMULATIONS,
+  bhaishajyaFormulationMetadata: { totalFormulations: BHAISHAJYA_FORMULATIONS.length, uniqueTypes: BHAISHAJYA_FORMULATION_STATS.uniqueTypes, uniqueCategories: BHAISHAJYA_FORMULATION_STATS.uniqueCategories, source: 'Bhaishajya Kalpana Kosha (Amidha Ayurveda)', typeCounts: BHAISHAJYA_FORMULATION_STATS.typeCounts, categoryCounts: BHAISHAJYA_FORMULATION_STATS.categoryCounts },
+  // Ashtanga Hridaya
+  ashtangaHridaya: ASHTANGA_HRIDAYA_COMPLETE,
+  ashtangaChapters: ASHTANGA_CHAPTERS,
+  ashtangaSearch: searchAshtangaHridaya,
+  ashtangaMetadata: { totalChapters: ASHTANGA_CHAPTERS.length, totalSthanas: 6, sthanaCounts: ASHTANGA_HRIDAYA_COMPLETE.sthanaCounts, source: 'Ashtanga Hridaya (Vagbhata)' },
+  // Siddhanta Kosha (162 core Ayurvedic principles)
+  siddhantaPrinciples: SIDDHANTA_PRINCIPLES,
+  siddhantaStats: SIDDHANTA_STATS,
+  // Kerala Ayurveda RAG (practical product/clinical info)
+  keralaAyurveda: KERALA_AYURVEDA_DOCUMENTS,
+  keralaAyurvedaMetadata: KERALA_AYURVEDA_STATS,
+  // Indian Vedas Corpus (Charaka, Sushruta, Rasa Jala Nidhi, IRJAY)
+  vedasCorpus: VEDAS_CORPUS,
+  vedasCorpusMetadata: VEDAS_CORPUS_STATS,
+  // Ayurwiki Herbs (2,185 herbs)
+  ayurwikiHerbs: AYURWIKI_HERBS,
+  ayurwikiMetadata: { totalHerbs: AYURWIKI_HERBS.length, source: 'Ayurwiki Wikipedia' },
+  // Gita/Datasets Charak Samhita (7,978 verses)
+  gitaCharakSamhita: GITACARAK_SAMHITA,
+  gitaCharakMetadata: { totalChapters: GITACARAK_SAMHITA.totalChapters, totalVerses: GITACARAK_SAMHITA.totalVerses, source: GITACARAK_SAMHITA.source },
+  // Charak Samhita Online (9,730 shlokas from carakasamhitaonline.com)
+  charakOnlineShlokas: CHARAK_ONLINE_SHLOKAS,
+  charakOnlineChapters: CHARAK_ONLINE_CHAPTERS,
+  charakOnlineSthanas: CHARAK_ONLINE_STHANAS,
+  charakOnlineMetadata: CHARAK_ONLINE_STATS,
 }
 
 export function searchKnowledge(query: string): string {
@@ -242,8 +308,8 @@ export function searchKnowledge(query: string): string {
   }
 
   // 10. Search sushrutaChapters
-  if (SUSHruta_CHAPTERS && SUSHruta_CHAPTERS.length > 0) {
-    for (const sch of SUSHruta_CHAPTERS) {
+  if (SUSHRUTA_CHAPTERS && SUSHRUTA_CHAPTERS.length > 0) {
+    for (const sch of SUSHRUTA_CHAPTERS) {
       if (
         sch.name.toLowerCase().includes(lowerQuery) ||
         sch.english.toLowerCase().includes(lowerQuery) ||
@@ -279,6 +345,179 @@ export function searchKnowledge(query: string): string {
       ) {
         results.push(`Factual Q&A pair [Dataset: ${qa.sourceDataset}]: Q: "${qa.question}" | A: "${qa.answer}"${qa.classicalReference ? ` (Reference: ${qa.classicalReference})` : ''}`)
       }
+    }
+  }
+
+  // 13. Search Dr. Vasishth clinical experiences
+  if (VASISHTH_ARTICLES && VASISHTH_ARTICLES.length > 0) {
+    for (const art of VASISHTH_ARTICLES) {
+      if (
+        art.title.toLowerCase().includes(lowerQuery) ||
+        art.series.toLowerCase().includes(lowerQuery) ||
+        art.contentEn.toLowerCase().includes(lowerQuery) ||
+        art.contentHi.toLowerCase().includes(lowerQuery) ||
+        art.category.toLowerCase().includes(lowerQuery)
+      ) {
+        const snippet = art.contentEn.slice(0, 300).replace(/\n/g, ' ');
+        results.push(`Dr. Vasishth Clinical Experience [${art.series} #${art.number}]: ${snippet}...`)
+      }
+    }
+  }
+
+  // 14. Search Case Studies
+  if (CASE_STUDIES && CASE_STUDIES.length > 0) {
+    for (const cs of CASE_STUDIES) {
+      if (
+        cs.diseaseName.toLowerCase().includes(lowerQuery) ||
+        cs.diseaseNameEn.toLowerCase().includes(lowerQuery) ||
+        cs.category.toLowerCase().includes(lowerQuery) ||
+        Object.values(cs.sections).some(s => s.toLowerCase().includes(lowerQuery))
+      ) {
+        const snippet = Object.values(cs.sections).join(' ').slice(0, 300).replace(/\n/g, ' ');
+        results.push(`Ayur Case Study #${cs.caseNumber}: ${cs.diseaseName} (${cs.diseaseNameEn}) [${cs.category}] — ${snippet}...`)
+      }
+    }
+  }
+
+  // 15. Search Case Treatments
+  if (CASE_TREATMENTS && CASE_TREATMENTS.length > 0) {
+    for (const tx of CASE_TREATMENTS) {
+      if (
+        tx.title.toLowerCase().includes(lowerQuery) ||
+        tx.content.toLowerCase().includes(lowerQuery)
+      ) {
+        const snippet = tx.content.slice(0, 300).replace(/\n/g, ' ');
+        results.push(`Ayur Treatment #${tx.treatmentNumber}: ${tx.title} — ${snippet}...`)
+      }
+    }
+  }
+
+  // 16. Search Planet Ayurveda Diseases
+  if (PLANET_AYURVEDA_DISEASES && PLANET_AYURVEDA_DISEASES.length > 0) {
+    for (const dis of PLANET_AYURVEDA_DISEASES) {
+      if (
+        dis.name.toLowerCase().includes(lowerQuery) ||
+        dis.category.toLowerCase().includes(lowerQuery) ||
+        Object.values(dis.sections).some(s => s.toLowerCase().includes(lowerQuery))
+      ) {
+        const snippet = dis.fullContent.slice(0, 300).replace(/\n/g, ' ');
+        results.push(`Planet Ayurveda - ${dis.name} [${dis.category}]: ${snippet}...`)
+      }
+    }
+  }
+
+  // 17. Search Planet Ayurveda Herbs
+  if (PLANET_AYURVEDA_HERBS && PLANET_AYURVEDA_HERBS.length > 0) {
+    for (const herb of PLANET_AYURVEDA_HERBS) {
+      if (
+        herb.name.toLowerCase().includes(lowerQuery) ||
+        Object.values(herb.sections).some(s => s.toLowerCase().includes(lowerQuery))
+      ) {
+        const snippet = herb.fullContent.slice(0, 300).replace(/\n/g, ' ');
+        results.push(`Planet Ayurveda Herb - ${herb.name}: ${snippet}...`)
+      }
+    }
+  }
+
+  // 18. Search Planet Ayurveda Classical Formulations
+  if (PLANET_AYURVEDA_FORMULATIONS && PLANET_AYURVEDA_FORMULATIONS.length > 0) {
+    for (const form of PLANET_AYURVEDA_FORMULATIONS) {
+      if (
+        form.name.toLowerCase().includes(lowerQuery) ||
+        form.category.toLowerCase().includes(lowerQuery) ||
+        Object.values(form.sections).some(s => s.toLowerCase().includes(lowerQuery))
+      ) {
+        const snippet = form.fullContent.slice(0, 300).replace(/\n/g, ' ');
+        results.push(`Classical Formulation [${form.category}] - ${form.name}: ${snippet}...`)
+      }
+    }
+  }
+
+  // 19. Search Amidha Herb Database (360 herbs)
+  const amidhaMatches = searchAmidhaHerbs(query)
+  if (amidhaMatches && amidhaMatches.length > 0) {
+    for (const herb of amidhaMatches.slice(0, 5)) {
+      const snippet = herb.preview || `${herb.name} (${herb.botanical_name}) - ${herb.english_name}`;
+      results.push(`Amidha Herb Database - ${herb.name} (${herb.botanical_name}) [${herb.family}]: ${snippet}. Rasa: ${herb.rasa.join(', ')}; Virya: ${herb.virya}; Vipaka: ${herb.vipaka}. Indications: ${herb.main_indications.join(', ')}`)
+    }
+  }
+
+  // 20. Search Bhaishajya Kalpana Kosha (176 classical formulations)
+  const bhaishajyaMatches = searchBhaishajyaFormulations(query)
+  if (bhaishajyaMatches && bhaishajyaMatches.length > 0) {
+    for (const form of bhaishajyaMatches.slice(0, 5)) {
+      const snippet = form.indications || `${form.name} (${form.type}) - ${form.category}`;
+      results.push(`Bhaishajya Kalpana Kosha - ${form.name} (${form.type}) [${form.category}]: ${snippet}. Ingredients: ${form.main_ingredients.join(', ')}. Reference: ${form.reference}. Dosage: ${form.dosage}. Anupana: ${form.anupana}`)
+    }
+  }
+
+  // 21. Search Ashtanga Hridaya chapters
+  const ashtangaMatches = searchAshtangaHridaya(query)
+  if (ashtangaMatches && ashtangaMatches.length > 0) {
+    for (const ch of ashtangaMatches.slice(0, 5)) {
+      results.push(`Ashtanga Hridaya [${ch.sthana} Ch.${ch.chapterNumber}] - ${ch.title} (${ch.sanskritTitle}): ${ch.description}. Key Topics: ${ch.keyTopics.join(', ')}. Clinical Applications: ${ch.clinicalApplications.join(', ')}`)
+    }
+  }
+
+  // 22. Search Siddhanta Kosha (162 core Ayurvedic principles)
+  const siddhantaMatches = searchSiddhantaPrinciples(query)
+  if (siddhantaMatches && siddhantaMatches.length > 0) {
+    for (const principle of siddhantaMatches.slice(0, 5)) {
+      results.push(`Siddhanta Kosha [${principle.category}] - ${principle.name}: ${principle.explanation}. Clinical Importance: ${principle.clinical_importance}. Reference: ${principle.shloka_ref}`)
+    }
+  }
+
+  // 23. Search Kerala Ayurveda (products, programs, educational content)
+  const keralaMatches = searchKeralaAyurveda(query)
+  if (keralaMatches && keralaMatches.length > 0) {
+    for (const doc of keralaMatches.slice(0, 5)) {
+      const snippet = doc.content.slice(0, 300).replace(/\n/g, ' ');
+      results.push(`Kerala Ayurveda [${doc.category}] - ${doc.title} (${doc.type}): ${snippet}...`)
+    }
+  }
+
+  // 24. Search Indian Vedas Corpus (Charaka, Sushruta, Rasa Jala Nidhi, IRJAY)
+  const vedasMatches = searchVedasCorpus(query)
+  if (vedasMatches && vedasMatches.length > 0) {
+    for (const record of vedasMatches.slice(0, 5)) {
+      const snippet = record.content.slice(0, 300).replace(/\n/g, ' ');
+      results.push(`Indian Vedas Corpus [${record.collection}] - ${record.metadata.trim()}: ${snippet}...`)
+    }
+  }
+
+  // 25. Search Ayurwiki Herbs (2,185 herbs from 30+ languages)
+  const ayurwikiMatches = searchAyurwikiHerbs(query)
+  if (ayurwikiMatches && ayurwikiMatches.length > 0) {
+    for (const herb of ayurwikiMatches.slice(0, 5)) {
+      const names = herb.commonNames?.[0] ? ` (${herb.commonNames[0]})` : '';
+      results.push(`Ayurwiki - ${herb.scientificName}${names} [${herb.habit || 'N/A'}]: ${herb.medicalConditions?.join(', ') || 'N/A'}. Parts Used: ${herb.partsUsed?.join(', ') || 'N/A'}. Cultivation: ${herb.cultivation || 'N/A'}`)
+    }
+  }
+
+  // 26. Search Gita/Datasets Charak Samhita (7,978 verses across 8 Sthanas)
+  const gitaCharakMatches = searchGitaCharak(query)
+  if (gitaCharakMatches && gitaCharakMatches.length > 0) {
+    for (const verse of gitaCharakMatches.slice(0, 5)) {
+      results.push(`Charak Samhita [${verse.sthana} ${verse.chapterNumber}] - Verse ${verse.verseId}: ${verse.text}`)
+    }
+  }
+
+  // 27. Search Charak Samhita Online (9,730 shlokas from carakasamhitaonline.com)
+  const charakOnlineMatches = searchCharakOnline(query)
+  if (charakOnlineMatches && charakOnlineMatches.length > 0) {
+    for (const shloka of charakOnlineMatches.slice(0, 5)) {
+      results.push(`Charak Samhita Online [${shloka.sthana} Ch.${shloka.chapterNumber}] - Verse ${shloka.verseNumber}: ${shloka.devanagari}`)
+      if (shloka.english) {
+        results.push(`  Translation: ${shloka.english}`)
+      }
+    }
+  }
+
+  // 28. Search Tattva & Vidhi Vimarsha (Fundamental Principles + Applied Inferences)
+  const vimarshaMatches = searchTattvaVimarsha(query)
+  if (vimarshaMatches && vimarshaMatches.length > 0) {
+    for (const match of vimarshaMatches.slice(0, 5)) {
+      results.push(`Tattva Vimarsha [${match.entry.sthana} Ch.${match.entry.chapterNumber}] - ${match.entry.chapterTitle}: ${match.matchedContent.substring(0, 300)}`)
     }
   }
 

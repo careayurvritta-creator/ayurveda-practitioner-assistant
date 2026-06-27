@@ -1,0 +1,400 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 7,
+    "chapterTitleEnglish": "Management of Kushtha",
+    "chapterTitleSanskrit": "Kushtha Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Kushtha Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Chandola H.M.",
+    "editors": [
+      "Baghel M.S."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.008"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Kushtha_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "Skin is the largest organ of the body constituting the integumentary system, comprising of skin, hair and nails etc. It constitutes 16% of body weight. Skin has the total surface area varying 1.2-2.2 sq.m. It is a combined product of ectoderm as well as of mesoderm. Kushtha (skin disorder or dermatosis) is a chronic disease which presents with ugly colors / complexion/ texture and altered tactile perceptions of the skin. The word kushtha is derived from kushnati vapuh meaning that which alters complexion of body by extracting. All the types of kushtha are caused due to vitiation of tridosha with involvement of skin, blood, lymph and muscular issue. Kushtha is often translated in English as leprosy, which is not correct because of absence of Mycobacterium leprae, though the appearance of skin lesions of mahakushtha resemble leprosy. Etiological factors of kushtha are antagonistic food, toxins released from suppressed natural urges, and practices harmful to the blood and skin. It is tridoshaja disease, but because of variable proportion of one specific dosha, causes variation in features and prognosis. Variable doshic impact on skin, gives different color, complexion, pain sensitivity, texture, deformities, discharge, and tactile perception. Generalized symptoms appear only in prodromal stage. In the context of kushtha, four aspects of skin are important. First is that it consists of six layers as described in [Cha. Sa.Sharira Sthana chapter 4], and each layer is seat of specific type of gradually progressing kushtha. Second aspect is that it is a sensory organ too, and is seat of vata dosha. In case of kushtha vitiated vata in skin manifests as, horripilations, numbness, and loss of tactile perceptions. Third aspect, skin is the sub-tissue or upadhatu of mamsa dhatu, texture of skin depends upon muscle texture, so the dermal deformities spread upto the mamsa dhatu or musculature and skin texture causing ugly shape of skin lesions. Lastly, affliction of deeper layers of skin deteriorates the ulcer healing ability of skin and damages the defense mechanisms against enormous pathological invasions. Thus, the kushtha stands for long time with more and more uglier shape. This chapter is placed after Prameha Chikitsa, because one of the complications of prameha is carbuncle, which penetrates deeper into the muscles and is very similar to kushtha but the etio-pathogenesis is very different. Indulging in heavy to digest food products is responsible for increase of kleda (excess moisture) in the body. Such kleda is carried by mutra and leads to increase in quantity and frequency of mutra leading to pathogenesis of prameha. When same kleda spreads throughout the body causes shaithilyata (looseness of body tissue) and also vitiates meda dhatu. Vitiated kleda and meda are responsible for mamsa dusti which is responsible for pidika genesis and manifest as change in color, texture and sensation of tvacha (skin). This leads to various skin diseases. Another disease named visarpa is explained later in 21st chapter of this section also has these components commonly, but due to prominence of impurity in blood that is a rapidly spreading disease whereas kushtha is slow progressing disease. Whereas visarpa advances into the visceral parts, kushtha spreads horizontally and limited to skin only. All the kushtha are curable except mahakushtha named kakanak, because it does not have any systemic involvements. At the end of the chapter, three types of skin disorders caused by hypo-pigmentations are mentioned as shwitra with their treatments.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenic factors",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitory signs and symptoms",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Eighteen types of skin diseases",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Seven major kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Eleven kshudra kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dosha dominance in types of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General guidelines for diagnosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dosha specific features of diagnosis of dosha dominance in kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principles of management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Local treatments",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mustadi churna",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Benefits of lelitaka (sulphur)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Madhvasava",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kanaka bindu arishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diet in kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Siddharthaka snana( medicinal bath)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External applications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shweta-karaviradya taila",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shweta karavira palladi tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tikta-ikshwakwadi tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kanakaksheeri tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sidhmahara lepa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vipadikahara ghee and taila",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of pitta-kapha dominant kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of pitta dominant kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tikta shatpala ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mahatiktaka ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Maha khadira ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of maggots/micro-organisms in kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of shwitra(vitiligo)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various stages of shwitra",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis of vitiligo",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Meta-physical causes of kilasa",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Patho-physiology of kushtha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Current clinical management of skin diseases",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related links",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Further reading",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related Chapter",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "Skin is the largest organ of the body constituting the integumentary system, comprising of skin, hair and nails etc. It constitutes 16% of body weight. Skin has the total surface area varying 1.2-2.2 sq.m. It is a combined product of ectoderm as well as of mesoderm. Kushtha (skin disorder or dermatosis) is a chronic disease which presents with ugly colors / complexion/ texture and altered tactile perceptions of the skin. The word kushtha is derived from kushnati vapuh meaning that which alters complexion of body by extracting. All the types of kushtha are caused due to vitiation of tridosha with involvement of skin, blood, lymph and muscular issue. Kushtha is often translated in English as leprosy, which is not correct because of absence of Mycobacterium leprae, though the appearance of skin lesions of mahakushtha resemble leprosy. Etiological factors of kushtha are antagonistic food, toxins released from suppressed natural urges, and practices harmful to the blood and skin. It is tridoshaja disease, but because of variable proportion of one specific dosha, causes variation in features and prognosis. Variable doshic impact on skin, gives different color, complexion, pain sensitivity, texture, deformities, discharge, and tactile perception. Generalized symptoms appear only in prodromal stage. In the context of kushtha, four aspects of skin are important. First is that it consists of six layers as described in [Cha. Sa.Sharira Sthana chapter 4], and each layer is seat of specific type of gradually progressing kushtha. Second aspect is that it is a sensory organ too, and is seat of vata dosha. In case of kushtha vitiated vata in skin manifests as, horripilations, numbness, and loss of tactile perceptions. Third aspect, skin is the sub-tissue or upadhatu of mamsa dhatu, texture of skin depends upon muscle texture, so the dermal deformities spread upto the mamsa dhatu or musculature and skin texture causing ugly shape of skin lesions. Lastly, affliction of deeper layers of skin deteriorates the ulcer healing ability of skin and damages the defense mechanisms against enormous pathological invasions. Thus, the kushtha stands for long time with more and more uglier shape. This chapter is placed after Prameha Chikitsa, because one of the complications of prameha is carbuncle, which penetrates deeper into the muscles and is very similar to kushtha but the etio-pathogenesis is very different. Indulging in heavy to digest food products is responsible for increase of kleda (excess moisture) in the body. Such kleda is carried by mutra and leads to increase in quantity and frequency of mutra leading to pathogenesis of prameha. When same kleda spreads throughout the body causes shaithilyata (looseness of body tissue) and also vitiates meda dhatu. Vitiated kleda and meda are responsible for mamsa dusti which is responsible for pidika genesis and manifest as change in color, texture and sensation of tvacha (skin). This leads to various skin diseases. Another disease named visarpa is explained later in 21st chapter of this section also has these components commonly, but due to prominence of impurity in blood that is a rapidly spreading disease whereas kushtha is slow progressing disease. Whereas visarpa advances into the visceral parts, kushtha spreads horizontally and limited to skin only. All the kushtha are curable except mahakushtha named kakanak, because it does not have any systemic involvements. At the end of the chapter, three types of skin disorders caused by hypo-pigmentations are mentioned as shwitra with their treatments.",
+  "vidhiVimarsha": "Skin is the largest organ of the body constituting the integumentary system, comprising of skin, hair and nails etc. It constitutes 16% of body weight. Skin has the total surface area varying 1.2-2.2 sq.m. It is a combined product of ectoderm as well as of mesoderm. Kushtha (skin disorder or dermatosis) is a chronic disease which presents with ugly colors / complexion/ texture and altered tactile perceptions of the skin. The word kushtha is derived from kushnati vapuh meaning that which alters complexion of body by extracting. All the types of kushtha are caused due to vitiation of tridosha with involvement of skin, blood, lymph and muscular issue. Kushtha is often translated in English as leprosy, which is not correct because of absence of Mycobacterium leprae, though the appearance of skin lesions of mahakushtha resemble leprosy. Etiological factors of kushtha are antagonistic food, toxins released from suppressed natural urges, and practices harmful to the blood and skin. It is tridoshaja disease, but because of variable proportion of one specific dosha, causes variation in features and prognosis. Variable doshic impact on skin, gives different color, complexion, pain sensitivity, texture, deformities, discharge, and tactile perception. Generalized symptoms appear only in prodromal stage. In the context of kushtha, four aspects of skin are important. First is that it consists of six layers as described in [Cha. Sa.Sharira Sthana chapter 4], and each layer is seat of specific type of gradually progressing kushtha. Second aspect is that it is a sensory organ too, and is seat of vata dosha. In case of kushtha vitiated vata in skin manifests as, horripilations, numbness, and loss of tactile perceptions. Third aspect, skin is the sub-tissue or upadhatu of mamsa dhatu, texture of skin depends upon muscle texture, so the dermal deformities spread upto the mamsa dhatu or musculature and skin texture causing ugly shape of skin lesions. Lastly, affliction of deeper layers of skin deteriorates the ulcer healing ability of skin and damages the defense mechanisms against enormous pathological invasions. Thus, the kushtha stands for long time with more and more uglier shape. This chapter is placed after Prameha Chikitsa, because one of the complications of prameha is carbuncle, which penetrates deeper into the muscles and is very similar to kushtha but the etio-pathogenesis is very different. Indulging in heavy to digest food products is responsible for increase of kleda (excess moisture) in the body. Such kleda is carried by mutra and leads to increase in quantity and frequency of mutra leading to pathogenesis of prameha. When same kleda spreads throughout the body causes shaithilyata (looseness of body tissue) and also vitiates meda dhatu. Vitiated kleda and meda are responsible for mamsa dusti which is responsible for pidika genesis and manifest as change in color, texture and sensation of tvacha (skin). This leads to various skin diseases. Another disease named visarpa is explained later in 21st chapter of this section also has these components commonly, but due to prominence of impurity in blood that is a rapidly spreading disease whereas kushtha is slow progressing disease. Whereas visarpa advances into the visceral parts, kushtha spreads horizontally and limited to skin only. All the kushtha are curable except mahakushtha named kakanak, because it does not have any systemic involvements. At the end of the chapter, three types of skin disorders caused by hypo-pigmentations are mentioned as shwitra with their treatments.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 Etiology",
+    "2.2 Pathogenic factors",
+    "2.3 Premonitory signs and symptoms",
+    "2.4 Eighteen types of skin diseases",
+    "2.5 Seven major kushtha 2.5.1 1. Kapala Kushtha",
+    "2.5.2 2. Udumbara kushtha",
+    "2.5.3 3.Mandala Kushtha",
+    "2.5.4 4.Rishyajivha Kushtha",
+    "2.5.5 5.Pundarika Kushtha",
+    "2.5.6 6.Sidhma Kushtha",
+    "2.5.7 7.Kakanaka Kushtha",
+    "2.6 Eleven kshudra kushtha 2.6.1 1.Eka kuṣṭha",
+    "2.6.2 2.Charmakhya Kushtha",
+    "2.6.3 3.Kitibha Kushtha",
+    "2.6.4 4.Vaipadika Kushtha",
+    "2.6.5 5.Alasaka Kuṣhtha",
+    "2.6.6 6.Dadru Kushtha",
+    "2.6.7 7.Charmadala Kushtha",
+    "2.6.8 8.Pāmā kuṣṭha",
+    "2.6.9 9. Visphōṭa kuṣṭha",
+    "2.6.10 10.Śatāru kuṣṭha",
+    "2.6.11 11.Vicārcikā kuṣṭha",
+    "2.7 Dosha dominance in types of kushtha",
+    "2.8 General guidelines for diagnosis",
+    "2.9 Dosha specific features of diagnosis of dosha dominance in kushtha",
+    "2.10 Prognosis",
+    "2.11 Principles of management",
+    "2.12 Various formulations",
+    "2.13 Local treatments",
+    "2.14 Mustadi churna",
+    "2.15 Benefits of lelitaka (sulphur)",
+    "2.16 Madhvasava",
+    "2.17 Kanaka bindu arishta",
+    "2.18 Diet in kushtha",
+    "2.19 Siddharthaka snana( medicinal bath)",
+    "2.20 External applications",
+    "2.21 Shweta-karaviradya taila",
+    "2.22 Shweta karavira palladi tailam",
+    "2.23 Tikta-ikshwakwadi tailam",
+    "2.24 Kanakaksheeri tailam",
+    "2.25 Sidhmahara lepa",
+    "2.26 Vipadikahara ghee and taila",
+    "2.27 Management of pitta-kapha dominant kushtha",
+    "2.28 Management of pitta dominant kushtha",
+    "2.29 Tikta shatpala ghee",
+    "2.30 Mahatiktaka ghee",
+    "2.31 Maha khadira ghee",
+    "2.32 Treatment of maggots/micro-organisms in kushtha",
+    "2.33 Management of shwitra(vitiligo)",
+    "2.34 Various stages of shwitra",
+    "2.35 Prognosis of vitiligo",
+    "2.36 Meta-physical causes of kilasa",
+    "2.37 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Patho-physiology of kushtha 4.1.1 1. Kapāla kushtha",
+    "4.1.2 2. Udumbara kushtha",
+    "4.1.3 3. Mandala kushtha",
+    "4.1.4 4. Rishyajivha kushtha",
+    "4.1.5 5. Pundarika kushtha",
+    "4.1.6 6. Sidhma kushtha",
+    "4.1.7 7.Kakanaka kushtha",
+    "4.1.8 Minor kushtha",
+    "4.1.9 1.Eka kushtha",
+    "4.1.10 2. Charmakhya",
+    "4.1.11 3. Kitibha kushtha",
+    "4.1.12 4. Vaipadika kushtha",
+    "4.1.13 5.Alasaka kushtha",
+    "4.1.14 6.Vichārchikā",
+    "4.2 Current clinical management of skin diseases 4.2.1 Principal treatment modalities",
+    "4.2.2 Principal drugs",
+    "4.3 Related links",
+    "4.4 Further reading",
+    "4.5 Related Chapter"
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "sthana": "Chikitsa Sthana",
+  "sthanaNumber": 6,
+  "chapterNumber": 23,
+  "titleEnglish": "Poisoning",
+  "titleSanskrit": "Visha Chikitsa Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातो विषचिकित्सितं व्याख्यास्यामः ||१|| इति ह स्माह भगवानात्रेयः ||२|| प्रागुत्पत्तिं गुणान् योनिं वेगाँल्लिङ्गान्युपक्रमान् | विषस्य ब्रुवतः सम्यगग्निवेश निबोध मे ||३|| prāgutpattiṁ guṇān yōniṁ vēgāmँlliṅgānyupakramān|",
+      "english": "Now we shall expound the chapter \"Visha chikitsa\"(Management of different types of poisoning). Thus said Lord Atreya.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "अमृतार्थं समुद्रे तु मथ्यमाने सुरासुरैः | जज्ञे प्रागमृतोत्पत्तेः पुरुषो घोरदर्शनः ||४|| दीप्ततेजाश्चतुर्दंष्ट्रो हरिकेशोऽनलेक्षणः | जगद्विषण्णं तं दृष्ट्वा तेनासौ विषसञ्ज्ञितः ||५||",
+      "english": "While the ocean was being churned by devas and asuras for obtaining amrita (nectar of life), before the formation of amrita a ferocious looking person with fiery eyes, four fangs and greenish locks emerged. After seeing him the whole world became desperate and from that desperation, visha originated. [4-5]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 6,
+      "devanagari": "जङ्गमस्थावरायां तद्योनौ ब्रह्मा न्ययोजयत् | तदम्बुसम्भवं तस्माद्द्विविधं पावकोपमम् ||६|| अष्टवेगं दशगुणं चतुर्विंशत्युपक्रमम् |७|",
+      "english": "Lord Brahma deposited these visha in jangama(animal origin) and sthavara (earthen and plant origin) categories. Hence in general visha, originated from water; it is (hot) like fire and is of two types. Its action is manifested in 8 stages; it has 10 properties and can be treated with 24 therapeutic measures.[6-7]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 7,
+      "devanagari": "तद्वर्षास्वम्बुयोनित्वात् सङ्क्लेदं गुडवद्गतम् ||७|| सर्पत्यम्बुधरापाये तदगस्त्यो हिनस्ति च | प्रयाति मन्दवीर्यत्वं विषं तस्माद्धनात्यये ||८|",
+      "english": "During rainy season, due to its origin from water, when it comes in contact; it becomes moist similar to gud (jaggery) due to its kleda guna and after that it spreads. However the star Agastya at the end of rainy season, counteracts the effects of visha thereby getting milder in potency.[7-8]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "सर्पाः कीटोन्दुरा लूता वृश्चिका गृहगोधिकाः | जलौकामत्स्यमण्डूकाः कणभाः सकृकण्टकाः ||९|| श्वसिंहव्याघ्रगोमायुतरक्षुनकुलादयः | दंष्ट्रिणो ये विषं तेषां दंष्ट्रोत्थं जङ्गमं मतम् ||१०||",
+      "english": "Sarpa (snakes), kita (insects), loota (spiders), vrishchika (scorpions), griha godhika (house lizards), jalauka (leeches), matsya (fish), manduka (frogs), kanabha or salabha (locusts), krkantaka (chameleon), shwa (dogs), simha (lion), vyaghra (tiger), gomayu (jackal), taraksu (hyena), nakula (mongoose), etc., are the fanged animals through whose fangs the poison is transmitted. The poisons of these creatures constitute animal poisons (poisons of mobile origin).[9-10]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 11,
+      "devanagari": "मुस्तकं पौष्करं क्रौञ्चं वत्सनाभं बलाहकम् | कर्कटं कालकूटं च करवीरकसञ्ज्ञकम् ||११|| पालकेन्द्रायुधं तैलं मेघकं कुशपुष्पकम् | रोहिषं पुण्डरीकं च लाङ्गलक्यञ्जनाभकम् ||१२|| सङ्कोचं मर्कटं शृङ्गीविषं हालाहलं तथा | एवमादीनि चान्यानि मूलजानि स्थिराणि च ||१३||",
+      "english": "The poisons of the immobile (earthen and plant) origin are: the roots (including rhizomes) of mustaka, puskara, kraunca, vatsanabha (Aconitum ferox), balahaka, karkata, kalakuta, karavira (Nerium indicum / Cerbera thevetia), palaka, indrayudha taila, meghaka, kusa-puspaka, rohisa, pundarika, langalaki (Gloriosa superb), anjanabhaka, sankoca, markata, sringi-visa, halahala, and such other poisonous roots.[11-13]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 14,
+      "devanagari": "गरसंयोगजं चान्यद्गरसञ्ज्ञं गदप्रदम् | कालान्तरविपाकित्वान्न तदाशु हरत्यसून् ||१४||",
+      "english": "There is another variety of poison called gara-visha which is prepared artificially by the combination of various substances. It produces various diseases. Since it takes time to get metabolized and to produce its toxic effects, it does not cause instantaneous death of a person.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 15,
+      "devanagari": "निद्रां तन्द्रां क्लमं दाहं सपाकं लोमहर्षणम् | शोफं चैवातिसारं च जनयेज्जङ्गमं विषम् ||१५|| स्थावरं तु ज्वरं हिक्कां दन्तहर्षं गलग्रहम् | फेनवम्यरुचिश्वासमूर्च्छाश्च जनयेद्विषम् ||१६|| जङ्गमं स्यादधोभागमूर्ध्वभागं तु मूलजम् | तस्माद्दंष्ट्राविषं मौलं हन्ति मौलं च दंष्ट्रजम् ||१७||",
+      "english": "Jangama-visha (poison of mobile origin or animal poison) produces nidra (excessive sleep), tandra (drowsiness), klama (mental fatigue), daha (burning sensation), sapakam (suppuration), lomaharshanam (excessive horripilation), shopha (inflammation), atisaram (diarrhoea).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 18,
+      "devanagari": "तृण्मोहदन्तहर्षप्रसेकवमथक्लमा भवन्त्याद्ये | वेगे रसप्रदोषादसृक्प्रदोषाद्द्वितीये तु ||१८|| वैवर्ण्यभ्रमवेपथुमूर्च्छाजृम्भाङ्गचिमिचिमातमकाः | दुष्टपिशितात्तृतीये मण्डलकण्डूश्वयथुकोठाः ||१९|| वातादिजाश्चतुर्थे दाहच्छर्द्यङ्गशूलमूर्च्छाद्याः | नीलादीनां तमसश्च दर्शनं पञ्चमे वेगे ||२०|| षष्ठे हिक्का, भङ्गः स्कन्धस्य तु सप्तमेऽष्टमे मरणम् | नॄणां,",
+      "english": "In human beings, the effects of poisons are manifested in eight different stages as follows:",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "चतुष्पदां स्याच्चतुर्विधः, पक्षिणां त्रिविधः ||२१|| सीदत्याद्ये भ्रमति च, चतुष्पदो वेपते, ततः शून्यः | मन्दाहारो म्रियते श्वासेन हि चतुर्थवेगे तु ||२२|| ध्यायति विहगः प्रथमे वेगे, प्रभ्राम्यति द्वितीये तु | स्रस्ताङ्गश्च तृतीये विषवेगे याति पञ्चत्वम् ||२३||",
+      "english": "In quadruped animals, the effects of poisoning are manifested in four different stages; and in birds, it is manifested in three stages.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 24,
+      "devanagari": "लघु रूक्षमाशु विशदं व्यवायि तीक्ष्णं विकासि सूक्ष्मं च | उष्णमनिर्देश्यरसं दशगुणमुक्तं विषं तज्ज्ञैः ||२४|| रौक्ष्याद्वातमशैत्यात्पित्तं सौक्ष्म्यादसृक् प्रकोपयति | कफमव्यक्तरसत्वादन्नरसांश्चानुवर्तते शीघ्रम् ||२५|| शीघ्रं व्यवायिभावादाशु व्याप्नोति केवलं देहम् | तीक्ष्णत्वान्मर्मघ्नं प्राणघ्नं तद्विकासित्वात् ||२६|| दुरुपक्रमं लघुत्वाद्वैशद्यात् स्यादसक्तगतिदोषम् | दोषस्थानप्रकृतीः प्राप्यान्यतमं ह्युदीरयति ||२७||",
+      "english": "Laghu (lightness for digestion), ruksha (dryness), ashu (rapid), vishada (non sliminess), vyavayi (which pervades whole body before getting digested), tikshna (sharply acting), vikashi (causing looseness of joints by diminution of dhatu), sukshma (subtleness), ushna (hot), and anirdeshya rasa (indistinct taste)- these are the ten properties of poison according to the expert vaidyas.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 28,
+      "devanagari": "स्याद्वातिकस्य वातस्थाने कफपित्तलिङ्गमीषत्तु | तृण्मोहारतिमूर्च्छागलग्रहच्छर्दिफेनादि ||२८|| पित्ताशयस्थितं पैत्तिकस्य कफवातयोर्विषं तद्वत् | तृट्कासज्वरवमथुक्लमदाहतमोतिसारादि ||२९|| कफदेशगं कफस्य च दर्शयेद्वातपित्तयोश्चेषत् | लिङ्गं श्वासगलग्रहकण्डूलालावमथ्वादि ||३०||",
+      "english": "If visha is situated at vata sthana in a person having vatika prakriti, then he suffers from trit (excessive thirst), moha (loss of consciousness), arati (dislikness for everything), moorchha (fainting), galagraha (obstruction in the throat), phena chhardi (vomitus containing froth). There will be less manifestation of signs and symptoms of kapha and pitta.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "दूषीविषं तु शोणितदुष्ट्यारुःकिटिमकोठलिङ्गं च | विषमेकैकं दोषं सन्दूष्य हरत्यसूनेवम् ||३१||",
+      "english": "Dushi-visha (a type of artificial poison) vitiates blood and produces symptoms like aru (eczema in the head), kitibha (psoriasis) and kotha (urticaria). This type of poison afflicts each one of the dosha and causes death of the patient.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 32,
+      "devanagari": "क्षरति विषतेजसाऽसृक् तत् खानि निरुध्य मारयति जन्तुम् | पीतं मृतस्य हृदि तिष्ठति दष्टविद्धयोर्दंशदेशे स्यात् ||३२||",
+      "english": "Due to visha tejus (power of poison) vitiated blood transudes to obstruct srotas (channels) leading to death of the patient.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 33,
+      "devanagari": "नीलौष्ठदन्तशैथिल्यकेशपतनाङ्गभङ्गविक्षेपाः | शिशिरैर्न लोमहर्षो नाभिहते दण्डराजी स्यात् ||३३|| क्षतजं क्षताच्च नायात्येतानि भवन्ति मरणलिङ्गानि | एभ्योऽन्यथा चिकित्स्यास्तेषां चोपक्रमाञ्छृणु मे ||३४||",
+      "english": "Bluish lips, loose teeth, kesha pathana (hair fall), anga bhanga (cutting type of pain in all over body), vikshepa (convulsions), absence of horripilation even if touched by cold things, non-formation of contusion marks when hit by stick, absence of bleeding from ulcers- these are the signs of imminent death of a poisoned patient. Patients without such signs should be treated with the following therapeutic measures.[33-34]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 35,
+      "devanagari": "मन्त्रारिष्टोत्कर्तननिष्पीडनचूषणाग्निपरिषेकाः | अवगाहरक्तमोक्षणवमनविरेकोपधानानि ||३५|| हृदयावरणाञ्जननस्यधूमलेहौषधप्रशमनानि | प्रतिसारणं प्रतिविषं सञ्ज्ञासंस्थानपनं लेपः ||३६|| मृतसञ्जीवनमेव च विंशतिरेते चतुर्भिरधिकाः | स्युरुपक्रमा यथा ये यत्र योज्याः शृणु तथा तान् ||३७||",
+      "english": "In order to cure the patient afflicted with poison, the twenty four therapeutic measures to be adopted are as follows:",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 38,
+      "devanagari": "दंशात्तु विषं दष्टस्याविसृतं वेणिकां भिषग्बद्ध्वा | निष्पीडयेद्भृशं दंशमुद्धरेन्मर्मवर्जं वा ||३८|| तं दंशं वा चूषेन्मुखेन यवचूर्णपांशुपूर्णेन |३९|",
+      "english": "Immediately after bite, before the spreading of the poison from the place of the bite, the venika (string or rope or torniquet) should be tied (at the proximal part of the bite), the site of the bite should be squeezed frequently and forcefully; the place of bite should be excised unless it is a vital part (arma); and the poison should be sucked out with the help of mouth filled with the flour of barley or dust.[38-39]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "प्रच्छनशृङ्गजलौकाव्यधनैः स्राव्यं ततो रक्तम् ||३९|| रक्ते विषप्रदुष्टे दुष्येत् प्रकृतिस्ततस्त्यजेत् प्राणान् | तस्मात् प्रघर्षणैरसृगवर्तमानं प्रवर्त्यं स्यात् ||४०|| त्रिकटुगृहधूमरजनीपञ्चलवणरोचनाः सवार्ताकाः | घर्षणमतिप्रवृत्ते वटादिभिः शीतलैर्लेपः ||४१|| रक्तं हि विषाधानं वायुरिवाग्नेः प्रदेहसेकैस्तत् | शीतैः स्कन्दति तस्मिन् स्कन्ने व्यपयाति विषवेगः ||४२|| विषवेगान्मदमूर्च्छाविषादहृदयद्रवाः प्रवर्तन्ते | शीतैर्निवर्तयेत्तान् वीज्यश्चालोमहर्षात् स्यात् ||४३||",
+      "english": "Thereafter bloodletting should be done with prachhana (scratching with the help of rough instruments), shringa (horn), jalauka (leech), or siravyadhana (venesection).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 44,
+      "devanagari": "तरुरिव मूलच्छेदाद्दंशच्छेदान्न वृद्धिमेति विषम् | आचूषणमानयनं जलस्य सेतुर्यथा तथाऽरिष्टाः ||४४||",
+      "english": "As a tree stops growing up as soon as the root is cut, similarly the action of poison does not spread further when the bite site is excised.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 45,
+      "devanagari": "त्वङ्मांसगतं दाहो दहति विषं स्रावणं हरति रक्तात् | पीतं वमनैः सद्यो हरेद्विरेकैर्द्वितीये तु ||४५||",
+      "english": "Agnikarma (cauterization) causes burning of poison located in skin and flesh. Sravana (drugs used to cause exudation of liquid) helps in flowing out of poison from the blood.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 46,
+      "devanagari": "आदौ हृदयं रक्ष्यं तस्यावरणं पिबेद्यथालाभम् | मधुसर्पिर्मज्जपयोगैरिकमथ गोमयरसं वा ||४६|| इक्षुं सुपक्वमथवा काकं निष्पीड्य तद्रसं वरणम् | छागादीनां वाऽसृग्भस्म मृदं वा पिबेदाशु ||४७||",
+      "english": "In the second stage, hridaya (heart) should be protected and an avarana (covering) should be made according to the availability of drugs. Madhu (honey), ghee (clarified butter), majja (bone marrow), payas (milk), gairikam (red ochre), gomaya rasa (juice of cow dung), well boiled sugar cane juice or the juice squeezed out of meat of crow should be given to the patient for protecting the heart. Patient can be treated immediately with blood of goat etc, ashes or mud diluted with water to drink. [46-47]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 48,
+      "devanagari": "क्षारागदस्तृतीये शोफहरैर्लेखनं समध्वम्बु | गोमयरसश्चतुर्थे वेगे सकपित्थमधुसर्पिः ||४८|| काकाण्डशिरीषाभ्यां स्वरसेनाश्च्योतनाञ्जने नस्यम् | स्यात्पञ्चमेऽथ षष्ठे सञ्ज्ञायाः स्थापनं कार्यम् ||४९|| गोपित्तयुता रजनी मञ्जिष्ठामरिचपिप्पलीपानम् | विषपानं दष्टानां विषपीते दंशनं चान्ते ||५०||",
+      "english": "In the 3rd stage, patient can be treated with ksharagada along with honey and water which can reduces shopha (edema) and is having the property of lekhana (which scrapes out unwanted waste products from the body).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 51,
+      "devanagari": "शिखिपित्तार्धयुतं स्यात् पलाशबीजमगदो मृतेषु वरः | वार्ताकुफाणितागारधूमगोपित्तनिम्बं वा ||५१|| गोपित्तयुतैर्गुटिकाः सुरसाग्रन्थिद्विरजनीमधुककुष्ठैः | शस्ताऽमृतेन तुल्या शिरीषपुष्पकाकाण्डकरसैर्वा ||५२||",
+      "english": "If the patient appears to be dead due to poisoning, then he should be given the powder of the seed of palasha (Butea monosperma) mixed with half the quantity of the bile of peacock.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 53,
+      "devanagari": "काकाण्डसुरसगवाक्षीपुनर्नवावायसीशिरीषफलैः | उद्बन्धविषजलमृते लेपौपधिनस्यपानानि ||५३||",
+      "english": "If the patient appears to be dead because of udbandhana (hanging), poisoning or drowning in water (jalamrita), then the potion comprising kakanda (Canavalia ensiformis), surasa (Ocimum sanctum), gavakshi (Citrullus colocynthis), punarnava (Boerhavia diffusa), vayasi (Solanum nigrum) and fruits of shirisha (Albizzia lebbeck) should be administered in the form of lepa (ointment) along with aupadhi (application of the paste over the head after making incisions in the form of kaakapaada or the paw of a crow, nasya and pana for his revival.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 54,
+      "devanagari": "स्पृक्काप्लवस्थौणेयकाङ्क्षीशैलेयरोचनातगरम् | ध्यामककुङ्कुममांसीसुरसाग्रैलालकुष्ठघ्नम् ||५४|| बृहती शिरीषपुष्पं श्रीवेष्टकपद्मचारटिविशालाः | सुरदारुपद्मकेशरसावरकमनःशिलाकौन्त्यः ||५५|| जात्यर्कपुष्परसरजनीद्वयहिङ्गुपिप्पलीलाक्षाः | जलमुद्गपर्णिचन्दनमधुकमदनसिन्धुवाराश्च ||५६|| शम्पाकलोध्रमयूरकगन्धफलानाकुलीविडङ्गाश्च | पुष्ये संहृत्य समं पिष्ट्वा गुटिका विधेयाः स्युः ||५७|| सर्वविषघ्नो जयकृद्विषमृतसञ्जीवनो ज्वरनिहन्ता | घ्रेयविलेपनधारणधूमग्रहणैर्गृहस्थश्च ||५८|| भूतविषजन्त्वलक्ष्मीकार्मणमन्त्राग्न्यशन्यरीन् हन्यात् | दुःस्वप्नस्त्रीदोषानकालमरणाम्बुचौरभयम् ||५९|| धनधान्यकार्यसिद्धिः श्रीपुष्ट्यायुर्विवर्धनो धन्यः | मृतसञ्जीवन एष प्रागमृताद्ब्रह्मणा विहितः ||६०|| इति मृतसञ्जीवनोऽगदः |",
+      "english": "Sprikka (Delphinium zalil), plava (Cyperus rotundus), sthauneyaka (Taxus baccata), kanksi (Saurashtrika), shaileya (Parmelia perlata), rochana (bile of cow), tagara (Valeriana wallichii), dhyamaka (Cymbopogon martini), kunkuma (Crocus sativua), mamsi (Nardostachys jatamansi), agra (inflorescence) of surasa (Ocimum sanctum), ela (Elettaria cardamomum), ala (Haritala – Purified Arsenic trisulphide), kushtaghna (Khadira – Acacia catechu)), brhati (Solanum indicum), flower of sirisha (Albizzia lebbeck), sriveshtaka (resinous exudation obtained from the trunk of Pinus roxburghii), padmacharati (Clerodendrum indicum), visala (Trichosanthes bracteata), suradaru (Cedrus deodara), padmakesara (Prunus cerasoides), savaraka (a type of Lodhra –Symplocos racemosa), manahshila (Arsenic disulphide), kaunti (Renuka – Vitex negundo), juice of the flowers of jati (Jasminum grandiglorum) and arka (Calotropis procera), (Curcuma longa), daruharidra (Berberis aristata), hingu (Ferula foetida), pippati (Piper lingum), laksha (Laccifer lacca) , jala (Hribera – Valeriana wallichii), mudgaparni (Phaseolus trilobus), chandana (Santalum album), madhuka (Glycyrrhiza glabra), madana (Randia dumentorum), sindhuvara (Vitex negundo), shampaka (Cassia fistula), lodhra (Symplocos racemosa), mayuraka (apamarga – Achyranthes aspera), gandha-phala (privahgu – Setaria italic), nakuli (Rasna – Pluchea lanceolata) and vidanga (Embelia ribes) should be collected in pusya nakshatra. Taken in equal quantities, these drugs are to be triturated, made to a paste, and pills should be made out of this paste.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 61,
+      "devanagari": "मन्त्रैर्धमनीबन्धोऽवमार्जनं कार्यमात्मरक्षा च | दोषस्य विषं यस्य स्थाने स्यात्तं जयेत्पूर्वम् ||६१|| वातस्थाने स्वेदो दध्ना नतकुष्ठकल्कपानं च | घृतमधुपयोऽम्बुपानावगाहसेकाश्च पित्तस्थे ||६२|| क्षारागदः कफस्थानगते स्वेदस्तथा सिराव्यधनम् | दूषीविषेऽथ रक्तस्थिते सिराकर्म पञ्चविधम् ||६३|| भेषजमेवं कल्प्यं भिषग्विदाऽऽलक्ष्य सर्वदा सर्वम् | स्थानं जयेद्धि पूर्वं स्थानस्थस्याविरुद्धं च ||६४||",
+      "english": "Dhamani bandha (application of tourniquet), avamarjana (eliminating the poison), and atmaraksha (protecting ourselves from the attack of evil spirits) should be done with the help of mantras.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 65,
+      "devanagari": "विषदूषितकफमार्गः स्रोतःसंरोधरुद्धवायुस्तु | मृत इव श्वसेन्मर्त्यः स्यादसाध्यलिङ्गैर्विहीनश्च ||६५|| चर्मकषायाः कल्कं बिल्वसमं मूर्ध्नि काकपदमस्य | कृत्वा दद्यात्कटभीकटुकट्फलप्रधमनं च ||६६|| छागं गव्यं माहिषं वा मांसं कौक्कुटमेव वा | दद्यात् काकपदे तस्मिंस्ततः सङ्क्रमते विषम् ||६७||",
+      "english": "When the channel of circulation of kapha gets vitiated by poison, then this causes obstruction in the channel because of which the movement of vayu gets obstructed. As a result of this, the patient breaths as if he is going to die very soon. If he is free from signs and symptoms of incurability, then incisions should be made on his scalp resembling the paw of the crow (kakapada), and one bilva (nearly 40 grams) of the paste of charmakasha (saptala – Acacia concinna) should be applied over it. He may also be given pradhamana (a type of inhalation therapy in which the recipe in powder form is blown into the nostrils) with katabhi (Albizzia procera), katu (shunti – Zingiber officinale, pippali – Piper longum and maricha – Piper nigrum) and katphala (Luffa cylindrica).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 68,
+      "devanagari": "नासाक्षिकर्णजिह्वाकण्ठनिरोधेषु कर्म नस्तः स्यात् | वार्ताकुबीजपूरज्योतिष्मत्यादिभिः पिष्टैः ||६८|| अञ्जनमक्ष्युपरोधे कर्तव्यं बस्तमूत्रपिष्टैस्तु | दारुव्योषहरिद्राकरवीरकरञ्जनिम्बसुरसैस्तु ||६९||",
+      "english": "If there is obstruction to the nose, eyes (vision), ears, tongue and throat, then the patient should be given nasya (inhalation therapy) with the help of the paste of vartaku (Solanum melongena), bijapura (Citrus medica), jyotishmati (Celastrus paniculatus), etc.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 70,
+      "devanagari": "श्वेता वचाऽश्वगन्धा हिङ्ग्वमृता कुष्ठसैन्धवे लशुनम् | सर्षपकपित्थमध्यं टुण्टुककरञ्जबीजानि ||७०|| व्योषं शिरीषपुष्पं द्विरजन्यौ वंशलोचनं च समम् | पिष्ट्वाऽजस्य मूत्रेण गोश्वपित्तेन सप्ताहम् ||७१|| व्यत्यासभावितोऽयं निहन्ति शिरसि स्थितं विषं क्षिप्रम् | सर्वज्वरभूतग्रहविसूचिकाजीर्णमूर्च्छार्तीः ||७२|| उन्मादापस्मारौ काचपटलनीलिकाशिरोदोषान् | शुष्काक्षिपाकपिल्लार्बुदार्मकण्डूतमोदोषान् ||७३|| क्षयदौर्बल्यमदात्ययपाण्डुगदांश्चाञ्जनात्तथा मोहान् | लेपाद्विषदिग्धक्षतलीढदष्टपीतविषघाती ||७४|| अर्शःस्वानद्धेषु च गुदलेपो योनिलेपनं स्त्रीणाम् | मूढे गर्भे दुष्टे ललाटलेपः प्रतिश्याये ||७५|| वृद्धौ किटिमे कुष्ठे श्वित्रविचर्चिकादिषु लेपः | गज इव तरून् विषगदान्निहन्त्यगदगन्धहस्त्येषः ||७६|| इति गन्धहस्तीनामाऽगदः |",
+      "english": "Shveta (Katabhi -Albizzia procera), vacha (Acorus calamus), ashvagandha (Withania somnifera), hingu (Ferula foetida), amrita (Tinospora cordifolia), kushtha (Saussurea lappa), saindhava (rock salt), lashuna (Allium sativum), sarshapa (Brassica campestris), pulp of kapittha (Feronia limonia), tuntuka (Oroxylum indicum), seeds of karanja (Pongamia pinnata), shunti (Zingiber officinale), pippali (Piper longum), maricha (Piper nigrum), flower of shirisha (Albizzia labbec), haridra (Curcuma longa), daruharidra (Berberis aristata) and vamshalochana (Bambusa arundinacea) should be taken in equal quantities, and impregnated as well as triturated with goat’s urine, cow’s bile and horse bile alternatively for seven days each.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 77,
+      "devanagari": "पत्रागुरुमुस्तैला निर्यासाः पञ्च चन्दनं स्पृक्का | त्वङ्नलदोत्पलबालकहरेणुकोशीरवन्यनखाः ||७७|| सुरदारुकनककुङ्कुमध्यामककुष्ठप्रियङ्गवस्तगरम् | पञ्चाङ्गानि शिरीषाद्व्योषालमनःशिलाजाज्यः ||७८|| श्वेतकटभीकरञ्जौ रक्षोघ्नी सिन्धुवारिका रजनी | सुरसाञ्जनगैरिकमञ्जिष्ठानिम्बनिर्यासाः ||७९|| वंशत्वगश्वगन्धाहिङ्गुदधित्थाम्लवेतसं लाक्षा | मधुमधुकसोमराजीवचारुहारोचनातगरम् ||८०|| अगदोऽयं वैश्रवणायाख्यातस्त्र्यम्बकेण षष्ट्यङ्गः | अप्रतिहतप्रभावः ख्यातो महागन्धहस्तीति ||८१|| पित्तेन गवां पेष्यो गुटिकाः कार्यास्तु पुष्ययोगेन | पानाञ्जनप्रलेपैः प्रसाधयेत् सर्वकर्माणि ||८२|| पिल्लं कण्डूं तिमिरं रात्र्यान्ध्यं काचमर्बुदं पटलम् | हन्ति सततप्रयोगाद्धितमितपथ्याशिनां पुंसाम् ||८३|| विषमज्वरानजीर्णान्दद्रुं कण्डूं विसूचिकां पामाम् | विषमूषिकलूतानां सर्वेषां पन्नगानां च | आशु विषं नाशयति समूलजमथ कन्दजं सर्वम् ||८४|| एतेन लिप्तगात्रः सर्पान् गृह्णाति भक्षयेच्च विषम् | कालपरीतोऽपि नरो जीवति नित्यं निरातङ्कः ||८५|| आनद्धे गुदलेपो योनौ लेपश्च मूढगर्भाणाम् | मूर्च्छार्तिषु च ललाटे प्रलेपनमाहुः प्रधानतमम् ||८६|| भेरीमृदङ्गपटहाञ्छत्राण्यमुना तथा ध्वजपताकाः | लिप्त्वाऽहिविषनिरस्त्यै प्रध्वनयेद्दर्शयेन्मतिमान् ||८७|| यत्र च सन्निहितोऽयं न तत्र बालग्रहा न रक्षांसि | न च कार्मणवेताला वहन्ति नाथर्वणा मन्त्राः ||८८|| सर्वग्रहा न तत्र प्रभवन्ति न चाग्निशस्त्रनृपचौराः | लक्ष्मीश्च तत्र भजते यत्र महागन्धहस्त्यस्ति ||८९|| पिष्यमाण इमं चात्र सिद्धं मन्त्रमुदीरयेत् | ‘मम माता जया नाम जयो नामेति मे पिता ||९०|| सोऽहं जयजयापुत्रो विजयोऽथ जयामि च | नमः पुरुषसिंहाय विष्णवे विश्वकर्मणे ||९१|| सनातनाय कृष्णाय भवाय विभवाय च | तेजो वृषाकपेः साक्षात्तेजो ब्रह्मेन्द्रयोर्यमे ||९२|| यथाऽहं नाभिजानामि वासुदेवपराजयम् | मातुश्च पाणिग्रहणं समुद्रस्य च शोषणम् ||९३|| अनेन सत्यवाक्येन सिध्यतामगदो ह्ययम् | हिलिमिलिसंस्पृष्टे रक्ष सर्वभेषजोत्तमे स्वाहा ||९४|| इति महागन्धहस्तीनामाऽगदः |",
+      "english": "The recipe called mahagandhahasti comprises sixty ingredients, viz.,",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 95,
+      "devanagari": "ऋषभकजीवकभार्गीमधुकोत्पलधान्यकेशराजाज्यः | ससितगिरिकोलमध्याः पेयाः श्वासज्वरादिहराः ||९५||",
+      "english": "Intake of rishabhaka (Microstylis wallichii), jeevaka (Microstylis musifera), bharngi (Clerodendrum serratum), madhuka (Glycerrhiza glabra), utpala (Nymphaea stellata), dhanya (Coriandrum sativum), kesara(Mesua ferrea), ajaji (Cuminum cyminum), sitagiri (Clitoria ternatea) and the pulp of kola (Zizyphus jujube) in the form of a peya (thin gruel made up of rice) cures shwasa, fever etc., caused by poisoning.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 96,
+      "devanagari": "हिङ्गु च कृष्णायुक्तं कपित्थरसयुक्तमग्र्यलवणं च | समधुसितौ पातव्यौ ज्वरहिक्काश्वासकासघ्नौ ||९६||",
+      "english": "Intake of hingu (Ferula foetida) and krishna (Piper longum) along with honey and sugar, or the juice of kapittha (Feronia limonia) and saindhava (rock salt) along with honey and sugar cures fever, hiccup, dyspnea and cough caused by poisoning.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 97,
+      "devanagari": "लेहः कोलास्थ्यञ्जनलाजोत्पलमधुघृतैर्वम्याम् | बृहतीद्वयाढकीपत्रधूमवर्तिस्तु हिक्काघ्नी ||९७||",
+      "english": "Intake of the seed-pulp of kola (Zizyphus jujube), anjana (rasanjana), laja (roasted rice grain), utpala (Nymphaea stellata), honey and ghee (clarified butter) in the form of a linctus cures vomiting caused by poisoning.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 98,
+      "devanagari": "शिखिबर्हिबलाकास्थीनि सर्षपाश्चन्दनं च घृतयुक्तम् | धूमो गृहशयनासनवस्त्रादिषु शस्यते विषनुत् ||९८||",
+      "english": "The fumigation with peacock’s feather, crane’s bone, sarshapa (Brassica campestris) and chandana (Santalam album) added with ghee (clarified butter) removes the toxicities in the home, beds, seats and clothes.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 99,
+      "devanagari": "घृतयुक्ते नतकुष्ठे भुजगपतिशिरः शिरीषपुष्पं च | धूमागदः स्मृतोऽयं सर्वविषघ्नः श्वयथुहृच्च ||९९||",
+      "english": "Fumigation with nata (Valeriana wallichii), kushta (Saussurea lappa), head of bhujagapati (snake having two heads or fangs) and flower of shirisha (Albizzia labbec) by adding ghee is called dhumagada, and it cures all types of poison and edema.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 100,
+      "devanagari": "जतुसेव्यपत्रगुग्गुलुभल्लातकककुभपुष्पसर्जरसाः | श्वेता च धूम उरगाखुकीटवस्त्रक्रिमिनुदग्र्यः ||१००||",
+      "english": "The fumigation with jatu (lac), sevya (Vetiveria zizanoides), patra (Cinnamomum tamala), guggulu (Commiphora mukul), bhallataka (Semecarpus anacardium), flower of kakubha (Terminalia arjuna), sarjarasa (Vateria indica) and shveta (Clitoria ternatea) is an excellent remedy for curing poisoning by snake and rat bite. It also helps in destroying the insects (counteracting their poison) and vastrakrimi (yuka or lice).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 101,
+      "devanagari": "तरुणपलाशक्षारं स्रुतं पचेच्चूर्णितैः सह समांशैः | लोहितमृद्रजनीद्वयशुक्लसुरसमञ्जरीमधुकैः ||१०१|| लाक्षासैन्धवमांसीहरेणुहिङ्गुद्विसारिवाकुष्ठैः | सव्योषैर्बाह्लीकैर्दर्वीविलेपनं घट्टयेद्यावत् ||१०२|| सर्वविषशोथगुल्मत्वग्दोषार्शोभगन्दरप्लीह्नः | शोथापस्मारक्रिमिभूतस्वरभेदपाण्डुगदान् ||१०३|| मन्दाग्नित्वं कासं सोन्मादं नाशयेयुरथ पुंसाम् | गुटिकाश्छायाशुष्काः कोलसमास्ताः समुपयुक्ताः ||१०४|| इति क्षारागदः |",
+      "english": "Kshara derived by decanting the ashes of a tender tree, of palasha (Butea monosperma) should be added with equal quantities of lohitamrita (Gairika – red ocre), haridra (Curcuma longa), daruharidra (Berberis aristata), manjari (inflorescence) of the white variety of surasa (Ocimum sanctum), madhuka (Glycerrhiza glabra), laksha), saindhava (rock salt), jatamamsi (Nordostachys jatamansi), harenu (Vitex negundo), hingu (Ferula foetida), sariva (Hemidesmus indicus), kushta (Saussurea lappa), shunti (Zingiber officinale), pippali (Piper longum), maricha (Piper nigrum) and bahlika (kunkuma-kesara-Crocus sativua). This recipe should then be stirred while being cooked till the paste sticks to the spoon. Then pills of the size of kola (Zizyphus jujube) should be made out of this paste and dried in shade. Intake of this cures inflammation caused by all types of poisoning, gulma (abdominal lumps), skin diseases, piles, fistula-in-ano, splenic disorders, edema, epilepsy, parasitic infestation, affliction by evil spirits, hoarseness of voice, anemia, suppression of the power of digestion, cough and insanity. The combination is known as kshara agada.[101-104]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 105,
+      "devanagari": "विषपीतदष्टविद्धेष्वेतद्दिग्धे च वाच्यमुद्दिष्टम् | सामान्यतः, पृथक्त्वान्निर्देशमतः शृणु यथावत् ||१०५|| रिपुयुक्तेभ्यो नृभ्यः स्वेभ्यः स्त्रीभ्योऽथवा भयं नृपतेः | आहारविहारगतं तस्मात् प्रेष्यान् परीक्षेत ||१०६||",
+      "english": "The details regarding the lakshanas and chikitsa of those who has consumed sthavara visha or who has been bitten by poisonous animals or who has been injured by the weapons smeared in poisons or whose cloths have been afflicted by poisons are explained so far in this chapter. Now, hear carefully about the treatment of different types of poison which are to be elaborated separately.[105-106]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 107,
+      "devanagari": "अत्यर्थशङ्कितः स्याद्बहुवागथवाऽल्पवाग्विगतलक्ष्मीः | प्राप्तः प्रकृतिविकारं विषप्रदाता नरो ज्ञेयः ||१०७|| दृष्ट्वैवं न तु सहसा भोज्यं कुर्यात्तदन्नमग्नौ तु | सविषं हि प्राप्यान्नं बहून्विकारान् भजत्यग्निः ||१०८|| शिखिबर्हविचित्रार्चिस्तीक्ष्णाक्षमरूक्षकुणपधूमश्च | स्फुटति च सशब्दमेकावर्तो विहतार्चिरपि च स्यात् ||१०९||",
+      "english": "A person who behaves in an extremely suspicious manner, who is garrulous or who speaks very little, who has lost luster of his face and who exhibits changes in his characteristic features should be considered as a poison-giver.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 110,
+      "devanagari": "पात्रस्थं च विवर्णं भोज्यं स्यान्मक्षिकांश्च मारयति | क्षामस्वरांश्च काकान् कुर्याद्विरजेच्चकोराक्षि ||११०|| पाने नीला राजी वैवर्ण्यं स्वां च नेक्षते छायाम् | पश्यति विकृतामथवा लवणाक्ते फेनमाला स्यात् ||१११||",
+      "english": "The poisoned food when kept in a pot gets discolored, and flies sitting on it die. When this poisoned food is seen by crows, their voice becomes feeble, and when the chakor bird sees it, its eyes become discolored from the normal red colored.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 112,
+      "devanagari": "पानान्नयोःसविषयोर्गन्धेन शिरोरुग्घृति च मूर्च्छा च | स्पर्शेन पाणिशोथः सुप्त्यङ्गुलिदाहतोदनखभेदाः ||११२|| मुखगे त्वोष्ठचिमिचिमा जिह्वा शूना जडा विवर्णा च | द्विजहर्षहनुस्तम्भास्यदाहलालागलविकाराः ||११३|| आमाशयं प्रविष्टे वैवर्ण्यं स्वेदसदनमुत्क्लेदः | दृष्टिहृदयोपरोधो बिन्दुशतैश्चीयते चाङ्गम् ||११४|| पक्वाशयं तु याते मूर्च्छामदमोहदाहबलनाशाः | तन्द्रा कार्श्यं च विषे पाण्डुत्वं चोदरस्थे स्यात् ||११५|| दन्तपवनस्य कूर्चो विशीर्यते दन्तौष्ठमांसशोफश्च | केशच्युतिः शिरोरुग्ग्रन्थयश्च सविषेऽथ शिरोभ्यङ्गे ||११६||",
+      "english": "The smell of poisoned food and drinks causes headache, pain in the cardiac region and unconsciousness. If they are touched, cause edema and numbness in the hands, burning sensation and pricking pain in the fingers, and cracking of the nails. When ingested, these poisoned food and drinks cause tingling sensation in the lips, swelling, numbness and discoloration of the tongue, tingling sensation in the teeth, stiffness of the jaw-bones (mandibular joints), burning sensation in the face, salivation and morbidity in the throat.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 117,
+      "devanagari": "दुष्टेऽञ्जनेऽक्षिदाहस्रावात्युपदेहशोथरागाश्च | खाद्यैरादौ कोष्ठः स्पृश्यैस्त्वग्दूष्यते दुष्टैः ||११७|| स्नानाभ्यङ्गोत्सादनवस्त्रालङ्कारवर्णकैर्दुष्टैः | कण्ड्वर्तिकोठपिडकारोमोद्गमचिमिचिमा शोथाः ||११८|| एते करचरणदाहतोदक्लमाविपाकाश्च | भूपादुकाश्वगजवर्मकेतुशयनासनैर्दुष्टैः ||११९|| माल्यमगन्धं म्लायति शिरोरुजालोमहर्षकरम् | स्तम्भयति खानि नासामुपहन्ति दर्शनं च धूमः ||१२०|| कूपतडागादिजलं दुर्गन्धं सकलुषं विवर्णं च | पीतं श्वयथुं कोठान् पिडकाश्च करोति मरणं च ||१२१|| आदावामाशयगे वमनं त्वक्स्थे प्रदेहसेकादि | कुर्याद्भिषक् चिकित्सां दोषबलं चैव हि समीक्ष्य ||१२२|| इति मूलविषविशेषाः प्रोक्ताः |१२३|",
+      "english": "If the collyrium is poisoned, then the patient suffers from burning sensation, lacrimation and excess production of sticky material, edema and redness of the eyes.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 123,
+      "devanagari": "शृणु जङ्गमस्यातः | सविशेषचिकित्सितमेवादौ तत्रोच्यते तु सर्पाणाम् ||१२३||",
+      "english": "Let us now discuss on the various aspects of animal poisoning. At first, let us discuss on the various aspects of snakes and the special treatment of ailments caused by the snake-bite.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 124,
+      "devanagari": "इह दर्वीकरः सर्पो मण्डली राजिमानिति | त्रयो यथाक्रमं वातपित्तश्लेष्मप्रकोपणाः ||१२४||",
+      "english": "Snakes are classified into three categories- darvikara, mandali and rajiman and they cause aggravation of vayu, pitta and kapha respectively.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 125,
+      "devanagari": "दर्वीकरः फणी ज्ञेयो मण्डली मण्डलाफणः | बिन्दुलेखविचित्राङ्गः पन्नगः स्यात्तु राजिमान् ||१२५||",
+      "english": "The darvikara snake has a hood; the mandali snakes are hoodless but possess rounded marks on their body whereas the rajiman type of snakes possess variegated spots and streaks on its body.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 126,
+      "devanagari": "विशेषाद्रूक्षकटुकमम्लोष्णं स्वादु शीतलम् | विषं यथाक्रमं तेषां तस्माद्वातादिकोपनम् ||१२६||",
+      "english": "The poison of darvikara snake is ununctuous and pungent and due to this it vitiates the vata dosha.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 127,
+      "devanagari": "दर्वीकरकृतो दंशः सूक्ष्मदंष्ट्रापदोऽसितः | निरुद्धरक्तः कूर्माभो वातव्याधिकरो मतः ||१२७||",
+      "english": "The bite by the darvikara sarpa is characterized by minute fang marks, is black, there is absence of bleeding, swelling having the shape of back of a tortoise and it produces several disorders due to aggravation of vata.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 128,
+      "devanagari": "पृथ्वर्पितः सशोथश्च दंशो मण्डलिना कृतः | पीताभः पीतरक्तश्च सर्वपित्तविकारकृत् ||१२८||",
+      "english": "The fang marks due to the bite by mandali sarpa is deep, the wound is spread over a large surface area, associated with edema. There is yellowish discoloration at the site of bite and the exudates at the bite site are yellowish and bloody. They cause several other disorders due to aggravation of pitta.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 129,
+      "devanagari": "कृतो राजिमता दंशः पिच्छिलः स्थिरशोफकृत् | स्निग्धः पाण्डुश्च सान्द्रासृक् श्लेष्मव्याधिसमीरणः ||१२९||",
+      "english": "The bite by the rajimana sarpa is characterized by a soft and stable edema.The bite site is unctuous and pale. The bloody exudates coming from the bite site is thick and several disorders due to aggravation of kapha are produced.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 130,
+      "devanagari": "वृत्तभोगो महाकायः श्वसन्नूर्ध्वेक्षणः पुमान् | स्थूलमूर्धा समाङ्गश्च स्त्री त्वतः स्याद्विपर्ययात् ||१३०|| क्लीबस्त्रसत्यधोदृष्टिः स्वरहीनः प्रकम्पते |",
+      "english": "The snake which is round coiled has a large body, that hisses loudly, that which looks upward, has a large head and an even body is a male. The ones with an opposite characteristics is a female. The eunuch snake is timid in nature.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 131,
+      "devanagari": "स्त्रिया दष्टो विपर्यस्तैरेतैः पुंसा नरो मतः ||१३१|| व्यामिश्रलिङ्गैरेतैस्तु क्लीबदष्टं नरं वदेत् | इत्येतदुक्तं सर्पाणां स्त्रीपुङ्क्लीबनिदर्शनम् ||१३२||",
+      "english": "The patient bitten by a female snake looks downwards, has feeble voice and trembles. In a patient bitten by a male snake, the features contrary to the above are found.if mixed characters is found, one should be known as bitten by an eunuch snake.Thus characters of female, male and eunuch snakes are said.[131-132]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 133,
+      "devanagari": "पाण्डुवक्त्रस्तु गर्भिण्या शूनौष्ठोऽप्यसितेक्षणः | जृम्भाक्रोधोपजिह्वार्तः सूतया रक्तमूत्रवान् ||१३३||",
+      "english": "If one is bitten by a pregnant snake, he suffers from paleness of face, swelling in the lips and blackness of eyes. If one is bitten by a puerperant snake, he suffers from yawning, anger, upajivhika and hematuria.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 134,
+      "devanagari": "सर्पो गौधेर(य)को नाम गोधायां स्याच्चतुष्पदः | कृष्णसर्पेण तुल्यः स्यान्नाना स्युर्मिश्रजातयः ||१३४||",
+      "english": "Quadruped serpent borne by a godha (type of reptile) is known as gaudheyaka. This is similar to the darveekara sarpa. Besides there are several other cross breeds seen in this variety.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 135,
+      "devanagari": "गूढसम्पादितं वृत्तं पीडितं लम्बितार्पितम् | सर्पितं च भृशाबाधं, दंशा योऽन्ये न ते भृशाः ||१३५||",
+      "english": "The bite which is deeply performed, elevated, painful, placed lengthwise and having marks of fangs and inflammation is very troublesome, while the other bites are not so much distressing.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 136,
+      "devanagari": "तरुणाः कृष्णसर्पास्तु गोनसाः स्थविरास्तथा | राजिमन्तो वयोमध्ये भवन्त्याशीविषोपमाः ||१३६||",
+      "english": "Black snakes in young age, gonasa in old age, rajimana in middle age are like a sivisha (dreadful snakes with poisoned vision and breadth).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 137,
+      "devanagari": "सर्पदंष्ट्राश्चतस्रस्तु तासां वामाधरा सिता | पीता वामोत्तरा दंष्ट्रा रक्तश्यावाऽधरोत्तरा ||१३७||",
+      "english": "The fangs of snakes are four in number. Out of them left upper is white, left lower is yellow, right lower is red and right upper is blackish.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 138,
+      "devanagari": "यन्मात्रः पतते बिन्दुर्गोबालात् सलिलोद्धृतात् | वामाधरायां दंष्ट्रायां तन्मात्रं स्यादहेर्विषम् ||१३८||",
+      "english": "The snake venom is equal in quantity with a drop falls from a cow’s hair taken out of water. It is located in the left lower fang of snake.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 139,
+      "devanagari": "एकद्वित्रिचतुर्वृद्धविषभागोत्तरोत्तराः | सवर्णास्तत्कृता दंशा बहूत्तरविषा भृशाः ||१३९||",
+      "english": "The bites caused by fangs have the quantity of poison increased in progressive order and are similar (to fangs) in color. The later ones have profuse poison and are very troublesome.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 140,
+      "devanagari": "सर्पाणामेव विण्मूत्रात् कीटाः स्युः कीटसम्मताः | दूषीविषाः प्राणहरा इति सङ्क्षेपतो मताः ||१४०||",
+      "english": "From the feces and urine of snakes themselves, insects arise which are of two kinds- dooshivisha (slowly acting poison) and pranahara ( acutely acting deadly poison).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 141,
+      "devanagari": "गात्रं रक्तं सितं कृष्णं श्यावं वा पिडकान्वितम् | सकण्डूदाहवीसर्पपाकि स्यात् कुथितं तथा ||१४१|| कीटैर्दूषीविषैर्दष्टं",
+      "english": "The bites of dooshivisha insects shows the signs and symptoms as the part become red, white, black or blackish, covered with boils, associated with itching, burning, spreading and inflammation and gets necrosed.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 142,
+      "devanagari": "लिङ्गं प्राणहरं शृणु | सर्पदष्टे यथा शोथो वर्धते सोग्रगन्ध्यसृक् ||१४२|| दंशोऽक्षिगौरवं मूर्च्छा स रुगार्तः श्वसित्यपि | तृष्णारुचिपरीतश्च भवेद्दूषीविषार्दितः ||१४३||",
+      "english": "Now listen to the symptoms of deadly poison. The swelling increases as in snake bite, the bitten spot contains blood with intense odor, there is heaviness in eyes, fainting, pain, dyspnea, thirst and anorexia. [142-143]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 144,
+      "devanagari": "दंशस्य मध्ये यत् कृष्णं श्यावं वा जालकावृतम् | दग्धाकृति भृशं पाकि क्लेदशोथज्वरान्वितम् ||१४४|| दूषीविषाभिर्लूताभिस्तं दष्टमिति निर्दिशेत् |",
+      "english": "The bite is black or blackish in center, covered with membrane, burn like, exceedingly inflaming and associated with moistening, swelling and fever. These are the signs and symptoms of bite by Dooshivisha Lootha (spider).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 145,
+      "devanagari": "सर्वासामेव तासां च दंशे लक्षणमुच्यते ||१४५|| शोफः श्वेतासिता रक्ताः पीता वा पिडका ज्वरः | प्राणान्तिको भवेच्छ्वासो दाहहिक्काशिरोग्रहाः ||१४६||",
+      "english": "In general the following are the signs and symptoms of spider bite-swelling, boils, white-black-red or yellow, fever, terrible dyspnea, burning sensation, hiccups and stiffness in head.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 147,
+      "devanagari": "आदंशाच्छोणितं पाण्डु मण्डलानि ज्वरोऽरुचिः | लोमहर्षश्च दाहश्चाप्याखुदूषीविषार्दिते ||१४७||",
+      "english": "Pale blood coming out in the region of bite, rashes, fever, anorexia, horripilation and burning sensation- these are the signs and symptoms in the bite by the dooshi visha rats.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 148,
+      "devanagari": "मूर्च्छाङ्गशोथवैवर्ण्यक्लेदशब्दाश्रुतिज्वराः | शिरोगुरुत्वं लालासृक्छर्दिश्चासाध्यमूषिकैः ||१४८||",
+      "english": "In incurable rat poisoning there is fainting, swelling in the part, discoloration, moistening, deafness, fever, heaviness in head, salivation and hematemesis.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 149,
+      "devanagari": "श्यावत्वमथ कार्ष्ण्यं वा नानावर्णत्वमेव वा | मोहः पुरीषभेदश्च दष्टे स्यात् कृकलासकैः ||१४९||",
+      "english": "In bite by chameleon, there is blackish discoloration or other discoloration, mental confusion and diarrhea.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 150,
+      "devanagari": "दहत्यग्निरिवादौ तु भिनत्तीवोर्ध्वमाशु च | वृश्चिकस्य विषं याति दंशे पश्चात्तु तिष्ठति ||१५०||",
+      "english": "In scorpion bite, at first the part as if burns like fire and the poison moves upwards very quickly with tearing pain and later on becomes stationed in the bitten part.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 151,
+      "devanagari": "दष्टोऽसाध्यस्तु दृग्घ्राणरसनोपहतो नरः | मांसैः पतद्भिरत्यर्थं वेदनार्तो जहात्यसून् ||१५१||",
+      "english": "If bitten by scorpion with incurable poison the patient loses the senses of vision, smell and taste, has flesh falling down excessively, suffers from intense pain and finally dies.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 152,
+      "devanagari": "विसर्पः श्वयथुः शूलं ज्वरश्छर्दिरथापि च | लक्षणं कणभैर्दष्टे दंशश्चैव विशीर्यते ||१५२||",
+      "english": "Spreading affliction, swelling, pain, fever, vomiting and decomposition of the bitten part- these are the symptoms of hornet bite.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 153,
+      "devanagari": "हृष्टरोमोच्चिटिङ्गेन स्तब्धलिङ्गो भृशार्तिमान् | दष्टः शीतोदकेनेव सिक्तान्यङ्गानि मन्यते ||१५३||",
+      "english": "If bitten by uchittinga (crab), the patient suffers from horripilation, stiffness of penis, intense pain, and feels as if the body parts are sprinkled over by cold water.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 154,
+      "devanagari": "एकदंष्ट्रार्दितः शूनः सरुक् स्यात् पीतकः सतृट् | छर्दिर्निद्रा च मण्डूकैः सविषैर्दष्टलक्षणम् ||१५४||",
+      "english": "If bitten by poisonous frogs, the part is pierced with single fang, is swollen, painful and yellow associated with general symptoms like thirst, vomiting and sleep.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 1,
+      "devanagari": "मत्स्यास्तु सविषाः कुर्युर्दाहशोफरुजस्तथा |",
+      "english": "The poisonous fish produce burning, swelling and pain.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 155,
+      "devanagari": "कण्डूं शोथं ज्वरं मूर्च्छां सविषास्तु जलौकसः ||१५५||",
+      "english": "The poisonous leech causes itching, swelling, fever and fainting.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 2,
+      "devanagari": "दाहतोदस्वेदशोथकरी तु गृहगोधिका |",
+      "english": "The house lizard produces burning piercing pain, sweating and swelling.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 156,
+      "devanagari": "दंशे स्वेदं रुजं दाहं कुर्याच्छतपदीविषम् ||१५६||",
+      "english": "The poison of shatapadi (centipede) causes sweating pain and burning in the site of sting.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 157,
+      "devanagari": "कण्डूमान्मशकैरीषच्छोथः स्यान्मन्दवेदनः | असाध्यकीटसदृशमसाध्यमशकक्षतम् ||१५७||",
+      "english": "By the sting of mashaka (mosquito) the site is affected with itching, slight swelling and mild pain. The sting of incurable mosquito poison causes symptoms similar to those in incurable insect bites.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 158,
+      "devanagari": "सद्यःप्रस्राविणी श्यावा दाहमूर्च्छाज्वरान्विता | पीडका मक्षिकादंशे तासां तु स्थगिकाऽसुहृत् ||१५८||",
+      "english": "In makshika (bee) stings, there is pimple oozing quickly and blackish associated with general symptoms such as burning, fainting and fever. Of them sthagika bee is fatal.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 159,
+      "devanagari": "श्मशानचैत्यवल्मीकयज्ञाश्रमसुरालये | पक्षसन्धिषु मध्याह्ने सार्धरात्रेऽष्टमीषु च ||१५९|| न सिद्ध्यन्ति नरा दष्टाः पाषण्डायतनेषु च | दृष्टिश्वासमलस्पर्शविषैराशीविषैस्तथा ||१६०|| विनश्यन्त्याशु सम्प्राप्ता दष्टाः सर्वेषु मर्मसु |१६१|",
+      "english": "The persons bitten in cremation grounds, religious tree, anthill, sacrifices, hermitage, temple, on the last day of fortnight, in noon and on eighth day of the fortnight, in midnight and also in places of tantrika practices do not recover. Those inflicted by a sivisha serpents with poisons through vision, breath, excrement and touch and also those bitten in vital parts die soon.[159-161]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 161,
+      "devanagari": "(येन केनापि सर्पेण सम्भवः सर्व एव च) ||१६१||",
+      "english": "The above said is observed in bites by snakes as well as the insects born by them.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 162,
+      "devanagari": "भीतमत्ताबलोष्णक्षुत्तृषार्ते वर्धते विषम् | विषं प्रकृतिकालौ च तुल्यौ प्राप्याल्पमन्यथा ||१६२||",
+      "english": "Effect of poison aggravates in persons who are afraid, drunken, weak and afflicted with heat, hunger and thirst and also if the body constitution and time are similar. Otherwise it has mild effect.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 163,
+      "devanagari": "वारिविप्रहताः क्षीणा भीता नकुलनिर्जिताः | वृद्धा बालास्त्वचो मुक्ताः सर्पा मन्दविषाः स्मृताः ||१६३||",
+      "english": "The snakes which are affected with water, are weak, terrorized, defeated by mongoose, old, of tender age, sloughed are known as having mild poison.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 164,
+      "devanagari": "सर्वदेहाश्रितं क्रोधाद्विषं सर्पो विमुञ्चति | तदेवाहारहेतोर्वा भयाद्वा न प्रमुञ्चति ||१६४||",
+      "english": "The poison though situated in whole body is released by the snake when angry, but the same is not released due to hunger or fear.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 165,
+      "devanagari": "वातोल्बणविषाः प्राय उच्चिटिङ्गाः सवृश्चिकाः | वातपित्तोल्बणाः कीटाः श्लैष्मिकाः कणभादयः ||१६५||",
+      "english": "Poisons of crab and scorpion are predominant in vata, those of keeta (insects) are predominant in vata and pitta and kanabha (hornets) etc. are predominant in kapha.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 166,
+      "devanagari": "यस्य यस्य हि दोषस्य लिङ्गाधिक्यानि लक्षयेत् | तस्य तस्यौषधैः कुर्याद्विपरीतगुणैः क्रियाम् ||१६६||",
+      "english": "Treatment is given with the measures having qualities contrary to those of the dosha exhibiting predominant symptoms.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 167,
+      "devanagari": "हृत्पीडोर्ध्वानिलः स्तम्भः सिरायामोऽस्थिपर्वरुक् | घूर्णनोद्वेष्टनं गात्रश्यावता वातिके विषे ||१६७||",
+      "english": "In vatika poisoning the symptoms are – cardiac pain, upward movement of vayu, stiffness, dilatation of blood vessels, pain in the bone joints, giddiness, twisting and blackishness in the body.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 168,
+      "devanagari": "सञ्ज्ञानाशोष्णनिश्वासौ हृद्दाहः कटुकास्यता | दंशावदरणं शोथो रक्तपीतश्च पैत्तिके ||१६८||",
+      "english": "In paittika poisoning, the symptoms are loss of consciousness, hot expiration (feeling heat while long exhalation), heart burning, pungent taste in mouth, tearing down of flesh, swelling red or yellow.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 169,
+      "devanagari": "वम्यरोचकहृल्लासप्रसेकोत्क्लेशगौरवैः | सशैत्यमुखमाधुर्यैर्विद्याच्छ्लेष्माधिकं विषम् ||१६९||",
+      "english": "Poison predominant in kapha should be known by vomiting, anorexia, nausea, salivation, excitement, heaviness, feeling of cold and sweetness of mouth.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 170,
+      "devanagari": "खण्डेन च व्रणालेपस्तैलाभ्यङ्गश्च वातिके | स्वेदो नाडीपुलाकाद्यैर्बृंहणश्च विधिर्हितः ||१७०||",
+      "english": "The case of vatika poisoning should be treated with local application of khanda, oil massage, fomentation with tubular method or pulaka (flesh) and bulk promoting regimens.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "सुशीतैः स्तम्भयेत् सेकैः प्रदेहैश्चापि पैत्तिकम् |",
+      "english": "Paittika poisoning should be treated with very cold sprinkling and anointment.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 171,
+      "devanagari": "लेखनच्छेदनस्वेदवमनैः श्लैष्मिकं जयेत् ||१७१||",
+      "english": "Kaphaja poisoning should be overcome with scraping, excision, fomentation and vomiting.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 172,
+      "devanagari": "विषेष्वपि च सर्वेषु सर्वस्थानगतेषु च | अवृश्चिकोच्चिटिङ्गेषु प्रायः शीतो विधिर्हितः ||१७२||",
+      "english": "In all poisons and those located in all parts mostly the cold measures are adopted except in cases of vrishchika (scorpion) and ucchitinga (crab).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 173,
+      "devanagari": "वृश्चिके स्वेदमभ्यङ्गं घृतेन लवणेन च | सेकांश्चोष्णान् प्रयुञ्जीत भोज्यं पानं च सर्पिषः ||१७३||",
+      "english": "In vrishchika (scorpion) sting fomentation, massage with ghee and salt, hot sprinklings and food and beverages with ghee shall be used.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 174,
+      "devanagari": "एतदेवोच्चिटिङ्गेऽपि प्रतिलोमं च पांशुभिः | उद्वर्तनं सुखाम्बूष्णैस्तथाऽवच्छादनं घनैः ||१७४||",
+      "english": "The same should be adopted in case of uchhitinga. In addition, rubbing with dust in direction reverse to that of skin hair, intake of tepid water and covering the part with hot and thick layer of dust are prescribed.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 175,
+      "devanagari": "श्वा त्रिदोषप्रकोपात्तु तथा धातुविपर्ययात् | शिरोऽभितापी लालास्राव्यधोवक्त्रस्तथा भवेत् ||१७५||",
+      "english": "Rabid dog bite: due to the vitiation of tridosha and aggravation of dhatu suffers from headache, salivation and drooped face.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 176,
+      "devanagari": "अन्येऽप्येवंविधा व्यालाः कफवातप्रकोपणाः | हृच्छिरोरुग्ज्वरस्तम्भतृषामूर्च्छाकरा मताः ||१७६||",
+      "english": "Other such fierce animals too vitiate kapha and vata and cause cardiac pain, headache, fever, stiffness, thirst and fainting.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 177,
+      "devanagari": "कण्डूनिस्तोदवैवर्ण्यसुप्तिक्लेदोपशोषणम् | विदाहरागरुक्पाकाः शोफो ग्रन्थिनिकुञ्चनम् ||१७७|| दंशावदरणं स्फोटाः कर्णिका मण्डलानि च | ज्वरश्च सविषे लिङ्गं विपरीतं तु निर्विषे ||१७८||",
+      "english": "Itching, piercing pain, discoloration, numbness, moistening, drying heat, redness, pain, suppuration, swelling, formation of cysts, shriveling, tearing down of flesh, boils, growths, rashes and fever- these are the signs and symptoms of the poisonous bites. The contrary ones are found in the non poisonous one.[178-179]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 179,
+      "devanagari": "तत्र सर्वे यथावस्थं प्रयोज्याः स्युरुपक्रमाः | पूर्वोक्ता विधिमन्यं च यथावद्ब्रुवतः शृणु ||१७९||",
+      "english": "In these cases, the above measures as well as other useful remedies should be applied according to condition. I shall describe it now. Listen!",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 180,
+      "devanagari": "हृद्विदाहे प्रसेके वा विरेकवमनं भृशम् | यथावस्थं प्रयोक्तव्यं शुद्धे संसर्जनक्रमः ||१८०||",
+      "english": "In heart burning or salivation, purgation or emesis should be administered frequently according to condition. After purification, the dietetic order should be followed.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 181,
+      "devanagari": "शिरोगते विषे नस्तः कुर्यान्मूलानि बुद्धिमान् | बन्धुजीवस्य भार्ग्याश्च सुरसस्यासितस्य च ||१८१||",
+      "english": "If the poison is situated in the head, the wise should use the snuff of the roots of:",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 182,
+      "devanagari": "दक्षकाकमयूराणां मांसासृङ्मस्तके क्षते | उपधेयमधोदष्टस्योर्ध्वदष्टस्य पादयोः ||१८२||",
+      "english": "Moreover flesh with blood of chicken, crow and peacock should be applied on the incised scalp if the bite is below and feet if the bite is above.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 183,
+      "devanagari": "पिप्पलीमरिचक्षारवचासैन्धवशिग्रुकाः | पिष्टा रोहितपित्तेन घ्नन्त्यक्षिगतमञ्जनात् ||१८३||",
+      "english": "Pippali (Piper longum), maricha (Piper nigrum), yavakshara (obtained by incinerating Hordeum vulgare), vacha (Acorus calamus) , saindhava (rock salt) and shigru (Moringa oleifera) pounded with bile of rohita fish and applied to the eyes as collyrium destroys the poison in the eyes.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "कपित्थमामं ससिताक्षौद्रं कण्ठगते विषे |",
+      "english": "If the poison is in the throat, unripe fruit of kapittha (Feronia limonia) should be taken mixed with sugar and honey.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 184,
+      "devanagari": "लिह्यादामाशयगते ताभ्यां चूर्णपलं नतात् ||१८४||",
+      "english": "In case of poison located in the stomach, 40gms of powder of tagara (Valeriana wallichii) mixed with sugar and honey should be taken.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 185,
+      "devanagari": "विषे पक्वाशयगते पिप्पलीं रजनीद्वयम् | मञ्जिष्ठां च समं पिष्ट्वा गोपित्तेन नरः पिबेत् ||१८५||",
+      "english": "If the poison is located in the pakwashaya (colon), one should take pippali (Piper longum), haridra (Curcuma longa), daruharidra (Berberis aristata) and manjishta (Rubia cordifolia) each in equal quantity pounded with cow bile.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 186,
+      "devanagari": "रक्तं मांसं च गोधायाः शुष्कं चूर्णीकृतं हितम् | विषे रसगते पानं कपित्थरससंयुतम् ||१८६||",
+      "english": "In poisoning of the rasa dhatu, one should take blood and flesh of godha (giant lizard or alligator), dried and powdered mixed with the juice of kapittha (Feronia limonia).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "शेलोर्मूलत्वगग्राणि बादरौदुम्बराणि च | कटभ्याश्च पिबेद्रक्तगते,",
+      "english": "In poisoning of the rakta dhatu, root bark of shleshmataka (Cordia dichotoma), shoots of badara (Ziziphus mauritiana), udumbara (Ficus racemosa) and katabhi (Albizzia procera) should be taken.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 187,
+      "devanagari": "मांसगते पिबेत् ||१८७|| सक्षौद्रं खदिरारिष्टं कौटजं मूलमम्भसा |",
+      "english": "In poisoning of the mamsa dhatu, roots of khadira (Acacia catechu), nimba (Azadiracta indica) and kutaja (Holarrhena antidysentrica) should be taken mixed with honey and along with water.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 188,
+      "devanagari": "सर्वेषु च बले द्वे तु मधूकं मधुकं नतम् ||१८८||",
+      "english": "In all types of poisoning, two types of bala (Sida cordifolia and Abutilon indicum), madhuka (Glycyrrhiza glabra), madhooka (Madhuca longifolia), and tagara (Valeneria wallichii) should be taken.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 189,
+      "devanagari": "पिप्पलीं नागरं क्षारं नवनीतेन मूर्च्छितम् | कफे भिषगुदीर्णे तु विदध्यात्प्रतिसारणम् ||१८९||",
+      "english": "Pippali (Piper longum), shunthi (Zingiber officinale), yavakshara (Yavakshara (obtained by incinerating Hordeum vulgare) mixed with fresh navaneeta (butter) should be painted on the site if there is aggravation of kapha dosha.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 190,
+      "devanagari": "मांसीकुङ्कुमपत्रत्वग्रजनीनतचन्दनैः | मनःशिलाव्याघ्रनखसुरसैरम्बुपेषितैः ||१९०|| पाननस्याञ्जनालेपाः सर्वशोथविषापहाः |",
+      "english": "Mamsi (Nordostachys jatamansi), kumkuma (Crocus sativus), patra (Abies webbiana), twak (Cinnamomnm zeylanicum), haridra (Curcuma longa), tagara, (Valeneria wallichii), chandana (Pterocarpus santalinus), manashila (Arsenic disulphide), vyagranakha (tiger nails), surasa (Ocimum sanctum) pounded with water and used for internal administration (pana), in snuff, collyrium and paste counteracts all poisonous edema.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 191,
+      "devanagari": "चन्दनं तगरं कुष्ठं हरिद्रे द्वे त्वगेव च ||१९१|| मनःशिला तमालश्च रसः कैशर एव च | शार्दूलस्य नखश्चैव सुपिष्टं तण्डुलाम्बुना ||१९२|| हन्ति सर्वविषाण्येव वज्रिवज्रमिवासुरान् |",
+      "english": "Chandana (Santalum album), tagara (Valeriana wallichii), kushta (Saussurea lappa), haridra (Curcuma longa), daruharidra (Berberis aristata), twak (Cinnamomnm zeylanicum), manashila (realgar (Arsenic disulphide), tamala (Nicotiana tabacum), juice of nagakesara (Mesua ferrea) and shardoolanakha (nail of a jackal) pounded with rice water destroys all poisons as Indra’s thunderbolt kills the demons.[191-192]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 193,
+      "devanagari": "रसे शिरीषपुष्पस्य सप्ताहं मरिचं सितम् ||१९३|| भावितं सर्पदष्टानां नस्यपानाञ्जने हितम् |",
+      "english": "White maricha (decorticated) impregnated with the juice of shireesha (Albizzia lebbeck) flowers for a week is efficacious in snake bite as snuff, pana (internal administration) and collyrium.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 194,
+      "devanagari": "द्विपलं नतकुष्ठाभ्यां घृतक्षौद्रचतुष्पलम् ||१९४|| अपि तक्षकदष्टानां पानमेतत् सुखप्रदम् |",
+      "english": "Tagara (Valeriana wallichii ) and kushtha (Saussurea lappa )- 80gms, ghee and honey- 160gms – this potion renders relief even in bites by takshaka (king of snakes).",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 195,
+      "devanagari": "सिन्धुवारस्य मूलं च श्वेता च गिरिकर्णिका ||१९५|| पानं दर्वीकरैर्दष्टे नस्यं समधु पाकलम् |",
+      "english": "Sinduvara root (Vitex negundo), shweta (Clitoria ternatia) and girikarnika (Variety of Clitoria ternatia ) this is a liquid remedy for the bite by darveekara type of snake along with snuffing with kushta mixed with honey.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 196,
+      "devanagari": "मञ्जिष्ठा मधुयष्टी च जीवकर्षभकौ सिता ||१९६|| काश्मर्यं वटशुङ्गानि पानं मण्डलिनां विषे |",
+      "english": "Manjishta (Rubia cordifolia), madhuyashti (Glycyrrhia glabra), jeevaka (Microstylis musifera), rishabaka (Microstylis wallichii), sita, kashmarya, leaf buds of vata (Ficus bengalensis) - this is the potion for the bite by mandali (viper) type of snake.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 197,
+      "devanagari": "व्योषं सातिविषं कुष्ठं गृहधूमो हरेणुका ||१९७|| तगरं कटुका क्षौद्रं हन्ति राजीमतां विषम् |",
+      "english": "Trikatu (Zingiber officinale, Piper nigrum, Piper longum), ativisha (Aconitum hetrophylum), kushta (Saussurea lappa), soot, harenuka (Vitex negundo), tagara (Valeneria wallichii), katuka (Picrorhiza kurrora)- powder of all these mixed with honey destroys the poison of rajimana type of snake.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 198,
+      "devanagari": "गृहधूमं हरिद्रे द्वे समूलं तण्डुलीयकम् ||१९८|| अपि वासुकिना दष्टः पिबेन्मधुघृताप्लुतम् |१९९|",
+      "english": "Grihadhooma (soot), haridra (Curcuma longa), daruharidra (Berberis aristata) all with root mixed with tanduleeyaka (Amaranthus blitum) and plenty of honey and ghee can be taken by a person bitten even by a vasuki.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 199,
+      "devanagari": "क्षीरिवृक्षत्वगालेपः शुद्धे कीटविषापहः ||१९९||",
+      "english": "After evacuating the patient of insect poisoning, paste of the bark of the latex bearing trees should be applied which acts as antipoison.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 6,
+      "devanagari": "मुक्तालेपो वरः शोथदाहतोदज्वरापहः |",
+      "english": "The paste of mukta is good for alleviating swelling, burning sensation, piercing pain and fever.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 200,
+      "devanagari": "चन्दनं पद्मकोशीरं शिरीषः सिन्धुवारिका ||२००|| क्षीरशुक्ला नतं कुष्ठं पाटलोदीच्यसारिवाः | शेलुस्वरसपिष्टोऽयं लूतानां सार्वकार्मिकः ||२०१|| (यथायोगं प्रयोक्तव्यः समीक्ष्यालेपनादिषु) |",
+      "english": "Chandana (Pterocarpus santalinus), padmaka (Prunus cerasoides), usheera (Vetiveria zizanoidis), shireesha (Albizzia lebbeck), sinduvarika (Vitex nergundo), ksheerashukla (Pueraria tuberose), tagara (Valeriana wallichii), kushta (Saussurea lappa), patala (Stereospermum suaveolens), udeechya (Valeriana wallichii), sariva (Hemidesmus indicus)- all these pounded together with the juice of sleshmataka (Cordia dichotoma ) make an irreversible application for the spider poison.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 202,
+      "devanagari": "मधूकं मधुकं कुष्ठं शिरीषोदीच्यपाटलाः | सनिम्बसारिवाक्षौद्राः पानं लूताविषापहम् ||२०२||",
+      "english": "Madhooka (Madhuca longifolia), madhuka (Glycyrrhiza glabra), kushtha (Saussurea lappa), shirisha (Albizzia lebbeck), udichya, patala (Stereospermum suaveolens), nimbi (Azadiracta indica), sariva (Hemidesmus indicus ) and honey- this is taken as potion to destroy spider poison.[201-202]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 203,
+      "devanagari": "कुसुम्भपुष्पं गोदन्तः स्वर्णक्षीरी कपोतविट् | दन्ती त्रिवृत्सैन्धवं च कर्णिकापातनं तयोः ||२०३||",
+      "english": "Kusumbha flowers (Carthamus tinctorius), cow teeth, svarnakshiri (Argemone Mexicana), faecus of pigeon, danti (Baliospermum montanum), trivrit (Operculina turpethum), and saindhava (rock salt) – this is applied to destroy the growth on the site of insect bite and spider poisoning.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 204,
+      "devanagari": "कटभ्यर्जुनशैरीषशेलुक्षीरिद्रुमत्वचः | कषायकल्कचूर्णाः स्युः कीटलूताव्रणापहाः ||२०४||",
+      "english": "Bark of katabhy (Albizzia procera), arjuna (Terminalia arjuna), shirisha (Albizzia lebbeck), shleshmataka (Cordia dichotoma) and bark of kshiridruma (Ficus bengalensis, Ficus recemosa, Ficus lacor, Thespesia poulnea, Ficus religiosa) used as decoction, paste and powder destroy the wounds caused by insects and spiders.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 205,
+      "devanagari": "त्वचं च नागरं चैव समांशं श्लक्ष्णपेषितम् | पेयमुष्णाम्बुना सर्वं मूषिकाणां विषापहम् ||२०५||",
+      "english": "Twak (Cinnamomnm zeylanicum) and shunthi (Zingiber officinale) in equal quantity pounded finely should be taken with hot water. It destroys poison of all sorts of rats.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 206,
+      "devanagari": "कुटजस्य फलं पिष्टं तगरं जालमालिनी | तिक्तेक्ष्वाकुश्च योगोऽयं पानप्रधमनादिभिः ||२०६|| वृश्चिकोन्दुरुलूतानां सर्पाणां च विषं हरेत् | समानो ह्यमृतेनायं गराजीर्णं च नाशयेत् ||२०७||",
+      "english": "Indrayava (Holarrhena antidysenterica), tagara (Valeneria wallichii), jaalamalini (Luffa echinata), bitter ikshwaku (Langanaria siceraria) this formulation used as potion, nasal blowing etc alleviates poison of scorpion, rats, spider and snake. It is like nectar and destroys the long standing gara visha.[206-207]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 7,
+      "devanagari": "सर्वेऽगदा यथादोषं प्रयोज्याः स्युः कृकण्टके |",
+      "english": "All these anti-poison formulations may be used in chameleon poisoning according to dosha.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 208,
+      "devanagari": "कपोतविण्मातुलुङ्गं शिरीषकुसुमाद्रसः ||२०८|| शङ्खिन्यार्कं पयः शुण्ठी करञ्जो मधु वार्श्चिके |",
+      "english": "Pigeon excrement, matulunga (Citrus medica), juice of shireesha (Albizzia lebbeck) flowers, shankini (Colonyction muricatum), latex of arka (Calotropis procera), shunthi (Zingiber officinale), karanja (Pongamia pinnata) and honey- this should be taken in scorpion sting.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 209,
+      "devanagari": "शिरीषस्य फलं पिष्टं स्नुहीक्षीरेण दार्दुरे ||२०९||",
+      "english": "Shireesha seeds (Albizzia lebbeck ) pounded with snuhi (Euphorbia nerifolia) latex should be taken in frog poisoning.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 8,
+      "devanagari": "मूलानि श्वेतभण्डीनां व्योषं सर्पिश्च मत्स्यजे |",
+      "english": "Roots of shwetha bhandi (Clitoria turnatea), trikatu (Zingiber officinale, Piper nigrum, Piper longum ) and ghee are useful in fish poisoning.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 210,
+      "devanagari": "कीटदष्टक्रियाः सर्वाः समानाः स्युर्जलौकसाम् ||२१०||",
+      "english": "In poisoning by leeches, the measures mentioned in the treatment of insect bite are applied.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "वातपित्तहरी चापि क्रिया प्रायः प्रशस्यते |",
+      "english": "Moreover mostly the measures alleviating vata and pitta are prescribed.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 211,
+      "devanagari": "वार्श्चिको ह्युच्चिटिङ्गस्य कणभस्यौन्दुरोऽगदः ||२११||",
+      "english": "In case of poisoning by ucchitinga and kanabha remedies applicable to that by scorpion and rat are prescribed respectively.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 212,
+      "devanagari": "वचां वंशत्वचं पाठां नतं सुरसमञ्जरीम् | द्वे बले नाकुलीं कुष्ठं शिरीषं रजनीद्वयम् ||२१२|| गुहामतिगुहां श्वेतामजगन्धां शिलाजतु | कत्तृणं कटभीं क्षारं गृहधूमं मनःशिलाम् ||२१३|| रोहीतकस्य पित्तेन पिष्ट्वा तु परमोऽगदः | नस्याञ्जनादिलेपेषु हितो विश्वम्भरादिषु ||२१४||",
+      "english": "Vacha (Acorus Calamus), vamsha bark (Bambusa arundinacea), patha (Cissambelos Pereira), nata (Valeneria wallichii), flower stalk of tulasi (Ocimum sanctum), bala (Sida cordifolia), atibala (Abutilon indicum), nakuli (Alpinia galangal), kushtha (Saussurea lappa), shirisha (Albizzia lebbeck), haridra (Curcuma longa), daruharidra (Berberis aristata), guha (krishnaparni - Uraria picta), atiguha (shalaparni - Desmodium gangeticum), shveta (Clitoria ternacia), ajagandha (Carum roxburghianum), shilajatu, kattruna (Cymbopogon citrates), katabhi (Albizzia procera), yava kshara ((obtained by incinerating Hordeum vulgare), grihadhuma (soot), manahshila (Arsenic disulphide) are pounded with bile of rohita fish. This is an excellent anti-poison efficacious in bite of insects like vishwambara, etc when used as snuff, collyrium and paste.[212-214]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 215,
+      "devanagari": "स्वर्जिकाऽजशकृत्क्षारः सुरसाऽथाक्षिपीडकः | मदिरामण्डसंयुक्तो हितः शतपदीविषे ||२१५||",
+      "english": "Swarjika, excrements of goat, yavakshara (obtained by incinerating Hordeum vulgare), surasa (Ocimum sanctum), akshipeedaka- this taken with wine scum is efficacious in centipede poisoning.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 216,
+      "devanagari": "कपित्थमक्षिपीडोऽर्कबीजं त्रिकटुकं तथा | करञ्जो द्वे हरिद्रे च गृहगोधाविषं जयेत् ||२१६||",
+      "english": "Kapittha (Feronia limonia), akshipeeda (Phaseolus lunactus), arka seeds (Calotropis procera), trikatu (Zingiber officinale, Piper nigrum, Piper longum), karanja (Pongamia pinnata), haridra (Curcuma longa) and daruharidra (Berberis aristata) – this formulation counteracts the poisoning by house lizard.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 217,
+      "devanagari": "काकाण्डरससंयुक्तो विषाणां तण्डुलीयकः | प्रधानो बर्हिपित्तेन तद्वद्वायसपीलुकः ||२१७||",
+      "english": "Tanduleeyaka (Amaranthus blitum) mixed with the juice of kaakanda (Mucuna prurita) is the prominent one among the anti poisonous and so is kakapiluka mixed with peacock's bile.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 218,
+      "devanagari": "शिरीषफलमूलत्वक्पुष्पपत्रैः समैर्धृतैः | श्रेष्ठः पञ्चशिरीषोऽयं विषाणां प्रवरो वधे ||२१८|| इति पञ्चशिरीषोऽगदः |",
+      "english": "The five parts- root, fruit, bark, flower and leaf of shireesha (Albizzia lebbeck) taken together in equal quantity is known as panchashireesha agada which is the best one for destroying the poison.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 219,
+      "devanagari": "चतुष्पद्भिर्द्विपद्भिर्वा नखदन्तक्षतं तु यत् | शूयते पच्यते चापि स्रवति ज्वरयत्यपि ||२१९|| सोमवल्कोऽश्वकर्णश्च गोजिह्वा हंसपद्यपि | रजन्यौ गैरिकं लेपो नखदन्तविषापहः ||२२०||",
+      "english": "If the wound caused by the nails of teeth of quadrupeds or bipeds is swollen, inflamed and oozing and associated with fever, the paste of somavalka (Acacia catechu), ashwakarna (Dipterocarpus alatus), gojivha (Onosma bracteatum), hamsapaadi (Adiantum lunulatum), haridra (Curcuma longa), daruharidra (Berberis aristata) and gairika (red ochre) should be applied. It alleviates poisoning due to nails and teeth.[219-220]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 221,
+      "devanagari": "दुरन्धकारे विद्धस्य केनचिद्विषशङ्कया | विषोद्वेगाज्ज्वरशछर्दिर्मूर्च्छा दाहोऽपि वा भवेत् ||२२१|| ग्लानिर्मोहोऽतिसारश्चाप्येतच्छङ्काविषं मतम् | चिकित्सितमिदं तस्य कुर्यादाश्वासयन् बुधः ||२२२|| सिता वैगन्धिको द्राक्षा पयस्या मधुकं मधु | पानं समन्त्रपूताम्बु प्रोक्षणं सान्त्वहर्षणम् ||२२३||",
+      "english": "In case one is pierced by something in the darkness which creates suspicion of snake bite due to poisoning like agitation fever, vomiting, fainting, burning sensation malaise, mental confusion and diarrhea may appear. This is known as shanka visha. The wise physician should console the patient and administer the portion of sharkara (sugar candy), saugandhika (Nymphaea alba), draksha (Vitis vinifera), payasya (Ipomea dioitata), madhuka (Glycyrrhiza glabra) and honey. At the same time the body should be sponged with water purified with incantations besides consoling and exhilarating measures.[221-223]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 224,
+      "devanagari": "शालयः षष्टिकाश्चैव कोरदूषाः प्रियङ्गवः | भोजनार्थे प्रशस्यन्ते लवणार्थे च सैन्धवम् ||२२४||",
+      "english": "Shali rice (Foeniculum vulgare), shashtika rice (Oriza sativa), common millet and Indian millet are recommended as diet and rock salt for salting purpose.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 225,
+      "devanagari": "तण्डुलीयकजीवन्तीवार्ताकसुनिषण्णकाः | चुच्चूर्मण्डूकपर्णी च शाकं च कुलकं हितम् ||२२५||",
+      "english": "Tanduleeyaka (Amaranthus spinosus), jeevanti (Leptadenia reticulate), vartaka (Solanum melongena), sunishannaka (Solanum melongena), cuccur (Corchorus aestuans) , mandukaparni (Centella asiatica), shaka and kulaka (Trichosanthus dioica) are wholesome as vegetables.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 226,
+      "devanagari": "धात्री दाडिममम्लार्थे यूषा मुद्गहरेणुभिः | रसाश्चैणशिखिश्वाविल्लावतैत्तिरपार्षताः ||२२६||",
+      "english": "To cause sourness in food-dhatri (Emblica officinalis), dadima (Punica granatum) should be used. Soup should be prepared using mudga (Phaseolus mungo) and harenu (Vitex negundo). mamsa rasa of ina (antelope), shikhi (peacock), avi (porcupine), lava (common quail), taittira (partridge), parsha (spotted deer) are the remedies in cases of poison.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 227,
+      "devanagari": "विषघ्नौषधसंयुक्ता रसा यूषाश्च संस्कृताः | अविदाहीनि चान्नानि विषार्तानां भिषग्जितम् ||२२७||",
+      "english": "Soups and meat juices prepared with drugs curative of poisons and the food which is non irritant are the remedies in cases of poison.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 228,
+      "devanagari": "विरुद्धाध्यशनक्रोधक्षुद्भयायासमैथुनम् | वर्जयेद्विषमुक्तोऽपि दिवास्वप्नं विशेषतः ||२२८||",
+      "english": "The person though cured of poison should avoid antagonistic diet, over feeding, anger, fear, exertion and sexual intercourse and day sleep particularly.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 229,
+      "devanagari": "मुहुर्मुहुः शिरोन्यासः शोथः स्रस्तौष्ठकर्णाता | ज्वरः स्तब्धाक्षिगात्रत्वं हनुकम्पोऽङ्गमर्दनम् ||२२९|| रोमापगमनं ग्लानिररतिर्वेपथुर्भ्रमः | चतुष्पदां भवत्येतद्दष्टानामिह लक्षणम् ||२३०||",
+      "english": "Repeated jerks of the head, edema, drooping of the lips and the ears, fever, rigidity of the eyes and limbs, tremors of the jaw, contortions of the body, falling of hair, exhaustion, depression, trembling, and circumambulation are the symptoms in quadrupeds bitten by poisonous creatures.[229-230]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 231,
+      "devanagari": "देवदारु हरिद्रे द्वे सरलं चन्दनागुरु | रास्ना गोरोचनाऽजाजी गुग्गुल्विक्षुरसो नतम् ||२३१|| चूर्णं ससैन्धवानन्तं गोपित्तमधुसंयुतम् | चतुष्पदानां दष्टानामगदः सार्वकार्मिकः ||२३२||",
+      "english": "Devadaru (Cedrus deoda), haridra, (Curcuma longa), daruharidra (Berberis aristata), sarala (Pinus longifolia), chandana (Santalum album), aguru (Aqualaria agallocha), rasna (Alpinio officinarum), gorochana (Bile of cow), ajaji (Cuminum cyminum), guggulu (Commiphora mukul), ikshurasa (Saccharum officinarum), nata churna, saindhava (rock salt), ananta along with cows bile and honey makes a universal remedy for poisonous bites in the quadrupeds.[231-232]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 233,
+      "devanagari": "सौभाग्यार्थं स्त्रियः स्वेदरजोनानाङ्गजान्मलान् | शत्रुप्रयुक्तांश्च गरान् प्रयच्छन्त्यन्नमिश्रितान् ||२३३||",
+      "english": "With the view to gain the favor of their husbands, women administer to them their sweat, menstrual discharge, saliva and excreta from other parts of the body and also the gara or artificial poison prepared by enemies, mixing these with the food.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 234,
+      "devanagari": "तैः स्यात् पाण्डुः कृशोऽल्पाग्निर्गरश्चास्योपजायते | मर्मप्रधमनाध्मानं श्वयथुं हस्तपादयोः ||२३४|| जठरं ग्रहणीदोषो यक्ष्मा गुल्मः क्षयो ज्वरः | एवंविधस्य चान्यस्य व्याधेर्लिङ्गानि दर्शयेत् ||२३५|| स्वप्ने मार्जारगोमायुव्यालान् सनकुलान् कपीन् | प्रायः पश्यति नद्यादीञ्छुष्कांश्च सवनस्पतीन् ||२३६|| कालश्च गौरमात्मानं स्वप्ने गौरश्च कालकम् | विकर्णनासिकं वाऽपि प्रपश्येद्विहतेन्द्रियः ||२३७||",
+      "english": "As a result of such administration of poison, the person will show symptoms of anemia, emaciation, weakness of the digestive power, palpitation of the heart, distension of the abdomen and edema of hands and feet, abdominal diseases, assimilation disorders, gulma, depletion of dhatus, fever and similar other disorders. He perceives in his dreams generally cats, jackals, cruel animals, mangoose and monkey, dried up rivers or other sources of water and withered trees. If he be of dark complexion, he sees himself as bright in dreams and vice versa. He also sees himself in dreams without ears and nose or injured in his sense organs.[234-237]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 238,
+      "devanagari": "तमवेक्ष्य भिषक् प्राज्ञाः पृच्छेत् किं कैः कदा सह | जग्धमित्यवगम्याशु प्रदद्याद्वमनं भिषक् ||२३८||",
+      "english": "Seeing such a person, the intelligent physician should ask what kind of food, when and in whose company he had eaten and thus ascertain the cause of gara so that it can be avoided. Later he should be administered with emesis therapy.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 239,
+      "devanagari": "सूक्ष्मं ताम्ररजस्तस्मै सक्षौद्रं हृद्विशोधनम् | शुद्धे हृदि ततः शाणं हेमचूर्णस्य दापयेत् ||२३९|| हेम सर्वविषाण्याशु गरांश्च विनियच्छति | न सज्जते हेमपाङ्गे विषं पद्मदलेऽम्बुवत् ||२४०||",
+      "english": "Fine powder of copper mixed with honey is shall be administered first for hrid shodhana. or hridayaavarana. This induces emesis. He should then be administered with shana matra (three grams )of suvarna bhasma. Gold quickly destroys all poisons even gara visha. Just as water fallen on lotus leaves cannot wet it, visha cannot destroy a person who is administered with swarna bhasma.[239-240]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 241,
+      "devanagari": "नागदन्तीत्रिवृद्दन्तीद्रवन्तीस्नुक्पयःफलैः | साधितं माहिषं सर्पिः सगोमूत्राढकं हितम् ||२४१|| सर्पकीटविषार्तानां गरार्तानां च शान्तये |२४२|",
+      "english": "Ghee obtained from buffalo’s milk and processed with nagadanti (Croton oblongifolius), trivrit (Operculina turpethum), danti, dravanti (Balliospermum montanum), snukpaya, madanaphala and one adhaka of cow's urine is an effective remedy in case of poison due to snake and insect bite and in gara visha.[241-242]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 242,
+      "devanagari": "शिरीषत्वक् त्रिकटुकं त्रिफलां चन्दनोत्पले ||२४२|| द्वे बले सारिवास्फोतासुरभीनिम्बपाटलाः | बन्धुजीवाढकीमूर्वावासासुरसवत्सकान् ||२४३|| पाठाङ्कोलाश्वगन्धार्कमूलयष्ट्याह्वपद्मकान् | विशालां बृहतीं लाक्षां कोविदारं शतावरीम् ||२४४|| कटभीदन्त्यपामार्गान् पृश्निपर्णीं रसाञ्जनम् | श्वेतभण्डाश्वखुरकौ कुष्ठदारुप्रियङ्गुकान् ||२४५|| विदारीं मधुकात् सारं करञ्जस्य फलत्वचौ | रजन्यौ लोध्रमक्षांशं पिष्ट्वा साध्यं घृताढकम् ||२४६|| तुल्याम्बुच्छागगोमूत्रत्र्याढके तद्विषापहम् | अपस्मारक्षयोन्मादभूतग्रहगरोदरम् ||२४७|| पाण्डुरोगक्रिमीगुल्मप्लीहोरुस्तम्भकामलाः | हनुस्कन्धग्रहादींश्च पानाभ्यञ्जननावनैः ||२४८|| हन्यात् सञ्जीवयेच्चापि विबोद्बन्धमृतान्नरान् | नाम्नेदममृतं सर्वविषाणां स्याद्धृतोत्तमम् ||२४९|| इत्यमृतघृतम् |",
+      "english": "One adhaka of ghee cooked by adding the paste of one aksha each of bark of shirisha (Albizzia lebbeck), shunthi (Zingiber officinale), pippali (Piper longum), maricha (Piper nigrum), triphala (Terminalia chebula, Emblica officinalia, Terminalia bellerica), chandana (Santalum album), utpala (Nelumbo nucifera), bala (Sida cordifolia), atibala (Abutilon indicum), sariva (Hemidismus indicus), asphota (Semicarpus anacardium), surabhi, nimbi (Azardirachta indica), patala (Stereospermum suaveolens), bandhujiva (Pentopetes phoenicea), adhaki (Cajanus cajan), murva (Marsdenia tenacissima), vasa (Adathoda vasica), surasa (Occimum sanctum), vatsaka (Holarrhena antidysentrica), patha (Cissambelos Pereira), ankola (Alangium saufolium), ashvagandha (Withania somnifera), arkamula (Calotropis procera), yashtimadhu (Glycyrrhiza glabra), padmaka (Prunus cerasoides), vishala (Trichosanthes bracteata), brihati (Solanum indicum), laksha, kovidara (Bauhninia variegate), shatavari (Asparagus recemosa), katabhi (Albizzia procera), danti (Maliospermum montanum), apamarga (Achyranthus aspera), prushniparni rasanjjana (Extracts of Berberis aristata), shvetabhanda (Albizzia procera), ashvakhuraka (Clitoria ternatea), kushtha (Saussurea lappa), daru (Cedrus deodara), priyangu (Calicarpa macrophylla), vidari (Puraria tuberose), madhuka sara (Glycerrhiza glabra) , karanja fruit (Pongamia pinnata), bark haridra (Curcuma longa), daruharidra (Berberis aristata) and lodhra (Symplocos racemosa), two adhaka of water, three adhaka of cows urine and goats urine each. This recipe cures poison, epilepsy, depletion of dhatus, insanity, gara, udara, anemia, parasitic infestation, gulma, splenic disorders, stiffness of thighs, jaundice, stiffness of jaws and shoulders, etc. when used in the form of drink, massage and inhalation therapy. It helps in the revival of persons who appear to be dead due to poisons and hanging. This combination is called as amrita ghrita and is best suited in all cases of poisoning.[242-249]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 250,
+      "devanagari": "भवन्ति चात्र- छत्री झर्झरपाणिश्च चरेद्रात्रौ तथा दिवा | तच्छायाशब्दवित्रस्ताः प्रणश्यन्त्याशु पन्नगाः ||२५०||",
+      "english": "One should move about with an umbrella in day time and with a rattling stick in hand at night so that with their shade and sound respectively the snakes get frightened and go away.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 251,
+      "devanagari": "दष्टमात्रो दशेदाशु तं सर्पं लोष्टमेव वा | उपर्यरिष्टां बध्नीयाद्दंशं छिन्द्याद्दहेत्तथा ||२५१||",
+      "english": "Immediately after a snake bite, the person should bite the snake itself if possible or otherwise bite a clod of earth. Thereafter a tourniquet should be tied above the site of bite and the place of bite should be incised as well as cauterized.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 252,
+      "devanagari": "वज्रं मरकतः सारः पिचुको विषमूषिका | कर्केतनः सर्पमणिर्वैदूर्यं गजमौक्तिकम् ||२५२|| धार्यं गरमणिर्याश्च वरौषध्यो विषापहाः | खगाश्च शारिकाक्रौञ्चशिखिहंसशुकादयः ||२५३||",
+      "english": "Wearing of diamond, emerald, and other precious gems gives immunity against poisons. Keeping or domesticating different birds is also useful to overcome poisons.[252-253]",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 254,
+      "devanagari": "तत्र श्लोकः- इतीदमुक्तं द्विविधस्य विस्तरैर्बहुप्रकारं विषरोगभेषजम् | अधीत्य विज्ञाय तथा प्रयोजयन् व्रजेद्विषाणामविषह्यतां बुधः ||२५४||",
+      "english": "To sum up, details of two categories of poisons along with several types of medicine to cure the ailments caused by these poisons are described in this chapter. The intelligent physician who studies and knows the objectives of these remedies can overcome these poisons by the application of his knowledge and experience.",
+      "section": "Poisoning"
+    },
+    {
+      "verseNumber": 23,
+      "devanagari": "इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते चिकित्सास्थाने विषचिकित्सितं नाम त्रयोविंशोऽध्या यः ||२३||",
+      "english": "Thus ends the twenty third chapter of the Chikitsa Sthana dealing with the treatment of poisons of Agnivesha’s work as redacted by Charak.",
+      "section": "Poisoning"
+    }
+  ],
+  "tattvaVimarsha": "Agada is enlisted in one of the eight branches of ayurveda. Management of poisoning is an important aspect of medical system. Visha is a substance that leads to decline of overall functions of the person. The vaidya should have knowledge and training in visha gara vairodhika prashamana (anti-toxin treatment). In India especially in Kerala, the role of traditional practitioners in this field is significant. Their simple, but effective treatments, has really been astonishing. They are also well versed in the details regarding the good and bad omen based on doota (messenger), the happenings the vaidya sees when he is going to make house call for treating such cases and also what he observes in the house and in the patient. He is also well versed in astrology.\n\nThe Visha Chikitsa chapter follows Trishna Chikitsa because both have same line of treatment i.e., sheetala kriya (cooling therapy). The same logic can be attributed to Madatyaya Chikitsa which follows this chapter. Visha and madya have same qualities and effects on body, however madya is comparatively mild with gradual effects, whereas visha has severe and acute effects. The present chapter deals with detailed study of various types of acute and slow poisons. Animal bites, their clinical features and treatment are described in detail. The stages of poisoning and their clinical features are detailed. The chapter also explains the stages, features and treatment of poisoning in animals and birds. Various fumigation medicines are enlisted to detoxify the home environment, things of daily use like beds, seats, clothes etc. The treatments of insect bite, rat bite, dog bite, scorpion bite are also described. This chapter opens a window to treat adverse drug reactions and allergic reaction to anti toxic formulations described. A condition of pseudo poisoning is mentioned which needs psychological counselling without any anti toxic medicines.\n\nWith the advancement in medical technology, the new methods of treatments of poisoning have evolved with time. However the basic treatments like applying tourniquet at the site of bite to prevent spread of poison, therapeutic emesis in the form of gastric lavage in case of ingested poison, or purgation are the same as in contemporary medicine. However with the development of forensic medicine, the investigations of types of poisons, their identification and their blood levels are newer additions. The chapter describes ancient methods of management of poisoning cases that need to be highlighted and blended with todays modern techniques.",
+  "vidhiVimarsha": "Agada is enlisted in one of the eight branches of ayurveda. Management of poisoning is an important aspect of medical system. Visha is a substance that leads to decline of overall functions of the person. The vaidya should have knowledge and training in visha gara vairodhika prashamana (anti-toxin treatment). In India especially in Kerala, the role of traditional practitioners in this field is significant. Their simple, but effective treatments, has really been astonishing. They are also well versed in the details regarding the good and bad omen based on doota (messenger), the happenings the vaidya sees when he is going to make house call for treating such cases and also what he observes in the house and in the patient. He is also well versed in astrology.\n\nThe Visha Chikitsa chapter follows Trishna Chikitsa because both have same line of treatment i.e., sheetala kriya (cooling therapy). The same logic can be attributed to Madatyaya Chikitsa which follows this chapter. Visha and madya have same qualities and effects on body, however madya is comparatively mild with gradual effects, whereas visha has severe and acute effects. The present chapter deals with detailed study of various types of acute and slow poisons. Animal bites, their clinical features and treatment are described in detail. The stages of poisoning and their clinical features are detailed. The chapter also explains the stages, features and treatment of poisoning in animals and birds. Various fumigation medicines are enlisted to detoxify the home environment, things of daily use like beds, seats, clothes etc. The treatments of insect bite, rat bite, dog bite, scorpion bite are also described. This chapter opens a window to treat adverse drug reactions and allergic reaction to anti toxic formulations described. A condition of pseudo poisoning is mentioned which needs psychological counselling without any anti toxic medicines.\n\nWith the advancement in medical technology, the new methods of treatments of poisoning have evolved with time. However the basic treatments like applying tourniquet at the site of bite to prevent spread of poison, therapeutic emesis in the form of gastric lavage in case of ingested poison, or purgation are the same as in contemporary medicine. However with the development of forensic medicine, the investigations of types of poisons, their identification and their blood levels are newer additions. The chapter describes ancient methods of management of poisoning cases that need to be highlighted and blended with todays modern techniques.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Visha_Chikitsa_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s06.024"
+}

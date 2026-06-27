@@ -1,0 +1,281 @@
+{
+  "sthana": "Siddhi Sthana",
+  "sthanaNumber": 8,
+  "chapterNumber": 9,
+  "titleEnglish": "Three vital organs treatment",
+  "titleSanskrit": "Trimarmiya Siddhi Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातस्त्रिमर्मीयां सिद्धिं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||",
+      "english": "Now we shall expound the chapter \"Trimarmiya Siddhi\" (Management of diseases of three vital organs). Thus said Lord Atreya [1-2]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "सप्तोत्तरं मर्मशतमस्मिञ्छरीरे स्कन्धशाखासमाश्रितमग्निवेश!| तेषामन्यतमपीडायां समधिका पीडा भवति, चेतनानिबन्धवैशेष्यात्| तत्र  शाखाश्रितेभ्यो  मर्मभ्यः  स्कन्धाश्रितानि  गरीयांसि, शाखानां तदाश्रितत्वात्;  स्कन्धाश्रितेभ्योऽपि  हृद्वस्तिशिरांसि, तन्मूलत्वाच्छरीरस्य||३||",
+      "english": "",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "तत्र हृदये दश धमन्यः प्राणापानौ  मनो बुद्धिश्चेतना महाभूतानि च नाभ्यामरा इव प्रतिष्ठितानि, शिरसि इन्द्रियाणि इन्द्रियप्राणवहानि च स्रोतांसि सूर्यमिव गभस्तयः संश्रितानि, बस्तिस्तु स्थूलगुदमुष्कसेवनीशुक्रमूत्रवाहिनीनां  नाडी(ली)नां मध्ये मूत्रधारोऽम्बुवहानां सर्वस्रोतसामुदधिरिवापगानां प्रतिष्ठा, बहुभिश्च तन्मूलैर्मर्मसञ्ज्ञकैः स्रोतोभिर्गगनमिव दिनकरकरैर्व्याप्तमिदं शरीरम्||४|| तेषां त्रयाणामन्यतमस्यापि भेदादाश्वेव शरीरभेदः स्यात्, आश्रयनाशादाश्रितस्यापि विनाशः; तदुपघातात्तु  घोरतरव्याधिप्रादुर्भावः; तस्मादेतानि विशेषेण रक्ष्याणि बाह्याभिघाद्वातादिभ्यश्च||५||",
+      "english": "",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 6,
+      "devanagari": "तत्र हृद्यभिहते कासश्वासबलक्षयकण्ठशोषक्लोमाकर्षणजिह्वानिर्गममुखतालुशोषापस्मारोन्मादप्रलापचित्तनाशादयः स्युः; शिरस्यभिहते मन्यास्तम्भार्दितचक्षुर्विभ्रममोहोद्वेष्टनचेष्टानाशकासश्वासहनुग्रहमूकगद्गदत्वाक्षिनिमीलन- गण्डस्पन्दनजृम्भणलालास्रावस्वरहानिवदनजिह्मत्वादीनि, बस्तौ तु वातमूत्रवर्चोनिग्रहवङ्क्षणमेहनबस्तिशूलकुण्डलोदावर्तगुल्मानिलाष्ठीलोपस्तम्भनाभिकुक्षिगुदश्रोणिग्रहादयः; वाताद्युपसृष्टानां त्वेषां लिङ्गानि चिकित्सिते सक्रियाविधीन्युक्तानि||६||",
+      "english": "",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 7,
+      "devanagari": "किन्त्वेतानि विशेषतोऽनिलाद्रक्ष्याणि, अनिलो हि पित्तकफसमुदीरणे हेतुः प्राणमूलं च, स बस्तिकर्मसाध्यतमः, तस्मान्न बस्तिसमं किञ्चित् कर्म मर्मपरिपालनमस्ति| \nतत्र षडास्थापनस्कन्धान् विमाने द्वौ चानुवासनस्कन्धाविह च विहितान् बस्तीन् बुद्ध्या विचार्य महामर्मपरिपालनार्थं प्रयोजयेद्वातव्याधिचिकित्सां च||७||",
+      "english": "",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 8,
+      "devanagari": "भूयश्च  हृद्युपसृष्टे हिङ्गुचूर्णं लवणानामन्यतमचूर्णसंयुक्तं मातुलुङ्गस्य  रसेनान्येन वाऽम्लेन हृद्येन वा पाययेत्, स्थिरादिपञ्चमूलीरसः सशर्करः पानार्थं, बिल्वादिपञ्चमूलरससिद्धा च यवागूः, हृद्रोगविहितं च कर्म; मूर्ध्नि तु वातोपसृष्टेऽभ्यङ्गस्वेदनोपनाहस्नेहपाननस्तःकर्मावपीडनधूमादीनि; बस्तौ तु कुम्भीस्वेदः, वर्तयः, श्यामादिभिर्गोमूत्रसिद्धो निरूहः, बिल्वादिभिश्च सुरासिद्धः, शरकाशेक्षुदर्भगोक्षुरकमूलशृतक्षीरैश्च  त्रपुसैर्वारुखराश्वाबीजयवर्षभकवृद्धिकल्कितो निरूहः, पीतदारुसिद्धतैलेनानुवासनं, तैल्वकं च सर्पिर्विरेकार्थं, शतावरीगोक्षुरकबृहतीकण्टकारिकागुडूचीपुनर्नवोशीरमधुकद्विसारिवालोध्रश्रेयसीकुशकाशमूलकषायक्षीरचतुर्गुणं बलावृषर्षभकखराश्वोपकुञ्चिकावत्सकत्रपुसैर्वारुबीजशितिवारकमधुकवचाशतपुष्पाश्मभेदकवर्षाभूमदनफलकल्कसिद्धं तैलमुत्तरबस्तिर्निरूहो वा शुद्धस्निग्धस्विन्नस्य बस्तिशूलमूत्रविकारहर इति||८||",
+      "english": "",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "भवन्ति चात्र श्लोकाः- हृदये मूर्ध्नि बस्तौ च नृणां प्राणाः प्रतिष्ठिताः| \nतस्मात्तेषां सदा यत्नं  कुर्वीत परिपालने||९|| आबाधवर्जनं नित्यं स्वस्थवृत्तानुवर्तनम्| \nउत्पन्नार्तिविघातश्च मर्मणां परिपालनम्||१०||",
+      "english": "",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 11,
+      "devanagari": "अत उर्ध्वं विकारा ये त्रिमर्मीये चिकित्सिते| \nन प्रोक्ता मर्मजास्तेषां कांश्चिद्वक्ष्यामि सौषधान्||११||",
+      "english": "Hence forward, will be described some of the diseases related to marma that have not been described in the chapter Trimarmiya Chikitsa, alongwith their treatment.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 12,
+      "devanagari": "क्रुद्धः स्वैः कोपनैर्वायुः स्थानादूर्ध्वं प्रपद्यते| \nपीडयन् हृदयं गत्वा शिरः शङ्खौ च पीडयन्||१२|| धनुर्वन्नमयेद्गात्राण्याक्षिपेन्मोहयेत्तथा| \n(नमयेच्चाक्षिपेच्चाङ्गान्युच्छ्वासं  निरुणद्धि च)| \nकृच्छ्रेण चाप्युच्छ्वसिति स्तब्धाक्षोऽथ निमीलकः  ||१३|| कपोत इव कूजेच्च निःसञ्ज्ञः सोऽपतन्त्रकः| \nदृष्टिं संस्तम्भ्य सञ्ज्ञां च हत्वा कण्ठेन कूजति||१४|| हृदि मुक्ते नरः स्वास्थ्यं याति मोहं वृते पुनः| \nवायुना दारुणं प्राहुरेके तमपतानकम्||१५||",
+      "english": "Vata aggaravated by its own causative factors moves upwards from its sthana (site), reaching the hridaya produces pain or discomfort in hridaya (heart) and also in shira (head) and shankha (temporal area). It causes a bow-like bending of the body, akshipet (involuntary jerks) and mohayet (altered consciousness). (It causes involuntary bending or contractures and jerky movements and also obstruction to breathing). The person breathes out with difficulty, has spasm of eye movements or drooping, makes cooing sounds like a dove, becomes unconscious. The condition is called apatantraka. Some authors call a variant of this condition as apatanaka, in which there is fixity of eyes (gaze fixed) and grunting sounds from throat. When hridaya is free of doshas the person becomes healthy and becomes unconscious again when gets afflicted with doshas and is due to severe aggravation of vata. [12-15]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 16,
+      "devanagari": "श्वसनं कफवाताभ्यां रुद्धं तस्य  विमोक्षयेत्| \nतीक्ष्णैः प्रधमनैः सञ्ज्ञां तासु मुक्तासु विन्दति||१६|| मरिचं शिग्रुबीजानि विडङ्गं च फणिज्झकम्| \nएतानि सूक्ष्मचूर्णानि दद्याच्छीर्षविरेचनम्||१७|| तुम्बुरूण्यभया  हिङ्गु पौष्करं लवणत्रयम्| \nयवक्वाथाम्बुना पेयं हृद्ग्रहे चापतन्त्रके  ||१८|| हिङ्ग्वम्लवेतसं शुण्ठीं ससौवर्चलदाडिमम्| \nपिबेद्वातकफघ्नं च कर्म हृद्रोगनुद्धितम्||१९|| शोधना  बस्तयस्तीक्ष्णा न हितास्तस्य कृत्स्नशः| \nसौवर्चलाभयाव्योषैः सिद्धं तस्मै घृतं हितम्||२०||",
+      "english": "The aggravated kapha vata doshas cause obstruction to shvasana (breathing) which should be cleared by tikshna pradhamana nasya (powder blowing into nostrils). This restores the sanjna (consciousness). Sirsha virechana (purification of head) should be given using very fine powder of maricha (black peper/Piper indicum), shigrubija (seeds of Moringa olifera), vidanga (Embelia ribes) and phaninjjaka (Marubaka- Origanum majorana). In hridgraha (stiffness or tightness in Heart) and apatantraka one should consume tumburu (Zanthoxylum alatum), abhaya (Terminalia chebula fruit), hingu (Asafoetida), pushkara (Inula racemosa), three types of lavana (saindhava, sauvarcala and bida lavana) with decoction of yava (Hordeum vulgare). Consume hingu (Asafoetida), amlavetasa (Garcinia pedunculata), sunthi (Zingiber officinale), with sauvarchala (sorchal salt) and dadima (juice of pomergranate/ Punica granatum) and employ treatment that alleviates vata kapha doshas and which cures hridroga (cardiac disorders). Tikshna shodhana basti (strong purificatory enemas) is totally unsuitable. Ghrita prepared by sauvarchala salt, abhaya (Terminalia chebula), vyosha (pippali, maricha, sunthi i.e., Piper longum, Piper indicum and Zingiber officinale) is suitable. [16-20]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "मधुरस्निग्धगुर्वन्नसेवनाच्चिन्तनाच्छ्रमात् | \nशोकाद्व्याध्यनुषङ्गाच्च वायुनोदीरितः कफः||२१|| यदाऽसौ समवस्कन्द्य हृदयं हृदयाश्रयान्| \nसमावृणोति ज्ञानादींस्तदा तन्द्रोपजायते||२२|| हृदये व्याकुलीभावो वाक्चेष्टेन्द्रियगौरवम्| \nमनोबुद्ध्यप्रसादश्च तन्द्राया लक्षणं मतम्||२३|| कफघ्नं तत्र कर्तव्यं शोधनं शमनानि च| \nव्यायामो रक्तमोक्षश्च भोज्यं च कटुतिक्तकम्||२४||",
+      "english": "Due to consumption of anna (foods) that are madhura (sweet), snigdha (unctuous), guru (heavy to digest), chintana (excessive thinking), shrama (exertion), shoka (grief), vyadhyanushanga (chronicity of diseases), kapha aggravated by vata in association when gets lodged in hridaya, obscures the process of jnana, tandra (drowsiness) occurs. The symptoms of tandra are hridaye vyakulibhava (uneasiness or discomfort in the region of heart), sluggishness of speech and physical activity, decreased acuity of the sense organs, clouding of mind and intellect. This condition should be managed by shodhana and shamana measures that are kaphahara, vyayama (exercise), raktamokshana (blood letting) and intake of foods that are predominantly katu (pungent) and tikta (bitter).[21-24]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "मूत्रौकसादो  जठरं कृच्छ्रमुत्सङ्गसङ्क्षयौ| \nमूत्रातीतोऽनिलाष्ठीला वातबस्त्युष्णमारुतौ||२५|| वातकुण्डलिका ग्रन्थिर्विड्घातो बस्तिकुण्डलम्| \nत्रयोदशैते मूत्रस्य दोषास्ताँल्लिङ्गतः शृणु||२६|| vātakuṇḍalikā granthirviḍghātō bastikuṇḍalam| \ntrayōdaśaitē mūtrasya dōṣāstāmँlliṅgataḥ śr̥ṇu||26||",
+      "english": "Mutraukasada(dense urine), mutrajathara (accumulation of urine in abdominal cavity), mutrakrichchra (dysuria), mutrotsanga (residual urination), mutrasamkshaya (suppression of urine formation), mutratita (delayed micturition), vatashthila (hard globular swelling like tumor), vatabasti (vata affection of bladder), ushnavata (vata-pitta vitiation of urine/burning micturition), vatakundalika (scanty and painful flow of urine), granthi (cyst at the neck of bladder), vidghata (feces coming through urine) and bastikundala (circular distension of bladder) are the thirteen varieties of mutra dosha (urinary disorders) and listen to them with their symptoms.[25-26]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "पित्तं कफो द्वावपि वा बस्तौ संहन्यते यदा| \nमारुतेन तदा मूत्रं रक्तं पीतं घनं सृजेत्||२७|| सदाहं श्वेतसान्द्रं वा सर्वैर्वा लक्षणैर्युतम्| \nमूत्रौकसादं  तं विद्यात् पित्तश्लेष्महरैर्जयेत्||२८||",
+      "english": "Pitta, kapha both or singly getting aggravated with vata, when reach into the basti cause reddish, yellowish, thick urine to flow, with burning, or whitish, thick or with all the symptoms. The condition is called mutraukasada and should be treated with pitta kaphahara measures.[27-28]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 29,
+      "devanagari": "विधारणात् प्रतिहतं वातोदावर्तितं यदा| \nपूरयत्युदरं मूत्रं तदा तदनिमित्तरुक्||२९|| अपक्तिमूत्रविट्सङ्गैस्तन्मूत्रजठरं वदेत्| \nमूत्रवैरेचनीं तत्र चिकित्सां सम्प्रयोजयेत्||३०|| हिङ्गुद्विरुत्तरं चूर्णं त्रिमर्मीये प्रकीर्तितम्| \nहन्यान्मूत्रोदरानाहमाध्मानं  गुदमेढ्रयोः||३१||",
+      "english": "Withholding the urge to urinate, causes vata to get obstructed in its normal pathway which causes udavarta (reversal of movements) and thereby the mutra fills up in the udara producing inconsistent pain, sense of indigestion, obstruction to the flow of mutra and vid. This is called mutra jathara. Mutra virechana chikitsa (diuresis) should be employed in this condition. Hingu dvirittara churna clears mutrodara (distension of abdomen due to urinary retention), anaha (simple distension due to indigestion or constipation), adhmana (distension with pain) of guda (anus) and medhra (phallum). [29-31]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 32,
+      "devanagari": "मूत्रितस्य व्यवायात्तु रेतो वातोद्धतं च्युतम्| \nपूर्वं मूत्रस्य पश्चाद्वा स्रवेत् कृच्छ्रं तदुच्यते||३२||",
+      "english": "Indulgence in sexual intercourse by a person with active urge to micturate causes affliction of the dislodged shukra (seminal secretions) which flows either before or after the urine stream and this is called mutra krichchra.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 33,
+      "devanagari": "खवैगुण्यानिलाक्षेपैः किञ्चिन्मूत्रं च तिष्ठति| \nमणिसन्धौ स्रवेत् पश्चात्तदरुग्वाऽथ चातिरुक्||३३|| मूत्रोत्सङ्गः स विच्छिन्नमुच्छेषगुरुशेफसः |",
+      "english": "Due to khavaigunya (structural deformity) in the mutravaha srotas, severe vata aggravation, some urine remains in the manisandhi (base of penis) and discharges sometime later either without pain or with severe pain. Mutra passes in vichchinna (split form) and uchchesha (with some residual urine in the enlarged or engorged penis) from the guru shepha (enlarged penis due to accumulation of excess urine in the penis). This is mutrotsanga. [33-33½]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 34,
+      "devanagari": "वाताकृतिर्भवेद्वातान्मूत्रे शुष्यति सङ्क्षयः||३४||",
+      "english": "Due to aggravation of vata, the urine gets decreased with manifestation of vatakriti (symptoms of aggravated vata). The condition is mutra kshaya.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 35,
+      "devanagari": "चिरं धारयतो मूत्रं त्वरया न प्रवर्तते| \nमेहमानस्य मन्दं वा मूत्रातीतः स उच्यते||३५||",
+      "english": "In a person withholding for long, the urge to urinate, the urine does not flow instantly or flows with mild stream. This is called mutratita.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 36,
+      "devanagari": "आध्मापयन् बस्तिगुदं रुद्ध्वा वायुश्चलोन्नताम्| \nकुर्यात्तीव्रार्तिमष्ठीलां मूत्रविण्मार्गरोधिनीम्||३६||",
+      "english": "When vata obstructs the path of mutra, it causes adhmana (distension) of basti (bladder area) and guda (rectal area) producing ashthila (stone like hard mass or swelling) which is chala (freely mobile), unnata (elevated) which causes tivra arti (severe pain) and vinmutrarodhini (obstruction to stools and urine).",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 37,
+      "devanagari": "मूत्रं  धारयतो बस्तौ वायुः क्रुद्धो विधारणात्| \nमूत्ररोधार्तिकण्डूभिर्वातबस्तिः स उच्यते||३७||",
+      "english": "Withholding the urine in the basti causes vata to aggravate which causes mutrarodha (urinary obstruction), arti (pain), kandu (itching) and this is called vatabasti.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 38,
+      "devanagari": "उष्मणा सोष्मकं मूत्रं शोषयन् रक्तपीतकम्| \nउष्णवातः सृजेत् कृच्छ्राद्बस्त्युपस्थार्तिदाहवान्||३८||",
+      "english": "Due to indulgence in ushma (factors that increase the heat in the body), there will be mutra shosha (decrease in mutra), raktapita mutra (reddish or yellowish urine), passed with difficulty (krichchrat), causing arti (pain) and daha (burning) in basti (urinary bladder) and upastha (genitalia). This is ushnavata.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "गतिसङ्गादुदावृत्तः स मूत्रस्थानमार्गयोः| \nमूत्रस्य विगुणो वायुर्भग्नव्याविद्धकुण्डली||३९|| मूत्रं विहन्ति संस्तम्भभङ्गगौरववेष्टनैः| \nतीव्ररुङ्मूत्रविट्सङ्गैर्वातकुण्डलिकेति सा||४०||",
+      "english": "Due to gatisanga (obstruction in the pathway) of mutra in the mutrasthana (mutrasaya) and mutramarga (mutravaha srotas), the viguna vayu (aggravated vata) becomes udavratta (reflux or moves in opposite direction) and thereby bhagna (broken), vyaviddha (zigzag) or kundali (rotatory) in its pathway. It then affects the mutra with samstambha (stiffness or rigidity), bhanga (breaking pain), gaurava (heaviness), veshtana (twisting pain), tivraruk (severe pain) and mutravitsanga (retention of urine and feces). The condition is called vata kundalika. [39-40]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 41,
+      "devanagari": "रक्तं वातकफाद्दुष्टं बस्तिद्वारे सुदारुणम्| \nग्रन्थिं कुर्यात् स कृच्छ्रेण सृजेन्मूत्रं तदावृतम्||४१|| अश्मरीसमशूलं तं रक्तग्रन्थिं प्रचक्षते|",
+      "english": "Rakta getting vitiated by vata and kapha, produces a grievous nodular swelling (granthi) which obstructs the mutra and as a result the mutra is eliminated with difficulty and pain similar to urinary calculus. The condition is called raktagranthi. [41-41½]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 42,
+      "devanagari": "रूक्षदुर्बलयोर्वातेनोदावृत्तं शकृद्यदा||४२|| मूत्रस्रोतः प्रपद्येत विट्संसृष्टं तदा नरः| \nविड्गन्धं मूत्रयेत् कृच्छ्राद्विड्विघातं विनिर्दिशेत्||४३||",
+      "english": "In a ruksha (emaciated) and durbala (weak) person, due to aggravated vata when shakrita (stool matter) becomes udavarta (moves into other pathway) and enters the channels of mutra, the person passes mutra admixed with stool matter bearing a fecal odor with difficulty. The condition is called vidvighata.[42-43]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 44,
+      "devanagari": "द्रुताध्वलङ्घनायासादभिघातात् प्रपीडनात्| \nस्वस्थानाद्वस्तिरुद्वृत्तः स्थूलस्तिष्ठति गर्भवत्||४४|| शूलस्पन्दनदाहार्तो बिन्दुं बिन्दुं स्रवत्यपि| \nपीडितस्तु सृजेद्धारां संस्तम्भोद्वेष्टनार्तिमान्||४५|| बस्तिकुण्डलमाहुस्तं घोरं शस्त्रविषोपमम्| \nपवनप्रबलं प्रायो दुर्निवारमबुद्धिभिः||४६|| तस्मिन् पित्तान्विते दाहः शूलं मूत्रविवर्णता| \nश्लेष्मणा गौरवं शोफः स्निग्धं मूत्रं घनं सितम्||४७|| श्लेष्मरुद्धबिलो बस्तिः पित्तोदीर्णो न सिध्यति| \nअविभ्रान्तबिलः साध्यो न तु यः कुण्डलीकृतः||४८|| स्याद्वस्तौ कुण्डलीभूते हृन्मोहः श्वास एव च|४९|",
+      "english": "Due to factors such as fast walking, fasting, exhaustion, injury and compression, the basti is displaced upwards giving the appearance of distended gravid uterus. The patient manifests with shula (severe pain), spandana (involuntary contractions or spasms) and daha (burning) and passes urine drop by drop. On straining there is streamed urine with samstambha (griping pain), udvestana (twisting pain) or arti (simple pain). The condition is called basti kundala and is similar to shastra (sharp weapon), visha (poison) in its action. The condition is dominant of vata and is incurable by the unintelligent.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 49,
+      "devanagari": "दोषाधिक्यमवेक्ष्यैतान् मूत्रकृच्छ्रहरैर्जयेत्॥४९॥ बस्तिमुत्तरबस्तिं च सर्वेषामेव दापयेत् |",
+      "english": "These conditions should be examined in terms of dominance of dosha and treated by measures that relieve mutrakrichchra (dysuria). Basti (rectal enemas) and uttara basti (Bladder enemas) should be administered in all these conditions. [49-49½]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 50,
+      "devanagari": "पुष्पनेत्रं तु हैमं स्याच्छ्लक्ष्णमौत्तरबस्तिकम्||५०|| जात्यश्वहनवृन्तेन समं गोपुच्छसंस्थितम्| \nरौप्यं वा सर्षपच्छिद्रं द्विकर्णं द्वादशाङ्गुलम्||५१|| तेनाजबस्तियुक्तेन स्नेहस्यार्धपलं नयेत्| \nयथावयोविशेषेण स्नेहमात्रां विकल्प्य वा||५२|| स्नातस्य भुक्तभक्तस्य रसेन पयसाऽपि वा| \nसृष्टविण्मूत्रवेगस्य पीठे जानुसमे मृदौ||५३|| ऋजोः सुखोपविष्टस्य हृष्टे मेढ्रे घृताक्तया| \nशलाकयाऽन्विष्य गतिं यद्यप्रतिहता व्रजेत्||५४|| ततः शेफःप्रमाणेन पुष्पनेत्रं प्रवेशयेत्| \nगुदवन्मूत्रमार्गेण प्रणयेदनु सेवनीम्||५५|| हिंस्यादतिगतं बस्तिमूने स्नेहो न गच्छति| \nसुखं प्रपीड्य निष्कम्पं निष्कर्षेन्नेत्रमेव च||५६|| प्रत्यागते द्वितीयं च तृतीयं च प्रदापयेत्| \nअनागच्छन्नुपेक्ष्यस्तु रजनीव्युषितस्य च||५७||",
+      "english": "Pushpanetra (uttara basti nozzle) used for uttara basti should be made of gold or silver, smooth, be similar to stalk of jati (Jasminum officinale), or asvahana (Karavira- Nerium odorum/ indicum) and like cow’s tail (tapering). It should be 12 angulas long, have two ridges (dvikarna) and sarshapachidra (permitting the passage of mustard seed). It fitted on to goats bladder, half pala (25ml) of sneha should be taken or the quantity of sneha should be judiciously calculated in consideration of the patient’s age.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 58,
+      "devanagari": "पिप्पलीलवणागारधूमापामार्गसर्षपैः| \nवार्ताकुरसनिर्गुण्डीशम्पाकैः ससहाचरैः||५८|| मूत्राम्लपिष्टैः सगुडैर्वर्तिं कृत्वा प्रवेशयेत्| \nअग्रे तु सर्षपाकारां पश्चार्धे माषसम्मिताम्||५९|| नेत्रदीर्घां घृताभ्यक्तां सुकुमारामभङ्गुराम्| \nनेत्रवन्मूत्रनाड्यां तु पायौ चाङ्गुष्ठसम्मिताम्||६०|| स्नेहे प्रत्यागते ताभ्यामानुवासनिको विधिः| \nपरिहारश्च सव्यापत् ससम्यग्दत्तलक्षणः||६१||",
+      "english": "Varti (suppository) prepared out of pippali (Piper longum), lavana (rock salt), agaradhuma (house soot), apamarga (Achyranthus aspera), sarshapa (Brassica campestris), vartaku (Solanum melongena), nirgundi juice (juice of Vitex negundo), shampaka (Cassia fistula), sahachara (Barleria prionitis), mutra (Urine of cattle etc. 8 animals), amla (amlavarga dravyas like nimbuka etc) with gud (jaggery) all pounded together and varti prepared which is introduced into the urinary passage. The tip of varti should be of the size of sarshapa (seed of Brassica campestris) and the other end resembling masha (Phaseolus radiatus). In the mutranadi (urinary passage), it should be introduced like the bastinetra and in the payu (anal orifice) it should be of thickness upto 1 angushta. When the sneha comes out, it should be followed by anuvasana basti vidhi (procedures mentioned in the after care of anuvasana basti). The vyapat (complications), their management and symptoms of proper administration are also similar to anuvasana basti procedure.[58-61]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 62,
+      "devanagari": "स्त्रीणामार्तवकाले तु प्रतिकर्म तदाचरेत्| \nगर्भासना सुखं स्नेहं तदाऽऽदत्ते ह्यपावृता||६२|| गर्भं  योनिस्तदा शीघ्रं जिते गृह्णाति मारुते| \nबस्तिजेषु विकारेषु योनिविभ्रंशजेषु च||६३|| योनिशूलेषु तीव्रेषु योनिव्यापत्स्वसृग्दरे| \nअप्रस्रवति मूत्रे च बिन्दुं बिन्दुं स्रवत्यपि||६४|| विदध्यादुत्तरं बस्तिं यथास्वौषधसंस्कृतम्  |६५|",
+      "english": "In women, uttara basti should be administered immediately after the menses as the vagina is then open and easily receives the sneha administered, thereby the vata being subdued, it easily becomes impregnable. Uttara basti with appropriate medicines should be administered in disorders of basti (Urinary bladder), prolapse of uterus, severe pain related to uterus, 20 diseases of uterus and vagina (described in [Cha.Sa.Chikitsa Sthana 30th chapter], menorrhagia-metrorrhagia conditions, retention of urine and dribbling incontinence.[62-64½]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 65,
+      "devanagari": "पुष्पनेत्रप्रमाणं तु प्रमदानां दशाङ्गुलम्||६५|| मूत्रस्रोतःपरीणाहं मुद्गस्रोतोऽनुवाहि च| \nअपत्यमार्गे नारीणां विधेयं चतुरङ्गुलम्||६६|| द्व्यङ्गुलं मूत्रमार्गे तु बालायास्त्वेकमङ्गुलम्| \nउत्तानायाः शयानायाः सम्यक् सङ्कोच्य सक्थिनी||६७|| अथास्याः प्रणयेन्नेत्रमनुवंशगतं सुखम्| \nद्विस्त्रिश्चतुरिति स्नेहानहोरात्रेण योजयेत्||६८|| बस्तौ, बस्तौ प्रणीते च वर्तिः पीनतरा भवेत्| \nत्रिरात्रं कर्म कुर्वीत स्नेहमात्रां विवर्धयेत्||६९|| अनेनैव विधानेन कर्म कुर्यात् पुनस्त्र्यहात्|७०|",
+      "english": "The uttarabasti nozzle for females should be 10 angulas in length, circumference as equal to that of urethra and its inner lumen permitting a seed of mudga (whole green gram/ phaseolus mungo). It should be introduced to a length of 4 angulas in the genital tract and 2 angulas into urinary tract for adult females and 1 angula for bala (unmarried below 16 years of age). The lady lying down supine with thighs folded upon itself, should be introduced the nozzle comfortably in the direction parallel to the spine. Two, three or four unctuous enemas may be administered in a span of 24 hours. The varti (suppository) to be administered for elimination of basti medicament should be thicker than the enema nozzle. This uttarabasti should be done for three consecutive nights with gradual increase in the dose of unctuous medicament. The procedure should be likewise repeated after 3 days.[65-69½]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 70,
+      "devanagari": "अतः शिरोविकाराणां कश्चिद्भेदः प्रवक्ष्यते||७०|| रक्तपित्तानिला दुष्टाः शङ्खदेशे विमूर्च्छिताः| \nतीव्ररुग्दाहरागं हि शोफं कुर्वन्ति दारुणम्||७१|| स शिरो विषवद्वेगी निरुध्याशु गलं तथा| \nत्रिरात्राज्जीवितं  हन्ति शङ्खको नाम  नामतः||७२|| परं  त्र्यहाज्जीवति चेत् प्रत्याख्यायाचरेत् क्रियाम्| \nशिरोविरेकसेकादि सर्वं वीसर्पनुच्च यत्||७३||",
+      "english": "Here after shall be elaborated certain diseases of the head. The aggravated rakta, pitta and vata getting lodged in the shankhadesha (temporal area) produce a severe painful swelling with redness. It is acute in manifestation like poison and obstructs the channels of the head and neck, killing the patient in 3 nights. If the patient survives beyond these 3 days, then considering the condition as pratyakhyeya (incurable but manageable) one should administer treatment modalities such as shirovirecha (errhines), seka (affusions) etc., which are curative of visarpa (erysipelas like lesions).[70-73]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 74,
+      "devanagari": "रूक्षात्यध्यशनात्  पूर्ववातावश्यायमैथुनैः| \nवेगसन्धारणायासव्यायामैः कुपितोऽनिलः||७४|| केवलः सकफो वाऽर्धं  गृहीत्वा शिरसस्ततः| \nमन्याभ्रूशङ्खकर्णाक्षिललाटार्धेऽतिवेदनाम्||७५|| शस्त्रारणिनिभां कुर्यात्तीव्रां सोऽर्धावभेदकः| \nनयनं वाऽथवा श्रोत्रमतिवृद्धो विनाशयेत्||७६|| चतुःस्नेहोत्तमा मात्रा शिरःकायविरेचनम्| \nनाडीस्वेदो घृतं जीर्णं बस्तिकर्मानुवासनम्||७७|| उपनाहः शिरोबस्तिर्दहनं चात्र शस्यते| \nप्रतिश्याये शिरोरोगे यच्चोद्दिष्टं चिकित्सितम्||७८||",
+      "english": "Vata aggravated due to consumption of ruksha (dry/ ununctuous) substances, excessive quantity or frequent intake (adhyashana), easterly breeze, dew/snow, sexual intercourse, withholding of urges, exhaustion and exercise, either singly or along with kapha, affecting either half of the head produces severe pain in neck, eyebrow, temples, ear, eye, forehead of one side. The condition is acutely severe like a sharp weapon or fire-log and is called ardhavabhedaka. The condition when severe may impair the functions of an eye or an ear. The 4 snehas (taila, ghrita, vasa and majja) in the maximum dose, kayavirechana (purgation), sirovirechana (purificatory errhines), nadisweda, 10 year old ghee, oil enemas, poultices, shirobasti, cautery are advocated here. The management told for pratishyaya (rhinitis) and headaches as mentioned should also be employed appropriately. [74-78]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 79,
+      "devanagari": "सन्धारणादजीर्णाद्यैर्मस्तिष्कं रक्तमारुतौ| \nदुष्टौ दूषयतस्तच्च दुष्टं ताभ्यां विमूर्च्छितम्||७९|| सूर्योदयेंऽशुसन्तापाद्द्रवं विष्यन्दते शनैः| \nततो दिने शिरःशूलं दिनवृद्ध्या विवर्धते||८०|| दिनक्षये ततः स्त्याने मस्तिष्के सम्प्रशाम्यति| \nसूर्यावर्तः स तत्र स्यात् सर्पिरौत्तरभक्तिकम्||८१|| शिरःकायविरेकौ च मूर्ध्ना त्रिस्नेहधारणम् | \nजाङ्गलैरुपनाहश्च घृतक्षीरैश्च सेचनम्  ||८२|| बर्हितित्तिरिलावादिशृतक्षीरोत्थितं घृतम्| \nस्यान्नावनं जीवनीयक्षीराष्टगुणसाधितम्||८३||",
+      "english": "Witholding the urges, indigestion etc. leads to the vitiation of rakta and vata which in turn vitiate the mastishka (brain). Thus, affected by the vitiated rakta and vata, at sunrise due to the heat of sunrays these slowly liquefy and thereby during the day there is headache which increases with the day. At the end of the day as they solidify, the headache subsides. The condition is called suryavarta and is managed by post-prandial ghee consumption, shirovireka (purificatory errhines), kayavireka (purgation), shiropichu (holding a gauze or piece of cotton soaked in medicated oil over the vertex) or shirobasti (holding medicated oil in a circular tank like formation over the head) with trisnehas, poultices prepared with jangala mamsa (meat of animals living in dry lands), affusions with ghee and milk, ghee (nasya) errhines prepared out of ksheerapaka of barhi, tittiri, lava (birds that live on land) etc. and navana (unctuous errhines) with ghee processed with 8 parts milk and jeevaniya drugs (jeevaka, jeevanti- Leptadenia reticulata, rishabhaka, kakoli, kshirakakoli etc.).[79-83]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 84,
+      "devanagari": "(उपवासातिशोकातिरूक्षशीताल्पभोजनैः)| \nदुष्टा दोषास्त्रयो मन्यापश्चाद्घाटासु  वेदनाम्||८४|| तीव्रां कुर्वन्ति सा  चाक्षिभ्रूशङ्खेष्ववतिष्ठते| \nस्पन्दनं गण्डपार्श्वस्य नेत्ररोगं हनुग्रहम्||८५|| सोऽनन्तवातस्तं हन्यात् सिरार्कावर्तनाशनैः| \nवातो रूक्षादिभिः क्रुद्धः शिरःकम्पमुदीरयेत्||८६|| तत्रामृताबलारास्नामहाश्वेताश्वगन्धकैः| \nस्नेहस्वेदादि वातघ्नं शस्तं नस्यं च तर्पणम्||८७||",
+      "english": "The three doshas aggravated due to fasting, severe grief, consumption of food which is ununctuous, cold and less in quantity, producing severe pain in manya (antero lateral part of neck) and then ghata (posterior part of neck). Later the pain localizes to the eye, eyebrow and temples, causes twitching in the cheek, diseases of the eye and stiffness of the jaw. The condition is called anantavata. It is treated by siravyadha (venesection) and medicines that cure suryavarta. The vata aggravated by ruksha etc factors produces tremors of the head. In this condition amrita (Tinospora cordifolia), bala (Sida cordifolia), rasna (Pluchea lanceolata), mahashveta (Clitoria ternatea Linn.), ashvagandha (Withania sommifera) which are alleviators of vata should be used for oleation, fomentation and tarpana nasya (nourishing errhines) should be employed.[84-87]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 88,
+      "devanagari": "नस्तःकर्म च कुर्वीत शिरोरोगेषु शास्त्रविद्| \nद्वारं हि शिरसो नासा तेन तद् व्याप्य हन्ति तान्||८८||",
+      "english": "A physician proficient in the Ayurveda scriptures should employ nasya karma (errhines) in diseases of the head as the nose being the gateway of head, the medicines administered thereby pervades into the head and cures diseases pertaining to the head.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 89,
+      "devanagari": "नावनं चावपीडश्च ध्मापनं धूम एव च| \nप्रतिमर्शश्च विज्ञेयं नस्तःकर्म तु पञ्चधा||८९|| स्नेहनं शोधनं चैव द्विविधं नावनं स्मृतम्| \nशोधनः स्तम्भनश्च स्यादवपीडो द्विधा मतः ||९०|| चूर्णस्याध्मापनं तद्धि देहस्रोतोविशोधनम् | \nविज्ञेयस्त्रिविधो धूमः प्रागुक्तः शमनादिकः||९१|| प्रतिमर्शो भवेत् स्नेहो निर्दोष उभयार्थकृत्| \nएवं तद्रेचनं कर्म तर्पणं शमनं त्रिधा||९२||",
+      "english": "Nasya karma is said to be of 5 types- navana (unctuous errhines), avapida (expressed errhines), dhmapana (powder errhines), dhuma (smoke inhalation) and pratimarsha (low dose unctuous errhines). Navana (unctuous errhines) is of two types viz, snehana (oleating) and shodhana (purificatory). Avapida (Expressed errhine) is of two types-shodhana (purificatory) and stambhana (astringent). Blowing of churna (powder errhine) is said to cleanse the body passages. Dhuma (smoke inhalation) is said to be of three types ie, shamana etc (palliative, oleating and purificatory) as mentioned before. Pratimarsha is an oleative type of errhine without any adverse effects whatsoever and serves both (oleation and purification). Hence, the above mentioned 5 types of errhines fall into 3 categories – rechana (purificatory), tarpana (nourishing) and samana (palliative). [89-92]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 93,
+      "devanagari": "स्तम्भसुप्तिगुरुत्वाद्याः श्लैष्मिका ये शिरोगदाः| \nशिरोविरेचनं तेषु नस्तःकर्म प्रशस्यते||९३|| ये च वातात्मका रोगाः शिरःकम्पार्दितादयः| \nशिरसस्तर्पणं तेषु नस्तःकर्म प्रशस्यते ||९४|| रक्तपित्तादिरोगेषु शमनं नस्यमिष्यते| \nध्मापनं धूमपानं च तथा योग्येषु शस्यते  ||९५|| (दोषादिकं समीक्ष्यैव भिषक् सम्यक् च कारयेत्)|९६|",
+      "english": "In kaphaja shirorogas characterized by stiffness, numbness, heaviness etc. Nasta karma(nasal errhines) especially purificatory type is beneficial. Those diseases of head which are due to vata such as tremors of the head, facial palsy etc in them nastakarma in the form of tarpana is most suited. In diseases like raktapitta (bleeding dyscrasias) palliative errhines are indicated. Powder errhines and smoke inhalation are indicated for appropriate ones (treatment should be carried out by the physician after duly considering the dosha etc factors).[93-95½]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 96,
+      "devanagari": "फलादिभेषजं प्रोक्तं शिरसो यद्विरेचनम्||९६|| तच्चूर्णं कल्पयेत्तेन पचेत् स्नेहं विरेचनम्| \nयदुक्तं मधुरस्कन्धे भेषजं तेन तर्पणम्||९७|| साधयित्वा भिषक् स्नेहं नस्तः कुर्याद्विधानवित्|९८|",
+      "english": "The fruit etc. seven categories of medications suitable as errhines for purification of head mentioned in Rogabhishagjitiya Vimana may be used as powder and in oil base for purification. The drugs of sweet category mentioned in the that chapter may be used for tarpana (nourishing). With these mentioned drugs the sneha should be prepared and used by the physician who is skillful in the errhine therapy.[96-97½]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 98,
+      "devanagari": "प्राक्सूर्ये मध्यसूर्ये वा प्राक्कृतावश्यकस्य च||९८|| उत्तानस्य शयानस्य शयने स्वास्तृते सुखम्| \nप्रलम्बशिरसः किञ्चित् किञ्चित् पादोन्नतस्य च||९९|| दद्यान्नासापुटे स्नेहं तर्पणं बुद्धिमान् भिषक्| \nअनवाक्शिरसो नस्यं न शिरः प्रतिपद्यते||१००|| अत्यवाक्शिरसो नस्यं मस्तुलुङ्गेऽवतिष्ठति| \nअत एवंशयानस्य शुद्ध्यर्थं स्वेदयेच्छिरः||१०१|| संस्वेद्य नासामुन्नम्य वामेनाङ्गुष्ठपर्वणा| \nहस्तेन दक्षिणेनाथ कुर्यादुभयतः समम्||१०२|| प्रणाड्या पिचुना वाऽपि नस्तःस्नेहं यथाविधि| \nकृते च स्वेदयेद्भूय आकर्षेच्च पुनः पुनः||१०३|| तं स्नेहं श्लेष्मणा साकं तथा स्नेहो न तिष्ठति|",
+      "english": "Tarpana sneha nasya should be administered into the nostrils of a patient in the early morning or mid noon, who has attended to his ablutions lying down supine comfortably on a well spread couch, with head extended and the foot slightly raised. If the head is not lowered at all, the medication does not reach the head. If the head is excessively lowered the nasya medication may reach into the brain. Hence, a reclining patient for proper purification should be administered fomentation to the head. After proper fomentation, the tip of nose elevated with the thumb of left hand and with the right hand the unctuous errhine should be dropped into the nostril through a tube or gauze, equally into both the nostrils. After having done this, the head should be duly fomented and the instilled medicine should be repeatedly extracted along with the phlegmmatous discharge so that no medicine remains. (98-103½)",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 104,
+      "devanagari": "स्वेदेनोत्क्लेशितः श्लेष्मा नस्तःकर्मण्युपस्थितः  ||१०४|| भूयः स्नेहस्य शैत्येन शिरसि स्त्यायते  ततः| \nश्रोत्रमन्यागलाद्येषु विकाराय स कल्पते||१०५|| ततो नस्तःकृते धूमं पिबेत् कफविनाशनम्  | \nहितान्नभुङ्निवातोष्णसेवी स्यान्नियतेन्द्रियः||१०६|| विधिरेषोऽवपीडस्य कार्यः प्रध्मापनस्य तु| \nतत् षडङ्गुलया  नाड्या धमेच्चूर्णं मुखेन तु||१०७|| विरिक्तशिरसं तूष्णं  पाययित्वाऽम्बु भोजयेत्| \nलघु त्रिष्वविरुद्धं च निवातस्थमतन्द्रितः||१०८|| विरेकशुद्धो दोषस्य कोपनं यस्य सेवते| \nस दोषो विचरंस्तत्र करोति स्वान् गदान् बहून्||१०९|| यथास्वं विहितां तेषु क्रियां कुर्याद्विचक्षणः| \nअकालकृतजातानां रोगाणामनुरूपतः||११०||",
+      "english": "The mucus liquefied by the sudation, accumulated by the administration of errhine will get condensed back in the head due to the inherent coldness of the unctuous errhine which leads to diseases of ears, neck and throat. Hence, after the errhine therapy, one should take smoking which eliminates kapha, consume wholesome diet, resort to breezeless, warm residence and observe self restraint.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 111,
+      "devanagari": "अजीर्णे भोजने भुक्ते तोये पीतेऽथ दुर्दिने| \nप्रतिश्याये नवे स्नाते  स्नेहपानेऽनुवासने||१११|| नावनं स्नेहनं रोगान् करोति श्लैष्मिकान् बहून्| \nतत्र श्लेष्महरः सर्वस्तीक्ष्णोष्णादिर्विधिर्हितः||११२|| क्षामे विरेचिते गर्भे व्यायामाभिहते तृषि| \nवातो रूक्षेण नस्येन क्रुद्धः स्वाञ्जनयेद्गदान्||११३|| तत्र वातहरः सर्वो विधिः स्नेहनबृंहणः| \nस्वेदादिः, स्याद्घृतं क्षीरं  गर्भिण्यास्तु विशेषतः||११४|| ज्वरशोकातितप्तानां तिमिरं मद्यपस्य तु| \nरूक्षैः शीताञ्जनैर्लेपैः पुटपाकैश्च साधयेत्  ||११५||",
+      "english": "Unctuous errhine administered in patients of indigestion, soon after major food, water consumption, on an unsuitable (cloudy) day, in case of acute rhinitis, after bath, internal oleation, oil enema gives rise to many diseases of kapha. In these conditions all measures that alleviate kapha such as penetrating, hot etc are beneficial.",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 116,
+      "devanagari": "स्नेहनं शोधनं चैव द्विविधं नावनं मतम्| \nप्रतिमर्शस्तु नस्यार्थं करोति न च दोषावान्||११६|| नस्तः स्नेहाङ्गुलिं दद्यात् प्रातर्निशि च सर्वदा| \nन चोच्छिङ्घेदरोगाणां प्रतिमर्शः स दार्ढ्यकृत्||११७||",
+      "english": "Unctuous errhine (all errhines for that matter) is of two types- oleating and purificatory. Pratimarsha (low dose unctuous errhine) serves both the purpose and does not produce any ill effects. In the morning, night and at all times, one should use an oleated finger for pratimarsha. It should not be inhaled deeply. It is suitable for healthy and serves to strengthen the head.[116-117]",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 118,
+      "devanagari": "तत्र श्लोकौ त्रीणि यस्मात् प्रधानानि मर्माण्यभिहतेषु च| \nतेषु लिङ्गं चिकित्सां च रोगभेदाश्च सौषधाः||११८|| विधिरुत्तरबस्तेश्च नस्तःकर्मविधिस्तथा| \nसव्यापद्भेषजं सिद्धौ मर्माख्यायां प्रकीर्तितम्||११९||",
+      "english": "To conclude the verses-",
+      "section": "Three vital organs treatment"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृतेऽप्राप्ते दृढबलसम्पूरिते \nसिद्धिस्थाने त्रिमर्मीयसिद्धिर्नाम नवमोऽध्यायः||९||",
+      "english": "Hence, the 9th chapter of Siddhi Sthana named Trimarmiya Siddhi, which was unavailable and hence, completed by Dridhabala in Agnivesha’s compendium redacted by Charaka.",
+      "section": "Three vital organs treatment"
+    }
+  ],
+  "tattvaVimarsha": "Panchakarma and basti in particular can cause complications pertaining to marmas especially to the three vital points (trimarma-hridaya, shiras and basti) and successful treatment entails the proper administration of basti. All marmas fall under the madhyama rogamarga (disease pathways including internal systems) [ Cha.Sa.Sutra Sthana 11/48], and their diseases are difficult to manage. Vata dosha is important in etio-pathology of any disease, because the it is responsible for movement of vitiated doshas to other sites of disease (roga marga). Basti is the best treatment to alleviate vata and manage these diseases [Cha.Sa Siddhi Sthana 1/38-39]. Some diseases described in this chapter are not mentioned in the Trimarmiya Chikitsa chapter [Cha. Sa.Chikitsa Sthana 26] described earlier.\n\nUttara basti (per urethral and per vaginal drug delivery) is the third type of basti in the management of shukravaha srotas (reproductive system) and mutravaha srotas (urinary systems). This treatment modality to deliver drug in bladder in case of urinary system disorders and in uterus in case of uterine and reproductive system disorders is explained in detail. Nasya therapy (nasal errhines), its types and its importance in management of disorders of head is described further. Thus, the present chapter encompasses etio-pathology and medical management of all disorders related to heart, head and urinary system.",
+  "vidhiVimarsha": "Panchakarma and basti in particular can cause complications pertaining to marmas especially to the three vital points (trimarma-hridaya, shiras and basti) and successful treatment entails the proper administration of basti. All marmas fall under the madhyama rogamarga (disease pathways including internal systems) [ Cha.Sa.Sutra Sthana 11/48], and their diseases are difficult to manage. Vata dosha is important in etio-pathology of any disease, because the it is responsible for movement of vitiated doshas to other sites of disease (roga marga). Basti is the best treatment to alleviate vata and manage these diseases [Cha.Sa Siddhi Sthana 1/38-39]. Some diseases described in this chapter are not mentioned in the Trimarmiya Chikitsa chapter [Cha. Sa.Chikitsa Sthana 26] described earlier.\n\nUttara basti (per urethral and per vaginal drug delivery) is the third type of basti in the management of shukravaha srotas (reproductive system) and mutravaha srotas (urinary systems). This treatment modality to deliver drug in bladder in case of urinary system disorders and in uterus in case of uterine and reproductive system disorders is explained in detail. Nasya therapy (nasal errhines), its types and its importance in management of disorders of head is described further. Thus, the present chapter encompasses etio-pathology and medical management of all disorders related to heart, head and urinary system.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Trimarmiya_Siddhi_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s08.010"
+}

@@ -1,0 +1,275 @@
+{
+  "sthana": "Chikitsa Sthana",
+  "sthanaNumber": 6,
+  "chapterNumber": 18,
+  "titleEnglish": "Cough",
+  "titleSanskrit": "Kasa Chikitsa Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातः कासचिकित्सितं व्याख्यास्यामः ||१|| इति ह स्माह भगवानात्रेयः ||२||",
+      "english": "",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "तपसा यशसा धृत्या धिया च परयाऽन्वितः | \nआत्रेयः कासशान्त्यर्थं प्राह सिद्धं चिकित्सितम् ||३|| वातादिजास्त्रयो ये च क्षतजः क्षयजस्तथा | \nपञ्चैते स्युर्नृणां कासा वर्धमानाः क्षयप्रदाः ||४||",
+      "english": "Atreya, endowed with power of penance, fame and perseverance and super-intellect expounded the infallible therapies for the treatment of kasa. There are five types of kasa. If exacerbated they may cause kshaya. These five types are vataja, pittaja, kaphaja, kshataja and kshayaja. [3-4]",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "पूर्वरूपं भवेत्तेषां शूकपूर्णगलास्यता | \nकण्ठे कण्डूश्च भोज्यानामवरोधश्च जायते ||५||",
+      "english": "Following are the premonitory signs and symptoms of kasa:",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 6,
+      "devanagari": "अधःप्रतिहतो वायुरूर्ध्वस्रोतःसमाश्रितः | \nउदानभावमापन्नः कण्ठे सक्तस्तथोरसि ||६|| आविश्य शिरसः खानि सर्वाणि प्रतिपूरयन् | \nआभञ्जन्नाक्षिपन् देहं हनुमन्ये तथाऽक्षिणी ||७|| नेत्रे पृष्ठमुरःपार्श्वे निर्भुज्य स्तम्भयंस्ततः | \nशुष्को वा सकफो वाऽपि कसनात्कास उच्यते ||८||",
+      "english": "Vata being obstructed in the lower region of the body, moves upwards, afflicts the channels of circulation in the upper part of the body, takes over the function of udana vayu and gets localized in the throat and chest. Then entering all the cavities in the head, fills them up and causes hunching and convulsive movements of the body, jaws, sides of the neck and eyes. Thereafter this obstructed vata causes contraction and stiffness of the eyes, back, chest and sides of the chest, gives rise to kasa which may be dry or with phlegm because of which it is known as kasa.[6-8]",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "प्रतिघातविशेषेण तस्य वायोः सरंहसः | \nवेदनाशब्दवैशिष्ट्यं कासानामुपजायते ||९||",
+      "english": "Specific variations in the pain and sound associated with different types of kasa are caused by the specific nature of the obstruction (by kapha, etc.) to the force fully moving vayu.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 10,
+      "devanagari": "रूक्षशीतकषायाल्पप्रमितानशनं स्त्रियः | \nवेगधारणमायासो वातकासप्रवर्तकाः ||१०|| हृत्पार्श्वोरःशिरःशूलस्वरभेदकरो भृशम् | \nशुष्कोरःकण्ठवक्रस्य हृष्टलोम्नः प्रताम्यतः ||११|| निर्घोषदैन्यस्तननदौर्बल्यक्षोभमोहकृत् | \nशुष्ककासः कफं शुष्कं कृच्छ्रान्मुक्त्वाऽल्पतां व्रजेत् ||१२|| स्निग्धाम्ललवणोष्णैश्च भुक्तपीतैः प्रशाम्यति | \nऊर्ध्ववातस्य जीर्णेऽन्ने वेगवान्मारुतो भवेत् ||१३||",
+      "english": "Following are the causative factors of vatika type of kasa:",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 14,
+      "devanagari": "कटुकोष्णविदाह्यम्लक्षाराणामतिसेवनम् | \nपित्तकासकरं क्रोधः सन्तापश्चाग्निसूर्यजः ||१४|| पीतनिष्ठीवनाक्षित्वं तिक्तास्यत्वं स्वरामयः | \nउरोधूमायनं तृष्णा दाहो मोहोऽरुचिर्भ्रमः ||१५|| प्रततं कासमानश्च ज्योतींषीव च पश्यति | \nश्लेष्माणं पित्तसंसृष्टं निष्ठीवति च पैत्तिके ||१६||",
+      "english": "Excessive intake of ushna, katu, vidahi, amla and kshara type of ahara; krodha, santapa , exposure to the heat of the fire and sun are the causative factors of pittaja kasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "गुर्वभिष्यन्दिमधुरस्निग्धस्वप्नाविचेष्टनैः | \nवृद्धः श्लेष्माऽनिलं रुद्ध्वा कफकासं करोति हि ||१७|| मन्दाग्नित्वारुचिच्छर्दिपीनसोत्क्लेशगौरवैः | \nलोमहर्षास्यमाधुर्यक्लेदसंसदनैर्युतम् ||१८|| बहुलं मधुरं स्निग्धं निष्ठीवति घनं कफम् | \nकासमानो ह्यरुग् वक्षः सम्पूर्णमिव मन्यते ||१९||",
+      "english": "Intake of heavy to digest, slimy, excessive sweets and oily foods ; excessive sleep and habitual inertia leads to aggravation of kapha and thereby obstructs the movement of vata which gives rise to kaphaja type of kasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "अतिव्यवायभाराध्वयुद्धाश्वगजविग्रहैः | \nरूक्षस्योरः क्षतं वायुर्गृहीत्वा कासमावहेत् ||२०|| स पूर्वं कासते शुष्कं ततः ष्ठीवेत् सशोणितम् | \nकण्ठेन रुजताऽत्यर्थं विरुग्णेनेव चोरसा ||२१|| सूचीभिरिव तीक्ष्णाभिस्तुद्यमानेन शूलिना | \nदुःखस्पर्शेन शूलेन भेदपीडाभितापिना ||२२|| पर्वभेदज्वरश्वासतृष्णावैस्वर्यपीडितः | \nपारावत इवाकूजन् कासवेगात्क्षतोद्भवात् ||२३||",
+      "english": "Excessive indulgence in vyavaya, carrying excessive heavy load, walking excessively long distance, indulgence in fighting, excessive indulgence in restraining the movement of horses and elephants etc. factors cause injury to the chest and bring about rukshata in the body and in turn causes aggravation of vata there by results in the manifestation of kshataja kasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 24,
+      "devanagari": "विषमासात्म्यभोज्यातिव्यवायाद्वेगनिग्रहात् | \nघृणिनां शोचतां नॄणां व्यापन्नेऽग्नौ त्रयो मलाः ||२४|| कुपिताः क्षयजं कासं कुर्युर्देहक्षयप्रदम् | \nदुर्गन्धं हरितं रक्तं ष्ठीवेत् पूयोपमं कफम् ||२५|| स्थानादुत्कासमानश्च हृदयं मन्यते च्युतम् | \nअकस्मादुष्णशीतार्तो बह्वाशी दुर्बलः कृशः ||२६|| स्निग्धाच्छमुखवर्णत्वक् श्रीमद्दर्शनलोचनः | \nपाणिपादतलैः श्लक्ष्णैः सततासूयको घृणी ||२७|| ज्वरो मिश्राकृतिस्तस्य पार्श्वरुक् पीनसोऽरुचिः | \nभिन्नसंहतवर्चस्त्वं स्वरभेदोऽनिमित्ततः ||२८|| इत्येष क्षयजः कासः क्षीणानां देहनाशनः | \nसाध्यो बलवतां वा स्याद्याप्यस्त्वेवं क्षतोत्थितः ||२९|| नवौ कदाचित् सिध्येतामेतौ पादगुणान्वितौ | \nस्थविराणां जराकासः सर्वो याप्यः प्रकीर्तितः ||३०||",
+      "english": "Intake of vishamashana and asatmya ahara, indulgence in vyavaya, suppression of vega, ghrina and shoka etc factors leads to vitiation of agni thereby aggravation of tridosha giving rise to kshayaja kasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "त्रीन्साध्यान्साधयेत्पूर्वान् पथ्यैर्याप्यांश्च यापयेत् | \nचिकित्सामत ऊर्ध्वं तु शृणु कासनिबर्हिणीम् ||३१||",
+      "english": "The first three types of kasa (vataja, pittaja, kaphaja) should be treated as these are sadhya vyadhi. Whereas other two types (khataja and kshayaja) should be palliated with appropriate drugs and diet.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 32,
+      "devanagari": "रूक्षस्यानिलजं कासमादौ स्नेहैरुपाचरेत् | \nसर्पिर्भिर्बस्तिभिः पेयायूषक्षीररसादिभिः ||३२|| वातघ्नसिद्धैः स्नेहाद्यैर्धूमैर्लेहैश्च युक्तितः | \nअभ्यङ्गैः परिषेकैश्च स्निग्धैः स्वेदैश्च बुद्धिमान् ||३३|| बस्तिभिर्बद्धविड्वातं शुष्कोर्ध्वं चोर्ध्वभक्तिकैः | \nघृतैः सपित्तं सकफं जयेत् स्नेहविरेचनैः ||३४||",
+      "english": "As dryness (rukshata) will be more prominent in vataja type of kasa, it should be treated with unctuous therapies (snehika upacharas). Ghrita pana,basti, peya, yusha, ksheera, mamsa rasa etc. should be prepared with vataghna dravya and is to be administered properly.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 35,
+      "devanagari": "कण्टकारीगुडूचीभ्यां पृथक् त्रिंशत्पलाद्रसे | \nप्रस्थः सिद्धो घृताद्वातकासनुद्वह्निदीपनः ||३५|| इति कण्टकारीघृतम् |",
+      "english": "Thirty pala of kantakari and guduchi kashaya each is to be boiled with ghrita to prepare 1 Prastha of ghrita. This particular ghrita is beneficial in vatika kasa. It promotes the power of digestion. Thus ends the description of kantakari ghrita.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 36,
+      "devanagari": "पिप्पलीपिप्पलीमूलचव्यचित्रकनागरैः | \nधान्यपाठावचारास्नायष्ट्याह्वक्षारहिङ्गुभिः ||३६|| कोलमात्रैर्घृतप्रस्थाद्दशमूलीरसाढके | \nसिद्धाच्चतुर्थिकां पीत्वा पेयामण्डं पिबेदनु ||३७|| तच्छ्वासकासहृत्पार्श्वग्रहणीदोषगुल्मनुत् | \nपिप्पल्याद्यं घृतं चैतदात्रेयेण प्रकीर्तितम् ||३८|| इति पिप्पल्यादिघृतम् |",
+      "english": "One prastha of ghrita is to be cooked by adding one adhaka of the decoction of dashamoola and the paste of one kola of each pippali, pippali-moola, chavya, chitraka, nagara, dhanyaka, patha, vacha, rasna, yashtimadhu, kshara, and hingu. Intake of one chaturthika (pala) of this ghrita along with peya, manda is beneficial in shwasa, kasa, hridroga, parshwashoola, grahani and gulma. This particular formulation is known as pipplyaadi ghrita and is propounded by Atreya.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "त्र्यूषणं त्रिफलां द्राक्षां काश्मर्याणि परूषकम् | \nद्वे पाठे देवदार्वृद्धिं स्वगुप्तां चित्रकं शटीम् ||३९|| ब्राह्मीं तामलकीं मेदां काकनासां शतावरीम् | \nत्रिकण्टकं विदारीं च पिष्ट्वा कर्षसमं घृतात् ||४०|| प्रस्थं चतुर्गुणे क्षीरे सिद्धं कासहरं पिबेत् | \nज्वरगुल्मारुचिप्लीहशिरोहृत्पार्श्वशूलनुत् ||४१|| कामलार्शोऽनिलाष्ठीलाक्षतशोषक्षयापहम् | \nत्र्यूषणं नाम विख्यातमेतद्धृतमनुत्तमम् ||४२|| इति त्र्यूषणाद्यं घृतम् |",
+      "english": "One prastha of ghrita should be cooked by adding four prasthas of milk and the paste of one karsha each of tryushana, triphala, draksha, kashmari, parushaka, dve patha (patha, raja patha), devadaru, rddhi, swagupta, chitraka, shati, brahmi, tamalaki, meda, kakanasa, shatavari, trikantaka, vidari. This is an effective kasahara formulation. It also cures jwara, gulma, aruchi, pleeha, shirah shoola, hrit shoola, parshwa shoola, kamala, arshas, ashtheela, kshata, shosha, kshaya. This well known formulation is named as tryushanadi ghrita.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 43,
+      "devanagari": "द्रोणेऽपां साधयेद्रास्नां दशमूलीं शतावरीम् | \nपलिकां माणिकांशांस्तु कुलत्थान्बदरान्यवान् ||४३|| तुलार्धं चाजमांसस्य पादशेषेण तेन च | \nघृताढकं समक्षीरं जीवनीयैः पलोन्मितैः ||४४|| सिद्धं तद्दशभिः कल्कैर्नस्यपानानुवासनैः | \nसमीक्ष्य वातरोगेषु यथावस्थं प्रयोजयेत् ||४५|| पञ्चकासान् शिरःकम्पं शूलं वङ्क्षणयोनिजम् | \nसर्वाङ्गैकाङ्गरोगांश्च सप्लीहोर्ध्वानिलाञ्जयेत् ||४६|| इति रास्नाघृतम् |",
+      "english": "In one drona of water, one pala of each of rasna, dashamoolas, one manika of each of kulattha, badara, yava and half tula of ajamamsa should be added and boiled till one fourth of water remains. To this decoction, one adhaka of each of ghrita, ksheera and one pala of each of ten drugs belonging to jivaneeya (dashemani) should be added and cooked. This prepared ghrita should be used in the form of nasya, pana and anuvasana, after proper assessment of the stages of vataroga. This cures five types of kasa, shirahshoola, kamparoga, vankshna and yoni roga, diseases afflicting whole body or only one limb of the body, pleeha roga, urdhwa vata.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 47,
+      "devanagari": "विडङ्गं नागरं रास्ना पिप्पली हिङ्गु सैन्धवम् | \nभार्गी क्षारश्च तच्चूर्णं पिबेद्वा घृतमात्रया ||४७|| सकफेऽनिलजे कासे श्वासहिक्काहताग्निषु | \nद्वौ क्षारौ पञ्चकोलानि पञ्चैव लवणानि च ||४८|| शटीनागरकोदीच्यकल्कं वा वस्त्रगालितम् | \nपाययेत घृतोन्मिश्रं वातकासनिबर्हणम् ||४९|| दुरालभां शटीं द्राक्षां शृङ्गवेरं सितोपलाम् | \nलिह्यात् कर्कटशृङ्गीं च कासे तैलेन वातजे ||५०|| दुःस्पर्शां पिप्पलीं मुस्तं भार्गीं कर्कटकीं शटीम् | \nपुराणगुडतैलाभ्यां चूर्णितं वाऽपि लेहयेत् ||५१|| विडङ्गं सैन्धवं कुष्ठं व्योषं हिङ्गु मनःशिलाम् | \nमधुसर्पिर्युतं कासहिक्काश्वासं जयेल्लिहन् ||५२||",
+      "english": "Intake of the powder prepared out of vidanga, nagara, rasna, pippali, hingu, saindhava lavana, bharangi and kshara along with appropriate quantity of ghrita is beneficial in vataja kasa, kaphaja kasa, shwasa, hikka and suppression of digestion power.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 53,
+      "devanagari": "चित्रकं पिप्पलीमूलं व्योषं हिङ्गु दुरालभाम् | \nशटीं पुष्करमूलं च श्रेयसीं सुरसां वचाम् ||५३|| भार्गीं छिन्नरुहां रास्नां शृङ्गीं द्राक्षां च कार्षिकान् | \nकल्कानर्धतुलाक्वाथे निदिग्ध्याः पलविंशतिम् ||५४|| दत्त्वा मत्स्यण्डिकायाश्च घृताच्च कुडवं पचेत् | \nसिद्धं शीतं पृथक् क्षौद्रपिप्पलीकुडवान्वितम् ||५५|| चतुष्पलं तुगाक्षीर्याश्चूर्णितं तत्र दापयेत् | \nलेहयेत् कासहृद्रोगश्वासगुल्मनिवारणम् ||५६|| इति चित्रकादिलेहः |",
+      "english": "In half tula of the decoction of nidigdhika(Solanum xanthocarpum), the powder or paste of one karsha of each of chitraka, pippalimula, vyosha, hingu, duralabha, shati, pushkaramoola, shreyasi, surasa, vacha, bharangi, chinnaruha, rasna, shringi, draksha should be added. To this twenty palas of matsyandika and one kudava of ghrita should be added and cooked, There after when it becomes cool, one kudava of each of madhu, pippali powder, four palas of the powder of tugakshiri should be added. This leha will cure kasa, hridroga, shwasa, gulma.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 57,
+      "devanagari": "दशमूलीं स्वयङ्गुप्तां शङ्खपुष्पीं शटीं बलाम् | \nहस्तिपिप्पल्यपामार्गपिप्पलीमूलचित्रकान् ||५७|| भार्गीं पुष्करमूलं च द्विपलांशं यवाढकम् | \nहरीतकीशतं चैकं जले पञ्चाढके पचेत् ||५८|| यवैः स्विन्नैः कषायं तं पूतं तच्चाभयाशतम् | \nपचेद्गुडतुलां दत्त्वा कुडवं च पृथग्घृतात् ||५९|| तैलात् सपिप्पलीचूर्णात् सिद्धशीते च माक्षिकात् | \nलिह्याद्द्वे चाभये नित्यमतः खादेद्रसायनात् ||६०|| तद्वलीपलितं हन्ति वर्णायुर्बलवर्धनम् | \nपञ्चकासान् क्षयं श्वासं हिक्कां च विषमज्वरम् ||६१|| हन्यात्तथाऽर्शोग्रहणीहृद्रोगारुचिपीनसान् | \nअगस्त्यविहितं श्रेष्ठं रसायनमिदं शुभम् ||६२|| इत्यगस्त्यहरीतकी |",
+      "english": "Two palas of each among dashamoola, swayamgupta, shankahpushpi, shati, bala, hasti pippali, apamarga, pippalimoola, chitraka, bharangi, pushkaramoola should be added with one adhaka of water, these drugs should be cooked till the grains of yava becomes soft. And then decoction should be strained out. These hundred fruits of abhaya should be added with above mentioned decoction, one tula of guda, one kudava of ghrita, taila and powder of pippali. This is to be cooked and after attaining coldness one kudava of makshika is to be added.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 63,
+      "devanagari": "सैन्धवं पिप्पलीं भार्गीं शृङ्गवेरं दुरालभाम् | \nदाडिमाम्लेन कोष्णेन भार्गीनागरमम्बुना ||६३|| पिबेत् खदिरसारं वा मदिरादधिमस्तुभिः | \nअथवा पिप्पलीकल्कं घृतभृष्टं ससैन्धवम् ||६४||",
+      "english": "Intake of the powder of saindhava, pippali, bharangi, shringavera and duralabha along with lukewarm juice of sour dadima or the decoction of nagara cures vataja kasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 65,
+      "devanagari": "शिरसः पीडने स्रावे नासाया हृदि ताम्यति | \nकासप्रतिश्यायवतां धूमं वैद्यः प्रयोजयेत् ||६५|| दशाङ्गुलोन्मितां नाडीमथवाऽष्टाङ्गुलोन्मिताम् | \nशरावसम्पुटच्छिद्रे कृत्वा जिह्मां विचक्षणः ||६६|| वैरेचनं मुखेनैव कासवान् धूममापिबेत् | \nतमुरः केवलं प्राप्तं मुखेनैवोद्वमेत् पुनः ||६७|| स ह्यस्य तैक्ष्ण्याद्विच्छिद्य श्लेष्माणमुरसि स्थितम् | \nनिष्कृष्य शमयेत् कासं वातश्लेष्मसमुद्भवम् ||६८||",
+      "english": "If there is pain in the shiras, nasa srava, arrhythmia of hridaya and pratishyaya in kasa then the physician should administer dhuma. A wise physician should keep the ingredients of the recipe which cause elimination of dosha from the head inside two earthen plates with their brims sealed with mud-smeared cloth. In the upper plate there should be a hole to which a tube, ten or eight angulas in length, should be inserted in slightly curved form. The patient suffering from kasa should smoke the fume emanating from this tube through his mouth. After the smoke pervades the entire chest, it should be smoked out through the mouth. Because of the sharpness of the ingredients used in this recipe, the phlegm located in the chest gets detached and forcibly thrown out as a result of which kasa caused by vayu and kapha gets alleviated. [65-68]",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 69,
+      "devanagari": "मनःशिलालमधुकमांसीमुस्तेङ्गुदैः पिबेत् | \nधूमं तस्यानु च क्षीरं सुखोष्णं सगुडं पिबेत् ||६९|| एष कासान् पृथग्दोषसन्निपातसमुद्भवान् | \nधूमो हन्यादसंसिद्धानन्यैर्योगशतैरपि ||७०|| प्रपौण्डरीकं मधुकं शार्ङ्गेष्टां समनःशिलाम् | \nमरिचं पिप्पलीं द्राक्षामेलां सुरसमञ्जरीम् ||७१|| कृत्वा वर्तिं पिबेद्धूमं क्षौमचेलानुवर्तिताम् | \nघृताक्तामनु च क्षीरं गुडोदकमथापि वा ||७२|| मनःशिलैलामरिचक्षाराञ्जनकुटन्नटैः | \nवंशलेखनसेव्यालक्षौमलक्तकरोहिषैः ||७३|| पूर्वकल्पेन धूमोऽयं सानुपानो विधीयते | \nमनःशिलाले तद्वच्च पिप्पलीनागरैः सह ||७४|| त्वगैङ्गुदी बृहत्यौ द्वे तालमूली मनःशिला | \nकार्पासास्थ्यश्वगन्धा च धूमः कासविनाशनः ||७५||",
+      "english": "Intake of lukewarm milk along with guda after the dhumapana using manahshila, ala(haritala), madhuka, jatamansi, ingudi cures kasa of prthakdosha (three dosha individually) or sannipatika. This can cure such ailments which were not cured even after the treatment with hundred other recipes.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 76,
+      "devanagari": "ग्राम्यानूपौदकैः शालियवगोधूमषष्टिकान् | \nरसैर्माषात्मगुप्तानां यूषैर्वा भोजयेद्धितान् ||७६|| यवानीपिप्पलीबिल्वमध्यनागरचित्रकैः | \nरास्नाजाजीपृथक्पर्णीपलाशशटिपौष्करैः ||७७|| स्निग्धाम्ललवणां सिद्धां पेयामनिलजे पिबेत् | \nकटीहृत्पार्श्वकोष्ठार्तिश्वासहिक्काप्रणाशिनीम् ||७८|| दशमूलरसे तद्वत्पञ्चकोलगुडान्विताम् | \nसिद्धां समतिलां दद्यात्क्षीरे वाऽपि ससैन्धवाम् ||७९|| मात्स्यकौक्कुटवाराहैरामिषैर्वा घृतान्विताम् | \nसिद्धां ससैन्धवां पेयां वातकासी पिबेन्नरः ||८०|| वास्तुको वायसीशाकं मूलकं सुनिषण्णकम् | \nस्नेहास्तैलादयो भक्ष्याः क्षीरेक्षुरसगौडिकाः ||८१|| दध्यारनालाम्लफलप्रसन्नापानमेव च | \nशस्यते वातकासे तु स्वाद्वम्ललवणानि च ||८२|| इति वातकासचिकित्सा |",
+      "english": "Intake of shashtikashali, shali, yava, godhuma along with the mamsa rasa or yusha prepared out of masha or Atmagupta is beneficial in vataja kasa. Peya prepared out of yavani, pippali, bilwa, nagara, chitraka, rasna, ajaji, prithakparni, palasha, shati and pushkaramoola by adding snigdha, amla and lavana dravyas is beneficial in vataja kasa. This particular peya is helpful in curing vataja kasa associated with shoola in kati, parshwa, koshta, hikka and shwasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 83,
+      "devanagari": "पैत्तिके सकफे कासे वमनं सर्पिषा हितम् | \nतथा मदनकाश्मर्यमधुकक्वथितैर्जलैः ||८३|| यष्ट्याह्वफलकल्कैर्वा विदारीक्षुरसायुतैः | \nहृतदोषस्ततः शीतं मधुरं च क्रमं भजेत् ||८४|| पैत्ते तनुकफे कासे त्रिवृतां मधुरैर्युताम् | \nदद्याद्घनकफे तिक्तैर्विरेकार्थे युतां भिषक् ||८५|| स्निग्धशीतस्तनुकफे रूक्षशीतः कफे घने | \nक्रमः कार्यः परं भोज्यैः स्नेहैर्लेहैश्च शस्यते ||८६|| शृङ्गाटकं पद्मबीजं नीलीसाराणि पिप्पली | \nपिप्पलीमुस्तयष्ट्याह्वद्राक्षामूर्वामहौषधम् ||८७|| लाजाऽमृतफला द्राक्षा त्वक्क्षीरी पिप्पली सिता | \nपिप्पलीपद्मकद्राक्षा बृहत्याश्च फलाद्रसः ||८८|| खर्जूरं पिप्पली वांशी श्वदंष्ट्रा चेति पञ्च ते | \nघृतक्षौद्रयुता लेहाः श्लोकार्धैः पित्तकासिनाम् ||८९|| शर्कराचन्दनद्राक्षामधुधात्रीफलोत्पलैः | \nपैत्ते, समुस्तमरिचः सकफे, सघृतोऽनिले ||९०|| मृद्वीकार्धशतं त्रिंशत्पिप्पलीः शर्करापलम् | \nलेहयेन्मधुना गोर्वा क्षीरपं च शकृद्रसम् ||९१|| त्वगेलाव्योषमृद्वीकापिप्पलीमूलपौष्करैः | \nलाजामुस्तशटीरास्नाधात्रीफलबिभीतकैः ||९२|| शर्कराक्षौद्रसर्पिर्भिर्लेहः कासविनाशनः | \nश्वासं हिक्कां क्षयं चैव हृद्रोगं च प्रणाशयेत् ||९३|| पिप्पल्यामलकं द्राक्षां लाक्षां लाजां सितोपलाम् | \nक्षीरे पक्त्वा घनं शीतं लिह्यात् क्षौद्राष्टभागिकम् ||९४|| विदारीक्षुमृणालानां रसान् क्षीरं सितोपलाम् | \nपिबेद्वा मधुसंयुक्तं पित्तकासहरं परम् ||९५|| मधुरैर्जाङ्गलरसैः श्यामाकयवकोद्रवाः | \nमुद्गादियूषैः शाकैश्च तिक्तकैर्मात्रया हिताः ||९६|| घनश्लेष्मणि लेहास्तु तिक्तका मधुसंयुताः | \nशालयः स्युस्तनुकफे षष्टिकाश्च रसादिभिः ||९७|| शर्कराम्भोऽनुपानार्थं द्राक्षेक्षूणां रसाः पयः | \nसर्वं च मधुरं शीतमविदाहि प्रशस्यते ||९८|| काकोलीबृहतीमेदायुग्मैः सवृषनागरैः | \nपित्तकासे रसान् क्षीरं यूषांश्चाप्युपकल्पयेत् ||९९|| शरादिपञ्चमूलस्य पिप्पलीद्राक्षयोस्तथा | \nकषायेण शृतं क्षीरं पिबेत् समधुशर्करम् ||१००|| स्थिरासितापृश्निपर्णीश्रावणीबृहतीयुगैः | \nजीवकर्षभकाकोलीतामलक्यृद्धिजीवकैः ||१०१|| शृतं पयः पिबेत् कासी ज्वरी दाही क्षतक्षयी | \nतज्जं वा साधयेत् सर्पिः सक्षीरेक्षुरसं भिषक् ||१०२|| जीवकाद्यैर्मधुरकैः फलैश्चाभिषुकादिभिः | \nकल्कैस्त्रिकार्षिकैः सिद्धे पूतशीते प्रदापयेत् ||१०३|| शर्करापिप्पलीचूर्णं त्वक्क्षीर्या मरिचस्य च | \nशृङ्गाटकस्य चावाप्य क्षौद्रगर्भान्पलोन्मितान् ||१०४|| गुडान् गोधूमचूर्णेन कृत्वा खादेद्धिताशनः | \nशुक्रासृग्दोषशोषेषु कासे क्षीणक्षतेषु च ||१०५|| शर्करानागरोदीच्यं कण्टकारीं शटीं समम् | \nपिष्ट्वा रसं पिबेत्पूतं वस्त्रेण घृतमूर्च्छितम् ||१०६|| महिष्यजाविगोक्षीरधात्रीफलरसैः समैः | \nसर्पिः सिद्धं पिबेद्युक्त्या पित्तकासनिबर्हणम् ||१०७|| इति पित्तकासचिकित्सा |",
+      "english": "If pittaja kasa is associated with the aggravation of kapha, then vamana karma is to be advised with ghrita or using the kashaya prepared out of madana, kashmari, madhuka. Vamana can also be induced by using the klaka of madanaphal and madhuyashti along with vidari and ikshurasa. Once after the elimination of aggravated doshas he should be treated with sheeta and madhura aharas.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 108,
+      "devanagari": "बलिनं वमनैरादौ शोधितं कफकासिनम् | \nयवान्नैः कटूरूक्षोष्णैः कफघ्नैश्चाप्युपाचरेत् ||१०८|| पिप्पलीक्षारिकैर्युषैः कौलत्थैर्मूलकस्य च | \nलघून्यन्नानि भुञ्जीत रसैर्वा कटुकान्वितैः ||१०९|| धान्वबैलरसैः स्नेहैस्तिलसर्षपबिल्वजैः | \nमध्वम्लोष्णाम्बुतक्रं वा मद्यं वा निगदं पिबेत् ||११०|| पौष्करारग्वधं मूलं पटोलं तैर्निशास्थितम् | \nजलं मधुयुतं पेयं कालेष्वन्नस्य वा त्रिषु ||१११||",
+      "english": "If the person suffering from kaphaja kasa is strong, then he should follow shodhana procedure by means of vamana. There after he should be given with yava and such other kaphaghna food which are katu, ruksha and ushna in nature.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 112,
+      "devanagari": "कट्फलं कत्तृणं भार्गीं मुस्तं धान्यं वचाभये | \nशुण्ठीं पर्पटकं शृङ्गीं सुराह्वं च शृतं जले ||११२|| मधुहिङ्गुयुतं पेयं कासे वातकफात्मके | \nकण्ठरोगे मुखे शूने श्वासहिक्काज्वरेषु च ||११३|| पाठां शुण्ठीं शटीं मूर्वां गवाक्षीं मुस्तपिप्पलीम् | \nपिष्ट्वा घर्माम्बुना हिङ्गुसैन्धवाभ्यां युतां पिबेत् ||११४|| नागरातिविषे मुस्तं शृङ्गीं कर्कटकस्य च | \nहरीतकीं शटीं चैव तेनैव विधिना पिबेत् ||११५|| तैलभृष्टं च पिप्पल्याः कल्काक्षं ससितोपलम् | \nपिबेद्वा श्लेष्मकासघ्नं कुलत्थरससंयुतम् ||११६|| कासमर्दाश्वविट्भृङ्गराजवार्ताकजो रसः | \nसक्षौद्रः कफकासघ्नः सुरसस्यासितस्य च ||११७|| देवदारु शटी रास्ना कर्कटाख्या दुरालभा | \nपिप्पली नागरं मुस्तं पथ्याधात्रीसितोपलाः ||११८|| मधुतैलयुतावेतौ लेहौ वातानुगे कफे | \nपिप्पली पिप्पलीमूलं चित्रको हस्तिपिप्पली ||११९|| पथ्या तामलकी धात्री भद्रमुस्ता च पिप्पली | \nदेवदार्वभया मुस्तं पिप्पली विश्वभेषजम् ||१२०|| विशाला पिप्पली मुस्तं त्रिवृता चेति लेहयेत् | \nचतुरो मधुना लेहान् कफकासहरान् भिषक् ||१२१|| सौवर्चलाभयाधात्रीपिप्पलीक्षारनागरम् | \nचूर्णितं सर्पिषा वातकफकासहरं पिबेत् ||१२२|| दशमूलाढके प्रस्थं घृतस्याक्षसमैः पचेत् |",
+      "english": "Decoction prepared by boiling drugs such as katphala, kuttrana, bharangi, musta, dhanyaka, vacha, abhaya, shunthi, parpata, shrungi and surahva is to be used in kasa associated with vata and kapha along with madhu and hingu. This is also beneficial in kantharoga, mukha roga, shoola, shwasa, hikka and jwara.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 123,
+      "devanagari": "पुष्कराह्वशटीबिल्वसुरसव्योषहिङ्गुभिः ||१२३|| पेयानुपानं तत् पेयं कासे वातकफात्मके | \nश्वासरोगेषु सर्वेषु कफवातात्मकेषु च ||१२४|| इति दशमूलादिघृतम् |",
+      "english": "One prastha of dashamoola should be cooked by adding one adhaka of the decoction of dashamoola and the paste of one aksha each of pushkar-moola, shati, bilva, surasa, shunthi, pippali, maricha and hingu. Administration of this ghee followed by peya as anupana cure vata kaphaja kasa, shwasa roga.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 125,
+      "devanagari": "समूलफलपत्रायाः कण्टकार्या रसाढके | \nघृतप्रस्थं बलाव्योषविडङ्गशटिचित्रकैः ||१२५|| सौवर्चलयवक्षारपिप्पलीमूलपौष्करैः | \nवृश्चीरबृहतीपथ्यायवानीदाडिमर्धिभिः ||१२६|| द्राक्षापुनर्नवाचव्यदुरालम्भाम्लवेतसैः | \nशृङ्गीतामलकीभार्गीरास्नागोक्षुरकैः पचेत् ||१२७|| कल्कैस्तत् सर्वकासेषु हिक्काश्वासेषु शस्यते | \nकण्टकारीघृतं ह्येतत् कफव्याधिनिसूदनम् ||१२८|| इति कण्टकारीघृतम् |",
+      "english": "One adhaka of kantakari kashaya should be prepared using its root, fruit and leaves. This is to be processed with one prastha of ghrita by adding the paste of bala, shunthi, pippali, maricha, vidanga, shati, chitraka, sauvarchala, yavakshara, pippalimula, pushkarmoola, vrischira, brihati, pathya, yavani, dadima, riddhi, draksha, punaranava, chavya, duralabha, amlavetasa, shringi, tamalaki, bharangi, rasna and gokshuara. This is beneficial in all types of kasa, hikka and shwasa. This is known as kantakari ghrita and it cures all types of kaphaja diseases.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 129,
+      "devanagari": "कुलत्थरसयुक्तं वा पञ्चकोलशृतं घृतम् | \nपाययेत् कफजे कासे हिक्काश्वासे च शस्यते ||१२९|| इति कुलत्थादिघृतम् |",
+      "english": "Ghrita cooked with the decoction of kulattha or with that of panchakola is useful in kaphaja kasa, hikka and shwasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 130,
+      "devanagari": "धूमांस्तानेव दद्याच्च ये प्रोक्ता वातकासिनाम् | \nकोशातकीफलान्मध्यं पिबेद्वा समनःशिलम् ||१३०||",
+      "english": "Dhuma yogas which have been mentioned at the context of vataja kasa can also be administered in pittaja kasa. Specifically manshilla kept inside the koshataki phala majja is useful in the form of dhupana in kaphaja-kasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 131,
+      "devanagari": "तमकः कफकासे तु स्याच्चेत् पित्तानुबन्धजः | \nपित्तकासक्रियां तत्र यथावस्थं प्रयोजयेत् ||१३१|| वाते कफानुबन्धे तु कुर्यात् कफहरीं क्रियाम् | \nपित्तानुबन्धयोर्वातकफयोः पित्तनाशिनीम् ||१३२|| आर्द्रे विरूक्षणं, शुष्के स्निग्धं, वातकफात्मके | \nकासेऽन्नपानं कफजे सपित्ते तिक्तसंयुतम् ||१३३|| इति कफजकासचिकित्सा |",
+      "english": "If kaphaja kasa is associated with tamaka(a type of shwasa) then at this stage of kasa, therapies prescribed for pittaja kasa should be administered.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 134,
+      "devanagari": "कासमात्ययिकं मत्वा क्षतजं त्वरया जयेत् | \nमधुरैर्जीवनीयैश्च बलमांसविवर्धनैः ||१३४|| पिप्पली मधुकं पिष्टं कार्षिकं ससितोपलम् | \nप्रास्थिकं गव्यमाजं च क्षीरमिक्षुरसस्तथा ||१३५|| यवगोधूममृद्वीकाचूर्णमामलकाद्रसः | \nतैलं च प्रसृतांशानि तत् सर्वं मृदुनाऽग्निना ||१३६|| पचेल्लेहं घृतक्षौद्रयुक्तः स क्षतकासहा | \nश्वासहृद्रोगकार्श्येषु हितो वृद्धेऽल्परेतसि ||१३७||",
+      "english": "Kshataja kasa is a serious ailment. Keeping this in view the treatment of the patient should be initiated instantaneously with madhura and jivaniya dravyas, which are promoters of bala and mamsa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 138,
+      "devanagari": "क्षतकासाभिभूतानां वृत्तिः स्यात् पित्तकासिकी | \nक्षीरसर्पिर्मधुप्राया संसर्गे तु विशेषणम् ||१३८|| वातपित्तार्दितेऽभ्यङ्गो गात्रभेदे घृतैर्हितः | \nतैलैर्मारुतरोगघ्नैः पीड्यमाने च वायुना ||१३९|| हृत्पार्श्वार्तिषु पानं स्याज्जीवनीयस्य सर्पिषः | \nसदाहं कासिनो रक्तं ष्ठीवतः सबलेऽनले ||१४०|| मांसोचितेभ्यः क्षामेभ्यो लावादीनां रसा हिताः | \nतृष्णार्तानां पयश्छागं शरमूलादिभिः शृतम् ||१४१|| रक्ते स्रोतोभ्य आस्याद्वाऽप्यागते क्षीरजं घृतम् | \nनस्यं पानं यवागूर्वा श्रान्ते क्षामे हतानले ||१४२|| स्तम्भायामेषु महतीं मात्रां वा सर्पिषः पिबेत् | \nकुर्याद्वा वातरोगघ्नं पित्तरक्ताविरोधि यत् ||१४३|| निवृत्ते क्षतदोषे तु कफे वृद्ध उरः क्षते | \nदाल्यते कासिनो यस्य स धूमान्ना पिबेदिमान् ||१४४|| द्वे मेदे मधुकं द्वे च बले तैः क्षौमलक्तकैः | \nवर्तितैर्धूममापीय जीवनीयघृतं पिबेत् ||१४५|| मनःशिलापलाशाजगन्धात्वक्क्षीरिनागरैः | \nभावयित्वा पिबेत् क्षौममनु चेक्षुगुडोदकम् ||१४६|| पिष्ट्वा मनःशिलां तुल्यामार्द्रया वटशुङ्गया | \nससर्पिष्कं पिबेद्धूमं तित्तिरिप्रतिभोजनम् ||१४७|| भावितं जीवनीयैर्वा कुलिङ्गाण्डरसायुतैः | \nक्षौमं धूमं पिबेत् क्षीरं शृतं चायोगुडैरनु ||१४८|| इति क्षतजकासचिकित्सा |",
+      "english": "The medicaments prescribed for the pittaja kasa are also useful for kshataja kasa. Generally milk, ghee and honey should be given to such patients. If two dosha are involved in the pathogenesis of this ailment then special therapies are required.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 149,
+      "devanagari": "सम्पूर्णरूपं क्षयजं दुर्बलस्य विवर्जयेत् | \nनवोत्थितं बलवतः प्रत्याख्यायाचरेत् क्रियाम् ||१४९|| तस्मै बृंहणमेवादौ कुर्यादग्नेश्च दीपनम् | \nबहुदोषाय सस्नेहं मृदु दद्याद्विरेचनम् ||१५०|| शम्पाकेन त्रिवृतया मृद्वीकारसयुक्तया | \nतिल्वकस्य कषायेण विदारीस्वरसेन च ||१५१|| सर्पिः सिद्धं पिबेद्युक्त्या क्षीणदेहो विशोधनम् | \n(हितं तद्देहबलयोरस्य संरक्षणं मतम् ) ||१५२|| पित्ते कफे च सङ्क्षीणे परिक्षीणेषु धातुषु | \nघृतं कर्कटकीक्षीरद्विबलासाधितं पिबेत् ||१५३|| विदारीभिः कदम्बैर्वा तालसस्यैस्तथा शृतम् | \nघृतं पयश्च मूत्रस्य वैवर्ण्ये कृच्छ्रनिर्गमे ||१५४|| शूने सवेदने मेढ्रे पायौ सश्रोणिवङ्क्षणे | \nघृतमण्डेन मधुनाऽनुवास्यो मिश्रकेण वा ||१५५|| जाङ्गलैः प्रतिभुक्तस्य वर्तकाद्या बिलेशयाः | \nक्रमशः प्रसहाश्चैव प्रयोज्याः पिशिताशिनः ||१५६|| औष्ण्यात् प्रमाथिभावाच्च स्रोतोभ्यश्च्यावयन्ति ते | \nकफं, शुद्धैश्च तैः पुष्टिं कुर्यात्सम्यग्वहन्रसः ||१५७||",
+      "english": "If kshayaja kasa is manifested with all the signs and symptoms, and if the patient is weak, then he should not be treated. However if the disease has recently occurred and if the patient is strong enough, then he may be treated even though the disease is incurable. In the beginning the person should be given brihmana therapy along with agni deepana. If dosha aggravation is more, then he can be given mild purgation therapy along with snigdha dravyas.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 158,
+      "devanagari": "द्विपञ्चमूलीत्रिफलाचविकाभार्गिचित्रकैः | \nकुलत्थपिप्पलीमूलपाठाकोलयवैर्जले ||१५८|| शृतैर्नागरदुःस्पर्शापिप्पलीशटिपौष्करैः | \nकल्कैः कर्कटशृङ्ग्या च समैः सर्पिर्विपाचयेत् ||१५९|| सिद्धैऽस्मिंश्चूर्णितौ क्षारौ द्वौ पञ्च लवणानि च | \nदत्त्वा युक्त्या पिबेन्मात्रां क्षयकासनिपीडितः ||१६०|| इति द्विपञ्चमूलादिघृतम् |",
+      "english": "Decoction should be prepared out of bilva, shyonaka, gambhari, patala, ganikarika, shalaparni, prashanaparni, brihati, kantakari, gokshuara, haritaki, bibhitaka, amalaki, chavika, bharangi, chitraka, kulattha, pippali moola, patha, kola and yava. To this decoction ghee and the paste prepared out of nagara, dusparsha, pippali, shati, karkatashringi and pushkara should be added and ghritapachana should be done. After proper paka powder prepared out of yavakshara, sarjakshara, saindhava-lavana, samudra-lavana, sauvarchala-lavana, vida-lavana and audbhida-lavana is to be added. Intake of this cures kshayajakasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 161,
+      "devanagari": "गुडूचीं पिप्पलीं मूर्वां हरिद्रां श्रेयसीं वचाम् | \nनिदिग्धिकां कासमर्दं पाठां चित्रकनागरम् ||१६१|| जले चतुर्गुणे पक्त्वा पादशेषेण तत्समम् | \nसिद्धं सर्पिः पिबेद्गुल्मश्वासार्तिक्षयकासनुत् ||१६२|| इति गुडूच्यादिघृतम् |",
+      "english": "Guduchi, pippali, murva, haridra, shreyasi, vacha, nidigdhika, kasmarda, patha, chitraka and nagara are to be boiled with four times of water, till the quantity of water reduces to one-fourth. To this decoction equal quantity of ghrita should be added and cooked. Intake of this cures gulma, shwasa and kshayajakasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 163,
+      "devanagari": "कासमर्दाभयामुस्तपाठाकट्फलनागरैः | \nपिप्पलीकटुकाद्राक्षाकाश्मर्यसुरसैस्तथा ||१६३|| अक्षमात्रैर्घृतप्रस्थं क्षीरद्राक्षारसाढके | \nपचेच्छोषज्वरप्लीहसर्वकासहरं शिवम् ||१६४|| धात्रीफलैः क्षीरसिद्धैः सर्पिर्वाऽप्यवचूर्णितम् | \nद्विगुणे दाडिमरसे विपक्वं व्योषसंयुतम् ||१६५|| पिबेदुपरि भक्तस्य यवक्षारघृतं नरः | \nपिप्पलीगुडसिद्धं वा च्छागक्षीरयुतं घृतम् ||१६६|| एतान्यग्निविवृद्ध्यर्थं सर्पींषि क्षयकासिनाम् | \nस्युर्दोषबद्धकोष्ठोरःस्रोतसां च विशुद्धये ||१६७||",
+      "english": "One prastha of ghrita should be cooked by adding the paste of one aksha of each of kasamarda, abhaya, musta, patha, katphala, nagara, pippali, katuka, draksha, kashmarya and surasa; one adhaka of milk and one adhaka of grape juice. Thus prepared ghrita is considered as auspicious, and cures shosha, jwara, pleeha and kasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 168,
+      "devanagari": "हरीतकीर्यवक्वाथद्व्याढके विंशतिं पचेत् | \nस्विन्ना मृदित्वा तास्तस्मिन् पुराणं गुडषट्पलम् ||१६८|| दद्यान्मनःशिलाकर्षं कर्षार्धं च रसाञ्जनात् | \nकुडवार्धं च पिप्पल्याः स लेहः श्वासकासनुत् ||१६९|| इति हरीतकीलेहः |",
+      "english": "Twenty fruits of haritaki should be boiled with one adhaka of yava kashaya. These boiled and soft fruits of haritaki are to be smashed. To this paste, six palas of purana gud, one karsha of rasanjana, half kudava of pippali should be added and cooked. This particular leha cures shwasa and kasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 170,
+      "devanagari": "श्वाविधः सूचयो दग्धाः सघृतक्षौद्रशर्कराः | \nश्वासकासहरा बर्हिपादौ वा क्षौद्रसर्पिषा ||१७०|| एरण्डपत्रक्षारं वा व्योषतैलगुडान्वितम् | \nलिह्यादेतेन विधिना सुरसैरण्डपत्रजम् ||१७१|| द्राक्षापद्मकवार्ताकपिप्पलीः क्षौद्रसर्पिषा | \nलिह्यात्त्र्यूषणचूर्णं वा पुराणगुडसर्पिषा ||१७२|| चित्रकं त्रिफलाजाजी कर्कटाख्या कटुत्रिकम् | \nद्राक्षां च क्षौद्रसर्पिर्भ्यां लिह्यादद्याद्गुडेन वा ||१७३|| पद्मकं त्रिफलां व्योषं विडङ्गं सुरदारु च | \nबलां रास्नां च तुल्यानि सूक्ष्मचूर्णानि कारयेत् ||१७४|| सर्वैरेभिः समं चूर्णैः पृथक् क्षौद्रं घृतं सिताम् | \nविमथ्य लेहयेल्लेहं सर्वकासहरं शिवम् ||१७५|| जीवन्तीं मधुकं पाठां त्वक्क्षीरीं त्रिफलां शटीम् | \nमुस्तैले पद्मकं द्राक्षां द्वे बृहत्यौ वितुन्नकम् ||१७६|| सारिवां पौष्करं मूलं कर्कटाख्यां रसाञ्जनम् | \nपुनर्नवां लोहरजस्त्रायमाणां यवानिकाम् ||१७७|| भार्गीं तामलकीमृद्धिं विडङ्गं धन्वयासकम् | \nक्षारचित्रकचव्याम्लवेतसव्योषदारु च ||१७८|| चूर्णीकृत्य समांशानि लेहयेत् क्षौद्रसर्पिषा | \nचूर्णात्पाणितलं पञ्च कासानेतद् व्यपोहति ||१७९|| इति पद्मकादिलेहः |",
+      "english": "Quills of svavit should be burnt. Intake of these ashes along with ghee, honey and ikshurasa cure kasa and shwasa. Intake of the ash prepared by burning the peacock leg, along with madhu and ghrita cures kasa and shwasa.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 180,
+      "devanagari": "लिह्यान्मरिचचूर्णं वा सघृतक्षौद्रशर्करम् | \nबदरीपत्रकल्कं वा घृतभृष्टं ससैन्धवम् ||१८०|| स्वरभेदे च कासे च लेहमेतं प्रयोजयेत् | \nपत्रकल्कं घृतैर्भृष्टं तिल्वकस्य सशर्करम् ||१८१|| पेया चोत्कारिका च्छर्दितृट्कासामातिसारनुत् | \nगौरसर्षपगण्डीरविडङ्गव्योषचित्रकान् | \nसाभयान् साधयेत्तोये यवागूं तेन चाम्भसा ||१८२|| ससर्पिर्लवणां कासे हिक्काश्वासे सपीनसे | \nपाण्ड्वामये क्षये शोथे कर्णशूले च दापयेत् ||१८३|| कण्टकारीरसे सिद्धो मुद्गयूषः सुसंस्कृतः | \nसगौरामलकः साम्लः सर्वकासभिषग्जितम् ||१८४|| वातघ्नौषधनिष्क्वाथं क्षीरं यूषान् रसानपि | \nवैष्किरप्रतुदान् बैलान् दापयेत् क्षयकासिने ||१८५|| क्षतकासे च ये धूमाः सानुपाना निदर्शिताः | \nक्षयकासेऽपि तानेव यथावस्थं प्रयोजयेत् ||१८६||",
+      "english": "The powder of maricha should be given with ghrita, madhu and sharkara. Badara leaves should be fried with ghee and this given with saindhava lavana. Both these formulations are beneficial in kasa and swarabheda.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 187,
+      "devanagari": "दीपनं बृंहणं चैव स्रोतसां च विशोधनम् | \nव्यत्यासात्क्षयकासिभ्यो बल्यं सर्वं हितं भवेत् ||१८७|| सन्निपातभवोऽप्येष क्षयकासः सुदारुणः | \nसन्निपातहितं तस्मात् सदा कार्यं भिषग्जितम् ||१८८|| दोषानुबलयोगाच्च हरेद्रोगबलाबलम् | \nकासेष्वेषु गरीयांसं जानीयादुत्तरोत्तरम् ||१८९|| भोज्यं पानानि सर्पींषि लेहाश्च सह पानकैः | \nक्षीरं सर्पिर्गुडा धूमाः कासभैषज्यसङ्ग्रहः ||१९०||",
+      "english": "Dipana, brihmana and srotoshodhana therapies should be followed alternatively in the patient suffering from kshyajakaasa. All such therapies which are balya are preferred in this condition.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 191,
+      "devanagari": "तत्र श्लोकः- सङ्ख्या निमित्तं रूपाणि साध्यासाध्यत्वमेव च | \nकासानां भेषजं प्रोक्तं गरीयस्त्वं च कासिनः ||१९१||",
+      "english": "Sankhya (types of kasa), nimitta (etiological factors), rupa (signs and symptoms), sadhya-asadhyata (curability and incurability), kasa bheshaja (medicinal formulations), gariyastva (comparative seriousness of the disease) – have been discussed under this chapter.",
+      "section": "Cough"
+    },
+    {
+      "verseNumber": 18,
+      "devanagari": "इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृतेऽप्राप्ते दृढबलसम्पूरिते \nचिकित्सास्थाने कासचिकित्सितं नामाष्टादशोऽध्यायः ||१८||",
+      "english": "Thus ends the eighteenth chapter in Chikitsa Sthana dealing with treatment of kasa in the work of Agnivesha which was redacted by Charak and because of non-availability supplemented by Dridhabala.",
+      "section": "Cough"
+    }
+  ],
+  "tattvaVimarsha": "Pranavaha srotas is a vital system of the body and although this srotas is more susceptible to abuse from little amount of smoke, allergens, adulterants, petrochemicals and many pollutants in atmosphere, there are a variety of disorders and diseases that are temporary and harmless, while others can be life threatening. In literature, pranavaha srotas disorders are elaborated under the heading of shwasa, kasa, hikka, rajayakshma and urakshata (kshata-kshina). Cough, expectoration, breathlessness, sore throat, chest pain are common clinical features of respiratory diseases. Kasa is one such disease, which is identified by the hoarse phonetic sound, produced due to the pathological process of dosha dushti (vitiation of dosha), vimarga gamana (diverted movement) of pranavata and avarana (occlusions) of vayu by the kapha. The main pathology is in chest region with reduced functioning of the respiratory system.\n\nSmoke, dust, and over exertion (dhumopaghata, raja, vyayama) are largely considered as causative factors (samanya nidana). These may cause direct damage to the harmony of the pranavaha srotas which occurs in all respiratory disorders. Apart from above said causative factors some in particular like guru (heavy), snigdha (unctuous), madhura (sweet), asatmya (unhabituated), paryushita ahara (rotten food) will cause vitiation of dosha, more specifically vata and kapha which will in turn have its impact on pranavaha srotas to cause structural and functional impairments (kha vaigunya). Improper diet will result in the improper digestion and absorption of ahara rasa which will in turn produce kasa. These can be considered as intrinsic factors for the pathogenesis.\n\nProdromal symptoms (purvarupa) are irritation of throat with pricking sensation, itching (kantha kandu)and inability to swallow (bhojyanam avarodha). These are very much similar with upper respiratory tract infection leading to condition of pharyngitis or pharyngotonsillitis and persistence of such upper respiratory tract infection will further spread to lower respiratory tract.\n\nThere are five types of kasa namely,vataja, pittaja, kaphaja, kshataja and kshayaja. Vatika kasa is more related to upper respiratory tract with swarabheda (hoarseness of voice) as its diagnostic feature and is unproductive. It resembles more to allergic rhinobronchitis, which may be self-limiting and curable. Paittika and kaphaja kasa involve lower respiratory tract and are productive in nature. While paittika kasa seems to be the result of inflammation, kaphaja kasa is due to mucosal hypertrophy of bronchial lining or chronic bronchitis. Kshyaja kasa is a state of chronic cough associated with emaciation. Charak has mentioned that the disturbance in the action of jatharagni all the three dosha get vitiated, which causes emaciation of dhatu of the body either due to anulomana kshaya or pratiloma kshaya [Cha.Sa. Chikitsa Sthana 18/24]. That makes it different from shosha, which is a tridoshaja disease manifests as a group of several diseases. Kshataja kasa is associated with break in integrity of lung parenchyma with shonita darshana (blood tinged mucous) as a symptom. There may or may not be shosha (emaciation).\n\nSnehapana, vamana, virechana, vairechanika nasya (nasal catarrhal), dhumapana (medicated cigaretes) are indicated as treatment modalities in different types of kasa.",
+  "vidhiVimarsha": "Pranavaha srotas is a vital system of the body and although this srotas is more susceptible to abuse from little amount of smoke, allergens, adulterants, petrochemicals and many pollutants in atmosphere, there are a variety of disorders and diseases that are temporary and harmless, while others can be life threatening. In literature, pranavaha srotas disorders are elaborated under the heading of shwasa, kasa, hikka, rajayakshma and urakshata (kshata-kshina). Cough, expectoration, breathlessness, sore throat, chest pain are common clinical features of respiratory diseases. Kasa is one such disease, which is identified by the hoarse phonetic sound, produced due to the pathological process of dosha dushti (vitiation of dosha), vimarga gamana (diverted movement) of pranavata and avarana (occlusions) of vayu by the kapha. The main pathology is in chest region with reduced functioning of the respiratory system.\n\nSmoke, dust, and over exertion (dhumopaghata, raja, vyayama) are largely considered as causative factors (samanya nidana). These may cause direct damage to the harmony of the pranavaha srotas which occurs in all respiratory disorders. Apart from above said causative factors some in particular like guru (heavy), snigdha (unctuous), madhura (sweet), asatmya (unhabituated), paryushita ahara (rotten food) will cause vitiation of dosha, more specifically vata and kapha which will in turn have its impact on pranavaha srotas to cause structural and functional impairments (kha vaigunya). Improper diet will result in the improper digestion and absorption of ahara rasa which will in turn produce kasa. These can be considered as intrinsic factors for the pathogenesis.\n\nProdromal symptoms (purvarupa) are irritation of throat with pricking sensation, itching (kantha kandu)and inability to swallow (bhojyanam avarodha). These are very much similar with upper respiratory tract infection leading to condition of pharyngitis or pharyngotonsillitis and persistence of such upper respiratory tract infection will further spread to lower respiratory tract.\n\nThere are five types of kasa namely,vataja, pittaja, kaphaja, kshataja and kshayaja. Vatika kasa is more related to upper respiratory tract with swarabheda (hoarseness of voice) as its diagnostic feature and is unproductive. It resembles more to allergic rhinobronchitis, which may be self-limiting and curable. Paittika and kaphaja kasa involve lower respiratory tract and are productive in nature. While paittika kasa seems to be the result of inflammation, kaphaja kasa is due to mucosal hypertrophy of bronchial lining or chronic bronchitis. Kshyaja kasa is a state of chronic cough associated with emaciation. Charak has mentioned that the disturbance in the action of jatharagni all the three dosha get vitiated, which causes emaciation of dhatu of the body either due to anulomana kshaya or pratiloma kshaya [Cha.Sa. Chikitsa Sthana 18/24]. That makes it different from shosha, which is a tridoshaja disease manifests as a group of several diseases. Kshataja kasa is associated with break in integrity of lung parenchyma with shonita darshana (blood tinged mucous) as a symptom. There may or may not be shosha (emaciation).\n\nSnehapana, vamana, virechana, vairechanika nasya (nasal catarrhal), dhumapana (medicated cigaretes) are indicated as treatment modalities in different types of kasa.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Kasa_Chikitsa_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s06.019"
+}

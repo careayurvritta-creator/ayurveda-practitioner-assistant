@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "sthana": "Sutra Sthana",
+    "sthanaNumber": 1,
+    "chapterNumber": 1,
+    "chapterTitleEnglish": "Longevity",
+    "chapterTitleSanskrit": "Deerghanjiviteeya Adhyaya",
+    "chapterTitleDevanagari": "Deerghanjiviteeya Adhyaya",
+    "tetrad": "Bheshaja Chatushka",
+    "precedingChapter": "None",
+    "succeedingChapter": null,
+    "translators": [
+      "Singh R.H.",
+      "Singh G.",
+      "Sodhi J.S.",
+      "Dixit U."
+    ],
+    "reviewer": "Panse A.",
+    "editors": [
+      "Dixit U."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s01.003"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Deerghanjiviteeya_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "The Charak Samhita begins with a chapter detailing the means to attaining a long, healthy and happy life, explaining certain basic tenets of Ayurveda and the consequent foundational concepts necessary to build a body of knowledge. This chapter provides a description of the origin, definition, and scope of Ayurveda. It further deliberates on the critical concepts of Ayu (or the life-span of a human being) and its qualitative dimensions, and arogya (or health) as a means of achieving the four fundamental instincts (virtue, wealth, gratification and emancipation) of life on this earth. In Ayurveda, the process of scientific inquiry and creation of knowledge involves the community of people or societies at large (loka). Within the community, it is believed that scientific knowledge is created by the interchange of information between patients, practitioners and researchers through various modes of interaction. The knowledge created in this process is theorized, supported with applicable evidence and logic, and then documented systematically in the scientific scriptures (shaastra). This explains the mode of Ayurvedic knowledge creation (which corresponds with the current method of scientific inquiry and knowledge creation). Once documented, the “higher levels” of scientific knowledge – or inferences - of the shaastra are delivered again to the loka for public use. Thus, knowledge creation is a dynamic, iterative process involving the loka and the shaastra. When this dynamic interaction stops, knowledge becomes static and is dropped back in the history and the search for new alternative knowledge continues. The process of origin/emergence of Ayurveda (ayurvedavatarana) as described in this chapter should be viewed from this perspective, symbolic of this iterative process of creation of knowledge. It touches upon certain basic tenets of Ayurveda such as the four dimensional concept of ayu or life and its qualitative categorization into sukhayu (happy life), duhkhayu (unhappy life), hitayu (positive life in harmony with self and the surroundings), and ahitayu(negative life, with negative state of mind and in disharmony with the surroundings), reflecting on the individual as well as the social aspects of one’s life. The chapter also deals with the doctrine of samanya (similar) and vishesha (dissimilar), dravya samgraha (knowledge of physical material), attributes of physical and mental dosha, the basic causes of ill-health, the origin of rasa (taste) and its significance, the attributes of six tastes, the nature of the material world, and the whole range of ayurvedic materia medica. Overall, as one can expect from the very first chapter of any treatise, this chapter gives guidelines about important fundamental concepts of Ayurveda that are necessary to understand the whole text. It is very important for a physician to have the full knowledge of materials used in formulating Ayurvedic drugs. For this purpose, the chapter provides a detailed taxonomy of groups of medications (or recipes), including properties and actions of each ingredient within a group. To zero in from the generic to the specific, the entire “universe” of ingredients are classified into three groups: those that are useful for maintaining good health, those that are useful for treating disorders, and finally, those that are harmful to health. The first two categories, i.e., ingredients useful for health and for treating the diseases have been described by further dividing them into various ways with categorization by three general sources viz. animal-based, plant-based, and earth/mineral-based. Plant-based ingredients are further sub-classified according to their parts used viz. fruits, roots, latex and bark, with relevant examples that are further subdivided according to their applicability in therapeutics e.g. useful for vamana (therapeutic emesis), virechana (therapeutic purgation) or basti (therapeutic enema). The specific actions of the individual ingredients of such groups which may not find place in later chapters have been described herein e.g. five types of salts and eight types of urine. The chapter suggests that Ayurveda beginners may take the help of local people or communities living in or around forests and herders in identifying herbs. Charak denounces quackery or ayurvedic practitioners with little or limited knowledge of plants and considers that the best physician is the one who has full knowledge of ayurvedic drugs, their pharmacology, mode of administration and their use according to the condition of the patient. Exploitation of a helpless patient by a physician is considered a sin in Ayurveda. In summary, this first chapter of Ayurveda provides, for someone aspiring to become an Ayurvedic practitioner, a foundational course that teaches not only the basic tenets of Ayurveda, but also the foundational principles and practices for leading a long and healthy life.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, transliteration, and English translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Origin of Ayurveda",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Definition and Scope of Ayurveda",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Samanya Vishesha Theory (similarity and dissimilarity)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "The Tripods of Living World and subject of Ayurveda",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dravya, Guna and Karma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principles of equilibrium and dis-equilibrium",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "The Nature of Atma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Fundamental principle of disease management and prognosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Concept and applications of rasa(taste sensations)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification of dravya based on their biological effects",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification of matter according to Source",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classifications of drugs based on their various forms and applications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sources of identification of plants",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ethics in clinical practice",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Threefold method of learning Ayurveda",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Six basic principles",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Definition of Ayurveda",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Samanya Vishesha Theory",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Basic elements",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mahabhuta and dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rasa (taste sensations)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Four objectives of life",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification of drugs",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Local sources of identification of plants",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of complete knowledge of medicines",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Quality assurance in healthcare",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kaarya Kaarana Siddhanta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "More reading for vidhi vimarsha",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "The Charak Samhita begins with a chapter detailing the means to attaining a long, healthy and happy life, explaining certain basic tenets of Ayurveda and the consequent foundational concepts necessary to build a body of knowledge. This chapter provides a description of the origin, definition, and scope of Ayurveda. It further deliberates on the critical concepts of Ayu (or the life-span of a human being) and its qualitative dimensions, and arogya (or health) as a means of achieving the four fundamental instincts (virtue, wealth, gratification and emancipation) of life on this earth. In Ayurveda, the process of scientific inquiry and creation of knowledge involves the community of people or societies at large (loka). Within the community, it is believed that scientific knowledge is created by the interchange of information between patients, practitioners and researchers through various modes of interaction. The knowledge created in this process is theorized, supported with applicable evidence and logic, and then documented systematically in the scientific scriptures (shaastra). This explains the mode of Ayurvedic knowledge creation (which corresponds with the current method of scientific inquiry and knowledge creation). Once documented, the “higher levels” of scientific knowledge – or inferences - of the shaastra are delivered again to the loka for public use. Thus, knowledge creation is a dynamic, iterative process involving the loka and the shaastra. When this dynamic interaction stops, knowledge becomes static and is dropped back in the history and the search for new alternative knowledge continues. The process of origin/emergence of Ayurveda (ayurvedavatarana) as described in this chapter should be viewed from this perspective, symbolic of this iterative process of creation of knowledge. It touches upon certain basic tenets of Ayurveda such as the four dimensional concept of ayu or life and its qualitative categorization into sukhayu (happy life), duhkhayu (unhappy life), hitayu (positive life in harmony with self and the surroundings), and ahitayu(negative life, with negative state of mind and in disharmony with the surroundings), reflecting on the individual as well as the social aspects of one’s life. The chapter also deals with the doctrine of samanya (similar) and vishesha (dissimilar), dravya samgraha (knowledge of physical material), attributes of physical and mental dosha, the basic causes of ill-health, the origin of rasa (taste) and its significance, the attributes of six tastes, the nature of the material world, and the whole range of ayurvedic materia medica. Overall, as one can expect from the very first chapter of any treatise, this chapter gives guidelines about important fundamental concepts of Ayurveda that are necessary to understand the whole text. It is very important for a physician to have the full knowledge of materials used in formulating Ayurvedic drugs. For this purpose, the chapter provides a detailed taxonomy of groups of medications (or recipes), including properties and actions of each ingredient within a group. To zero in from the generic to the specific, the entire “universe” of ingredients are classified into three groups: those that are useful for maintaining good health, those that are useful for treating disorders, and finally, those that are harmful to health. The first two categories, i.e., ingredients useful for health and for treating the diseases have been described by further dividing them into various ways with categorization by three general sources viz. animal-based, plant-based, and earth/mineral-based. Plant-based ingredients are further sub-classified according to their parts used viz. fruits, roots, latex and bark, with relevant examples that are further subdivided according to their applicability in therapeutics e.g. useful for vamana (therapeutic emesis), virechana (therapeutic purgation) or basti (therapeutic enema). The specific actions of the individual ingredients of such groups which may not find place in later chapters have been described herein e.g. five types of salts and eight types of urine. The chapter suggests that Ayurveda beginners may take the help of local people or communities living in or around forests and herders in identifying herbs. Charak denounces quackery or ayurvedic practitioners with little or limited knowledge of plants and considers that the best physician is the one who has full knowledge of ayurvedic drugs, their pharmacology, mode of administration and their use according to the condition of the patient. Exploitation of a helpless patient by a physician is considered a sin in Ayurveda. In summary, this first chapter of Ayurveda provides, for someone aspiring to become an Ayurvedic practitioner, a foundational course that teaches not only the basic tenets of Ayurveda, but also the foundational principles and practices for leading a long and healthy life.",
+  "vidhiVimarsha": "The Charak Samhita begins with a chapter detailing the means to attaining a long, healthy and happy life, explaining certain basic tenets of Ayurveda and the consequent foundational concepts necessary to build a body of knowledge. This chapter provides a description of the origin, definition, and scope of Ayurveda. It further deliberates on the critical concepts of Ayu (or the life-span of a human being) and its qualitative dimensions, and arogya (or health) as a means of achieving the four fundamental instincts (virtue, wealth, gratification and emancipation) of life on this earth. In Ayurveda, the process of scientific inquiry and creation of knowledge involves the community of people or societies at large (loka). Within the community, it is believed that scientific knowledge is created by the interchange of information between patients, practitioners and researchers through various modes of interaction. The knowledge created in this process is theorized, supported with applicable evidence and logic, and then documented systematically in the scientific scriptures (shaastra). This explains the mode of Ayurvedic knowledge creation (which corresponds with the current method of scientific inquiry and knowledge creation). Once documented, the “higher levels” of scientific knowledge – or inferences - of the shaastra are delivered again to the loka for public use. Thus, knowledge creation is a dynamic, iterative process involving the loka and the shaastra. When this dynamic interaction stops, knowledge becomes static and is dropped back in the history and the search for new alternative knowledge continues. The process of origin/emergence of Ayurveda (ayurvedavatarana) as described in this chapter should be viewed from this perspective, symbolic of this iterative process of creation of knowledge. It touches upon certain basic tenets of Ayurveda such as the four dimensional concept of ayu or life and its qualitative categorization into sukhayu (happy life), duhkhayu (unhappy life), hitayu (positive life in harmony with self and the surroundings), and ahitayu(negative life, with negative state of mind and in disharmony with the surroundings), reflecting on the individual as well as the social aspects of one’s life. The chapter also deals with the doctrine of samanya (similar) and vishesha (dissimilar), dravya samgraha (knowledge of physical material), attributes of physical and mental dosha, the basic causes of ill-health, the origin of rasa (taste) and its significance, the attributes of six tastes, the nature of the material world, and the whole range of ayurvedic materia medica. Overall, as one can expect from the very first chapter of any treatise, this chapter gives guidelines about important fundamental concepts of Ayurveda that are necessary to understand the whole text. It is very important for a physician to have the full knowledge of materials used in formulating Ayurvedic drugs. For this purpose, the chapter provides a detailed taxonomy of groups of medications (or recipes), including properties and actions of each ingredient within a group. To zero in from the generic to the specific, the entire “universe” of ingredients are classified into three groups: those that are useful for maintaining good health, those that are useful for treating disorders, and finally, those that are harmful to health. The first two categories, i.e., ingredients useful for health and for treating the diseases have been described by further dividing them into various ways with categorization by three general sources viz. animal-based, plant-based, and earth/mineral-based. Plant-based ingredients are further sub-classified according to their parts used viz. fruits, roots, latex and bark, with relevant examples that are further subdivided according to their applicability in therapeutics e.g. useful for vamana (therapeutic emesis), virechana (therapeutic purgation) or basti (therapeutic enema). The specific actions of the individual ingredients of such groups which may not find place in later chapters have been described herein e.g. five types of salts and eight types of urine. The chapter suggests that Ayurveda beginners may take the help of local people or communities living in or around forests and herders in identifying herbs. Charak denounces quackery or ayurvedic practitioners with little or limited knowledge of plants and considers that the best physician is the one who has full knowledge of ayurvedic drugs, their pharmacology, mode of administration and their use according to the condition of the patient. Exploitation of a helpless patient by a physician is considered a sin in Ayurveda. In summary, this first chapter of Ayurveda provides, for someone aspiring to become an Ayurvedic practitioner, a foundational course that teaches not only the basic tenets of Ayurveda, but also the foundational principles and practices for leading a long and healthy life.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, transliteration, and English translation 2.1 Origin of Ayurveda 2.1.1 Hierarchy of transfer of knowledge of Ayurveda",
+    "2.1.2 Problem of health and conference for its solution",
+    "2.1.3 List of scholars participated in the conference",
+    "2.1.4 Four objectives of Life",
+    "2.1.5 Knowledge transfer from Indra to Bharadwaja",
+    "2.1.6 Three principles for knowledge of Health and Disease",
+    "2.1.7 Six Basic Principles of Knowledge",
+    "2.1.8 Six disciples of Punarvasu Atreya",
+    "2.1.9 Inception of Agnivesha Tantra",
+    "2.2 Definition and Scope of Ayurveda 2.2.1 Definition of Ayu (life) and its synonyms",
+    "2.2.2 Superiority of Ayurveda (over other Veda)",
+    "2.3 Samanya Vishesha Theory (similarity and dissimilarity)",
+    "2.4 The Tripods of Living World and subject of Ayurveda",
+    "2.5 Dravya, Guna and Karma 2.5.1 Sentient and Insentient dravya (elements)",
+    "2.5.2 Guna (basic properties/ qualities) and Karma (actions)",
+    "2.5.3 Inseparable concomitance of element and properties",
+    "2.5.4 Definition of Dravya",
+    "2.5.5 Definition of Guna",
+    "2.5.6 Karma (action)",
+    "2.6 Principles of equilibrium and dis-equilibrium 2.6.1 The Objective of this Compendium",
+    "2.6.2 Three Types of Causes of Diseases",
+    "2.6.3 Two Sites of Pleasure and Disease",
+    "2.7 The Nature of Atma",
+    "2.8 Dosha 2.8.1 Three Sharira dosha and two Manas dosha",
+    "2.8.2 Treatment of these dosha",
+    "2.8.3 Properties of dosha",
+    "2.9 Fundamental principle of disease management and prognosis",
+    "2.10 Concept and applications of rasa(taste sensations) 2.10.1 Origin of rasa (taste sensations)",
+    "2.10.2 Six rasa",
+    "2.10.3 Effect of rasa on dosha",
+    "2.11 Classification of dravya based on their biological effects",
+    "2.12 Classification of matter according to Source 2.12.1 1. Animal origin drugs",
+    "2.12.2 2. Earth origin and 3. Plant origin drugs",
+    "2.12.3 Plant’s parts used as drugs",
+    "2.13 Classifications of drugs based on their various forms and applications 2.13.1 Sixteen roots used for shodhana (purification):",
+    "2.13.2 Fruits used for shodhana (purification therapy)",
+    "2.13.3 Four major unctuous substances (mahasneha) 2.13.3.1 General actions of unctuous substances",
+    "2.13.4 Five salt 2.13.4.1 Utility of salt",
+    "2.13.5 Eight important varieties of urine 2.13.5.1 General properties and external uses of urine",
+    "2.13.5.2 Internal uses of urine",
+    "2.13.5.3 Properties of urine of ewe and goat",
+    "2.13.5.4 Properties of cow’s urine",
+    "2.13.5.5 Properties of urine of buffalo and elephant",
+    "2.13.5.6 Properties of urine of she-camel",
+    "2.13.5.7 Properties of urine of mare and she-donkey",
+    "2.13.5.8 Eight important varieties of milk",
+    "2.13.6 General properties and actions of milk 2.13.6.1 General indications of milk",
+    "2.13.6.2 Pharmaceutical uses of milk",
+    "2.13.7 Plants with latex",
+    "2.13.8 Three bark of plants used as drug",
+    "2.13.9 Summary of descriptions of the plants",
+    "2.14 Sources of identification of plants 2.14.1 Limitation of knowledge of names of plants only",
+    "2.14.2 Importance of complete knowledge of therapeutic actions of plants",
+    "2.15 Ethics in clinical practice 2.15.1 Qualities of best physician &amp; personalized medicine approach",
+    "2.15.2 Importance of judicious use of medicine",
+    "2.15.3 Denouncing of quacks",
+    "2.15.4 Sinful deeds about exploitation of patient",
+    "2.15.5 Quest to become good physician",
+    "2.15.6 Qualities of best drug and physician",
+    "2.16 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences) 4.1 Threefold method of learning Ayurveda",
+    "4.2 Six basic principles",
+    "4.3 Definition of Ayurveda 4.3.1 Definition of Ayu and its synonyms",
+    "4.3.2 Indriya (sense organs)",
+    "4.3.3 Synonyms of Ayu (life)",
+    "4.4 Samanya Vishesha Theory 4.4.1 Contemporary view",
+    "4.5 Basic elements 4.5.1 Guna and karma",
+    "4.5.2 Samavaya (Inseparable concomitance)",
+    "4.6 Mahabhuta and dosha",
+    "4.7 Rasa (taste sensations)",
+    "4.8 Four objectives of life",
+    "4.9 Classification of drugs 4.9.1 Dosha prashamana (pacification)",
+    "4.9.2 Dhatu pradushana (vitiating dhatu)",
+    "4.9.3 Swasthavritta hita (maintaining health)",
+    "4.9.4 Use of herbal medicines",
+    "4.9.5 Use of minerals",
+    "4.9.6 Classification of plant origin drugs",
+    "4.9.7 Mahasneha",
+    "4.9.8 Salts",
+    "4.9.9 Animal urine",
+    "4.9.10 Milk",
+    "4.9.11 Plants for purification therapy",
+    "4.10 Local sources of identification of plants",
+    "4.11 Importance of complete knowledge of medicines",
+    "4.12 Quality assurance in healthcare",
+    "4.13 Kaarya Kaarana Siddhanta",
+    "5 More reading for vidhi vimarsha",
+    "6 References"
+  ]
+}

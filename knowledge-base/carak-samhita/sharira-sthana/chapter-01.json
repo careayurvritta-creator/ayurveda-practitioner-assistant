@@ -1,0 +1,941 @@
+{
+  "sthana": "Sharira Sthana",
+  "sthanaNumber": 4,
+  "chapterNumber": 1,
+  "titleEnglish": "Holistic human being",
+  "titleSanskrit": "Katidhapurusha Sharira Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातः कतिधापुरुषीयं शारीरं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||",
+      "english": "Now we shall expound the chapter \"Katidhapurusheeyam Shariram\" (Knowledge of holistic human being). Thus said Lord Atreya. [1-2]",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "कतिधा पुरुषो धीमन्! धातुभेदेन भिद्यते| \nपुरुषः कारणं कस्मात्, प्रभवः पुरुषस्य कः||३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "किमज्ञो ज्ञः, स नित्यः किं किमनित्यो निदर्शितः| \nप्रकृतिः का, विकाराः के, किं लिङ्गं पुरुषस्य च||४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "निष्क्रियं च स्वतन्त्रं च वशिनं सर्वगं विभुम्| \nवदन्त्यात्मानमात्मज्ञाः क्षेत्रज्ञं साक्षिणं तथा||५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 6,
+      "devanagari": "निष्क्रियस्य क्रिया तस्य भगवन्! विद्यते कथम्| \nस्वतन्त्रश्चेदनिष्टासु कथं योनिषु जायते||६||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 7,
+      "devanagari": "वशी यद्यसुखैः कस्माद्भावैराक्रम्यते बलात्| \nसर्वाः सर्वगतत्वाच्च वेदनाः किं न वेत्ति सः||७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 8,
+      "devanagari": "न पश्यति विभुः कस्माच्छैलकुड्यतिरस्कृतम्| \nक्षेत्रज्ञः क्षेत्रमथवा किं पूर्वमिति संशयः||८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "ज्ञेयं क्षेत्रं विना पूर्वं क्षेत्रज्ञो हि न युज्यते| \nक्षेत्रं च यदि पूर्वं स्यात् क्षेत्रज्ञः स्यादशाश्वतः||९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 10,
+      "devanagari": "साक्षिभूतश्च कस्यायं कर्ता ह्यन्यो न विद्यते| \nस्यात् कथं चाविकारस्य विशेषो वेदनाकृतः||१०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 11,
+      "devanagari": "अथ चार्तस्य भगवंस्तिसृणां कां चिकित्सति| \nअतीतां वेदनां वैद्यो वर्तमानां भविष्यतीम्||११||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 12,
+      "devanagari": "भविष्यन्त्या असम्प्राप्तिरतीताया अनागमः| \nसाम्प्रतिक्या अपि स्थानं नास्त्यर्तेः संशयो ह्यतः||१२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 13,
+      "devanagari": "कारणं वेदनानां किं, किमधिष्ठानमुच्यते| \nक्व चैता वेदनाः सर्वा निवृत्तिं यान्त्यशेषतः||१३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 14,
+      "devanagari": "सर्ववित् सर्वसन्न्यासी सर्वसंयोगनिःसृतः| \nएकः प्रशान्तो भूतात्मा कैर्लिङ्गैरुपलभ्यते||१४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 15,
+      "devanagari": "इत्यग्निवेशस्य [१] वचः श्रुत्वा मतिमतां वरः| \nसर्वं यथावत् प्रोवाच प्रशान्तात्मा पुनर्वसुः||१५||",
+      "english": "Agnivesha requested Punarvasu to explain the following:",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 16,
+      "devanagari": "खादयश्चेतनाषष्ठा धातवः पुरुषः स्मृतः| \nचेतनाधातुरप्येकः स्मृतः पुरुषसञ्ज्ञकः||१६||",
+      "english": "Purusha comprises of six dhatu (elements), viz. five mahabhuta (in their subtle form) and consciousness. The element of consciousness alone could also be considered purusha.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "पुनश्च धातुभेदेन चतुर्विंशतिकः स्मृतः| \nमनो दशेन्द्रियाण्यर्थाः प्रकृतिश्चाष्टधातुकी||१७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 18,
+      "devanagari": "लक्षणं मनसो ज्ञानस्याभावो भाव एव च| \nसति ह्यात्मेन्द्रियार्थानां सन्निकर्षे न वर्तते||१८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 19,
+      "devanagari": "वैवृत्त्यान्मनसो ज्ञानं सान्निध्यात्तच्च वर्तते| \nअणुत्वमथ चैकत्वं द्वौ गुणौ मनसः स्मृतौ||१९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "चिन्त्यं विचार्यमूह्यं च ध्येयं सङ्कल्प्यमेव च| \nयत्किञ्चिन्मनसो ज्ञेयं तत् सर्वं ह्यर्थसञ्ज्ञकम्||२०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "इन्द्रियाभिग्रहः कर्म मनसः स्वस्य निग्रहः| \nऊहो विचारश्च, ततः परं बुद्धिः प्रवर्तते||२१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "इन्द्रियेणेन्द्रियार्थो हि समनस्केन गृह्यते| \nकल्प्यते मनसा तूर्ध्वं गुणतो दोषतोऽथवा||२२|| जायते विषये तत्र या बुद्धिर्निश्चयात्मिका| \nव्यवस्यति तया वक्तुं कर्तुं वा बुद्धिपूर्वकम्||२३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 24,
+      "devanagari": "एकैकाधिकयुक्तानि खादीनामिन्द्रियाणि तु| \nपञ्च कर्मानुमेयानि येभ्यो बुद्धिः प्रवर्तते||२४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 25,
+      "devanagari": "हस्तौ पादौ [२] गुदोपस्थं वागिन्द्रियमथापि च| \nकर्मेन्द्रियाणि पञ्चैव पादौ गमनकर्मणि||२५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 26,
+      "devanagari": "पायूपस्थं विसर्गार्थं हस्तौ ग्रहणधारणे| \nजिह्वा वागिन्द्रियं वाक् च सत्या ज्योतिस्तमोऽनृता||२६||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "महाभूतानि खं वायुरग्निरापः क्षितिस्तथा| \nशब्दः स्पर्शश्च रूपं च रसो गन्धश्च तद्गुणाः||२७||",
+      "english": "The five mahabhuta are akasha, vayu, agni, jala and prithvi (in this order). Their attributes are sound, touch, vision, taste and smell respectively.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 28,
+      "devanagari": "तेषामेकगुणः पूर्वो [२] गुणवृद्धिः परे परे| \nपूर्वः पूर्वगुणश्चैव [३] क्रमशो गुणिषु स्मृतः||२८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 29,
+      "devanagari": "खरद्रवचलोष्णत्वं भूजलानिलतेजसाम्| \nआकाशस्याप्रतीघातो दृष्टं लिङ्गं यथाक्रमम्||२९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 30,
+      "devanagari": "लक्षणं सर्वमेवैतत् स्पर्शनेन्द्रियगोचरम्| \nस्पर्शनेन्द्रियविज्ञेयः स्पर्शो हि सविपर्ययः||३०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 1,
+      "devanagari": "गुणाः शरीरे गुणिनां निर्दिष्टाश्चिह्नमेव च| ३१|",
+      "english": "Thus the attributes and characteristics of the five physical elements are described. [31-1]",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "अर्थाः शब्दादयो ज्ञेया गोचरा विषया गुणाः||३१||",
+      "english": "The objects of sense organs are sound, touch, vision, taste and smell, which constitute the attributes of gross mahabhuta.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 32,
+      "devanagari": "या यदिन्द्रियमाश्रित्य जन्तोर्बुद्धिः प्रवर्तते| \nयाति सा तेन निर्देशं मनसा च मनोभवा||३२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 33,
+      "devanagari": "भेदात् कार्येन्द्रियार्थानां बह्व्यो वै बुद्धयः स्मृताः| \nआत्मेन्द्रियमनोर्थानामेकैका [१] सन्निकर्षजा||३३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 34,
+      "devanagari": "अङ्गुल्यङ्गुष्ठतलजस्तन्त्रीवीणानखोद्भवः| \nदृष्टः शब्दो यथा बुद्धिर्दृष्टा संयोगजा तथा||३४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 35,
+      "devanagari": "बुद्धीन्द्रियमनोर्थानां विद्याद्योगधरं परम्| \nचतुर्विंशतिको ह्येष राशिः पुरुषसञ्ज्ञकः||३५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 36,
+      "devanagari": "रजस्तमोभ्यां युक्तस्य संयोगोऽयमनन्तवान्| \nताभ्यां निराकृताभ्यां तु सत्त्ववृद्ध्या निवर्तते||३६||",
+      "english": "The association of purusha with the 24 tattvas continues so long as it is influenced by rajas and tamas. If it is freed from this influence (of rajas and tamas) by dominance of sattva, the purusha is said to be liberated (and free from its association with the tattvas).",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 37,
+      "devanagari": "अत्र कर्म फलं चात्र ज्ञानं चात्र प्रतिष्ठितम्| \nअत्र मोहः सुखं दुःखं जीवितं मरणं स्वता||३७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 38,
+      "devanagari": "एवं [३] यो वेद तत्त्वेन स वेद प्रलयोदयौ| \nपारम्पर्यं चिकित्सां च ज्ञातव्यं [४] यच्च किञ्चन||३८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "भास्तमः सत्यमनृतं वेदाः कर्म शुभाशुभम्| \nन स्युः कर्ता [१] च बोद्धा च पुरुषो न भवेद्यदि||३९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 40,
+      "devanagari": "नाश्रयो न सुखं नार्तिर्न गतिर्नागतिर्न वाक्| \nन विज्ञानं न शास्त्राणि न जन्म मरणं न च||४०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 41,
+      "devanagari": "न बन्धो न च मोक्षः स्यात् पुरुषो न भवेद्यदि| \nकारणं पुरुषस्तस्मात् कारणज्ञैरुदाहृतः||४१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 42,
+      "devanagari": "न चेत् कारणमात्मा स्याद्भादयः [२] स्युरहेतुकाः| \nन चैषु सम्भवेज् ज्ञानं न च तैः स्यात् प्रयोजनम्||४२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 43,
+      "devanagari": "कृतं मृद्दण्डचक्रैश्च कुम्भकारादृते घटम्| \nकृतं मृत्तृणकाष्ठैश्च गृहकाराद्विना गृहम्||४३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 44,
+      "devanagari": "यो वदेत् स वदेद्देहं सम्भूय करणैः कृतम्| \nविना कर्तारमज्ञानाद्युक्त्यागमबहिष्कृतः||४४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 45,
+      "devanagari": "कारणं पुरुषः सर्वैः प्रमाणैरुपलभ्यते| \nयेभ्यः प्रमेयं सर्वेभ्य आगमेभ्यः प्रमीयते||४५||",
+      "english": "All the sources of knowledge, including scriptures that serve as an instrument for acquiring knowledge of various kinds, establish the causality of Purusha.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 46,
+      "devanagari": "न ते तत्सदृशास्त्वन्ये पारम्पर्यसमुत्थिताः| \nसारूप्याद्ये त एवेति निर्दिश्यन्ते नवा नवाः||४६||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 47,
+      "devanagari": "भावास्तेषां समुदयो निरीशः सत्त्वसञ्ज्ञकः| \nकर्ता भोक्ता न स पुमानिति केचिद्व्यवस्थिताः||४७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 48,
+      "devanagari": "तेषामन्यैः कृतस्यान्ये भावा [१] भावैर्नवाः फलम्| \nभुञ्जते सदृशाः प्राप्तं यैरात्मा नोपदिश्यते||४८||",
+      "english": "Those who subscribe to the above theory do not accept the soul as the cause or reason for existence. To them, the results of actions performed by one would be enjoyed by some other similar (momentary) entities.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 49,
+      "devanagari": "करणान्यान्यता दृष्टा कर्तुः कर्ता स एव तु| \nकर्ता हि करणैर्युक्तः कारणं सर्वकर्मणाम्||४९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 50,
+      "devanagari": "निमेषकालाद्भावानां कालः शीघ्रतरोऽत्यये| \nभग्नानां न [१] पुनर्भावः कृतं नान्यमुपैति च||५०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 51,
+      "devanagari": "मतं तत्त्वविदामेतद्यस्मात्तस्मात् स कारणम्| \nक्रियोपभोगे भूतानां नित्यः पुरुषसञ्ज्ञकः||५१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 52,
+      "devanagari": "अहङ्कारः फलं कर्म देहान्तरगतिः स्मृतिः| \nविद्यते सति भूतानां कारणे देहमन्तरा||५२||",
+      "english": "In living beings, a factor other than the body (i.e. the soul) is responsible for ego, enjoyment of the result of deeds, engagement in deeds, transmigration from one body to another body, and keeping the memory of the individual alive.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 53,
+      "devanagari": "प्रभवो न ह्यनादित्वाद्विद्यते परमात्मनः| \nपुरुषो राशिसञ्ज्ञस्तु मोहेच्छाद्वेषकर्मजः||५३||",
+      "english": "answering the question of Agnivesha about the origin of soul, teacher said:",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 54,
+      "devanagari": "आत्मा ज्ञः करणैर्योगाज् ज्ञानं त्वस्य प्रवर्तते| \nकरणानामवैमल्यादयोगाद्वा न वर्तते||५४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 55,
+      "devanagari": "पश्यतोऽपि यथाऽऽदर्शे सङ्क्लिष्टे नास्ति दर्शनम्| \nतत्त्वं [१] जले वा कलुषे चेतस्युपहते तथा||५५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 56,
+      "devanagari": "करणानि मनो बुद्धिर्बुद्धिकर्मेन्द्रियाणि च| \nकर्तुः संयोगजं कर्म वेदना बुद्धिरेव च||५६||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 57,
+      "devanagari": "नैकः प्रवर्तते कर्तुं भूतात्मा नाश्नुते फलम्| \nसंयोगाद्वर्तते सर्वं तमृते नास्ति किञ्चन||५७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 58,
+      "devanagari": "न ह्येको वर्तते भावो वर्तते नाप्यहेतुकः| \nशीघ्रगत्वात्स्वभावात्त्वभावो [४] न व्यतिवर्तते||५८||",
+      "english": "The Purusha, not alone but accompanied with manass and indriyas, is responsible for the manifestation of things. The process of decay on the other hand being too quick in succession does not need any cause as such.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 59,
+      "devanagari": "अनादिः पुरुषो नित्यो विपरीतस्तु हेतुजः| \nसदकारणवन्नित्यं दृष्टं हेतुजमन्यथा||५९||",
+      "english": "Thus, the absolute soul is without a beginning or an end, but the Purusha (i.e. the combination of 24 elements) being caused by something is not so i.e. it has a beginning and is ephemeral.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 60,
+      "devanagari": "तदेव भावादग्राह्यं नित्यत्व [१] न कुतश्चन| \nभावाज्ज्ञेयं तदव्यक्तमचिन्त्यं व्यक्तमन्यथा||६०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 61,
+      "devanagari": "अव्यक्तमात्मा क्षेत्रज्ञः शाश्वतो विभुरव्ययः| \nतस्माद्यदन्यत्तद्व्यक्तं, वक्ष्यते चापरं द्वयम्||६१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 62,
+      "devanagari": "व्यक्तमैन्द्रियकं चैव गृह्यते तद्यदिन्द्रियैः| \nअतोऽन्यत् पुनरव्यक्तं लिङ्गग्राह्यमतीन्द्रियम्||६२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 63,
+      "devanagari": "खादीनि बुद्धिरव्यक्तमहङ्कारस्तथाऽष्टमः| \nभूतप्रकृतिरुद्दिष्टा विकाराश्चैव षोडश||६३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 64,
+      "devanagari": "बुद्धीन्द्रियाणि पञ्चैव पञ्च कर्मेन्द्रियाणि च| \nसमनस्काश्च पञ्चार्था विकारा इति सञ्ज्ञिताः||६४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 65,
+      "devanagari": "इति क्षेत्रं समुद्दिष्टं सर्वमव्यक्तवर्जितम्| \nअव्यक्तमस्य क्षेत्रस्य क्षेत्रज्ञमृषयो विदुः||६५||",
+      "english": "As explained by wise ones, all this taken together, except the unmanifested one (avyakta), is known as kshetra i.e. corpus (body). The unmanifested (soul) one is known as kshetragna (knower of the corpus) which adjoins the body.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 66,
+      "devanagari": "जायते बुद्धिरव्यक्ताद्बुद्ध्याऽहमिति मन्यते| \nपरं खादीन्यहङ्कारादुत्पद्यन्ते [१] यथाक्रमम्||६६|| \nततः सम्पूर्णसर्वाङ्गो जातोऽभ्युदित उच्यते|",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 67,
+      "devanagari": "पुरुषः प्रलये चेष्टैः पुनर्भावैर्वियुज्यते||६७|| \nअव्यक्ताद्व्यक्ततां याति व्यक्तादव्यक्ततां पुनः| \nरजस्तमोभ्यामाविष्टश्चक्रवत् परिवर्तते||६८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 69,
+      "devanagari": "येषां द्वन्द्वे परा सक्तिरहङ्कारपराश्च ये| \nउदयप्रलयौ तेषां न तेषां ये त्वतोऽन्यथा||६९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 70,
+      "devanagari": "प्राणापानौ निमेषाद्या जीवनं मनसो गतिः| \nइन्द्रियान्तरसञ्चारः प्रेरणं धारणं च यत्||७०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 71,
+      "devanagari": "देशान्तरगतिः स्वप्ने पञ्चत्वग्रहणं तथा| \nदृष्टस्य दक्षिणेनाक्ष्णा सव्येनावगमस्तथा||७१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 72,
+      "devanagari": "इच्छा द्वेषः सुखं दुःखं प्रयत्नश्चेतना धृतिः| \nबुद्धिः स्मृतिरहङ्कारो लिङ्गानि परमात्मनः||७२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 73,
+      "devanagari": "यस्मात् समुपलभ्यन्ते लिङ्गान्येतानि जीवतः| \nन मृतस्यात्मलिङ्गानि तस्मादाहुर्महर्षयः||७३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 74,
+      "devanagari": "शरीरं हि गते तस्मिञ् शून्यागारमचेतनम्| \nपञ्चभूतावशेषत्वात् पञ्चत्वं गतमुच्यते||७४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 75,
+      "devanagari": "अचेतनं क्रियावच्च मनश्चेतयिता परः| \nयुक्तस्य मनसा तस्य निर्दिश्यन्ते विभोः क्रियाः||७५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 76,
+      "devanagari": "चेतनावान् यतश्चात्मा ततः कर्ता निरुच्यते| \nअचेतनत्वाच्च मनः क्रियावदपि नोच्यते||७६||",
+      "english": "Mind is active, but devoid of consciousness. The omnipresent soul becomes active only when it coordinates with mind. Though the soul is not active, it is conscious and is considered a doer, or an actor, or an agent of deeds. The mind is not considered as actor, because it is devoid of Consciousness, though it is responsible for activity. [75-76]",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 77,
+      "devanagari": "यथास्वेनात्मनाऽऽत्मानं सर्वः सर्वासु योनिषु| \nप्राणैस्तन्त्रयते प्राणी नह्यन्योऽस्त्यस्य तन्त्रकः||७७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 78,
+      "devanagari": "वशी तत् कुरुते कर्म यत् कृत्वा फलमश्नुते| \nवशी चेतः समाधत्ते वशी सर्वं निरस्यति||७८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 79,
+      "devanagari": "देही सर्वगतोऽप्यात्मा [१] स्वे स्वे संस्पर्शनेन्द्रिये| \nसर्वाः सर्वाश्रयस्थास्तु नात्माऽतो वेत्ति वेदनाः||७९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 80,
+      "devanagari": "विभुत्वमत एवास्य यस्मात् सर्वगतो महान्| \nमनसश्च समाधानात् पश्यत्यात्मा तिरस्कृतम्||८०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 81,
+      "devanagari": "नित्यानुबन्धं मनसा देहकर्मानुपातिना| \nसर्वयोनिगतं विद्यादेकयोनावपि स्थितम्||८१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 82,
+      "devanagari": "आदिर्नास्त्यात्मनः [१] क्षेत्रपारम्पर्यमनादिकम्| \nअतस्तयोरनादित्वात् किं पूर्वमिति नोच्यते||८२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 83,
+      "devanagari": "ज्ञः साक्षीत्युच्यते नाज्ञः साक्षी त्वात्मा यतः स्मृतः| \nसर्वे भावा हि सर्वेषां भूतानामात्मसाक्षिकाः||८३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 84,
+      "devanagari": "नैकः कदाचिद्भूतात्मा लक्षणैरुपलभ्यते| \nविशेषोऽनुपलभ्यस्य तस्य नैकस्य विद्यते||८४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 85,
+      "devanagari": "संयोगपुरुषस्येष्टो विशेषो वेदनाकृतः| \nवेदना यत्र नियता विशेषस्तत्र तत्कृतः||८५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 86,
+      "devanagari": "चिकित्सति भिषक् सर्वास्त्रिकाला वेदना इति| \nयया युक्त्या वदन्त्येके सा युक्तिरुपधार्यताम्||८६||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 87,
+      "devanagari": "पुनस्तच्छिरसः शूलं ज्वरः स पुनरागतः| \nपुनः स कासो बलवांश्छर्दिः सा पुनरागता||८७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 88,
+      "devanagari": "एभिः प्रसिद्धवचनैरतीतागमनं मतम्| \nकालश्चायमतीतानामर्तीनां पुनरागतः||८८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 89,
+      "devanagari": "तमर्तिकालमुद्दिश्य भेषजं यत् प्रयुज्यते| \nअतीतानां प्रशमनं वेदनानां तदुच्यते||८९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 90,
+      "devanagari": "आपस्ताः पुनरागुर्मा याभिः शस्यं पुरा हतम्| \nयथा प्रक्रियते सेतुः प्रतिकर्म तथाऽऽश्रये||९०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 91,
+      "devanagari": "पूर्वरूपं विकाराणां दृष्ट्वा प्रादुर्भविष्यताम्| \nया क्रिया क्रियते सा च वेदनां हन्त्यनागताम्||९१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 92,
+      "devanagari": "पारम्पर्यानबन्धस्तु दुःखानां विनिवर्तते| \nसुखहेतूपचारेण सुखं चापि प्रवर्तते||९२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 93,
+      "devanagari": "न समा यान्ति वैषम्यं विषमाः समतां न च| \nहेतुभिः सदृशा नित्यं जायन्ते देहधातवः||९३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 94,
+      "devanagari": "युक्तिमेतां पुरस्कृत्य त्रिकालां वेदनां भिषक्| \nहन्तीत्युक्तं चिकित्सा तु नैष्ठिकी या विनोपधाम्||९४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 95,
+      "devanagari": "उपधा हि परो हेतुर्दुःखदुःखाश्रयप्रदः| \nत्यागः सर्वोपधानां च सर्वदुःखव्यपोहकः||९५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 96,
+      "devanagari": "कोषकारो यथा ह्यंशूनुपादत्ते वधप्रदान् [३] | \nउपादत्ते तथाऽर्थेभ्यस्तृष्णामज्ञः सदाऽऽतुरः||९६||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 97,
+      "devanagari": "यस्त्वग्निकल्पानर्थाञ् ज्ञो ज्ञात्वा तेभ्यो निवर्तते| \nअनारम्भादसंयोगात्तं दुःखं नोपतिष्ठते||९७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 98,
+      "devanagari": "धीधृतिस्मृतिविभ्रंशः सम्प्राप्तिः कालकर्मणाम्| \nअसात्म्यार्थागमश्चेति ज्ञातव्या दुःखहेतवः||९८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 99,
+      "devanagari": "विषमाभिनिवेशो यो नित्यानित्ये हिताहिते| \nज्ञेयः स बुद्धिविभ्रंशः समं बुद्धिर्हि पश्यति||९९||",
+      "english": "If something eternal is viewed as ephemeral and something harmful as useful, and vice versa, this is indicative of the impairment of intellect. For, the normal intellect views things as they are.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 100,
+      "devanagari": "विषयप्रवणं सत्त्वं धृतिभ्रंशान्न शक्यते| \nनियन्तुमहितादर्थाद्धृतिर्हि नियमात्मिका||१००||",
+      "english": "A mind indulging in worldly enjoyments cannot be restrained from harmful objects due to the impairment of dhriti (controlling power). It is dhriti that can restrain the mind (from its harmful objects).",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 101,
+      "devanagari": "तत्त्वज्ञाने स्मृतिर्यस्य रजोमोहावृतात्मनः| \nभ्रश्यते स स्मृतिभ्रंशः स्मर्तव्यं हि स्मृतौ स्थितम्||१०१||",
+      "english": "If the memory is impaired due to a person being overcome by rajas and tamas, the recollection of knowledge of reality or self is impaired. This is known as the impairment of smriti. Normally smriti contains everything memorable.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 102,
+      "devanagari": "धीधृतिस्मृतिविभ्रष्टः कर्म यत् कुरुतेऽशुभम्| \nप्रज्ञापराधं तं विद्यात् सर्वदोषप्रकोपणम्||१०२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 103,
+      "devanagari": "उदीरणं गतिमतामुदीर्णानां च निग्रहः| \nसेवनं साहसानां च नारीणां चातिसेवनम्||१०३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 104,
+      "devanagari": "कर्मकालातिपातश्च मिथ्यारम्भश्च कर्मणाम्| \nविनयाचारलोपश्च पूज्यानां चाभिधर्षणम्||१०४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 105,
+      "devanagari": "ज्ञातानां स्वयमर्थानामहितानां निषेवणम्| \nपरमौन्मादिकानां च प्रत्ययानां निषेवणम्||१०५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 106,
+      "devanagari": "अकालादेशसञ्चारौ मैत्री सङ्क्लिष्टकर्मभिः| \nइन्द्रियोपक्रमोक्तस्य सद्वृत्तस्य च वर्जनम्||१०६||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 107,
+      "devanagari": "ईर्ष्यामानभयक्रोधलोभमोहमदभ्रमाः| \nतज्जं वा कर्म यत् क्लिष्टं क्लिष्टं यद्देहकर्म च||१०७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 108,
+      "devanagari": "यच्चान्यदीदृशं कर्म रजोमोहसमुत्थितम्| \nप्रज्ञापराधं तं शिष्टा ब्रुवते व्याधिकारणम् [१] ||१०८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 109,
+      "devanagari": "बुद्ध्या विषमविज्ञानं विषमं च प्रवर्तनम्| \nप्रज्ञापराधं जानीयान्मनसो गोचरं हि तत्||१०९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 110,
+      "devanagari": "निर्दिष्टा कालसम्प्राप्तिर्व्याधीनां व्याधिसङ्ग्रहे| \nचयप्रकोपप्रशमाः पित्तादीनां यथा पुरा||११०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 111,
+      "devanagari": "मिथ्यातिहीनलिङ्गाश्च वर्षान्ता रोगहेतवः| \nजीर्णभुक्तप्रजीर्णान्नकालाकालस्थितिश्च [१] या||१११||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 112,
+      "devanagari": "पूर्वमध्यापराह्णाश्च रात्र्या यामास्त्रयश्च ये| \nएषु कालेषु नियता ये रोगास्ते च कालजाः||११२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 113,
+      "devanagari": "अन्येद्युष्को द्व्यहग्राही तृतीयकचतुर्थकौ| \nस्वे स्वे काले प्रवर्तन्ते काले ह्येषां बलागमः||११३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 114,
+      "devanagari": "एते चान्ये [६] च ये केचित् कालजा विविधा गदाः| \nअनागते चिकित्स्यास्ते बलकालौ विजानता||११४||",
+      "english": "A physician acquainted with the knowledge of dosha bala and kala bala should treat this and other similar diseases prior to their actual manifestations.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 115,
+      "devanagari": "कालस्य परिणामेन जरामृत्युनिमित्तजाः| \nरोगाः स्वाभाविका दृष्टाः स्वभावो निष्प्रतिक्रियः||११५||",
+      "english": "The diseases arising out of temporal factors that bring about old age and death are to be considered as natural ones, which affect everyone, and these such natural manifestations are irremediable.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 116,
+      "devanagari": "निर्दिष्टं दैवशब्देन कर्म यत् पौर्वदेहिकम्| \nहेतुस्तदपि कालेन रोगाणामुपलभ्यते||११६||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 117,
+      "devanagari": "न हि कर्म महत् किञ्चित् फलं यस्य न भुज्यते| \nक्रियाघ्नाः कर्मजा रोगाः प्रशमं यान्ति तत्क्षयात्||११७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 118,
+      "devanagari": "अत्युग्रशब्दश्रवणाच्छ्रवणात् सर्वशो न च| \nशब्दानां चातिहीनानां भवन्ति श्रवणाज्जडाः||११८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 119,
+      "devanagari": "परुषोद्भीषणाशस्ताप्रियव्यसनसूचकैः| \nशब्दैः श्रवणसंयोगो मिथ्यासंयोग उच्यते||११९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 120,
+      "devanagari": "असंस्पर्शोऽतिसंस्पर्शो हीनसंस्पर्श एव च| \nस्पृश्यानां सङ्ग्रहेणोक्तः स्पर्शनेन्द्रियबाधकः||१२०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 121,
+      "devanagari": "यो भूतविषवातानामकालेनागतश्च यः| \nस्नेहशीतोष्णसंस्पर्शो मिथ्यायोग स उच्यते||१२१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 122,
+      "devanagari": "रूपाणां भास्वतां दृष्टिर्विनश्यत्यतिदर्शनात्| \nदर्शनाच्चातिसूक्ष्माणां सर्वशश्चाप्यदर्शनात्||१२२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 123,
+      "devanagari": "द्विष्टभैरवबीभत्सदूरातिश्लिष्टदर्शनात् [१] | \nतामसानां च रूपाणां मिथ्यासंयोग उच्यते||१२३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 124,
+      "devanagari": "अत्यादानमनादानमोकसात्म्यादिभिश्च यत्| \nरसानां विषमादानमल्पादानं च दूषणम्||१२४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 125,
+      "devanagari": "अतिमृद्वतितीक्ष्णानां गन्धानामुपसेवनम्| \nअसेवनं सर्वशश्च घ्राणेन्द्रियविनाशनम्||१२५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 126,
+      "devanagari": "पूतिभूतविषद्विष्टा गन्धा ये चाप्यनार्तवाः| \nतैर्गन्धैर्घ्राणसंयोगो मिथ्यायोगः स उच्यते||१२६||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 127,
+      "devanagari": "इत्यसात्म्यार्थसंयोगस्त्रिविधो दोषकोपनः|\nअसात्म्यमिति तद्विद्याद्यन्न याति सहात्मताम्||१२७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 128,
+      "devanagari": "मिथ्यातिहीनयोगेभ्यो यो व्याधिरुपजायते| \nशब्दादीनां स विज्ञेयो व्याधिरैन्द्रियको बुधैः||१२८||",
+      "english": "When a disease is caused by wrong utilization, excessive, utilization and inadequate utilization (non – utilization) of sense faculties, viz. auditory etc, it is known as Aindriyaka(sensorial diseases) i.e. a disease caused by the impairment of senses.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 129,
+      "devanagari": "वेदनानामशान्तानामित्येते [३] हेतवः स्मृताः| \nसुखहेतुः समस्त्वेकः समयोगः सुदुर्लभः||१२९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 130,
+      "devanagari": "नेन्द्रियाणि न चैवार्थाः सुखदुःखस्य हेतवः| \nहेतुस्तु सुखदुःखस्य योगो दृष्टश्चतुर्विधः||१३०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 131,
+      "devanagari": "सन्तीन्द्रियाणि सन्त्यर्था योगो न [१] च न चास्ति रुक्| \nन सुखं, कारणं तस्माद्योग एव चतुर्वधः||१३१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 132,
+      "devanagari": "नात्मेन्द्रियं मनो बुद्धिं गोचरं [१] कर्म वा विना| \nसुखदुःखं, यथा यच्च बोद्धव्यं तत्तथोच्यते||१३२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 133,
+      "devanagari": "स्पर्शनेन्द्रियसंस्पर्शः स्पर्शो मानस एव च| \nद्विविधः सुखदुःखानां वेदनानां प्रवर्तकः||१३३||",
+      "english": "Tactual contact and mental contact are two types of contacts which bring about happiness and miseries.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 134,
+      "devanagari": "इच्छाद्वेषात्मिका तृष्णा सुखदुःखात् प्रवर्तते| \nतृष्णा च सुखदुःखानां कारणं पुनरुच्यते||१३४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 135,
+      "devanagari": "उपादत्ते हि सा भावान् वेदनाश्रयसञ्ज्ञकान्| \nस्पृश्यते नानुपादाने नास्पृष्टो वेत्ति वेदनाः||१३५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 136,
+      "devanagari": "वेदनानामधिष्ठानं मनो देहश्च सेन्द्रियः| \nकेशलोमनखाग्रान्नमलद्रवगुणैर्विना||१३६||",
+      "english": "The mind and the body together with the sense organs exclusive of kesha (hair), loma (body hair), tip of the nail, ingested food, excreta, excretory fluids and objects of senses are the sites of manifestation of happiness and miseries.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 137,
+      "devanagari": "योगे मोक्षे च सर्वासां वेदनानामवर्तनम्| \nमोक्षे निवृत्तिर्निःशेषा योगो मोक्षप्रवर्तकः||१३७||",
+      "english": "Recurrence of all sensation is checked through yoga and moksha. The absolute eradication of sensation is attained through moksha. The yoga is a means to attain moksha.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 138,
+      "devanagari": "आत्मेन्द्रियमनोर्थानां सन्निकर्षात् प्रवर्तते| \nसुखदुःखमनारम्भादात्मस्थे मनसि स्थिरे||१३८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 139,
+      "devanagari": "निवर्तते तदुभयं वशित्वं चोपजायते| \nसशरीरस्य योगज्ञास्तं योगमृषयो विदुः||१३९||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 140,
+      "devanagari": "आवेशश्चेतसो ज्ञानमर्थानां छन्दतः क्रिया| \nदृष्टिः श्रोत्रं स्मृतिः कान्तिरिष्टतश्चाप्यदर्शनम्||१४०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 141,
+      "devanagari": "इत्यष्टविधमाख्यातं योगिनां बलमैश्वरम्| \nशुद्धसत्त्वसमाधानात्तत् सर्वमुपजायते||१४१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 142,
+      "devanagari": "मोक्षो रजस्तमोऽभावात् बलवत्कर्मसङ्क्षयात्| \nवियोगः सर्वसंयोगैरपुनर्भव उच्यते||१४२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 143,
+      "devanagari": "सतामुपासनं सम्यगसतां परिवर्जनम्| \nव्रतचर्योपवासौ च नियमाश्च पृथग्विधाः||१४३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 144,
+      "devanagari": "धारणं धर्मशास्त्राणां विज्ञानं विजने रतिः| \nविषयेष्वरतिर्मोक्षे व्यवसायः परा धृतिः||१४४||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 145,
+      "devanagari": "कर्मणामसमारम्भः कृतानां च परिक्षयः| \nनैष्क्रम्यमनहङ्कारः [१] संयोगे भयदर्शनम्||१४५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 146,
+      "devanagari": "मनोबुद्धिसमाधानमर्थतत्त्वपरीक्षणम्| \nतत्त्वस्मृतेरुपस्थानात् सर्वमेतत् प्रवर्तते||१४६||",
+      "english": "The following serve as means to the attainment of moksha.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 147,
+      "devanagari": "स्मृतिः सत्सेवनाद्यैश्च धृत्यन्तैरुपजायते| \nस्मृत्वा स्वभावं भावानां स्मरन् दुःखात् प्रमुच्यते||१४७||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 148,
+      "devanagari": "वक्ष्यन्ते कारणान्यष्टौ स्मृतिर्यैरुपजायते| \nनिमित्तरूपग्रहणात् सादृश्यात् सविपर्ययात्||१४८||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 149,
+      "devanagari": "सत्त्वानुबन्धादभ्यासाज्ज्ञानयोगात् पुनः श्रुतात्| \nदृष्टश्रुतानुभूतानां स्मारणात् स्मृतिरुच्यते||१४९||",
+      "english": "A memory is nothing but the remembrance of things directly perceived, heard (from scriptures) or experienced earlier. The regimen prescribed in verses above, beginning with devotion to the noble persons and ending with absolute mental control (items 1-10) serve as an aid to good memory. If one only remembers the real nature of thing he gets rid of miseries.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 150,
+      "devanagari": "एतत्तदेकमयनं मुक्तैर्मोक्षस्य दर्शितम्| \nतत्त्वस्मृतिबलं, येन गता न पुनरागताः||१५०||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 151,
+      "devanagari": "अयनं पुनराख्यातमेतद्योगस्य योगिभिः| \nसङ्ख्यातधर्मैः साङ्ख्यैश्च मुक्तैर्मोक्षस्य चायनम्||१५१||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 152,
+      "devanagari": "सर्वं कारणवद्दुःखमस्वं चानित्यमेव च| \nन चात्मकृतकं तद्धि तत्र चोत्पद्यते स्वता||१५२||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 153,
+      "devanagari": "यावन्नोत्पद्यते सत्या बुद्धिर्नैतदहं यया| \nनैतन्ममेति विज्ञाय ज्ञः सर्वमतिवर्तते||१५३||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 154,
+      "devanagari": "तस्मिंश्चरमसन्न्यासे समूलाः सर्ववेदनाः| \nससञ्ज्ञाज्ञानविज्ञाना [४] निवृत्तिं यान्त्यशेषतः||१५४||",
+      "english": "As soon as the final renunciation in respect of all subsequent actions is attained, the very consciousness together with its final causes in the form of indeterminate, determinate or scriptural knowledge is completely eradicated.",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 155,
+      "devanagari": "अतः परं ब्रह्मभूतो भूतात्मा नोपलभ्यते| \nनिःसृतः सर्वभावेभ्यश्चिह्नं यस्य न विद्यते| \nगतिर्ब्रह्मविदां ब्रह्म तच्चाक्षरमलक्षणम्।\nज्ञानं ब्रह्मविदां चात्र नाज्ञस्तज्ज्ञातुमर्हति||१५५||",
+      "english": "",
+      "section": "Holistic human being"
+    },
+    {
+      "verseNumber": 156,
+      "devanagari": "तत्र श्लोकः- \nप्रश्नाः पुरुषमाश्रित्य त्रयोविंशतिरुत्तमाः| \nकतिधापुरुषीयेऽस्मिन्निर्णीतास्तत्त्वदर्शिना||१५६||",
+      "english": "To sum up :",
+      "section": "Holistic human being"
+    }
+  ],
+  "tattvaVimarsha": "An aspiring Ayurveda practitioner who has obtained thorough knowledge about diseases, and their signs and symptoms from Nidana Sthana and studied rasa prabhava and dosha prabhava in the context of dravya and vyadhi from Vimana Sthana may have built a foundation in disease management, but cannot initiate treatment until he has a thorough knowledge of the human body. Therefore, a logical continuation from the preceding sections is this section on the human physiology and anatomy especially body’s connection to the universe. As mentioned earlier, the concept of purusha is integral to understanding sharira, and therefore understanding Sharira Sthana. This chapter therefore deals with various topics related to purusha such as its types, origin, constituents, details about mind and soul, the process of knowledge, the theory of evolution and destruction, types of diseases and their causative factors, treatment of the diseases of past, present and future, desire as the ultimate cause of sorrow, the method by which an individual can get the permanent relief from pain, role of yoga in achieving salvation, and the means of salvation.\n\nThis chapter also deals with a philosophical approach to human body and mind (apparent, since the chapter deals with a complex concept like the purusha). All eastern philosophies consider the aatma (soul) as the entity that is responsible for all actions and therefore the recipient of the consequences of those actions. The ultimate reason for all kinds of pain and sufferings is that human beings do not realize or consider the body and the soul to be two distinct entities. The relationship between the soul and the mind is complex and subtle. One has to “rein in” the mind and also strive to stay detached from all the actions performed by him to liberate himself from this material world. A person who is detached from worldly possessions and actions is free from the karmic cycle of actions and consequences, and birth and death. Thus the chapter describes some of the basic physical and meta-physical aspects of the human entity.",
+  "vidhiVimarsha": "An aspiring Ayurveda practitioner who has obtained thorough knowledge about diseases, and their signs and symptoms from Nidana Sthana and studied rasa prabhava and dosha prabhava in the context of dravya and vyadhi from Vimana Sthana may have built a foundation in disease management, but cannot initiate treatment until he has a thorough knowledge of the human body. Therefore, a logical continuation from the preceding sections is this section on the human physiology and anatomy especially body’s connection to the universe. As mentioned earlier, the concept of purusha is integral to understanding sharira, and therefore understanding Sharira Sthana. This chapter therefore deals with various topics related to purusha such as its types, origin, constituents, details about mind and soul, the process of knowledge, the theory of evolution and destruction, types of diseases and their causative factors, treatment of the diseases of past, present and future, desire as the ultimate cause of sorrow, the method by which an individual can get the permanent relief from pain, role of yoga in achieving salvation, and the means of salvation.\n\nThis chapter also deals with a philosophical approach to human body and mind (apparent, since the chapter deals with a complex concept like the purusha). All eastern philosophies consider the aatma (soul) as the entity that is responsible for all actions and therefore the recipient of the consequences of those actions. The ultimate reason for all kinds of pain and sufferings is that human beings do not realize or consider the body and the soul to be two distinct entities. The relationship between the soul and the mind is complex and subtle. One has to “rein in” the mind and also strive to stay detached from all the actions performed by him to liberate himself from this material world. A person who is detached from worldly possessions and actions is free from the karmic cycle of actions and consequences, and birth and death. Thus the chapter describes some of the basic physical and meta-physical aspects of the human entity.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Katidhapurusha_Sharira_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s04.002"
+}

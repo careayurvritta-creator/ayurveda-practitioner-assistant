@@ -1,0 +1,562 @@
+{
+  "metadata": {
+    "sthana": "Sharira Sthana",
+    "sthanaNumber": 4,
+    "chapterNumber": 8,
+    "chapterTitleEnglish": "Obstetrics, Maternal Health and Neonatal Care",
+    "chapterTitleSanskrit": "Jatisutriya Sharira Adhyaya",
+    "chapterTitleDevanagari": "Jatisutriya Sharira",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": "None",
+    "translators": [],
+    "reviewer": "Patwardhan K.",
+    "editors": [
+      "Bhalerao S."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s04.009"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Jatisutriya_Sharira_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "The Sharira Sthana and Chikitsa Sthana provide valuable insights into obstretics, midwifery and gynaecology in the Vedic ages. Since Ayurveda is holistic in its treatment of various aspects of life sciences, these sections go beyond in their treatment of these branches of medicine, prescribing ground rules for effective neonatology and improved parental health. This chapter starts with certain guidelines for purification of the parents, including spiritual practices and appropriate rules for coitus, to improve the odds of giving birth to a healthy and desired offspring. For purification, therapies such as Panchakarma are advocated. A very specific - and contentious - spiritual procedure called putreshti yajna is also explained here, with an aim towards giving birth to a son (or a child of desired gender) with all excellent qualities. Next, the chapter talks of fertilization and its features, and confirmation of conception. At this stage, sound parental health is also important. Couples are advised to follow various dietary measures as well as rules to engage in physical and mental activities, etc. The subsequent part of the chapter deals with obstetrics and midwifery –detailing the development of the embryo to fetus and the milestones of intrauterine growth and development are explained. Certain sections of this chapter are controversial and could attract legal attention today, such as the practice of pumsavana (ways to get the offspring of a desired gender). Also, with our current understanding of genetics, it is not possible to change the gender after fertilization. The role of learned brahmins, vaidya and experienced old ladies in midwifery is given a lot of importance in this chapter. Toys and playtime are essential for normal growth and development of a child, and the final section of this chapter describes the ideal characteristics of toys, play area, clothes and the child nursery. Summarizing the eighth chapter, it deals with Obstetrics and Neonatology while also touching upon parental health and early child care, introducing certain concepts that are now considered modern best practices in the field,",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Abstinence from coitus during menstruation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Postures and circumstances to be avoided for coitus",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Preparations before coitus",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mantra before the sexual act",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Daily rituals to be followed a week before coitus by a woman desirous of a healthy male child",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rituals at the end of the week",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Additional rituals before cohabiting",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rituals for those belonging to the \"shudra\" lineage",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Advice for the mother desiring certain traits in her offspring",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Role of mahabhutas in contributing to the complexion of the offspring",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors determining the psychological disposition of the progeny",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors for healthy progeny",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Measures for the preservation of the embryo",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors that could damage or destroy the embryo",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treating pregnant women afflicted with ailments",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Occurrences of bleeding during pregnancy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific Therapeutic courses for the management of Intrauterine Growth Retardation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Constipation during third trimester",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of intra-uterine death",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of intra-uterine death",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Monthly regimen to be adopted during normal pregnancy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Infra structure of maternity home",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Requirements in the maternity home",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rituals for the expecting woman before entering the maternity home",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitory signs and symptoms of labor",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Commencement of aavee (labor)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Issues with delivery despite labor pains",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mantra to be recited when labor pain increases",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Procedure to remove placenta post-delivery",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Procedure for cleaning the baby after birth",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Measuring the umbilical cord",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complications arising due to improper cutting of the umbilical cord",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Birth-rites per Vedic rituals",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Measures to protect the newborn",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Post-partum care of the mother",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Assessment of life-span of the baby",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Qualities of the wet-nurse attending the newborn",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Qualities of an ideal breast",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Qualities of the ideal breastmilk",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Lactation-stimulants (or galactogogues)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Procedure to be followed by the wet-nurse in order to feed the baby",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Procedure of construction of nursery",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Measures for ensuring the child's well-being",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ritukala – Ideal period in menstrual cycle for conception",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Selection of Suitable partner for conception",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ambiance for coitus",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effect of chanting mantras",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Do’s and Dont’s before coitus",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Preparation for putreshthi yajna and its benefits",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Regimens and factors affecting desired progeny",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of karma of the progeny’s prior birth",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors for healthy progeny",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Maintenance of products of conception",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors causing harm to the embryo",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Precaution for the treatment of disorders in pregnant females",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Disorders of the fetus and its treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Monthly regimen during pregnancy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of Labor",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Care of the Newborn",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Samskara After birth",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prescribed post-partum measures for women",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Naming Ceremony",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Examination of Newborn",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Designing and care of the child’s room",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Toys for children",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "The upbringing of the child",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related articles",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "The Sharira Sthana and Chikitsa Sthana provide valuable insights into obstretics, midwifery and gynaecology in the Vedic ages. Since Ayurveda is holistic in its treatment of various aspects of life sciences, these sections go beyond in their treatment of these branches of medicine, prescribing ground rules for effective neonatology and improved parental health. This chapter starts with certain guidelines for purification of the parents, including spiritual practices and appropriate rules for coitus, to improve the odds of giving birth to a healthy and desired offspring. For purification, therapies such as Panchakarma are advocated. A very specific - and contentious - spiritual procedure called putreshti yajna is also explained here, with an aim towards giving birth to a son (or a child of desired gender) with all excellent qualities. Next, the chapter talks of fertilization and its features, and confirmation of conception. At this stage, sound parental health is also important. Couples are advised to follow various dietary measures as well as rules to engage in physical and mental activities, etc. The subsequent part of the chapter deals with obstetrics and midwifery –detailing the development of the embryo to fetus and the milestones of intrauterine growth and development are explained. Certain sections of this chapter are controversial and could attract legal attention today, such as the practice of pumsavana (ways to get the offspring of a desired gender). Also, with our current understanding of genetics, it is not possible to change the gender after fertilization. The role of learned brahmins, vaidya and experienced old ladies in midwifery is given a lot of importance in this chapter. Toys and playtime are essential for normal growth and development of a child, and the final section of this chapter describes the ideal characteristics of toys, play area, clothes and the child nursery. Summarizing the eighth chapter, it deals with Obstetrics and Neonatology while also touching upon parental health and early child care, introducing certain concepts that are now considered modern best practices in the field,",
+  "vidhiVimarsha": "The Sharira Sthana and Chikitsa Sthana provide valuable insights into obstretics, midwifery and gynaecology in the Vedic ages. Since Ayurveda is holistic in its treatment of various aspects of life sciences, these sections go beyond in their treatment of these branches of medicine, prescribing ground rules for effective neonatology and improved parental health. This chapter starts with certain guidelines for purification of the parents, including spiritual practices and appropriate rules for coitus, to improve the odds of giving birth to a healthy and desired offspring. For purification, therapies such as Panchakarma are advocated. A very specific - and contentious - spiritual procedure called putreshti yajna is also explained here, with an aim towards giving birth to a son (or a child of desired gender) with all excellent qualities. Next, the chapter talks of fertilization and its features, and confirmation of conception. At this stage, sound parental health is also important. Couples are advised to follow various dietary measures as well as rules to engage in physical and mental activities, etc. The subsequent part of the chapter deals with obstetrics and midwifery –detailing the development of the embryo to fetus and the milestones of intrauterine growth and development are explained. Certain sections of this chapter are controversial and could attract legal attention today, such as the practice of pumsavana (ways to get the offspring of a desired gender). Also, with our current understanding of genetics, it is not possible to change the gender after fertilization. The role of learned brahmins, vaidya and experienced old ladies in midwifery is given a lot of importance in this chapter. Toys and playtime are essential for normal growth and development of a child, and the final section of this chapter describes the ideal characteristics of toys, play area, clothes and the child nursery. Summarizing the eighth chapter, it deals with Obstetrics and Neonatology while also touching upon parental health and early child care, introducing certain concepts that are now considered modern best practices in the field,",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Abstinence from coitus during menstruation",
+    "2.2 Postures and circumstances to be avoided for coitus",
+    "2.3 Preparations before coitus",
+    "2.4 Mantra before the sexual act",
+    "2.5 Daily rituals to be followed a week before coitus by a woman desirous of a healthy male child",
+    "2.6 Rituals at the end of the week",
+    "2.7 Additional rituals before cohabiting",
+    "2.8 Rituals for those belonging to the \"shudra\" lineage",
+    "2.9 Advice for the mother desiring certain traits in her offspring",
+    "2.10 Role of mahabhutas in contributing to the complexion of the offspring",
+    "2.11 Factors determining the psychological disposition of the progeny",
+    "2.12 Factors for healthy progeny",
+    "2.13 Measures for the preservation of the embryo",
+    "2.14 Factors that could damage or destroy the embryo",
+    "2.15 Treating pregnant women afflicted with ailments",
+    "2.16 Occurrences of bleeding during pregnancy",
+    "2.17 Specific Therapeutic courses for the management of Intrauterine Growth Retardation",
+    "2.18 Constipation during third trimester",
+    "2.19 Symptoms of intra-uterine death",
+    "2.20 Treatment of intra-uterine death",
+    "2.21 Monthly regimen to be adopted during normal pregnancy",
+    "2.22 Infra structure of maternity home",
+    "2.23 Requirements in the maternity home",
+    "2.24 Rituals for the expecting woman before entering the maternity home",
+    "2.25 Premonitory signs and symptoms of labor",
+    "2.26 Commencement of aavee (labor)",
+    "2.27 Issues with delivery despite labor pains",
+    "2.28 Mantra to be recited when labor pain increases",
+    "2.29 Procedure to remove placenta post-delivery",
+    "2.30 Procedure for cleaning the baby after birth",
+    "2.31 Measuring the umbilical cord",
+    "2.32 Complications arising due to improper cutting of the umbilical cord",
+    "2.33 Birth-rites per Vedic rituals",
+    "2.34 Measures to protect the newborn",
+    "2.35 Post-partum care of the mother",
+    "2.36 Assessment of life-span of the baby",
+    "2.37 Qualities of the wet-nurse attending the newborn",
+    "2.38 Qualities of an ideal breast",
+    "2.39 Qualities of the ideal breastmilk",
+    "2.40 Lactation-stimulants (or galactogogues)",
+    "2.41 Procedure to be followed by the wet-nurse in order to feed the baby",
+    "2.42 Procedure of construction of nursery",
+    "2.43 Measures for ensuring the child's well-being",
+    "2.44 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences) 4.1 Ritukala – Ideal period in menstrual cycle for conception",
+    "4.2 Selection of Suitable partner for conception",
+    "4.3 Ambiance for coitus",
+    "4.4 Effect of chanting mantras",
+    "4.5 Do’s and Dont’s before coitus",
+    "4.6 Preparation for putreshthi yajna and its benefits",
+    "4.7 Regimens and factors affecting desired progeny",
+    "4.8 Effects of karma of the progeny’s prior birth",
+    "4.9 Factors for healthy progeny",
+    "4.10 Maintenance of products of conception",
+    "4.11 Factors causing harm to the embryo",
+    "4.12 Precaution for the treatment of disorders in pregnant females",
+    "4.13 Disorders of the fetus and its treatment 4.13.1 Factors responsible for abortion and its treatment",
+    "4.13.2 Growth retardation of fetus and its treatment",
+    "4.13.3 Garbhini Udavarta and its management",
+    "4.13.4 Mrita garbha (intrauterine death) and its management",
+    "4.14 Monthly regimen during pregnancy",
+    "4.15 Management of Labor",
+    "4.16 Care of the Newborn",
+    "4.17 Samskara After birth",
+    "4.18 Prescribed post-partum measures for women",
+    "4.19 Naming Ceremony",
+    "4.20 Examination of Newborn",
+    "4.21 Designing and care of the child’s room",
+    "4.22 Toys for children",
+    "4.23 The upbringing of the child",
+    "5 Related articles",
+    "6 References"
+  ]
+}

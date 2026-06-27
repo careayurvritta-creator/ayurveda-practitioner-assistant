@@ -1,0 +1,717 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 3,
+    "chapterTitleEnglish": "Management of Jwara",
+    "chapterTitleSanskrit": "Jwara Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Jwara Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Chandola H.M.",
+    "editors": [
+      "Baghel M.S."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.004"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Jwara_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "The first two chapters of Chikitsa Sthana describe rasayana and vajikarana to serve the first purpose of preservation, promotion, and rejuvenation of health. The second purpose – the treatment of disease - is dealt in subsequent chapters of this sthana. Jwara Chikitsa has been dealt first because Ayurveda holds that jwara is not merely the increase in body temperature (fever) but also a feeling of malaise, unease and discomfort, and involves the deha, indriya,and mana (physical body, sensory organs, and mind). While the balanced state of vata, pitta, and kapha manifest health by rhythmic circulation of fluids, digestion, metabolism, and nutrition respectively, their imbalance manifest as pain, increase in body heat, and inflammations. Jwara is an imbalanced state of pitta, which damages the physiology of digestion and metabolism. Inappropriately digested food transforms into a substance called amavisha which is a predisposing cause of many diseases. The initial manifestation of stagnated amavisha in rasa dhatu (plasma) is jwara. Thus, jwara is an important indication for the circulating amavisha and requires early treatment before its progression. This chapter of Jwara Chikitsa establishes many guiding principles for treatment of various diseases described later in this section. These are classification, types, association with body tissues, and identification of progression, precautions and specific order of treatment. Causes and symptoms of recurrence and their remedies are widely described in this chapter.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Queries of Agnivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Synonyms of jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prakriti or nature of jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pravritti (origin of the disease)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prabhava, the sequels of the disease",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitory symptoms of jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sites of jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cardinal feature",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of somatic and psychic jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Desires of patient to diagnose dosha dominance",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Attenuating nature of vata dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features of internal and external jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prakrita jwara(seasonal jwara)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis of jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Five types of jwara as per frequency",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cause of alterations in jwara episodes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dhatugata jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of jwara due to combination of two dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sannipataja jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis of sannipata jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification of agantuja jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Abhighataja jwara (due to injury or trauma)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Abhishangaja, abhishapaja and abhicharaja jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General patho-physiology of jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cause of lack of sweating",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of Ama Jwara (first stage of jwara)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of pachyamana jwara (second stage of jwara)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of nirama jwara (third stage of jwara)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Precaution at initial stage of jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indications of langhana (fasting)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Benefits of langhana (fasting) in jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management principle of jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various drinks for management of thirst",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shadanga paniya",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indication of vamana (therapeutic emesis)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hazards of improper vamana (therapeutic emesis)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Post vamana protocol",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indications of yavagu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for diet, mouth cleansing and tooth brush",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indications of kashaya (astringents)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Yusha (soup) indications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications and contra-indications of ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indication of milk",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indication of virechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of niruha (enema with decoction)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indication of anuvasana (unctuous enema)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of murdha-virechana (nasal errhines)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various external procedures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various dietary articles used in treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ten types of yavagu (gruel) in jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of soup",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of vegetables",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indication of animal meat soups",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Anupana(beverages)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indications in jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Decoctions indicated in jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kashaya in vishama jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Formulations used in sannipata jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Advantage of ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various medicated ghee formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Formulations used in purification therapies",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Formulations with medicated milk",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Medicated enemas",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of shiro-virechana (nasal errhines)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External applications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chandanadya taila",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for a patient with burning sensation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Agurvadya tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of fomentation for alleviating cold",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indications of langhana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for improving agni (digestive strength)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for management in sannipata conditions",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of karnamulika shotha (inflammatoion near the root of the ears)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of blood letting",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indication of consumption of ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of jeerna jwara (chronic stage)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of dosha dominance in vishamajwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines and various formulations in vishama jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Spiritual therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of jwara located in various dhatu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of abhicharaja and abhishangaja jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of abhighataja jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of agantuja jwara due to mental factors",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of remission of jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of completely cured jwara patient",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Precautions after being cured from jwara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Punaravarti jwara (recurrent jwara)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related Chapters",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "The first two chapters of Chikitsa Sthana describe rasayana and vajikarana to serve the first purpose of preservation, promotion, and rejuvenation of health. The second purpose – the treatment of disease - is dealt in subsequent chapters of this sthana. Jwara Chikitsa has been dealt first because Ayurveda holds that jwara is not merely the increase in body temperature (fever) but also a feeling of malaise, unease and discomfort, and involves the deha, indriya,and mana (physical body, sensory organs, and mind). While the balanced state of vata, pitta, and kapha manifest health by rhythmic circulation of fluids, digestion, metabolism, and nutrition respectively, their imbalance manifest as pain, increase in body heat, and inflammations. Jwara is an imbalanced state of pitta, which damages the physiology of digestion and metabolism. Inappropriately digested food transforms into a substance called amavisha which is a predisposing cause of many diseases. The initial manifestation of stagnated amavisha in rasa dhatu (plasma) is jwara. Thus, jwara is an important indication for the circulating amavisha and requires early treatment before its progression. This chapter of Jwara Chikitsa establishes many guiding principles for treatment of various diseases described later in this section. These are classification, types, association with body tissues, and identification of progression, precautions and specific order of treatment. Causes and symptoms of recurrence and their remedies are widely described in this chapter.",
+  "vidhiVimarsha": "The first two chapters of Chikitsa Sthana describe rasayana and vajikarana to serve the first purpose of preservation, promotion, and rejuvenation of health. The second purpose – the treatment of disease - is dealt in subsequent chapters of this sthana. Jwara Chikitsa has been dealt first because Ayurveda holds that jwara is not merely the increase in body temperature (fever) but also a feeling of malaise, unease and discomfort, and involves the deha, indriya,and mana (physical body, sensory organs, and mind). While the balanced state of vata, pitta, and kapha manifest health by rhythmic circulation of fluids, digestion, metabolism, and nutrition respectively, their imbalance manifest as pain, increase in body heat, and inflammations. Jwara is an imbalanced state of pitta, which damages the physiology of digestion and metabolism. Inappropriately digested food transforms into a substance called amavisha which is a predisposing cause of many diseases. The initial manifestation of stagnated amavisha in rasa dhatu (plasma) is jwara. Thus, jwara is an important indication for the circulating amavisha and requires early treatment before its progression. This chapter of Jwara Chikitsa establishes many guiding principles for treatment of various diseases described later in this section. These are classification, types, association with body tissues, and identification of progression, precautions and specific order of treatment. Causes and symptoms of recurrence and their remedies are widely described in this chapter.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Queries of Agnivesha",
+    "2.2 Synonyms of jwara",
+    "2.3 Prakriti or nature of jwara",
+    "2.4 Pravritti (origin of the disease)",
+    "2.5 Prabhava, the sequels of the disease",
+    "2.6 Premonitory symptoms of jwara",
+    "2.7 Sites of jwara",
+    "2.8 Cardinal feature",
+    "2.9 Classification",
+    "2.10 Clinical features of somatic and psychic jwara",
+    "2.11 Desires of patient to diagnose dosha dominance",
+    "2.12 Attenuating nature of vata dosha",
+    "2.13 Features of internal and external jwara",
+    "2.14 Prakrita jwara(seasonal jwara) 2.14.1 Vaikrita jwara",
+    "2.15 Prognosis of jwara 2.15.1 Sadhya (curable) jwara",
+    "2.15.2 Asadhya (incurable) jwara",
+    "2.16 Five types of jwara as per frequency 2.16.1 Santata jwara",
+    "2.16.2 Satata jwara",
+    "2.16.3 Anyedyushka jwara",
+    "2.16.4 Tritiyaka and chaturthaka jwara",
+    "2.17 Cause of alterations in jwara episodes",
+    "2.18 Dhatugata jwara",
+    "2.19 Clinical features of jwara due to combination of two dosha",
+    "2.20 Sannipataja jwara",
+    "2.21 Prognosis of sannipata jwara",
+    "2.22 Classification of agantuja jwara",
+    "2.23 Abhighataja jwara (due to injury or trauma)",
+    "2.24 Abhishangaja, abhishapaja and abhicharaja jwara",
+    "2.25 General patho-physiology of jwara",
+    "2.26 Cause of lack of sweating",
+    "2.27 Clinical features of Ama Jwara (first stage of jwara)",
+    "2.28 Clinical features of pachyamana jwara (second stage of jwara)",
+    "2.29 Clinical features of nirama jwara (third stage of jwara)",
+    "2.30 Precaution at initial stage of jwara",
+    "2.31 Contra-indications of langhana (fasting)",
+    "2.32 Benefits of langhana (fasting) in jwara",
+    "2.33 Management principle of jwara",
+    "2.34 Various drinks for management of thirst",
+    "2.35 Shadanga paniya",
+    "2.36 Indication of vamana (therapeutic emesis)",
+    "2.37 Hazards of improper vamana (therapeutic emesis)",
+    "2.38 Post vamana protocol",
+    "2.39 Contra-indications of yavagu",
+    "2.40 Guidelines for diet, mouth cleansing and tooth brush",
+    "2.41 Contra-indications of kashaya (astringents)",
+    "2.42 Yusha (soup) indications",
+    "2.43 Indications and contra-indications of ghrita",
+    "2.44 Indication of milk",
+    "2.45 Indication of virechana",
+    "2.46 Indications of niruha (enema with decoction)",
+    "2.47 Indication of anuvasana (unctuous enema)",
+    "2.48 Indications of murdha-virechana (nasal errhines)",
+    "2.49 Various external procedures",
+    "2.50 Various dietary articles used in treatment",
+    "2.51 Ten types of yavagu (gruel) in jwara",
+    "2.52 Indications of soup",
+    "2.53 Indications of vegetables",
+    "2.54 Indication of animal meat soups",
+    "2.55 Anupana(beverages)",
+    "2.56 Contra-indications in jwara",
+    "2.57 Decoctions indicated in jwara",
+    "2.58 Kashaya in vishama jwara",
+    "2.59 Formulations used in sannipata jwara",
+    "2.60 Advantage of ghee",
+    "2.61 Various medicated ghee formulations",
+    "2.62 Formulations used in purification therapies",
+    "2.63 Formulations with medicated milk",
+    "2.64 Medicated enemas",
+    "2.65 Indications of shiro-virechana (nasal errhines)",
+    "2.66 External applications",
+    "2.67 Chandanadya taila",
+    "2.68 Guidelines for a patient with burning sensation",
+    "2.69 Agurvadya tailam",
+    "2.70 Indications of fomentation for alleviating cold",
+    "2.71 Contra-indications of langhana",
+    "2.72 Guidelines for improving agni (digestive strength)",
+    "2.73 Guidelines for management in sannipata conditions",
+    "2.74 Management of karnamulika shotha (inflammatoion near the root of the ears)",
+    "2.75 Indications of blood letting",
+    "2.76 Indication of consumption of ghee",
+    "2.77 Management of jeerna jwara (chronic stage)",
+    "2.78 Management of dosha dominance in vishamajwara",
+    "2.79 Guidelines and various formulations in vishama jwara",
+    "2.80 Spiritual therapy",
+    "2.81 Management of jwara located in various dhatu",
+    "2.82 Management of abhicharaja and abhishangaja jwara",
+    "2.83 Management of abhighataja jwara",
+    "2.84 Management of agantuja jwara due to mental factors",
+    "2.85 Signs of remission of jwara",
+    "2.86 Signs of completely cured jwara patient",
+    "2.87 Precautions after being cured from jwara",
+    "2.88 Punaravarti jwara (recurrent jwara)",
+    "2.89 Guidelines for management",
+    "2.90 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences) 4.1 Related Chapters"
+  ]
+}

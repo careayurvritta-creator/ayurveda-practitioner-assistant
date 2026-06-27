@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 25,
+    "chapterTitleEnglish": "Management of two types of Vrana",
+    "chapterTitleSanskrit": "Dwivraniya Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Dwivraniya Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Dudhamal T.S.",
+    "editors": [
+      "Dudhamal T.S."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.026"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Dwivraniya_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "The term vrana literally means destruction or rupture or discontinuation of body tissues. This chapter gives comprehensive information about endogenous and exogenous ulcers. Trividha pariksha or three different ways of examination of ulcer is done by darshana (inspection), prashna (interrogation) and sparshana (palpation). Inspection i.e. visual examination deals with general examination (whole body) and local examination (specific part or organ) to make proper diagnosis. The etiological factors, nature of pain, ability to get used to food (satmya/asatmya), drugs, status of digestive power etc are examined by interrogation. Palpation is the mode of direct examination done by palpating the margin, size, depth, temperature, stiffness or hardness etc. Prognosis of ulcer is determined by its location eg. skin (tvaka), blood vessels (shira), muscle tissue (mamsa dhatu), fatty tissue (meda dhatu), bone (asthi dhatu), ligament (snayu), vital organs (marma)&#91;1&#93;,visceras of chest and abdomen (antarashraya)&#91;2&#93; [ Cha. Sa. Sharira Sthana 7/10 ] Various complications of ulcers like visarpa (erysipelas), pakshaghata (hemiplegia), shirastambha (constricted vessels), jwara (fever) etc. are described. Sloughing of ligaments and vessels, deep seated appearance of maggots, fracture of bone near the ulcer, presence of foreign body in the ulcer etc hamper the healing process. Treatment of nija vrana (endogenous ulcer)&#91;3&#93; is different from agantuja vrana (exogenous ulcer) because endogenous ulcers are caused by vitiation of vatadi doshaja, and exogenous ulcers are initially caused by various type of trauma such as vadha (stab injury etc.), bandha (excessive tying), prapatana (injury due to fall), injury due to teeth and nail etc. But later on in exogenous ulcers also involvement of dosha takes place and then treatment should be adopted as nija vrana (endogenous ulcer). In endogenous ulcers, shodhana therapy should be adopted by vamana (emesis), virechana (purgation) and basti (medicated enema) and blood letting for removal of doshaja (toxic materials) from body. [ Cha. Sa. Sutra Sthana 16/17 ] and agnikarma. Agnikarma has ushna guna (hot property) which is opposite to vata and kapha. Due to heat, vasodilation leads to alleviation of srotorodha resulting in proper vascularity to organ or part. In exogenous ulcers, local treatment with use of kshara (alkaline substances), surgical intervention and cauterization is recommended.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Query by Agnivesha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification and etiology of vrana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of dosha dominance in treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Endogenous ulcers",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dosha dominant vrana and their treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Twenty types of ulcers",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Three fold examination",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Twelve types of ulcers",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sites of vitiation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific odors of vrana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Fourteen types of discharges and sixteen complications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causes of non-healing ulcers",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Factors affecting prognosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principles of management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Procedures for management of ulcers",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Guidelines for management of ulcers",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Patana (incision) and upanaha (poultice)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Six types of surgical procedures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications of various surgical procedures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vrana pidana(pressing of wound)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various treatment modalities for pacification of ulcer",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of bone fracture and dislocation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of various conditions of vrana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Eshana (Probing)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vrana shodhana (local purification of ulcers)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ropana (healing) of ulcer",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Patta bandhana (bandage)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contraindications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Suitable food and medicines",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications and contraindications of agni karma (cauterization)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kshara karma (application of alkali) and dhupana(fumigation)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External applications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification of ulcers and causes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Samprapti (pathogenesis of vrana): based on shadakriya kala",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical pictures of vrana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Investigations and their clinical interpretation in brief",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of vrana (ulcers)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications and process of six fold surgical procedures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Bandaging material, methods and its applicability in vrana (wound)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diet: Wholesome and unwholesome aahar-vihar and ulcer healing promoters",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications and contraindications of agnikarma (cauterization) in various disorders",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of dhupana karma (fumigation therapy) in wound sterilization healing process",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Potential areas /Scope for research",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shodhana (Cleansing) formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Remedies for post healing complications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "The term vrana literally means destruction or rupture or discontinuation of body tissues. This chapter gives comprehensive information about endogenous and exogenous ulcers. Trividha pariksha or three different ways of examination of ulcer is done by darshana (inspection), prashna (interrogation) and sparshana (palpation). Inspection i.e. visual examination deals with general examination (whole body) and local examination (specific part or organ) to make proper diagnosis. The etiological factors, nature of pain, ability to get used to food (satmya/asatmya), drugs, status of digestive power etc are examined by interrogation. Palpation is the mode of direct examination done by palpating the margin, size, depth, temperature, stiffness or hardness etc. Prognosis of ulcer is determined by its location eg. skin (tvaka), blood vessels (shira), muscle tissue (mamsa dhatu), fatty tissue (meda dhatu), bone (asthi dhatu), ligament (snayu), vital organs (marma)&#91;1&#93;,visceras of chest and abdomen (antarashraya)&#91;2&#93; [ Cha. Sa. Sharira Sthana 7/10 ] Various complications of ulcers like visarpa (erysipelas), pakshaghata (hemiplegia), shirastambha (constricted vessels), jwara (fever) etc. are described. Sloughing of ligaments and vessels, deep seated appearance of maggots, fracture of bone near the ulcer, presence of foreign body in the ulcer etc hamper the healing process. Treatment of nija vrana (endogenous ulcer)&#91;3&#93; is different from agantuja vrana (exogenous ulcer) because endogenous ulcers are caused by vitiation of vatadi doshaja, and exogenous ulcers are initially caused by various type of trauma such as vadha (stab injury etc.), bandha (excessive tying), prapatana (injury due to fall), injury due to teeth and nail etc. But later on in exogenous ulcers also involvement of dosha takes place and then treatment should be adopted as nija vrana (endogenous ulcer). In endogenous ulcers, shodhana therapy should be adopted by vamana (emesis), virechana (purgation) and basti (medicated enema) and blood letting for removal of doshaja (toxic materials) from body. [ Cha. Sa. Sutra Sthana 16/17 ] and agnikarma. Agnikarma has ushna guna (hot property) which is opposite to vata and kapha. Due to heat, vasodilation leads to alleviation of srotorodha resulting in proper vascularity to organ or part. In exogenous ulcers, local treatment with use of kshara (alkaline substances), surgical intervention and cauterization is recommended.",
+  "vidhiVimarsha": "The term vrana literally means destruction or rupture or discontinuation of body tissues. This chapter gives comprehensive information about endogenous and exogenous ulcers. Trividha pariksha or three different ways of examination of ulcer is done by darshana (inspection), prashna (interrogation) and sparshana (palpation). Inspection i.e. visual examination deals with general examination (whole body) and local examination (specific part or organ) to make proper diagnosis. The etiological factors, nature of pain, ability to get used to food (satmya/asatmya), drugs, status of digestive power etc are examined by interrogation. Palpation is the mode of direct examination done by palpating the margin, size, depth, temperature, stiffness or hardness etc. Prognosis of ulcer is determined by its location eg. skin (tvaka), blood vessels (shira), muscle tissue (mamsa dhatu), fatty tissue (meda dhatu), bone (asthi dhatu), ligament (snayu), vital organs (marma)&#91;1&#93;,visceras of chest and abdomen (antarashraya)&#91;2&#93; [ Cha. Sa. Sharira Sthana 7/10 ] Various complications of ulcers like visarpa (erysipelas), pakshaghata (hemiplegia), shirastambha (constricted vessels), jwara (fever) etc. are described. Sloughing of ligaments and vessels, deep seated appearance of maggots, fracture of bone near the ulcer, presence of foreign body in the ulcer etc hamper the healing process. Treatment of nija vrana (endogenous ulcer)&#91;3&#93; is different from agantuja vrana (exogenous ulcer) because endogenous ulcers are caused by vitiation of vatadi doshaja, and exogenous ulcers are initially caused by various type of trauma such as vadha (stab injury etc.), bandha (excessive tying), prapatana (injury due to fall), injury due to teeth and nail etc. But later on in exogenous ulcers also involvement of dosha takes place and then treatment should be adopted as nija vrana (endogenous ulcer). In endogenous ulcers, shodhana therapy should be adopted by vamana (emesis), virechana (purgation) and basti (medicated enema) and blood letting for removal of doshaja (toxic materials) from body. [ Cha. Sa. Sutra Sthana 16/17 ] and agnikarma. Agnikarma has ushna guna (hot property) which is opposite to vata and kapha. Due to heat, vasodilation leads to alleviation of srotorodha resulting in proper vascularity to organ or part. In exogenous ulcers, local treatment with use of kshara (alkaline substances), surgical intervention and cauterization is recommended.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 Query by Agnivesha",
+    "2.2 Classification and etiology of vrana",
+    "2.3 Importance of dosha dominance in treatment",
+    "2.4 Endogenous ulcers",
+    "2.5 Dosha dominant vrana and their treatment 2.5.1 Vata dominant vrana and treatment",
+    "2.5.2 Pitta dominant vrana and treatment",
+    "2.5.3 Kapha dominant vrana and treatment",
+    "2.6 Twenty types of ulcers",
+    "2.7 Three fold examination",
+    "2.8 Twelve types of ulcers",
+    "2.9 Sites of vitiation",
+    "2.10 Specific odors of vrana",
+    "2.11 Fourteen types of discharges and sixteen complications",
+    "2.12 Causes of non-healing ulcers",
+    "2.13 Factors affecting prognosis",
+    "2.14 Principles of management",
+    "2.15 Procedures for management of ulcers",
+    "2.16 Guidelines for management of ulcers",
+    "2.17 Patana (incision) and upanaha (poultice)",
+    "2.18 Six types of surgical procedures",
+    "2.19 Indications of various surgical procedures",
+    "2.20 Vrana pidana(pressing of wound)",
+    "2.21 Various treatment modalities for pacification of ulcer",
+    "2.22 Management of bone fracture and dislocation",
+    "2.23 Management of various conditions of vrana",
+    "2.24 Eshana (Probing)",
+    "2.25 Vrana shodhana (local purification of ulcers)",
+    "2.26 Ropana (healing) of ulcer",
+    "2.27 Patta bandhana (bandage)",
+    "2.28 Contraindications",
+    "2.29 Suitable food and medicines",
+    "2.30 Indications and contraindications of agni karma (cauterization)",
+    "2.31 Kshara karma (application of alkali) and dhupana(fumigation)",
+    "2.32 External applications",
+    "2.33 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Classification of ulcers and causes",
+    "4.2 Samprapti (pathogenesis of vrana): based on shadakriya kala",
+    "4.3 Clinical pictures of vrana",
+    "4.4 Investigations and their clinical interpretation in brief 4.4.1 Complications of ulcer",
+    "4.4.2 Causes of non-healing",
+    "4.5 Treatment of vrana (ulcers) 4.5.1 Purification measures",
+    "4.5.2 Thirty six treatment measures",
+    "4.6 Indications and process of six fold surgical procedures 4.6.1 Pidana (Compression)",
+    "4.6.2 Management of fracture and dislocation",
+    "4.6.3 Eshanakarma (probing)",
+    "4.6.4 Vrana shodhana (cleaning of ulcer)",
+    "4.7 Bandaging material, methods and its applicability in vrana (wound)",
+    "4.8 Diet: Wholesome and unwholesome aahar-vihar and ulcer healing promoters",
+    "4.9 Indications and contraindications of agnikarma (cauterization) in various disorders",
+    "4.10 Importance of dhupana karma (fumigation therapy) in wound sterilization healing process",
+    "4.11 Potential areas /Scope for research",
+    "4.12 Shodhana (Cleansing) formulations",
+    "4.13 Remedies for post healing complications",
+    "5 References"
+  ]
+}

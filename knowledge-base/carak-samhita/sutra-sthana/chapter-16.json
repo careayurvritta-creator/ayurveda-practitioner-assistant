@@ -1,0 +1,131 @@
+{
+  "sthana": "Sutra Sthana",
+  "sthanaNumber": 1,
+  "chapterNumber": 16,
+  "titleEnglish": "Assessment in Panchakarma",
+  "titleSanskrit": "Chikitsaprabhritiya Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातश्चिकित्साप्राभृतीयमध्यायं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||",
+      "english": "Now we shall expound the chapter \"Chikitsaprabhritiya\" (Assessment and care in Panchakarma therapies).” Thus said Lord Atreya.[1-2]",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "चिकित्साप्राभृतो धीमान् शास्त्रवान् कर्मतत्परः| \nनरं विरेचयति यं स योगात् सुखमश्नुते||३|| यं वैद्यमानी त्वबुधो विरेचयति मानवम्| \nसोऽतियोगादयोगाच्च मानवो दुःखमश्नुते||४||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "दौर्बल्यं लाघवं ग्लानिर्व्याधीनामणुता रुचिः| \nहृद्वर्णशुद्धिः क्षुत्तृष्णा काले वेगप्रवर्तनम्||५|| बुद्धीन्द्रियमनःशुद्धिर्मारुतस्यानुलोमता| \nसम्यग्विरिक्तलिङ्गानि कायाग्नेश्चानुवर्तनम्  ||६||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 7,
+      "devanagari": "ष्ठीवनं हृदयाशुद्धिरुत्क्लेशः श्लेष्मपित्तयोः| \nआध्मानमरुचिश्छर्दिरदौर्बल्यमलाघवम्||७|| जङ्घोरुसदनं तन्द्रा स्तैमित्यं पीनसागमः| \nलक्षणान्यविरिक्तानां मारुतस्य च निग्रहः||८||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "विट्पित्तकफवातानामागतानां यथाक्रमम्| \nपरं स्रवति यद्रक्तं मेदोमांसोदकोपमम्||९|| निःश्लेष्मपित्तमुदकं शोणितं कृष्णमेव वा| \nतृष्यतो मारुतार्तस्य सोऽतियोगः प्रमुह्यतः||१०||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 11,
+      "devanagari": "वमनेऽतिकृते लिङ्गान्येतान्येव भवन्ति हि| \nऊर्ध्वगा वातरोगाश्च वाग्ग्रहश्चाधिको भवेत्||११|| चिकित्साप्राभृतं तस्मादुपेयाच्छरणं नरः| \nयुञ्ज्याद् य एनमत्यन्तमायुषा च सुखेन च||१२||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 13,
+      "devanagari": "अविपाकोऽरुचिः स्थौल्यं पाण्डुता गौरवं क्लमः| \nपिडकाकोठकण्डूनां सम्भवोऽरतिरेव च||१३|| आलस्यश्रमदौर्बल्यं दौर्गन्ध्यमवसादकः| \nश्लेष्मपित्तसमुत्क्लेशो निद्रानाशोऽतिनिद्रता||१४|| तन्द्रा क्लैब्यमबुद्धित्वमशस्तस्वप्नदर्शनम्| \nबलवर्णप्रणाशश्च तृप्यतो बृंहणैरपि||१५|| बहुदोषस्य लिङ्गानि तस्मै संशोधनं हितम्| \nऊर्ध्वं चैवानुलोमं च यथादोषं यथाबलम्||१६||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "एवं विशुद्धकोष्ठस्य कायाग्निरभिवर्धते| \nव्याधयश्चोपशाम्यन्ति प्रकृतिश्चानुवर्तते||१७|| इन्द्रियाणि मनोबुद्धिर्वर्णश्चास्य प्रसीदति| \nबलं पुष्टिरपत्यं च वृषता चास्य जायते||१८|| जरां कृच्छ्रेण लभते चिरं जीवत्यनामयः| \nतस्मात् संशोधनं काले युक्तियुक्तं पिबेन्नरः||१९||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "दोषाः कदाचित् कुप्यन्ति जिता लङ्घनपाचनैः| \nजिताः संशोधनैर्ये तु न तेषां पुनरुद्भवः||२०|| दोषाणां च द्रुमाणां च मूलेऽनुपहते सति| \nरोगाणां प्रसवानां च गतानामागतिर्ध्रुवा||२१||",
+      "english": "Morbid dosha relieved by fasting and digestive drugs may sometimes get aggravated again, but those that are evacuated by purification therapies do not recur. Dosha, like plants, if not uprooted completely, would recur or relapse almost certainly. [20-21]",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "भेषजक्षपिते पथ्यमाहारैरेव बृंहणम्| \nघृतमांसरसक्षीरहृद्ययूषोपसंहितैः||२२|| अभ्यङ्गोत्सादनैः स्नानैर्निरूहैः सानुवासनैः| \nतथा स लभते शर्म युज्यते चायुषा चिरम्||२३||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 24,
+      "devanagari": "अतियोगानुबद्धानां सर्पिःपानं प्रशस्यते| \nतैलं मधुरकैः सिद्धमथवाऽप्यनुवासनम्||२४|| यस्य त्वयोगस्तं स्निग्धं पुनः संशोधयेन्नरम्| \nमात्राकालबलापेक्षी स्मरन् पूर्वमनुक्रमम्||२५|| स्नेहने स्वेदने शुद्धौ रोगाः संसर्जने च ये| \nजायन्तेऽमार्गविहिते तेषां सिद्धिषु साधनम्||२६||",
+      "english": "For those suffering from symptoms of excessive administration or application of purification activities, ingestion of ghee and oil processed with sweet drugs or anuvasana type of enema is prescribed.",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "जायन्ते  हेतुवैषम्याद्विषमा देहधातवः| \nहेतुसाम्यात् समास्तेषां स्वभावोपरमः सदा||२७||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 28,
+      "devanagari": "प्रवृत्तिहेतुर्भावानां न निरोधेऽस्ति कारणम्| \nकेचित्तत्रापि  मन्यन्ते हेतुं हेतोरवर्तनम्||२८||",
+      "english": "There is always a cause for the manifestation of beings but none exists for their annihilation. However, some scholars are of the opinion that the noncontinuance of their causative factors is the very cause of their annihilation.",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 29,
+      "devanagari": "एवमुक्तार्थमाचार्यमग्निवेशोऽभ्यभाषत| \nस्वभावोपरमे कर्म चिकित्साप्राभृतस्य किम्||२९|| भेषजैर्विषमान् धातून् कान् समीकुरुते भिषक्| \nका वा चिकित्सा भगवन्! किमर्थं वा प्रयुज्यते||३०||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "तच्छिष्यवचनं श्रुत्वा व्याजहार पुनर्वसुः| \nश्रूयतामत्र या सोम्य! युक्तिर्दृष्टा महर्षिभिः||३१|| न नाशकारणाभावाद्भावानां नाशकारणम्| \nज्ञायते नित्यगस्येव कालस्यात्ययकारणम्||३२||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 33,
+      "devanagari": "शीघ्रगत्वाद्यथा भूतस्तथा भावो विपद्यते|३३|| निरोधे कारणं तस्य नास्ति नैवान्यथाक्रिया||३३||",
+      "english": "There is neither a cause for things to perish nor there is a possibility of bringing out a change in the innate tendency of destruction.",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 34,
+      "devanagari": "याभिः  क्रियाभिर्जायन्ते शरीरे धातवः समाः| \nसा चिकित्सा विकाराणां कर्म तद्भिषजां स्मृतम्||३४|| कथं शरीरे धातूनां वैषम्यं न भवेदिति| \nसमानां चानुबन्धः स्यादित्यर्थं क्रियते क्रिया||३५||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 36,
+      "devanagari": "त्यागाद्विषमहेतूनां समानां चोपसेवनात्| \nविषमा नानुबध्नन्ति जायन्ते धातवः समाः||३६|| समैस्तु हेतुभिर्यस्माद्धातून् सञ्जनयेत् समान्| \nचिकित्साप्राभृतस्तस्माद्दाता देहसुखायुषाम्||३७|| धर्मस्यार्थस्य कामस्य नृलोकस्योभयस्य च| \nदाता सम्पद्यते वैद्यो दानाद्देहसुखायुषाम्||३८||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "तत्र श्लोकाः- \nचिकित्साप्राभृतगुणो दोषो यश्चेतराश्रयः| \nयोगायोगातियोगानां लक्षणं शुद्धिसंश्रयम्||३९|| बहुदोषस्य लिङ्गानि संशोधनगुणाश्च ये| \nचिकित्सासूत्रमात्रं च सिद्धिव्यापत्तिसंश्रयम्||४०|| या च युक्तिश्चिकित्सायां यं चार्थं कुरुते भिषक्| \nचिकित्साप्राभृतेऽध्याये तत् सर्वमवदन्मुनिः||४१||",
+      "english": "",
+      "section": "Assessment in Panchakarma"
+    }
+  ],
+  "tattvaVimarsha": "In continuation of the preceding Upakalpaniya Adhyaya this chapter elaborates on the remaining aspects of purification processes and their prerequisites which were not fully dealt there.The word prabhrita is derived from the verbal root bhr which suggests the sense of supporting, nourishing and offering. The term, chikitsaprabhrita is applied to mean that physician who is well equipped in terms of qualities and instruments and who can play proper supporting role in the management of diseases. The chapter emphasizes upon the need for a proficient and well equipped physician to ensure flawless treatment. The patient is also expected to be intelligent enough to be able to identify a good physician. The word virechana is used often for vamana and samshodhana as well. Clinical features of samyak yoga (appropriate application of a procedure), ayoga (under application) and atiyoga (over application), and their management, have also been described. Diseases, their therapeutic response (so that they do not reoccur) and management of post-therapy cachexia have also been addressed in this chapter. Svabhavaparamavada is a phenomenon of natural destruction of health and disease. There is a continuous process of degeneration and regeneration of body tissues. The process of regeneration is known to great extent but the cause of degeneration and death is not known.",
+  "vidhiVimarsha": "In continuation of the preceding Upakalpaniya Adhyaya this chapter elaborates on the remaining aspects of purification processes and their prerequisites which were not fully dealt there.The word prabhrita is derived from the verbal root bhr which suggests the sense of supporting, nourishing and offering. The term, chikitsaprabhrita is applied to mean that physician who is well equipped in terms of qualities and instruments and who can play proper supporting role in the management of diseases. The chapter emphasizes upon the need for a proficient and well equipped physician to ensure flawless treatment. The patient is also expected to be intelligent enough to be able to identify a good physician. The word virechana is used often for vamana and samshodhana as well. Clinical features of samyak yoga (appropriate application of a procedure), ayoga (under application) and atiyoga (over application), and their management, have also been described. Diseases, their therapeutic response (so that they do not reoccur) and management of post-therapy cachexia have also been addressed in this chapter. Svabhavaparamavada is a phenomenon of natural destruction of health and disease. There is a continuous process of degeneration and regeneration of body tissues. The process of regeneration is known to great extent but the cause of degeneration and death is not known.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Chikitsaprabhritiya_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s01.018"
+}

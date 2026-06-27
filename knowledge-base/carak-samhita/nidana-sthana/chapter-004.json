@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "sthana": "Nidana Sthana",
+    "sthanaNumber": 2,
+    "chapterNumber": 4,
+    "chapterTitleEnglish": "Diagnosis of Obstinate Urinary Disorders",
+    "chapterTitleSanskrit": "Prameha Nidana Adhyaya",
+    "chapterTitleDevanagari": "Prameha Nidana",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Kar A.C., Byadgi P.S., Sabnis M.",
+    "editors": [
+      "Khandel S.K.",
+      "Godatwar P."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s02.005"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Prameha_Nidana_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "The fourth chapter in the Nidana Sthana, dealing with the diagnosis of prameha, follows the diagnosis of gulma disease associated with the mamsa dhatu. Twenty known types of prameha, including diabetes mellitus (madhumeha), have been described here. However, there could be innumerable variations of a disease based on the presence or absence of disease (provoking or mitigating) factors in the body. The manifestation of the disease depends upon the interaction between causative factors, dosha, dushya and the defense mechanism of the body. Some of these factors can also help determine if there could be a delayed or an early onset of the disease, the severity of the disease, etc. Various etiological factors of prameha are described here that lead to vitiation of kapha dosha, meda dhatu, and mutra. A vitiated kapha affects ten fluid-predominant body tissues, resulting in the production of excessive kleda (moisture/excess discharge of body fluids) that, when intermixed with meda (lipid)and mamsa (muscle protein), further vitiates mutra (urine) and results in prameha. A patient afflicted with diabetes mellitus, on an initial visit to the physician, may complain of numbness, tingling, burning sensation in feet, fatigue, dryness of mouth, drowsiness, etc. It is highlighted these signs and symptoms for an early diagnosis and management of prameha. Ten types of curable kaphaja prameha, six variants of yaapya (palliative) and four variants of incurable vataja prameha, totaling twenty types of prameha have been described here in this text. Prodromal symptoms, complications, treatment procedures (enumerated briefly), and some rules (do’s and don’ts) have been included in the course of this chapter.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of Prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Process of Onset of Disease",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of Kaphaja Prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs, Types, and Prognosis of Kaphaja Prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific Features of Types of Kaphaja Prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology and Types of Pittaja Prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific Features of Types of Pittaja Prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etio-pathogenesis of Vataja Prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Incurability of Vataja Prameha and its Other Characteristics",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General Prodromal Features of Prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General Complications and Principles of Treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Consequences of Prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "The process of onset of disease",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "The etymology of prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "The scope of prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Jaggery and jaggery products including sugar (gudavaikritum)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "The classification of prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prameha classified according to physique",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Samprapti (pathogenesis) of prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various dushyas involved in the pathogenesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vataja prameha vis a vis type 1 diabetes mellitus",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Poorvarupa (prodromal symptoms) of prameha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causes of lipoprotein abnormalities in diabetes &#91;38&#93;",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Different colors of Urine",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Future Scope for Research",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related Chapters",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "The fourth chapter in the Nidana Sthana, dealing with the diagnosis of prameha, follows the diagnosis of gulma disease associated with the mamsa dhatu. Twenty known types of prameha, including diabetes mellitus (madhumeha), have been described here. However, there could be innumerable variations of a disease based on the presence or absence of disease (provoking or mitigating) factors in the body. The manifestation of the disease depends upon the interaction between causative factors, dosha, dushya and the defense mechanism of the body. Some of these factors can also help determine if there could be a delayed or an early onset of the disease, the severity of the disease, etc. Various etiological factors of prameha are described here that lead to vitiation of kapha dosha, meda dhatu, and mutra. A vitiated kapha affects ten fluid-predominant body tissues, resulting in the production of excessive kleda (moisture/excess discharge of body fluids) that, when intermixed with meda (lipid)and mamsa (muscle protein), further vitiates mutra (urine) and results in prameha. A patient afflicted with diabetes mellitus, on an initial visit to the physician, may complain of numbness, tingling, burning sensation in feet, fatigue, dryness of mouth, drowsiness, etc. It is highlighted these signs and symptoms for an early diagnosis and management of prameha. Ten types of curable kaphaja prameha, six variants of yaapya (palliative) and four variants of incurable vataja prameha, totaling twenty types of prameha have been described here in this text. Prodromal symptoms, complications, treatment procedures (enumerated briefly), and some rules (do’s and don’ts) have been included in the course of this chapter.",
+  "vidhiVimarsha": "The fourth chapter in the Nidana Sthana, dealing with the diagnosis of prameha, follows the diagnosis of gulma disease associated with the mamsa dhatu. Twenty known types of prameha, including diabetes mellitus (madhumeha), have been described here. However, there could be innumerable variations of a disease based on the presence or absence of disease (provoking or mitigating) factors in the body. The manifestation of the disease depends upon the interaction between causative factors, dosha, dushya and the defense mechanism of the body. Some of these factors can also help determine if there could be a delayed or an early onset of the disease, the severity of the disease, etc. Various etiological factors of prameha are described here that lead to vitiation of kapha dosha, meda dhatu, and mutra. A vitiated kapha affects ten fluid-predominant body tissues, resulting in the production of excessive kleda (moisture/excess discharge of body fluids) that, when intermixed with meda (lipid)and mamsa (muscle protein), further vitiates mutra (urine) and results in prameha. A patient afflicted with diabetes mellitus, on an initial visit to the physician, may complain of numbness, tingling, burning sensation in feet, fatigue, dryness of mouth, drowsiness, etc. It is highlighted these signs and symptoms for an early diagnosis and management of prameha. Ten types of curable kaphaja prameha, six variants of yaapya (palliative) and four variants of incurable vataja prameha, totaling twenty types of prameha have been described here in this text. Prodromal symptoms, complications, treatment procedures (enumerated briefly), and some rules (do’s and don’ts) have been included in the course of this chapter.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 Types of Prameha",
+    "2.2 Process of Onset of Disease",
+    "2.3 Etiology of Kaphaja Prameha",
+    "2.4 Pathogenesis",
+    "2.5 Signs, Types, and Prognosis of Kaphaja Prameha",
+    "2.6 Specific Features of Types of Kaphaja Prameha",
+    "2.7 Etiology and Types of Pittaja Prameha",
+    "2.8 Specific Features of Types of Pittaja Prameha",
+    "2.9 Etio-pathogenesis of Vataja Prameha",
+    "2.10 Incurability of Vataja Prameha and its Other Characteristics",
+    "2.11 General Prodromal Features of Prameha",
+    "2.12 General Complications and Principles of Treatment",
+    "2.13 Consequences of Prameha",
+    "2.14 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences) 4.1 The process of onset of disease",
+    "4.2 The etymology of prameha",
+    "4.3 The scope of prameha 4.3.1 Sahaja prameha/ jatah pramehi (hereditary)",
+    "4.3.2 Apathyanimittaja prameha (acquired)",
+    "4.3.3 Causative factors of prameha/diabetes mellitus",
+    "4.3.4 Type I Diabetes",
+    "4.3.5 Type II Diabetes",
+    "4.4 Jaggery and jaggery products including sugar (gudavaikritum)",
+    "4.5 The classification of prameha 4.5.1 Classification by Dosha/Stage of Progression",
+    "4.6 Prameha classified according to physique",
+    "4.7 Samprapti (pathogenesis) of prameha",
+    "4.8 Various dushyas involved in the pathogenesis 4.8.1 Meda dhatu",
+    "4.8.2 Mamsa dhatu",
+    "4.8.3 Majja dhatu",
+    "4.8.4 Shukra",
+    "4.8.5 Ojas",
+    "4.8.6 Kleda",
+    "4.8.7 Vasa",
+    "4.8.8 Lasika",
+    "4.8.9 Exclusion of asthi as a dushya",
+    "4.9 Vataja prameha vis a vis type 1 diabetes mellitus",
+    "4.10 Poorvarupa (prodromal symptoms) of prameha",
+    "4.11 Causes of lipoprotein abnormalities in diabetes [38]",
+    "4.12 Different colors of Urine 4.12.1 White",
+    "4.12.2 Red / Pink",
+    "4.12.3 Blue / Green",
+    "4.12.4 Brown /Black",
+    "4.13 Prognosis 4.13.1 Features of Prameha Classified on the Basis of Prognosis",
+    "4.14 Future Scope for Research",
+    "4.15 Related Chapters",
+    "5 References"
+  ]
+}

@@ -1,0 +1,728 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 14,
+    "chapterTitleEnglish": "Management of Arsha",
+    "chapterTitleSanskrit": "Arsha Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Arsha Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Goyal M.",
+    "editors": [
+      "Singh G.",
+      "Goyal M."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.015"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Arsha_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "This chapter is followed by udara roga because the causative factors for both the diseases are similar like vitiation of tridosha. Both the diseases are related to the same system i.e. gastrointestinal tract. Further, arsha is one of the causative factors of udara roga (Boddhagudedara- intestinal obstruction) Therefore the chapter dealing with arshas (hemorrhoids) follows the chapter on the treatment of udara (obstinate abdominal disorders). The chapter describes types of arsha (such as congenital or acquired), sites of manifestation other than the ano-rectal region, doshic signs and symptoms, etio-pathogenosis, etiology of the doshaja arsha, and prognosis along with the symptoms of curable and incurable hemorrhoids. Hemorrhoids can be shushka (dry or non-bleeding) and sravi (wet or bleeding) with different modes of treatment for each of these. In the bleeding type hemostatic management is essential while in non- bleeding type hemostatic treatment is not needed. The dry hemorrhoids can be correlated with the external hemorrhoids where protrusion of mucosal folds occur, without bleeding. Local treatment includes, fomentation, sitz bath, sprinkling, smearing and fumigation and topical medicament. The need of proper hygiene of the peri-anal area is important. Raktamokshana (bloodletting) was advised as one of the para-surgical procedure and in cases of vitiation of rakta and predominance of pitta dosha. Oral intake of the herbal powders, takraarishta, abhayaarishta, dantyaarishta, phalaarishta are described along with their method of preparation. In pathya the recipes like thick gruel, curd, buttermilk, leafy vegetables for vegetarian and meat as well as meat soup for non-vegetarian was advised in cases of constipated bowel. It proves that along with the other causative factors constipation is an important cause. The role of haritaki with jaggery is one of the requirements for deepana and pachana because the cause of arsha is depressed digestive power. The other recipes like ghrita, preparations like pippalyadi ghrita, chavyadi ghrita, nagaradi ghrita in constipated patients. The anuvasana basti is advisable with medicated taila in the management of dry or external hemorrhoids. The wet hemorrhoids have the predominance of kapha along with vata and can be correlated with internal hemorrhoids which are usually bleeding in nature. The line of treatment as per predominance of vata or kapha has been described. In initial stage the bleeding should not be stopped as the vitiated blood should be let out. Later on kutajadi rasakriya for hemostatis, thick and thin gruel remedies were explained. Cooling therapy, sprinkling therapy with different herbal preparations, warm and cold water sitz bath was advised in the cases of bleeding. Recipes of curds and rice in the diet are also recommended. For local treatment external application of cold leaves, soothing ointment, rubbing recipes and topical application in the bleeding hemorrhoids are described.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Locations of hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Forms of congenital hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of congenital hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology and pathogenesis of acquired arsha (hemorrhoids)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shapes of the arsha (hemorrhoids)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of vataja arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of vataja arsha hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of pittaja arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of pittaja arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of kaphaja arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of kaphaja arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology and symptoms of dwandaja and sannipataja type of arsha hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Purvaroopa (premonitory) signs and symptoms of hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Involvement of three doshas",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Aggravation of tridosha in arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of incurable arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification of arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of dry hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipes for fomentation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipe for Sprinkling",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipes for sitz-bath",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipes for smearing and fumigation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ointment recipes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Raktamokshana (bloodletting)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Churna (powder formulations)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Other Recipes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Takraarishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Benefits of curd and butter-milk",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Other Recipes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Thick gruel",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of hemorrhoids with constipated bowels",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pippalyadi ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipes of medicated ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pippalyadi ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chavyadi ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Nagaradi ghirta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pippalyadi ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Administration of haritaki",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Meat soup",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Leafy vegetables",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Use of meat",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Anupana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Anuvasana basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Anuvasana basti with pippayadi taila",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Topical application of paste",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Niruha basti in dry hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Abhayarishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dantyarishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Phalarishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Phalarishta (Second recipe)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kanakarishta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cleanliness of peri-anal region",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of bleeding hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of bleeding hemorrhoids associated with vata",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of bleeding hemorrhoids associated with kapha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Line of treatment as per dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complications of immediate hemostasis therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Use of bitter drugs",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Use of sneha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications for hemostatic therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hemostatic recipes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kutajadi rasakriya",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Peyamanda (thin gruel)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipes for hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipes of peya (thin gruel)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Recipes of curds",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diet in bleeding hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Predominance of vata",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cooling Therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sprinkling in bleeding hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Warm water sitz-bath in bleeding hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cold water sitz-bath in bleeding hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hemostatic douche",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External application of cold leaves",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Soothing Ointment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Topical application or rubbing",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Topical application in continuous bleeding",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Piccha basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Anuvasana basti in bleeding hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hriveradi Ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sunnishannak changeri ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Different foods in arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Interdependence of diseases and protection of agni in hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment in General",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathya (diet regimen) in hemorrhoids",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary of the chapter",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Colophon",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Color atlas of various conditions of arsha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Current Clinical Management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Surgical Management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Further reading",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "This chapter is followed by udara roga because the causative factors for both the diseases are similar like vitiation of tridosha. Both the diseases are related to the same system i.e. gastrointestinal tract. Further, arsha is one of the causative factors of udara roga (Boddhagudedara- intestinal obstruction) Therefore the chapter dealing with arshas (hemorrhoids) follows the chapter on the treatment of udara (obstinate abdominal disorders). The chapter describes types of arsha (such as congenital or acquired), sites of manifestation other than the ano-rectal region, doshic signs and symptoms, etio-pathogenosis, etiology of the doshaja arsha, and prognosis along with the symptoms of curable and incurable hemorrhoids. Hemorrhoids can be shushka (dry or non-bleeding) and sravi (wet or bleeding) with different modes of treatment for each of these. In the bleeding type hemostatic management is essential while in non- bleeding type hemostatic treatment is not needed. The dry hemorrhoids can be correlated with the external hemorrhoids where protrusion of mucosal folds occur, without bleeding. Local treatment includes, fomentation, sitz bath, sprinkling, smearing and fumigation and topical medicament. The need of proper hygiene of the peri-anal area is important. Raktamokshana (bloodletting) was advised as one of the para-surgical procedure and in cases of vitiation of rakta and predominance of pitta dosha. Oral intake of the herbal powders, takraarishta, abhayaarishta, dantyaarishta, phalaarishta are described along with their method of preparation. In pathya the recipes like thick gruel, curd, buttermilk, leafy vegetables for vegetarian and meat as well as meat soup for non-vegetarian was advised in cases of constipated bowel. It proves that along with the other causative factors constipation is an important cause. The role of haritaki with jaggery is one of the requirements for deepana and pachana because the cause of arsha is depressed digestive power. The other recipes like ghrita, preparations like pippalyadi ghrita, chavyadi ghrita, nagaradi ghrita in constipated patients. The anuvasana basti is advisable with medicated taila in the management of dry or external hemorrhoids. The wet hemorrhoids have the predominance of kapha along with vata and can be correlated with internal hemorrhoids which are usually bleeding in nature. The line of treatment as per predominance of vata or kapha has been described. In initial stage the bleeding should not be stopped as the vitiated blood should be let out. Later on kutajadi rasakriya for hemostatis, thick and thin gruel remedies were explained. Cooling therapy, sprinkling therapy with different herbal preparations, warm and cold water sitz bath was advised in the cases of bleeding. Recipes of curds and rice in the diet are also recommended. For local treatment external application of cold leaves, soothing ointment, rubbing recipes and topical application in the bleeding hemorrhoids are described.",
+  "vidhiVimarsha": "This chapter is followed by udara roga because the causative factors for both the diseases are similar like vitiation of tridosha. Both the diseases are related to the same system i.e. gastrointestinal tract. Further, arsha is one of the causative factors of udara roga (Boddhagudedara- intestinal obstruction) Therefore the chapter dealing with arshas (hemorrhoids) follows the chapter on the treatment of udara (obstinate abdominal disorders). The chapter describes types of arsha (such as congenital or acquired), sites of manifestation other than the ano-rectal region, doshic signs and symptoms, etio-pathogenosis, etiology of the doshaja arsha, and prognosis along with the symptoms of curable and incurable hemorrhoids. Hemorrhoids can be shushka (dry or non-bleeding) and sravi (wet or bleeding) with different modes of treatment for each of these. In the bleeding type hemostatic management is essential while in non- bleeding type hemostatic treatment is not needed. The dry hemorrhoids can be correlated with the external hemorrhoids where protrusion of mucosal folds occur, without bleeding. Local treatment includes, fomentation, sitz bath, sprinkling, smearing and fumigation and topical medicament. The need of proper hygiene of the peri-anal area is important. Raktamokshana (bloodletting) was advised as one of the para-surgical procedure and in cases of vitiation of rakta and predominance of pitta dosha. Oral intake of the herbal powders, takraarishta, abhayaarishta, dantyaarishta, phalaarishta are described along with their method of preparation. In pathya the recipes like thick gruel, curd, buttermilk, leafy vegetables for vegetarian and meat as well as meat soup for non-vegetarian was advised in cases of constipated bowel. It proves that along with the other causative factors constipation is an important cause. The role of haritaki with jaggery is one of the requirements for deepana and pachana because the cause of arsha is depressed digestive power. The other recipes like ghrita, preparations like pippalyadi ghrita, chavyadi ghrita, nagaradi ghrita in constipated patients. The anuvasana basti is advisable with medicated taila in the management of dry or external hemorrhoids. The wet hemorrhoids have the predominance of kapha along with vata and can be correlated with internal hemorrhoids which are usually bleeding in nature. The line of treatment as per predominance of vata or kapha has been described. In initial stage the bleeding should not be stopped as the vitiated blood should be let out. Later on kutajadi rasakriya for hemostatis, thick and thin gruel remedies were explained. Cooling therapy, sprinkling therapy with different herbal preparations, warm and cold water sitz bath was advised in the cases of bleeding. Recipes of curds and rice in the diet are also recommended. For local treatment external application of cold leaves, soothing ointment, rubbing recipes and topical application in the bleeding hemorrhoids are described.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Types of hemorrhoids",
+    "2.2 Locations of hemorrhoids",
+    "2.3 Forms of congenital hemorrhoids",
+    "2.4 Signs and symptoms of congenital hemorrhoids",
+    "2.5 Etiology and pathogenesis of acquired arsha (hemorrhoids)",
+    "2.6 Shapes of the arsha (hemorrhoids)",
+    "2.7 Signs and symptoms of vataja arsha",
+    "2.8 Etiology of vataja arsha hemorrhoids",
+    "2.9 Signs and symptoms of pittaja arsha",
+    "2.10 Etiology of pittaja arsha",
+    "2.11 Signs and symptoms of kaphaja arsha",
+    "2.12 Etiology of kaphaja arsha",
+    "2.13 Etiology and symptoms of dwandaja and sannipataja type of arsha hemorrhoids",
+    "2.14 Purvaroopa (premonitory) signs and symptoms of hemorrhoids",
+    "2.15 Involvement of three doshas",
+    "2.16 Aggravation of tridosha in arsha",
+    "2.17 Symptoms of incurable arsha",
+    "2.18 Treatment of hemorrhoids",
+    "2.19 Classification of arsha",
+    "2.20 Treatment of dry hemorrhoids",
+    "2.21 Recipes for fomentation",
+    "2.22 Recipe for Sprinkling",
+    "2.23 Recipes for sitz-bath",
+    "2.24 Recipes for smearing and fumigation",
+    "2.25 Ointment recipes",
+    "2.26 Raktamokshana (bloodletting)",
+    "2.27 Churna (powder formulations)",
+    "2.28 Other Recipes",
+    "2.29 Takraarishta",
+    "2.30 Benefits of curd and butter-milk",
+    "2.31 Other Recipes",
+    "2.32 Thick gruel",
+    "2.33 Treatment of hemorrhoids with constipated bowels",
+    "2.34 Pippalyadi ghrita",
+    "2.35 Recipes of medicated ghee",
+    "2.36 Pippalyadi ghrita",
+    "2.37 Chavyadi ghrita",
+    "2.38 Nagaradi ghirta",
+    "2.39 Pippalyadi ghrita",
+    "2.40 Administration of haritaki",
+    "2.41 Meat soup",
+    "2.42 Leafy vegetables",
+    "2.43 Use of meat",
+    "2.44 Anupana",
+    "2.45 Anuvasana basti",
+    "2.46 Anuvasana basti with pippayadi taila",
+    "2.47 Topical application of paste",
+    "2.48 Niruha basti in dry hemorrhoids",
+    "2.49 Abhayarishta",
+    "2.50 Dantyarishta",
+    "2.51 Phalarishta",
+    "2.52 Phalarishta (Second recipe)",
+    "2.53 Kanakarishta",
+    "2.54 Cleanliness of peri-anal region",
+    "2.55 Treatment of bleeding hemorrhoids",
+    "2.56 Signs and symptoms of bleeding hemorrhoids associated with vata",
+    "2.57 Signs and symptoms of bleeding hemorrhoids associated with kapha",
+    "2.58 Line of treatment as per dosha",
+    "2.59 Complications of immediate hemostasis therapy",
+    "2.60 Use of bitter drugs",
+    "2.61 Use of sneha",
+    "2.62 Indications for hemostatic therapy",
+    "2.63 Hemostatic recipes",
+    "2.64 Kutajadi rasakriya",
+    "2.65 Peyamanda (thin gruel)",
+    "2.66 Recipes for hemorrhoids",
+    "2.67 Recipes of peya (thin gruel)",
+    "2.68 Recipes of curds",
+    "2.69 Diet in bleeding hemorrhoids",
+    "2.70 Predominance of vata",
+    "2.71 Cooling Therapy",
+    "2.72 Sprinkling in bleeding hemorrhoids",
+    "2.73 Warm water sitz-bath in bleeding hemorrhoids",
+    "2.74 Cold water sitz-bath in bleeding hemorrhoids",
+    "2.75 Hemostatic douche",
+    "2.76 External application of cold leaves",
+    "2.77 Soothing Ointment",
+    "2.78 Topical application or rubbing",
+    "2.79 Topical application in continuous bleeding",
+    "2.80 Piccha basti",
+    "2.81 Anuvasana basti in bleeding hemorrhoids",
+    "2.82 Hriveradi Ghrita",
+    "2.83 Sunnishannak changeri ghrita",
+    "2.84 Different foods in arsha",
+    "2.85 Interdependence of diseases and protection of agni in hemorrhoids",
+    "2.86 Treatment in General",
+    "2.87 Pathya (diet regimen) in hemorrhoids",
+    "2.88 Summary of the chapter",
+    "2.89 Colophon",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Color atlas of various conditions of arsha",
+    "4.2 Current Clinical Management",
+    "4.3 Surgical Management",
+    "4.4 Further reading"
+  ]
+}

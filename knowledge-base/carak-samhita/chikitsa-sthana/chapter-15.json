@@ -1,0 +1,809 @@
+{
+  "sthana": "Chikitsa Sthana",
+  "sthanaNumber": 6,
+  "chapterNumber": 15,
+  "titleEnglish": "Digestive disorders",
+  "titleSanskrit": "Grahani Chikitsa Adhyaya",
+  "titleDevanagari": "",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "",
+  "shlokas": [
+    {
+      "verseNumber": 1,
+      "devanagari": "अथातो ग्रहणीदोषचिकित्सितं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||",
+      "english": "",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "आयुर्वर्णो बलं स्वास्थ्यमुत्साहोपचयौ प्रभा| ओजस्तेजोऽग्नयः प्राणाश्चोक्ता देहाग्निहेतुकाः||३||",
+      "english": "Dehagni (all the entities in the body that are responsible for digestion and metabolism) is the fundamental causative agent for longevity, normal complexion, normal strength, good health, motivation, normal growth, normal luster, normal ojas, normal body temperature and various other forms of agni. Even the existence of an individual is said to be because of dehagni.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 4,
+      "devanagari": "शान्तेऽग्नौ म्रियते, युक्ते चिरं जीवत्यनामयः| रोगी स्याद्विकृते, मूलमग्निस्तस्मान्निरुच्यते||४||",
+      "english": "When the agni stops functioning, the individual dies; if the agni functions normally, the individual can lead a healthy and long life. Similarly, if the agni becomes abnormal, the individual suffers from various diseases; and hence, the agni is said to be the root cause of health and longevity",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 5,
+      "devanagari": "यदन्नं देहधात्वोजोबलवर्णादिपोषकम्| तत्राग्निर्हेतुराहारान्न ह्यपक्वाद्रसादयः||५||",
+      "english": "The food one consumes becomes capable of nourishing the body tissues and of promoting the ojas (vital essence), strength, complexion etc., only in the presence of normally functioning agni. In the absence of normal digestion (and metabolism), the normal body tissues such as rasa cannot be formed nor nourished",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 6,
+      "devanagari": "अन्नमादानकर्मा तु प्राणः कोष्ठं प्रकर्षति| तद्द्रवैर्भिन्नसङ्घातं स्नेहेन मृदुतां गतम्||६|| समानेनावधूतोऽग्निरुदर्यः पवनोद्वहः| काले भुक्तं समं सम्यक् पचत्यायुर्विवृद्धये||७|| एवं रसमलायान्नमाशयस्थमधः स्थितः| पचत्यग्निर्यथा स्थाल्यामोदनायाम्बुतण्डुलम्||८||",
+      "english": "The ingested food is carried to koshtha by prana vata. The food disintegrates because of the liquids, and further it becomes soft because of the fatty substances. The samana vata, that has an inherent ability to intensify the agni, intensifies the digestive enzymes and properly digests the food that one consumes timely and in an appropriate quantity, thus leading to longevity. This process of digestion by agni in the gut which leads to the formation of rasa and mala is comparable to the process of cooking of the raw rice kept in an earthen vessel containing water on a fire [6-8]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 9,
+      "devanagari": "अन्नस्य भुक्तमात्रस्य षड्रसस्य प्रपाकतः| मधुराद्यात् कफो भावात् फेनभूत  उदीर्यते||९|| परं तु पच्यमानस्य विदग्धस्याम्लभावतः| आशयाच्च्यवमानस्य पित्तमच्छमुदीर्यते||१०|| पक्वाशयं तु प्राप्तस्य शोष्यमाणस्य वह्निना| परिपिण्डितपक्वस्य वायुः स्यात् कटुभावतः||११||",
+      "english": "As soon as the food that has all the six tastes is consumed, it undergoes the first stage of digestion known as madhura (sweet) state during which kapha is produced which is like froth. Afterwards, while the food undergoing digestion is in its partially digested form, it attains amla (sour) state.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 12,
+      "devanagari": "अन्नमिष्टं ह्युपहितमिष्टैर्गन्धादिभिः पृथक्| देहे प्रीणाति गन्धादीन् घ्राणादीनीन्द्रियाणि च||१२||",
+      "english": "The food that possesses pleasant smell (taste, appearance, consistency,) etc., nourishes the similar entities in the body such as the sensory organs of smell by gandha etc (e.g. taste, vision, touch etc senses by respective mahabhuta)",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 13,
+      "devanagari": "भौमाप्याग्नेयवायव्याः पञ्चोष्माणः सनाभसाः| पञ्चाहारगुणान्स्वान्स्वान्पार्थिवादीन्पचन्ति हि||१३||",
+      "english": "There are five types of agni namely, bhauma, apya, agneya, vayavya and nabhasa. These five bhutagni are one of each mahabhuta transform/metabolize those components of the food that are homologous to them in their composition of structure of human organism. (such as parthiva, apya etc)",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 14,
+      "devanagari": "यथास्वं स्वं च पुष्णन्ति देहे द्रव्यगुणाः पृथक्| पार्थिवाः पार्थिवानेव शेषाः शेषांश्च कृत्स्नशः||१४||",
+      "english": "Specific categories of entities in the body having specific attributes can be nourished by only those substances that belong to the same category having those same attributes. This means that parthiva entities in the body (one that is dominated by prithvi mahabhuta in its composition) can be nourished only by the parthiva substances in the food and so on. The same rule applies to the whole body",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 15,
+      "devanagari": "सप्तभिर्देहधातारो धातवो द्विविधं पुनः| यथास्वमग्निभिः पाकं यान्ति किट्टप्रसादवत् ||१५||",
+      "english": "Further, the seven components that sustain the body, known as dhatu (tissues), are metabolized/transformed into two kinds of products known as sara (nutrition) and kitta (waste). This process is the function of seven specific entities known as dhatvagni; each dhatvagni is specific for its corresponding dhatu",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 16,
+      "devanagari": "रसाद्रक्तं ततो मांसं मांसान्मेदस्ततोऽस्थि च| अस्थ्नो मज्जा ततः शुक्रं शुक्राद्गर्भः प्रसादजः||१६||",
+      "english": "Rakta is produced after rasa and then mamsa. After mamsa the medas is formed and then asthi is produced. After asthi the majja is derived and then shukra is produced and finally fine shukra leads to garbha",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 17,
+      "devanagari": "रसात् स्तन्यं ततो रक्तमसृजः कण्डराः सिराः| मांसाद्वसा त्वचः षट् च मेदसः स्नायुसम्भवः||१७||",
+      "english": "Stanya (breast milk) and the menstrual blood are derived after rasa. Kandara (tendon) and sira(vein) are derived after rakta. Vasa(muscle fat) and the six layers of tvacha (skin) are derived after mamsa (muscle) and snayu(ligament) are derived after medas (adipose tissue)",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 18,
+      "devanagari": "किट्टमन्नस्य विण्मूत्रं, रसस्य तु कफोऽसृजः| पित्तं, मांसस्य खमला, मलः स्वेदस्तु मेदसः||१८|| स्यात्किट्टं केशलोमास्थ्नो, मज्ज्ञः स्नेहोऽक्षिविट्त्वचाम्| प्रसादकिट्टे धातूनां पाकादेवंविधर्च्छतः ||१९|| परस्परोपसंस्तब्धा धातुस्नेहपरम्परा |",
+      "english": "The feces and the urine are the kitta (non-nutrient portion/waste portion/byproduct) of ingested food. The kitta of rasa is mala-kapha (excretions). Mala-pitta (bile pigment) is the kitta of rakta. Kha-mala (the wastes accumulated in the hollow structures of the body such as external ears and nostrils) are the kitta of mamsa. Sweda (sweat) is the mala of medas. Kesha (hairs on the head) and loma (body hair) are the mala of asthi. The mala of majja is the oily excretion of the eye and the skin (sebum). Thus, the dhatus continuously undergo two kinds of transformation: prasada (nutrient portion) and kitta (non-nutrient portion). This entire sequence of transformation and metabolism of dhatu is thus inter dependent [18-19½]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 20,
+      "devanagari": "वृष्यादीनां प्रभावस्तु पुष्णाति बलमाशु हि||२०||",
+      "english": "Vrishya substance (the substance that promotes sexual vigor) nourishes the shukra immediately due to its specific influential effect (prabhava)",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 21,
+      "devanagari": "षड्भिः केचिदहोरात्रैरिच्छन्ति परिवर्तनम्| सन्तत्या भोज्यधातूनां परिवृत्तिस्तु चक्रवत्||२१||",
+      "english": "Some scholars believe that the conversion of rasa up to shukra occurs in a span of six days and six nights. This process of transformation of nourishing portion of the digested food is continuous similar to rotating wheel",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 22,
+      "devanagari": "(इत्युक्तवन्तमाचार्यं शिष्यस्त्विदमचोदयत्| रसाद्रक्तं विसदृशात् कथं देहेऽभिजायते||२२|| रसस्य च न रागोऽस्ति स कथं याति रक्तताम्| द्रवाद्रक्तात्स्थिरं मांसं कथं तज्जायते नृणाम्||२३|| द्रवधातोः स्थिरान्मांसान्मेदसः सम्भवः कथम्| श्लक्ष्णाभ्यां मांसमेदोभ्यां खरत्वं कथमस्थिषु||२४|| खरेष्वस्थिषु मज्जा च केन स्निग्धो मृदुस्तथा| मज्ज्ञश्च परिणामेन यदि शुक्रं प्रवर्तते||२५|| सर्वदेहगतं शुक्रं प्रवदन्ति मनीषिणः| तथाऽस्थिमध्यमज्ज्ञश्च शुक्रं भवति देहिनाम्||२६|| छिद्रं न दृश्यतेऽस्थ्नां च तन्निःसरति वा कथम्|",
+      "english": "(After listening to the above explanation by his teacher, the student asked the following doubt:",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 27,
+      "devanagari": "एवमुक्तस्तु शिष्येण गुरुः प्राहेदमुत्तरम्||२७|| तेजो रसानां सर्वेषां मनुजानां यदुच्यते| पित्तोष्मणः स रागेण रसो रक्तत्वमृच्छति||२८||",
+      "english": "After listening to the query raised by the student, the teacher replied as follows:",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 29,
+      "devanagari": "वाय्वम्बुतेजसा रक्तमूष्मणा चाभिसंयुतम्| स्थिरतां प्राप्य मांसं स्यात् स्वोष्मणा पक्वमेव तत् ||२९||",
+      "english": "Due to the action of heat along with the vata, ambu (water) and tejas, the rakta is converted into stable mamsa, after being acted upon by its own agni (mamsadhatvagni)",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 1,
+      "devanagari": "स्वतेजोऽम्बुगुणस्निग्धोद्रिक्तं मेदोऽभिजायते|",
+      "english": "Because of the action of medo-dhatvagni on the excessively dominant snigdha attribute of aṃbu, the meda dhatu is formed [29½]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 30,
+      "devanagari": "पृथिव्यग्न्यनिलादीनां सङ्घातः स्वोष्मणा कृतः||३०|| खरत्वं प्रकरोत्यस्य जायतेऽस्थि ततो नृणाम्|",
+      "english": "Because of the action of asthi dhātvagni on the aggregation of prithvi, agni and anila, roughness is attained during the formation of the asthi",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 31,
+      "devanagari": "करोति तत्र सौषिर्यमस्थ्नां मध्ये समीरणः||३१|| मेदसस्तानि पूर्यन्ते स्नेहो मज्जा ततः स्मृतः|",
+      "english": "Vata produces hollowness inside the asthi dhatu, and after which, these hollow cavities get filled up by fatty tissue which is known as majja",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 32,
+      "devanagari": "तस्मान्मज्ज्ञस्तु यः स्नेहः शुक्रं सञ्जायते ततः||३२|| वाय्वाकाशादिभिर्भावैः सौषिर्यं जायतेऽस्थिषु| तेन स्रवति तच्छुक्रं नवात् कुम्भादिवोदकम्||३३|| स्रोतोभिः स्यन्दते देहात् समन्ताच्छुक्रवाहिभिः | हर्षेणोदीरितं वेगात् सङ्कल्पाच्च मनोभवात्||३४|| विलीनं घृतवद्व्यायामोष्मणा स्थानविच्युतम्| बस्तौ सम्भृत्य निर्याति स्थलान्निम्नादिवोदकम्)||३५||",
+      "english": "The sneha (fatty) portion of majja produces shukra. The porosity in the asthi is produced because of the factors such as vata and akasha. Shukra comes out of asthi through these pores just as the water comes out of a new earthen vessel. Through the channels known as shukravaha srotamsi, this shukra spreads all over the body. This shukra is discharged through the urethra (which is connected to the urinary bladder) because of several factors such as sexual excitation, reflex activities (vega), and mental determination (samkalpa). Just as the ghee moves out with ease when heated, the shukra too, is discharged due to the heat liberated during the sexual activity. This process of seminal discharge is comparable with the movement of water from a place of lower altitude to a place of higher altitude) [32-35]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 36,
+      "devanagari": "व्यानेन रसधातुर्हि विक्षेपोचितकर्मणा| युगपत् सर्वतोऽजस्रं देहे विक्षिप्यते सदा||३६||",
+      "english": "Because of being forcefully propelled (out of the heart) by the action of vyana vata, the rasa dhatu spreads all over the body simultaneously, continuously and for the entire life",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 37,
+      "devanagari": "क्षिप्यमाणः खवैगुण्याद्रसः सज्जति यत्र सः| करोति विकृतिं तत्र खे वर्षमिव तोयदः||३७||",
+      "english": "Wherever the rasa experiences obstacle due to abnormality in srotas, rasa readily produces disease in that very same location. This process is comparable with that of the clouds producing rainfall in a localized region that is favorable for rainfall",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 2,
+      "devanagari": "दोषाणामपि चैवं स्यादेकदेशप्रकोपणम् |",
+      "english": "This principle is applicable even in case of dosha, where ekadesha prakopa (abnormal increase at a local site) occurs [37½]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 38,
+      "devanagari": "इति भौतिकधात्वन्नपक्तॄणां कर्म भाषितम्||३८||",
+      "english": "Thus ends the description of the physiological functions of bhutagni, dhatvagni and jatharagni",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 39,
+      "devanagari": "अन्नस्य पक्ता सर्वेषां पक्तॄणामधिपो मतः| तन्मूलास्ते हि तद्वृद्धिक्षयवृद्धिक्षयात्मकाः||३९||",
+      "english": "Jatharagni is known as the King among all the forms of agni. The intensification and diminution of all other forms of agni is in fact dependent on jatharagni",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 40,
+      "devanagari": "तस्मात्तं विधिवद्युक्तैरन्नपानेन्धनैर्हितैः| पालयेत् प्रयतस्तस्य स्थितौ ह्ययुर्बलस्थितिः||४०||",
+      "english": "An individual should take utmost care to maintain the agni by providing fuel in the form of food and drinks which should be taken as per the rules mentioned, because life and strength of an individual depends on agni",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 41,
+      "devanagari": "यो हि भुङ्क्ते विधिं त्याक्त्वा ग्रहणीदोषजान् गदान्| स लौल्याल्लभते शीघ्रं, वक्ष्यन्तेऽतः परं तु ते||४१||",
+      "english": "If an individual indulges in food without following the rules and regulation of diet intake, then he quickly suffers from diseases caused by the vitiation of grahani because of his greedy habits. Such diseases are being described henceforth",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 42,
+      "devanagari": "अभोजनादजीर्णातिभोजनाद्विषमाशनात्| असात्म्यगुरुशीतातिरूक्षसन्दुष्टभोजनात्||४२|| विरेकवमनस्नेहविभ्रमाद्व्याधिकर्षणात्| देशकालर्तुवैषम्याद्वेगानां च विधारणात्||४३|| दुष्यत्यग्निः, स दुष्टोऽन्नं न तत् पचति लघ्वपि| अपच्यमानं शुक्तत्वं यात्यन्नं विषरूपताम्  ||४४||",
+      "english": "Excessive starvation, indulging in food intake although there is indigestion, overeating, irregular habit of eating, eating unwholesome food, indulging in food which is heavy to digest or having excessive nutritional value, food which is having cold qualities or eating chilled or frozen items, food which is dry in nature or food which brings about emaciation, contaminated food, perversion of procedures like vamana, virechana and sneha, emaciation of body due to disease, sudden migration to unsuitable place and of time and of season, suppression of natural urges are causes for vitiation of agni. Thus, vitiated agni is unable to digest even the light food. [42-43]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 45,
+      "devanagari": "तस्य लिङ्गमजीर्णस्य विष्टम्भः सदनं तथा| शिरसो रुक् च मूर्च्छा च भ्रमः पृष्ठकटिग्रहः||४५|| जृम्भाऽङ्गमर्दस्तृष्णा च ज्वरश्छर्दिः प्रवाहणम्| अरोचकोऽविपाकश्च, घोरमन्नविषं च तत्||४६||",
+      "english": "This poisonous substance (amavisha) manifests clinical features like flatulence, uncomfortable physical and mental miseries, headache, altered consciousness, giddiness, stiffness of back and lumbar region, yawning, body-ache, malaise, morbid thirst, fever, vomiting, tenesmus, anorexia and indigestion and it is similar to antigenic poison. [45-46]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 47,
+      "devanagari": "संसृज्यमानं पित्तेन दाहं तृष्णां मुखामयान्| जनयत्यम्लपित्तं च पित्तजांश्चापरान् गदान्||४७|| यक्ष्मपीनसमेहादीन् कफजान् कफसङ्गतम्| करोति वातसंसृष्टं वातजांश्च गदान् बहून्||४८|| मूत्ररोगांश्च मूत्रस्थं कुक्षिरोगान् शकृद्गतम्| रसादिभिश्च संसृष्टं कुर्याद्रोगान् रसादिजान्||४९||",
+      "english": "The annavisha when associated with pitta causes daha, morbid thirst, oral diseases, amlapitta (acid peptic disorders) and various other pitta related disorders.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 50,
+      "devanagari": "विषमो धातुवैषम्यं करोति विषमं पचन्| तीक्ष्णो मन्देन्धनो धातून् विशोषयति पावकः||५०||",
+      "english": "The vishamagni (improper agni) causes irregularity in digestion and therefore defective formation of dhatu takes place whereas, tikshanagni (excessive agni) when associated with little quantity of fuel (in the form of food) causes depletion of dhatu (tissue elements)",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 3,
+      "devanagari": "युक्तं भुक्तवतो युक्तो धातुसाम्यं समं पचन्|",
+      "english": "If agni is sama i.e. in balanced condition and correct diet regimen (as explained in [Cha.Sa.Sutra Sthana 5] and [Cha.Sa.Vimana Sthana 1/21] are also followed then there is proper digestion of food which helps in maintaining proper balance within the dhatu [50½]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 51,
+      "devanagari": "दुर्बलो विदहत्यन्नं तद्यात्यूर्ध्वमधोऽपि वा||५१||",
+      "english": "Durbala (weak) agni brings about partial digestion of food. These partially digested bio substances then enter in circulation, which may move either in upward or downward direction",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 52,
+      "devanagari": "अधस्तु पक्वमामं वा प्रवृत्तं ग्रहणीगदः| उच्यते सर्वमेवान्नं प्रायो ह्यस्य विदह्यते||५२|| अतिसृष्टं विबद्धं वा द्रवं तदुपदिश्यते| तृष्णारोचकवैरस्यप्रसेकतमकान्वितः||५३|| शूनपादकरः सास्थिपर्वरुक् छर्दनं ज्वरः| लोहामगन्धिस्तिक्ताम्ल [१७] उद्गारश्चास्य जायते||५४||",
+      "english": "When partially digested and partially undigested bio substances moves downward in gastrointestinal tract it produces a disorder known as grahanigada. In this particular stage the entire food material remains in the state of vidagdha state (partially transformed/sour).",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 55,
+      "devanagari": "पूर्वरूपं तु तस्येदं तृष्णाऽऽलस्यं बलक्षयः| विदाहोऽन्नस्य पाकश्च चिरात् कायस्य गौरवम्||५५||",
+      "english": "Premonitory signs and symptoms are thirst, malaise, diminution of strength, burning sensation; delay in digestion and heaviness in body",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 56,
+      "devanagari": "अग्न्यधिष्ठानमन्नस्य ग्रहणाद्ग्रहणी मता| नाभेरुपर्यह्यग्निबलेनोपष्टब्धोपबृंहिता [१८] ||५६|| अपक्वं धारत्यन्नं पक्वं सृजति पार्श्वतः| दुर्बलाग्निबला दुष्टा [१९] त्वाममेव विमुञ्चति||५७||",
+      "english": "Grahani is seat of agni and it is so called since it holds/retains the food (for proper digestion and assimilation). It holds the food just above the umbilical region and it is supported and nourished by the agni. Grahani with help of agni holds the undigested food and pushes forward digested food, but when agni becomes weak and vitiated due to vidagdha ahara murchita dosha (afflicted by improperly digested food) i.e sama dosha(dosha associated with ama) it vitiates the grahani and releases food in the form of ama i.e. undigested form [56-57]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 58,
+      "devanagari": "वातात् पित्तात् कफाच्च स्यात्तद्रोगस्त्रिभ्य एव च| हेतुं लिङ्गं रूपभेदाञ् शृणु तस्य पृथक् पृथक्||५८||",
+      "english": "Grahani is classified into four types viz vataja, pittaja, kaphaja and sannipataja. On the basis of the classification, etiological factors, symptoms and signs are being mentioned one by one",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 59,
+      "devanagari": "कटुतिक्तकषायातिरूक्षशीतलभोजनैः| प्रमितानशनात्यध्ववेगनिग्रहमैथुनैः||५९|| करोति कुपितो मन्दमग्निं सञ्छाद्य मारुतः [२२] |",
+      "english": "Excessive indulgence in diet having katu (pungent), tikta (bitter), kashaya (astringent) dominant food, which is dry in nature or having absorptive or emaciative qualities; cold, chilled or frozen items, eating quantitatively less amount of food, suppression of natural urges and excessive sexual intercourse contribute to aggravation of vata dosha which encompass the agni causing suppression of agni [59½]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 60,
+      "devanagari": "तस्यान्नं पच्यते दुःखं शुक्तपाकं खराङ्गता||६०|| कण्ठास्यशोषः क्षुत्तृष्णा तिमिरं कर्णयोः स्वनः| पार्श्वोरुवङ्क्षणग्रीवारुजोऽभीक्ष्णं विसूचिका||६१|| हृत्पीडा कार्श्यदौर्बल्यं वैरस्यं परिकर्तिका| गृद्धिः सर्वरसानां च मनसः सदनं तथा||६२|| जीर्णे जीर्यति चाध्मानं भुक्ते स्वास्थ्यमुपैति च| स वातगुल्महृद्रोगप्लीहाशङ्की च मानवः||६३|| चिरादुःखं द्रवं शुष्कं तन्वामं शब्दफेनवत्| पुनः पुनः सृजेद्वर्चः कासश्वासार्दितोऽनिलात्||६४||",
+      "english": "Symptoms of vatika grahani are as follows:",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 65,
+      "devanagari": "कट्वजीर्णविदाह्यम्लक्षाराद्यैः पित्तमुल्बणम्| अग्निमाप्लावयद्धन्ति [२३] जलं तप्तमिवानलम्||६५||",
+      "english": "Katu (spicy), ajeerna (undigestable food), vidahi (food causing eructation), amla (sour), kshara (alkali) and other food items which aggravate pitta are causes for pittaja grahani. The aggravated pitta hampers the function of agni similar to condition wherein hot water extinguishes fire",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 66,
+      "devanagari": "सोऽजीर्णं नीलपीताभं पीताभः सार्यते द्रवम्| पूत्यम्लोद्गारहृत्कण्ठदाहारुचितृडर्दितः||६६||",
+      "english": "The stools have undigested food particles having either bluish-yellowish tinge or yellow in color and are loose/watery. The eructions have foul smell and sour taste, there is burning sensation in the cardiac region (retro-sternal) and throat, anorexia and thirst are the symptoms of pittaja grahani",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 67,
+      "devanagari": "गुर्वतिस्निग्धशीतादिभोजनादतिभोजनात्| भुक्तमात्रस्य च स्वप्नाद्धन्त्यग्निं कुपितः कफः||६७||",
+      "english": "Heavy to digest or excessively unctuous foods, frozen or chilled items or food having cold nature or food which has qualities similar to kapha, excessive intake of food and sleeping just after the meals hamper the function of agni and simultaneously vitiates kapha",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 68,
+      "devanagari": "तस्यान्नं पच्यते दुःखं हृल्लासच्छर्द्यरोचकाः| आस्योपदेहमाधुर्यकासष्ठीवनपीनसाः||६८|| हृदयं मन्यते स्त्यानमुदरं स्तिमितं गुरु| दुष्टो मधुर उद्गारः सदनं स्त्रीष्वहर्षणम्||६९|| भिन्नामश्लेष्मसंसृष्टगुरुवर्चःप्रवर्तनम्| अकृशस्यापि दौर्बल्यमालस्यं च कफात्मके||७०||",
+      "english": "Food is digested with difficulty, nausea, vomiting and anorexia are its symptoms. The other symptoms are feeling of coated mouth and sweet taste, has cough, increased tendency to spit, pinasa (nasal discharge), feeling of heaviness in chest, feeling as if there is no movement in abdomen, heavy abdomen, eructation with foul smelling and sweet taste; patient does not feel enthusiastic and there is suppression of libido. Stools are mixed with undigested items and mucous and are heavy; although patient is not emaciated still he feels weakness and laziness [68-70]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 71,
+      "devanagari": "यश्चाग्निः पूर्वमुद्दिष्टो रोगानीके चतुर्विधः| तं चापि ग्रहणीदोषं समवर्जं प्रचक्ष्महे||७१||",
+      "english": "Four types of agni have been previously explained in Roganika Vimana. Except samagni other three types of agni contribute to the grahani dosha",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 72,
+      "devanagari": "पृथग्वातादिनिर्दिष्टहेतुलिङ्गसमागमे| त्रिदोषं निर्दिशेत्तेषां भेषजं [२४] शृण्वतः परम्||७२||",
+      "english": "Sannipataja grahani occurs by simultaneous vitiation of vata, pitta and kapha. In such conditions etiological factors, symptoms and signs are of all the three dosha appear. Hereafter treatment of grahanidosha is expounded",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 73,
+      "devanagari": "ग्रहणीमाश्रितं दोषं विदग्धाहारमूर्च्छितम्| सविष्टम्भप्रसेकार्तिविदाहारुचिगौरवैः||७३|| आमलिङ्गान्वितं दृष्ट्वा सुखोष्णेनाम्बुनोद्धरेत्| फलानां वा कषायेण पिप्पलीसर्षपैस्तथा||७४||",
+      "english": "When the doshas are located in grahani and are associated with incomplete digested food then vishtambha (constipation), excessive salivation, bodyache, burning sensation, anorexia and heaviness is felt by patient which are symptoms of ama and in such a condition vamana (emetic therapy) with lukewarm water or with decoction of madanaphala (Randia spinosa), pippali (Piper longum) and sarshapa (Brassica campestris) should be administered [73-74]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 75,
+      "devanagari": "लीनं पक्वाशयस्थं वाऽऽप्यामं स्राव्यं सदीपनैः| शरीरानुगते सामे रसे लङ्घनपाचनम्||७५||",
+      "english": "If the ama is in pakvashaya and in anutklishtha (stuck, not ready to come out) condition then stravana (increasing secretion) with deepana dravyas should be administered whereas if ama gets absorbed along with rasa dhatu and if it pervades throughout the body then langhana and pachana should be advised",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 76,
+      "devanagari": "विशुद्धामाशयायास्मै पञ्चकोलादिभिः शृतम्| दद्यात् पेयादि लघ्वन्नं पुनर्योगांश्च दीपनान्||७६||",
+      "english": "After cleansing of amashaya, liquid gruel of rice (peya) fortified with panchakola etc. drugs should be administered. Light and easy to digest food along with deepana drugs may be given",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 77,
+      "devanagari": "ज्ञात्वा तु परिपक्वामं मारुतग्रहणीगदम्| दीपनीययुतं सर्पिः पाययेताल्पशो भिषक्||७७||",
+      "english": "In patients with vataja grahani after ascertaining that ama is digested, medicated ghee starting with very minimum quantity prepared from deepaneeya gana be administered [Cha.Sa.Sutra Sthana 4/9/6]-",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 78,
+      "devanagari": "किञ्चित्सन्धुक्षिते त्वग्नौ सक्तविण्मूत्रमारुतम्| द्व्यहं त्र्यहं वा संस्नेह्य स्विन्नाभ्यक्तं निरूहयेत्||७८||",
+      "english": "As stimulation of agni is observed and still if patient finds difficulty in passing stool, urine and flatus then in such condition every two or three days niruha basti should be administered after proper snehana and swedana",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 79,
+      "devanagari": "तत एरण्डतैलेन सर्पिषा तैल्वकेन वा| सक्षारेणानिले शान्ते स्रस्तदोषं विरेचयेत्||७९||",
+      "english": "After niruha, the strasta dosha (dosha ready to come out) should be cleaned with purgative drugs like eranda taila (castor oil) or tilvaka ghrita mixed with kshara (medicine with alkaline nature)",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 80,
+      "devanagari": "शुद्धं रूक्षाशयं बद्धवर्चसं चानुवासयेत्| दीपनीयाम्लवातघ्नसिद्धातैलेन मात्रया||८०||",
+      "english": "After shodhana of intestine if rukshata and baddha (pellet-like) stools are seen then anuvasana basti with taila fortified with deepana drugs having sour and vata alleviating action may be administered",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 81,
+      "devanagari": "निरूढं च विरिक्तं च सम्यक् चैवानुवासितम्| लघ्वन्नं प्रतिसम्भुक्तं सर्पिरभ्यासयेत् पुनः||८१||",
+      "english": "After appropriate administration of niruha, virechana and anuvasana, light diet should be taken daily and ghee should be taken repeatedly",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 82,
+      "devanagari": "द्वे पञ्चमूले सरलं देवदारु सनागरम्| पिप्पलीं पिप्पलीमूलं चित्रकं हस्तिपिप्पलीम्||८२|| शणबीजं यवान् कोलन् कुलत्थान् सुषवीं तथा [२७] | पाचयेदारनालेन दध्ना सौवीरकेण वा||८३|| चतुर्भागावशेषेण पचेत्तेन घृताढकम्| स्वर्जिकायावशूकाख्यौ क्षारौ दत्त्वा च युक्तितः||८४|| सैन्धवौद्भिदसामुद्रबिडानां रोमकस्य च| ससौवर्चलपाक्यानां भागान्द्विपलिकान् पृथक्||८५|| विनीय चूर्णितान् तस्मात् पाययेत् प्रसृतं बुधः| करोत्यग्निं बलं वर्णं वातघ्नं भुक्तपाचनम्||८६|| इति दशमूलाद्यं घृतम्",
+      "english": "Boil the svarasa of two panchamoola (brihat and laghu), sarala ((trivrita) Operculina turpethum), devadaru (Cedrus deodara), nagara (Zingiber officinale), pippali (Piper longum), pippalimoola, chitraka (Plumbago zeylanica), gajapippali (Piper retofractum), sanabeeja (seeds of Crotalaria juncea), barley, kola, kulatta and susavi (Woodfordia fruticosa) with aranala, dadhimanda or sauviraka. After one fourth reductions add one adhaka (3.073 kg) of ghee and svarjikakshara and yavashukakshara as per yukti pramana i.e. either in small quantity or at the time of ghrita siddhi lakshana alongwith saindhava (rock salt), audbhida (salts derived from plants), samudra (table salt), bidha (red granular salt), romaka, sauvarchala and pakya (pakaja) types of salt in two pala quantity each (96 gm each). After preparation, it may be administered up to one prasrita i.e. 96 gm. It increases agni, strength and complexion and helps in alleviation of vata and thus digestion of food [82-86]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 87,
+      "devanagari": "त्र्यूषणत्रिफलाकल्के बिल्वमात्रे गुडात् पले| सर्पिषोऽष्टपलं पक्त्वा मात्रां मन्दानलः पिबेत्||८७|| इति त्र्यूषणाद्यं घृतम्",
+      "english": "Prepare paste of trikatu and triphala in quantity of one bilva and add one pala (48g) of jaggery and do sneha siddhi by adding eight palas (384 gm) of ghee. This medicated ghrita is indicated in mandagni i.e. low digestive power",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 88,
+      "devanagari": "पञ्चमूलाभयाव्योषपिप्पलीमूलसैन्धवैः| रास्नाक्षारद्वयाजाजीविडङ्गशटिभिर्घृतम्||८८|| शुक्तेन मातुलुङ्गस्य स्वरसेनार्द्रकस्य च| शुष्कमूलककोलाम्बुचुक्रिकादाडिमस्य च||८९|| तक्रमस्तुसुरामण्डसौवीरकतुषोदकैः| काञ्जिकेन च तत् पक्वमग्निदीप्तिकरं परम्||९०|| शूलगुल्मोदरश्वासकासानिलकफापहम्| सबीजपूरकरसं सिद्धं वा पाययेद्घृतम्||९१|| सिद्धमभ्यञ्जनार्थं च तैलमेतैः प्रयोजयेत्| एतेषामौषधानां वा पिबेच्चूर्णं सुखाम्बुना||९२|| वाते श्लेष्मावृते सामे कफे वा वायुनोद्धते| दद्याच्चूर्णं पाचनार्थमग्निसन्दीपनं परम्||९३|| इति पञ्चमूलाद्यं घृतं चूर्णं च",
+      "english": "Make paste of panchamoola (bilva, shyonaka, gambhari, patala and gambharika), abhaya, trikatu, pippalimoola, saindhava, rasna, two kshara (sarjika and yavakshara), ajaji, vidanga and sati and prepare medicated ghee with sukta, juice of matulunga and ardraka, suṣkamoolaka, kolambu, chukrika, pomengranate, butter milk, mastu (supplement liquid portion in the curd/yoghurt), suramanda (indigenous beer beverage prepared from fermented cereals) sauviraka (acidic fermented liquid obtained from wheat), tushodaka (fermented liquid using the coarse grains of barley) and kanji (fermented liquid).",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 94,
+      "devanagari": "मज्जत्यामा गुरुत्वाद्विट् पक्वा तूत्प्लवते जले| विनाऽतिद्रवसङ्घातशैत्यश्लेष्मप्रदूषणात्||९४||",
+      "english": "Sama mala (stools) sinks into water due to gurutva (heaviness) of ama whereas pakva or nirama mala floats over the water; provided the stools consistency is not watery or not very compact and if not vitiated by sheeta guna and kapha",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 95,
+      "devanagari": "परीक्ष्यैवं पुरा सामं निरामं चामदोषिणम्| विधिनोपाचरेत् सम्यक् पाचनेनेतरेण वा||९५||",
+      "english": "Patient should be evaluated for amadosha whether samata or niramta is present or not and then appropriately treated with pachana etc. treatment",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 96,
+      "devanagari": "चित्रकं पिप्पलीमूलं द्वौ क्षारौ लवणानि च| व्योषं हिङ्ग्वजमोदां च चव्यं चैकत्र चूर्णयेत्||९६|| गुटिका मातुलुङ्गस्य दाडिमस्य रसेन वा| कृता विपाचयत्यामं दीपयत्याशु चानलम्||९७|| इति चित्रकाद्या गुटिका",
+      "english": "Chitraka, pippalimoola, two kshara (yavakshara and sarjikshara), salt, trikatu, hingu, ajamoda and chavya are mixed together and trichurated with either matulunga svarasa or dadima svarasa and tablets are prepared. This chitrakadya guthi is useful for digestion of ama and stimulation of the agni [96-97]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 98,
+      "devanagari": "नागरातिविषामुस्तक्वाथः स्यादामपाचनः| मुस्तान्तकल्कः पथ्या वा नागरं चोष्णवारिणा||९८||",
+      "english": "Shunthi, ativisha and musta decoction helps in pachana of ama. Kalka (paste) of shunthi, ativisha and musta or haritaki or shunthi alongwith warm water also does ama pachana",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 99,
+      "devanagari": "देवदारुवचामुस्तनागरातिविषाभयाः| वारुण्यामासुतास्तोये कोष्णे वाऽलवणाः पिबेत्||९९|| वर्चस्यामे सशूले च पिबेद्वा दाडिमाम्बुना|",
+      "english": "Soak powder of devadaru, vacha, musta, nagara, ativisha and haritaki in varuni (fermented liquid obtained from palm trees like dates) and take with warm water without adding salt or be taken with juice of dadima in condition wherein there is colicky pain along with mucus or undigested food in stool [99-99½]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 100,
+      "devanagari": "विडेन [२९] लवणं पिष्टं बिल्वं चित्रकनागरम्||१००|| सामे वा सकफे वाते कोष्ठशूलकरे पिबेत्|",
+      "english": "Paste of bilva, chitraka and nagara should be added with vida lavana and administered in sama stool or mucus in stool and pain in abdomen due to vata aggravation",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 101,
+      "devanagari": "कलिङ्गहिङ्ग्वतिविषावचासौवर्चलाभयाः||१०१|| छर्द्यर्शोग्रन्थिशूलेषु पिबेदुष्णेन वारिणा| पथ्यासौवर्चलाजाजीचूर्णं मरिचसंयुतम्||१०२||",
+      "english": "Kalinga, hingu, ativisha, vacha, sauvarchala and haritaki with warm water is useful in vomiting, arshogranthi (analpolyp with pellet stool) and pain in abdomen. Similarly, combination of haritaki, sauvarchala and ajaji along with maricha can be used for same condition [101-102]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 103,
+      "devanagari": "अभयां पिप्पलीमूलं वचां कटुकरोहिणीम्| पाठां वत्सकबीजानि चित्रकं विश्वभेषजम्||१०३|| पिबेन्निष्क्वाथ्य चूर्णं वा कृत्वा कोष्णेन वारिणा| पित्तश्लेष्माभिभृतायां ग्रहण्यां शूलनुद्धितम्||१०४||",
+      "english": "Decoction of the haritaki, pippalimoola, vacha, katukarohineem, patha, seeds of kutaja, chitraka, vishvabheshaja (sunthi) or choorna of the above contents should be administered with warm water. It is helpful when colic pain is associated with pitta-kapha dominant grahani [103-104]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 105,
+      "devanagari": "सामे सातिविषं व्योषं लवणक्षारहिङ्गु च| निःक्वाथ्य पाययेच्चूर्णं कृत्वा वा कोष्णवारिणा||१०५||",
+      "english": "In ama condition, decoction of ativisha, trikatu, lavana, kshara (yavakshara) and hingu may be given or powders of above medicines with warm water may be administered",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 106,
+      "devanagari": "पिप्पलीं नागरं पाठां सारिवां बृहतीद्वयम्| चित्रकं कौटजं बीजं लवणान्यथ पञ्च च||१०६|| तच्चूर्णं सयवक्षारं दध्युष्णाम्बुसुरादिभिः| पिबेदग्निविवृद्ध्यर्थं कोष्ठवातहरं नरः||१०७||",
+      "english": "Choorna of pippali, nagara, patha, sariva, brihatidvayam (brihati, kantakari), chitraka, seeds of kutaja, five types of lavana, along with yavakshara, curd, hot water and different types of fermented liquids such as kanji, sauviraka etc is taken for increasing the power of agni and to eliminate the vata in abdomen [106-107]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 108,
+      "devanagari": "मरिचं कुञ्चिकाम्बष्ठावृक्षाम्लाः कुडवाः पृथक्| पलानि [३०] दश चाम्लस्य वेतसस्य पलार्धिकम्||१०८|| सौवर्चलं बिडं पाक्यं यवक्षारः ससैन्धवः| शटीपुष्करमूलानि हिङ्गु हिङ्गुशिवाटिका||१०९|| तत् सर्वमेकतः सूक्ष्मं चूर्णं कृत्वा प्रयोजयेत्| हितं वाताभिभूतायां ग्रहण्यामरुचौ तथा||११०|| इति मरिचाद्यं चूर्णम्",
+      "english": "Marichadyam choornam contains one kudava (192 gm) of maricha, kunchika, ambashtha (patha), vrikshamlah, ten pala (480 gm) of amlavetas, half pala (24 gm) each of sauvarchala, bidha, pakya, yavakshara, saindhava, sathi, pushkaramoola, hingu and hingushivatika (vamsapatri). It is useful in vata dominant grahani and anorexia [108-110]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 111,
+      "devanagari": "चतुर्णां प्रस्थमम्लानां त्र्यूषणस्य पलत्रयम्| लवणानां च चत्वारि शर्करायाः पलाष्टकम्| सञ्चूर्ण्य शाकसूपान्नरागादिष्ववचारयेत्||१११|| कासाजीर्णारुचिश्वासाहृत्पाण्ड्वामयशूलनुत्|",
+      "english": "Make powder of one prastha (768 gm) of four amla drugs, three pala (144 gm) of trikatu, four pala (192 gm) of lavana (saindhava) and eight pala (384 gm) of sugar and mix together. It is to be taken with vegetable preparations such as soup cooked food and raga for cure of cough, indigestion, anorexia, dyspnea, heart disease, anemia and pain in abdomen",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 112,
+      "devanagari": "चव्यत्वक्पिप्पलीमूलधातकीव्योषचित्रकान्||११२|| कपित्थं बिल्वमम्बष्ठां शाल्मलं हस्तिपिप्पलीम्| शिलोद्भेदं तथाऽजाजीं पिष्ट्वा बदरसम्मितम्||११३|| परिभर्ज्य घृते दध्ना यवागूं साधयेद्भिषक्| रसैः कपित्थचुक्रीकावृक्षाम्लैर्दाडिमस्य च||११४|| सर्वातिसारग्रहणीगुल्मार्शःप्लीहनाशिनी|",
+      "english": "Make paste of chavya, tvak, pippalīmūla, dhātakī, trikatu, chitraka, kapittha, bilva, pāṭhā, sālmali, gajapippalī, slōdbhēda (shilajeet) and ajājī, each taken in quantity equal to badara (about 6 gm). Fry it in ghee and prepare yavāgu by adding curd or svarasa of kapittha or chukrikā or vrikshāmla or dadima. It helps in curing all types of atisara, grahani, gulma, arsha and pleeha disease [112-114]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 115,
+      "devanagari": "पञ्चकोलकयूषश्च मूलकानां च सोषणः||११५|| स्निग्धो दाडिमतक्राम्लो जाङ्गलः संस्कृतो रसः| क्रव्यादस्वरसः शस्तो भोजनार्थे सदीपनः||११६|| तक्रारनालमद्यानि पानायारिष्ट एव च|",
+      "english": "Fortified soup with panchakola or soup of mulaka with maricha or medicated soup prepared from animals inhabiting in arid land added with ghee, dadima, takra, amla dravyas or soup of animals that eat other animals fortified with medicines having deepana qualities be given for drink.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 117,
+      "devanagari": "तक्रं तु ग्रहणीदोषे दीपनग्राहिलाघवात्||११७|| श्रेष्ठं मधुरपाकित्वान्न च पित्तं प्रकोपयेत्| कषायोष्णविकाशित्वाद्रौक्ष्याच्चैव कफे हितम्||११८|| वाते स्वाद्वम्लसान्द्रत्वात् सद्यस्कमविदाहि तत्| तस्मात् तक्रप्रयोगा ये जठराणां तथाऽर्शसाम्||११९|| विहिता ग्रहणीदोषे सर्वशस्तान् प्रयोजयेत्|",
+      "english": "Buttermilk due to its deepana, grahi (substances which increases appetite and digestive power and absorb fluid from the stool) and easy to digest actions is very useful in grahanidosha. It is madhura in vipaka therefore reduces pitta; due to kashaya (astringent) taste, ushna virya (hot potency), vikashi and ruksha guna it is useful in kapha dominated disorders and due to madhura and amla rasa, sandra guna it reduces vata. Freshly churned butter milk does not cause burning sensation; therefore, buttermilk is very useful in treatment of udara, arśa and all grahanidosha [117-119]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 120,
+      "devanagari": "यवान्यामलके पथ्या मरिचं त्रिपलंशिकम्||१२०|| लवणानि पलांशानि पञ्च चैकत्र चूर्णयेत्| तक्रे तदासुतं [३१] जातं तक्रारिष्टं पिबेन्नरः| दीपनं शोथगुल्मार्शःक्रिमिमेहोदरापहम्||१२१|| इति तक्रारिष्टः",
+      "english": "Take yavani, amalaki, haritaki and maricha each in three pala (144 gm) and pancha-lavana in one pala (48 gm) and powder together and add buttermilk to it and ferment till sour taste is obtained. This preparation called takrarishtha stimulates the digestive power and relieves sotha, gulma, arsha, krimi, prameha and udara roga [120-121]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 122,
+      "devanagari": "स्वस्थानगतमुत्क्लिष्टमग्निनिर्वापकं भिषक्| पित्तं ज्ञात्वा विरेकेण निर्हरेद्वमनेन वा||१२२||",
+      "english": "If agnimandyata is due to utklishtha (ready to come out) pitta in its own place then in such a situation virechana or vamana should be administered for removal of pitta",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 123,
+      "devanagari": "अविदाहिभिरन्नैश्च लघुभिस्तिक्तसंयुतैः| जाङ्गलानां रसैर्यूषैर्मुद्गादीनां खडैरपि||१२३|| दाडिमाम्लैः ससर्पिष्कैर्दीपनग्राहिसंयुतैः| तस्याग्निं दीपयेच्चूर्णैः सर्पिर्भिश्चापि तिक्तकैः||१२४||",
+      "english": "After proper shodhana, diet which does not cause burning sensation, which is easy to digest and added with ingredients having bitter taste should be taken. Soup of animals of arid zone, soup of cereals such as mudga, etc. and khada should be given.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 125,
+      "devanagari": "चन्दनं पद्मकोशीरं पाठां मूर्वां कुटन्नटम्| षड्ग्रन्थासारिवास्फोतासप्तपर्णाटरूषकान्||१२५|| पटोलोदुम्बराश्वत्थवटप्लक्षकपीतनान्| कटुकां रोहिणीं मुस्तं निम्बं च द्विपलांशिकम्||१२६|| द्रोणेऽपां साधयेत् पादशेषे प्रस्थं घृतात् पचेत्| किराततिक्तेन्द्रयववीरामागधिकोत्पलैः||१२७|| कल्कैरक्षसमैः पेयं तत् पित्तग्रहणीगदे| इति चन्दनाद्यं घृतम्",
+      "english": "Take two pala (96 gm) each of chandana, padmaka, usheera, patha, murva, kuthannatha (kaivarta musta), shadhgrantha (vacha), sariva, asphota (aspurmallika), saptaparna, aṭarushakana (vasa), patola, udumbara, ashvattha, vata, plaksa, kapeetana (gandha musta), kathuki, musta and nimba and prepare decoction by adding one drona (12.228 Kg) of water with 1/4th reduction. Ghrita siddhi is done adding one prastha (96 gm) of ghee to the above decoction and paste of one aksa (12 gm) each of kiratatikta, indrayava, vira, pippalī and utpala is added. This medicated ghee is known as chandanadya ghrita and is indicated in pittaja grahani [125-127]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 128,
+      "devanagari": "तिक्तकं यद्घृतं चोक्तं कौष्ठिके तच्च दापयेत्||१२८||",
+      "english": "Tikta ghrita as mentioned in Kushtha Chikitsa [Cha. Sa. Chikitsa Sthana 7/140-150] may also be prescribed in pittaja grahani",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 129,
+      "devanagari": "नागरातिविषे मुस्तं धातकीं च रसाञ्जनम्| वत्सकत्वक्फलं बिल्वं पाठां कटुकरोहिणीम्||१२९|| पिबेत् समांशं तच्चूर्णं सक्षौद्रं तण्डुलाम्बुना| पैत्तिके ग्रहणीदोषे रक्तं यच्चोपवेश्यते||१३०|| अर्शांसि च गुदे शूलं जयेच्चैव प्रवाहिकाम्| नागराद्यमिदं चूर्णं कृष्णात्रेयेण पूजितम्||१३१|| इति नागराद्यं चूर्णम्",
+      "english": "Take equal quantity of nagara, ativisha, musta, dhataki, rasanjana, bark and fruit of vatsaka, bilva, patha and katuki and powder together, is known as nagaradya churna explained by krishnatreyena. It is to be taken along with honey and tandulodaka (rice water, prepared cold) by patient suffering from paittika grahani with bloody stools, hemorrhoids, pain in anal area and dysentery. [129-131]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 132,
+      "devanagari": "भूनिम्बकटुकाव्योषमुस्तकेन्द्रयवान् समान्| द्वौ चित्रकाद्वत्सकत्वग्भागान् षोडश चूर्णयेत्||१३२|| गुडशीताम्बुना पीतं ग्रहणीदोषगुल्मनुत्| कामलाज्वरपाण्डुत्वमेहारुच्यतिसारनुत्||१३३|| इति भूनिम्बाद्यं चूर्णम्",
+      "english": "Bhunimba, kutaki, trikatu, musta and indrayava are taken in equal quantity. Two parts of chitraka and 16 parts of bark and vatsaka are taken together and powdered. The combination is called as bhunimbadya churna is advised with jaggery and cold water as anupana in grahani dosha, gulma, kamala, jwara, pandu, prameha, aruchi and atisara [132-133]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 134,
+      "devanagari": "वचामतिविषां पाठां सप्तपर्णं रसाञ्जनम्| स्योनाकोदीच्यकट्वङ्गवत्सकत्वग्दुरालभाः||१३४|| दार्वीं पर्पटकं पाठां यवानीं मधुशिग्रुकम्| पटोलपत्रं सिद्धार्थान् यूथिकां जातिपल्लवान्||१३५|| जम्ब्वाम्रबिल्वमध्यानि निम्बशाकफलानि च| तद्रोगशममन्विच्छन् भूनिम्बाद्येन योजयेत्||१३६||",
+      "english": "The combination of vacha, ativisha, patha, saptaparna, rasanjana, syonaka, udeechya, kathvanga (type of syonaka having small fruits), bark of vatsaka, duralabha, darvi, parpataka, patha, yavani, madhushigru, leaf of patola, siddhartha, yuthika, fresh new leaf of jati, seeds of jambu and amra, pulp of bilva and leaves and fruits of nimba is useful in all condition as mentioned for bhunimbadya churna [134-136]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 137,
+      "devanagari": "किराततिक्तः षड्ग्रन्था त्रायमाणा कटुत्रिकम्| चन्दनं पद्मकोशीरं दार्वीत्वक् कटुरोहिणी||१३७|| कुटजत्वक्फलं मुस्तं यवानी देवदारु च| पटोलनिम्बपत्रैलासौराष्ट्रयतिविषात्वचः||१३८|| मधुशिग्रोश्च बीजानि मूर्वा पर्पटकस्तथा| तच्चूर्णं मधुना लेह्यं पेयं मद्यैर्जलेन वा||१३९|| हृत्पाण्डुग्रहणीरोगगुल्मशूलारुचिज्वरान्| कामलां सन्निपातं च मुखरोगांश्च नाशयेत्||१४०|| इति किराताद्यं चूर्णम्",
+      "english": "Mix powder of kiratatikta, shadgrantha, trayamana, trikatu, chandana, padmaka, usheera, bark of darvi, katurohini, bark and fruit of kutaja, mushta, yavani, devadaru, patola, leaves of nimba, ela, saurashtra, ativisha, tvak, seeds of madhushigru, murva and parpataka and prescribe it as linctus prepared with honey or may be taken with water or alcoholic preparation. This preparation is known as kiratadyam churna whih cures hridaya roga, pandu, grahaniroga, gulma, shula, aruchi, jwara, kamala, sannipatika type of diarrhea and eight types of mukharoga [137-140]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 141,
+      "devanagari": "ग्रहण्यां श्लेष्मदुष्टायां वमितस्य यथाविधि| कट्वम्ललवणक्षारैस्तिक्तैश्चाग्निं विवर्धयेत्||१४१||",
+      "english": "In kaphaja grahani first administer vamana and then increase agni (digestive power) with help of drugs having katu, amla, lavana, kshara and tikta rasa",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 142,
+      "devanagari": "पलाशं चित्रकं चव्यं मातुलुङ्गं हरीतकीम्| पिप्पलीं पिप्पलीमूलं पाठां नागरधान्यकम्||१४२|| कार्षिकाण्युदकप्रस्थे पक्त्वा पादावशेषितम्| पानीयार्थं प्रयुञ्जीत यवागूं तैश्च साधयेत्||१४३||",
+      "english": "Palasha, chitraka, chavya, matulunga, haritaki pippali, pippalimoola, patha, nagara and dhanyaka are taken each in 12 gm and decoction is prepared in one 768 ml of water and reduced to one fourth. This decoction is administered as a paniya (drink) or yavagu (gruel) prepared using this decoction [142-143]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 144,
+      "devanagari": "शुष्कमूलकयूषेण कौलत्थेनाथवा पुनः| कट्वम्लक्षारपटुना लघून्यन्नानि भोजयेत्||१४४|| अम्लं चानु पिबेत्तक्रं तक्रारिष्टमथापि वा| मदिरां मध्वरिष्टं वा निगदं सीधुमेव वा||१४५||",
+      "english": "Soup of dried radish or kulatha is to be given regularly and repeatedly. Food which is easy to digest should be fortified with katu, amla, kshara and lavana rasa. Patient should take such foods which are easy to digest, along with buttermilk slightly sour or takrarishtha, madira (medicated alcoholic preparation), madhvarishtha or well prepared seedhu [144-145]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 146,
+      "devanagari": "द्रोणं मधूकपुष्पाणां विडङ्गानां ततोऽर्धतः| चित्रकस्य ततोऽर्धं स्यात्तथा भल्लातकाढकम्||१४६|| मञ्जिष्ठाष्टपलं [३२] चैव त्रिद्रोणेऽपां विपाचयेत्| द्रोणशेषं तु तच्छीतं मध्वर्धाढकसंयुतम्||१४७|| एलामृणालागुरुभिश्चन्दनेन च रूषिते| कुम्भे मासस्थितं जातमासवं तं प्रयोजयेत्||१४८|| ग्रहणीं दीपयत्येव बृंहणः [३३] कफपित्तजित्| शोथं कुष्ठं किलासं च प्रमेहांश्च प्रणाशयेत्||१४९|| इति मधूकासवः",
+      "english": "Take one drona (12.22 kg/l) flowers of madhuka, half drona (6.11 kg/l) of vidanga, chitraka half of vidanga i.e. 1/4th drona (3.05 kg/l), bhallataka one adhaka (3.073 kg) and eight pala (384 gm) of manjishtha and mix with three drona (36.66 kg/l) of water and reduce to one drona (12.22 L) and after the decoction comes to room temperature add half adhaka (1.53 kg) of honey. Keep this preparation in a pot lined with paste of ela, mrinala, agaru and chandana and store for period of one month till asava siddhi occurs. This preparation is called madhukasava and is useful in grahani, helps empowering of agni, promotes nutrition and normalizes kapha and pitta. It is indicated in shotha, kushtha, kilasa and prameha [146-149]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 150,
+      "devanagari": "मधूकपुष्पस्वरसं शृतमर्धक्षयीकृतम्| क्षौद्रपादयुतं शीतं पूर्ववत् सन्निधापयेत्||१५०|| तं पिबन् ग्रहणीदोषाञ्जयेत् सर्वान् हिताशनः| तद्वद्द्राक्षेक्षुखर्जूरस्वरसानासुतान् [३४] पिबेत्||१५१||",
+      "english": "Boil svarasa of flowers of madhuka till reduced to half the quantity. When cooled one fourth of honey is added and kept for fermentation as mentioned above. This preparation relieves all types of grahani dosha provided patient takes pathya ahara.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 152,
+      "devanagari": "प्रस्थौ दुरालभाया द्वौ पस्थमामलकस्य च| दन्तीचित्रकमुष्टी [३५] द्वे प्रत्यग्रं चाभयाशतम्||१५२|| चतुर्द्रोणेऽम्भसः पक्त्वा शीतं द्रोणावशेषितम्| सगुडद्विशतं पूतं मधुनः कुडवायुतम्||१५३|| तद्वत् प्रियङ्गोः पिप्पल्या विडङ्गानां च चूर्णितैः| कुडवैर्घृतकुम्भस्थं पक्षाज्जातं ततः पिबेत्||१५४|| ग्रहणीपाण्डुरोगार्शःकुष्ठवीसर्पमेहनुत्| स्वरवर्णकरश्चैष रक्तपित्तकफापहः||१५५|| इति दुरालभासवः",
+      "english": "Boil two prastha (1.53 kg) each of duralabha and amalaki, one mushthi each of danti and chitraka and two hundred matured fruits of haritaki in four drona (48.88 kg/l) of water and reduce to one drona (12.228 kg/l). When it comes to room temperature add two hundred pala (9600 gm) of jaggery and one kudava (192 gm) of honey as well as powder of priyangu, pippali and vidanga each in one kudava (192 gm) and keep in jar pasted with ghee on the inner wall for period of fifteen days. This preparation is known as duralabhasava and is indicated in grahani, pandu, arsha, kushtha, visarpa and prameha. It promotes voice and complexion and cures raktapitta and other kaphaja disorders [152-155]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 156,
+      "devanagari": "हरिद्रा पञ्चमूले द्वे वीरर्षभकजीवकम्| एषां [३६] पञ्चपलान् भागांश्चतुर्द्रोणेऽम्भसः पचेत्||१५६|| द्रोणशेषे रसे पूते गुडस्य द्विशतं भिषक्| चूर्णितान् कुडवार्धांशान् प्रक्षिपेच्च समाक्षिकान्||१५७|| प्रियङ्गुमुस्तमञ्जिष्ठाविडङ्गमधुकप्लवान्| लोध्रं शाबरकं चैव मासार्धस्थं पिबेत्तु तम्||१५८|| एष मूलासवः सिद्धो दीपनो रक्तपित्तजित्| आनाहकफहृद्रोगपाण्डुरोगाङ्गसादनुत्||१५९|| इति मूलासवः",
+      "english": "Boil five pala (240 gm) each of haridra, two types of panchamoola i.e. brihat and laghu panchamoola, veera (shatavari), rishabhaka, jeevaka in four drona (48.88 kg/l) of water and reduce to one drona (12.22 kg/l); to this add two hundred pala (9600 gm) of jaggery and half kudava (96 gm) of honey as well as powders of priyangu, musta, manjishtha, vidanga, madhuka, plava, and sabaraka lodhra and fermented for a fortnight. This mulasava does deepana and is effective in raktapitta, anaha, kaphaja vikara, hridroga, pandu and angasada [156-159]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 160,
+      "devanagari": "प्रास्थिकं [३७] पिप्पलीं पिष्ट्वा गुडं मध्यं बिभीतकात्| उदकप्रस्थसंयुक्तं यवपल्ले निधापयेत्||१६०|| तस्मात् पलं सुजातात्तु सलिलाञ्जलिसंयुतम्| पिबेत्पिण्डासवो ह्येष रोगानीकविनाशनः||१६१|| स्वस्थोऽप्येनं पिबेन्मासं नरः स्निग्धरसाशनः [३८] | इच्छंस्तेषामनुत्पत्तिं रोगाणां येऽत्र कीर्तिताः||१६२|| इति पिण्डासवः",
+      "english": "One prastha of pippali is mixed with jaggery and seed pulp of bibhitaki and to it one prastha of water is added and kept in a vessel covered with yava (barley) for fermentation; this is called as pindasava. One pala (48 gm) of pindasava is mixed with one anjali (192 gm) of water and is given to patient. It is helpful in earlier mentioned disorders. Even a healthy person may take this preparation for period of one month and take unctuous and liquid diet (mainly soups). It helps in prevention of genesis of disease [160-162]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 163,
+      "devanagari": "नवे पिप्पलिमध्वाक्ते कलसेऽगुरुधूपिते| मध्वाढकं जलसमं चूर्णानीमानि दापयेत्||१६३|| कुडवार्धं विडङ्गानां पिप्पल्याः कुडवं तथा| चतुर्थिकांशां त्वक्क्षीरीं केशरं मरिचानि च||१६४|| त्वगेलापत्रकशटीक्रमुकातिविषाघनान्| हरेण्वेल्वालुतेजोह्वापिप्पलीमूलचित्रकान्||१६५|| कार्षिकांस्तत् स्थितं मासमत ऊर्ध्वं प्रयोजयेत्| मन्दं सन्दपयत्यग्निं करोति विषमं समम्||१६६|| हृत्पाण्डुग्रहणीरोगकुष्ठार्शःश्वयथुज्वरान्| वातश्लेष्मामयांश्चान्यान्मध्वरिष्टो व्यपोहति||१६७|| इति मध्वरिष्टः",
+      "english": "New earthen pot should be pasted internally by pippali and honey and fumigated with aguru. One adhaka (3.073 kg) of honey and equal quantity of water should be added. To this add half kudava (1.53 kg) of powder of vidanga and one kudava (192 gm) of pippali, one fourth kudava (48 gm) of vamsha and one karsha (12 gm) each of tvak, ela, keshara, maricha, patra, sati, kramuka, ativisha, ghana (chandana), harenu, elvaluka, tejohva, pippalimoola and chitraka and fermented for period of one month and later on administered. It stimulates the power of digestion and regularizes the vishama agni. It is useful in hridroga, pandu, grahani, kushtha, arsha, shvayathu, jwara and other disorders caused by vata and kapha dosha. Thus, completes description of madhvariṣṭa [163-167]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 168,
+      "devanagari": "समूलां पिप्पलीं क्षारौ द्वौ पञ्च लवणानि च| मातुलुङ्गाभयारास्नाशटीमरिचनागरम्||१६८|| कृत्वा समांशं तच्चूर्णं पिबेत् प्रातः सुखाम्बुना| श्लेष्मिके ग्रहणीदोषे बलवर्णाग्निवर्धनम्||१६९|| एतैरेवौषधैः सिद्धं सर्पिः पेयं समारुते|",
+      "english": "Pippali, pippalimoola, two types of kshara (yavakshara, svarjikakshara), five types of lavana, matulunga, haritaki, rasna, saṭi, maricha and nagara are taken in equal quantity and powdered and administered with warm water early in the morning. It cures kaphaja grahani dosha and improves bala, complexion and agni.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 170,
+      "devanagari": "गौल्मिके षट्पलं प्रोक्तं भल्लातकघृतं च यत्||१७०||",
+      "english": "Satpala ghrita [Cha.Sa. Chikitsa Sthana. 5/147-148] and bhallataka ghrita [Cha.Sa.Chikitsa Sthana 5/143-146] as explained in Gulma Chikitsa may also be administered",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 171,
+      "devanagari": "बिडं कालोत्थलवणं सर्जिकायवशूकजम्| सप्तलां कण्टकारीं च चित्रकं चेति दाहयेत्||१७१|| सप्तकृत्वः स्रुतस्यास्य क्षारस्य [३९] द्व्याढकेन तु| आढकं सर्पिषः पक्त्वा पिबेदग्निविवर्धनम्||१७२|| इति क्षारघृत",
+      "english": "Bida lavana, kalottha lavana, sarjikakshara, yavakshara, saptala, kanthakari and chitraka are burned together and later on mixed in water and filtered seven times. One adhaka (3.073 kg) of this kshara is added to one adhaka (3.073 kg) of ghrita and sneha siddhi is done. This ksharaghrita is indicated for increasing the digestive power [171-172]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 173,
+      "devanagari": "समूलां पिप्पलीं पाठां चव्येन्द्रयवनागरम्| चित्रकातिविषे हिङ्गु श्वदंष्ट्रां कटुरोहिणीम्||१७३|| वचां च कार्षिकं पञ्चलवणानां पलानि च| दध्नः प्रस्थद्वये तैलसर्पिषोः कुडवद्वये||१७४|| खण्डीकृतानि निष्क्वाथ्य शनैरन्तर्गते रसे| अन्तर्धूमं ततो दग्धवा चूर्णं कृत्वा घृताप्लुतम्||१७५|| पिबेत् पाणितलं तस्मिञ्जीर्णे स्यान्मधुराशनः| वातश्लेष्मामयान्सर्वान्हन्याद्विषगरांश्च सः||१७६||",
+      "english": "Pippali, pippalimoola, patha, chavya, indrayava, nagara, chitraka, ativisha, hingu, svadamishthra (gokshura), katurohini and vacha are taken in one karsha (12 gm) quantity each. To this one pala (12 gm) of panchalavana is added along with two prastha of curds and two kudava (384 gm) of taila and ghrita. The combination is boiled till water is completely evaporated. It is again burned by antaradhooma method and the end product is powdered and mixed with ghee its dosage is one panitala and when medicine gets digested patient is advised to take sweet diet. It is indicated in vata kaphaja disorders and in visha and gara visha [173-176]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 177,
+      "devanagari": "भल्लातकं त्रिकटुकं त्रिफलां लवणत्रयम्| अन्तर्धूमं द्विपलिकं गोपुरीषाग्निना दहेत्||१७७|| स क्षारः सर्पिषा पीतो भोज्ये वाऽप्यवचूर्णितः| हृत्पाण्डुग्रहणीदोषगुल्मोदावर्तशूलनुत्||१७८||",
+      "english": "Bhallataka, trikaṭu, triphala, three types of lavana (saindhva, sauvarchala and bida) should be burned by antaradhooma method with help of cow dung cakes. This kshara should be administered with ghee or by sprinkling over prepared food.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 179,
+      "devanagari": "दुरालभां करञ्जौ द्वौ सप्तपर्णं सवत्सकम्| षड्ग्रन्थां मदनं मूर्वां पाठामारग्वधं तथा||१७९|| गोमूत्रेण समांशानि कृत्वा चूर्णानि दाहयेत्| दग्ध्वा च तं पिबेत् क्षारं ग्रहणीबलवर्धनम्||१८०||",
+      "english": "Duralabha, two types of karanja (karanja, lata karanja), saptaparna, vatsaka, sadgrantha (vacha), madanaphala, murva, patha and aragvadha should be mixed with equal quantity of gomutra and boiled and prepared as per kshara kalpana. This kshara increases bala of grahani i.e. of agni [179-180]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 181,
+      "devanagari": "भूनिम्बं रोहिणीं तिक्तां पटोलं निम्बपर्पटम्| दहेन्माहिषमूत्रेण क्षार एषोऽग्निवर्धनः||१८१||",
+      "english": "Bhunimba, kutaki, tikta, patola, nimba and parpataka are burned with buffalo urine and prepared as per kshara kalpana. Such kshara promotes agnibala",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 182,
+      "devanagari": "द्वे हरिद्रे वचा कुष्ठं चित्रकः कटुरोहिणी| मुस्तं च बस्तमूत्रेण दहेत् क्षारोऽग्निवर्धनः||१८२||",
+      "english": "Two types of haridra (haridra and daruharidra), vacha, kuṣṭha, chitraka, kutaki and musta after mixing in goat's urine are burned and kshara is prepared as per kshara kalpana. It helps in increasing agnibala",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 183,
+      "devanagari": "चतुष्पलं सुधाकाण्डात्त्रिपलं लवणत्रयात्| वार्ताकीकुडवं चार्कादष्टौ द्वे चित्रकात् पले||१८३|| दग्धानि वार्ताकुरसे गुटिका भोजनोत्तराः| भुक्तं भुक्तं पचन्त्याशु कासश्वासार्शसां हिताः||१८४|| विसूचिकाप्रतिश्यायहृद्रोगशमनाश्च ताः| इत्येषा क्षारगुटिका कृष्णात्रेयेण कीर्तिता||१८५|| इति क्षारगुडिका",
+      "english": "Four pala (192 gm) of stems of sudha, three pala (144 gm) of three types of lavana i.e. one pala (48 gm) each of saindhava, sauvarchala and bida, one kudava (192 gm) of vartaki, eight pala (388 gm) of arka and two pala (96 gm) of chitraka are burned and the kshara thus prepared is triturated with svarasa of vartaku and pills are prepared. Its administration after food helps in quick digestion and useful in kasa, shvasa, arsha, vishuchika, pratishyaya and hridroga. This preparation is called ksharagudika and is propounded by krishnatre [183-185]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 186,
+      "devanagari": "वत्सकातिविषे पाठां दुःस्पर्शां हिङ्गु चित्रकम्| चूर्णीकृत्य पलाशाग्रक्षारे मूत्रस्रुते पचेत्||१८६|| आयसे भाजने सान्द्रात्तस्मात् [४०] कोलं सुखाम्बुना| मद्यैर्वा ग्रहणीदोषशोथार्शःपाण्डुमान् पिबेत्||१८७|| इति चतुर्थक्षारः",
+      "english": "Vatsaka, ativisha, patha, duhasparsha, hingu and chitraka should be powdered together and mixed with palashagrakshara. It is cooked in cow’s urine in an iron pan till it becomes semisolid. Its dosage is one kola (6 gm) to be taken with lukewarm water or with madya (medicated alcohol). It is indicated in grahanidosha, shotha, arsha and pandu. The preparation is known as chaturtha kshara [186-187]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 188,
+      "devanagari": "त्रिफलां कटभीं चव्यं बिल्वमध्यमयोरजः| रोहिणीं कटुकां मुस्तं कुष्ठं पाठां च हिङ्गु च||१८८|| मधुकं मुष्ककयवक्षारौ त्रिकटुकं वचाम्| विडङ्गं पिप्पलीमूलं स्वर्जिकां निम्बचित्रकौ||१८९|| मूर्वाजमोदेन्द्रयवान् गुडूचीं देवदारु च| कार्षिकं लवणानां च पञ्चानां पलिकान्पृथक्||१९०|| भागान् दध्नि त्रिकुडवे घृततैलेन मूर्च्छितम्| अन्तर्धूमं शनैर्दग्ध्वा तस्मात् पाणितलं पिबेत्||१९१|| सर्पिषा कफवातार्शोग्रहणीपाण्डुरोगवान्| प्लीहमूत्रग्रहश्वासहिक्काकासक्रिमिज्वरान्||१९२|| शोषातिसारौ श्वयथुं प्रमेहानाहहृद्ग्रहान्| हन्यात् सर्वविषं [४१] चैव क्षारोऽग्निजननो वरः||१९३|| जीर्णे रसैर्वा मधुरैरश्नीयात् पयसाऽपि वाइति पञ्चमक्षारः",
+      "english": "Triphala, kaṭabhi, chavya, pulp of bilva, powder of ayoraja (mandura), katutki, musta, kushtha, patha, hingu, madhuka, kshara of muskaka and yavakshara, trikatu, vacha, vidanga, pippalimoola, svarjikakshara, nimba, chitraka, murva, ajamoda, indrayava, guḍuchi and devadaru are taken in one karsha (12 gm) quantity and one pala each of five salts are taken. All are mixed with three kudavas (576 gm) of dadhi, ghrita and taila. The mixture is burned by antardhooma method. One panitala is the dose which is given with ghee. It is indicated in kapha and vataja arsha, grahani, pandu, pleeha, mutragraha, svasa, hikka, kasa, krimi, jwara, sosha, atisara, sotha, prameha, anaha, hridgraha and in all types of toxicity.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 194,
+      "devanagari": "त्रिदोषे विधिविद्वैद्यः पञ्च कर्माणि कारयेत्||१९४|| घृतक्षारासवारिष्टान् दद्याच्चाग्निविवर्धनान्| क्रिया या चानिलादीनां निर्दिष्टा ग्रहणीं प्रति||१९५|| व्यत्यासात्तां समस्तां वा कुर्याद्दोषविशेषवित्|",
+      "english": "In tridoshaja grahani, Panchakarma should be carried out as per predominance of dosha. Various ghee, kshara, asava and arishtha preparation useful in stimulation of agni should be administered.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 196,
+      "devanagari": "स्नेहनं स्वेदनं शुद्धिर्लङ्घनं दीपनं च यत्||१९६|| चूर्णानि लवणक्षारमध्वरिष्टसुरासवाः| विविधास्तक्रयोगाश्च दीपनानां च सर्पिषाम्||१९७|| ग्रहणीरोगिभिः सेव्याः",
+      "english": "Snehana, swedana, shodhana, langhana, deepana, various powder preparation of lavana, kshara, madhvarishtha, surasava, various takra preparation, deepaniya ghrita are to be prescribed to the grahanidosha patient [196-197]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 198,
+      "devanagari": "क्रियां चावस्थिकीं शृणु| ष्ठीवनं श्लैष्मिके रूक्षं दीपनं तिक्तसंयुतम्||१९८||",
+      "english": "Henceforth treatment as per condition is being mentioned.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 199,
+      "devanagari": "सकृद्रूक्षं सकृत्स्निग्धं कृशे बहुकफे हितम्| परीक्ष्यामं शरीरस्य दीपनं स्नेहसंयुतम्||१९९||",
+      "english": "If patient is weak, but kapha is excessive then alternately ununctous and unctuous therapies should be administered repeatedly. After complete examination; if pachana of ama has taken place than administer ghee fortified by deepaniya medicines",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 200,
+      "devanagari": "दीपनं बहुपित्तस्य तिक्तं मधुरसंयुतम्| बहुवातस्य तु स्नेहलवणाम्लयुतं हितम्||२००||",
+      "english": "If pitta is aggravated then deepana drugs having bitter taste along with medicines having sweet taste should be administered whereas if vata is aggravated then deepaniya drugs along with sneha, lavana and amla dominated drugs should be administered",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 201,
+      "devanagari": "सन्धुक्षति तथा वह्निरेषां विधिवदिन्धनैः| स्नेहमेव परं विद्याद्दुर्बलानलदीपनम्||२०१||",
+      "english": "Proper management as mentioned in earlier verses stimulates the agni (digestive power). Sneha is the best among the deepana dravya which helps in stimulating the inefficient agni",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 202,
+      "devanagari": "नालं स्नेहसमिद्धस्य शमायान्नं सुगुर्वपि| मन्दाग्निरविपक्वं तु पुरीषं योऽतिसार्यते||२०२|| दीपनीयौषधैर्युक्तां घृतमात्रां पिबेत्तु सः| तया समानः पवनः प्रसन्नो [४२] मार्गमास्थितः||२०३|| अग्नेः समीपचारित्वादाशु प्रकुरुते बलम्|",
+      "english": "If the patient has inefficient digestive power and voids undigested food in excess in stools or frequency of motions is more, then appropriate quantity of ghrita fortified by deepana medicines should again be given. Thus, samana vata is regularized and moves in its normal tract. As samana vata is associated with agni it instantaneously promotes the strength of agni.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 204,
+      "devanagari": "काठिन्याद्यः पुरीषं तु कृच्छ्रान्मुञ्चति मानवः||२०४|| सघृतं लवणैर्युक्तं नरोऽन्नावग्रहं पिबेत्|",
+      "english": "If patient finds difficulty in evacuation of stools due to hardness in stools then salt mixed ghrita should be administered in between the food.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 205,
+      "devanagari": "रौक्ष्यान्मन्दे पिबेत्सर्पिस्तैलं वा दीपनैर्युतम्||२०५||",
+      "english": "If agni is suppressed due to ruksha guna then either ghrita or taila fortified with deepaniya drugs should be administered",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 206,
+      "devanagari": "अतिस्नेहात्तु मन्देऽग्नौ चूर्णारिष्टासवा हिताः| भिन्ने गुदोपलेपात्तु मले तैलसुरासवाः||२०६||",
+      "english": "If excessive intake of sneha is cause for agnimandya then powder preparation, arishta asava as mentioned earlier are beneficial; whereas if anal area gets adhered by unformed stools then taila, sura and asava preparation should be administered",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 207,
+      "devanagari": "उदावर्तात्तु मन्देऽग्नौ निरूहाः स्नेहबस्तयः| दोषवृद्ध्या तु मन्देऽग्नौ शुद्धो दोषविधिं चरेत्||२०७||",
+      "english": "If udavarta (mis-peristalsis) is responsible for suppression of agni then niruha and sneha basti should be administered; whereas if dosha vriddhi is the cause for suppression of agni then shodhana as per dosha is indicated",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 208,
+      "devanagari": "व्याधियुक्तस्य मन्दे तु सर्पिरेवाग्निदीपनम्| उपवासाच्च मन्देऽग्नौ यवागूभिः पिबेद्घृतम्||२०८|| अन्नावपीडितं बल्यं दीपनं बृंहणं च तत्|",
+      "english": "If suppression of agni has taken place due to diseases than ghrita is best for agni deepana but if fasting is the causes of agni suppression than yavagu (gruel) along with ghrita should be taken. Ghrita when taken in between the meal, it increases the strength, stimulates the digestion and nourishes the body",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 209,
+      "devanagari": "दीर्घकालप्रसङ्गात्तु क्षामक्षीणकृशान्नरान्||२०९|| प्रसहानां रसैः साम्लैर्भोजयेत् पिशिताशिनाम्| लघु, तीक्ष्णोष्णशोधित्वाद्दीपयन्त्याशु तेऽनलम्||२१०|| मांसोपचितमांसत्वात्तथाऽऽशुतरबृंहणाः|",
+      "english": "If agnimandya has been chronic and patient has become indolent, weak and emaciated then soup of prasaha group of animals (animals who snatch their food) fortified with amla drugs is advised. As this meat soups are light for digestion having penetrating, hot, purifying qualities stimulates the agni. Further as the animals feed on other animals their meat mamsa is well nourished and compact therefore causes quick nourishment [209-210]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 211,
+      "devanagari": "नाभोजनेन कायाग्निर्दीप्यते नातिभोजनात्||२११|| यथा निरिन्धनो वह्निरल्पो वाऽतीन्धनावृतः|",
+      "english": "Fasting or over eating does not stimulate agni, as like fire in environment is extinguished if there is no fuel supply or if excessive fuel covers the agni.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 212,
+      "devanagari": "स्नेहान्नविधिभिश्चित्रैश्चूर्णारिष्टसुरासवैः  ||२१२|| सम्यक्प्रयुक्तैर्भिषजा बलमग्नेः प्रवर्धते| यथा हि सारदार्वग्निः स्थिरः सन्तिष्ठते चिरम्||२१३||",
+      "english": "Proper intake of sneha, followed by eating proper food preparations as well as appropriate use of various churna, arishtha, sura and asava along with proper medication as per condition, enhances the power of agni similar to the environmental fire which remains stable for long duration when good hard wood catches fire [212-213]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 214,
+      "devanagari": "स्नेहान्नविधिभिस्तद्वदन्तरग्निर्भवेत् स्थिरः| हितं जीर्णे मितं चाश्नंश्चिरमारोग्यमश्नुते||२१४|| अवैषम्येण धातूनामग्निवृद्धौ यतेत ना| समैर्दोषैः समो मध्ये देहस्योष्माऽग्निसंस्थितः||२१५|| पचत्यन्नं तदारोग्यपुष्ट्यायुर्बलवृद्धये| दोषैर्मन्दोऽतिवृद्धो वा विषमैर्जनयेद्गदान्||२१६|| वाच्यं मन्दस्य तत्रोक्तमतिवृद्धस्य वक्ष्यते|",
+      "english": "Intake of food mixed with sneha and as per dietetic rules and regulation stabilizes the digestive power.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 217,
+      "devanagari": "नरे क्षीणकफे पित्तं कुपितं मारुतानुगम्||२१७|| स्वोष्मणा पावकस्थाने बलमग्नेः प्रयच्छति| तदा लब्धबलो देहे विरूक्षे सानिलोऽनलः||२१८|| परिभूय पचत्यन्नं तैक्ष्ण्यादाशु मुहुर्मुहुः| पक्त्वाऽन्नं स ततो धातूञ्छोणितादीन् पचत्यपि||२१९||",
+      "english": "Person having diminished kapha, aggravated pitta and associated vata leads to increase in the ushma of agni resulting in enhancing the capacity and power of agni. In such patient if the body is already undernourished, vata increases which further strengths the agni wherein both, together with help of tikshna guna digests the food even if taken frequently. After digestion of food, the increased agni starts digesting rakta, etc dhatus also [217-219]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 220,
+      "devanagari": "ततो दौर्बल्यमातङ्कान्मृत्युं चोपनयेन्नरम्| भुक्तेऽन्ने लभते शान्तिं जीर्णमात्रे प्रताम्यति||२२०|| तृट्श्वासदाहमूर्च्छाद्या व्याधयोऽत्यग्निसम्भवाः| तमत्यग्निं गुरुस्निग्धशीतैर्मधुरविज्जलैः||२२१|| अन्नपानैर्नयेच्छान्तिं दीप्तमग्निमिवाम्बुभिः| मुहुर्मुहुरजीर्णेऽपि भोज्यान्यस्योपहारयेत्||२२२|| निरिन्धनोऽन्तरं लब्ध्वा यथैनं न विपादयेत्|",
+      "english": "Consequently, the patient becomes weak and death may occur due to disease. The patient feels better on consuming the food but feels worn out along with blackouts when food is digested. Morbid thirst, dyspnea, burning sensation, fainting etc are observed in disease caused due to atyagni.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 223,
+      "devanagari": "पायसं कृशरां स्निग्धं पैष्टिकं गुडवैकृतम्||२२३|| अद्यात्तथौदकानूपपिशितानि भृतानि च| मत्स्यान्विशेषतः श्लक्ष्णान्स्थिरतोयचरांस्तथा||२२४|| आविकं च भृतं मांसमद्यादत्यग्निनाशनम् [४६] |",
+      "english": "Payasa (milk pudding), krishara (thick gruel prepared of rice and lentils), snigdha (unctuous), paiṣṭika (resembling flour paste), various jaggery products, meat of aquatic animals or marshy area especially fish which is mainly in smooth (not salty) and stable water and roasted meat of sheep may be given to pacify the atyagni [223-224]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 225,
+      "devanagari": "यवागूं समधूच्छिष्टां घृतं वा क्षुधितः पिबेत्||२२५|| गोधूमचूर्णमन्थं वा व्यधयित्वा सिरां पिबेत्| पयो वा शर्करासर्पिर्जीवनीयौषधैः शृतम्||२२६||",
+      "english": "Yavagu (thick gruel) mixed with bee wax or ghrita should be given whenever patient feels hungry. Mantha prepared from wheat flour or venesection may be advised. Milk medicated with jeevaniya group of drugs along with sugar and ghrita may be given [225-226]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 227,
+      "devanagari": "फलानां तैलयोनीनामुत्क्रुञ्चाश्च [४७] सशर्कराः| मार्दवं जनयन्त्यग्नेः स्निग्धा मांसरसास्तथा||२२७||",
+      "english": "Paste of fruits, substances containing oil like tila (sesame seeds) with sugar and meat soup with ghee pacifies the agni",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 228,
+      "devanagari": "पिबेच्छीताम्बुना सर्पिर्मधूच्छिष्टेन संयुतम्| गोधूमचूर्णं पयसा ससर्पिष्कं पिबेन्नरः||२२८|| आनूपरससिद्धान् वा त्रीन् स्नेहांस्तैलवर्जितान्| पयसा सम्मितं [४८] चापि घनं त्रिस्नेहसंयुतम्||२२९|| नारिस्तन्येन संयुक्तां पिबेदौदुम्बरीं त्वचम्| ताभ्यां वा पायसं सिद्धमद्यादत्यग्निशान्तये||२३०||",
+      "english": "The patient should take ghrita with beeswax along with cold water as anupana. Patient may take wheat flour with milk and ghee.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 231,
+      "devanagari": "श्यामात्रिवृद्विपक्वं वा पयो दद्याद्विरेचनम्| असकृत् पित्तशान्त्यर्थं पायसप्रतिभोजनम्||२३१|| प्रसमीक्ष्य भिषक् प्राज्ञस्तस्मै दद्याद्विधानवित्|",
+      "english": "Milk medicated with syama and trivritta may be advised for virechana for alleviating the pitta followed by diet of milk pudding. Expert physician should follow the line of treatment after proper examination of patient",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 232,
+      "devanagari": "यत्किञ्चिन्मधुरं मेद्यं श्लेष्मलं गुरुभोजनम्||२३२|| सर्वं तदत्यग्निहितं भुक्त्वा प्रस्वपनं दिवा| मेद्यान्यन्नानि योऽत्यग्नावप्रतान्तः [४९] समश्नुते||२३३|| न तन्निमित्तं व्यसनं लभते पुष्टिमेव च| कफे वृद्धे जिते पित्ते मारुते चानलः समः||२३४||",
+      "english": "Foods which are sweet in taste, fatty, increases kapha and heavy to digest should be given. All food items are good for atyagni and sleeping after meals during day time is beneficial in atyagni. Patient who takes fatty diet even though he is not hungry does not succumb to death. If he is suffering from atyagni on the other hand such diet pattern is nutritional. Whenever due to medication and diet, kapha is increased; it subdues pitta and vata and normalizes the agni.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 235,
+      "devanagari": "भवन्ति चात्र- पथ्यापथ्यमिहैकत्र भुक्तं समशनं मतम्||२३५|| विषमं बहु वाऽल्पं वाऽप्यप्राप्तातीतकालयोः| भुक्तं पूर्वान्नशेषे तु पुनरध्यशनं मतम्||२३६|| त्रीण्यप्येतानि मृत्युं वा घोरान् व्याधीन्सृजन्ति वा|",
+      "english": "Taking of wholesome and unwholesome foods together in diet is known as samashana.",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 237,
+      "devanagari": "प्रातराशे त्वजीर्णेऽपि सायमाशो न दुष्यति||२३७|| दिवा प्रबुध्यतेऽर्केण हृदयं पुण्डरीकवत्| तस्मिन्विबुद्धे स्रोतांसि स्फुटत्वं यान्ति सर्वशः||२३८|| व्यायामाच्च विहाराच्च विक्षिप्तत्वाच्च चेतसः| न क्लेदमुपगच्छन्ति दिवा तेनास्य धातवः||२३९||",
+      "english": "If morning eaten food is undigested and still if anyone takes evening food it may not be more vitiative since in day time all the srotas (channels) are dilated and heart is active similar to the lotus which blossoms with sunrise. During daytime, exercise, other physical and mental activities (cause heart to pump blood properly to) prevent the genesis of kleda (excess moisture) in various dhatus [237-239]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 240,
+      "devanagari": "अक्लिन्नेष्वन्नमासिक्तमन्यत्तेषु न दुष्यति| अविदग्ध इव क्षीरे क्षीरमन्यद्विमिश्रितम्||२४०|| नैव दूष्यति तेनैव समं सम्पद्यते यथा|",
+      "english": "As unspoiled milk when mixed with fresh milk, the mixture does not get spoiled and will get uniformly mixed, so is the condition when in daytime previously eaten food although not digested still a person can digest another meal",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 241,
+      "devanagari": "रात्रौ तु हृदये म्लाने संवृतेष्वयनेषु च| यान्ति कोष्ठे परिक्लेदं संवृते देहधातवः||२४१|| क्लिन्नेष्वन्यदपक्वेषु तेष्वासिक्तं प्रदुष्यति| विदग्धेषु पयःस्वन्यत् पयस्तप्तमिवार्पितम्||२४२|| नैशेष्वाहारजातेषु नाविपक्वेषु बुद्धिमान्| तस्मादन्यत्समश्नीयात्पालयिष्यन्बलायुषी||२४३||",
+      "english": "In the night, the channels are closed, so is the heart which functions at slow rate as demand is less, the apakva ahara rasa increases in viscosity; thus ama adheres to the dhatus and if another food is taken the indigestion causes more apakva ahara rasa causing disease. The condition resembles, wherein uncooked milk mixed with warm milk gets spoiled. Therefore, a wise person should not take meals if food taken at night is not digested; this will surely effect strength and life of a person [241-243]",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 244,
+      "devanagari": "तत्र श्लोकाः- अन्तरग्निगुणा देहं यथा धारयते च सः| यथाऽन्नं पच्यते यांश्च यथाऽऽहारः करोत्यपि||२४४|| येऽग्नयो यांश्च पुष्यन्ति यावन्तो ये पचन्ति यान्| रसादीनां क्रमोत्पत्तिर्मलानां तेभ्य एव च||२४५|| वृष्याणामाशुकृद्धेतुर्धातुकालोद्भवक्रमः| रोगैकदेशकृद्धेतुरन्तरग्निर्यथाऽधिकः||२४६|| प्रदुष्यति यथा दुष्टो यान् रोगाञ्जनयत्यपि| ग्रहणी या यथा [५३] यच्च ग्रहणीदोषलक्षणम्||२४७|| पूर्वरूपं पृथक् चैव व्यञ्जनं सचिकित्सितम्| चतुर्विधस्य निर्दिष्टं तथा चावस्थिकी क्रिया||२४८|| जायते च यथाऽत्यग्निर्यच्च तस्य चिकित्सितम्| उक्तवानिह तत् सर्वं ग्रहणीदोषके मुनिः||२४९||",
+      "english": "To conclude, this chapter has addressed the following points:",
+      "section": "Digestive disorders"
+    },
+    {
+      "verseNumber": 15,
+      "devanagari": "इत्यग्निवेशकृते तन्त्रेऽप्राप्ते दृढबलसम्पूरिते चिकित्सास्थाने ग्रहणीचिकित्सितं नाम पञ्चदशोऽध्यायः||१५||",
+      "english": "Herewith, fifteenth chapter related to Grahani Chikitsa which was unavailable as part of Chikitsa Sthana of Agnivesha Tantra supplemented by Dridhabala has been completed (15).",
+      "section": "Digestive disorders"
+    }
+  ],
+  "tattvaVimarsha": "Grahani Chikitsa is one of the most important chapters of this compendium because most of the diseases originate from disorders of digestion. This chapter is described after arsha roga (hemorrhoids) because pathophysiology of arsha influences agni and before Panduroga Chikitsa because grahani roga influences pandu roga. The initial portion of this chapter discusses the details of the physiological process of digestion and metabolism in human body. Agni, being the fundamental factor in maintaining health and in producing diseases, has been described in detail. The chapter begins with explanation of importance of normally functioning agni and then goes on to explain the various aspects of digestion, metabolism and tissue nourishment.\n\nDifferent theories of tissue nourishment as explained by the commentators play a crucial role in the entire process. The concept of upadhatu and dhatumala has also been dealt with. These descriptions are followed by the pathophysiology of grahanidosha syndrome and its management. This chapter underscores that the knowledge of physiology is crucial in understanding the pathophysiology and therapeutics of a disease.\n\nProtection of agni is very essential in treatment of all diseases.[Chakrapani,Cha.Sa.Chikitsa Sthana 14/244-246 ]Arsha, atisara and grahanidosha are said to be paraspara hetu which means one disease becomes cause for another disease[Cha.Sa. Chikitsa Sthana 14/244] e.g. in patients with chronic colitis, intestinal polyps are seen, in patients suffering from diarrhea colitis is observed. Therefore, one finds interrelation between these disorders and as explained earlier, special precaution should be taken with respect to agni bala.\n\nCertain drugs like chitraka (Plumbago zeylanica), pippali (Piper longum), pippalimula (root of Piper longum), shunthi (Zingiber officinale), nagakesara, haridra, danti, duralabha, haritaki etc have been used in combinations with other drugs for the treatment of arsha considering the concept of agnibala vriddhi and vata anulomanam (facilitating passage of vata) and the same drugs have been used in grahani chikitsa with the same concept. Charak explains that all the above three diseases are caused by agnimandya and if increase in agni is done then relief in the disease takes place. [Chakrapani Cha.Sa.Chikitsa Sthana 14/244-246]\n\nFurther, vata is said to be agnisakha i.e. agnibala depends on vata. Vatakshaya or prakopa results in agnimandya. Therefore, anna, pana and aushadha which bring about vata anulomana are very useful in treatment of diseases like arsha and grahani dosha.\n\nVata anulomanam means to facilitate the gati (motion) of vata downwards to anus. Among five types of vata, samana and apana have major role in diseases like arsha, atisara and grahanidosha. Obstruction to movement of vata (avarudha gati) or diarrhea (atisaraṇa) leads to agni kshaya. Avarudha gati is the cause for vibandha (constipation), malavibandha (obstruction to feces) along with pravahana (urge to defecate) which increases the intra-lumen pressure leading to incompetency of valves in rectal veins leading to their varicosity which causes hemorrhoids where as atisarana (diarrhea) causes increased motility of intestine. Hence vata anulomanam should not be understood as virechana or laxation but regularization of vata gati so that there is no avarodha or atisarana. The same concept of vata anulomana is also mentioned in Grahani Chikitsa.[Cha.Sa. Chikitsa Sthana 14/247]\n\nTherefore, the line of treatment used in arsha with regard to agni bala and vata anulomanam is basically similar to that of grahanidosha hence Charak has explained Grahani Chikitsa after Arsha Chikitsa.[Chakrapani Cha.Sa.Chikitsa Sthana15/1] Charak could have restricted the name of chapter to Grahani Chikitsa i.e. treatment of the avayava grahani whereas he has increased the scope of chapter by using the word grahanidosha.[Chakrapani, Cha.Sa. Chikitsa Sthana 15/1].\n\nThere is always an inter-relationship between avayava (organ) and avayavi (part of organ) or ashraya(seat) and ashrayi (seated). Either of the one has an impact on the other, hence if grahaniavayava is in normal state then agni the avayavi functions normally and vice versa also holds true, whereas if dusti of grahani takes place agni vaishamyata (imbalance) is seen e.g. ileitis, wherein digestion is hampered. Grahani is the seat for jatharagni. [Cha.Sa.Chikitsa Sthana 15 /56] Agni is responsible for ayu (longevity of life), varna (complexion), bala (strength), swasthya (health), utsaha (enthusiasm), upachaya (proper metabolism), prabha (glow) and oja (core energy). Prakrita agni (normal digestive power) is essential for long and healthy life while, vitiated agni is responsible for roga avastha(disease).[Cha. Sa. Chikitsa Sthana 15/3-4]\n\nIn this chapter, Charak describes formation of body tissues in detail with the role of ahara which is supplied continuously to maintain homeostasis. Vyana vata is promoter of rasa raktadi circulation.[ Cha. Sa. Chikitsa Sthana 15/36] It transports rasa raktadi drava dhatu throughout body continuously and as per metabolic demand. This explanation shows that closed circulation in human was known to Charak.\n\nGrahani is prime place where digestion and absorption of ahara rasa takes place. Ahara rasa provides nutrition for the rasadi sapta dhatu, along-with three sharirika dosha and three manasika dosha. Nourishment of sattva, raja and tama is influenced by sattvika, rajasika and tamasika ahara. Tamasika and rajasika ahara suppresses sattva guna thereby causing alpa sattva in individual, a common predisposing factor of psychiatric disorders for e.g. alpa sattva as mentioned in unmada [Cha.Sa Chikitsa Sthana 9/5] In vataja grahanivyadhishanka (feeling of suffering from disease) manifests in patients with alpa sattva.\n\nHomeostasis at cellular level and gross level is maintained by vata, pitta and kapha in which digestive and metabolic contributions are due to agni. This chapter has been dedicated to agni to understand the manner in which it gets vitiated by dosha and accordingly the line of treatment for the agni dosha is explained. As the functions of agni take place in grahani hence disease related to grahani has been given the name.\n\nSecondly, pandu roga is due to alpata of raktaposhaka sara bhaga [Chakrapani, Cha. Sa. Chikitsa Sthana 16/3-7] and, one of the main causes of this alpata is mal-digestion and mal-absorption which takes place in grahani. It is well known fact, that various contributory factors for blood formation have their absorption in gastrointestinal tract such as folic acid, vitamin B12, iron, etc which if not absorbed causes anemia this is the reason why Charak has placed this chapter in between arsha and pandu roga.",
+  "vidhiVimarsha": "Grahani Chikitsa is one of the most important chapters of this compendium because most of the diseases originate from disorders of digestion. This chapter is described after arsha roga (hemorrhoids) because pathophysiology of arsha influences agni and before Panduroga Chikitsa because grahani roga influences pandu roga. The initial portion of this chapter discusses the details of the physiological process of digestion and metabolism in human body. Agni, being the fundamental factor in maintaining health and in producing diseases, has been described in detail. The chapter begins with explanation of importance of normally functioning agni and then goes on to explain the various aspects of digestion, metabolism and tissue nourishment.\n\nDifferent theories of tissue nourishment as explained by the commentators play a crucial role in the entire process. The concept of upadhatu and dhatumala has also been dealt with. These descriptions are followed by the pathophysiology of grahanidosha syndrome and its management. This chapter underscores that the knowledge of physiology is crucial in understanding the pathophysiology and therapeutics of a disease.\n\nProtection of agni is very essential in treatment of all diseases.[Chakrapani,Cha.Sa.Chikitsa Sthana 14/244-246 ]Arsha, atisara and grahanidosha are said to be paraspara hetu which means one disease becomes cause for another disease[Cha.Sa. Chikitsa Sthana 14/244] e.g. in patients with chronic colitis, intestinal polyps are seen, in patients suffering from diarrhea colitis is observed. Therefore, one finds interrelation between these disorders and as explained earlier, special precaution should be taken with respect to agni bala.\n\nCertain drugs like chitraka (Plumbago zeylanica), pippali (Piper longum), pippalimula (root of Piper longum), shunthi (Zingiber officinale), nagakesara, haridra, danti, duralabha, haritaki etc have been used in combinations with other drugs for the treatment of arsha considering the concept of agnibala vriddhi and vata anulomanam (facilitating passage of vata) and the same drugs have been used in grahani chikitsa with the same concept. Charak explains that all the above three diseases are caused by agnimandya and if increase in agni is done then relief in the disease takes place. [Chakrapani Cha.Sa.Chikitsa Sthana 14/244-246]\n\nFurther, vata is said to be agnisakha i.e. agnibala depends on vata. Vatakshaya or prakopa results in agnimandya. Therefore, anna, pana and aushadha which bring about vata anulomana are very useful in treatment of diseases like arsha and grahani dosha.\n\nVata anulomanam means to facilitate the gati (motion) of vata downwards to anus. Among five types of vata, samana and apana have major role in diseases like arsha, atisara and grahanidosha. Obstruction to movement of vata (avarudha gati) or diarrhea (atisaraṇa) leads to agni kshaya. Avarudha gati is the cause for vibandha (constipation), malavibandha (obstruction to feces) along with pravahana (urge to defecate) which increases the intra-lumen pressure leading to incompetency of valves in rectal veins leading to their varicosity which causes hemorrhoids where as atisarana (diarrhea) causes increased motility of intestine. Hence vata anulomanam should not be understood as virechana or laxation but regularization of vata gati so that there is no avarodha or atisarana. The same concept of vata anulomana is also mentioned in Grahani Chikitsa.[Cha.Sa. Chikitsa Sthana 14/247]\n\nTherefore, the line of treatment used in arsha with regard to agni bala and vata anulomanam is basically similar to that of grahanidosha hence Charak has explained Grahani Chikitsa after Arsha Chikitsa.[Chakrapani Cha.Sa.Chikitsa Sthana15/1] Charak could have restricted the name of chapter to Grahani Chikitsa i.e. treatment of the avayava grahani whereas he has increased the scope of chapter by using the word grahanidosha.[Chakrapani, Cha.Sa. Chikitsa Sthana 15/1].\n\nThere is always an inter-relationship between avayava (organ) and avayavi (part of organ) or ashraya(seat) and ashrayi (seated). Either of the one has an impact on the other, hence if grahaniavayava is in normal state then agni the avayavi functions normally and vice versa also holds true, whereas if dusti of grahani takes place agni vaishamyata (imbalance) is seen e.g. ileitis, wherein digestion is hampered. Grahani is the seat for jatharagni. [Cha.Sa.Chikitsa Sthana 15 /56] Agni is responsible for ayu (longevity of life), varna (complexion), bala (strength), swasthya (health), utsaha (enthusiasm), upachaya (proper metabolism), prabha (glow) and oja (core energy). Prakrita agni (normal digestive power) is essential for long and healthy life while, vitiated agni is responsible for roga avastha(disease).[Cha. Sa. Chikitsa Sthana 15/3-4]\n\nIn this chapter, Charak describes formation of body tissues in detail with the role of ahara which is supplied continuously to maintain homeostasis. Vyana vata is promoter of rasa raktadi circulation.[ Cha. Sa. Chikitsa Sthana 15/36] It transports rasa raktadi drava dhatu throughout body continuously and as per metabolic demand. This explanation shows that closed circulation in human was known to Charak.\n\nGrahani is prime place where digestion and absorption of ahara rasa takes place. Ahara rasa provides nutrition for the rasadi sapta dhatu, along-with three sharirika dosha and three manasika dosha. Nourishment of sattva, raja and tama is influenced by sattvika, rajasika and tamasika ahara. Tamasika and rajasika ahara suppresses sattva guna thereby causing alpa sattva in individual, a common predisposing factor of psychiatric disorders for e.g. alpa sattva as mentioned in unmada [Cha.Sa Chikitsa Sthana 9/5] In vataja grahanivyadhishanka (feeling of suffering from disease) manifests in patients with alpa sattva.\n\nHomeostasis at cellular level and gross level is maintained by vata, pitta and kapha in which digestive and metabolic contributions are due to agni. This chapter has been dedicated to agni to understand the manner in which it gets vitiated by dosha and accordingly the line of treatment for the agni dosha is explained. As the functions of agni take place in grahani hence disease related to grahani has been given the name.\n\nSecondly, pandu roga is due to alpata of raktaposhaka sara bhaga [Chakrapani, Cha. Sa. Chikitsa Sthana 16/3-7] and, one of the main causes of this alpata is mal-digestion and mal-absorption which takes place in grahani. It is well known fact, that various contributory factors for blood formation have their absorption in gastrointestinal tract such as folic acid, vitamin B12, iron, etc which if not absorbed causes anemia this is the reason why Charak has placed this chapter in between arsha and pandu roga.",
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Grahani_Chikitsa_Adhyaya",
+  "doi": "10.47468/CSNE.2020.e01.s06.016"
+}

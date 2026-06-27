@@ -1,0 +1,1021 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 23,
+    "chapterTitleEnglish": "Management of Visha",
+    "chapterTitleSanskrit": "Visha Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Visha Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Binorkar S.",
+    "editors": [
+      "Binorkar S."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.024"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Visha_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "Agada is enlisted in one of the eight branches of ayurveda. Management of poisoning is an important aspect of medical system. Visha is a substance that leads to decline of overall functions of the person. The vaidya should have knowledge and training in visha gara vairodhika prashamana (anti-toxin treatment). In India especially in Kerala, the role of traditional practitioners in this field is significant. Their simple, but effective treatments, has really been astonishing. They are also well versed in the details regarding the good and bad omen based on doota (messenger), the happenings the vaidya sees when he is going to make house call for treating such cases and also what he observes in the house and in the patient. He is also well versed in astrology. The Visha Chikitsa chapter follows Trishna Chikitsa because both have same line of treatment i.e., sheetala kriya (cooling therapy). The same logic can be attributed to Madatyaya Chikitsa which follows this chapter. Visha and madya have same qualities and effects on body, however madya is comparatively mild with gradual effects, whereas visha has severe and acute effects. The present chapter deals with detailed study of various types of acute and slow poisons. Animal bites, their clinical features and treatment are described in detail. The stages of poisoning and their clinical features are detailed. The chapter also explains the stages, features and treatment of poisoning in animals and birds. Various fumigation medicines are enlisted to detoxify the home environment, things of daily use like beds, seats, clothes etc. The treatments of insect bite, rat bite, dog bite, scorpion bite are also described. This chapter opens a window to treat adverse drug reactions and allergic reaction to anti toxic formulations described. A condition of pseudo poisoning is mentioned which needs psychological counselling without any anti toxic medicines. With the advancement in medical technology, the new methods of treatments of poisoning have evolved with time. However the basic treatments like applying tourniquet at the site of bite to prevent spread of poison, therapeutic emesis in the form of gastric lavage in case of ingested poison, or purgation are the same as in contemporary medicine. However with the development of forensic medicine, the investigations of types of poisons, their identification and their blood levels are newer additions. The chapter describes ancient methods of management of poisoning cases that need to be highlighted and blended with todays modern techniques.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "History of origin of visha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sources of poison",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Aggravation and pacification of potency",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Animal origin",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Earthen and plant origin",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gara visha ( artificial poison)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of poisoning",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Stage wise clinical features in humans",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Stage wise features in animals and birds",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Properties of visha and its effect on body",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features as per site of dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Fatal signs",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Twenty four treatment modalities",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "First aid treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Blood letting",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Benefits of first aid treatments",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of first stage",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of second stage",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of third to eighth stage",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment in eighth stage",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment in case of hanging and drowning",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mritasanjivana agada",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Principle of treatment as per site of dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of obstruction by kapha and kakapada (incision in the shape of paw of crow)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Nasya and anjana administration",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gandhahasti agada",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mahagandhahastinama agada",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rushabhakadi agada",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hingvadi yoga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of vomiting and hiccups",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Fumigation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Medicated fumigation for swelling",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Jatwadi medicated fumigation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ksharagada",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of poison giver and intoxicated poisonous food",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of food poisoning",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of poison through various routes of consumption/exposure",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Description of snakes and poisoning",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of snakes and their effect on dosha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Identification of snakes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Properties of snake poisons",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of darvikara snake bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of mandali snake bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of rajimana snake bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gender wise characteristics of snakes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Differentiation in features in snake bite of different genders",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Bite of a pregnant snake",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characters of snakes of different ages",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Fangs of snakes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dooshi visha (slowly acting poison)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Bad prognostic fatal signs",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of insect bite with dooshi visha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General features",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of rat bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features of rat bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of chameleon bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of scorpion bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of hornet bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of crab bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of frog bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of poisonous fish",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of poisonous leech",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of poisonous lizards",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of poisonous centipede",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of mosquito bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of bee sting",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis as per place and time of bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Aggravating factors of effects of poison",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Snakes with mild poisonous effect",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effect of anger, hunger and fear on releasing snake poison",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dosha dominance in insects poison",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment as per dosha dominance",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical effects of vata dominant visha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical effects of pitta dominant visha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical effects of kapha dominant visha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of vata dominant visha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of pitta dominant visha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of scorpion bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of crab bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Features of dog bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of dog bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in head region",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in upper and lower parts of body",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in eye region",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in throat region",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in stomach region",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in colon region",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in rasa dhatu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in rakta dhatu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in mamsa dhatu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in all dhatu",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisonous effects in kapha dominance",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of darvikara snake bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of mandali snake bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of rajimana snake bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Grihadhumadi formulation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External application in insect bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of spider poison",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of rat bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kutajadi formulation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Best agada",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of centipede poison",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of house lizard poison",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pancha shirisha agada",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of nail or teeth bite of animals",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shanka visha (pseudo poisoning)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Suitable diet in treatment of poisoning",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Unsuitable diet and lifestyle",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs of poisoning in quadruped animals",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of poisoning in animals",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gara visha (slow acting artificial poison)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Effects of gara visha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of gara visha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Nagadantyadi ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Amrita Ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Lifestyle to avoid snake bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Wearing gems for preventing poisonous effects",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Similes in historical origin",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gara visha (artificial poison)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Properties and affects",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment modalities",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "First aid or immediate treatment after bite",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Agnikarma and its contraindications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of protection of heart",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Stage wise treatment of poisoning",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mahagandhahasti agada",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Characteristics of poisonous food",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Identification and types of snakes",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Drugs to be identified",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "Agada is enlisted in one of the eight branches of ayurveda. Management of poisoning is an important aspect of medical system. Visha is a substance that leads to decline of overall functions of the person. The vaidya should have knowledge and training in visha gara vairodhika prashamana (anti-toxin treatment). In India especially in Kerala, the role of traditional practitioners in this field is significant. Their simple, but effective treatments, has really been astonishing. They are also well versed in the details regarding the good and bad omen based on doota (messenger), the happenings the vaidya sees when he is going to make house call for treating such cases and also what he observes in the house and in the patient. He is also well versed in astrology. The Visha Chikitsa chapter follows Trishna Chikitsa because both have same line of treatment i.e., sheetala kriya (cooling therapy). The same logic can be attributed to Madatyaya Chikitsa which follows this chapter. Visha and madya have same qualities and effects on body, however madya is comparatively mild with gradual effects, whereas visha has severe and acute effects. The present chapter deals with detailed study of various types of acute and slow poisons. Animal bites, their clinical features and treatment are described in detail. The stages of poisoning and their clinical features are detailed. The chapter also explains the stages, features and treatment of poisoning in animals and birds. Various fumigation medicines are enlisted to detoxify the home environment, things of daily use like beds, seats, clothes etc. The treatments of insect bite, rat bite, dog bite, scorpion bite are also described. This chapter opens a window to treat adverse drug reactions and allergic reaction to anti toxic formulations described. A condition of pseudo poisoning is mentioned which needs psychological counselling without any anti toxic medicines. With the advancement in medical technology, the new methods of treatments of poisoning have evolved with time. However the basic treatments like applying tourniquet at the site of bite to prevent spread of poison, therapeutic emesis in the form of gastric lavage in case of ingested poison, or purgation are the same as in contemporary medicine. However with the development of forensic medicine, the investigations of types of poisons, their identification and their blood levels are newer additions. The chapter describes ancient methods of management of poisoning cases that need to be highlighted and blended with todays modern techniques.",
+  "vidhiVimarsha": "Agada is enlisted in one of the eight branches of ayurveda. Management of poisoning is an important aspect of medical system. Visha is a substance that leads to decline of overall functions of the person. The vaidya should have knowledge and training in visha gara vairodhika prashamana (anti-toxin treatment). In India especially in Kerala, the role of traditional practitioners in this field is significant. Their simple, but effective treatments, has really been astonishing. They are also well versed in the details regarding the good and bad omen based on doota (messenger), the happenings the vaidya sees when he is going to make house call for treating such cases and also what he observes in the house and in the patient. He is also well versed in astrology. The Visha Chikitsa chapter follows Trishna Chikitsa because both have same line of treatment i.e., sheetala kriya (cooling therapy). The same logic can be attributed to Madatyaya Chikitsa which follows this chapter. Visha and madya have same qualities and effects on body, however madya is comparatively mild with gradual effects, whereas visha has severe and acute effects. The present chapter deals with detailed study of various types of acute and slow poisons. Animal bites, their clinical features and treatment are described in detail. The stages of poisoning and their clinical features are detailed. The chapter also explains the stages, features and treatment of poisoning in animals and birds. Various fumigation medicines are enlisted to detoxify the home environment, things of daily use like beds, seats, clothes etc. The treatments of insect bite, rat bite, dog bite, scorpion bite are also described. This chapter opens a window to treat adverse drug reactions and allergic reaction to anti toxic formulations described. A condition of pseudo poisoning is mentioned which needs psychological counselling without any anti toxic medicines. With the advancement in medical technology, the new methods of treatments of poisoning have evolved with time. However the basic treatments like applying tourniquet at the site of bite to prevent spread of poison, therapeutic emesis in the form of gastric lavage in case of ingested poison, or purgation are the same as in contemporary medicine. However with the development of forensic medicine, the investigations of types of poisons, their identification and their blood levels are newer additions. The chapter describes ancient methods of management of poisoning cases that need to be highlighted and blended with todays modern techniques.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 History of origin of visha",
+    "2.2 Sources of poison",
+    "2.3 Aggravation and pacification of potency",
+    "2.4 Animal origin",
+    "2.5 Earthen and plant origin",
+    "2.6 Gara visha ( artificial poison)",
+    "2.7 Clinical features of poisoning",
+    "2.8 Stage wise clinical features in humans",
+    "2.9 Stage wise features in animals and birds",
+    "2.10 Properties of visha and its effect on body",
+    "2.11 Clinical features as per site of dosha",
+    "2.12 Fatal signs",
+    "2.13 Twenty four treatment modalities",
+    "2.14 First aid treatment",
+    "2.15 Blood letting",
+    "2.16 Benefits of first aid treatments",
+    "2.17 Treatment of first stage",
+    "2.18 Treatment of second stage",
+    "2.19 Treatment of third to eighth stage",
+    "2.20 Treatment in eighth stage",
+    "2.21 Treatment in case of hanging and drowning",
+    "2.22 Mritasanjivana agada",
+    "2.23 Principle of treatment as per site of dosha",
+    "2.24 Treatment of obstruction by kapha and kakapada (incision in the shape of paw of crow)",
+    "2.25 Nasya and anjana administration",
+    "2.26 Gandhahasti agada",
+    "2.27 Mahagandhahastinama agada",
+    "2.28 Rushabhakadi agada",
+    "2.29 Hingvadi yoga",
+    "2.30 Treatment of vomiting and hiccups",
+    "2.31 Fumigation",
+    "2.32 Medicated fumigation for swelling",
+    "2.33 Jatwadi medicated fumigation",
+    "2.34 Ksharagada",
+    "2.35 Characteristics of poison giver and intoxicated poisonous food",
+    "2.36 Effects of food poisoning",
+    "2.37 Clinical features of poison through various routes of consumption/exposure",
+    "2.38 Description of snakes and poisoning",
+    "2.39 Types of snakes and their effect on dosha",
+    "2.40 Identification of snakes",
+    "2.41 Properties of snake poisons",
+    "2.42 Characteristics of darvikara snake bite",
+    "2.43 Characteristics of mandali snake bite",
+    "2.44 Characteristics of rajimana snake bite",
+    "2.45 Gender wise characteristics of snakes",
+    "2.46 Differentiation in features in snake bite of different genders",
+    "2.47 Bite of a pregnant snake",
+    "2.48 Characters of snakes of different ages",
+    "2.49 Fangs of snakes",
+    "2.50 Dooshi visha (slowly acting poison)",
+    "2.51 Bad prognostic fatal signs",
+    "2.52 Characteristics of insect bite with dooshi visha",
+    "2.53 General features",
+    "2.54 Characteristics of rat bite",
+    "2.55 Features of rat bite",
+    "2.56 Characteristics of chameleon bite",
+    "2.57 Characteristics of scorpion bite",
+    "2.58 Characteristics of hornet bite",
+    "2.59 Characteristics of crab bite",
+    "2.60 Characteristics of frog bite",
+    "2.61 Effects of poisonous fish",
+    "2.62 Effects of poisonous leech",
+    "2.63 Effects of poisonous lizards",
+    "2.64 Effects of poisonous centipede",
+    "2.65 Effects of mosquito bite",
+    "2.66 Effects of bee sting",
+    "2.67 Prognosis as per place and time of bite",
+    "2.68 Aggravating factors of effects of poison",
+    "2.69 Snakes with mild poisonous effect",
+    "2.70 Effect of anger, hunger and fear on releasing snake poison",
+    "2.71 Dosha dominance in insects poison",
+    "2.72 Treatment as per dosha dominance",
+    "2.73 Clinical effects of vata dominant visha",
+    "2.74 Clinical effects of pitta dominant visha",
+    "2.75 Clinical effects of kapha dominant visha",
+    "2.76 Treatment of vata dominant visha",
+    "2.77 Treatment of pitta dominant visha",
+    "2.78 Treatment of scorpion bite",
+    "2.79 Treatment of crab bite",
+    "2.80 Features of dog bite",
+    "2.81 Treatment of dog bite",
+    "2.82 Treatment of poisonous effects in head region",
+    "2.83 Treatment of poisonous effects in upper and lower parts of body",
+    "2.84 Treatment of poisonous effects in eye region",
+    "2.85 Treatment of poisonous effects in throat region",
+    "2.86 Treatment of poisonous effects in stomach region",
+    "2.87 Treatment of poisonous effects in colon region",
+    "2.88 Treatment of poisonous effects in rasa dhatu",
+    "2.89 Treatment of poisonous effects in rakta dhatu",
+    "2.90 Treatment of poisonous effects in mamsa dhatu",
+    "2.91 Treatment of poisonous effects in all dhatu",
+    "2.92 Treatment of poisonous effects in kapha dominance",
+    "2.93 Various formulations 2.93.1 Mamsyadi formulation",
+    "2.93.2 Chandanadi formulation",
+    "2.93.3 Shirishadi nasya and anjana",
+    "2.93.4 Nata-Kushtha formulation",
+    "2.94 Treatment of darvikara snake bite",
+    "2.95 Treatment of mandali snake bite",
+    "2.96 Treatment of rajimana snake bite",
+    "2.97 Grihadhumadi formulation",
+    "2.98 External application in insect bite",
+    "2.99 Treatment of spider poison",
+    "2.100 Treatment of rat bite",
+    "2.101 Kutajadi formulation",
+    "2.102 Best agada",
+    "2.103 Treatment of centipede poison",
+    "2.104 Treatment of house lizard poison",
+    "2.105 Pancha shirisha agada",
+    "2.106 Treatment of nail or teeth bite of animals",
+    "2.107 Shanka visha (pseudo poisoning)",
+    "2.108 Suitable diet in treatment of poisoning",
+    "2.109 Unsuitable diet and lifestyle",
+    "2.110 Signs of poisoning in quadruped animals",
+    "2.111 Treatment of poisoning in animals",
+    "2.112 Gara visha (slow acting artificial poison)",
+    "2.113 Effects of gara visha",
+    "2.114 Treatment of gara visha",
+    "2.115 Nagadantyadi ghee",
+    "2.116 Amrita Ghee",
+    "2.117 Lifestyle to avoid snake bite",
+    "2.118 Wearing gems for preventing poisonous effects",
+    "2.119 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Similes in historical origin",
+    "4.2 Gara visha (artificial poison)",
+    "4.3 Properties and affects",
+    "4.4 Treatment modalities",
+    "4.5 First aid or immediate treatment after bite",
+    "4.6 Agnikarma and its contraindications",
+    "4.7 Importance of protection of heart",
+    "4.8 Stage wise treatment of poisoning",
+    "4.9 Mahagandhahasti agada",
+    "4.10 Various formulations 4.10.1 Ksharagada",
+    "4.11 Characteristics of poisonous food",
+    "4.12 Identification and types of snakes 4.12.1 Darveekara snake – comparison: King cobra and cobra",
+    "4.12.2 Cobra",
+    "4.12.3 King cobra: Ophiophagus hennah",
+    "4.12.4 Mandali sarpa: Comparision- Russell's viper, pit vipers, saw scaled vipers",
+    "4.12.5 Russell’s viper (Daboia russelli)",
+    "4.12.6 Saw scaled viper",
+    "4.12.7 Pit vipers",
+    "4.12.8 Rajiman Sarpa- Comparision- Common and Banded Krait",
+    "4.12.9 Common Krait: Bungarus caeruleus",
+    "4.12.10 Banded krait: Bungarus fasciatus",
+    "4.12.11 Gender wise classification of snakes",
+    "4.12.12 Godha (monitor)",
+    "4.13 Drugs to be identified",
+    "5 References"
+  ]
+}

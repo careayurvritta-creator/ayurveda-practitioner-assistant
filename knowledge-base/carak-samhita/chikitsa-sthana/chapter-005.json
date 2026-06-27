@@ -1,0 +1,681 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 5,
+    "chapterTitleEnglish": "Management of Gulma",
+    "chapterTitleSanskrit": "Gulma Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Gulma Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Bhagwat M., Tripathi J.S., Gadgil D.",
+    "editors": [
+      "Baghel M.S."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.006"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Gulma_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "The word gulma stands for an entity that encircles, envelops or covers something. Situations such as panic, stress, or grief, usually associated with chaotic, cataclysmic event would lead to vitiation of vata causing the appearance of vata-dominant diseases like gulma, etc. The vitiated vata, in conjunction with other doshas, gets into the mahasrotas and get lodged either in the amashaya (stomach), pittashaya (gall bladder), pakwashaya (cecum) or in other regions like hridaya (epigastric), basti (bladder) and nabhi (umblicus) leading to formation of deep-rooted shrub-like mass. As mentioned earlier, gulma afflicts the gastrointestinal region between the heart and the bladder. Depending upon the region it afflicts, it can be classified into four general types common to males and females: vata gulma, pitta gulma, kapha gulma, and sannipatik gulma. Since gulma can occur as complication of raktapitta (bleeding disorders) Charak describes this chapter after the raktapitta chapter. Jwara is the disease of rasavah srotas whereas, raktapitta is a disease of raktavah srotas, in that sequence gulma is a disease of mansavah srotas and further prameha is of medavah srotas. However, this chapter seems to be designed with greater implication and term mahasrotasa has been used because manifestation of disease is in the viscera/ organs up to uterus. Even then the involvement of vata dosha and mamsa dhatu is predominant in final manifestation of disease gulma. It should also be noted that the same pathogenesis route and treatment procedure should be kept in mind for the disease of the mahasrotasa occurring without the true manifestation of growth/tumor. Hence peptic ulcer and ulcer dyspepsia should be treated like pitta gulma etc. Gulma is defined as a palpable round compact lump in the abdomen. Thus, all the localized palpable masses in the abdomen are classified under gulma, but they are named depending upon the dominance of dosha or the place. Its four types belong to dosha i.e. three of single dosha and one of a combination of all the three dosha and the fifth one is rakta gulma which occurs only in females in uterine cavity (garbhashayashroni). Sannipata Gulma has been given synonym as nichaya-gulma.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of Gulma (abdominal lumps)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etio-pathogenesis of gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General Pathogenesis of gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Cardinal Signs of Gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Five sites of gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causative factors of vata dominant gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of vata gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causative factors and pathogenesis of pitta dominant gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of pitta-gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causative factors of kapha-gulma and nichaya-gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of kapha dominant gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dvi-doshaja gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of tri-doshaja gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causative factors of rakta gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of rakta gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of vata-gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Snehana for vata-gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Benefit of swedana therapy for vata-gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mode of Administration of sneha according to sites of vata gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Repeated basti in vata gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vamana in vata gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Virechana in vata gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Blood-letting in vata gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of pitta dominant gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Blood-letting in pitta dominant gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Diet after blood-letting",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Apakva gulma (intial non-suppurative stage)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of suppurating (vidahamana) gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of suppurated gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of pus discharging gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of kaphaja gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Daha karma and raktamokshana in kapha gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Parama trayushanadighritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hingusauvarchaladya ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hapushadya ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pippalyadyam ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Peya (liquid gruel)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hingvadi churna and gutika",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shatyadi churnam and gutika",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Nagara preparation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Lashuna-kshiram",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Taila panchakam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "shilajatu-prayoga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vatyam or barley preparation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Swedana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Basti karma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Medicated oils",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Nilinyadyam ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Nilinyadyam ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathya in vata gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Protection of agni",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Oleation therapy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of pitta gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rohiṇyadya ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Trayamaṇadi ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Amalakadi ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Drakshadi ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vasaghr̥itam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Massage",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kshira-basti for pitta gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathya for pitta gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of ama associated gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of agni",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of kaphaja gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Post-operative measures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dashamuli ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Bhallatakadi ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kshiraṣhaṭpalaka ghritam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mishraka sneha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Virechana in kapha gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Danti-haritaki",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Basti in kapha gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Powders and pills",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kshara and daha karma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathya for kapha gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of incurable gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Signs and symptoms of bad prognosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of rakta gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contemporary understanding of gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sites of gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Differential diagnosis of gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chikitsa sutra (principles of management) of gulma",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Related Chapter",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Further reading",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "The word gulma stands for an entity that encircles, envelops or covers something. Situations such as panic, stress, or grief, usually associated with chaotic, cataclysmic event would lead to vitiation of vata causing the appearance of vata-dominant diseases like gulma, etc. The vitiated vata, in conjunction with other doshas, gets into the mahasrotas and get lodged either in the amashaya (stomach), pittashaya (gall bladder), pakwashaya (cecum) or in other regions like hridaya (epigastric), basti (bladder) and nabhi (umblicus) leading to formation of deep-rooted shrub-like mass. As mentioned earlier, gulma afflicts the gastrointestinal region between the heart and the bladder. Depending upon the region it afflicts, it can be classified into four general types common to males and females: vata gulma, pitta gulma, kapha gulma, and sannipatik gulma. Since gulma can occur as complication of raktapitta (bleeding disorders) Charak describes this chapter after the raktapitta chapter. Jwara is the disease of rasavah srotas whereas, raktapitta is a disease of raktavah srotas, in that sequence gulma is a disease of mansavah srotas and further prameha is of medavah srotas. However, this chapter seems to be designed with greater implication and term mahasrotasa has been used because manifestation of disease is in the viscera/ organs up to uterus. Even then the involvement of vata dosha and mamsa dhatu is predominant in final manifestation of disease gulma. It should also be noted that the same pathogenesis route and treatment procedure should be kept in mind for the disease of the mahasrotasa occurring without the true manifestation of growth/tumor. Hence peptic ulcer and ulcer dyspepsia should be treated like pitta gulma etc. Gulma is defined as a palpable round compact lump in the abdomen. Thus, all the localized palpable masses in the abdomen are classified under gulma, but they are named depending upon the dominance of dosha or the place. Its four types belong to dosha i.e. three of single dosha and one of a combination of all the three dosha and the fifth one is rakta gulma which occurs only in females in uterine cavity (garbhashayashroni). Sannipata Gulma has been given synonym as nichaya-gulma.",
+  "vidhiVimarsha": "The word gulma stands for an entity that encircles, envelops or covers something. Situations such as panic, stress, or grief, usually associated with chaotic, cataclysmic event would lead to vitiation of vata causing the appearance of vata-dominant diseases like gulma, etc. The vitiated vata, in conjunction with other doshas, gets into the mahasrotas and get lodged either in the amashaya (stomach), pittashaya (gall bladder), pakwashaya (cecum) or in other regions like hridaya (epigastric), basti (bladder) and nabhi (umblicus) leading to formation of deep-rooted shrub-like mass. As mentioned earlier, gulma afflicts the gastrointestinal region between the heart and the bladder. Depending upon the region it afflicts, it can be classified into four general types common to males and females: vata gulma, pitta gulma, kapha gulma, and sannipatik gulma. Since gulma can occur as complication of raktapitta (bleeding disorders) Charak describes this chapter after the raktapitta chapter. Jwara is the disease of rasavah srotas whereas, raktapitta is a disease of raktavah srotas, in that sequence gulma is a disease of mansavah srotas and further prameha is of medavah srotas. However, this chapter seems to be designed with greater implication and term mahasrotasa has been used because manifestation of disease is in the viscera/ organs up to uterus. Even then the involvement of vata dosha and mamsa dhatu is predominant in final manifestation of disease gulma. It should also be noted that the same pathogenesis route and treatment procedure should be kept in mind for the disease of the mahasrotasa occurring without the true manifestation of growth/tumor. Hence peptic ulcer and ulcer dyspepsia should be treated like pitta gulma etc. Gulma is defined as a palpable round compact lump in the abdomen. Thus, all the localized palpable masses in the abdomen are classified under gulma, but they are named depending upon the dominance of dosha or the place. Its four types belong to dosha i.e. three of single dosha and one of a combination of all the three dosha and the fifth one is rakta gulma which occurs only in females in uterine cavity (garbhashayashroni). Sannipata Gulma has been given synonym as nichaya-gulma.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Management of Gulma (abdominal lumps)",
+    "2.2 Etio-pathogenesis of gulma",
+    "2.3 General Pathogenesis of gulma",
+    "2.4 Cardinal Signs of Gulma",
+    "2.5 Five sites of gulma",
+    "2.6 Causative factors of vata dominant gulma",
+    "2.7 Symptoms of vata gulma",
+    "2.8 Causative factors and pathogenesis of pitta dominant gulma",
+    "2.9 Symptoms of pitta-gulma",
+    "2.10 Causative factors of kapha-gulma and nichaya-gulma",
+    "2.11 Symptoms of kapha dominant gulma",
+    "2.12 Dvi-doshaja gulma",
+    "2.13 Signs and symptoms of tri-doshaja gulma",
+    "2.14 Causative factors of rakta gulma",
+    "2.15 Symptoms of rakta gulma",
+    "2.16 Treatment of vata-gulma",
+    "2.17 Snehana for vata-gulma",
+    "2.18 Benefit of swedana therapy for vata-gulma",
+    "2.19 Mode of Administration of sneha according to sites of vata gulma",
+    "2.20 Repeated basti in vata gulma",
+    "2.21 Vamana in vata gulma",
+    "2.22 Virechana in vata gulma",
+    "2.23 Blood-letting in vata gulma",
+    "2.24 Treatment of pitta dominant gulma",
+    "2.25 Blood-letting in pitta dominant gulma",
+    "2.26 Diet after blood-letting",
+    "2.27 Apakva gulma (intial non-suppurative stage)",
+    "2.28 Symptoms of suppurating (vidahamana) gulma",
+    "2.29 Symptoms of suppurated gulma",
+    "2.30 Management of pus discharging gulma",
+    "2.31 Management of kaphaja gulma 2.31.1 Indications of langhana",
+    "2.31.2 Indications of vamana",
+    "2.32 Daha karma and raktamokshana in kapha gulma 2.32.1 Tryushanadi-ghritam",
+    "2.33 Parama trayushanadighritam",
+    "2.34 Hingusauvarchaladya ghrita",
+    "2.35 Hapushadya ghritam",
+    "2.36 Pippalyadyam ghritam",
+    "2.37 Peya (liquid gruel)",
+    "2.38 Hingvadi churna and gutika",
+    "2.39 Shatyadi churnam and gutika",
+    "2.40 Nagara preparation",
+    "2.41 Lashuna-kshiram",
+    "2.42 Taila panchakam",
+    "2.43 shilajatu-prayoga",
+    "2.44 Vatyam or barley preparation",
+    "2.45 Swedana",
+    "2.46 Basti karma",
+    "2.47 Medicated oils",
+    "2.48 Nilinyadyam ghritam",
+    "2.49 Nilinyadyam ghritam",
+    "2.50 Pathya in vata gulma",
+    "2.51 Protection of agni",
+    "2.52 Oleation therapy",
+    "2.53 Management of pitta gulma",
+    "2.54 Rohiṇyadya ghritam",
+    "2.55 Trayamaṇadi ghritam",
+    "2.56 Amalakadi ghritam",
+    "2.57 Drakshadi ghritam",
+    "2.58 Vasaghr̥itam",
+    "2.59 Massage",
+    "2.60 Kshira-basti for pitta gulma",
+    "2.61 Pathya for pitta gulma",
+    "2.62 Management of ama associated gulma",
+    "2.63 Importance of agni",
+    "2.64 Treatment of kaphaja gulma 2.64.1 Vamana in kaphaja gulma",
+    "2.64.2 Surgical treatment of kapha gulma",
+    "2.65 Post-operative measures",
+    "2.66 Dashamuli ghrita",
+    "2.67 Bhallatakadi ghritam",
+    "2.68 Kshiraṣhaṭpalaka ghritam",
+    "2.69 Mishraka sneha",
+    "2.70 Virechana in kapha gulma",
+    "2.71 Danti-haritaki",
+    "2.72 Basti in kapha gulma",
+    "2.73 Powders and pills",
+    "2.74 Kshara and daha karma",
+    "2.75 Pathya for kapha gulma",
+    "2.76 Signs and symptoms of incurable gulma",
+    "2.77 Signs and symptoms of bad prognosis",
+    "2.78 Treatment of rakta gulma",
+    "2.79 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Contemporary understanding of gulma",
+    "4.2 Sites of gulma 4.2.1 Table1. Nine divisions of the abdomen, according to Ayurveda and allopathic medicine",
+    "4.3 Differential diagnosis of gulma",
+    "4.4 Chikitsa sutra (principles of management) of gulma 4.4.1 Internal Medicines",
+    "4.4.2 Panchakarma",
+    "4.5 Related Chapter",
+    "4.6 Further reading",
+    "4.7 References"
+  ]
+}

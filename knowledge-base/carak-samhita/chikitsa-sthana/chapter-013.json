@@ -1,0 +1,756 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 13,
+    "chapterTitleEnglish": "Management of Udara",
+    "chapterTitleSanskrit": "Udara Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Udara Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Goyal M.",
+    "editors": [
+      "Singh G.",
+      "Goyal M."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.014"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Udara_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "Generalized enlargement of the abdomen is udara roga and due to similarity of this symptom i.e. bulging (utsedha), this chapter follows the chapter on shvayathu (edema). Out of eight types of udara roga viz. vataja, pittaja, kaphaja and sannipataja are regarded as dosha dominant udara roga. In contrast to this plihodara (splenomegaly), baddhodara (enlargement of abdomen due to gastrointestinal obstruction), kshatodara (abdominal enlargement due to intestinal perforation) and jalodara (enlargement of abdomen due to collection of fluid) are regarded as dushya dominant udara roga. Again, baddhodara and chhidrodara are considered as agantuja (exogenous disease) and the remaining six types of udara roga are enlisted as nija (endogenous disease). Vitiation of morbid dosha obstructing the channels in the abdomen and leading to fluid accumulation are the predominant features of pathogenesis of udara roga. Various purification treatments including therapeutic purgation, enema and surgical intervention to remove excess fluid are described in the chapter. The medications to pacify morbid dosha with strict dietary guidelines are treatment measures of udara roga.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Description of patient of udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis of udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitary symptoms",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General pathogenesis of udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General Symptoms of udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Classification of udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of vatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis of vatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of vatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of pittodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenssis of pittodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of pittodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of kaphodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis of kaphodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of kaphodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of sannipatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis of sannipatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of sannipatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of plihodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Samprapti of plihodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of plihodara and yakritodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiology of baddhodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis of baddhagudodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of baddhagudodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Causes of chhidrodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis of chhidrodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of chhidrodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiopathogenesis of jalodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of udakodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Consequences of not treating jalodara at early stage",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis of udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Symptoms of ajatodaka udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of vatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Post virechana regimen",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Role of asthapana basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Role of anuvasana [[basti\\\\",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dashamula niruha basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indications for palliative (shamana) treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of pittodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of kaphodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of sannipatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Predominant symptoms of dosha in plihodara (splenomegaly)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of plihodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pippalyadi churna",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidangadi kshara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rohitakadi yoga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rohitaka ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Agnikarma (cauterization)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of pitta dominated plihodara(splenomegaly)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of baddhagudodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of Chhidrodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of jalodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Healthy diet for udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Do’s and Don’ts",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Therapeutic use of takra (buttermilk) in udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Use of milk in udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Application of paste on abdomen",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Parisheka in udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Panchakola ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Nagaraadi ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chitraka ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Yavadi ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Virechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Patoāldi churna",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Gavakshyadi churna",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Narayana churna",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Hapushadya churna",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Nilinyadi churna",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Snuhi kshira ghrita",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management following virechana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shamana (palliative) treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pippalyadi lavana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kshara vatika",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Yavagu for treatment of udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of constipation",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of parshva shula",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kshara taila",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Eranda taila in avarana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Use of venum in the treatment of sannipatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Surgical measures",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Surgical Intervention in jalodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of milk diet",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary of the chapter",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiopathogenesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of udara roga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pittodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kaphodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sannipatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Plihodara and Yakritodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Baddhagudodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Kshatodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Parisravi udara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Chhidrodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Jalodara",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "Generalized enlargement of the abdomen is udara roga and due to similarity of this symptom i.e. bulging (utsedha), this chapter follows the chapter on shvayathu (edema). Out of eight types of udara roga viz. vataja, pittaja, kaphaja and sannipataja are regarded as dosha dominant udara roga. In contrast to this plihodara (splenomegaly), baddhodara (enlargement of abdomen due to gastrointestinal obstruction), kshatodara (abdominal enlargement due to intestinal perforation) and jalodara (enlargement of abdomen due to collection of fluid) are regarded as dushya dominant udara roga. Again, baddhodara and chhidrodara are considered as agantuja (exogenous disease) and the remaining six types of udara roga are enlisted as nija (endogenous disease). Vitiation of morbid dosha obstructing the channels in the abdomen and leading to fluid accumulation are the predominant features of pathogenesis of udara roga. Various purification treatments including therapeutic purgation, enema and surgical intervention to remove excess fluid are described in the chapter. The medications to pacify morbid dosha with strict dietary guidelines are treatment measures of udara roga.",
+  "vidhiVimarsha": "Generalized enlargement of the abdomen is udara roga and due to similarity of this symptom i.e. bulging (utsedha), this chapter follows the chapter on shvayathu (edema). Out of eight types of udara roga viz. vataja, pittaja, kaphaja and sannipataja are regarded as dosha dominant udara roga. In contrast to this plihodara (splenomegaly), baddhodara (enlargement of abdomen due to gastrointestinal obstruction), kshatodara (abdominal enlargement due to intestinal perforation) and jalodara (enlargement of abdomen due to collection of fluid) are regarded as dushya dominant udara roga. Again, baddhodara and chhidrodara are considered as agantuja (exogenous disease) and the remaining six types of udara roga are enlisted as nija (endogenous disease). Vitiation of morbid dosha obstructing the channels in the abdomen and leading to fluid accumulation are the predominant features of pathogenesis of udara roga. Various purification treatments including therapeutic purgation, enema and surgical intervention to remove excess fluid are described in the chapter. The medications to pacify morbid dosha with strict dietary guidelines are treatment measures of udara roga.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Description of patient of udara roga",
+    "2.2 Pathogenesis of udara roga",
+    "2.3 Etiology of udara roga",
+    "2.4 Premonitary symptoms",
+    "2.5 General pathogenesis of udara roga",
+    "2.6 General Symptoms of udara roga",
+    "2.7 Classification of udara roga",
+    "2.8 Etiology of vatodara",
+    "2.9 Pathogenesis of vatodara",
+    "2.10 Symptoms of vatodara",
+    "2.11 Etiology of pittodara",
+    "2.12 Pathogenssis of pittodara",
+    "2.13 Symptoms of pittodara",
+    "2.14 Etiology of kaphodara",
+    "2.15 Pathogenesis of kaphodara",
+    "2.16 Symptoms of kaphodara",
+    "2.17 Etiology of sannipatodara",
+    "2.18 Pathogenesis of sannipatodara",
+    "2.19 Symptoms of sannipatodara",
+    "2.20 Etiology of plihodara",
+    "2.21 Samprapti of plihodara",
+    "2.22 Symptoms of plihodara and yakritodara",
+    "2.23 Etiology of baddhodara",
+    "2.24 Pathogenesis of baddhagudodara",
+    "2.25 Symptoms of baddhagudodara",
+    "2.26 Causes of chhidrodara",
+    "2.27 Pathogenesis of chhidrodara",
+    "2.28 Symptoms of chhidrodara",
+    "2.29 Etiopathogenesis of jalodara",
+    "2.30 Symptoms of udakodara",
+    "2.31 Consequences of not treating jalodara at early stage",
+    "2.32 Prognosis of udara roga",
+    "2.33 Symptoms of ajatodaka udara roga",
+    "2.34 Treatment of vatodara",
+    "2.35 Post virechana regimen",
+    "2.36 Role of asthapana basti",
+    "2.37 Role of anuvasana [[basti\\\\",
+    "2.38 Dashamula niruha basti",
+    "2.39 Indications for palliative (shamana) treatment",
+    "2.40 Treatment of pittodara",
+    "2.41 Treatment of kaphodara",
+    "2.42 Treatment of sannipatodara",
+    "2.43 Predominant symptoms of dosha in plihodara (splenomegaly)",
+    "2.44 Treatment of plihodara",
+    "2.45 Pippalyadi churna",
+    "2.46 Vidangadi kshara",
+    "2.47 Rohitakadi yoga",
+    "2.48 Rohitaka ghrita",
+    "2.49 Agnikarma (cauterization)",
+    "2.50 Treatment of pitta dominated plihodara(splenomegaly)",
+    "2.51 Treatment of baddhagudodara",
+    "2.52 Treatment of Chhidrodara",
+    "2.53 Treatment of jalodara",
+    "2.54 Healthy diet for udara roga",
+    "2.55 Do’s and Don’ts",
+    "2.56 Therapeutic use of takra (buttermilk) in udara roga",
+    "2.57 Use of milk in udara roga",
+    "2.58 Application of paste on abdomen",
+    "2.59 Parisheka in udara roga",
+    "2.60 Panchakola ghrita",
+    "2.61 Nagaraadi ghrita",
+    "2.62 Chitraka ghrita",
+    "2.63 Yavadi ghrita",
+    "2.64 Virechana",
+    "2.65 Patoāldi churna",
+    "2.66 Gavakshyadi churna",
+    "2.67 Narayana churna",
+    "2.68 Hapushadya churna",
+    "2.69 Nilinyadi churna",
+    "2.70 Snuhi kshira ghrita",
+    "2.71 Management following virechana",
+    "2.72 Shamana (palliative) treatment",
+    "2.73 Pippalyadi lavana",
+    "2.74 Kshara vatika",
+    "2.75 Yavagu for treatment of udara roga",
+    "2.76 Treatment of constipation",
+    "2.77 Treatment of parshva shula",
+    "2.78 Kshara taila",
+    "2.79 Eranda taila in avarana",
+    "2.80 Use of venum in the treatment of sannipatodara",
+    "2.81 Surgical measures",
+    "2.82 Surgical Intervention in jalodara",
+    "2.83 Importance of milk diet",
+    "2.84 Summary of the chapter",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Etiopathogenesis",
+    "4.2 Types of udara roga",
+    "4.3 Vatodara",
+    "4.4 Pittodara",
+    "4.5 Kaphodara",
+    "4.6 Sannipatodara",
+    "4.7 Plihodara and Yakritodara",
+    "4.8 Baddhagudodara",
+    "4.9 Kshatodara",
+    "4.10 Parisravi udara",
+    "4.11 Chhidrodara",
+    "4.12 Jalodara 4.12.1 Current Clinical Management",
+    "5 References"
+  ]
+}

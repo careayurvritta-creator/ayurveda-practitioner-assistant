@@ -1,0 +1,415 @@
+{
+  "metadata": {
+    "sthana": "Chikitsa Sthana",
+    "sthanaNumber": 6,
+    "chapterNumber": 29,
+    "chapterTitleEnglish": "Management of Vatarakta",
+    "chapterTitleSanskrit": "Vatarakta Chikitsa Adhyaya",
+    "chapterTitleDevanagari": "Vatarakta Chikitsa",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Ram Manohar P., Kadlimatti S.",
+    "editors": [
+      "Ojha S.N."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s06.030"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Vatarakta_Chikitsa_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "After describing the chapter on various presentations of vata dominant disorders, the chapter on vata being afflicted by vitiated rakta is narrated. Vatashonita is caused by vitiated vata doshaand rakta which impede the gati (movement) of each other. It is also called as adhyaroga because it affects mainly affluent people who are not habitual to physical activity and indulged in factors responsible for vitiation of rakta. People of pitta Prakriti (pitta constitution) are prone to develop vatashonita, because sukumaratva (youthful personality) is the characteristic feature of pitta Prakriti. In vatashonita, there is abnormality in movements of vata dosha due to abnormality of rakta. It is a group of inflammatory rheumatic disorders covering gouty arthritis, rheumatoid arthritis, connective tissue disorders, inflammatory polyarthritis, vasculitis depending upon the site of vitiation. The vitiated factors impair agni (digestion and metabolism) at jatharagni and dhatvagni level. In vatarakta, the vitiated vata dosha affects jatharagni to cause vishamagni and rakta dhatvagni. This impairment leads to increase in blood and serological parameters like uric acid, C-reactive protein etc. These can be used as biomarkers for assessment of efficacy of therapy. In process of rakta-dhatvagni, sira (vessels) and kandara (tendons) are byproducts. Therefore, impairment of rakta-dhatvagni leads to involvement of deep vessels and connective tissues. This indicates vatarakta also covers diseases like vasculitis along with thrombosis and embolism, Thromboangiitis obliterans (Burger’s disease), and Raynaud’s disease. The chapter explains various conditions of involvement of dosha, dushya and the site of vitiation. Treatment depends upon the assessment and correction of these factors causing the conditions.",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit Text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Agnivesha's query",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiological factors",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sites of affliction",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Premonitory symptoms",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Types of vatarakta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of uttana vatarakta (superficial type)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features of gambhira vatarakta (deep type)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Differential features as per dosha dominance",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment principles",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Modes of raktamokshana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complications of blood letting in vata dominant condition",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "General principles of management",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Specific treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Contra-indications for vatarakta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dietary regimen",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Parushaka ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Jivaniya ghee",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Anulomana treatment",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Purgative formulations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of basti",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Madhuparnyadi tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sukumaraka tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Amritadya tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Mahapadma tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Khuddaka padmaka tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shatapaki madhuka tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Shatapaki or sahastrapaki bala tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pinda tailam",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Dashamula processed milk",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Various external applications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of obstruction by excess meda dhatu and kapha",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of severe vitiation of rakta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Treatment of complications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences )",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Etiological factors",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pathogenesis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Clinical features",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Differential diagnosis",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Constituent conditions of vatarakta",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Investigations",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Complications",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Prognosis considering present developments in medicine",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Management of diseases (Treatment protocols)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Potential areas /scope for further research",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "After describing the chapter on various presentations of vata dominant disorders, the chapter on vata being afflicted by vitiated rakta is narrated. Vatashonita is caused by vitiated vata doshaand rakta which impede the gati (movement) of each other. It is also called as adhyaroga because it affects mainly affluent people who are not habitual to physical activity and indulged in factors responsible for vitiation of rakta. People of pitta Prakriti (pitta constitution) are prone to develop vatashonita, because sukumaratva (youthful personality) is the characteristic feature of pitta Prakriti. In vatashonita, there is abnormality in movements of vata dosha due to abnormality of rakta. It is a group of inflammatory rheumatic disorders covering gouty arthritis, rheumatoid arthritis, connective tissue disorders, inflammatory polyarthritis, vasculitis depending upon the site of vitiation. The vitiated factors impair agni (digestion and metabolism) at jatharagni and dhatvagni level. In vatarakta, the vitiated vata dosha affects jatharagni to cause vishamagni and rakta dhatvagni. This impairment leads to increase in blood and serological parameters like uric acid, C-reactive protein etc. These can be used as biomarkers for assessment of efficacy of therapy. In process of rakta-dhatvagni, sira (vessels) and kandara (tendons) are byproducts. Therefore, impairment of rakta-dhatvagni leads to involvement of deep vessels and connective tissues. This indicates vatarakta also covers diseases like vasculitis along with thrombosis and embolism, Thromboangiitis obliterans (Burger’s disease), and Raynaud’s disease. The chapter explains various conditions of involvement of dosha, dushya and the site of vitiation. Treatment depends upon the assessment and correction of these factors causing the conditions.",
+  "vidhiVimarsha": "After describing the chapter on various presentations of vata dominant disorders, the chapter on vata being afflicted by vitiated rakta is narrated. Vatashonita is caused by vitiated vata doshaand rakta which impede the gati (movement) of each other. It is also called as adhyaroga because it affects mainly affluent people who are not habitual to physical activity and indulged in factors responsible for vitiation of rakta. People of pitta Prakriti (pitta constitution) are prone to develop vatashonita, because sukumaratva (youthful personality) is the characteristic feature of pitta Prakriti. In vatashonita, there is abnormality in movements of vata dosha due to abnormality of rakta. It is a group of inflammatory rheumatic disorders covering gouty arthritis, rheumatoid arthritis, connective tissue disorders, inflammatory polyarthritis, vasculitis depending upon the site of vitiation. The vitiated factors impair agni (digestion and metabolism) at jatharagni and dhatvagni level. In vatarakta, the vitiated vata dosha affects jatharagni to cause vishamagni and rakta dhatvagni. This impairment leads to increase in blood and serological parameters like uric acid, C-reactive protein etc. These can be used as biomarkers for assessment of efficacy of therapy. In process of rakta-dhatvagni, sira (vessels) and kandara (tendons) are byproducts. Therefore, impairment of rakta-dhatvagni leads to involvement of deep vessels and connective tissues. This indicates vatarakta also covers diseases like vasculitis along with thrombosis and embolism, Thromboangiitis obliterans (Burger’s disease), and Raynaud’s disease. The chapter explains various conditions of involvement of dosha, dushya and the site of vitiation. Treatment depends upon the assessment and correction of these factors causing the conditions.",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit Text, Transliteration and English Translation 2.1 Agnivesha's query",
+    "2.2 Etiological factors",
+    "2.3 Sites of affliction",
+    "2.4 Premonitory symptoms",
+    "2.5 Types of vatarakta",
+    "2.6 Clinical features of uttana vatarakta (superficial type)",
+    "2.7 Clinical features of gambhira vatarakta (deep type)",
+    "2.8 Differential features as per dosha dominance",
+    "2.9 Prognosis",
+    "2.10 Complications",
+    "2.11 Treatment principles",
+    "2.12 Modes of raktamokshana",
+    "2.13 Complications of blood letting in vata dominant condition",
+    "2.14 General principles of management",
+    "2.15 Specific treatment",
+    "2.16 Contra-indications for vatarakta",
+    "2.17 Dietary regimen",
+    "2.18 Various formulations",
+    "2.19 Parushaka ghee",
+    "2.20 Jivaniya ghee",
+    "2.21 Anulomana treatment",
+    "2.22 Purgative formulations",
+    "2.23 Importance of basti",
+    "2.24 Madhuparnyadi tailam",
+    "2.25 Sukumaraka tailam",
+    "2.26 Amritadya tailam",
+    "2.27 Mahapadma tailam",
+    "2.28 Khuddaka padmaka tailam",
+    "2.29 Shatapaki madhuka tailam",
+    "2.30 Shatapaki or sahastrapaki bala tailam",
+    "2.31 Pinda tailam",
+    "2.32 Dashamula processed milk",
+    "2.33 Various external applications",
+    "2.34 Treatment of obstruction by excess meda dhatu and kapha",
+    "2.35 Treatment of severe vitiation of rakta",
+    "2.36 Treatment of complications",
+    "2.37 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences ) 4.1 Etiological factors 4.1.1 Diet",
+    "4.1.2 Psychological factors",
+    "4.1.3 Lifestyle habits",
+    "4.2 Pathogenesis",
+    "4.3 Clinical features 4.3.1 Types",
+    "4.4 Differential diagnosis",
+    "4.5 Constituent conditions of vatarakta",
+    "4.6 Investigations",
+    "4.7 Complications",
+    "4.8 Prognosis considering present developments in medicine",
+    "4.9 Management of diseases (Treatment protocols) 4.9.1 Principles of management",
+    "4.9.2 Evidence based clinical practices",
+    "4.10 Potential areas /scope for further research",
+    "5 References"
+  ]
+}

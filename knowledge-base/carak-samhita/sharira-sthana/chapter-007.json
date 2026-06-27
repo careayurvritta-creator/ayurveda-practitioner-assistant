@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "sthana": "Sharira Sthana",
+    "sthanaNumber": 4,
+    "chapterNumber": 7,
+    "chapterTitleEnglish": "Numerological account of human body",
+    "chapterTitleSanskrit": "Sharira Sankhya Sharira Adhyaya",
+    "chapterTitleDevanagari": "Sharira Sankhya Sharira",
+    "tetrad": "",
+    "precedingChapter": null,
+    "succeedingChapter": null,
+    "translators": [],
+    "reviewer": "Patwardhan K., Shilwant A.A",
+    "editors": [
+      "Bhalerao S."
+    ],
+    "year": 2020,
+    "publisher": "Charak Samhita Research, Training and Skill Development Centre",
+    "doi": "10.47468/CSNE.2020.e01.s04.008"
+  },
+  "url": "https://www.carakasamhitaonline.com/index.php?title=Sharira_Sankhya_Sharira_Adhyaya",
+  "abstract": "",
+  "keywords": [],
+  "introduction": "The Sharira Sthana is a seminal section within Charaka Samhita, with topics ranging from the origin of human beings to embryology, physiology, obstetrics, and neonatology, before delving into a study of the human anatomy. Sankhya Sharira comprises of a description of sharira (human body) on the basis of dhatubheda (different body constituents), the number and measurements of organs and constituting structures. The chapter begins with a description of skin (twak sharira), as the identification of a body starts with the skin. When a patient approaches a physician, his skin is the first organ that gets examined for visible signs of disease. The description on skin is followed by a description of the six sections of the body, or shadanga sharira or six body components, (two upper limbs, two lower limbs, head and the neck, and the torso). Following shadanga sharira is asthi sharira, or osteology. In the modern system of anatomical schooling, osteology is always considered as the opening chapter of anatomy. Asthi sharira is followed by indriya sharira, which includes panchendriya adhishthana, panchabuddhindriya and panchakarmendriya, or the basics of neurology and myology. This is followed by chetanadhishthana and dashavidha pranayatanas, dealing with expressions of life including action and reaction. This is followed by a description of koshthanga (viscera). This chapter is analogous to the study of splanchnology in modern texts like, for example, Gray's Anatomy. Following koshthanga is the study on pratyangas, or specific body regions. After pratyangas is the description on nine major openings. This marks the end of body parts or organs that can be counted. The next part of the chapter deals with ligaments, musculature, etc. (shira, dhamani, snayu etc). Subsequently, anjali pramana of body fluids is described. Anjali pramana is followed by paramanubhediya sharira, which shows the understanding of microscopic anatomy in ancient times. The chapter ends with a urge to physicians and lay people to study Sankhya Sharira and gain valuable knowledge in their quest to achieving ultimate salvation. Though the title of the chapter literally means a numerical study of the body, it is not just about counting organs and structures, as is evident from the description of the various sections presented here. Charaka has logically divided the chapter into a section on “countable” constituents of the human anatomy, followed by a section that cannot be counted, or in some cases, even be seen with the naked eye (paramanubheda, or cellular level).",
+  "shlokas": [],
+  "sections": [
+    {
+      "title": "Contents",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Sanskrit text, Transliteration and English Translation",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Agnivesha’s questions on the human anatomy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Six layers of skin",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Subdivisions of body",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Number of bones",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Five indriyadhishthana, five buddhindriya and five karmendriya",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Seat of chetana (consciousness)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Ten vital seats",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Koshthanga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pratyanga varnana",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "External orifice of the body",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Pratyaksha sharira",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Rationally computable shira, dhamani, snayu, etc.",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Anjali pramana (quantum of rasadi dhatu)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Panchamahabhautic (basic elemental) consideration of the body constituents",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Innumerability of the organic constituents of the body",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Importance of the knowledge of the organs and structures of the body",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Summary",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Tattva Vimarsha (Fundamental Principles)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Vidhi Vimarsha (Applied Inferences)",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Special significance of skin in Ayurveda",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Asthi sharira(description of bones)",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Number of bones in modern anatomy",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Indriya",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Koshthanga",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "References",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Navigation menu",
+      "level": 2,
+      "content": "",
+      "subsections": []
+    },
+    {
+      "title": "Search",
+      "level": 3,
+      "content": "",
+      "subsections": []
+    }
+  ],
+  "tattvaVimarsha": "The Sharira Sthana is a seminal section within Charaka Samhita, with topics ranging from the origin of human beings to embryology, physiology, obstetrics, and neonatology, before delving into a study of the human anatomy. Sankhya Sharira comprises of a description of sharira (human body) on the basis of dhatubheda (different body constituents), the number and measurements of organs and constituting structures. The chapter begins with a description of skin (twak sharira), as the identification of a body starts with the skin. When a patient approaches a physician, his skin is the first organ that gets examined for visible signs of disease. The description on skin is followed by a description of the six sections of the body, or shadanga sharira or six body components, (two upper limbs, two lower limbs, head and the neck, and the torso). Following shadanga sharira is asthi sharira, or osteology. In the modern system of anatomical schooling, osteology is always considered as the opening chapter of anatomy. Asthi sharira is followed by indriya sharira, which includes panchendriya adhishthana, panchabuddhindriya and panchakarmendriya, or the basics of neurology and myology. This is followed by chetanadhishthana and dashavidha pranayatanas, dealing with expressions of life including action and reaction. This is followed by a description of koshthanga (viscera). This chapter is analogous to the study of splanchnology in modern texts like, for example, Gray's Anatomy. Following koshthanga is the study on pratyangas, or specific body regions. After pratyangas is the description on nine major openings. This marks the end of body parts or organs that can be counted. The next part of the chapter deals with ligaments, musculature, etc. (shira, dhamani, snayu etc). Subsequently, anjali pramana of body fluids is described. Anjali pramana is followed by paramanubhediya sharira, which shows the understanding of microscopic anatomy in ancient times. The chapter ends with a urge to physicians and lay people to study Sankhya Sharira and gain valuable knowledge in their quest to achieving ultimate salvation. Though the title of the chapter literally means a numerical study of the body, it is not just about counting organs and structures, as is evident from the description of the various sections presented here. Charaka has logically divided the chapter into a section on “countable” constituents of the human anatomy, followed by a section that cannot be counted, or in some cases, even be seen with the naked eye (paramanubheda, or cellular level).",
+  "vidhiVimarsha": "The Sharira Sthana is a seminal section within Charaka Samhita, with topics ranging from the origin of human beings to embryology, physiology, obstetrics, and neonatology, before delving into a study of the human anatomy. Sankhya Sharira comprises of a description of sharira (human body) on the basis of dhatubheda (different body constituents), the number and measurements of organs and constituting structures. The chapter begins with a description of skin (twak sharira), as the identification of a body starts with the skin. When a patient approaches a physician, his skin is the first organ that gets examined for visible signs of disease. The description on skin is followed by a description of the six sections of the body, or shadanga sharira or six body components, (two upper limbs, two lower limbs, head and the neck, and the torso). Following shadanga sharira is asthi sharira, or osteology. In the modern system of anatomical schooling, osteology is always considered as the opening chapter of anatomy. Asthi sharira is followed by indriya sharira, which includes panchendriya adhishthana, panchabuddhindriya and panchakarmendriya, or the basics of neurology and myology. This is followed by chetanadhishthana and dashavidha pranayatanas, dealing with expressions of life including action and reaction. This is followed by a description of koshthanga (viscera). This chapter is analogous to the study of splanchnology in modern texts like, for example, Gray's Anatomy. Following koshthanga is the study on pratyangas, or specific body regions. After pratyangas is the description on nine major openings. This marks the end of body parts or organs that can be counted. The next part of the chapter deals with ligaments, musculature, etc. (shira, dhamani, snayu etc). Subsequently, anjali pramana of body fluids is described. Anjali pramana is followed by paramanubhediya sharira, which shows the understanding of microscopic anatomy in ancient times. The chapter ends with a urge to physicians and lay people to study Sankhya Sharira and gain valuable knowledge in their quest to achieving ultimate salvation. Though the title of the chapter literally means a numerical study of the body, it is not just about counting organs and structures, as is evident from the description of the various sections presented here. Charaka has logically divided the chapter into a section on “countable” constituents of the human anatomy, followed by a section that cannot be counted, or in some cases, even be seen with the naked eye (paramanubheda, or cellular level).",
+  "references": [
+    "1 Introduction",
+    "2 Sanskrit text, Transliteration and English Translation 2.1 Agnivesha’s questions on the human anatomy",
+    "2.2 Six layers of skin",
+    "2.3 Subdivisions of body",
+    "2.4 Number of bones",
+    "2.5 Five indriyadhishthana, five buddhindriya and five karmendriya",
+    "2.6 Seat of chetana (consciousness)",
+    "2.7 Ten vital seats",
+    "2.8 Koshthanga",
+    "2.9 Pratyanga varnana",
+    "2.10 External orifice of the body",
+    "2.11 Pratyaksha sharira",
+    "2.12 Rationally computable shira, dhamani, snayu, etc.",
+    "2.13 Anjali pramana (quantum of rasadi dhatu)",
+    "2.14 Panchamahabhautic (basic elemental) consideration of the body constituents",
+    "2.15 Innumerability of the organic constituents of the body",
+    "2.16 Importance of the knowledge of the organs and structures of the body",
+    "2.17 Summary",
+    "3 Tattva Vimarsha (Fundamental Principles)",
+    "4 Vidhi Vimarsha (Applied Inferences) 4.1 Special significance of skin in Ayurveda",
+    "4.2 Asthi sharira(description of bones)",
+    "4.3 Number of bones in modern anatomy 4.3.1 Major difference between Charaka and Sushruta on the topic of bones",
+    "4.4 Indriya",
+    "4.5 Koshthanga",
+    "5 References"
+  ]
+}
