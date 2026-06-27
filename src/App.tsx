@@ -46,6 +46,7 @@ import {
   onSnapshot
 } from 'firebase/firestore';
 import { Markdown } from './components/Markdown';
+import { supabase } from './supabase';
 
 // Helper to recursively remove undefined properties before writing to Firestore
 function cleanFirestoreData(obj: any): any {
@@ -1031,21 +1032,19 @@ export default function App() {
     setChatLoading(true);
 
     try {
-      const response = await fetch('/api/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
+      const { data, error } = await supabase.functions.invoke('chat', {
+        body: {
           message: userText,
           model: selectedModel,
-          // Map to correct chat schema of Gemini SDK
-          history: activePatient.chats.map(c => ({
+          history: activePatient.chats.map((c: any) => ({
             role: c.role,
-            parts: [{ text: c.parts[0].text }]
-          }))
-        })
+            content: c.parts?.[0]?.text ?? '',
+          })),
+        },
       });
 
-      const data = await response.json();
+      if (error) throw new Error(error.message || 'Edge function error');
+
       if (data.text) {
         const finalChats: Message[] = [...updatedChats, { role: 'model', parts: [{ text: data.text }], timestamp: new Date().toLocaleTimeString() }];
         const finalPatient = { ...activePatient, chats: finalChats };
@@ -1057,7 +1056,7 @@ export default function App() {
     } catch (err: any) {
       console.error(err);
       // Fallback response with warning
-      const errorText = `⚠️ **[System Alert - Network/Key Issue]** Could not communicate with clinical endpoint. Fallback clinical diagnostics based on classical *Vaidya Shastra*:\n\nFor constitution *${activePatient.prakriti}* suffering from *${activePatient.notes || 'general complaints'}*, we prescribe immediate physical evaluation of bowel (*Koshta*: ${activePatient.koshta}) and metabolic capacity (*Agni*: ${activePatient.agni}).\n\n*Error details: ${err.message || 'Server did not respond'}. Please check if GEMINI_API_KEY is configured in Settings > Secrets.*`;
+      const errorText = `⚠️ **[System Alert - Network/Key Issue]** Could not communicate with clinical endpoint. Fallback clinical diagnostics based on classical *Vaidya Shastra*:\n\nFor constitution *${activePatient.prakriti}* suffering from *${activePatient.notes || 'general complaints'}*, we prescribe immediate physical evaluation of bowel (*Koshta*: ${activePatient.koshta}) and metabolic capacity (*Agni*: ${activePatient.agni}).\n\n*Error details: ${err.message || 'Server did not respond'}. Please check if NVIDIA_API_KEY is configured in Settings > Secrets.*`;
       
       const finalChats: Message[] = [...updatedChats, { role: 'model', parts: [{ text: errorText }], timestamp: new Date().toLocaleTimeString() }];
       const finalPatient = { ...activePatient, chats: finalChats };
@@ -1081,26 +1080,18 @@ export default function App() {
     setGeneratedProtocolText('');
 
     try {
-      const response = await fetch('/api/generate-protocol', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          patientProfile: {
-            age: activePatient.age,
-            gender: activePatient.gender,
-            prakriti: activePatient.prakriti,
-            agni: activePatient.agni,
-            koshta: activePatient.koshta,
-            lifestyle: activePatient.lifestyle,
-            season: activePatient.season
-          },
-          principalImbalance: protocolImbalance || activePatient.vikriti,
-          chiefComplaint: protocolComplaint,
-          model: selectedModel
-        })
+      const { data, error } = await supabase.functions.invoke('treatment-protocol', {
+        body: {
+          diagnosis: protocolComplaint,
+          patientSummary: `Prakriti: ${activePatient.prakriti}, Vikriti: ${activePatient.vikriti || 'unknown'}, Agni: ${activePatient.agni}, Koshta: ${activePatient.koshta}, Age: ${activePatient.age}, Gender: ${activePatient.gender}`,
+          severity: 'moderate',
+          chronicity: 'subacute',
+          model: selectedModel,
+        },
       });
 
-      const data = await response.json();
+      if (error) throw new Error(error.message || 'Edge function error');
+
       if (data.text) {
         setGeneratedProtocolText(data.text);
         

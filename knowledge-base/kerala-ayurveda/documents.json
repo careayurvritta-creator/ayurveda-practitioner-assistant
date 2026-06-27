@@ -1,0 +1,78 @@
+[
+  {
+    "id": "kerala-foundations",
+    "title": "Ayurveda Foundations",
+    "type": "educational",
+    "category": "Foundations",
+    "content": "Ayurveda is a traditional system of health that originated in India. It focuses on understanding an individual's constitution (prakriti), maintaining balance between body, mind, and environment, and using diet, lifestyle, herbs, and therapies to support wellbeing. The Tridosha Model groups functions of the body-mind into three broad principles: Vata (movement, communication, adaptability), Pitta (transformation, digestion, metabolism, focus), and Kapha (stability, structure, nourishment, lubrication). Every person has all three in unique proportions. Imbalance can show up as discomfort in energy, digestion, sleep, mood, or other functions.",
+    "keyConcepts": ["Prakriti", "Tridosha", "Vata", "Pitta", "Kapha", "Balance", "Wellbeing"],
+    "source": "Kerala Ayurveda RAG"
+  },
+  {
+    "id": "kerala-dosha-guide",
+    "title": "Dosha Guide - Vata, Pitta, Kapha",
+    "type": "educational",
+    "category": "Dosha",
+    "content": "Vata keywords: light, dry, mobile, cold. Common tendencies: creativity, quick thinking, love variety and movement. Imbalance may show as restlessness, worry, scattered focus, irregular appetite or digestion, sleep disturbance, feeling cold, dryness in skin or hair. Emphasise warmth, regularity, grounding. Pitta keywords: hot, sharp, intense, focused. Common tendencies: drive, ambition, leadership, strong digestion and appetite, clarity, decisiveness. Imbalance may show as irritability, impatience, overheating, skin sensitivity, tendency to overdo and burn out. Emphasise cooling, moderation, pause-and-reflect. Kapha keywords: heavy, stable, smooth, cool. Common tendencies: steadiness, loyalty, patience, good stamina and endurance, calm grounded presence. Imbalance may show as lethargy, low motivation, feeling stuck or resistant to change, tendency to feel heavy or sluggish. Emphasise lightness, stimulation, gentle activation.",
+    "keyConcepts": ["Vata", "Pitta", "Kapha", "Dosha Imbalance", "Qualities"],
+    "source": "Kerala Ayurveda RAG"
+  },
+  {
+    "id": "kerala-faq",
+    "title": "FAQ - General Ayurveda Questions",
+    "type": "faq",
+    "category": "Patient Education",
+    "content": "Q: Is Ayurveda safe to combine with modern medicine? A: Ayurveda is often used alongside modern medicine. However, herb-drug interactions are possible. Inform your doctor about any Ayurvedic supplements. Q: How long does it take to see results? A: Timelines vary. Some changes in sleep, digestion, or energy may be felt in a few weeks. Deeper changes often take weeks to months. Q: Can Ayurveda help with stress and sleep? A: Ayurveda approaches stress and sleep through daily routines, food choices, herbs like Ashwagandha, and therapies such as oil massages. Q: Are Ayurvedic herbs natural and side-effect free? A: Natural does not automatically mean safe for everyone. Herbs are active substances and may not suit every person. Quality and sourcing matter. Q: Do I need to know my dosha before starting? A: Knowing your dosha can be helpful but is not mandatory. Simple foundational actions like better sleep hygiene, mindful eating, and gentle movement make a meaningful difference.",
+    "keyConcepts": ["Safety", "Herb-Drug Interactions", "Timeline", "Stress", "Sleep", "Dosha"],
+    "source": "Kerala Ayurveda RAG"
+  },
+  {
+    "id": "kerala-ashwagandha",
+    "title": "Ashwagandha Stress Balance Tablets",
+    "type": "product",
+    "category": "Herbal Supplements",
+    "content": "Ashwagandha (Withania somnifera) root extract. In Ayurveda, Ashwagandha is traditionally used to support the body's ability to adapt to stress, promote calmness and emotional balance, support strength and stamina, and help maintain restful sleep. Key messages: Stress resilience, not sedation. Emphasise adaptation, steadiness, and recovery. Pair with routines around winding down. Safety: Not recommended for pregnant individuals without personalised professional advice. People with thyroid disorders, autoimmune conditions, or on long-term medication should consult their healthcare provider before use.",
+    "herbs": ["Ashwagandha"],
+    "indications": ["Stress", "Sleep", "Adaptogen", "Nervous System"],
+    "source": "Kerala Ayurveda RAG"
+  },
+  {
+    "id": "kerala-brahmi-tailam",
+    "title": "Brahmi Tailam - Head & Hair Oil",
+    "type": "product",
+    "category": "Topical Oils",
+    "content": "Brahmi (Bacopa monnieri), Amla (Emblica officinalis), other supportive herbs in a base oil. In classical Ayurveda, medicated head oils are used to soothe the nervous system, support sound sleep, nourish hair and scalp, and help calm Vata in the head region (restlessness, overthinking). A calming head and hair oil that supports relaxation, scalp nourishment, and evening wind-down rituals. Safety: External use only; avoid contact with eyes. People with sensitive skin should patch-test before broader use.",
+    "herbs": ["Brahmi", "Amla"],
+    "indications": ["Hair", "Scalp", "Relaxation", "Vata Soothing"],
+    "source": "Kerala Ayurveda RAG"
+  },
+  {
+    "id": "kerala-triphala",
+    "title": "Triphala Capsules",
+    "type": "product",
+    "category": "Digestive Support",
+    "content": "Amalaki (Emblica officinalis), Bibhitaki (Terminalia bellirica), Haritaki (Terminalia chebula). In Ayurveda, Triphala is traditionally used to support digestive comfort, regular elimination, gentle internal cleansing, and long-term vitality through rasayana (rejuvenation) actions. A gentle daily support for digestion and regularity, rooted in a classical three-fruit formula. Safety: Not intended to diagnose, treat, cure, or prevent any disease. Individuals with chronic digestive disease, recent abdominal surgery, pregnancy or breastfeeding should consult a qualified healthcare provider.",
+    "herbs": ["Amalaki", "Bibhitaki", "Haritaki"],
+    "indications": ["Digestion", "Elimination", "Rasayana", "Gentle Cleanse"],
+    "source": "Kerala Ayurveda RAG"
+  },
+  {
+    "id": "kerala-stress-program",
+    "title": "Stress Support Program",
+    "type": "clinic_program",
+    "category": "Clinical Programs",
+    "content": "A supportive, complementary Ayurvedic program for people experiencing ongoing stress, mental fatigue, and difficulty unwinding. Core components: Initial Ayurvedic Consultation (detailed history of lifestyle, sleep, digestion, stressors; assessment of dosha tendencies and current imbalance), Therapy Plan (Abhyanga oil body massage, Shirodhara gentle stream of oil over the forehead, breathing and grounding practices), Home Routine Suggestions (evening wind-down ideas, regular mealtimes, screen boundaries). This program is not a substitute for mental health care.",
+    "therapies": ["Abhyanga", "Shirodhara", "Pranayama"],
+    "indications": ["Stress", "Mental Fatigue", "Sleep", "Nervous System"],
+    "source": "Kerala Ayurveda RAG"
+  },
+  {
+    "id": "kerala-product-catalog",
+    "title": "Kerala Ayurveda Product Catalog",
+    "type": "catalog",
+    "category": "Product Catalog",
+    "content": "Products: KA-P001 Triphala Capsules (Digestive support, key herbs: Amalaki, Bibhitaki, Haritaki); KA-P002 Ashwagandha Stress Balance Tablets (Stress & Sleep, key herb: Ashwagandha); KA-P003 Brahmi Tailam Head & Hair Oil (Topical oil, key herbs: Brahmi, Amla); KA-P004 Joint Ease Herbal Tablets (Joint support, key herbs: Guggulu, Shallaki); KA-P005 Calm Evening Herbal Tea (Herbal tea, key herbs: Chamomile, Brahmi, Licorice, Cardamom); KA-P006 Liver Care Tonic (General support, key herbs: Bhumyamalaki, Kutki); KA-P007 Daily Immunity Churna (Immune support, key herbs: Guduchi, Amla, Pippali); KA-P008 Women's Balance Support Tablets (Hormonal & cycle support, key herbs: Shatavari, Ashoka, Lodhra).",
+    "products": ["Triphala", "Ashwagandha", "Brahmi Tailam", "Joint Ease", "Calm Tea", "Liver Care", "Immunity Churna", "Women's Balance"],
+    "source": "Kerala Ayurveda RAG"
+  }
+]
