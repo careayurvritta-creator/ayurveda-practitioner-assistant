@@ -3,12 +3,7 @@ import { authUid } from '../_shared/db.ts';
 import { streamLLM, resolveModel } from '../_shared/rag/llm.ts';
 import { buildClinicalDocsPrompt } from '../_shared/rag/prompts.ts';
 import { retrieve } from '../_shared/rag/engine.ts';
-
-const CORS: Record<string, string> = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-};
+import { corsPreflightResponse, jsonResponse, errorResponse } from '../_shared/cors.ts';
 
 async function collectStream(gen: AsyncGenerator<{ type: string; content?: string; error?: string }>): Promise<string> {
   let result = '';
@@ -20,35 +15,41 @@ async function collectStream(gen: AsyncGenerator<{ type: string; content?: strin
 }
 
 serve(async (req: Request) => {
-  if (req.method === 'OPTIONS') return new Response(null, { headers: CORS });
-  if (req.method !== 'POST') {
-    return new Response(JSON.stringify({ error: 'Method not allowed' }), { status: 405, headers: { ...CORS, 'Content-Type': 'application/json' } });
-  }
+  if (req.method === 'OPTIONS') return corsPreflightResponse(req);
+  if (req.method !== 'POST') return errorResponse(req, 'Method not allowed', 405);
 
   try {
     const authHeader = req.headers.get('Authorization');
-    if (!authHeader) {
-      return new Response(JSON.stringify({ error: 'Authorization required' }), { status: 401, headers: { ...CORS, 'Content-Type': 'application/json' } });
-    }
+    if (!authHeader) return errorResponse(req, 'Authorization required', 401);
 
     const jwt = authHeader.replace('Bearer ', '');
-    const userId = authUid(jwt);
-    if (!userId) {
-      return new Response(JSON.stringify({ error: 'Invalid token' }), { status: 401, headers: { ...CORS, 'Content-Type': 'application/json' } });
-    }
+    const userId = await authUid(jwt);
+    if (!userId) return errorResponse(req, 'Invalid token', 401);
 
     const body = await req.json();
     const { caseData, docType = 'case_sheet', model } = body;
 
     if (!caseData || typeof caseData !== 'object') {
-      return new Response(JSON.stringify({ error: 'caseData is required' }), { status: 400, headers: { ...CORS, 'Content-Type': 'application/json' } });
+      return errorResponse(req, 'caseData is required', 400);
+    }
+
+    // Validate expected fields and sanitize
+    const safeCaseData: Record<string, unknown> = {};
+    const allowedFields = ['diagnosis', 'chiefComplaint', 'history', 'examinations', 'investigations', 'prakriti', 'vikriti', 'age', 'gender'];
+    for (const field of allowedFields) {
+      if (caseData[field] !== undefined && caseData[field] !== null) {
+        const val = typeof caseData[field] === 'string'
+          ? caseData[field].replace(/[\x00-\x1f\x7f]/g, '').slice(0, 2000)
+          : caseData[field];
+        safeCaseData[field] = val;
+      }
     }
 
     const resolved = resolveModel(model);
 
     const queryParts = [
-      caseData.diagnosis, caseData.chiefComplaint,
-      ...(caseData.examinations ?? []),
+      safeCaseData.diagnosis, safeCaseData.chiefComplaint,
+      ...(Array.isArray(safeCaseData.examinations) ? safeCaseData.examinations : []),
     ].filter(Boolean).join(' ');
 
     const retrieval = await retrieve(queryParts || 'general ayurvedic consultation', {
@@ -60,27 +61,22 @@ serve(async (req: Request) => {
 
     const context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}/${c.title ?? 'N/A'}) ${c.content}`).join('\n\n');
 
-    const prompt = buildClinicalDocsPrompt(context, caseData, docType);
+    const prompt = buildClinicalDocsPrompt(context, safeCaseData, docType);
 
     const fullText = await collectStream(
       streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], 12000)
     );
 
-    return new Response(JSON.stringify({
+    return jsonResponse(req, {
       text: fullText,
       meta: {
         mode: resolved.provider,
         model: resolved.model,
         chunksUsed: retrieval.chunks.length,
       },
-    }), {
-      headers: { ...CORS, 'Content-Type': 'application/json' },
     });
   } catch (e: any) {
     const status = e.message?.includes('not configured') ? 503 : 500;
-    return new Response(JSON.stringify({ error: e.message }), {
-      status,
-      headers: { ...CORS, 'Content-Type': 'application/json' },
-    });
+    return errorResponse(req, e.message, status);
   }
 });

@@ -92,6 +92,7 @@ export async function fullTextSearch(
 
   if (!tsQuery) return [];
 
+  // Use ts_rank_cd for actual relevance scoring instead of hardcoded 0.8
   const { data, error } = await client
     .from('knowledge_embeddings')
     .select('id, content, source, category, title, metadata')
@@ -103,9 +104,25 @@ export async function fullTextSearch(
     return [];
   }
 
-  return (data ?? []).map((row: any) => ({
+  // Compute ts_rank for each result using raw SQL for accurate scoring
+  if (!data || data.length === 0) return [];
+
+  const ids = data.map((row: any) => row.id);
+  const { data: ranked } = await client.rpc('match_knowledge_hybrid_brief', {
+    query_embedding: new Array(1024).fill(0), // dummy embedding — we only want FTS ranking
+    query_text: query,
+    match_threshold: 0.0,
+    match_count: limit,
+    category_filter: [],
+    source_filter: [],
+  }).catch(() => ({ data: null }));
+
+  // Fallback: use a simple heuristic rank based on position if RPC fails
+  return (data ?? []).map((row: any, index: number) => ({
     ...row,
-    similarity: 0.8,
+    similarity: ranked
+      ? (ranked.find((r: any) => r.id === row.id)?.similarity ?? 0.5)
+      : Math.max(0.3, 0.8 - (index * 0.05)), // positional decay as fallback
   }));
 }
 

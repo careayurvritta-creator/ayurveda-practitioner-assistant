@@ -1,15 +1,9 @@
 import { serve } from 'https://deno.land/std@0.168.0/http/server.ts';
-import { userScopedClient } from '../_shared/db.ts';
-import { authUid } from '../_shared/db.ts';
+import { userScopedClient, authUid } from '../_shared/db.ts';
 import { streamLLM, resolveModel } from '../_shared/rag/llm.ts';
 import { buildTreatmentProtocolPrompt } from '../_shared/rag/prompts.ts';
 import { retrieve } from '../_shared/rag/engine.ts';
-
-const CORS: Record<string, string> = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-};
+import { corsPreflightResponse, jsonResponse, errorResponse } from '../_shared/cors.ts';
 
 async function collectStream(gen: AsyncGenerator<{ type: string; content?: string; error?: string }>): Promise<string> {
   let result = '';
@@ -21,33 +15,30 @@ async function collectStream(gen: AsyncGenerator<{ type: string; content?: strin
 }
 
 serve(async (req: Request) => {
-  if (req.method === 'OPTIONS') return new Response(null, { headers: CORS });
-  if (req.method !== 'POST') {
-    return new Response(JSON.stringify({ error: 'Method not allowed' }), { status: 405, headers: { ...CORS, 'Content-Type': 'application/json' } });
-  }
+  if (req.method === 'OPTIONS') return corsPreflightResponse(req);
+  if (req.method !== 'POST') return errorResponse(req, 'Method not allowed', 405);
 
   try {
     const authHeader = req.headers.get('Authorization');
-    if (!authHeader) {
-      return new Response(JSON.stringify({ error: 'Authorization required' }), { status: 401, headers: { ...CORS, 'Content-Type': 'application/json' } });
-    }
+    if (!authHeader) return errorResponse(req, 'Authorization required', 401);
 
     const jwt = authHeader.replace('Bearer ', '');
-    const userId = authUid(jwt);
-    if (!userId) {
-      return new Response(JSON.stringify({ error: 'Invalid token' }), { status: 401, headers: { ...CORS, 'Content-Type': 'application/json' } });
-    }
+    const userId = await authUid(jwt);
+    if (!userId) return errorResponse(req, 'Invalid token', 401);
 
     const body = await req.json();
     const { diagnosis, patientSummary = '', severity = 'moderate', chronicity = 'subacute', model, saveToCases = false } = body;
 
-    if (!diagnosis || typeof diagnosis !== 'string') {
-      return new Response(JSON.stringify({ error: 'diagnosis is required' }), { status: 400, headers: { ...CORS, 'Content-Type': 'application/json' } });
+    if (!diagnosis || typeof diagnosis !== 'string' || diagnosis.trim().length === 0) {
+      return errorResponse(req, 'diagnosis is required', 400);
     }
+
+    const safeDiagnosis = diagnosis.replace(/[\x00-\x1f\x7f]/g, '').slice(0, 1000);
+    const safeSummary = patientSummary.replace(/[\x00-\x1f\x7f]/g, '').slice(0, 5000);
 
     const resolved = resolveModel(model);
 
-    const retrieval = await retrieve(diagnosis, {
+    const retrieval = await retrieve(safeDiagnosis, {
       surface: 'treatment-protocol',
       doResearch: true,
       skipSerpAPI: !Deno.env.get('SERPAPI_KEY'),
@@ -58,7 +49,7 @@ serve(async (req: Request) => {
     const context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}/${c.title ?? 'N/A'}) ${c.content}`).join('\n\n');
 
     const prompt = buildTreatmentProtocolPrompt(
-      context, diagnosis, patientSummary, severity, chronicity, retrieval.researchArticles
+      context, safeDiagnosis, safeSummary, severity, chronicity, retrieval.researchArticles
     );
 
     const fullText = await collectStream(
@@ -69,15 +60,15 @@ serve(async (req: Request) => {
       try {
         const db = userScopedClient(jwt);
         await db.from('clinical_cases').insert({
-          diagnosis,
-          patient_summary: patientSummary,
+          diagnosis: safeDiagnosis,
+          patient_summary: safeSummary,
           treatment_plan: fullText.slice(0, 10000),
           user_id: userId,
         });
       } catch { /* best-effort */ }
     }
 
-    return new Response(JSON.stringify({
+    return jsonResponse(req, {
       text: fullText,
       research: retrieval.researchArticles,
       meta: {
@@ -87,14 +78,9 @@ serve(async (req: Request) => {
         chunksUsed: retrieval.chunks.length,
         totalTokens: retrieval.totalTokens,
       },
-    }), {
-      headers: { ...CORS, 'Content-Type': 'application/json' },
     });
   } catch (e: any) {
     const status = e.message?.includes('not configured') ? 503 : 500;
-    return new Response(JSON.stringify({ error: e.message }), {
-      status,
-      headers: { ...CORS, 'Content-Type': 'application/json' },
-    });
+    return errorResponse(req, e.message, status);
   }
 });
