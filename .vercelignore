@@ -1,0 +1,11 @@
+node_modules/
+dist/
+supabase/
+scripts/
+tests/
+docs/
+knowledge-base/
+knowledge-base.zip
+*.zip
+.git/
+.openclaude/
