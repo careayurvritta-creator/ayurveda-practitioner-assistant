@@ -28,18 +28,22 @@ export async function embedNVIDIA(text: string): Promise<EmbeddingResult> {
   if (!NVIDIA_API_KEY) {
     throw new Error('NVIDIA_API_KEY is not configured');
   }
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 30_000);
   const res = await fetch(NVIDIA_EMBED_URL, {
     method: 'POST',
     headers: {
       'Authorization': `Bearer ${NVIDIA_API_KEY}`,
       'Content-Type': 'application/json',
     },
+    signal: controller.signal,
     body: JSON.stringify({
       model: NVIDIA_EMBED_MODEL,
       input: text,
       encoding_format: 'float',
     }),
   });
+  clearTimeout(timeout);
   if (!res.ok) {
     const text2 = await res.text();
     throw new Error(`NVIDIA embed error ${res.status}: ${text2}`);
@@ -54,14 +58,18 @@ export async function embedNVIDIA(text: string): Promise<EmbeddingResult> {
 export async function embedGemini(text: string): Promise<EmbeddingResult> {
   if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY is not configured');
   const url = `${GEMINI_EMBED_URL}`;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 30_000);
   const res = await fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
       'x-goog-api-key': GEMINI_API_KEY,
     },
+    signal: controller.signal,
     body: JSON.stringify({ content: { parts: [{ text }] } }),
   });
+  clearTimeout(timeout);
   if (!res.ok) throw new Error(`Gemini embed error ${res.status}`);
   const data = await res.json();
   const values: number[] = data.embedding?.values ?? [];
@@ -80,14 +88,17 @@ export async function embed(text: string): Promise<EmbeddingResult> {
 }
 
 export async function embedBatch(texts: string[], onError?: (err: Error, idx: number) => void): Promise<(EmbeddingResult | null)[]> {
-  const results: (EmbeddingResult | null)[] = [];
-  for (let i = 0; i < texts.length; i++) {
-    try {
-      results.push(await embed(texts[i]));
-    } catch (e: any) {
-      if (onError) onError(e, i);
-      results.push(null);
-    }
+  const results: (EmbeddingResult | null)[] = new Array(texts.length).fill(null);
+  const CONCURRENCY = 5;
+  for (let i = 0; i < texts.length; i += CONCURRENCY) {
+    const batch = texts.slice(i, i + CONCURRENCY);
+    const batchResults = await Promise.allSettled(
+      batch.map((text, j) => embed(text).then(r => { results[i + j] = r; return r; }))
+    );
+    batchResults.forEach((r, j) => {
+      if (r.status === 'rejected' && onError) onError(r.reason, i + j);
+    });
+    if (i + CONCURRENCY < texts.length) await new Promise(r => setTimeout(r, 200));
   }
   return results;
 }

@@ -73,13 +73,19 @@ function cleanPubMedAbstract(abstract: string): string {
     .slice(0, 2000);
 }
 
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), ms);
+  return promise.finally(() => clearTimeout(timeout));
+}
+
 async function fetchPubMed(query: string): Promise<RawArticle[]> {
   const baseUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
   const apiKey = NCBI_API_KEY ? `&api_key=${NCBI_API_KEY}` : '';
 
   try {
     const searchUrl = `${baseUrl}/esearch.fcgi?db=pubmed&term=${encodeURIComponent(query + ' AND Ayurveda')}&retmax=15&sort=relevance&retmode=json${apiKey}`;
-    const searchRes = await fetch(searchUrl);
+    const searchRes = await withTimeout(fetch(searchUrl), 15_000);
     if (!searchRes.ok) return [];
     const searchData = await searchRes.json();
     const ids: string[] = searchData.esearchresult?.idlist ?? [];
@@ -88,7 +94,7 @@ async function fetchPubMed(query: string): Promise<RawArticle[]> {
     await delay(350);
 
     const summaryUrl = `${baseUrl}/esummary.fcgi?db=pubmed&id=${ids.join(',')}&retmode=json${apiKey}`;
-    const summaryRes = await fetch(summaryUrl);
+    const summaryRes = await withTimeout(fetch(summaryUrl), 15_000);
     if (!summaryRes.ok) return [];
     const summaryData = await summaryRes.json();
 
@@ -110,7 +116,7 @@ async function fetchPubMed(query: string): Promise<RawArticle[]> {
     if (ids.length > 0) {
       await delay(350);
       const abstractUrl = `${baseUrl}/efetch.fcgi?db=pubmed&id=${ids.join(',')}&rettype=abstract&retmode=xml${apiKey}`;
-      const abstractRes = await fetch(abstractUrl);
+      const abstractRes = await withTimeout(fetch(abstractUrl), 15_000);
       if (abstractRes.ok) {
         const xml = await abstractRes.text();
         for (let i = 0; i < ids.length; i++) {
@@ -134,9 +140,9 @@ async function fetchPubMed(query: string): Promise<RawArticle[]> {
 async function fetchOpenAlex(query: string): Promise<RawArticle[]> {
   try {
     const searchUrl = `https://api.openalex.org/works?search=${encodeURIComponent(query)}&filter=title_and_abstract.search:${encodeURIComponent(query)},default.search:Ayurveda&sort=relevance_score:desc&per_page=15`;
-    const res = await fetch(searchUrl, {
+    const res = await withTimeout(fetch(searchUrl, {
       headers: { 'User-Agent': 'AyurScribe/1.0 (mailto:research@ayurscribe.app)' },
-    });
+    }), 15_000);
     if (!res.ok) return [];
     const data = await res.json();
 
@@ -169,7 +175,7 @@ async function fetchSerpAPIScholar(query: string): Promise<RawArticle[]> {
   if (!SERPAPI_KEY) return [];
   try {
     const url = `https://serpapi.com/search.json?q=${encodeURIComponent(query + ' Ayurveda')}&engine=google_scholar&num=10&api_key=${SERPAPI_KEY}`;
-    const res = await fetch(url);
+    const res = await withTimeout(fetch(url), 15_000);
     if (!res.ok) return [];
     const data = await res.json();
 

@@ -37,8 +37,11 @@ export async function* streamNVIDIA(
     return;
   }
 
-  const prompt = messages.map(m => `<|${m.role}|>\n${m.content}`).join('\n');
-  const fullPrompt = system ? `<|system|>\n${system}\n${prompt}<|user|>\n` : `${prompt}<|user|>\n`;
+  const apiMessages: Array<{ role: string; content: string }> = [];
+  if (system) apiMessages.push({ role: 'system', content: system });
+  for (const m of messages) {
+    apiMessages.push({ role: m.role, content: m.content });
+  }
 
   const res = await fetch(`${NVIDIA_BASE_URL}/chat/completions`, {
     method: 'POST',
@@ -48,7 +51,7 @@ export async function* streamNVIDIA(
     },
     body: JSON.stringify({
       model,
-      messages: [{ role: 'user', content: fullPrompt }],
+      messages: apiMessages,
       max_tokens: maxTokens,
       temperature: 0.3,
       stream: true,

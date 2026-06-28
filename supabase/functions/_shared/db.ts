@@ -17,6 +17,8 @@ export function userScopedClient(jwt: string) {
   });
 }
 
+let cachedAnonClient: ReturnType<typeof createClient> | null = null;
+
 /**
  * Cryptographically verify the JWT and return the authenticated user's ID.
  * Uses Supabase's getUser() which validates the token server-side.
@@ -24,10 +26,12 @@ export function userScopedClient(jwt: string) {
  */
 export async function authUid(jwt: string): Promise<string | null> {
   try {
-    const client = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-      auth: { persistSession: false },
-    });
-    const { data: { user }, error } = await client.auth.getUser(jwt);
+    if (!cachedAnonClient) {
+      cachedAnonClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+        auth: { persistSession: false },
+      });
+    }
+    const { data: { user }, error } = await cachedAnonClient.auth.getUser(jwt);
     if (error || !user) return null;
     return user.id;
   } catch {

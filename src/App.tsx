@@ -238,10 +238,17 @@ function getSeedPatients(): Patient[] {
 const stripMarkdown = (text: string): string => {
   if (!text) return '';
   return text
-    .replace(/[#*|`>]/g, '')
-    .replace(/---\s*/g, '')
-    .replace(/-\s+/g, '')
-    .replace(/\s\s+/g, ' ')
+    .replace(/^#{1,6}\s+/gm, '')
+    .replace(/\*\*(.*?)\*\*/g, '$1')
+    .replace(/\*(.*?)\*/g, '$1')
+    .replace(/`{1,3}[^`]*`{1,3}/g, '')
+    .replace(/!\[.*?\]\(.*?\)/g, '')
+    .replace(/\[([^\]]+)\]\(.*?\)/g, '$1')
+    .replace(/^\s*[-*+]\s+/gm, '')
+    .replace(/^\s*\d+\.\s+/gm, '')
+    .replace(/^\s*>\s+/gm, '')
+    .replace(/---+/g, '')
+    .replace(/\n{2,}/g, ' ')
     .trim();
 };
 
@@ -339,11 +346,7 @@ export default function App() {
   const [firebaseUser, setFirebaseUser] = useState<any>(null);
   const [userEmail, setUserEmail] = useState<string>('care.ayurvritta@gmail.com');
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(true); // Logged in state flag
-  const [googleSync, setGoogleSync] = useState<boolean>(true);
   const [googleAccessToken, setGoogleAccessToken] = useState<string | null>(null);
-
-  // Firestore & Firebase sync flags
-  const [firebaseLoading, setFirebaseLoading] = useState<boolean>(true);
 
   // Google Drive Integration States
   const [driveExportLoading, setDriveExportLoading] = useState<boolean>(false);
@@ -430,13 +433,9 @@ export default function App() {
     if (!corpusQuery.trim()) return;
     setCorpusLoading(true);
     try {
-      const res = await fetch(`/api/search-knowledge?q=${encodeURIComponent(corpusQuery)}`);
-      if (res.ok) {
-        const data = await res.json();
-        setCorpusResults(data.results || []);
-      }
+      setCorpusResults([`Corpus search requires the /api/search-knowledge endpoint. Use the Chat tab for RAG-powered search against the full knowledge base.`]);
     } catch (e) {
-      console.error('Could not query scripture base:', e);
+      console.error('Corpus search error:', e);
     } finally {
       setCorpusLoading(false);
     }
@@ -454,16 +453,10 @@ export default function App() {
     setHfSearchLoading(true);
     setHfRAGResult('');
     try {
-      const res = await fetch(`/api/search-huggingface?q=${encodeURIComponent(hfQueryText)}&dataset=${encodeURIComponent(selectedHfDatasetId)}`);
-      if (res.ok) {
-        const data = await res.json();
-        setHfRAGResult(data.text || 'No matches returned.');
-      } else {
-        setHfRAGResult('Error connecting to the Hugging Face RAG compilation index.');
-      }
+      setHfRAGResult('The Hugging Face API endpoint is not configured. Use the Chat tab for RAG-powered search against the full knowledge base.');
     } catch (e) {
-      console.error('Hugging Face RAG Query Error:', e);
-      setHfRAGResult('Network issue during Hugging Face dataset execution.');
+      console.error('Hugging Face search error:', e);
+      setHfRAGResult('Network issue during search.');
     } finally {
       setHfSearchLoading(false);
     }
@@ -510,7 +503,7 @@ export default function App() {
           setIsLoadingModules(false);
         });
     }
-  }, [activeTab, knowledgeModules]);
+  }, [activeTab]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Self Learning feedback logs
   const [feedbackLogs, setFeedbackLogs] = useState<FeedbackLog[]>([]);
@@ -652,9 +645,7 @@ export default function App() {
         setFirebaseUser(session.user);
         setUserEmail(session.user.email || '');
         setIsLoggedIn(true);
-        setGoogleSync(true);
       }
-      setFirebaseLoading(false);
     });
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
@@ -662,7 +653,6 @@ export default function App() {
         setFirebaseUser(session.user);
         setUserEmail(session.user.email || '');
         setIsLoggedIn(true);
-        setGoogleSync(true);
         // Extract Google provider access token for Drive API
         const providerToken = (session as any)?.provider_token;
         if (providerToken) {
@@ -672,7 +662,6 @@ export default function App() {
         setFirebaseUser(null);
         setGoogleAccessToken(null);
       }
-      setFirebaseLoading(false);
     });
 
     return () => subscription.unsubscribe();
@@ -841,7 +830,7 @@ export default function App() {
     const added: Patient = {
       id: 'patient_' + Date.now(),
       name: newPatient.name.trim(),
-      age: Number(newPatient.age),
+      age: Math.max(1, Math.min(150, parseInt(String(newPatient.age), 10) || 30)),
       gender: newPatient.gender,
       email: newPatient.email.trim() || '',
       phone: newPatient.phone.trim() || '',
@@ -891,7 +880,7 @@ export default function App() {
         alert(`Dossier saved locally! Note: Synchronization to cloud server failed (${err.message || err}). Your clinical records are saved on this device.`);
       }
     } else {
-      if (googleSync && userEmail) {
+      if (userEmail) {
         try {
           await fetch('/api/patients', {
             method: 'POST',
@@ -937,19 +926,7 @@ export default function App() {
           await supabase.from('patients').delete().eq('id', id);
         } catch (err: any) {
           console.error('Supabase delete failed:', err);
-          alert(`Patient removed locally! Note: Could not delete from cloud server (${err.message || err}).`);
-        }
-      } else {
-        if (googleSync && userEmail) {
-          try {
-            await fetch('/api/patients', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ email: userEmail, patients: filtered })
-            });
-          } catch (e) {
-            console.error('Offline backup sync delete error:', e);
-          }
+          alert(`Patient removed locally! Note: Could not delete from cloud server.`);
         }
       }
     }
@@ -990,18 +967,11 @@ export default function App() {
       if (firebaseUser) {
         try {
           await supabase.from('feedback_logs').delete().eq('id', id);
-          setFeedbackLogs(prev => prev.filter(f => f.id !== id));
         } catch (err) {
           console.error('Supabase delete feedback error:', err);
         }
-      } else {
-        setFeedbackLogs(prev => prev.filter(f => f.id !== id));
-        try {
-          await fetch(`/api/feedback/${id}`, { method: 'DELETE' });
-        } catch (err) {
-          console.error('Error deleting feedback log on server:', err);
-        }
       }
+      setFeedbackLogs(prev => prev.filter(f => f.id !== id));
     }
   };
 
@@ -1043,31 +1013,17 @@ export default function App() {
 
       if (firebaseUser) {
         try {
-          for (const p of patients) {
-            await supabase.from('patients').delete().eq('id', p.id);
-          }
-          for (const f of feedbackLogs) {
-            await supabase.from('feedback_logs').delete().eq('id', f.id);
-          }
+          // Parallel deletion for speed
+          const patientDeletes = patients.map(p => supabase.from('patients').delete().eq('id', p.id));
+          const feedbackDeletes = feedbackLogs.map(f => supabase.from('feedback_logs').delete().eq('id', f.id));
+          await Promise.allSettled([...patientDeletes, ...feedbackDeletes]);
           alert('Workspace reset successfully! All local and cloud records have been purged.');
         } catch (err) {
           console.error('Error purging cloud docs:', err);
           alert('Workspace reset locally, but encountered an error resetting some cloud sync documents.');
         }
       } else {
-        try {
-          if (userEmail) {
-            await fetch('/api/patients', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ email: userEmail, patients: [] })
-            });
-          }
-          await fetch('/api/feedback/clear', { method: 'POST' });
-        } catch (e) {
-          console.error('Error calling reset APIs:', e);
-        }
-        alert('All local demo data cleared and cached workspace reset successfully!');
+        alert('All local demo data cleared successfully!');
       }
     }
   };
@@ -1252,7 +1208,6 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
         setUserEmail('');
         setIsLoggedIn(false);
         setGoogleAccessToken(null);
-        setGoogleSync(false);
         setPatients([]);
         setSelectedPatientId(null);
         setKnowledgeDocs([]);
@@ -1299,10 +1254,15 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
     setDragActive(false);
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
       const file = e.dataTransfer.files[0];
+      const allowedTypes = ['application/pdf', 'text/plain', 'text/markdown'];
+      if (!allowedTypes.includes(file.type) && !file.name.endsWith('.md')) {
+        alert('Only PDF, TXT, and MD files are accepted.');
+        return;
+      }
       const doc: KnowledgeDoc = {
         id: 'doc_' + Date.now(),
         name: file.name,
-        type: 'Uploaded PDF / RAG Asset',
+        type: file.type === 'application/pdf' ? 'Uploaded PDF' : 'Uploaded Text',
         size: `${(file.size / (1024 * 1024)).toFixed(2)} MB`,
         uploadedAt: new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }),
         status: 'indexed'
@@ -1324,6 +1284,9 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
       timestamp: new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
     };
 
+    // Add to local state immediately so data is never lost
+    setFeedbackLogs(prev => [log, ...prev]);
+
     if (firebaseUser) {
       try {
         await supabase.from('feedback_logs').upsert({
@@ -1335,21 +1298,8 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
           owner_id: firebaseUser.id,
           updated_at: new Date().toISOString(),
         });
-        setFeedbackLogs(prev => [log, ...prev]);
       } catch (err) {
-        console.error('Supabase feedback save error:', err);
-      }
-    } else {
-      const updatedFeedback = [log, ...feedbackLogs];
-      setFeedbackLogs(updatedFeedback);
-      try {
-        await fetch('/api/feedback', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ feedback: log })
-        });
-      } catch (err) {
-        console.error('Problem sending self-learning feedback correction to backend', err);
+        console.error('Supabase feedback save error (saved locally):', err);
       }
     }
 
@@ -3151,6 +3101,8 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                     <input
                       type="number"
                       required
+                      min={1}
+                      max={150}
                       value={newPatient.age}
                       onChange={(e) => setNewPatient({ ...newPatient, age: Number(e.target.value) })}
                       className="w-full bg-stone-50 border border-stone-300 rounded-lg p-2 text-xs focus:outline-none"

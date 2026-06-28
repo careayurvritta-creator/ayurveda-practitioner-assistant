@@ -31,12 +31,15 @@ export async function rerankChunks(
   });
 
   try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 30_000);
     const response = await fetch('https://api.cohere.ai/v1/rerank', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${COHERE_API_KEY}`,
         'Content-Type': 'application/json',
       },
+      signal: controller.signal,
       body: JSON.stringify({
         model,
         query,
@@ -45,6 +48,7 @@ export async function rerankChunks(
         return_documents: false,
       }),
     });
+    clearTimeout(timeout);
 
     if (!response.ok) {
       const errText = await response.text();

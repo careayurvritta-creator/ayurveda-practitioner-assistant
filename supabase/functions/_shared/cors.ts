@@ -7,6 +7,7 @@ const PROD_ORIGINS = [
   'https://careayurvritta.com',
   'https://www.careayurvritta.com',
   'https://ayurveda-practitioner-assistant.vercel.app',
+  'https://assistant.ayurvrittaayurveda.in',
 ];
 
 function getAllowedOrigin(req: Request): string {
