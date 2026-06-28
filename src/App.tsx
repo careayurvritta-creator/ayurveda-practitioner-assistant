@@ -28,46 +28,8 @@ import {
   Check,
   AlertCircle
 } from 'lucide-react';
-import {
-  db,
-  googleSignIn,
-  logout,
-  initAuth,
-  handleFirestoreError,
-  OperationType
-} from './firebase';
-import {
-  collection,
-  doc,
-  setDoc,
-  deleteDoc,
-  query,
-  where,
-  onSnapshot
-} from 'firebase/firestore';
 import { Markdown } from './components/Markdown';
 import { supabase } from './supabase';
-
-// Helper to recursively remove undefined properties before writing to Firestore
-function cleanFirestoreData(obj: any): any {
-  if (obj === null || obj === undefined) {
-    return null;
-  }
-  if (Array.isArray(obj)) {
-    return obj.map(cleanFirestoreData);
-  }
-  if (typeof obj === 'object') {
-    const cleaned: any = {};
-    for (const key of Object.keys(obj)) {
-      const val = obj[key];
-      if (val !== undefined) {
-        cleaned[key] = cleanFirestoreData(val);
-      }
-    }
-    return cleaned;
-  }
-  return obj;
-}
 
 // Helper to sanitize a patient object and remove undefined values before saving to Firestore or LocalStorage
 function sanitizePatient(p: any): Patient {
@@ -653,28 +615,35 @@ export default function App() {
     }
   };
 
-  // Google Initial Auth Hook on bootstrap
+  // Supabase Auth state listener on bootstrap
   useEffect(() => {
-    const unsub = initAuth(
-      (user, token) => {
-        setFirebaseUser(user);
-        setUserEmail(user.email || '');
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session?.user) {
+        setFirebaseUser(session.user);
+        setUserEmail(session.user.email || '');
         setIsLoggedIn(true);
         setGoogleSync(true);
-        setGoogleAccessToken(token);
-        setFirebaseLoading(false);
-      },
-      () => {
-        // Fallback or not authenticated yet
+      }
+      setFirebaseLoading(false);
+    });
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (session?.user) {
+        setFirebaseUser(session.user);
+        setUserEmail(session.user.email || '');
+        setIsLoggedIn(true);
+        setGoogleSync(true);
+      } else {
         setFirebaseUser(null);
         setGoogleAccessToken(null);
-        setFirebaseLoading(false);
       }
-    );
-    return () => unsub();
+      setFirebaseLoading(false);
+    });
+
+    return () => subscription.unsubscribe();
   }, []);
 
-  // Fetch or Seed user records on successful login
+  // Fetch user records on successful login via Supabase
   useEffect(() => {
     if (!firebaseUser) {
       // Fallback: load offline data from LocalStorage
@@ -690,62 +659,97 @@ export default function App() {
           console.error('Error loading offline local storage patient backup:', e);
         }
       } else {
-        // Start completely clean and empty by default
         setPatients([]);
         setSelectedPatientId(null);
       }
       return;
     }
 
-    // Subscribe to custom live Firestore Patient dossiers for this specific practitioner (ownerId mapping)
-    const qPatients = query(collection(db, 'patients'), where('ownerId', '==', firebaseUser.uid));
-    const unsubscribePatients = onSnapshot(qPatients, async (snapshot) => {
-      const fetched: Patient[] = [];
-      snapshot.forEach((snapDoc) => {
-        fetched.push(snapDoc.data() as Patient);
-      });
+    // Fetch patients from Supabase
+    const fetchPatients = async () => {
+      try {
+        const { data, error } = await supabase
+          .from('patients')
+          .select('*')
+          .eq('owner_id', firebaseUser.id)
+          .order('created_at', { ascending: false });
 
-      if (fetched.length === 0) {
-        // Start completely clean and empty by default
-        setPatients([]);
-        setSelectedPatientId(null);
-      } else {
-        // Sort newest first
-        fetched.sort((a, b) => {
-          const tA = new Date(a.createdAt).getTime() || 0;
-          const tB = new Date(b.createdAt).getTime() || 0;
-          return tB - tA;
-        });
-        setPatients(fetched);
-        if (fetched.length > 0 && !selectedPatientId) {
-          setSelectedPatientId(fetched[0].id);
+        if (error) throw error;
+
+        if (!data || data.length === 0) {
+          setPatients([]);
+          setSelectedPatientId(null);
+        } else {
+          // Map Supabase columns to Patient interface
+          const fetched: Patient[] = data.map((row: any) => ({
+            id: row.id,
+            name: row.name || '',
+            age: row.age || 30,
+            gender: row.gender || 'Male',
+            email: row.email || '',
+            phone: row.phone || '',
+            prakriti: row.prakriti || 'Vata',
+            vikriti: row.vikriti || '',
+            agni: row.agni || 'Sama (Balanced)',
+            koshta: row.koshta || 'Madhyama (Medium)',
+            lifestyle: row.lifestyle || '',
+            season: row.season || '',
+            notes: row.notes || '',
+            createdAt: row.created_at || new Date().toLocaleDateString('en-GB'),
+            chats: Array.isArray(row.chats) ? row.chats : [],
+            protocols: Array.isArray(row.protocols) ? row.protocols : [],
+          }));
+          setPatients(fetched);
+          if (fetched.length > 0 && !selectedPatientId) {
+            setSelectedPatientId(fetched[0].id);
+          }
+        }
+      } catch (err) {
+        console.warn('Supabase patients fetch warning:', err);
+        // Fallback to localStorage
+        const cached = localStorage.getItem('ayurScribe_patients');
+        if (cached) {
+          try {
+            const parsed = JSON.parse(cached);
+            setPatients(parsed);
+            if (parsed.length > 0) setSelectedPatientId(parsed[0].id);
+          } catch (e) {
+            console.error('Error loading offline backup:', e);
+          }
         }
       }
-    }, (error) => {
-      console.warn('Firestore snapshot subscription warning (patients):', error);
-    });
-
-    // Subscribe to custom live Firestore fine-tuning clinician Feedback Logs
-    const qFeedback = query(collection(db, 'feedbackLogs'), where('ownerId', '==', firebaseUser.uid));
-    const unsubscribeFeedback = onSnapshot(qFeedback, (snapshot) => {
-      const logs: FeedbackLog[] = [];
-      snapshot.forEach((snapDoc) => {
-        logs.push(snapDoc.data() as FeedbackLog);
-      });
-      logs.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
-      setFeedbackLogs(logs);
-    }, (error) => {
-      console.warn('Firestore snapshot subscription warning (feedbackLogs):', error);
-    });
-
-    // Automatically load files from Google Drive once connected
-    loadGoogleDriveFiles();
-
-    return () => {
-      unsubscribePatients();
-      unsubscribeFeedback();
     };
-  }, [firebaseUser, googleAccessToken, loadGoogleDriveFiles]);
+
+    fetchPatients();
+
+    // Fetch feedback logs from Supabase
+    const fetchFeedback = async () => {
+      try {
+        const { data, error } = await supabase
+          .from('feedback_logs')
+          .select('*')
+          .eq('owner_id', firebaseUser.id)
+          .order('created_at', { ascending: false });
+
+        if (error) throw error;
+
+        if (data) {
+          const logs: FeedbackLog[] = data.map((row: any) => ({
+            id: row.id,
+            patientName: row.patient_name || '',
+            originalGuidance: row.original_guidance || '',
+            practitionerCorrection: row.practitioner_correction || '',
+            timestamp: row.timestamp || row.created_at || '',
+          }));
+          setFeedbackLogs(logs);
+        }
+      } catch (err) {
+        console.warn('Supabase feedback fetch warning:', err);
+      }
+    };
+
+    fetchFeedback();
+  }, [firebaseUser]);
 
   // Real-time remote storage synchronizer callback
   const savePatientsToLocal = async (updated: Patient[]) => {
@@ -756,26 +760,27 @@ export default function App() {
       const active = updated.find(p => p.id === selectedPatientId);
       if (active) {
         try {
-          const sanitized = {
-            ...sanitizePatient(active),
-            ownerId: firebaseUser.uid,
-            updatedAt: new Date().toISOString()
-          };
-          await setDoc(doc(db, 'patients', active.id), cleanFirestoreData(sanitized));
-        } catch (e) {
-          handleFirestoreError(e, OperationType.UPDATE, `patients/${active.id}`);
-        }
-      }
-    } else {
-      if (googleSync && userEmail) {
-        try {
-          await fetch('/api/patients', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email: userEmail, patients: updated })
+          await supabase.from('patients').upsert({
+            id: active.id,
+            name: active.name,
+            age: active.age,
+            gender: active.gender,
+            email: active.email || '',
+            phone: active.phone || '',
+            prakriti: active.prakriti,
+            vikriti: active.vikriti || '',
+            agni: active.agni,
+            koshta: active.koshta,
+            lifestyle: active.lifestyle || '',
+            season: active.season || '',
+            notes: active.notes || '',
+            chats: active.chats || [],
+            protocols: active.protocols || [],
+            owner_id: firebaseUser.id,
+            updated_at: new Date().toISOString(),
           });
         } catch (e) {
-          console.error('Offline backup sync error:', e);
+          console.error('Supabase save error:', e);
         }
       }
     }
@@ -823,14 +828,28 @@ export default function App() {
 
     if (firebaseUser) {
       try {
-        const sanitized = {
-          ...sanitizePatient(added),
-          ownerId: firebaseUser.uid,
-          updatedAt: new Date().toISOString()
-        };
-        await setDoc(doc(db, 'patients', added.id), cleanFirestoreData(sanitized));
+        await supabase.from('patients').upsert({
+          id: added.id,
+          name: added.name,
+          age: added.age,
+          gender: added.gender,
+          email: added.email || '',
+          phone: added.phone || '',
+          prakriti: added.prakriti,
+          vikriti: added.vikriti || '',
+          agni: added.agni,
+          koshta: added.koshta,
+          lifestyle: added.lifestyle || '',
+          season: added.season || '',
+          notes: added.notes || '',
+          chats: [],
+          protocols: [],
+          owner_id: firebaseUser.id,
+          created_at: new Date().toISOString(),
+          updated_at: new Date().toISOString(),
+        });
       } catch (err: any) {
-        console.error('Firestore upload failed:', err);
+        console.error('Supabase upload failed:', err);
         alert(`Dossier saved locally! Note: Synchronization to cloud server failed (${err.message || err}). Your clinical records are saved on this device.`);
       }
     } else {
@@ -877,9 +896,9 @@ export default function App() {
 
       if (firebaseUser) {
         try {
-          await deleteDoc(doc(db, 'patients', id));
+          await supabase.from('patients').delete().eq('id', id);
         } catch (err: any) {
-          console.error('Firestore delete failed:', err);
+          console.error('Supabase delete failed:', err);
           alert(`Patient removed locally! Note: Could not delete from cloud server (${err.message || err}).`);
         }
       } else {
@@ -932,9 +951,10 @@ export default function App() {
     if (window.confirm('Are you sure you want to delete this adaptation feedback?')) {
       if (firebaseUser) {
         try {
-          await deleteDoc(doc(db, 'feedbackLogs', id));
+          await supabase.from('feedback_logs').delete().eq('id', id);
+          setFeedbackLogs(prev => prev.filter(f => f.id !== id));
         } catch (err) {
-          handleFirestoreError(err, OperationType.DELETE, `feedbackLogs/${id}`);
+          console.error('Supabase delete feedback error:', err);
         }
       } else {
         setFeedbackLogs(prev => prev.filter(f => f.id !== id));
@@ -986,15 +1006,15 @@ export default function App() {
       if (firebaseUser) {
         try {
           for (const p of patients) {
-            await deleteDoc(doc(db, 'patients', p.id));
+            await supabase.from('patients').delete().eq('id', p.id);
           }
           for (const f of feedbackLogs) {
-            await deleteDoc(doc(db, 'feedbackLogs', f.id));
+            await supabase.from('feedback_logs').delete().eq('id', f.id);
           }
-          alert('Workspace reset successfully! All local and Firestore records have been purged.');
+          alert('Workspace reset successfully! All local and cloud records have been purged.');
         } catch (err) {
-          console.error('Error purging Firestore docs:', err);
-          alert('Workspace reset locally, but encountered an error resetting some database sync documents.');
+          console.error('Error purging cloud docs:', err);
+          alert('Workspace reset locally, but encountered an error resetting some cloud sync documents.');
         }
       } else {
         try {
@@ -1170,28 +1190,26 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
     }, 300);
   };
 
-  // Real Google Sign-In and logout triggers
+  // Real Google Sign-In and logout triggers via Supabase
   const handleGoogleSignInTrigger = async () => {
     try {
-      const res = await googleSignIn();
-      if (res) {
-        setFirebaseUser(res.user);
-        setUserEmail(res.user.email || '');
-        setIsLoggedIn(true);
-        setGoogleSync(true);
-        setGoogleAccessToken(res.accessToken);
-        alert(`Signed in successfully as ${res.user.email}! Realtime Firestore & Google Drive syncing is now operational.`);
-      }
+      const { error } = await supabase.auth.signInWithOAuth({
+        provider: 'google',
+        options: {
+          redirectTo: window.location.origin,
+        },
+      });
+      if (error) throw error;
     } catch (err: any) {
       console.error(err);
-      alert(`Google sign-in abort or error: ${err.message || err}`);
+      alert(`Google sign-in error: ${err.message || err}`);
     }
   };
 
   const handleGoogleSignOutTrigger = async () => {
     if (window.confirm("Are you sure you want to log out? Your local records will be reset.")) {
       try {
-        await logout();
+        await supabase.auth.signOut();
         setFirebaseUser(null);
         setUserEmail('');
         setIsLoggedIn(false);
@@ -1265,13 +1283,18 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
 
     if (firebaseUser) {
       try {
-        await setDoc(doc(db, 'feedbackLogs', log.id), {
-          ...log,
-          ownerId: firebaseUser.uid,
-          updatedAt: new Date().toISOString()
+        await supabase.from('feedback_logs').upsert({
+          id: log.id,
+          patient_name: log.patientName,
+          original_guidance: log.originalGuidance,
+          practitioner_correction: log.practitionerCorrection,
+          timestamp: log.timestamp,
+          owner_id: firebaseUser.id,
+          updated_at: new Date().toISOString(),
         });
+        setFeedbackLogs(prev => [log, ...prev]);
       } catch (err) {
-        handleFirestoreError(err, OperationType.CREATE, `feedbackLogs/${log.id}`);
+        console.error('Supabase feedback save error:', err);
       }
     } else {
       const updatedFeedback = [log, ...feedbackLogs];

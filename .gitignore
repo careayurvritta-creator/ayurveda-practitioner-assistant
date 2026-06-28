@@ -29,3 +29,5 @@ start-openclaude.sh
 
 # Build artifacts / archives
 *.zip
+
+.vercel
