@@ -306,35 +306,35 @@ const renderChatMessageParts = (text: string) => {
   );
 };
 
-export default function App() {
-  // Show config error if Supabase env vars are missing
-  if (!isSupabaseConfigured) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-stone-50 p-6">
-        <div className="max-w-lg w-full bg-white rounded-xl shadow-lg border border-stone-200 p-8 text-center">
-          <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-            <span className="text-amber-600 text-xl">!</span>
-          </div>
-          <h2 className="text-lg font-bold text-stone-900 mb-2">Configuration Required</h2>
-          <p className="text-sm text-stone-600 mb-4">
-            Missing environment variables. Please add <code className="bg-stone-100 px-1 rounded">VITE_SUPABASE_URL</code> and <code className="bg-stone-100 px-1 rounded">VITE_SUPABASE_ANON_KEY</code> in your Vercel project settings.
-          </p>
-          <p className="text-xs text-stone-500 mb-4">
-            Go to Vercel Dashboard → Settings → Environment Variables → Add the two variables above.
-          </p>
-          <a
-            href="https://vercel.com/dashboard"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700 transition inline-block"
-          >
-            Open Vercel Dashboard
-          </a>
+function ConfigErrorScreen() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-stone-50 p-6">
+      <div className="max-w-lg w-full bg-white rounded-xl shadow-lg border border-stone-200 p-8 text-center">
+        <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <span className="text-amber-600 text-xl">!</span>
         </div>
+        <h2 className="text-lg font-bold text-stone-900 mb-2">Configuration Required</h2>
+        <p className="text-sm text-stone-600 mb-4">
+          Missing environment variables. Please add <code className="bg-stone-100 px-1 rounded">VITE_SUPABASE_URL</code> and <code className="bg-stone-100 px-1 rounded">VITE_SUPABASE_ANON_KEY</code> in your Vercel project settings.
+        </p>
+        <p className="text-xs text-stone-500 mb-4">
+          Go to Vercel Dashboard → Settings → Environment Variables → Add the two variables above.
+        </p>
+        <a
+          href="https://vercel.com/dashboard"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700 transition inline-block"
+        >
+          Open Vercel Dashboard
+        </a>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
+export default function App() {
+  // All hooks must be called unconditionally (React Rules of Hooks)
   // Google Authentication State
   const [firebaseUser, setFirebaseUser] = useState<any>(null);
   const [userEmail, setUserEmail] = useState<string>('care.ayurvritta@gmail.com');
@@ -518,6 +518,8 @@ export default function App() {
   const [newFeedbackOriginal, setNewFeedbackOriginal] = useState<string>('');
 
   const chatEndRef = useRef<HTMLDivElement>(null);
+  const patientsRef = useRef<Patient[]>([]);
+  patientsRef.current = patients;
 
   // Google Drive client-side integration helper methods
   const handleExportToGoogleDrive = async (ptName: string, protocolTitle: string, content: string) => {
@@ -661,6 +663,11 @@ export default function App() {
         setUserEmail(session.user.email || '');
         setIsLoggedIn(true);
         setGoogleSync(true);
+        // Extract Google provider access token for Drive API
+        const providerToken = (session as any)?.provider_token;
+        if (providerToken) {
+          setGoogleAccessToken(providerToken);
+        }
       } else {
         setFirebaseUser(null);
         setGoogleAccessToken(null);
@@ -782,34 +789,37 @@ export default function App() {
   // Real-time remote storage synchronizer callback
   const savePatientsToLocal = async (updated: Patient[]) => {
     setPatients(updated);
+    patientsRef.current = updated;
     localStorage.setItem('ayurScribe_patients', JSON.stringify(updated));
 
     if (firebaseUser) {
-      const active = updated.find(p => p.id === selectedPatientId);
-      if (active) {
-        try {
-          await supabase.from('patients').upsert({
-            id: active.id,
-            name: active.name,
-            age: active.age,
-            gender: active.gender,
-            email: active.email || '',
-            phone: active.phone || '',
-            prakriti: active.prakriti,
-            vikriti: active.vikriti || '',
-            agni: active.agni,
-            koshta: active.koshta,
-            lifestyle: active.lifestyle || '',
-            season: active.season || '',
-            notes: active.notes || '',
-            chats: active.chats || [],
-            protocols: active.protocols || [],
+      // Sync ALL patients to Supabase, not just the selected one
+      try {
+        const upserts = updated.map(p => 
+          supabase.from('patients').upsert({
+            id: p.id,
+            name: p.name,
+            age: p.age,
+            gender: p.gender,
+            email: p.email || '',
+            phone: p.phone || '',
+            prakriti: p.prakriti,
+            vikriti: p.vikriti || '',
+            agni: p.agni,
+            koshta: p.koshta,
+            lifestyle: p.lifestyle || '',
+            season: p.season || '',
+            notes: p.notes || '',
+            chats: p.chats || [],
+            protocols: p.protocols || [],
             owner_id: firebaseUser.id,
+            created_at: p.createdAt ? new Date(p.createdAt).toISOString() : new Date().toISOString(),
             updated_at: new Date().toISOString(),
-          });
-        } catch (e) {
-          console.error('Supabase save error:', e);
-        }
+          })
+        );
+        await Promise.allSettled(upserts);
+      } catch (e) {
+        console.error('Supabase save error:', e);
       }
     }
   };
@@ -1071,10 +1081,10 @@ export default function App() {
     const userText = currentMessage;
     setCurrentMessage('');
 
-    // Update locally first
+    // Update locally first using ref to avoid stale closure
     const updatedChats: Message[] = [...activePatient.chats, { role: 'user', parts: [{ text: userText }], timestamp: new Date().toLocaleTimeString() }];
     const updatedPatient = { ...activePatient, chats: updatedChats };
-    const updatedPatientsList = patients.map(p => p.id === activePatient.id ? updatedPatient : p);
+    const updatedPatientsList = patientsRef.current.map(p => p.id === activePatient.id ? updatedPatient : p);
     savePatientsToLocal(updatedPatientsList);
 
     setChatLoading(true);
@@ -1096,19 +1106,19 @@ export default function App() {
       if (data.text) {
         const finalChats: Message[] = [...updatedChats, { role: 'model', parts: [{ text: data.text }], timestamp: new Date().toLocaleTimeString() }];
         const finalPatient = { ...activePatient, chats: finalChats };
-        const finalPatientsList = patients.map(p => p.id === activePatient.id ? finalPatient : p);
+        const finalPatientsList = patientsRef.current.map(p => p.id === activePatient.id ? finalPatient : p);
         savePatientsToLocal(finalPatientsList);
       } else {
-        throw new Error(data.error || 'Invalid API Response');
+        throw new Error(data.error ?? 'Invalid API Response');
       }
     } catch (err: any) {
       console.error(err);
       // Fallback response with warning
-      const errorText = `⚠️ **[System Alert - Network/Key Issue]** Could not communicate with clinical endpoint. Fallback clinical diagnostics based on classical *Vaidya Shastra*:\n\nFor constitution *${activePatient.prakriti}* suffering from *${activePatient.notes || 'general complaints'}*, we prescribe immediate physical evaluation of bowel (*Koshta*: ${activePatient.koshta}) and metabolic capacity (*Agni*: ${activePatient.agni}).\n\n*Error details: ${err.message || 'Server did not respond'}. Please check if NVIDIA_API_KEY is configured in Settings > Secrets.*`;
+      const errorText = `⚠️ **[System Alert - Network/Key Issue]** Could not communicate with clinical endpoint. Fallback clinical diagnostics based on classical *Vaidya Shastra*:\n\nFor constitution *${activePatient.prakriti}* suffering from *${activePatient.notes || 'general complaints'}*, we prescribe immediate physical evaluation of bowel (*Koshta*: ${activePatient.koshta}) and metabolic capacity (*Agni*: ${activePatient.agni}).\n\n*Error details: ${err.message || 'Server did not respond'}.*`;
       
       const finalChats: Message[] = [...updatedChats, { role: 'model', parts: [{ text: errorText }], timestamp: new Date().toLocaleTimeString() }];
       const finalPatient = { ...activePatient, chats: finalChats };
-      const finalPatientsList = patients.map(p => p.id === activePatient.id ? finalPatient : p);
+      const finalPatientsList = patientsRef.current.map(p => p.id === activePatient.id ? finalPatient : p);
       savePatientsToLocal(finalPatientsList);
     } finally {
       setChatLoading(false);
@@ -1159,7 +1169,7 @@ export default function App() {
           ...activePatient,
           protocols: [newProtocol, ...(activePatient.protocols || [])]
         };
-        const updatedPatientsList = patients.map(p => p.id === activePatient.id ? updatedPatient : p);
+        const updatedPatientsList = patientsRef.current.map(p => p.id === activePatient.id ? updatedPatient : p);
         savePatientsToLocal(updatedPatientsList);
       } else {
         throw new Error(data.error || 'Server output was empty');
@@ -1203,7 +1213,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
         ...activePatient,
         protocols: [newProtocol, ...(activePatient.protocols || [])]
       };
-      const updatedPatientsList = patients.map(p => p.id === activePatient.id ? updatedPatient : p);
+      const updatedPatientsList = patientsRef.current.map(p => p.id === activePatient.id ? updatedPatient : p);
       savePatientsToLocal(updatedPatientsList);
     } finally {
       setProtocolLoading(false);
@@ -1245,6 +1255,11 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
         setGoogleSync(false);
         setPatients([]);
         setSelectedPatientId(null);
+        setKnowledgeDocs([]);
+        setFeedbackLogs([]);
+        setCorpusResults([]);
+        setKnowledgeModules(null);
+        setActiveTab('chats');
       } catch (err: any) {
         alert(`Log out error: ${err.message}`);
       }
@@ -1343,6 +1358,11 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
   };
 
   const activePatient = getSelectedPatient();
+
+  // Config guard AFTER all hooks (React Rules of Hooks satisfied)
+  if (!isSupabaseConfigured) {
+    return <ConfigErrorScreen />;
+  }
 
   // Highlighted features & Improvements Planning Proposal (for RAG & self learning)
   const improvementPoints = [
@@ -1731,7 +1751,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                     </div>
 
                     {activePatient.chats.map((chat, idx) => {
-                      const isSystemAlert = chat.role === 'model' && chat.parts[0].text.includes('[System Alert - Network/Key Issue]');
+                      const isSystemAlert = chat.role === 'model' && chat.parts?.[0]?.text?.includes('[System Alert - Network/Key Issue]');
                       return (
                         <div
                           key={idx}
@@ -1759,7 +1779,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                               )}
                             </div>
                             {/* Markdown parsing-like simulation with dual-part RAG layout */}
-                            {renderChatMessageParts(chat.parts[0].text)}
+                            {renderChatMessageParts(chat.parts?.[0]?.text || '')}
                           </div>
                         </div>
                       );

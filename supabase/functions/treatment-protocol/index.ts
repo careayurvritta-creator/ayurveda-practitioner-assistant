@@ -5,13 +5,14 @@ import { buildTreatmentProtocolPrompt } from '../_shared/rag/prompts.ts';
 import { retrieve } from '../_shared/rag/engine.ts';
 import { corsPreflightResponse, jsonResponse, errorResponse } from '../_shared/cors.ts';
 
-async function collectStream(gen: AsyncGenerator<{ type: string; content?: string; error?: string }>): Promise<string> {
+async function collectStream(gen: AsyncGenerator<{ type: string; content?: string; error?: string }>): Promise<{ text: string; errors: string[] }> {
   let result = '';
+  const errors: string[] = [];
   for await (const part of gen) {
     if (part.type === 'content' && part.content) result += part.content;
-    if (part.type === 'error') result += `\n\n[Error: ${part.error}]`;
+    if (part.type === 'error' && part.error) errors.push(part.error);
   }
-  return result;
+  return { text: result, errors };
 }
 
 serve(async (req: Request) => {
@@ -25,6 +26,9 @@ serve(async (req: Request) => {
     const jwt = authHeader.replace('Bearer ', '');
     const userId = await authUid(jwt);
     if (!userId) return errorResponse(req, 'Invalid token', 401);
+
+    const contentLength = parseInt(req.headers.get('content-length') || '0', 10);
+    if (contentLength > 512 * 1024) return errorResponse(req, 'Request body too large', 413);
 
     const body = await req.json();
     const { diagnosis, patientSummary = '', severity = 'moderate', chronicity = 'subacute', model, saveToCases = false } = body;
@@ -52,9 +56,13 @@ serve(async (req: Request) => {
       context, safeDiagnosis, safeSummary, severity, chronicity, retrieval.researchArticles
     );
 
-    const fullText = await collectStream(
+    const { text: fullText, errors: llmErrors } = await collectStream(
       streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], 16000)
     );
+
+    if (llmErrors.length > 0) {
+      console.error('LLM stream errors:', llmErrors);
+    }
 
     if (saveToCases && userId) {
       try {
@@ -103,7 +111,9 @@ serve(async (req: Request) => {
       },
     });
   } catch (e: any) {
+    console.error('treatment-protocol error:', e?.message);
     const status = e.message?.includes('not configured') ? 503 : 500;
-    return errorResponse(req, e.message, status);
+    const msg = status === 503 ? 'AI service is not configured' : 'Internal server error';
+    return errorResponse(req, msg, status);
   }
 });

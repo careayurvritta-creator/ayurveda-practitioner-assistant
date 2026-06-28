@@ -41,8 +41,10 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
             {this.state.error && (
               <details className="mt-4 text-left">
                 <summary className="text-xs text-stone-500 cursor-pointer">Error details</summary>
-                <pre className="mt-2 text-xs text-stone-600 bg-stone-50 p-2 rounded overflow-auto">
-                  An unexpected error occurred. Please try refreshing the page.
+                <pre className="mt-2 text-xs text-stone-600 bg-stone-50 p-2 rounded overflow-auto max-h-48">
+                  {this.state.error.message || 'Unknown error'}
+                  {'\n\n'}
+                  {this.state.error.stack}
                 </pre>
               </details>
             )}

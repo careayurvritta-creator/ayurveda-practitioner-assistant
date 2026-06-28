@@ -5,13 +5,14 @@ import { buildPatientChatPrompt } from '../_shared/rag/prompts.ts';
 import { retrieve } from '../_shared/rag/engine.ts';
 import { corsPreflightResponse, jsonResponse, errorResponse } from '../_shared/cors.ts';
 
-async function collectStream(gen: AsyncGenerator<{ type: string; content?: string; error?: string }>): Promise<string> {
+async function collectStream(gen: AsyncGenerator<{ type: string; content?: string; error?: string }>): Promise<{ text: string; errors: string[] }> {
   let result = '';
+  const errors: string[] = [];
   for await (const part of gen) {
     if (part.type === 'content' && part.content) result += part.content;
-    if (part.type === 'error') result += `\n\n[Error: ${part.error}]`;
+    if (part.type === 'error' && part.error) errors.push(part.error);
   }
-  return result;
+  return { text: result, errors };
 }
 
 serve(async (req: Request) => {
@@ -26,11 +27,18 @@ serve(async (req: Request) => {
     const userId = await authUid(jwt);
     if (!userId) return errorResponse(req, 'Invalid token', 401);
 
+    const contentLength = parseInt(req.headers.get('content-length') || '0', 10);
+    if (contentLength > 256 * 1024) return errorResponse(req, 'Request body too large', 413);
+
     const body = await req.json();
     const { message, model, history = [], sessionId } = body;
 
     if (!message || typeof message !== 'string' || message.trim().length === 0) {
       return errorResponse(req, 'message is required', 400);
+    }
+
+    if (message.length > 4000) {
+      return errorResponse(req, 'message exceeds 4000 character limit', 400);
     }
 
     // Sanitize history: limit to last 20 messages, strip control chars, enforce role/content shape
@@ -56,9 +64,13 @@ serve(async (req: Request) => {
 
     const prompt = buildPatientChatPrompt(context, safeHistory, message);
 
-    const fullText = await collectStream(
+    const { text: fullText, errors: llmErrors } = await collectStream(
       streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], 8000)
     );
+
+    if (llmErrors.length > 0) {
+      console.error('LLM stream errors:', llmErrors);
+    }
 
     if (userId && sessionId) {
       try {
@@ -103,7 +115,9 @@ serve(async (req: Request) => {
       },
     });
   } catch (e: any) {
+    console.error('chat function error:', e?.message);
     const status = e.message?.includes('not configured') ? 503 : 500;
-    return errorResponse(req, e.message, status);
+    const msg = status === 503 ? 'AI service is not configured' : 'Internal server error';
+    return errorResponse(req, msg, status);
   }
 });
