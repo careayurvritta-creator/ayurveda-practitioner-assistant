@@ -29,7 +29,7 @@ import {
   AlertCircle
 } from 'lucide-react';
 import { Markdown } from './components/Markdown';
-import { supabase } from './supabase';
+import { supabase, isSupabaseConfigured } from './supabase';
 
 // Helper to sanitize a patient object and remove undefined values before saving to Firestore or LocalStorage
 function sanitizePatient(p: any): Patient {
@@ -307,6 +307,34 @@ const renderChatMessageParts = (text: string) => {
 };
 
 export default function App() {
+  // Show config error if Supabase env vars are missing
+  if (!isSupabaseConfigured) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-stone-50 p-6">
+        <div className="max-w-lg w-full bg-white rounded-xl shadow-lg border border-stone-200 p-8 text-center">
+          <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span className="text-amber-600 text-xl">!</span>
+          </div>
+          <h2 className="text-lg font-bold text-stone-900 mb-2">Configuration Required</h2>
+          <p className="text-sm text-stone-600 mb-4">
+            Missing environment variables. Please add <code className="bg-stone-100 px-1 rounded">VITE_SUPABASE_URL</code> and <code className="bg-stone-100 px-1 rounded">VITE_SUPABASE_ANON_KEY</code> in your Vercel project settings.
+          </p>
+          <p className="text-xs text-stone-500 mb-4">
+            Go to Vercel Dashboard → Settings → Environment Variables → Add the two variables above.
+          </p>
+          <a
+            href="https://vercel.com/dashboard"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700 transition inline-block"
+          >
+            Open Vercel Dashboard
+          </a>
+        </div>
+      </div>
+    );
+  }
+
   // Google Authentication State
   const [firebaseUser, setFirebaseUser] = useState<any>(null);
   const [userEmail, setUserEmail] = useState<string>('care.ayurvritta@gmail.com');
