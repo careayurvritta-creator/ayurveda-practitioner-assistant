@@ -793,6 +793,313 @@ function chunkPlanetAyurvedaHerbs(herbs: any[]): ChunkInput[] {
   return chunks;
 }
 
+function chunkAmidhaHerbs(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let herbs: any[] = [];
+  try {
+    const herbsPath = resolve(ROOT, 'knowledge-base', 'amidha-herb-database', 'herbs.json');
+    herbs = JSON.parse(readFileSync(herbsPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: amidha-herb-database/herbs.json not found.');
+    return [];
+  }
+
+  for (const herb of herbs) {
+    const name = herb.common_name || herb.name || 'Unknown';
+    const botanical = herb.botanical_name || '';
+    const family = herb.family || '';
+    const rasa = herb.rasa || '';
+    const virya = herb.virya || '';
+    const vipaka = herb.vipaka || '';
+    const karma = herb.karma || '';
+    const indications = herb.indications || herb.therapeutic_uses || '';
+    const parts = herb.part_used || '';
+    const dosage = herb.dosage || '';
+    const ref = herb.reference || '';
+
+    chunks.push({
+      source: 'amidha-herbs',
+      category: 'herb_monograph',
+      title: name,
+      metadata: { botanicalName: botanical, family, source: 'Amidha Herb Database v2.0' },
+      content: `Herb: ${name}\nBotanical Name: ${botanical}\nFamily: ${family}\nRasa: ${rasa}\nVirya: ${virya}\nVipaka: ${vipaka}\nKarma: ${karma}\nParts Used: ${parts}\nDosage: ${dosage}\nIndications: ${indications}\nReference: ${ref}`,
+    });
+  }
+
+  return chunks;
+}
+
+function chunkBhaishajyaFormulations(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let forms: any[] = [];
+  try {
+    const formsPath = resolve(ROOT, 'knowledge-base', 'bhaishajya-kalpana-kosha', 'formulations.json');
+    forms = JSON.parse(readFileSync(formsPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: bhaishajya-kalpana-kosha/formulations.json not found.');
+    return [];
+  }
+
+  for (const form of forms) {
+    const name = form.name || 'Unknown';
+    const type = form.type || '';
+    const category = form.category || '';
+    const ingredients = form.ingredients || '';
+    const indication = form.indications || form.indication || '';
+    const dosage = form.dosage || '';
+    const method = form.method_of_preparation || form.preparation || '';
+    const ref = form.reference || '';
+
+    chunks.push({
+      source: 'bhaishajya-kalpana-kosha',
+      category: 'treatment',
+      title: name,
+      metadata: { type, category, source: 'Bhaishajya Kalpana Kosha' },
+      content: `Classical Formulation: ${name}\nType: ${type}\nCategory: ${category}\nIngredients: ${ingredients}\nIndications: ${indication}\nDosage: ${dosage}\nMethod: ${method}\nReference: ${ref}`,
+    });
+  }
+
+  return chunks;
+}
+
+function chunkAshtangaHridaya(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let data: any = null;
+  try {
+    const dataPath = resolve(ROOT, 'knowledge-base', 'ayurknowledge', 'ashtanga-hridaya.ts');
+    const content = readFileSync(dataPath, 'utf-8');
+    // Extract ASHTANGA_HRIDAYA_COMPLETE from the TS file
+    const match = content.match(/export const ASHTANGA_HRIDAYA_COMPLETE\s*=\s*(\{[\s\S]*?\n\});/);
+    if (match) {
+      data = eval('(' + match[1] + ')');
+    }
+  } catch {
+    console.warn('  Warning: ashtanga-hridaya.ts not found or parse failed.');
+    return [];
+  }
+
+  if (!data?.chapters) return [];
+
+  for (const ch of data.chapters) {
+    const chapterChunks = smartChunkClassicalText(
+      'ashtanga-hridaya',
+      'classical_text',
+      `Ashtanga Hridaya - ${ch.name || ch.englishName || ch.id}`,
+      { sthana: ch.sthana, chapterNumber: ch.chapterNumber },
+      ch.fullContent || ch.content || '',
+      ch.sections || {}
+    );
+    chunks.push(...chapterChunks);
+  }
+
+  return chunks;
+}
+
+function chunkSiddhantaKosha(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let principles: any[] = [];
+  try {
+    const principlesPath = resolve(ROOT, 'knowledge-base', 'siddhanta-kosha', 'principles.json');
+    principles = JSON.parse(readFileSync(principlesPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: siddhanta-kosha/principles.json not found.');
+    return [];
+  }
+
+  for (const p of principles) {
+    const name = p.name || p.concept || 'Unknown';
+    const category = p.category || '';
+    const sanskrit = p.sanskrit || '';
+    const definition = p.definition || p.description || '';
+    const shloka = p.shloka || '';
+    const explanation = p.explanation || '';
+    const modern = p.modern_relevance || p.modernCorrelation || '';
+
+    chunks.push({
+      source: 'siddhanta-kosha',
+      category: 'fundamentals',
+      title: name,
+      metadata: { category, sanskrit, source: 'Siddhanta Kosha' },
+      content: `Principle: ${name} (${sanskrit})\nCategory: ${category}\nDefinition: ${definition}\nShloka: ${shloka}\nExplanation: ${explanation}\nModern Relevance: ${modern}`,
+    });
+  }
+
+  return chunks;
+}
+
+function chunkKeralaAyurveda(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let docs: any[] = [];
+  try {
+    const docsPath = resolve(ROOT, 'knowledge-base', 'kerala-ayurveda', 'documents.json');
+    docs = JSON.parse(readFileSync(docsPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: kerala-ayurveda/documents.json not found.');
+    return [];
+  }
+
+  for (const doc of docs) {
+    const title = doc.title || 'Unknown';
+    const type = doc.type || '';
+    const content = doc.content || '';
+
+    if (!content || content.trim().length === 0) continue;
+
+    // Chunk long documents
+    const contentChunks: string[][] = [];
+    let currentChunk: string[] = [];
+    let currentLen = 0;
+    const lines = content.split('\n');
+
+    for (const line of lines) {
+      if (currentLen + line.length > 3000 && currentChunk.length > 0) {
+        contentChunks.push(currentChunk);
+        currentChunk = [];
+        currentLen = 0;
+      }
+      currentChunk.push(line);
+      currentLen += line.length;
+    }
+    if (currentChunk.length > 0) contentChunks.push(currentChunk);
+
+    for (let i = 0; i < contentChunks.length; i++) {
+      chunks.push({
+        source: 'kerala-ayurveda',
+        category: doc.category || 'treatment',
+        title: contentChunks.length > 1 ? `${title} (Part ${i + 1})` : title,
+        metadata: { type, source: 'Kerala Ayurveda' },
+        content: `Title: ${title}\nType: ${type}\n\n${contentChunks[i].join('\n')}`,
+      });
+    }
+  }
+
+  return chunks;
+}
+
+function chunkVedasCorpus(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let corpus: any[] = [];
+  try {
+    const corpusPath = resolve(ROOT, 'knowledge-base', 'indian-vedas', 'ayurveda-corpus.json');
+    corpus = JSON.parse(readFileSync(corpusPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: indian-vedas/ayurveda-corpus.json not found.');
+    return [];
+  }
+
+  for (const entry of corpus) {
+    const collection = entry.collection || '';
+    const content = entry.content || '';
+    const metadata = entry.metadata || '';
+
+    if (!content || content.trim().length === 0) continue;
+
+    // Group by collection, chunk long entries
+    const contentChunks: string[][] = [];
+    let currentChunk: string[] = [];
+    let currentLen = 0;
+    const paragraphs = content.split(/\n\s*\n/);
+
+    for (const para of paragraphs) {
+      if (currentLen + para.length > 3000 && currentChunk.length > 0) {
+        contentChunks.push(currentChunk);
+        currentChunk = [];
+        currentLen = 0;
+      }
+      currentChunk.push(para);
+      currentLen += para.length;
+    }
+    if (currentChunk.length > 0) contentChunks.push(currentChunk);
+
+    for (let i = 0; i < contentChunks.length; i++) {
+      chunks.push({
+        source: 'vedas-corpus',
+        category: 'classical_text',
+        title: `${collection}${contentChunks.length > 1 ? ` (Part ${i + 1})` : ''}`,
+        metadata: { collection, source: 'Indian Vedas Corpus' },
+        content: `Collection: ${collection}\n${metadata}\n\n${contentChunks[i].join('\n\n')}`,
+      });
+    }
+  }
+
+  return chunks;
+}
+
+function chunkAyurwikiHerbs(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let herbs: any[] = [];
+  try {
+    const herbsPath = resolve(ROOT, 'knowledge-base', 'ayurwiki-herbs', 'herbs.json');
+    herbs = JSON.parse(readFileSync(herbsPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: ayurwiki-herbs/herbs.json not found.');
+    return [];
+  }
+
+  for (const herb of herbs) {
+    const title = herb.title || herb.name || 'Unknown';
+    const scientificName = herb.scientificName || '';
+    const commonNames = Array.isArray(herb.commonNames) ? herb.commonNames.join(', ') : (herb.commonNames || '');
+    const categories = Array.isArray(herb.categories) ? herb.categories.join(', ') : (herb.categories || '');
+    const description = herb.description || herb.content || '';
+
+    if (!description || description.trim().length === 0) continue;
+
+    chunks.push({
+      source: 'ayurwiki',
+      category: 'herb_monograph',
+      title,
+      metadata: { scientificName, source: 'Ayurwiki Wikipedia' },
+      content: `Herb: ${title}\nScientific Name: ${scientificName}\nCommon Names: ${commonNames}\nCategories: ${categories}\n\n${description}`,
+    });
+  }
+
+  return chunks;
+}
+
+function chunkGitaCharak(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let data: any = null;
+  try {
+    const dataPath = resolve(ROOT, 'knowledge-base', 'gita-datasets-charak', 'charak-samhita.json');
+    data = JSON.parse(readFileSync(dataPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: gita-datasets-charak/charak-samhita.json not found.');
+    return [];
+  }
+
+  if (!data?.sthanas) return [];
+
+  for (const sthana of data.sthanas) {
+    for (const chapter of (sthana.chapters || [])) {
+      const verses = chapter.verses || [];
+      if (verses.length === 0) continue;
+
+      // Group verses into chunks of 10
+      const VERSES_PER_CHUNK = 10;
+      for (let i = 0; i < verses.length; i += VERSES_PER_CHUNK) {
+        const group = verses.slice(i, i + VERSES_PER_CHUNK);
+        const verseText = group.map((v: any) => `Verse ${v.verse_id}: ${v.text}`).join('\n');
+
+        chunks.push({
+          source: 'gita-charak',
+          category: 'classical_text',
+          title: `${sthana.name} - Ch.${chapter.chapterNumber} (Verses ${i + 1}-${i + group.length})`,
+          metadata: {
+            sthana: sthana.name,
+            sthanaNumber: sthana.sthanaNumber,
+            chapterNumber: chapter.chapterNumber,
+            source: 'Gita/Datasets Charak Samhita',
+          },
+          content: `Charak Samhita - ${sthana.name} (${sthana.englishName})\nChapter ${chapter.chapterNumber}\n\n${verseText}`,
+        });
+      }
+    }
+  }
+
+  return chunks;
+}
+
 function chunkPlanetAyurvedaFormulations(formulations: any[]): ChunkInput[] {
   const chunks: ChunkInput[] = [];
 
@@ -929,6 +1236,46 @@ async function main() {
   const paFormChunks = chunkPlanetAyurvedaFormulations(AYURVEDA_KNOWLEDGE.planetAyurvedaFormulations ?? []);
   allChunks.push(...paFormChunks);
   console.log(`  → ${allChunks.length} total chunks (${paFormChunks.length} from Planet Ayurveda formulations)`);
+
+  console.log('Chunking Amidha Herb Database (360 herbs)...');
+  const amidhaChunks = chunkAmidhaHerbs();
+  allChunks.push(...amidhaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${amidhaChunks.length} from Amidha)`);
+
+  console.log('Chunking Bhaishajya Kalpana Kosha (176 formulations)...');
+  const bhaishajyaChunks = chunkBhaishajyaFormulations();
+  allChunks.push(...bhaishajyaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${bhaishajyaChunks.length} from Bhaishajya)`);
+
+  console.log('Chunking Ashtanga Hridaya (138 chapters)...');
+  const ashtangaChunks = chunkAshtangaHridaya();
+  allChunks.push(...ashtangaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${ashtangaChunks.length} from Ashtanga Hridaya)`);
+
+  console.log('Chunking Siddhanta Kosha (162 principles)...');
+  const siddhantaChunks = chunkSiddhantaKosha();
+  allChunks.push(...siddhantaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${siddhantaChunks.length} from Siddhanta Kosha)`);
+
+  console.log('Chunking Kerala Ayurveda documents...');
+  const keralaChunks = chunkKeralaAyurveda();
+  allChunks.push(...keralaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${keralaChunks.length} from Kerala Ayurveda)`);
+
+  console.log('Chunking Indian Vedas Corpus...');
+  const vedasChunks = chunkVedasCorpus();
+  allChunks.push(...vedasChunks);
+  console.log(`  → ${allChunks.length} total chunks (${vedasChunks.length} from Vedas Corpus)`);
+
+  console.log('Chunking Ayurwiki Herbs (2,185 herbs)...');
+  const ayurwikiChunks = chunkAyurwikiHerbs();
+  allChunks.push(...ayurwikiChunks);
+  console.log(`  → ${allChunks.length} total chunks (${ayurwikiChunks.length} from Ayurwiki)`);
+
+  console.log('Chunking Gita/Datasets Charak Samhita (7,978 verses)...');
+  const gitaChunks = chunkGitaCharak();
+  allChunks.push(...gitaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${gitaChunks.length} from Gita/Charak)`);
 
   const totalTexts = allChunks.map(c => {
     const prefix = generateContextPrefix(c);

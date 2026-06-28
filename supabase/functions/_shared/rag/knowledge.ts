@@ -138,3 +138,64 @@ export async function searchByCategory(
     matchCount: limit,
   });
 }
+
+/**
+ * Hybrid search combining vector similarity (0.7 weight) + full-text search (0.3 weight).
+ * Uses Reciprocal Rank Fusion via the match_knowledge_hybrid RPC.
+ * Returns higher precision results than vector-only search.
+ */
+export async function hybridSearch(
+  queryEmbedding: number[],
+  queryText: string,
+  opts: {
+    matchThreshold?: number;
+    matchCount?: number;
+    categoryFilter?: string[];
+    sourceFilter?: string[];
+  } = {}
+): Promise<KnowledgeChunk[]> {
+  const client = getClient();
+  const { data, error } = await client.rpc('match_knowledge_hybrid', {
+    query_embedding: queryEmbedding,
+    query_text: queryText,
+    match_threshold: opts.matchThreshold ?? 0.7,
+    match_count: opts.matchCount ?? 20,
+    category_filter: opts.categoryFilter ?? [],
+    source_filter: opts.sourceFilter ?? [],
+  });
+  if (error) {
+    console.error('hybridSearch RPC error:', error);
+    return vectorSearch(queryEmbedding, opts);
+  }
+  return (data ?? []) as KnowledgeChunk[];
+}
+
+/**
+ * Brief hybrid search — returns only id, content, source, category, title, similarity.
+ * Lighter payload for initial retrieval before reranking.
+ */
+export async function hybridSearchBrief(
+  queryEmbedding: number[],
+  queryText: string,
+  opts: {
+    matchThreshold?: number;
+    matchCount?: number;
+    categoryFilter?: string[];
+    sourceFilter?: string[];
+  } = {}
+): Promise<Pick<KnowledgeChunk, 'id' | 'content' | 'source' | 'category' | 'title' | 'similarity'>[]> {
+  const client = getClient();
+  const { data, error } = await client.rpc('match_knowledge_hybrid_brief', {
+    query_embedding: queryEmbedding,
+    query_text: queryText,
+    match_threshold: opts.matchThreshold ?? 0.7,
+    match_count: opts.matchCount ?? 20,
+    category_filter: opts.categoryFilter ?? [],
+    source_filter: opts.sourceFilter ?? [],
+  });
+  if (error) {
+    console.error('hybridSearchBrief RPC error:', error);
+    return vectorSearchBrief(queryEmbedding, opts);
+  }
+  return data ?? [];
+}
