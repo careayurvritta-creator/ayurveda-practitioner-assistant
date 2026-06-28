@@ -592,7 +592,7 @@ export default function App() {
     }
   };
 
-  const loadGoogleDriveFiles = async () => {
+  const loadGoogleDriveFiles = React.useCallback(async () => {
     if (!googleAccessToken) return;
     setDriveFilesLoading(true);
     try {
@@ -613,7 +613,7 @@ export default function App() {
     } finally {
       setDriveFilesLoading(false);
     }
-  };
+  }, [googleAccessToken]);
 
   // Import a plaintext file directly into Clinical Knowledge base representation and search index
   const handleImportDriveFile = async (fileId: string, fileName: string) => {
@@ -745,7 +745,7 @@ export default function App() {
       unsubscribePatients();
       unsubscribeFeedback();
     };
-  }, [firebaseUser, googleAccessToken]);
+  }, [firebaseUser, googleAccessToken, loadGoogleDriveFiles]);
 
   // Real-time remote storage synchronizer callback
   const savePatientsToLocal = async (updated: Patient[]) => {
@@ -1100,7 +1100,7 @@ export default function App() {
           id: 'protocol_' + Date.now(),
           title: `Chikitsa Chart - ${protocolImbalance || 'Classical Diagnosis'}`,
           chiefComplaint: protocolComplaint,
-          principalImbalance: protocolImbalance || activePatient.vikriti,
+          principalImbalance: protocolImbalance || activePatient.vikriti || 'Doshic Imbalance',
           generatedText: data.text,
           createdAt: new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }),
           prakriti: activePatient.prakriti,
@@ -1144,7 +1144,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
         id: 'protocol_' + Date.now(),
         title: `Chikitsa Chart - Clinical Backup Formulation`,
         chiefComplaint: protocolComplaint,
-        principalImbalance: protocolImbalance || activePatient.vikriti,
+        principalImbalance: protocolImbalance || activePatient.vikriti || 'Doshic Imbalance',
         generatedText: fallbackText,
         createdAt: new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }),
         prakriti: activePatient.prakriti,

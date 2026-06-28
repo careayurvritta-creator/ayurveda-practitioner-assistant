@@ -1,5 +1,21 @@
 import React from 'react';
 
+/**
+ * Sanitize HTML special characters to prevent XSS attacks.
+ * Escapes &, <, >, ", ' to their HTML entity equivalents.
+ */
+function sanitizeHtml(input: string): string {
+  if (!input) return '';
+  const map: Record<string, string> = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;',
+  };
+  return input.replace(/[&<>"']/g, m => map[m]);
+}
+
 // Helper types for parsed Markdown block representation
 export type Block =
   | { type: 'code'; codeText: string; language?: string }
@@ -19,7 +35,8 @@ interface Token {
 export const parseInlineStyles = (text: string): React.ReactNode[] => {
   if (!text) return [];
   
-  let tokens: Token[] = [{ type: 'text', content: text }];
+  const safeText = sanitizeHtml(text);
+  let tokens: Token[] = [{ type: 'text', content: safeText }];
   
   // Helper to split text tokens safely by a regex and map them to custom parsed tokens
   const splitAndMap = (
