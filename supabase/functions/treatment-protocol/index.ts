@@ -68,6 +68,29 @@ serve(async (req: Request) => {
       } catch { /* best-effort */ }
     }
 
+    // Log query metrics (best-effort, service-role)
+    try {
+      const { serviceRoleClient } = await import('../_shared/db.ts');
+      const svc = serviceRoleClient();
+      await svc.rpc('log_query', {
+        p_user_id: userId,
+        p_surface: 'treatment-protocol',
+        p_query_text: safeDiagnosis.slice(0, 2000),
+        p_intent: retrieval.query.intent,
+        p_entities: retrieval.query.entities,
+        p_vector_count: retrieval.retrievalMetadata.vectorCount,
+        p_keyword_count: retrieval.retrievalMetadata.keywordCount,
+        p_after_dedup: retrieval.retrievalMetadata.afterDedup,
+        p_after_rerank: retrieval.retrievalMetadata.afterRerank,
+        p_chunks_used: retrieval.chunks.length,
+        p_total_tokens: retrieval.totalTokens,
+        p_latency_ms: retrieval.retrievalMetadata.latencyMs,
+        p_model_used: resolved.model,
+        p_model_provider: resolved.provider,
+        p_research_count: retrieval.researchArticles.length,
+      });
+    } catch { /* best-effort logging */ }
+
     return jsonResponse(req, {
       text: fullText,
       research: retrieval.researchArticles,

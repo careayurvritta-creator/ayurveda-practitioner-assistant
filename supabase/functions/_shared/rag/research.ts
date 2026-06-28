@@ -5,7 +5,7 @@ const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
 const NCBI_API_KEY = Deno.env.get('NCBI_API_KEY');
 const SERPAPI_KEY = Deno.env.get('SERPAPI_KEY');
 
-let cachedClient: any = null;
+let cachedClient: ReturnType<typeof createClient> | null = null;
 function getClient() {
   if (!cachedClient) cachedClient = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
   return cachedClient;
