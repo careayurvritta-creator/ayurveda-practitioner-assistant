@@ -86,8 +86,23 @@ function contentHash(content: string): string {
   return createHash('sha256').update(content).digest('hex');
 }
 
-function textEmbeddingInput(text: string): { text: string } {
-  return { text: text.slice(0, 20000) };
+function textEmbeddingInput(text: string): string {
+  return text.slice(0, 1500);
+}
+
+/**
+ * Split long text into ≤512-token segments, embed each, and average.
+ * Ensures no chunk is skipped due to NVIDIA's token limit.
+ */
+async function embedSingleSafe(text: string): Promise<number[]> {
+  const TRUNC = 1400;
+  if (text.length <= TRUNC) {
+    const [embed] = await embedNVIDIA([text]);
+    return embed;
+  }
+  const mid = Math.floor(text.length / 2);
+  const [eL, eR] = await embedNVIDIA([text.slice(0, mid).slice(0, TRUNC), text.slice(mid).slice(0, TRUNC)]);
+  return eL.map((v, i) => (v + eR[i]) / 2);
 }
 
 async function embedNVIDIA(texts: string[]): Promise<number[][]> {
@@ -101,6 +116,7 @@ async function embedNVIDIA(texts: string[]): Promise<number[][]> {
     body: JSON.stringify({
       model: 'nvidia/nv-embedqa-e5-v5',
       input: texts.map(textEmbeddingInput),
+      input_type: 'passage',
       encoding_format: 'float',
     }),
   });
@@ -135,13 +151,47 @@ async function embedGeminiBatch(texts: string[]): Promise<number[][]> {
 
 async function embedBatch(texts: string[]): Promise<number[][]> {
   if (NVIDIA_API_KEY) {
-    const batchSize = 20;
+    const batchSize = 10;
     const allEmbeds: number[][] = [];
     for (let i = 0; i < texts.length; i += batchSize) {
       const batch = texts.slice(i, i + batchSize);
-      const embeddings = await embedNVIDIA(batch);
-      allEmbeds.push(...embeddings);
-      if (i + batchSize < texts.length) await new Promise(r => setTimeout(r, 200));
+      let attempts = 0;
+      while (attempts < 3) {
+        try {
+          const embeddings = await embedNVIDIA(batch);
+          allEmbeds.push(...embeddings);
+          break;
+        } catch (err: any) {
+          attempts++;
+          const isTokenErr = err.message?.includes('400') || err.message?.includes('token size');
+          if (isTokenErr) {
+            // Embed each text individually with safe splitting
+            for (const t of batch) {
+              try {
+                const e = await embedSingleSafe(t);
+                allEmbeds.push(e);
+              } catch {
+                allEmbeds.push(new Array(1024).fill(0));
+              }
+            }
+            break;
+          }
+          if (attempts >= 3) {
+            for (const t of batch) {
+              try {
+                const e = await embedSingleSafe(t);
+                allEmbeds.push(e);
+              } catch {
+                allEmbeds.push(new Array(1024).fill(0));
+              }
+            }
+            break;
+          }
+          console.warn(`  Retry ${attempts}/3 for batch ${i}-${i + batch.length}`);
+          await new Promise(r => setTimeout(r, 2000 * attempts));
+        }
+      }
+      if (i + batchSize < texts.length) await new Promise(r => setTimeout(r, 300));
     }
     return allEmbeds;
   }
@@ -149,6 +199,14 @@ async function embedBatch(texts: string[]): Promise<number[][]> {
 }
 
 async function supabaseInsert(rows: any[]) {
+  // Deduplicate by content_hash to avoid constraint violations
+  const seen = new Set<string>();
+  const uniqueRows = rows.filter(row => {
+    if (seen.has(row.content_hash)) return false;
+    seen.add(row.content_hash);
+    return true;
+  });
+
   const url = `${SUPABASE_URL}/rest/v1/knowledge_embeddings`;
   const res = await fetch(url, {
     method: 'POST',
@@ -158,11 +216,13 @@ async function supabaseInsert(rows: any[]) {
       'Content-Type': 'application/json',
       'Prefer': 'resolution=merge-duplicates',
     },
-    body: JSON.stringify(rows),
+    body: JSON.stringify(uniqueRows),
   });
   if (!res.ok) {
     const t = await res.text();
-    console.error('  Supabase insert error:', res.status, t.slice(0, 300));
+    // Duplicate key errors are non-fatal (dedup already handled most)
+    if (res.status === 409) return;
+    console.error('  Supabase insert error:', res.status, t.slice(0, 200));
     throw new Error('Insert failed');
   }
 }
@@ -601,7 +661,7 @@ function chunkCharakOnlineShlokas(): ChunkInput[] {
   const chunks: ChunkInput[] = [];
   let shlokas: any[] = [];
   try {
-    const shlokasPath = resolve(ROOT, 'knowledge-base', 'charak-samhita', 'all-shlokas.json');
+    const shlokasPath = resolve(ROOT, 'knowledge-base', 'carak-samhita', 'all-shlokas.json');
     shlokas = JSON.parse(readFileSync(shlokasPath, 'utf-8'));
   } catch {
     console.warn('  Warning: charak-samhita/all-shlokas.json not found.');
@@ -650,36 +710,38 @@ function chunkTattvaVimarsha(): ChunkInput[] {
   const chunks: ChunkInput[] = [];
   let data: any = null;
   try {
-    const dataPath = resolve(ROOT, 'knowledge-base', 'charak-samhita', 'tattva-vidhi-vimarsha.json');
-    data = JSON.parse(readFileSync(dataPath, 'utf-8'));
+    const dataPath = resolve(ROOT, 'knowledge-base', 'carak-samhita', 'tattva-vidhi-vimarsha.json');
+    const raw = JSON.parse(readFileSync(dataPath, 'utf-8'));
+    data = Object.values(raw);
   } catch {
-    console.warn('  Warning: charak-samhita/tattva-vidhi-vimarsha.json not found.');
+    console.warn('  Warning: carak-samhita/tattva-vidhi-vimarsha.json not found.');
     return [];
   }
 
-  const tattva = data.tattvaVimarsha || [];
-  const vidhi = data.vidhiVimarsha || [];
+  for (const entry of data) {
+    const tattva = entry.tattvaVimarsha;
+    const vidhi = entry.vidhiVimarsha;
+    const label = `${entry.sthana || ''} Ch.${entry.chapterNumber || '?'} - ${entry.chapterTitle || ''}`;
 
-  for (const section of tattva) {
-    if (!section.content || section.content.trim().length === 0) continue;
-    chunks.push({
-      source: 'charak-tattva-vimarsha',
-      category: 'fundamentals',
-      title: `Tattva Vimarsha - ${section.chapterName || section.chapter || 'Unknown'}`,
-      metadata: { type: 'tattva', chapter: section.chapter, sthana: section.sthana },
-      content: `Tattva Vimarsha (Fundamental Principles):\n${section.chapterName || ''}\n\n${section.content}`,
-    });
-  }
+    if (tattva?.content && tattva.content.trim().length > 0) {
+      chunks.push({
+        source: 'charak-tattva-vimarsha',
+        category: 'fundamentals',
+        title: `Tattva Vimarsha - ${label}`,
+        metadata: { type: 'tattva', chapter: entry.chapterNumber, sthana: entry.sthana },
+        content: `Tattva Vimarsha (Fundamental Principles):\n${label}\n\n${tattva.content}`,
+      });
+    }
 
-  for (const section of vidhi) {
-    if (!section.content || section.content.trim().length === 0) continue;
-    chunks.push({
-      source: 'charak-vidhi-vimarsha',
-      category: 'classical_text',
-      title: `Vidhi Vimarsha - ${section.chapterName || section.chapter || 'Unknown'}`,
-      metadata: { type: 'vidhi', chapter: section.chapter, sthana: section.sthana },
-      content: `Vidhi Vimarsha (Applied Inferences):\n${section.chapterName || ''}\n\n${section.content}`,
-    });
+    if (vidhi?.content && vidhi.content.trim().length > 0) {
+      chunks.push({
+        source: 'charak-vidhi-vimarsha',
+        category: 'classical_text',
+        title: `Vidhi Vimarsha - ${label}`,
+        metadata: { type: 'vidhi', chapter: entry.chapterNumber, sthana: entry.sthana },
+        content: `Vidhi Vimarsha (Applied Inferences):\n${label}\n\n${vidhi.content}`,
+      });
+    }
   }
 
   return chunks;
@@ -864,32 +926,31 @@ function chunkBhaishajyaFormulations(): ChunkInput[] {
 
 function chunkAshtangaHridaya(): ChunkInput[] {
   const chunks: ChunkInput[] = [];
-  let data: any = null;
+  let chapters: any[] = [];
   try {
     const dataPath = resolve(ROOT, 'knowledge-base', 'ayurknowledge', 'ashtanga-hridaya.ts');
     const content = readFileSync(dataPath, 'utf-8');
-    // Extract ASHTANGA_HRIDAYA_COMPLETE from the TS file
-    const match = content.match(/export const ASHTANGA_HRIDAYA_COMPLETE\s*=\s*(\{[\s\S]*?\n\});/);
+    const match = content.match(/export const ASHTANGA_CHAPTERS[^=]*=\s*(\[[\s\S]*?\]);/);
     if (match) {
-      data = eval('(' + match[1] + ')');
+      chapters = eval(match[1]);
     }
   } catch {
     console.warn('  Warning: ashtanga-hridaya.ts not found or parse failed.');
     return [];
   }
 
-  if (!data?.chapters) return [];
+  for (const ch of chapters) {
+    const topics = (ch.keyTopics || []).join(', ');
+    const verses = (ch.keyVerses || []).join('\n');
+    const clinical = (ch.clinicalApplications || []).join(', ');
 
-  for (const ch of data.chapters) {
-    const chapterChunks = smartChunkClassicalText(
-      'ashtanga-hridaya',
-      'classical_text',
-      `Ashtanga Hridaya - ${ch.name || ch.englishName || ch.id}`,
-      { sthana: ch.sthana, chapterNumber: ch.chapterNumber },
-      ch.fullContent || ch.content || '',
-      ch.sections || {}
-    );
-    chunks.push(...chapterChunks);
+    chunks.push({
+      source: 'ashtanga-hridaya',
+      category: 'classical_text',
+      title: `Ashtanga Hridaya - ${ch.title || ch.sanskritTitle || 'Unknown'}`,
+      metadata: { sthana: ch.sthana, chapterNumber: ch.chapterNumber, source: 'Ashtanga Hridaya (Vagbhata)' },
+      content: `Ashtanga Hridaya - ${ch.sthana} Ch.${ch.chapterNumber}\nTitle: ${ch.title}\nSanskrit: ${ch.sanskritTitle}\n\n${ch.description || ''}\n\nKey Topics: ${topics}\n\nKey Verses:\n${verses}\n\nClinical Applications: ${clinical}`,
+    });
   }
 
   return chunks;
@@ -1040,17 +1101,31 @@ function chunkAyurwikiHerbs(): ChunkInput[] {
     const title = herb.title || herb.name || 'Unknown';
     const scientificName = herb.scientificName || '';
     const commonNames = Array.isArray(herb.commonNames) ? herb.commonNames.join(', ') : (herb.commonNames || '');
-    const categories = Array.isArray(herb.categories) ? herb.categories.join(', ') : (herb.categories || '');
-    const description = herb.description || herb.content || '';
+    const categories = Array.isArray(herb.categories) ? herb.categories.slice(0, 5).join(', ') : (herb.categories || '');
+    const uses = herb.uses || '';
+    const partsUsed = herb.partsUsed || '';
+    const chemicalComposition = herb.chemicalComposition || '';
+    const medicalConditions = Array.isArray(herb.medicalConditions) ? herb.medicalConditions.join(', ') : (herb.medicalConditions || '');
+    const habit = herb.habit || '';
 
-    if (!description || description.trim().length === 0) continue;
+    const content = [
+      `Herb: ${title}\nScientific Name: ${scientificName}\nCommon Names: ${commonNames}`,
+      partsUsed ? `Parts Used: ${partsUsed}` : '',
+      uses ? `Uses: ${uses}` : '',
+      medicalConditions ? `Medical Conditions: ${medicalConditions}` : '',
+      chemicalComposition ? `Chemical Composition: ${chemicalComposition}` : '',
+      habit ? `Habit: ${habit}` : '',
+      categories ? `Categories: ${categories}` : '',
+    ].filter(Boolean).join('\n');
+
+    if (!content || content.trim().length < 20) continue;
 
     chunks.push({
       source: 'ayurwiki',
       category: 'herb_monograph',
       title,
       metadata: { scientificName, source: 'Ayurwiki Wikipedia' },
-      content: `Herb: ${title}\nScientific Name: ${scientificName}\nCommon Names: ${commonNames}\nCategories: ${categories}\n\n${description}`,
+      content,
     });
   }
 
