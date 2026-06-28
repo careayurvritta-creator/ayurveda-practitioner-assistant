@@ -1,0 +1,167 @@
+{
+  "description": "Golden evaluation set for RAG quality measurement. Each entry has a query, expected answer patterns, expected source categories, and relevance scores.",
+  "version": "1.0.0",
+  "created": "2026-06-28",
+  "queries": [
+    {
+      "id": "eval-001",
+      "query": "What are the three doshas in Ayurveda and their functions?",
+      "expectedCategories": ["fundamentals"],
+      "expectedAnswerPatterns": ["Vata", "Pitta", "Kapha", "prana", "agni"],
+      "complexity": "simple",
+      "intent": "dosha"
+    },
+    {
+      "id": "eval-002",
+      "query": "How is Ashwagandha used in treating anxiety and stress?",
+      "expectedCategories": ["herb_monograph", "treatment"],
+      "expectedAnswerPatterns": ["adaptogenic", "nervine", "stress", "anxiety", "Withania somnifera"],
+      "complexity": "moderate",
+      "intent": "herb"
+    },
+    {
+      "id": "eval-003",
+      "query": "What is the Ayurvedic management of diabetes mellitus?",
+      "expectedCategories": ["disease", "treatment", "herb_monograph"],
+      "expectedAnswerPatterns": ["Prameha", "Madhumeha", "Gurmar", "Metformin"],
+      "complexity": "complex",
+      "intent": "disease"
+    },
+    {
+      "id": "eval-004",
+      "query": "Explain Panchakarma therapy and its five procedures.",
+      "expectedCategories": ["treatment", "classical_text"],
+      "expectedAnswerPatterns": ["Vamana", "Virechana", "Basti", "Nasya", "Raktamokshana"],
+      "complexity": "moderate",
+      "intent": "treatment"
+    },
+    {
+      "id": "eval-005",
+      "query": "What are the drug interactions between Guggulu and modern anticoagulants?",
+      "expectedCategories": ["drug_interaction", "herb_monograph", "allopathy_integration"],
+      "expectedAnswerPatterns": ["warfarin", "interaction", "bleeding", "anticoagulant"],
+      "complexity": "complex",
+      "intent": "general"
+    },
+    {
+      "id": "eval-006",
+      "query": "How does Ayurveda diagnose Vata disorders through pulse reading?",
+      "expectedCategories": ["diagnostics", "fundamentals"],
+      "expectedAnswerPatterns": ["Nadi Pariksha", "pulse", "Vata", "quick", "floating"],
+      "complexity": "moderate",
+      "intent": "diagnosis"
+    },
+    {
+      "id": "eval-007",
+      "query": "What is Rasayana therapy and which herbs are used for rejuvenation?",
+      "expectedCategories": ["treatment", "herb_monograph", "classical_text"],
+      "expectedAnswerPatterns": ["Rasayana", "rejuvenation", "immunity", "Amalaki", "Guduchi"],
+      "complexity": "moderate",
+      "intent": "treatment"
+    },
+    {
+      "id": "eval-008",
+      "query": "Can Ayurvedic treatments be safely combined with chemotherapy?",
+      "expectedCategories": ["allopathy_integration", "drug_interaction"],
+      "expectedAnswerPatterns": ["chemotherapy", "safety", "interaction", "monitoring", "oncologist"],
+      "complexity": "complex",
+      "intent": "general"
+    },
+    {
+      "id": "eval-009",
+      "query": "What are the dietary recommendations for Kapha disorders?",
+      "expectedCategories": ["dietary_guideline", "pathya_apathya"],
+      "expectedAnswerPatterns": ["light", "warm", "spicy", "avoid", "Kapha", "diet"],
+      "complexity": "simple",
+      "intent": "diet"
+    },
+    {
+      "id": "eval-010",
+      "query": "Describe the concept of Agni and its role in digestion.",
+      "expectedCategories": ["fundamentals"],
+      "expectedAnswerPatterns": ["Agni", "digestion", "metabolism", "Jatharagni", "Ama"],
+      "complexity": "simple",
+      "intent": "dosha"
+    },
+    {
+      "id": "eval-011",
+      "query": "What Charak Samhita chapter discusses the treatment of Grahani (irritable bowel syndrome)?",
+      "expectedCategories": ["classical_text", "disease"],
+      "expectedAnswerPatterns": ["Grahani", "Charak", "Chikitsasthana", "digestive"],
+      "complexity": "complex",
+      "intent": "general"
+    },
+    {
+      "id": "eval-012",
+      "query": "How do Sushruta's surgical techniques compare to modern surgery?",
+      "expectedCategories": ["classical_text", "treatment"],
+      "expectedAnswerPatterns": ["Sushruta", "surgery", "Rhinoplasty", "ancient", "modern"],
+      "complexity": "complex",
+      "intent": "general"
+    },
+    {
+      "id": "eval-013",
+      "query": "What is the recommended dosage of Triphala for digestive health?",
+      "expectedCategories": ["herb_monograph", "treatment"],
+      "expectedAnswerPatterns": ["Triphala", "dosage", "3-6g", "before bed", "digestive"],
+      "complexity": "simple",
+      "intent": "herb"
+    },
+    {
+      "id": "eval-014",
+      "query": "Explain the difference between Vata, Pitta, and Kapha types of headache.",
+      "expectedCategories": ["disease", "diagnostics", "fundamentals"],
+      "expectedAnswerPatterns": ["headache", "Vata", "Pitta", "Kapha", "Shirahshoola"],
+      "complexity": "complex",
+      "intent": "diagnosis"
+    },
+    {
+      "id": "eval-015",
+      "query": "What are the contraindications for Panchakarma in pregnant women?",
+      "expectedCategories": ["treatment", "drug_interaction"],
+      "expectedAnswerPatterns": ["pregnancy", "contraindication", "Panchakarma", "avoid", "Garbini"],
+      "complexity": "complex",
+      "intent": "treatment"
+    },
+    {
+      "id": "eval-016",
+      "query": "Which Ayurvedic herbs have evidence-based anti-inflammatory properties?",
+      "expectedCategories": ["herb_monograph", "clinical_evidence"],
+      "expectedAnswerPatterns": ["anti-inflammatory", "curcumin", "Boswellia", "Ashwagandha"],
+      "complexity": "moderate",
+      "intent": "herb"
+    },
+    {
+      "id": "eval-017",
+      "query": "What is the role of Srotas in Ayurvedic physiology?",
+      "expectedCategories": ["fundamentals"],
+      "expectedAnswerPatterns": ["Srotas", "channels", "circulation", "16", "Ahara Rasa"],
+      "complexity": "moderate",
+      "intent": "dosha"
+    },
+    {
+      "id": "eval-018",
+      "query": "How should insulin dosage be adjusted when taking Ayurvedic anti-diabetic herbs?",
+      "expectedCategories": ["allopathy_integration", "drug_interaction"],
+      "expectedAnswerPatterns": ["insulin", "adjustment", "monitoring", "hypoglycemia", "blood sugar"],
+      "complexity": "complex",
+      "intent": "general"
+    },
+    {
+      "id": "eval-019",
+      "query": "What are the seasonal regimen guidelines in Ritucharya?",
+      "expectedCategories": ["fundamentals", "dietary_guideline"],
+      "expectedAnswerPatterns": ["Ritucharya", "season", "Vata", "Pitta", "Kapha", "regimen"],
+      "complexity": "moderate",
+      "intent": "diet"
+    },
+    {
+      "id": "eval-020",
+      "query": "Explain the concept of Dhatu and its seven layers.",
+      "expectedCategories": ["fundamentals"],
+      "expectedAnswerPatterns": ["Dhatu", "Rasa", "Rakta", "Mamsa", "Meda", "Asthi", "Majja", "Shukra"],
+      "complexity": "moderate",
+      "intent": "dosha"
+    }
+  ]
+}

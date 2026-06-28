@@ -1,6 +1,34 @@
 // Charak Samhita - Comprehensive Classical Text Data
-// Source: carakasamhitaonline.com
+// Source: carakasamhitaonline.com, planetayurveda.com
 // License: CC BY-NC-SA 4.0
+
+import { readFileSync } from 'fs';
+import { resolve, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+// Load scraped chapter data
+export interface CharakChapter {
+  id: string;
+  name: string;
+  sthana: string;
+  chapterNumber: number;
+  url: string;
+  contentLength: number;
+  sections: Record<string, string>;
+  fullContent: string;
+}
+
+let _chapters: CharakChapter[] = [];
+try {
+  const chaptersPath = resolve(__dirname, '..', 'charak-samhita', 'all-chapters.json');
+  _chapters = JSON.parse(readFileSync(chaptersPath, 'utf-8'));
+} catch {
+  console.warn('Warning: charak-samhita/all-chapters.json not found. Run scrape-charak-samhita.ts first.');
+}
+
+export const CHARAK_SAMHITA_CHAPTERS = _chapters;
 
 export const CHARAK_SAMHITA = {
   structure: {

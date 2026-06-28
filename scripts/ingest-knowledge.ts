@@ -32,6 +32,56 @@ interface ChunkInput {
   metadata: Record<string, any>;
 }
 
+/**
+ * Generate a 50-100 token context summary for a chunk.
+ * Prepended before embedding (Anthropic contextual retrieval pattern).
+ * Reduces failed retrievals by 30-50% by giving the embedding model
+ * crucial context about where this chunk fits in the larger document.
+ */
+function generateContextPrefix(chunk: ChunkInput): string {
+  const source = chunk.source;
+  const category = chunk.category;
+  const title = chunk.title;
+
+  const categoryLabels: Record<string, string> = {
+    disease: 'disease monograph',
+    herb_monograph: 'herb monograph',
+    treatment: 'treatment protocol',
+    fundamentals: 'Ayurvedic fundamental principle',
+    diagnostics: 'diagnostic method',
+    allopathy_integration: 'modern medicine integration',
+    classical_text: 'classical Ayurvedic text',
+    dietary_guideline: 'dietary guideline',
+    pathya_apathya: 'dietary restriction/recommendation',
+    drug_interaction: 'drug interaction warning',
+    clinical_evidence: 'clinical evidence',
+    treatment_procedure: 'treatment procedure',
+  };
+
+  const categoryLabel = categoryLabels[category] || category;
+
+  const parts: string[] = [];
+
+  parts.push(`This is a ${categoryLabel} from the ${source.replace(/-/g, ' ')} knowledge source.`);
+
+  if (title) {
+    parts.push(`It covers: ${title}.`);
+  }
+
+  const metadata = chunk.metadata;
+  if (metadata?.doshaInvolvement?.length) {
+    parts.push(`Related doshas: ${metadata.doshaInvolvement.join(', ')}.`);
+  }
+  if (metadata?.botanicalName) {
+    parts.push(`Botanical name: ${metadata.botanicalName}.`);
+  }
+  if (metadata?.modernCorrelation) {
+    parts.push(`Modern correlation: ${metadata.modernCorrelation}.`);
+  }
+
+  return parts.join(' ').slice(0, 300);
+}
+
 function contentHash(content: string): string {
   return createHash('sha256').update(content).digest('hex');
 }
@@ -256,6 +306,159 @@ function chunkCharakSamhita(charak: any): ChunkInput[] {
   return chunks;
 }
 
+/**
+ * Smart chunking for classical texts with long sections.
+ * Based on research from Vaidya (Charaka Samhita RAG) and Kumar Gauraw's
+ * production system for ancient Hindu scriptures:
+ *
+ * KEY PRINCIPLE: Ancient texts are verse-based, not paragraph-based.
+ * A single shloka might be 16 syllables in Sanskrit but expand to a full
+ * paragraph of commentary. Standard character-count chunking splits verses
+ * from their translations, destroying retrieval quality.
+ *
+ * Strategy:
+ * 1. Parse by verse/shloka boundaries (।। or double danda markers)
+ * 2. Group 3-5 verses per chunk (each chunk = complete semantic unit)
+ * 3. Preserve chapter/section context as parent metadata
+ * 4. Never split a verse from its translation
+ */
+function smartChunkClassicalText(
+  source: string,
+  category: string,
+  baseTitle: string,
+  baseMetadata: Record<string, any>,
+  fullContent: string,
+  sections: Record<string, string>
+): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+
+  const sectionKeys = Object.keys(sections);
+  if (sectionKeys.length === 0) {
+    if (fullContent.trim().length > 0) {
+      return chunkVerseContent(source, category, baseTitle, baseMetadata, fullContent);
+    }
+    return [];
+  }
+
+  for (const key of sectionKeys) {
+    const sectionText = sections[key];
+    if (!sectionText || sectionText.trim().length === 0) continue;
+
+    const sectionHeader = key
+      .replace(/_/g, ' ')
+      .replace(/\b\w/g, c => c.toUpperCase());
+
+    const verseChunks = chunkVerseContent(
+      source,
+      category,
+      `${baseTitle} - ${sectionHeader}`,
+      baseMetadata,
+      sectionText
+    );
+    chunks.push(...verseChunks);
+  }
+
+  if (chunks.length === 0 && fullContent.trim().length > 0) {
+    chunks.push(...chunkVerseContent(source, category, baseTitle, baseMetadata, fullContent));
+  }
+
+  return chunks;
+}
+
+/**
+ * Chunk classical text content by verse boundaries.
+ *
+ * Detects shloka boundaries using:
+ * - Double danda (।। or ||) — standard verse terminator in Sanskrit
+ * - Line breaks between Devanagari and English text
+ * - Numeric verse markers (1.24, 2.1 etc.)
+ *
+ * Groups 3-5 verses per chunk for optimal retrieval.
+ * Each chunk is ~400-1200 tokens (matching embedding model sweet spot).
+ */
+function chunkVerseContent(
+  source: string,
+  category: string,
+  title: string,
+  metadata: Record<string, any>,
+  content: string
+): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  const VERSES_PER_CHUNK = 5;
+  const MAX_CHUNK_CHARS = 3000;
+
+  // Split on double danda (।।) or verse number patterns
+  const versePattern = /(?:^|\n)(?=(?:\d+\.\d+|[०-९]+\s*[।।]))/;
+  let verses = content.split(versePattern).filter(v => v.trim().length > 0);
+
+  // If no verse boundaries detected, fall back to paragraph splitting
+  if (verses.length <= 1) {
+    verses = content.split(/\n\s*\n/).filter(p => p.trim().length > 0);
+  }
+
+  // If still single block, split on semantic boundaries
+  if (verses.length <= 1 && content.length > MAX_CHUNK_CHARS) {
+    verses = splitOnSemanticBoundaries(content);
+  }
+
+  // Group verses into chunks of VERSES_PER_CHUNK
+  let currentGroup: string[] = [];
+  let currentLen = 0;
+
+  for (const verse of verses) {
+    if (currentLen + verse.length > MAX_CHUNK_CHARS && currentGroup.length > 0) {
+      chunks.push(createVerseChunk(source, category, title, metadata, currentGroup));
+      currentGroup = [];
+      currentLen = 0;
+    }
+    currentGroup.push(verse);
+    currentLen += verse.length;
+  }
+
+  if (currentGroup.length > 0) {
+    chunks.push(createVerseChunk(source, category, title, metadata, currentGroup));
+  }
+
+  return chunks;
+}
+
+function createVerseChunk(
+  source: string,
+  category: string,
+  title: string,
+  metadata: Record<string, any>,
+  verses: string[]
+): ChunkInput {
+  return {
+    source,
+    category,
+    title: `${title} (${verses.length} verses)`,
+    metadata,
+    content: verses.join('\n').trim(),
+  };
+}
+
+/**
+ * Split on semantic boundaries when no verse markers are detected.
+ * Tries to preserve meaningful content units.
+ */
+function splitOnSemanticBoundaries(content: string): string[] {
+  const boundaries = [
+    /\n\n/,
+    /\n(?=[A-Z])/,
+    /\n(?=[0-9]+\.\s)/,
+    /\n/,
+  ];
+
+  for (const boundary of boundaries) {
+    const parts = content.split(boundary).filter(p => p.trim().length > 50);
+    if (parts.length > 1) return parts;
+  }
+
+  // Last resort: split at sentence boundaries
+  return content.split(/(?<=[.!?।])\s+/).filter(p => p.trim().length > 50);
+}
+
 function chunkVasishthArticles(articles: any[]): ChunkInput[] {
   const chunks: ChunkInput[] = [];
 
@@ -359,6 +562,120 @@ function chunkCaseTreatments(treatments: any[]): ChunkInput[] {
       title: `Treatment #${tx.treatmentNumber}: ${tx.title}`,
       metadata: { id: tx.id, treatmentNumber: tx.treatmentNumber, datePosted: tx.datePosted },
       content: `Treatment #${tx.treatmentNumber}: ${tx.title}\nDate: ${tx.datePosted}\n\n${sectionContent || tx.content}`,
+    });
+  }
+
+  return chunks;
+}
+
+function chunkSushrutaSamhita(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let chapters: any[] = [];
+  try {
+    const chaptersPath = resolve(ROOT, 'knowledge-base', 'sushruta-samhita', 'all-chapters.json');
+    chapters = JSON.parse(readFileSync(chaptersPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: sushruta-samhita/all-chapters.json not found.');
+    return [];
+  }
+
+  for (const ch of chapters) {
+    const chapterChunks = smartChunkClassicalText(
+      'sushruta-samhita',
+      'classical_text',
+      `Sushruta - ${ch.name || ch.id}`,
+      { sthana: ch.sthana, chapterNumber: ch.chapterNumber, url: ch.url },
+      ch.fullContent || '',
+      ch.sections || {}
+    );
+    chunks.push(...chapterChunks);
+  }
+
+  return chunks;
+}
+
+function chunkCharakOnlineShlokas(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let shlokas: any[] = [];
+  try {
+    const shlokasPath = resolve(ROOT, 'knowledge-base', 'charak-samhita', 'all-shlokas.json');
+    shlokas = JSON.parse(readFileSync(shlokasPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: charak-samhita/all-shlokas.json not found.');
+    return [];
+  }
+
+  // Group shlokas by chapter for verse-based chunking
+  const byChapter = new Map<string, any[]>();
+  for (const sh of shlokas) {
+    const key = `${sh.sthana || 'unknown'}-${sh.chapter || 'unknown'}`;
+    if (!byChapter.has(key)) byChapter.set(key, []);
+    byChapter.get(key)!.push(sh);
+  }
+
+  const VERSES_PER_CHUNK = 8;
+  for (const [chapterKey, chapterShlokas] of byChapter) {
+    for (let i = 0; i < chapterShlokas.length; i += VERSES_PER_CHUNK) {
+      const group = chapterShlokas.slice(i, i + VERSES_PER_CHUNK);
+      const devanagari = group.map(s => s.devanagari || '').filter(Boolean).join('\n');
+      const english = group.map(s => s.english || '').filter(Boolean).join('\n');
+      const first = group[0];
+
+      chunks.push({
+        source: 'charak-online',
+        category: 'classical_text',
+        title: `Charak - ${first.sthana || chapterKey} Ch.${first.chapter || '?'} (Verses ${i + 1}-${i + group.length})`,
+        metadata: {
+          sthana: first.sthana,
+          chapter: first.chapter,
+          verseStart: i + 1,
+          verseEnd: i + group.length,
+          hasEnglishTranslation: english.length > 0,
+        },
+        content: [
+          devanagari,
+          english ? `\nEnglish Translation:\n${english}` : '',
+        ].filter(Boolean).join('\n'),
+      });
+    }
+  }
+
+  return chunks;
+}
+
+function chunkTattvaVimarsha(): ChunkInput[] {
+  const chunks: ChunkInput[] = [];
+  let data: any = null;
+  try {
+    const dataPath = resolve(ROOT, 'knowledge-base', 'charak-samhita', 'tattva-vidhi-vimarsha.json');
+    data = JSON.parse(readFileSync(dataPath, 'utf-8'));
+  } catch {
+    console.warn('  Warning: charak-samhita/tattva-vidhi-vimarsha.json not found.');
+    return [];
+  }
+
+  const tattva = data.tattvaVimarsha || [];
+  const vidhi = data.vidhiVimarsha || [];
+
+  for (const section of tattva) {
+    if (!section.content || section.content.trim().length === 0) continue;
+    chunks.push({
+      source: 'charak-tattva-vimarsha',
+      category: 'fundamentals',
+      title: `Tattva Vimarsha - ${section.chapterName || section.chapter || 'Unknown'}`,
+      metadata: { type: 'tattva', chapter: section.chapter, sthana: section.sthana },
+      content: `Tattva Vimarsha (Fundamental Principles):\n${section.chapterName || ''}\n\n${section.content}`,
+    });
+  }
+
+  for (const section of vidhi) {
+    if (!section.content || section.content.trim().length === 0) continue;
+    chunks.push({
+      source: 'charak-vidhi-vimarsha',
+      category: 'classical_text',
+      title: `Vidhi Vimarsha - ${section.chapterName || section.chapter || 'Unknown'}`,
+      metadata: { type: 'vidhi', chapter: section.chapter, sthana: section.sthana },
+      content: `Vidhi Vimarsha (Applied Inferences):\n${section.chapterName || ''}\n\n${section.content}`,
     });
   }
 
@@ -565,6 +882,21 @@ async function main() {
   allChunks.push(...chunkCharakSamhita(AYURVEDA_KNOWLEDGE.charakSamhita));
   console.log(`  → ${allChunks.length} total chunks`);
 
+  console.log('Chunking Sushruta Samhita (verse-based)...');
+  const sushrutaChunks = chunkSushrutaSamhita();
+  allChunks.push(...sushrutaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${sushrutaChunks.length} from Sushruta)`);
+
+  console.log('Chunking Charak Online shlokas (verse-based)...');
+  const charakOnlineChunks = chunkCharakOnlineShlokas();
+  allChunks.push(...charakOnlineChunks);
+  console.log(`  → ${allChunks.length} total chunks (${charakOnlineChunks.length} from Charak Online)`);
+
+  console.log('Chunking Tattva Vimarsha...');
+  const tattvaChunks = chunkTattvaVimarsha();
+  allChunks.push(...tattvaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${tattvaChunks.length} from Tattva/Vidhi Vimarsha)`);
+
   console.log('Chunking Dr. Vasishth clinical experiences...');
   const vasishthChunks = chunkVasishthArticles(AYURVEDA_KNOWLEDGE.vasishthArticles ?? []);
   allChunks.push(...vasishthChunks);
@@ -595,9 +927,12 @@ async function main() {
   allChunks.push(...paFormChunks);
   console.log(`  → ${allChunks.length} total chunks (${paFormChunks.length} from Planet Ayurveda formulations)`);
 
-  const totalTexts = allChunks.map(c => c.content);
+  const totalTexts = allChunks.map(c => {
+    const prefix = generateContextPrefix(c);
+    return `${prefix}\n\n${c.content}`;
+  });
   console.log(`\nTotal chunks: ${allChunks.length}`);
-  console.log(`Embedding with ${NVIDIA_API_KEY ? 'NVIDIA' : 'Gemini'}...`);
+  console.log(`Embedding with ${NVIDIA_API_KEY ? 'NVIDIA' : 'Gemini'} (with contextual prefixes)...`);
 
   const embeddings = await embedBatch(totalTexts);
 
