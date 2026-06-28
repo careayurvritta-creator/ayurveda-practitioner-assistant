@@ -116,10 +116,13 @@ async function embedGeminiBatch(texts: string[]): Promise<number[][]> {
   if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY required');
   const results: number[][] = [];
   for (const text of texts) {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent?key=${GEMINI_API_KEY}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent`;
     const res = await fetch(url, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'x-goog-api-key': GEMINI_API_KEY,
+      },
       body: JSON.stringify({ content: { parts: [{ text: text.slice(0, 20000) }] } }),
     });
     if (!res.ok) throw new Error(`Gemini embed error ${res.status}`);

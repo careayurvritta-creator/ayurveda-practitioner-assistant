@@ -590,6 +590,188 @@ class ErrorBoundary extends React.Component<{children: React.ReactNode}, {hasErr
 
 ---
 
+## New Bugs Found (2026)
+
+### 19. Undefined Variable Reference (Runtime Crash)
+**File:** `supabase/functions/_shared/auth.ts:11`  
+**Severity:** 🔴 Critical
+
+**Description:**  
+The `userScopedClient()` function references `SUPABASE_ANON_KEY` which is never declared in this file. Only `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are declared at lines 3-4. This will cause a `ReferenceError` at runtime when any edge function uses `userScopedClient()`.
+
+**Problematic Code:**
+```typescript
+export function userScopedClient(jwt: string) {
+  return createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {  // ❌ SUPABASE_ANON_KEY is undefined!
+```
+
+**Resolution:**
+```typescript
+const SUPABASE_ANON_KEY = Deno.env.get('SUPABASE_ANON_KEY')!;
+
+export function userScopedClient(jwt: string) {
+  return createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+```
+
+---
+
+### 20. Weak JWT Verification (Security)
+**File:** `supabase/functions/_shared/db.ts:18-24`  
+**Severity:** 🔴 Critical (Security)
+
+**Description:**  
+The `authUid()` function decodes JWT payload via `atob()` + `JSON.parse()` without verifying the signature. Any client can forge a JWT with any `sub` claim. Edge functions like `chat/index.ts:36-38` rely solely on this for authorization.
+
+**Problematic Code:**
+```typescript
+export function authUid(jwt: string): string | null {
+  try {
+    const payload = JSON.parse(atob(jwt.split('.')[1]));  // ❌ No signature verification!
+    return payload.sub ?? null;
+  } catch {
+    return null;
+  }
+}
+```
+
+**Resolution:** Use Supabase's built-in JWT verification:
+```typescript
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+
+export async function verifyJwt(jwt: string): Promise<string | null> {
+  const client = serviceRoleClient();
+  const { data: { user }, error } = await client.auth.getUser(jwt);
+  if (error || !user) return null;
+  return user.id;
+}
+```
+
+---
+
+### 21. Incorrect rank_fields Parameter
+**File:** `supabase/functions/_shared/reranker.ts:45`  
+**Severity:** 🟡 Medium
+
+**Description:**  
+The Cohere Rerank API `rank_fields` parameter is only used when documents are objects with named fields. Here documents are plain strings (line 28-31 maps chunks to strings), so `rank_fields: ['text']` is semantically wrong.
+
+**Problematic Code:**
+```typescript
+body: JSON.stringify({
+  model,
+  query,
+  documents,
+  top_n: topN,
+  rank_fields: ['text'],  // ❌ Documents are strings, not objects
+  return_documents: false,
+}),
+```
+
+**Resolution:** Remove `rank_fields` since documents are strings:
+```typescript
+body: JSON.stringify({
+  model,
+  query,
+  documents,
+  top_n: topN,
+  return_documents: false,
+}),
+```
+
+---
+
+### 22. Leading Space in Keyword Prevents Matching
+**File:** `supabase/functions/_shared/rag/query.ts:13`  
+**Severity:** 🟡 Medium
+
+**Description:**  
+The `disease` array contains `' disorder'` with a leading space. The `classifyIntent()` function uses `lower.includes(k)`, so this keyword will never match unless the user's query has a space before "disorder" (e.g., "a disorder" would match, but "disorder" alone would not).
+
+**Problematic Code:**
+```typescript
+disease: ['disease', 'vyadhi', ' disorder', 'condition', ...],  // ❌ Leading space
+```
+
+**Resolution:** Remove the leading space:
+```typescript
+disease: ['disease', 'vyadhi', 'disorder', 'condition', ...],
+```
+
+Also note: `'syndrome'` appears twice in this array (duplicate entry).
+
+---
+
+### 23. Missing CORS Headers
+**File:** `supabase/functions/google-token-exchange/index.ts`  
+**Severity:** 🟡 Medium (Functionality)
+
+**Description:**  
+Unlike `chat/index.ts`, `treatment-protocol/index.ts`, and `clinical-docs/index.ts` which all define CORS headers, this function has no CORS headers. Browser preflight requests will fail.
+
+**Problematic Code:**
+```typescript
+serve(async (req: Request) => {
+  // ❌ No CORS headers defined
+  try {
+    const { refresh_token } = await req.json();
+```
+
+**Resolution:**
+```typescript
+const CORS: Record<string, string> = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+};
+
+serve(async (req: Request) => {
+  if (req.method === 'OPTIONS') return new Response(null, { headers: CORS });
+  // ...
+```
+
+---
+
+### 24. Undefined Error in collectStream
+**File:** `supabase/functions/chat/index.ts:18`, `treatment-protocol/index.ts:18`, `clinical-docs/index.ts:17`  
+**Severity:** 🔵 Low
+
+**Description:**  
+When `part.type === 'error'`, `part.error` could be `undefined` (since `error` is optional in the type), resulting in string `"[Error: undefined]"` being appended to the response.
+
+**Problematic Code:**
+```typescript
+if (part.type === 'error') result += `\n\n[Error: ${part.error}]`;  // ❌ part.error may be undefined
+```
+
+**Resolution:**
+```typescript
+if (part.type === 'error') result += `\n\n[Error: ${part.error ?? 'Unknown error'}]`;
+```
+
+---
+
+### 25. Duplicated collectStream Implementation
+**Files:** `chat/index.ts:14-21`, `treatment-protocol/index.ts:14-21`, `clinical-docs/index.ts:13-20`  
+**Severity:** 🔵 Low (Code Quality)
+
+**Description:**  
+The `collectStream()` function is copy-pasted identically across three edge functions. This violates DRY and makes maintenance error-prone.
+
+**Resolution:** Move to a shared utility:
+```typescript
+// _shared/stream-utils.ts
+export async function collectStream(gen: AsyncGenerator<{ type: string; content?: string; error?: string }>): Promise<string> {
+  let result = '';
+  for await (const part of gen) {
+    if (part.type === 'content' && part.content) result += part.content;
+    if (part.type === 'error') result += `\n\n[Error: ${part.error ?? 'Unknown error'}]`;
+  }
+  return result;
+}
+```
+
+---
+
 ## Summary Table
 
 | # | Bug | File | Severity | Status |
@@ -612,12 +794,19 @@ class ErrorBoundary extends React.Component<{children: React.ReactNode}, {hasErr
 | 16 | Inefficient state updates | App.tsx | 🔵 Low | Optional |
 | 17 | Unused function | embed-knowledge.ts | 🔵 Low | Cleanup |
 | 18 | Missing error boundaries | App.tsx | 🔵 Low | Recommended |
+| 19 | Undefined SUPABASE_ANON_KEY | auth.ts:11 | 🔴 Critical | Needs Fix |
+| 20 | Weak JWT verification (no signature check) | db.ts:18-24 | 🔴 Critical | Needs Fix |
+| 21 | Incorrect rank_fields with string docs | reranker.ts:45 | 🟡 Medium | Needs Fix |
+| 22 | Leading space in keyword prevents matching | query.ts:13 | 🟡 Medium | Needs Fix |
+| 23 | Missing CORS headers | google-token-exchange/index.ts | 🟡 Medium | Needs Fix |
+| 24 | Undefined error in collectStream | chat/index.ts:18 | 🔵 Low | Optional |
+| 25 | Duplicated collectStream | chat/treatment-protocol/clinical-docs | 🔵 Low | Cleanup |
 
 ---
 
 ## Recommended Priority Actions
 
-1. **Immediate (Critical):** Fix bugs #1, #2, #3 - These cause runtime crashes or security vulnerabilities
+1. **Immediate (Critical):** Fix bugs #1, #2, #3, #19, #20 - These cause runtime crashes or security vulnerabilities
 2. **High Priority:** Fix bugs #4, #5, #6, #7 - These affect core functionality and security
-3. **Medium Priority:** Address bugs #10, #11, #15 - These improve reliability and production readiness
+3. **Medium Priority:** Address bugs #10, #11, #15, #21, #22, #23 - These improve reliability and production readiness
 4. **Technical Debt:** Plan to address bug #12 (type safety) in future refactoring sprint

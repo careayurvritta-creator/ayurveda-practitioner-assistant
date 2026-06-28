@@ -10,7 +10,7 @@ export interface ParsedQuery {
 
 export const INTENT_KEYWORDS: Record<Intent, string[]> = {
   herb: ['herb', 'plant', 'dravya', 'aushadha', 'medicine', 'tablet', 'capsule', 'churna', 'kwath', 'arista', 'asava', 'gutika', 'bhaisajya'],
-  disease: ['disease', 'vyadhi', ' disorder', 'condition', 'syndrome', 'syndrome', 'pathology', 'illness', 'diagnosis'],
+  disease: ['disease', 'vyadhi', 'disorder', 'condition', 'syndrome', 'pathology', 'illness', 'diagnosis'],
   treatment: ['treatment', 'chikitsa', 'therapy', 'procedure', 'panchakarma', 'vamana', 'virechana', 'basti', 'nasya', 'raktamokshana', 'abhyanga', 'pizhichil', 'kati basti', 'greeva basti', 'janu basti'],
   diet: ['diet', 'ahara', 'pathya', 'apathya', 'food', 'eat', 'avoid', 'nutritious', 'meal'],
   dosha: ['vata', 'pitta', 'kapha', 'tridosha', 'dosha', 'vataja', 'pittaja', 'kaphaja', 'doshic'],

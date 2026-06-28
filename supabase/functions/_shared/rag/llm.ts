@@ -107,10 +107,13 @@ export async function* streamGemini(
     contents.unshift({ role: 'user', parts: [{ text: system }] });
   }
 
-  const url = `${GEMINI_BASE_URL}/models/${model}:streamGenerateContent?key=${GEMINI_API_KEY}&alt=sse`;
+  const url = `${GEMINI_BASE_URL}/models/${model}:streamGenerateContent?alt=sse`;
   const res = await fetch(url, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      'x-goog-api-key': GEMINI_API_KEY,
+    },
     body: JSON.stringify({ contents, generationConfig: { maxOutputTokens: maxTokens, temperature: 0.3 } }),
   });
 

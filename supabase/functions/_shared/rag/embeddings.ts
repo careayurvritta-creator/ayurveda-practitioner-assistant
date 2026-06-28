@@ -53,10 +53,13 @@ export async function embedNVIDIA(text: string): Promise<EmbeddingResult> {
 
 export async function embedGemini(text: string): Promise<EmbeddingResult> {
   if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY is not configured');
-  const url = `${GEMINI_EMBED_URL}?key=${GEMINI_API_KEY}`;
+  const url = `${GEMINI_EMBED_URL}`;
   const res = await fetch(url, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      'x-goog-api-key': GEMINI_API_KEY,
+    },
     body: JSON.stringify({ content: { parts: [{ text }] } }),
   });
   if (!res.ok) throw new Error(`Gemini embed error ${res.status}`);

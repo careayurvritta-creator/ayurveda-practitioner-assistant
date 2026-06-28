@@ -42,7 +42,6 @@ export async function rerankChunks(
         query,
         documents,
         top_n: topN,
-        rank_fields: ['text'],
         return_documents: false,
       }),
     });

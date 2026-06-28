@@ -8,7 +8,8 @@ export function serviceRoleClient() {
 }
 
 export function userScopedClient(jwt: string) {
-  return createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+  const anonKey = Deno.env.get('SUPABASE_ANON_KEY')!;
+  return createClient(SUPABASE_URL, anonKey, {
     global: { headers: { Authorization: `Bearer ${jwt}` } },
     auth: { persistSession: false },
   });
