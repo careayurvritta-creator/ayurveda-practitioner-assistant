@@ -13,6 +13,7 @@
     "moduleDetection": "force",
     "allowJs": true,
     "jsx": "react-jsx",
+    "strict": true,
     "paths": {
       "@/*": [
         "./*"
@@ -26,6 +27,7 @@
     "dist",
     "supabase/functions",
     "scripts",
-    "tests"
+    "tests",
+    "knowledge-base"
   ]
 }

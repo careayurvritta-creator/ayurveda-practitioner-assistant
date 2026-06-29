@@ -1,18 +1,18 @@
 import React from 'react';
-
-interface ErrorBoundaryProps {
-  children: React.ReactNode;
-}
+import { Button } from './ui/Button';
 
 interface ErrorBoundaryState {
   hasError: boolean;
-  error?: Error;
+  error: Error | null;
 }
 
-export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundaryState> {
-  state: ErrorBoundaryState = { hasError: false };
+export class ErrorBoundary extends React.Component<
+  { children: React.ReactNode },
+  ErrorBoundaryState
+> {
+  state: ErrorBoundaryState = { hasError: false, error: null };
 
-  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+  static getDerivedStateFromError(error: Error) {
     return { hasError: true, error };
   }
 
@@ -23,35 +23,30 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
   render() {
     if (this.state.hasError) {
       return (
-        <div className="min-h-screen flex items-center justify-center bg-stone-50 p-6">
-          <div className="max-w-md w-full bg-white rounded-xl shadow-lg border border-stone-200 p-8 text-center">
-            <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-red-600 text-xl">!</span>
+        <div className="min-h-screen bg-surface-50 dark:bg-surface-900 flex items-center justify-center p-4">
+          <div className="bg-white dark:bg-surface-800 rounded-2xl shadow-xl p-8 max-w-md text-center">
+            <div className="w-12 h-12 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center mx-auto mb-4">
+              <span className="text-2xl">!</span>
             </div>
-            <h2 className="text-lg font-bold text-stone-900 mb-2">Something went wrong</h2>
-            <p className="text-sm text-stone-600 mb-4">
-              An unexpected error occurred. Please refresh the page or contact support if the issue persists.
+            <h2 className="text-lg font-semibold text-surface-900 dark:text-white mb-2">
+              Something went wrong
+            </h2>
+            <p className="text-sm text-surface-500 mb-6">
+              {this.state.error?.message || 'An unexpected error occurred'}
             </p>
-            <button
-              onClick={() => window.location.reload()}
-              className="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700 transition"
+            <Button
+              onClick={() => {
+                this.setState({ hasError: false, error: null });
+                window.location.reload();
+              }}
             >
-              Refresh Page
-            </button>
-            {this.state.error && (
-              <details className="mt-4 text-left">
-                <summary className="text-xs text-stone-500 cursor-pointer">Error details</summary>
-                <pre className="mt-2 text-xs text-stone-600 bg-stone-50 p-2 rounded overflow-auto max-h-48">
-                  {this.state.error.message || 'Unknown error'}
-                  {'\n\n'}
-                  {this.state.error.stack}
-                </pre>
-              </details>
-            )}
+              Reload Page
+            </Button>
           </div>
         </div>
       );
     }
+
     return this.props.children;
   }
 }
