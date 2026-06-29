@@ -168,12 +168,12 @@ export function resolveModel(requested?: string): { provider: LLMProvider; model
     return { provider: 'gemini', model: effective.replace('gemini/', '') };
   }
   if (effective.startsWith('minimaxai/')) {
-    throw new Error('MiniMax models are no longer supported. Use nvidia/llama-3.1-nemotron-70b-instruct or gemini/gemini-2.0-flash.');
+    throw new Error('MiniMax models are no longer supported. Use nvidia/llama-3.1-nemotron-70b-instruct.');
   }
 
-  if (!NVIDIA_API_KEY && !GEMINI_API_KEY) throw new Error('No LLM provider configured. Set NVIDIA_API_KEY or GEMINI_API_KEY.');
-  if (NVIDIA_API_KEY) return { provider: 'nvidia', model: effective || 'nvidia/llama-3.1-nemotron-70b-instruct' };
-  return { provider: 'gemini', model: effective.replace('gemini/', '') || 'gemini-2.0-flash' };
+  // For any other model name (no prefix), default to NVIDIA
+  if (!NVIDIA_API_KEY) throw new Error('NVIDIA_API_KEY is not configured. Set it in Supabase Edge Function secrets.');
+  return { provider: 'nvidia', model: `nvidia/${effective}` };
 }
 
 export async function* streamLLM(
@@ -183,10 +183,5 @@ export async function* streamLLM(
   maxTokens: number
 ): AsyncGenerator<StreamPart> {
   const resolved = resolveModel(model);
-
-  if (resolved.provider === 'nvidia') {
-    yield* streamNVIDIA(resolved.model, system, messages, maxTokens);
-  } else {
-    yield* streamGemini(resolved.model, system, messages, maxTokens);
-  }
+  yield* streamNVIDIA(resolved.model, system, messages, maxTokens);
 }
