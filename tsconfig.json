@@ -28,6 +28,7 @@
     "supabase/functions",
     "scripts",
     "tests",
-    "knowledge-base"
+    "knowledge-base",
+    "vite.config.ts"
   ]
 }
