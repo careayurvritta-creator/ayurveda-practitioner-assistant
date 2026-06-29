@@ -31,3 +31,4 @@ start-openclaude.sh
 *.zip
 
 .vercel
+supabase/.temp/

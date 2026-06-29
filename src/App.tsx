@@ -726,8 +726,18 @@ export default function App() {
         if (error) throw error;
 
         if (!data || data.length === 0) {
-          setPatients([]);
-          setSelectedPatientId(null);
+          // No cloud data — merge with localStorage so local patients aren't lost
+          const cached = localStorage.getItem('ayurScribe_patients');
+          if (cached) {
+            try {
+              const parsed = JSON.parse(cached);
+              setPatients(parsed);
+              if (parsed.length > 0) setSelectedPatientId(parsed[0].id);
+            } catch { /* ignore */ }
+          } else {
+            setPatients([]);
+            setSelectedPatientId(null);
+          }
         } else {
           // Map Supabase columns to Patient interface
           const fetched: Patient[] = data.map((row: any) => ({
