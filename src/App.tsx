@@ -863,7 +863,7 @@ export default function App() {
     if (!newPatient.name.trim()) return;
 
     const added: Patient = {
-      id: 'patient_' + Date.now(),
+      id: crypto.randomUUID(),
       name: newPatient.name.trim(),
       age: Math.max(1, Math.min(150, parseInt(String(newPatient.age), 10) || 30)),
       gender: newPatient.gender,

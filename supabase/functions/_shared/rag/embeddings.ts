@@ -22,7 +22,7 @@ function truncateTo1024(vec: number[]): number[] {
   return vec.slice(0, 1024);
 }
 
-export async function embedNVIDIA(text: string): Promise<EmbeddingResult> {
+export async function embedNVIDIA(text: string, inputType: 'passage' | 'query' = 'passage'): Promise<EmbeddingResult> {
   if (!NVIDIA_API_KEY) {
     throw new Error('NVIDIA_API_KEY is not configured');
   }
@@ -38,6 +38,7 @@ export async function embedNVIDIA(text: string): Promise<EmbeddingResult> {
     body: JSON.stringify({
       model: NVIDIA_EMBED_MODEL,
       input: text,
+      input_type: inputType,
       encoding_format: 'float',
     }),
   });
@@ -75,9 +76,9 @@ export async function embedGemini(text: string): Promise<EmbeddingResult> {
   return { embedding: truncateTo1024(values), provider: 'gemini', dimensions: values.length };
 }
 
-export async function embed(text: string): Promise<EmbeddingResult> {
+export async function embed(text: string, inputType: 'passage' | 'query' = 'passage'): Promise<EmbeddingResult> {
   try {
-    return await embedNVIDIA(text);
+    return await embedNVIDIA(text, inputType);
   } catch (nvidiaErr: any) {
     if (nvidiaErr.message.includes('not configured')) throw nvidiaErr;
     if (GEMINI_API_KEY) return await embedGemini(text);
@@ -85,13 +86,13 @@ export async function embed(text: string): Promise<EmbeddingResult> {
   }
 }
 
-export async function embedBatch(texts: string[], onError?: (err: Error, idx: number) => void): Promise<(EmbeddingResult | null)[]> {
+export async function embedBatch(texts: string[], inputType: 'passage' | 'query' = 'passage', onError?: (err: Error, idx: number) => void): Promise<(EmbeddingResult | null)[]> {
   const results: (EmbeddingResult | null)[] = new Array(texts.length).fill(null);
   const CONCURRENCY = 5;
   for (let i = 0; i < texts.length; i += CONCURRENCY) {
     const batch = texts.slice(i, i + CONCURRENCY);
     const batchResults = await Promise.allSettled(
-      batch.map((text, j) => embed(text).then(r => { results[i + j] = r; return r; }))
+      batch.map((text, j) => embed(text, inputType).then(r => { results[i + j] = r; return r; }))
     );
     batchResults.forEach((r, j) => {
       if (r.status === 'rejected' && onError) onError(r.reason, i + j);

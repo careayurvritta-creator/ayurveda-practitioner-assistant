@@ -164,7 +164,7 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
   const parsed = parseQuery(query);
   const variants = expandQuery(query, parsed.intent, parsed.entities);
 
-  const embedding = await embed(variants[0]);
+  const embedding = await embed(variants[0], 'query');
 
   const [vectorResults, keywordResults] = await Promise.all([
     vectorSearch(embedding.embedding, {
