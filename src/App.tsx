@@ -295,7 +295,7 @@ const renderChatMessageParts = (text: string) => {
         </div>
       )}
       {outputContent && (
-        <div className="mt-2 border-t border-stone-150 pt-2">
+        <div className="mt-2 border-t border-stone-200 pt-2">
           <details className="group" open={true}>
             <summary className="flex items-center justify-between cursor-pointer text-emerald-800 font-semibold list-none select-none hover:text-emerald-950 transition outline-none">
               <span className="flex items-center space-x-1.5 font-sans font-medium text-[10px] tracking-wide uppercase bg-emerald-50 px-2 py-1 rounded border border-emerald-100/50">
@@ -343,7 +343,7 @@ function ConfigErrorScreen() {
 export default function App() {
   // All hooks must be called unconditionally (React Rules of Hooks)
   // Google Authentication State
-  const [firebaseUser, setFirebaseUser] = useState<any>(null);
+  const [currentUser, setFirebaseUser] = useState<any>(null);
   const [userEmail, setUserEmail] = useState<string>('care.ayurvritta@gmail.com');
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(true); // Logged in state flag
   const [googleAccessToken, setGoogleAccessToken] = useState<string | null>(null);
@@ -394,10 +394,9 @@ export default function App() {
 
   // Model Selection States
   const [selectedModel, setSelectedModel] = useState<string>('gemini-2.5-pro');
-  const [isMinimaxConfigured, setIsMinimaxConfigured] = useState<boolean>(false);
   const [availableModels, setAvailableModels] = useState<any[]>([
     { id: 'gemini-2.5-pro', name: 'Gemini 2.5 Pro', provider: 'Google', description: 'Default Google GenAI clinical assistant. Extremely fast, intelligent and reliable.', rating: 'Excellent general model', tag: 'Fast Default' },
-    { id: 'minimaxai/minimax-m3', name: 'MiniMax M3', provider: 'MiniMax', description: 'Unified embedding + generation model for deep Ayurvedic diagnostic correlation and Sanskrit analysis.', rating: 'SOTA Clinical', tag: 'Recommended' },
+    { id: 'nvidia/llama-3.1-nemotron-70b-instruct', name: 'Nemotron 70B', provider: 'NVIDIA', description: 'High-quality clinical reasoning model via NVIDIA NIM. Excellent for complex Ayurvedic diagnostic analysis.', rating: 'High Quality', tag: 'Detailed' },
   ]);
  
   // Fetch verified active models on mount
@@ -410,9 +409,6 @@ export default function App() {
       .then(data => {
         if (data.models && Array.isArray(data.models) && data.models.length > 0) {
           setAvailableModels(data.models);
-        }
-        if (data.isMinimaxConfigured !== undefined) {
-          setIsMinimaxConfigured(data.isMinimaxConfigured);
         }
       })
       .catch(err => console.log('Using pre-populated clinical models selection:', err));
@@ -433,9 +429,23 @@ export default function App() {
     if (!corpusQuery.trim()) return;
     setCorpusLoading(true);
     try {
-      setCorpusResults([`Corpus search requires the /api/search-knowledge endpoint. Use the Chat tab for RAG-powered search against the full knowledge base.`]);
+      const { data, error } = await supabase.functions.invoke('search-knowledge', {
+        body: { query: corpusQuery, type: 'hybrid', limit: 10 },
+      });
+      
+      if (error) throw error;
+      
+      if (data.results && data.results.length > 0) {
+        const formatted = data.results.map((r: any, i: number) => 
+          `[${i + 1}] (${r.category || 'General'}) ${r.title || 'Untitled'}\n${r.content?.slice(0, 200) || 'No content'}...`
+        );
+        setCorpusResults(formatted);
+      } else {
+        setCorpusResults(['No results found in the knowledge base. Try different keywords.']);
+      }
     } catch (e) {
       console.error('Corpus search error:', e);
+      setCorpusResults(['Search failed. Ensure the search-knowledge edge function is deployed.']);
     } finally {
       setCorpusLoading(false);
     }
@@ -453,10 +463,23 @@ export default function App() {
     setHfSearchLoading(true);
     setHfRAGResult('');
     try {
-      setHfRAGResult('The Hugging Face API endpoint is not configured. Use the Chat tab for RAG-powered search against the full knowledge base.');
+      const { data, error } = await supabase.functions.invoke('search-knowledge', {
+        body: { query: hfQueryText, type: 'fts', limit: 5 },
+      });
+      
+      if (error) throw error;
+      
+      if (data.results && data.results.length > 0) {
+        const formatted = data.results.map((r: any) => 
+          `**${r.title || 'Untitled'}** (${r.source || 'Unknown'})\n${r.content?.slice(0, 300) || 'No content'}...`
+        ).join('\n\n');
+        setHfRAGResult(formatted);
+      } else {
+        setHfRAGResult('No results found. Try different search terms.');
+      }
     } catch (e) {
       console.error('Hugging Face search error:', e);
-      setHfRAGResult('Network issue during search.');
+      setHfRAGResult('Search failed. Ensure the search-knowledge edge function is deployed.');
     } finally {
       setHfSearchLoading(false);
     }
@@ -581,8 +604,9 @@ export default function App() {
     if (!googleAccessToken) return;
     setDriveFilesLoading(true);
     try {
+      const query = encodeURIComponent("mimeType='text/plain' or mimeType='application/pdf'");
       const res = await fetch(
-        "https://www.googleapis.com/drive/v3/files?q=mimeType='text/plain' or mimeType='application/pdf'&fields=files(id,name,mimeType,size,createdTime)&orderBy=name",
+        `https://www.googleapis.com/drive/v3/files?q=${query}&fields=files(id,name,mimeType,size,createdTime)&orderBy=name`,
         {
           headers: { Authorization: `Bearer ${googleAccessToken}` }
         }
@@ -669,7 +693,7 @@ export default function App() {
 
   // Fetch user records on successful login via Supabase
   useEffect(() => {
-    if (!firebaseUser) {
+    if (!currentUser) {
       // Fallback: load offline data from LocalStorage
       const cached = localStorage.getItem('ayurScribe_patients');
       if (cached) {
@@ -695,7 +719,7 @@ export default function App() {
         const { data, error } = await supabase
           .from('patients')
           .select('*')
-          .eq('owner_id', firebaseUser.id)
+          .eq('owner_id', currentUser.id)
           .order('created_at', { ascending: false });
 
         if (error) throw error;
@@ -752,7 +776,7 @@ export default function App() {
         const { data, error } = await supabase
           .from('feedback_logs')
           .select('*')
-          .eq('owner_id', firebaseUser.id)
+          .eq('owner_id', currentUser.id)
           .order('created_at', { ascending: false });
 
         if (error) throw error;
@@ -773,7 +797,7 @@ export default function App() {
     };
 
     fetchFeedback();
-  }, [firebaseUser]);
+  }, [currentUser]);
 
   // Real-time remote storage synchronizer callback
   const savePatientsToLocal = async (updated: Patient[]) => {
@@ -781,7 +805,7 @@ export default function App() {
     patientsRef.current = updated;
     localStorage.setItem('ayurScribe_patients', JSON.stringify(updated));
 
-    if (firebaseUser) {
+    if (currentUser) {
       // Sync ALL patients to Supabase, not just the selected one
       try {
         const upserts = updated.map(p => 
@@ -801,7 +825,7 @@ export default function App() {
             notes: p.notes || '',
             chats: p.chats || [],
             protocols: p.protocols || [],
-            owner_id: firebaseUser.id,
+            owner_id: currentUser.id,
             created_at: p.createdAt ? new Date(p.createdAt).toISOString() : new Date().toISOString(),
             updated_at: new Date().toISOString(),
           })
@@ -853,7 +877,7 @@ export default function App() {
     setSelectedPatientId(added.id);
     setShowAddPatient(false);
 
-    if (firebaseUser) {
+    if (currentUser) {
       try {
         await supabase.from('patients').upsert({
           id: added.id,
@@ -871,7 +895,7 @@ export default function App() {
           notes: added.notes || '',
           chats: [],
           protocols: [],
-          owner_id: firebaseUser.id,
+          owner_id: currentUser.id,
           created_at: new Date().toISOString(),
           updated_at: new Date().toISOString(),
         });
@@ -921,7 +945,7 @@ export default function App() {
         setSelectedPatientId(filtered.length > 0 ? filtered[0].id : null);
       }
 
-      if (firebaseUser) {
+      if (currentUser) {
         try {
           await supabase.from('patients').delete().eq('id', id);
         } catch (err: any) {
@@ -964,7 +988,7 @@ export default function App() {
   // Delete individual self-learning feedback log
   const handleDeleteFeedbackLog = async (id: string) => {
     if (window.confirm('Are you sure you want to delete this adaptation feedback?')) {
-      if (firebaseUser) {
+      if (currentUser) {
         try {
           await supabase.from('feedback_logs').delete().eq('id', id);
         } catch (err) {
@@ -1011,7 +1035,7 @@ export default function App() {
       setCorpusResults([]);
       localStorage.removeItem('ayurScribe_patients');
 
-      if (firebaseUser) {
+      if (currentUser) {
         try {
           // Parallel deletion for speed
           const patientDeletes = patients.map(p => supabase.from('patients').delete().eq('id', p.id));
@@ -1082,8 +1106,8 @@ export default function App() {
   };
 
   // API Call - Treatment Protocol Generator
-  const handleGenerateProtocol = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleGenerateProtocol = async (e?: React.FormEvent | React.MouseEvent) => {
+    if (e) e.preventDefault();
     const activePatient = getSelectedPatient();
     if (!activePatient || !protocolComplaint.trim()) {
       alert('Please select or specify a chief complaint before generating clinical protocol.');
@@ -1191,12 +1215,21 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
         provider: 'google',
         options: {
           redirectTo: window.location.origin,
+          queryParams: {
+            access_type: 'offline',
+            prompt: 'consent',
+          },
         },
       });
       if (error) throw error;
     } catch (err: any) {
-      console.error(err);
-      alert(`Google sign-in error: ${err.message || err}`);
+      console.error('Google sign-in error:', err);
+      const message = err.message || err;
+      if (message.includes('state') || message.includes('issuer')) {
+        alert('OAuth configuration error. Please ensure the redirect URLs are properly configured in Supabase dashboard and Google Cloud Console.');
+      } else {
+        alert(`Google sign-in error: ${message}`);
+      }
     }
   };
 
@@ -1287,7 +1320,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
     // Add to local state immediately so data is never lost
     setFeedbackLogs(prev => [log, ...prev]);
 
-    if (firebaseUser) {
+    if (currentUser) {
       try {
         await supabase.from('feedback_logs').upsert({
           id: log.id,
@@ -1295,7 +1328,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
           original_guidance: log.originalGuidance,
           practitioner_correction: log.practitionerCorrection,
           timestamp: log.timestamp,
-          owner_id: firebaseUser.id,
+          owner_id: currentUser.id,
           updated_at: new Date().toISOString(),
         });
       } catch (err) {
@@ -1339,7 +1372,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
 
         {/* Google Authentication & Status Display */}
         <div className="flex items-center space-x-2 sm:space-x-4 w-full sm:w-auto justify-between sm:justify-end border-t border-emerald-900/40 pt-2.5 sm:pt-0 sm:border-0">
-          {firebaseUser ? (
+          {currentUser ? (
             <div className="flex items-center bg-emerald-900/60 border border-emerald-800 rounded-lg px-3 py-1.5 md:px-4 md:py-2 space-x-2 md:space-x-3 text-xs md:text-sm w-full sm:w-auto justify-between">
               <div className="flex items-center space-x-2 truncate">
                 <div className="relative shrink-0">
@@ -1634,7 +1667,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                           </h4>
                         </div>
                         <p className="text-[10px] text-stone-500 mt-1">
-                          Synthesize prescriptions with state-of-the-art clinical reasoning LLMs, powered by MiniMax M3.
+                          Synthesize prescriptions with state-of-the-art clinical reasoning LLMs, powered by Google Gemini and NVIDIA NIM.
                         </p>
                       </div>
                       <div className="flex items-center gap-2 w-full sm:w-auto">
@@ -1652,7 +1685,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                       </div>
                     </div>
                     {/* Active Model Description box */}
-                    <div className="mt-2.5 pt-2.5 border-t border-stone-150 flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
+                    <div className="mt-2.5 pt-2.5 border-t border-stone-200 flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
                       <p className="text-[10px] text-stone-600 leading-normal max-w-xl">
                         💡 <strong>Model Capability:</strong> {availableModels.find(m => m.id === selectedModel)?.description}
                       </p>
@@ -1665,11 +1698,11 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                         </span>
                       </div>
                     </div>
-                    {selectedModel !== 'gemini-2.5-pro' && !isMinimaxConfigured && (
+                    {selectedModel === 'nvidia/llama-3.1-nemotron-70b-instruct' && (
                       <div className="mt-2 bg-amber-50/70 border border-amber-200/50 rounded-lg p-2 text-[10px] text-amber-800 leading-normal flex items-start gap-1.5">
-                        <span className="font-bold underline shrink-0 mt-0.5">⚠️ KEY NOT CONFIGURED:</span>
+                        <span className="font-bold underline shrink-0 mt-0.5">ℹ️ NVIDIA NIM:</span>
                         <span>
-                          MiniMax M3 Key is not configured. To connect directly to MiniMax M3 servers, configure the <code>MINIMAX_M3_API_KEY</code> variable inside the Settings Secrets menu.
+                          Ensure <code>NVIDIA_API_KEY</code> is configured in Supabase Edge Function secrets for Nemotron 70B access.
                         </span>
                       </div>
                     )}
@@ -1801,13 +1834,13 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                           placeholder="General imbalance e.g., elevated Pitta"
                           value={protocolImbalance}
                           onChange={(e) => setProtocolImbalance(e.target.value)}
-                          className="w-full bg-white border border-stone-150 rounded-lg p-2 text-xs text-stone-900 focus:ring-1 focus:ring-emerald-800 focus:outline-none"
+                          className="w-full bg-white border border-stone-200 rounded-lg p-2 text-xs text-stone-900 focus:ring-1 focus:ring-emerald-800 focus:outline-none"
                         />
                       </div>
                       <div>
                         <label className="font-bold text-stone-600 block mb-1">Target Season/Climate context:</label>
                         <select
-                          className="w-full bg-white border border-stone-150 rounded-lg p-2 text-xs text-stone-900 focus:ring-1 focus:ring-emerald-800 focus:outline-none"
+                          className="w-full bg-white border border-stone-200 rounded-lg p-2 text-xs text-stone-900 focus:ring-1 focus:ring-emerald-800 focus:outline-none"
                           value={activePatient.season}
                           disabled
                         >
@@ -1817,11 +1850,11 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                     </div>
 
                     <div className="border-t border-stone-200/80 pt-3">
-                      <label className="font-bold text-stone-600 block mb-1 text-xs">Clinical Synthesis Backbone Engine (MiniMax M3):</label>
+                      <label className="font-bold text-stone-600 block mb-1 text-xs">Clinical Synthesis Backbone Engine:</label>
                       <select
                         value={selectedModel}
                         onChange={(e) => setSelectedModel(e.target.value)}
-                        className="w-full bg-white border border-stone-150 rounded-lg p-2 text-xs text-stone-900 focus:ring-1 focus:ring-emerald-800 focus:outline-none font-medium"
+                        className="w-full bg-white border border-stone-200 rounded-lg p-2 text-xs text-stone-900 focus:ring-1 focus:ring-emerald-800 focus:outline-none font-medium"
                       >
                         {availableModels.map((m) => (
                           <option key={m.id} value={m.id}>
@@ -1845,11 +1878,11 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                           </span>
                         </div>
                       </div>
-                      {selectedModel !== 'gemini-2.5-pro' && !isMinimaxConfigured && (
+                      {selectedModel === 'nvidia/llama-3.1-nemotron-70b-instruct' && (
                         <div className="mt-2 bg-amber-50/70 border border-amber-200/50 rounded-lg p-2 text-[10px] text-amber-800 leading-normal flex items-start gap-1.5">
-                          <span className="font-bold underline shrink-0 mt-0.5">⚠️ KEY NOT CONFIGURED:</span>
+                          <span className="font-bold underline shrink-0 mt-0.5">ℹ️ NVIDIA NIM:</span>
                           <span>
-                            MiniMax M3 Key is not configured. To connect to MiniMax M3 servers, configure the <code>MINIMAX_M3_API_KEY</code> variable inside the Settings Secrets menu.
+                            Ensure <code>NVIDIA_API_KEY</code> is configured in Supabase Edge Function secrets for Nemotron 70B access.
                           </span>
                         </div>
                       )}
@@ -1893,7 +1926,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                     <div className="border border-stone-200 rounded-2xl bg-stone-50 flex-grow p-5 min-h-[300px] flex flex-col justify-between">
                       {generatedProtocolText ? (
                         <div className="space-y-4">
-                          <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-150 max-h-[400px] overflow-y-auto leading-relaxed text-xs">
+                          <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-200 max-h-[400px] overflow-y-auto leading-relaxed text-xs">
                             <div className="font-serif border-b pb-2 mb-3 border-stone-100 flex justify-between items-center">
                               <span className="text-emerald-900 font-bold uppercase tracking-widest">AYURVEDA PRESCRIPTION STUDY</span>
                               <span className="text-[10px] text-stone-400">Date: {new Date().toLocaleDateString('en-GB')}</span>
@@ -2022,7 +2055,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                   <div className="xl:col-span-2 space-y-6">
                     
                     {/* SUB-TAB NAVIGATOR */}
-                    <div className="flex space-x-2 border-b border-stone-150 pb-1 flex-wrap gap-1">
+                    <div className="flex space-x-2 border-b border-stone-200 pb-1 flex-wrap gap-1">
                       <button
                         type="button"
                         onClick={() => setKnowledgeSubTab('samhita')}
@@ -2272,7 +2305,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
 
                     {/* VAIDYA'S AYURVEDIC CORPUS EXPLORER - INTEGRATED FROM 12 MODULES */}
                     <div id="vaidya-corpus-explorer" className="bg-white border border-stone-200 p-5 rounded-2xl space-y-4 shadow-sm text-stone-805">
-                      <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-stone-150 pb-3 gap-2">
+                      <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-stone-200 pb-3 gap-2">
                         <div className="flex items-center space-x-2.5">
                           <BookOpen className="h-5 w-5 text-emerald-800 shrink-0" />
                           <div>
@@ -2468,7 +2501,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                                         </ul>
                                       </div>
 
-                                      <div className="pt-2 border-t border-stone-150">
+                                      <div className="pt-2 border-t border-stone-200">
                                         <span className="text-[10px] font-bold uppercase text-stone-400 tracking-wider font-sans">Practitioner Clinical Application:</span>
                                         <p className="text-stone-700 mt-1 leading-relaxed font-sans">{diag.clinicalApplication?.join(', ')}</p>
                                       </div>
@@ -2489,7 +2522,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                                 )
                                 .map((h: any) => (
                                   <div key={h.name} className="bg-white border border-stone-200 rounded-xl text-xs overflow-hidden">
-                                    <div className="bg-emerald-50/25 border-b border-stone-150 p-3.5 flex justify-between items-center">
+                                    <div className="bg-emerald-50/25 border-b border-stone-200 p-3.5 flex justify-between items-center">
                                       <div>
                                         <h4 className="font-bold text-emerald-950 text-xs font-serif">{h.name} ({h.sanskrit})</h4>
                                         <p className="text-[10px] text-stone-500 font-mono italic">{h.botanicalName} ({h.family})</p>
@@ -2499,7 +2532,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                                       </span>
                                     </div>
                                     <div className="p-4 space-y-3 text-[11px]">
-                                      <div className="grid grid-cols-2 md:grid-cols-4 gap-2 border-b border-stone-150 pb-2.5 text-stone-600 font-mono">
+                                      <div className="grid grid-cols-2 md:grid-cols-4 gap-2 border-b border-stone-200 pb-2.5 text-stone-600 font-mono">
                                         <div><strong className="text-stone-850 font-sans">Rasa:</strong> {h.rasa?.join(', ')}</div>
                                         <div><strong className="text-stone-850 font-sans">Guna:</strong> {h.guna?.join(', ')}</div>
                                         <div><strong className="text-stone-850 font-sans">Virya:</strong> {h.virya}</div>
@@ -2558,7 +2591,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                                          </ol>
                                        </div>
 
-                                       <div className="grid grid-cols-2 gap-4 text-[10px] border-t border-stone-150 pt-3">
+                                       <div className="grid grid-cols-2 gap-4 text-[10px] border-t border-stone-200 pt-3">
                                          <div>
                                            <strong className="text-stone-800 uppercase tracking-wider text-stone-400 block mb-0.5 font-bold">Indications:</strong>
                                            <p className="text-stone-705 leading-relaxed font-sans">{t.indications?.join(', ')}</p>
@@ -2618,7 +2651,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                                          </ul>
                                        </div>
 
-                                       <div className="grid grid-cols-2 gap-4 border-t border-stone-150 pt-3 text-[10px]">
+                                       <div className="grid grid-cols-2 gap-4 border-t border-stone-200 pt-3 text-[10px]">
                                          <div className="bg-emerald-50/10 border border-emerald-100 p-2.5 rounded-lg text-emerald-950">
                                            <strong className="text-emerald-900 block font-bold text-[9px] uppercase">Pathya (Recommend Diet):</strong>
                                            <p className="text-stone-700 leading-relaxed font-sans">{d.pathya?.join(', ')}</p>
@@ -2718,7 +2751,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                         
                         {/* Hugging Face Directory Header */}
                         <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-4">
-                          <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-stone-150 pb-3 gap-2">
+                          <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-stone-200 pb-3 gap-2">
                             <div className="flex items-center space-x-2.5">
                               <span className="text-xl shrink-0 select-none">🤗</span>
                               <div>
@@ -2771,7 +2804,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                                     </div>
                                   </div>
 
-                                  <div className="flex items-center justify-between pt-2.5 border-t border-stone-150 gap-2 text-xs">
+                                  <div className="flex items-center justify-between pt-2.5 border-t border-stone-200 gap-2 text-xs">
                                     <a 
                                       href={ds.url} 
                                       target="_blank" 
@@ -2940,7 +2973,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                         <p className="text-[10px] font-bold uppercase text-stone-400 tracking-wider">Saved Adaptations ({feedbackLogs.length})</p>
                         <div className="space-y-2">
                           {feedbackLogs.map((log) => (
-                            <div key={log.id} className="bg-stone-50 p-3 rounded-lg border border-stone-150 text-[11px] leading-relaxed relative group">
+                            <div key={log.id} className="bg-stone-50 p-3 rounded-lg border border-stone-200 text-[11px] leading-relaxed relative group">
                               <div className="flex justify-between font-bold text-stone-700 mb-1 pr-6 text-left">
                                 <span>Patient: {log.patientName}</span>
                                 <span className="text-[9px] text-stone-400">{log.timestamp}</span>

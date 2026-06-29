@@ -4,16 +4,7 @@ import { streamLLM, resolveModel } from '../_shared/rag/llm.ts';
 import { buildPatientChatPrompt } from '../_shared/rag/prompts.ts';
 import { retrieve } from '../_shared/rag/engine.ts';
 import { corsPreflightResponse, jsonResponse, errorResponse } from '../_shared/cors.ts';
-
-async function collectStream(gen: AsyncGenerator<{ type: string; content?: string; error?: string }>): Promise<{ text: string; errors: string[] }> {
-  let result = '';
-  const errors: string[] = [];
-  for await (const part of gen) {
-    if (part.type === 'content' && part.content) result += part.content;
-    if (part.type === 'error' && part.error) errors.push(part.error);
-  }
-  return { text: result, errors };
-}
+import { collectStream } from '../_shared/stream.ts';
 
 serve(async (req: Request) => {
   if (req.method === 'OPTIONS') return corsPreflightResponse(req);

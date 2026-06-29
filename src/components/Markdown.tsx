@@ -366,7 +366,7 @@ export const Markdown: React.FC<MarkdownProps> = ({ content }) => {
                 {dataRows.map((row, rIdx) => (
                   <tr key={rIdx} className={rIdx % 2 === 1 ? 'bg-stone-50/40' : ''}>
                     {row.map((cell, cIdx) => (
-                      <td key={cIdx} className="px-3.5 py-2 text-stone-700 border-r border-stone-150 last:border-r-0 font-sans text-[10.5px] leading-relaxed">
+                      <td key={cIdx} className="px-3.5 py-2 text-stone-700 border-r border-stone-200 last:border-r-0 font-sans text-[10.5px] leading-relaxed">
                         {parseInlineStyles(cell.trim())}
                       </td>
                     ))}
@@ -462,7 +462,7 @@ export const Markdown: React.FC<MarkdownProps> = ({ content }) => {
             <div key={`param-${idx}`} className="mt-3.5 bg-emerald-50/55 border border-emerald-100/60 rounded-md px-2.5 py-1 text-[9px] text-emerald-800 font-mono tracking-wide flex items-center justify-between shadow-4xs transition hover:bg-emerald-50/85 select-none font-medium">
               <span className="flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-ping shrink-0" />
-                <span>MiniMax M3 Clinical Protocol</span>
+                <span>Clinical Protocol</span>
               </span>
               <span className="font-semibold">{cleanLabel.toUpperCase()}</span>
             </div>
