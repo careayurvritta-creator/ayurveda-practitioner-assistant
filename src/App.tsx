@@ -393,10 +393,11 @@ export default function App() {
   const [selectedProtocolToPrint, setSelectedProtocolToPrint] = useState<Protocol | null>(null);
 
   // Model Selection States
-  const [selectedModel, setSelectedModel] = useState<string>('nvidia/llama-3.1-nemotron-70b-instruct');
+  const [selectedModel, setSelectedModel] = useState<string>('moonshotai/kimi-k2.6');
   const [availableModels, setAvailableModels] = useState<any[]>([
-    { id: 'nvidia/llama-3.1-nemotron-70b-instruct', name: 'Nemotron 70B', provider: 'NVIDIA NIM', description: 'High-quality clinical reasoning model. Excellent for complex Ayurvedic diagnostic analysis and treatment protocols.', rating: 'Best Clinical', tag: 'Recommended' },
-    { id: 'nvidia/llama-3.1-8b-instruct', name: 'Nemotron 8B', provider: 'NVIDIA NIM', description: 'Fast and efficient model for quick clinical queries and rapid response generation.', rating: 'Fast', tag: 'Quick' },
+    { id: 'moonshotai/kimi-k2.6', name: 'Kimi K2.6', provider: 'Moonshot AI (NVIDIA NIM)', description: '1T parameter multimodal MoE model. Excellent for complex reasoning, clinical analysis, and Ayurvedic diagnostic correlation.', rating: 'Best Reasoning', tag: 'Recommended' },
+    { id: 'nvidia/llama-3.3-nemotron-super-49b-v1.5', name: 'Nemotron Super 49B', provider: 'NVIDIA NIM', description: 'Advanced medical reasoning model. Optimized for clinical documentation, SOAP notes, and healthcare workflows.', rating: 'Best Medical', tag: 'Clinical' },
+    { id: 'nvidia/llama-3.1-nemotron-70b-instruct', name: 'Nemotron 70B', provider: 'NVIDIA NIM', description: 'Reliable general-purpose clinical reasoning model for diagnostic analysis and treatment protocols.', rating: 'Reliable', tag: 'Fallback' },
   ]);
  
   // Fetch verified active models on mount
@@ -1174,7 +1175,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
 - **Include (Pathya)**: Cooled boiled water, warm green mung bean soups, soft bitter gourd curry.
 - **Avoid (Apathya)**: Excess yogurt, nocturnal food intake, direct sun exposure.
 
-*Note: Demanded resource generated in fallback offline clinic mode. Please check GEMINI_API_KEY settings to load dynamic AI insights.*`;
+*Note: Generated in fallback offline mode. Please check NVIDIA_API_KEY settings to load dynamic AI insights.*`;
       
       setGeneratedProtocolText(fallbackText);
       
@@ -1667,7 +1668,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                           </h4>
                         </div>
                         <p className="text-[10px] text-stone-500 mt-1">
-                          Synthesize prescriptions with state-of-the-art clinical reasoning LLMs, powered by NVIDIA NIM.
+                          Synthesize prescriptions with Kimi K2.6's advanced reasoning capabilities, powered by NVIDIA NIM.
                         </p>
                       </div>
                       <div className="flex items-center gap-2 w-full sm:w-auto">
@@ -1698,11 +1699,11 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                         </span>
                       </div>
                     </div>
-                    {selectedModel === 'nvidia/llama-3.1-nemotron-70b-instruct' && (
+                    {(selectedModel.startsWith('nvidia/') || selectedModel.startsWith('moonshotai/')) && (
                       <div className="mt-2 bg-amber-50/70 border border-amber-200/50 rounded-lg p-2 text-[10px] text-amber-800 leading-normal flex items-start gap-1.5">
                         <span className="font-bold underline shrink-0 mt-0.5">ℹ️ NVIDIA NIM:</span>
                         <span>
-                          ℹ️ <strong>NVIDIA NIM:</strong> Ensure <code>NVIDIA_API_KEY</code> is configured in Supabase Edge Function secrets. Run: <code>supabase secrets set NVIDIA_API_KEY=your_key</code>
+                          ℹ️ <strong>NVIDIA NIM:</strong> Ensure <code>NVIDIA_API_KEY</code> is configured. Run: <code>supabase secrets set NVIDIA_API_KEY=your_key</code>
                         </span>
                       </div>
                     )}
@@ -1850,7 +1851,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                     </div>
 
                     <div className="border-t border-stone-200/80 pt-3">
-                      <label className="font-bold text-stone-600 block mb-1 text-xs">Clinical Synthesis Engine (NVIDIA NIM):</label>
+                      <label className="font-bold text-stone-600 block mb-1 text-xs">Clinical Reasoning Engine (NVIDIA NIM):</label>
                       <select
                         value={selectedModel}
                         onChange={(e) => setSelectedModel(e.target.value)}
@@ -1878,11 +1879,11 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                           </span>
                         </div>
                       </div>
-                      {selectedModel === 'nvidia/llama-3.1-nemotron-70b-instruct' && (
+                    {(selectedModel.startsWith('nvidia/') || selectedModel.startsWith('moonshotai/')) && (
                         <div className="mt-2 bg-amber-50/70 border border-amber-200/50 rounded-lg p-2 text-[10px] text-amber-800 leading-normal flex items-start gap-1.5">
                           <span className="font-bold underline shrink-0 mt-0.5">ℹ️ NVIDIA NIM:</span>
                           <span>
-                          ℹ️ <strong>NVIDIA NIM:</strong> Ensure <code>NVIDIA_API_KEY</code> is configured in Supabase Edge Function secrets. Run: <code>supabase secrets set NVIDIA_API_KEY=your_key</code>
+                          ℹ️ <strong>NVIDIA NIM:</strong> Ensure <code>NVIDIA_API_KEY</code> is configured. Run: <code>supabase secrets set NVIDIA_API_KEY=your_key</code>
                           </span>
                         </div>
                       )}

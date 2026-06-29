@@ -156,24 +156,36 @@ export async function* streamGemini(
 }
 
 export function resolveModel(requested?: string): { provider: LLMProvider; model: string } {
-  const defaultModel = 'nvidia/llama-3.1-nemotron-70b-instruct';
+  const defaultModel = 'moonshotai/kimi-k2.6';
   const effective = requested ?? defaultModel;
 
+  // Kimi models via NVIDIA NIM
+  if (effective.startsWith('moonshotai/') || effective.startsWith('kimi')) {
+    if (!NVIDIA_API_KEY) throw new Error('NVIDIA_API_KEY is not configured. Set it in Supabase Edge Function secrets.');
+    const modelName = effective.startsWith('moonshotai/') ? effective : `moonshotai/${effective}`;
+    return { provider: 'nvidia', model: modelName };
+  }
+
+  // NVIDIA Nemotron models
   if (effective.startsWith('nvidia/')) {
     if (!NVIDIA_API_KEY) throw new Error('NVIDIA_API_KEY is not configured. Set it in Supabase Edge Function secrets.');
     return { provider: 'nvidia', model: effective };
   }
+
+  // Gemini models (kept as fallback)
   if (effective.startsWith('gemini/')) {
     if (!GEMINI_API_KEY) throw new Error('GEMINI_API_KEY is not configured. Set it in Supabase Edge Function secrets.');
     return { provider: 'gemini', model: effective.replace('gemini/', '') };
   }
+
+  // Reject MiniMax
   if (effective.startsWith('minimaxai/')) {
-    throw new Error('MiniMax models are no longer supported. Use nvidia/llama-3.1-nemotron-70b-instruct.');
+    throw new Error('MiniMax models are no longer supported. Use moonshotai/kimi-k2.6 or nvidia/llama-3.3-nemotron-super-49b-v1.5.');
   }
 
-  // For any other model name (no prefix), default to NVIDIA
+  // For any other model name (no prefix), default to Kimi K2.6 via NVIDIA
   if (!NVIDIA_API_KEY) throw new Error('NVIDIA_API_KEY is not configured. Set it in Supabase Edge Function secrets.');
-  return { provider: 'nvidia', model: `nvidia/${effective}` };
+  return { provider: 'nvidia', model: `moonshotai/${effective}` };
 }
 
 export async function* streamLLM(

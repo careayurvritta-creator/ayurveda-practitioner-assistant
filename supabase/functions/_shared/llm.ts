@@ -1,29 +1,30 @@
-const GEMINI_API_KEY = Deno.env.get('GEMINI_API_KEY');
+const NVIDIA_API_KEY = Deno.env.get('NVIDIA_API_KEY');
 
-export async function callGemini(prompt: string, model = 'gemini-2.5-pro') {
-  if (!GEMINI_API_KEY) {
-    throw new Error('GEMINI_API_KEY is not configured');
+export async function callNvidia(prompt: string, model = 'moonshotai/kimi-k2.6') {
+  if (!NVIDIA_API_KEY) {
+    throw new Error('NVIDIA_API_KEY is not configured');
   }
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
-  const res = await fetch(url, {
+  const res = await fetch('https://integrate.api.nvidia.com/v1/chat/completions', {
     method: 'POST',
     headers: {
+      'Authorization': `Bearer ${NVIDIA_API_KEY}`,
       'Content-Type': 'application/json',
-      'x-goog-api-key': GEMINI_API_KEY,
     },
     body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.7, maxOutputTokens: 8192 },
+      model,
+      messages: [{ role: 'user', content: prompt }],
+      max_tokens: 8192,
+      temperature: 0.3,
     }),
   });
   if (!res.ok) {
-    throw new Error(`Gemini API error: ${res.status} ${await res.text()}`);
+    throw new Error(`NVIDIA API error: ${res.status} ${await res.text()}`);
   }
   const data = await res.json();
-  return data.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+  return data.choices?.[0]?.message?.content ?? '';
 }
 
 export async function callLlm(prompt: string, model?: string) {
-  const effectiveModel = model ?? 'gemini-2.5-pro';
-  return callGemini(prompt, effectiveModel);
+  const effectiveModel = model ?? 'moonshotai/kimi-k2.6';
+  return callNvidia(prompt, effectiveModel);
 }
