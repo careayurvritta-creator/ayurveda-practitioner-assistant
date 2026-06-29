@@ -1,5 +1,5 @@
 import { serve } from 'https://deno.land/std@0.168.0/http/server.ts';
-import { userScopedClient, authUid } from '../_shared/db.ts';
+import { userScopedClient, serviceRoleClient, authUid } from '../_shared/db.ts';
 import { streamLLM, resolveModel } from '../_shared/rag/llm.ts';
 import { buildPatientChatPrompt } from '../_shared/rag/prompts.ts';
 import { retrieve } from '../_shared/rag/engine.ts';
@@ -76,7 +76,6 @@ serve(async (req: Request) => {
 
     // Log query metrics (best-effort, service-role)
     try {
-      const { serviceRoleClient } = await import('../_shared/db.ts');
       const svc = serviceRoleClient();
       await svc.rpc('log_query', {
         p_user_id: userId,

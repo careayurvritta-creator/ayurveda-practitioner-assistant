@@ -16,10 +16,15 @@ serve(async (req: Request) => {
     if (!userId) return errorResponse(req, 'Invalid token', 401);
 
     const body = await req.json();
-    const { refresh_token } = body;
+    const { refresh_token, expected_user_id } = body;
 
     if (!refresh_token || typeof refresh_token !== 'string') {
       return errorResponse(req, 'refresh_token is required', 400);
+    }
+
+    // Verify token ownership: caller must claim ownership of this refresh token
+    if (expected_user_id && expected_user_id !== userId) {
+      return errorResponse(req, 'Token ownership mismatch', 403);
     }
 
     const result = await exchangeRefreshToken(refresh_token);

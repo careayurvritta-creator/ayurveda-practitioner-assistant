@@ -344,8 +344,8 @@ export default function App() {
   // All hooks must be called unconditionally (React Rules of Hooks)
   // Google Authentication State
   const [currentUser, setFirebaseUser] = useState<any>(null);
-  const [userEmail, setUserEmail] = useState<string>('care.ayurvritta@gmail.com');
-  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(true); // Logged in state flag
+  const [userEmail, setUserEmail] = useState<string>('');
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false); // Logged in state flag
   const [googleAccessToken, setGoogleAccessToken] = useState<string | null>(null);
 
   // Google Drive Integration States
@@ -827,7 +827,7 @@ export default function App() {
             chats: p.chats || [],
             protocols: p.protocols || [],
             owner_id: currentUser.id,
-            created_at: p.createdAt ? new Date(p.createdAt).toISOString() : new Date().toISOString(),
+            created_at: p.createdAt ? (() => { try { const d = new Date(p.createdAt); return isNaN(d.getTime()) ? new Date().toISOString() : d.toISOString(); } catch { return new Date().toISOString(); } })() : new Date().toISOString(),
             updated_at: new Date().toISOString(),
           })
         );
@@ -1524,7 +1524,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
             })}
 
             {patients.length === 0 && (
-              <div className="text-center py-8 px-3 text-stone-400 border border-dashed border-stone-250 rounded-xl bg-stone-50/50">
+              <div className="text-center py-8 px-3 text-stone-400 border border-dashed border-stone-200 rounded-xl bg-stone-50/50">
                 <Users className="h-8 w-8 mx-auto stroke-1 mb-2 text-stone-300" />
                 <p className="text-xs font-semibold text-stone-700">No patients found</p>
                 <p className="text-[10px] mt-1 text-stone-500 leading-relaxed">Create a dossier using the "New Case" button above.</p>
@@ -2129,7 +2129,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                         </div>
 
                         {corpusResults.length > 0 && (
-                          <div className="bg-white rounded-lg border border-stone-250 p-3 max-h-60 overflow-y-auto space-y-2 mt-2 shadow-inner">
+                          <div className="bg-white rounded-lg border border-stone-200 p-3 max-h-60 overflow-y-auto space-y-2 mt-2 shadow-inner">
                             <p className="text-[10px] font-bold text-emerald-850 uppercase tracking-widest">Retrieved Matches ({corpusResults.length})</p>
                             <div className="space-y-2 text-xs text-stone-700 leading-relaxed font-mono divide-y divide-stone-100">
                               {corpusResults.map((res, i) => (
@@ -2158,7 +2158,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                       >
                         <Cloud className="h-10 w-10 mx-auto text-stone-400 mb-2" />
                         <p className="text-xs font-semibold text-stone-800">Drag & Drop Sanskrit Samhita files or Practitioner Notes</p>
-                        <p className="text-[10px] text-stone-500 mt-1">Accepts PDF, TXT, DOCX files up to 25MB</p>
+                        <p className="text-[10px] text-stone-500 mt-1">Accepts PDF, TXT, MD files up to 25MB</p>
                         <div className="flex items-center justify-center space-x-2 mt-3">
                           <span className="text-stone-300">or</span>
                           <label className="bg-white hover:bg-stone-50 hover:text-stone-900 border border-stone-300 text-stone-700 font-bold text-[10px] px-3 py-1.5 rounded-lg cursor-pointer transition">
@@ -2270,7 +2270,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                       {/* Uploaded items */}
                       <div className="mt-6 space-y-2">
                         <p className="text-[10px] font-bold uppercase text-stone-400 tracking-wider">Active Indexed Repositories ({knowledgeDocs.length})</p>
-                        <div className="divide-y divide-stone-150">
+                        <div className="divide-y divide-stone-200">
                           {knowledgeDocs.map((doc) => (
                             <div key={doc.id} className="py-2.5 flex justify-between items-center text-xs">
                               <div className="flex items-center space-x-2.5">
@@ -2408,7 +2408,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                               {/* Saptadhatu */}
                               <div className="border border-stone-200 rounded-xl overflow-hidden text-xs">
                                 <div className="bg-stone-50 p-3 border-b border-stone-200 font-bold text-stone-850">Saptadhatu (Seven Vital Tissues)</div>
-                                <div className="divide-y divide-stone-150">
+                                <div className="divide-y divide-stone-200">
                                   {knowledgeModules.fundamentals?.saptadhatu
                                     ?.filter((sd: any) => 
                                       sd.name.toLowerCase().includes(moduleSearchQuery.toLowerCase()) || 
@@ -2452,7 +2452,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                               {/* Srotas */}
                               <div className="border border-stone-200 rounded-xl overflow-hidden text-xs">
                                 <div className="bg-stone-50 p-3 border-b border-stone-200 font-bold text-stone-850">Srotas (Channels of Circulation)</div>
-                                <div className="divide-y divide-stone-150">
+                                <div className="divide-y divide-stone-200">
                                   {knowledgeModules.fundamentals?.srotas
                                     ?.filter((sr: any) => 
                                       sr.name.toLowerCase().includes(moduleSearchQuery.toLowerCase()) || 
@@ -2789,7 +2789,7 @@ Alleviate aggravated Doshas without extinguishing the digestive core (Agni). Emp
                                         <span className="font-serif font-bold text-[12.5px] text-stone-900 leading-tight block">{ds.name}</span>
                                         <span className="text-[9px] text-stone-400 font-mono block mt-0.5">{ds.id}</span>
                                       </div>
-                                      <span className="text-[9px] font-mono font-bold bg-white text-stone-600 px-1.5 py-0.5 rounded border border-stone-250 shrink-0 select-none uppercase shadow-2xs">
+                                      <span className="text-[9px] font-mono font-bold bg-white text-stone-600 px-1.5 py-0.5 rounded border border-stone-200 shrink-0 select-none uppercase shadow-2xs">
                                         {ds.size}
                                       </span>
                                     </div>

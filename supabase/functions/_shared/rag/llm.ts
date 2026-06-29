@@ -195,5 +195,9 @@ export async function* streamLLM(
   maxTokens: number
 ): AsyncGenerator<StreamPart> {
   const resolved = resolveModel(model);
-  yield* streamNVIDIA(resolved.model, system, messages, maxTokens);
+  if (resolved.provider === 'gemini') {
+    yield* streamGemini(resolved.model, system, messages, maxTokens);
+  } else {
+    yield* streamNVIDIA(resolved.model, system, messages, maxTokens);
+  }
 }

@@ -1,5 +1,5 @@
 import { serve } from 'https://deno.land/std@0.168.0/http/server.ts';
-import { authUid } from '../_shared/db.ts';
+import { authUid, serviceRoleClient } from '../_shared/db.ts';
 import { streamLLM, resolveModel } from '../_shared/rag/llm.ts';
 import { buildClinicalDocsPrompt } from '../_shared/rag/prompts.ts';
 import { retrieve } from '../_shared/rag/engine.ts';
@@ -23,6 +23,9 @@ serve(async (req: Request) => {
 
     const body = await req.json();
     const { caseData, docType = 'case_sheet', model } = body;
+
+    const allowedDocTypes = ['case_sheet', 'prescription', 'referral', 'lab_order', 'discharge_summary', 'follow_up'];
+    const safeDocType = allowedDocTypes.includes(docType) ? docType : 'case_sheet';
 
     if (!caseData || typeof caseData !== 'object') {
       return errorResponse(req, 'caseData is required', 400);
@@ -56,7 +59,7 @@ serve(async (req: Request) => {
 
     const context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}/${c.title ?? 'N/A'}) ${c.content}`).join('\n\n');
 
-    const prompt = buildClinicalDocsPrompt(context, safeCaseData, docType);
+    const prompt = buildClinicalDocsPrompt(context, safeCaseData, safeDocType);
 
     const { text: fullText, errors: llmErrors } = await collectStream(
       streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], 12000)
@@ -68,7 +71,6 @@ serve(async (req: Request) => {
 
     // Log query metrics (best-effort, service-role)
     try {
-      const { serviceRoleClient } = await import('../_shared/db.ts');
       const svc = serviceRoleClient();
       await svc.rpc('log_query', {
         p_user_id: userId,

@@ -1,11 +1,15 @@
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
-const SUPABASE_URL = Deno.env.get('SUPABASE_URL')!;
-const SUPABASE_ANON_KEY = Deno.env.get('SUPABASE_ANON_KEY')!;
+const SUPABASE_URL = Deno.env.get('SUPABASE_URL');
+const SUPABASE_ANON_KEY = Deno.env.get('SUPABASE_ANON_KEY');
+
+if (!SUPABASE_URL) throw new Error('SUPABASE_URL is not configured');
+if (!SUPABASE_ANON_KEY) throw new Error('SUPABASE_ANON_KEY is not configured');
 
 /** Supabase client with service role — bypasses RLS. Use for system operations. */
 export function serviceRoleClient() {
-  const key = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
+  const key = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY');
+  if (!key) throw new Error('SUPABASE_SERVICE_ROLE_KEY is not configured');
   return createClient(SUPABASE_URL, key);
 }
 
@@ -25,6 +29,7 @@ let cachedAnonClient: ReturnType<typeof createClient> | null = null;
  * Falls back to base64 decode for edge cases (e.g. local dev with custom JWTs).
  */
 export async function authUid(jwt: string): Promise<string | null> {
+  if (!jwt || jwt.length < 10) return null;
   try {
     if (!cachedAnonClient) {
       cachedAnonClient = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {

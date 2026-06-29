@@ -362,7 +362,7 @@ export const Markdown: React.FC<MarkdownProps> = ({ content }) => {
                   </tr>
                 </thead>
               )}
-              <tbody className="bg-white divide-y divide-stone-150">
+              <tbody className="bg-white divide-y divide-stone-200">
                 {dataRows.map((row, rIdx) => (
                   <tr key={rIdx} className={rIdx % 2 === 1 ? 'bg-stone-50/40' : ''}>
                     {row.map((cell, cIdx) => (

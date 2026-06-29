@@ -199,9 +199,13 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
 
   let researchArticles: ResearchArticle[] = [];
   if (options.doResearch && (options.surface === 'treatment-protocol')) {
-    researchArticles = await fetchResearchArticles(parsed.primaryCondition, {
-      skipSerpAPI: options.skipSerpAPI,
-    });
+    try {
+      researchArticles = await fetchResearchArticles(parsed.primaryCondition, {
+        skipSerpAPI: options.skipSerpAPI,
+      });
+    } catch (e) {
+      console.warn('Research fetch failed, continuing without research:', e);
+    }
   }
 
   return {

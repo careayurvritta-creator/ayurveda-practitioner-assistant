@@ -23,7 +23,7 @@ export function corsHeaders(req: Request): Record<string, string> {
   return {
     'Access-Control-Allow-Origin': getAllowedOrigin(req),
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization, apikey, x-supabase-auth',
     'Access-Control-Max-Age': '86400',
   };
 }
