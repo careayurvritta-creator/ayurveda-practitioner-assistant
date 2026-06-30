@@ -48,6 +48,7 @@ import { RASAYANA_HERBS, VAJIKARANA_HERBS, RASAYANA_PROTOCOLS, searchRasayanaVaj
 import { YOGA_ASANAS, PRANAYAMA_TECHNIQUES, SHATKARMAS, YOGA_PROTOCOLS, searchYogaPranayamaKnowledge } from '../yoga-pranayama'
 import { GARBHA_CARE, SUTIKA_CARE, BAL_ROGA, GARBHASANSKAR, searchKaumaraBhrityaKnowledge } from '../kaumara-bhritya'
 import { UNMADA_TYPES, APASMARA_TYPES, MEDHYA_RASAYANAS, SATVAVAJAYA_TECHNIQUES, searchGrahaChikitsaKnowledge } from '../graha-chikitsa'
+import { LAB_TESTS, searchLabTests, getLabInterpretation, getAyurvedicLabSummary, LAB_VALUES_STATS } from '../lab-values'
 
 export const AYURVEDA_KNOWLEDGE = {
   fundamentals: FUNDAMENTALS,
@@ -188,6 +189,12 @@ export const AYURVEDA_KNOWLEDGE = {
   medhyaRasayanas: MEDHYA_RASAYANAS,
   satvavajayaTechniques: SATVAVAJAYA_TECHNIQUES,
   grahaChikitsaSearch: searchGrahaChikitsaKnowledge,
+  // Lab Values
+  labTests: LAB_TESTS,
+  labValuesSearch: searchLabTests,
+  labValuesInterpretation: getLabInterpretation,
+  labValuesSummary: getAyurvedicLabSummary,
+  labValuesMetadata: LAB_VALUES_STATS,
 }
 
 export function searchKnowledge(query: string): string {
@@ -678,6 +685,12 @@ export function searchKnowledge(query: string): string {
   }
   for (const s of gcResults.satvavajaya.slice(0, 3)) {
     results.push(`Satvavajaya [${s.english}] ${s.name}: Technique: ${s.technique}. Indications: ${s.indications.join(', ')}. Benefits: ${s.benefits.join(', ')}`)
+  }
+
+  // 39. Search Lab Values
+  const labMatches = searchLabTests(query)
+  for (const lab of labMatches.slice(0, 3)) {
+    results.push(`Lab Value [${lab.category}] ${lab.name}: Normal=${lab.normalRange} ${lab.unit}. Ayurvedic: ${lab.ayurvedicInterpretation}. Dosha: ${lab.doshaCorrelation}`)
   }
 
   return results.length > 0 ? results.join('\n') : 'No direct matches found. Please try different search terms.'

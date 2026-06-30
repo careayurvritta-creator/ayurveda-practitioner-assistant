@@ -3,6 +3,14 @@ import { createHash } from 'crypto';
 import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { BHAVAPRAKASHA_HERBS, BHAVAPRAKASHA_FORMULATIONS, BHAVAPRAKASHA_DISEASES, BHAVAPRAKASHA_PREPARATIONS } from '../knowledge-base/bhavaprakasha-nigantu';
+import { RASA_DRAVYAS, BHASMA_PREPARATIONS, RASA_AUSHADHIS, SHODHANA_PROCEDURES } from '../knowledge-base/rasa-shastra';
+import { RASAYANA_HERBS, VAJIKARANA_HERBS, RASAYANA_PROTOCOLS } from '../knowledge-base/rasayana-vajikarana';
+import { YOGA_ASANAS, PRANAYAMA_TECHNIQUES, SHATKARMAS, YOGA_PROTOCOLS } from '../knowledge-base/yoga-pranayama';
+import { GARBHA_CARE, SUTIKA_CARE, BAL_ROGA, GARBHASANSKAR } from '../knowledge-base/kaumara-bhritya';
+import { UNMADA_TYPES, APASMARA_TYPES, MEDHYA_RASAYANAS, SATVAVAJAYA_TECHNIQUES } from '../knowledge-base/graha-chikitsa';
+import { WHO_ITA_TERMS } from '../knowledge-base/who-ita-knowledge';
+import { LAB_TESTS } from '../knowledge-base/lab-values';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -149,7 +157,7 @@ async function embedGeminiBatch(texts: string[]): Promise<number[][]> {
   return results;
 }
 
-async function embedBatch(texts: string[]): Promise<number[][]> {
+async function embedBatch(texts: string[]): Promise<(number[] | null)[]> {
   if (NVIDIA_API_KEY) {
     const batchSize = 10;
     const allEmbeds: number[][] = [];
@@ -171,7 +179,8 @@ async function embedBatch(texts: string[]): Promise<number[][]> {
                 const e = await embedSingleSafe(t);
                 allEmbeds.push(e);
               } catch {
-                allEmbeds.push(new Array(1024).fill(0));
+                console.error(`EMBEDDING FAILED for text (token error, length ${t.length}). Skipping.`);
+                allEmbeds.push(null);
               }
             }
             break;
@@ -182,7 +191,8 @@ async function embedBatch(texts: string[]): Promise<number[][]> {
                 const e = await embedSingleSafe(t);
                 allEmbeds.push(e);
               } catch {
-                allEmbeds.push(new Array(1024).fill(0));
+                console.error(`EMBEDDING FAILED for text (max retries, length ${t.length}). Skipping.`);
+                allEmbeds.push(null);
               }
             }
             break;
@@ -520,6 +530,39 @@ function splitOnSemanticBoundaries(content: string): string[] {
 
   // Last resort: split at sentence boundaries
   return content.split(/(?<=[.!?।])\s+/).filter(p => p.trim().length > 50);
+}
+
+function chunkWithOverlap(text: string, maxLen: number, overlap: number): string[] {
+  if (text.length <= maxLen) return [text];
+
+  const chunks: string[] = [];
+  let start = 0;
+
+  while (start < text.length) {
+    let end = Math.min(start + maxLen, text.length);
+
+    // Try to break at sentence boundary
+    if (end < text.length) {
+      const window = text.slice(end - 100, end + 50);
+      const sentenceBreak = window.search(/[.!?।]\s/);
+      if (sentenceBreak !== -1) {
+        end = end - 100 + sentenceBreak + 1;
+      } else {
+        // Fall back to word boundary
+        const lastSpace = text.lastIndexOf(' ', end);
+        if (lastSpace > start) end = lastSpace;
+      }
+    }
+
+    chunks.push(text.slice(start, end).trim());
+
+    // Move start forward, accounting for overlap
+    if (end >= text.length) break;
+    start = end - overlap;
+    if (start < 0) start = 0;
+  }
+
+  return chunks;
 }
 
 function chunkVasishthArticles(articles: any[]): ChunkInput[] {
@@ -1175,6 +1218,239 @@ function chunkGitaCharak(): ChunkInput[] {
   return chunks;
 }
 
+function chunkBhavaprakasha(): ChunkInput[] {
+  // Chunk herbs (one per herb)
+  const herbChunks = BHAVAPRAKASHA_HERBS.map(h => ({
+    content: `Bhavaprakasha Nigantu - ${h.name} (${h.transliteration} / ${h.englishName})\nVarga: ${h.varga}\nRasa: ${h.rasa}, Guna: ${h.guna}, Virya: ${h.veerya}, Vipaka: ${h.vipaka}\nDosha Effect: ${h.doshaEffect}\nIndications: ${h.indications.join(', ')}\nFormulations: ${h.formulations.join(', ')}\nDose: ${h.dose}\nPrecautions: ${h.precautions.join(', ')}\nSource: ${h.source}, ${h.sourceVerse}`,
+    source: 'bhavaprakasha-nigantu',
+    category: 'classical_text',
+    title: `${h.name} - Bhavaprakasha Nigantu`,
+    metadata: {},
+  }));
+
+  // Chunk formulations
+  const formChunks = BHAVAPRAKASHA_FORMULATIONS.map(f => ({
+    content: `Bhavaprakasha Nigantu - Formulation: ${f.name} (${f.transliteration})\nType: ${f.dosageForm}\nIngredients: ${f.ingredients.join(', ')}\nPreparation: ${f.preparationMethod}\nIndications: ${f.indications.join(', ')}\nDose: ${f.dose}\nAnupana: ${f.anupana}\nPrecautions: ${f.precautions.join(', ')}`,
+    source: 'bhavaprakasha-nigantu',
+    category: 'classical_text',
+    title: `${f.name} - Bhavaprakasha Formulation`,
+    metadata: {},
+  }));
+
+  // Chunk diseases
+  const diseaseChunks = BHAVAPRAKASHA_DISEASES.map(d => ({
+    content: `Bhavaprakasha Nigantu - Disease: ${d.name} (${d.transliteration})\nSanskrit: ${d.sanskritTerms}\nPathology: ${d.pathology}\nSymptoms: ${d.symptoms.join(', ')}\nFormulations: ${d.formulations.join(', ')}\nDiet: ${d.dietaryAdvice.join(', ')}\nLifestyle: ${d.lifestyleAdvice.join(', ')}\nPrognosis: ${d.prognosis}`,
+    source: 'bhavaprakasha-nigantu',
+    category: 'classical_text',
+    title: `${d.name} - Bhavaprakasha Disease`,
+    metadata: {},
+  }));
+
+  // Chunk preparations
+  const prepChunks = BHAVAPRAKASHA_PREPARATIONS.map(p => ({
+    content: `Bhavaprakasha Nigantu - Preparation: ${p.name} (${p.transliteration})\nType: ${p.type}\nProcedure: ${p.procedure}\nIndications: ${p.indications.join(', ')}\nDose: ${p.dose}\nPrecautions: ${p.precautions.join(', ')}`,
+    source: 'bhavaprakasha-nigantu',
+    category: 'classical_text',
+    title: `${p.name} - Bhavaprakasha Preparation`,
+    metadata: {},
+  }));
+
+  return [...herbChunks, ...formChunks, ...diseaseChunks, ...prepChunks];
+}
+
+function chunkRasaShastra(): ChunkInput[] {
+  const dravyaChunks = RASA_DRAVYAS.map(d => ({
+    content: `Rasa Shastra - ${d.name} (${d.transliteration} / ${d.englishName})\nCategory: ${d.category}\nRasa: ${d.rasa}, Guna: ${d.guna}, Virya: ${d.veerya}, Vipaka: ${d.vipaka}\nDosha Effect: ${d.doshaEffect}\nShodhana: ${d.shodhana}\nIndications: ${d.indications.join(', ')}\nToxicity: ${d.toxicity}\nProcessing: ${d.processingNotes.join('; ')}`,
+    source: 'rasa-shastra',
+    category: 'classical_text',
+    title: `${d.name} - Rasa Shastra Dravya`,
+    metadata: {},
+  }));
+
+  const bhasmaChunks = BHASMA_PREPARATIONS.map(b => ({
+    content: `Rasa Shastra - Bhasma: ${b.name} (${b.transliteration} / ${b.englishName})\nMetal: ${b.metal}\nShodhana: ${b.shodhanaMethod}\nMarana: ${b.maranaMethod}\nQuality Tests: ${b.qualityTests.join(', ')}\nIndications: ${b.indications.join(', ')}\nDose: ${b.dose}\nContraindications: ${b.contraindications.join(', ')}\nToxicity: ${b.toxicityNotes.join('; ')}`,
+    source: 'rasa-shastra',
+    category: 'classical_text',
+    title: `${b.name} - Rasa Shastra Bhasma`,
+    metadata: {},
+  }));
+
+  const aushadhiChunks = RASA_AUSHADHIS.map(a => ({
+    content: `Rasa Shastra - Aushadhi: ${a.name} (${a.transliteration})\nIngredients: ${a.ingredients.join(', ')}\nPreparation: ${a.preparationMethod}\nIndications: ${a.indications.join(', ')}\nDose: ${a.dose}\nPrecautions: ${a.precautions.join(', ')}`,
+    source: 'rasa-shastra',
+    category: 'classical_text',
+    title: `${a.name} - Rasa Shastra Aushadhi`,
+    metadata: {},
+  }));
+
+  const shodhanaChunks = SHODHANA_PROCEDURES.map(s => ({
+    content: `Rasa Shastra - Shodhana: ${s.name} (${s.transliteration})\nSubstance: ${s.substance}\nMedium: ${s.medium}\nProcedure: ${s.procedure}\nDuration: ${s.duration}\nEndpoint: ${s.endpoint}\nPurpose: ${s.purpose}`,
+    source: 'rasa-shastra',
+    category: 'classical_text',
+    title: `${s.name} - Shodhana Procedure`,
+    metadata: {},
+  }));
+
+  return [...dravyaChunks, ...bhasmaChunks, ...aushadhiChunks, ...shodhanaChunks];
+}
+
+function chunkRasayanaVajikarana(): ChunkInput[] {
+  const rasayanaChunks = RASAYANA_HERBS.map(h => ({
+    content: `Rasayana - ${h.name} (${h.transliteration} / ${h.englishName})\nType: ${h.type}\nRasa: ${h.rasa}, Guna: ${h.guna}, Virya: ${h.veerya}, Vipaka: ${h.vipaka}\nDosha Effect: ${h.doshaEffect}\nIndications: ${h.indications.join(', ')}\nFormulations: ${h.formulations.join(', ')}\nDose: ${h.dose}\nMechanism: ${h.mechanism}`,
+    source: 'rasayana-vajikarana',
+    category: 'classical_text',
+    title: `${h.name} - Rasayana Herb`,
+    metadata: {},
+  }));
+
+  const vajiChunks = VAJIKARANA_HERBS.map(h => ({
+    content: `Vajikarana - ${h.name} (${h.transliteration} / ${h.englishName})\nRasa: ${h.rasa}, Guna: ${h.guna}, Virya: ${h.veerya}, Vipaka: ${h.vipaka}\nDosha Effect: ${h.doshaEffect}\nIndications: ${h.indications.join(', ')}\nDose: ${h.dose}\nMechanism: ${h.mechanism}`,
+    source: 'rasayana-vajikarana',
+    category: 'classical_text',
+    title: `${h.name} - Vajikarana Herb`,
+    metadata: {},
+  }));
+
+  const protocolChunks = RASAYANA_PROTOCOLS.map(p => ({
+    content: `Rasayana Protocol - ${p.name} (${p.transliteration})\nType: ${p.type}\nHerbs: ${p.herbs.join(', ')}\nProcedure: ${p.procedure}\nDuration: ${p.duration}\nIndications: ${p.indications.join(', ')}\nContraindications: ${p.contraindications.join(', ')}\nBenefits: ${p.benefits.join(', ')}`,
+    source: 'rasayana-vajikarana',
+    category: 'classical_text',
+    title: `${p.name} - Rasayana Protocol`,
+    metadata: {},
+  }));
+
+  return [...rasayanaChunks, ...vajiChunks, ...protocolChunks];
+}
+
+function chunkYogaPranayama(): ChunkInput[] {
+  const asanaChunks = YOGA_ASANAS.map(a => ({
+    content: `Yoga Asana - ${a.name} (${a.transliteration} / ${a.englishName})\nCategory: ${a.category}, Difficulty: ${a.difficulty}\nDosha Effect: ${a.doshaEffect}\nIndications: ${a.indications.join(', ')}\nContraindications: ${a.contraindications.join(', ')}\nBenefits: ${a.benefits.join(', ')}\nSteps: ${a.steps.join('. ')}\nDuration: ${a.duration}, Repetitions: ${a.repetitions}`,
+    source: 'yoga-pranayama',
+    category: 'classical_text',
+    title: `${a.name} - Yoga Asana`,
+    metadata: {},
+  }));
+
+  const pranayamaChunks = PRANAYAMA_TECHNIQUES.map(p => ({
+    content: `Pranayama - ${p.name} (${p.transliteration} / ${p.englishName})\nPattern: ${p.pattern}\nDosha Effect: ${p.doshaEffect}\nIndications: ${p.indications.join(', ')}\nContraindications: ${p.contraindications.join(', ')}\nBenefits: ${p.benefits.join(', ')}\nSteps: ${p.steps.join('. ')}\nDuration: ${p.duration}, Rounds: ${p.rounds}`,
+    source: 'yoga-pranayama',
+    category: 'classical_text',
+    title: `${p.name} - Pranayama Technique`,
+    metadata: {},
+  }));
+
+  const shatkarmaChunks = SHATKARMAS.map(s => ({
+    content: `Shatkarma - ${s.name} (${s.transliteration} / ${s.englishName})\nPurpose: ${s.purpose}\nIndications: ${s.indications.join(', ')}\nContraindications: ${s.contraindications.join(', ')}\nProcedure: ${s.procedure}\nPrecautions: ${s.precautions.join(', ')}`,
+    source: 'yoga-pranayama',
+    category: 'classical_text',
+    title: `${s.name} - Shatkarma`,
+    metadata: {},
+  }));
+
+  const protocolChunks = YOGA_PROTOCOLS.map(p => ({
+    content: `Yoga Protocol - ${p.name} (${p.transliteration})\nCondition: ${p.condition}\nAsanas: ${p.asanas.join(', ')}\nPranayama: ${p.pranayama.join(', ')}\nDuration: ${p.duration}, Frequency: ${p.frequency}\nPrecautions: ${p.precautions.join(', ')}`,
+    source: 'yoga-pranayama',
+    category: 'classical_text',
+    title: `${p.name} - Yoga Protocol`,
+    metadata: {},
+  }));
+
+  return [...asanaChunks, ...pranayamaChunks, ...shatkarmaChunks, ...protocolChunks];
+}
+
+function chunkKaumaraBhritya(): ChunkInput[] {
+  const garbhaChunks = GARBHA_CARE.map(g => ({
+    content: `Kaumara Bhritya - Garbha Care: ${g.name} (${g.transliteration})\nTrimester: ${g.trimester}\nCare: ${g.care}\nDiet: ${g.diet.join(', ')}\nActivities: ${g.activities.join(', ')}\nRestrictions: ${g.restrictions.join(', ')}\nFormulations: ${g.formulations.join(', ')}`,
+    source: 'kaumara-bhritya',
+    category: 'classical_text',
+    title: `${g.name} - Garbha Care`,
+    metadata: {},
+  }));
+
+  const sutikaChunks = SUTIKA_CARE.map(s => ({
+    content: `Kaumara Bhritya - Sutika Care: ${s.name} (${s.transliteration})\nPeriod: ${s.period}\nCare: ${s.care}\nFormulations: ${s.formulations.join(', ')}\nDiet: ${s.dietaryAdvice.join(', ')}\nLifestyle: ${s.lifestyleAdvice.join(', ')}\nComplications: ${s.complications.join(', ')}`,
+    source: 'kaumara-bhritya',
+    category: 'classical_text',
+    title: `${s.name} - Sutika Care`,
+    metadata: {},
+  }));
+
+  const balChunks = BAL_ROGA.map(b => ({
+    content: `Kaumara Bhritya - Bal Roga: ${b.name} (${b.transliteration})\nAge: ${b.age}\nSymptoms: ${b.symptoms.join(', ')}\nFormulations: ${b.formulations.join(', ')}\nDose: ${b.dose}\nPrecautions: ${b.precautions.join(', ')}`,
+    source: 'kaumara-bhritya',
+    category: 'classical_text',
+    title: `${b.name} - Bal Roga`,
+    metadata: {},
+  }));
+
+  const garbhasanskarChunks = GARBHASANSKAR.map(g => ({
+    content: `Kaumara Bhritya - Garbhasanskar: ${g.name} (${g.transliteration})\nPeriod: ${g.period}\nPractice: ${g.practice}\nPurpose: ${g.purpose}\nBenefits: ${g.benefits.join(', ')}`,
+    source: 'kaumara-bhritya',
+    category: 'classical_text',
+    title: `${g.name} - Garbhasanskar`,
+    metadata: {},
+  }));
+
+  return [...garbhaChunks, ...sutikaChunks, ...balChunks, ...garbhasanskarChunks];
+}
+
+function chunkGrahaChikitsa(): ChunkInput[] {
+  const unmadaChunks = UNMADA_TYPES.map(u => ({
+    content: `Graha Chikitsa - Unmada: ${u.name} (${u.transliteration})\nDosha: ${u.dosha}\nSymptoms: ${u.symptoms.join(', ')}\nFormulations: ${u.formulations.join(', ')}\nPsychotherapy: ${u.psychotherapy.join(', ')}\nDiet: ${u.dietaryAdvice.join(', ')}\nLifestyle: ${u.lifestyleAdvice.join(', ')}`,
+    source: 'graha-chikitsa',
+    category: 'classical_text',
+    title: `${u.name} - Unmada Type`,
+    metadata: {},
+  }));
+
+  const apasmaraChunks = APASMARA_TYPES.map(a => ({
+    content: `Graha Chikitsa - Apasmara: ${a.name} (${a.transliteration})\nDosha: ${a.dosha}\nSymptoms: ${a.symptoms.join(', ')}\nFormulations: ${a.formulations.join(', ')}\nEmergency: ${a.emergencyManagement.join(', ')}\nDiet: ${a.dietaryAdvice.join(', ')}`,
+    source: 'graha-chikitsa',
+    category: 'classical_text',
+    title: `${a.name} - Apasmara Type`,
+    metadata: {},
+  }));
+
+  const medhyaChunks = MEDHYA_RASAYANAS.map(m => ({
+    content: `Graha Chikitsa - Medhya Rasayana: ${m.name} (${m.transliteration})\nIngredients: ${m.ingredients.join(', ')}\nIndications: ${m.indications.join(', ')}\nDose: ${m.dose}\nBenefits: ${m.benefits.join(', ')}`,
+    source: 'graha-chikitsa',
+    category: 'classical_text',
+    title: `${m.name} - Medhya Rasayana`,
+    metadata: {},
+  }));
+
+  const satvavajayaChunks = SATVAVAJAYA_TECHNIQUES.map(s => ({
+    content: `Graha Chikitsa - Satvavajaya: ${s.name} (${s.transliteration})\nTechnique: ${s.technique}\nIndications: ${s.indications.join(', ')}\nProcedure: ${s.procedure}\nBenefits: ${s.benefits.join(', ')}`,
+    source: 'graha-chikitsa',
+    category: 'classical_text',
+    title: `${s.name} - Satvavajaya Technique`,
+    metadata: {},
+  }));
+
+  return [...unmadaChunks, ...apasmaraChunks, ...medhyaChunks, ...satvavajayaChunks];
+}
+
+function chunkWhoItaTerms(): ChunkInput[] {
+  // Chunk WHO ITA terms - one chunk per term with relevant context
+  return WHO_ITA_TERMS.map(t => ({
+    content: `WHO ITA - ${t.english} (${t.devanagari || 'N/A'} / ${t.iast || 'N/A'})\nID: ${t.term_id}\nCategory: ${t.category.chapter_name} (${t.category.chapter_id})\nDescription: ${t.description || 'N/A'}\nConfidence: ${t.confidence.level} (${t.confidence.source_count} sources)`,
+    source: 'who-ita',
+    category: 'standardized-terminology',
+    title: `${t.english} - WHO ITA`,
+    metadata: {},
+  }));
+}
+
+function chunkLabValues(): ChunkInput[] {
+  return LAB_TESTS.map(t => ({
+    content: `Clinical Lab Value - ${t.name} (${t.category})\nNormal Range: ${t.normalRange} ${t.unit}\nAyurvedic Interpretation: ${t.ayurvedicInterpretation}\nDosha Correlation: ${t.doshaCorrelation}\nClinical Significance: ${t.clinicalSignificance}`,
+    source: 'lab-values',
+    category: 'clinical-reference',
+    title: `${t.name} - Lab Values`,
+    metadata: {},
+  }));
+}
+
 function chunkPlanetAyurvedaFormulations(formulations: any[]): ChunkInput[] {
   const chunks: ChunkInput[] = [];
 
@@ -1352,6 +1628,46 @@ async function main() {
   allChunks.push(...gitaChunks);
   console.log(`  → ${allChunks.length} total chunks (${gitaChunks.length} from Gita/Charak)`);
 
+  console.log('Chunking Bhavaprakasha Nigantu...');
+  const bhavaprakashaChunks = chunkBhavaprakasha();
+  allChunks.push(...bhavaprakashaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${bhavaprakashaChunks.length} from Bhavaprakasha)`);
+
+  console.log('Chunking Rasa Shastra...');
+  const rasaShastraChunks = chunkRasaShastra();
+  allChunks.push(...rasaShastraChunks);
+  console.log(`  → ${allChunks.length} total chunks (${rasaShastraChunks.length} from Rasa Shastra)`);
+
+  console.log('Chunking Rasayana & Vajikarana...');
+  const rasayanaChunks = chunkRasayanaVajikarana();
+  allChunks.push(...rasayanaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${rasayanaChunks.length} from Rasayana/Vajikarana)`);
+
+  console.log('Chunking Yoga & Pranayama...');
+  const yogaChunks = chunkYogaPranayama();
+  allChunks.push(...yogaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${yogaChunks.length} from Yoga/Pranayama)`);
+
+  console.log('Chunking Kaumara Bhritya...');
+  const kaumaraChunks = chunkKaumaraBhritya();
+  allChunks.push(...kaumaraChunks);
+  console.log(`  → ${allChunks.length} total chunks (${kaumaraChunks.length} from Kaumara Bhritya)`);
+
+  console.log('Chunking Graha Chikitsa...');
+  const grahaChunks = chunkGrahaChikitsa();
+  allChunks.push(...grahaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${grahaChunks.length} from Graha Chikitsa)`);
+
+  console.log('Chunking WHO ITA Terms...');
+  const whoItaChunks = chunkWhoItaTerms();
+  allChunks.push(...whoItaChunks);
+  console.log(`  → ${allChunks.length} total chunks (${whoItaChunks.length} from WHO ITA)`);
+
+  console.log('Chunking Lab Values...');
+  const labChunks = chunkLabValues();
+  allChunks.push(...labChunks);
+  console.log(`  → ${allChunks.length} total chunks (${labChunks.length} from Lab Values)`);
+
   const totalTexts = allChunks.map(c => {
     const prefix = generateContextPrefix(c);
     return `${prefix}\n\n${c.content}`;
@@ -1361,18 +1677,29 @@ async function main() {
 
   const embeddings = await embedBatch(totalTexts);
 
+  // Filter out chunks where embedding failed (null)
+  const validIndices: number[] = [];
+  for (let i = 0; i < allChunks.length; i++) {
+    if (embeddings[i] !== null && embeddings[i] !== undefined) {
+      validIndices.push(i);
+    }
+  }
+  if (validIndices.length < allChunks.length) {
+    console.warn(`  ⚠ ${allChunks.length - validIndices.length} chunks had failed embeddings and will be skipped.`);
+  }
+
   let inserted = 0;
   let skipped = 0;
   let errors = 0;
 
   const BATCH_SIZE = 50;
-  for (let i = 0; i < allChunks.length; i += BATCH_SIZE) {
-    const batch = allChunks.slice(i, i + BATCH_SIZE);
-    const embedBatch = embeddings.slice(i, i + BATCH_SIZE);
+  for (let i = 0; i < validIndices.length; i += BATCH_SIZE) {
+    const batchIndices = validIndices.slice(i, i + BATCH_SIZE);
+    const batch = batchIndices.map(idx => allChunks[idx]);
 
     const rows = batch.map((chunk, j) => ({
       content: chunk.content,
-      embedding: JSON.stringify(embedBatch[j]),
+      embedding: JSON.stringify(embeddings[batchIndices[j]]),
       source: chunk.source,
       category: chunk.category,
       title: chunk.title,
@@ -1383,12 +1710,12 @@ async function main() {
     try {
       await supabaseInsert(rows);
       inserted += rows.length;
-      process.stdout.write(`  Upserted ${inserted}/${allChunks.length}\r`);
+      process.stdout.write(`  Upserted ${inserted}/${validIndices.length}\r`);
     } catch {
       errors += rows.length;
     }
 
-    if (i + BATCH_SIZE < allChunks.length) {
+    if (i + BATCH_SIZE < validIndices.length) {
       await new Promise(r => setTimeout(r, 200));
     }
   }
