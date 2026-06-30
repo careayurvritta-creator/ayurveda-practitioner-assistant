@@ -147,8 +147,7 @@ serve(async (req: Request) => {
     const retrieval = await retrieve(message, {
       surface: 'chat',
       doResearch: false,
-      matchCount: 15,
-      tokenBudget: 8000,
+      history: compressedHistory,
     });
 
     let context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}) ${c.content}`).join('\n\n');
@@ -166,8 +165,12 @@ serve(async (req: Request) => {
       temporalContext,
     );
 
+    const maxTokens = retrieval.query.complexity === 'complex' ? 12000
+      : retrieval.query.complexity === 'moderate' ? 8000
+      : 4000;
+
     const { text: fullText, errors: llmErrors } = await collectStream(
-      streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], 8000)
+      streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], maxTokens)
     );
 
     if (llmErrors.length > 0) {

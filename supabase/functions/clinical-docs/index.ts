@@ -53,16 +53,22 @@ serve(async (req: Request) => {
     const retrieval = await retrieve(queryParts || 'general ayurvedic consultation', {
       surface: 'clinical-docs',
       doResearch: false,
-      matchCount: 20,
-      tokenBudget: 12000,
     });
 
-    const context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}/${c.title ?? 'N/A'}) ${c.content}`).join('\n\n');
+    let context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}/${c.title ?? 'N/A'}) ${c.content}`).join('\n\n');
+
+    if (retrieval.clinicalPathwayContext) {
+      context = `${retrieval.clinicalPathwayContext}\n\nRETRIEVED KNOWLEDGE:\n${context}`;
+    }
 
     const prompt = buildClinicalDocsPrompt(context, safeCaseData, safeDocType);
 
+    const maxTokens = retrieval.query.complexity === 'complex' ? 16000
+      : retrieval.query.complexity === 'moderate' ? 12000
+      : 8000;
+
     const { text: fullText, errors: llmErrors } = await collectStream(
-      streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], 12000)
+      streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], maxTokens)
     );
 
     if (llmErrors.length > 0) {

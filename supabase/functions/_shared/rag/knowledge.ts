@@ -143,8 +143,9 @@ export async function searchByCategory(
 }
 
 /**
- * Hybrid search combining vector similarity (0.7 weight) + full-text search (0.3 weight).
- * Uses Reciprocal Rank Fusion via the match_knowledge_hybrid RPC.
+ * Hybrid search combining vector similarity + full-text search.
+ * Uses Reciprocal Rank Fusion (RRF, k=60) at the SQL level via match_knowledge_hybrid RPC.
+ * Merges both ranked lists using UNION (not LEFT JOIN) so FTS-only results are included.
  * Returns higher precision results than vector-only search.
  */
 export async function hybridSearch(

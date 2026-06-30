@@ -42,6 +42,12 @@ import { GITACARAK_SAMHITA, searchGitaCharak } from '../gita-datasets-charak-kno
 import { CHARAK_ONLINE_SHLOKAS, CHARAK_ONLINE_CHAPTERS, CHARAK_ONLINE_STHANAS, CHARAK_ONLINE_STATS, searchCharakOnline, getCharakOnlineChapter, getCharakOnlineSthana } from '../carak-samhita-knowledge'
 import { TATTVA_VIDHI_VIMARSHA, searchTattvaVimarsha, getChapterVimarsha, getAllTattvaVimarsha, getAllVidhiVimarsha } from '../carak-samhita-knowledge/tattva-vimarsha'
 import { WHO_ITA_TERMS, WHO_ITA_STATS, WHO_ITA_CHAPTERS, searchWhoItaTerms, lookupWhoItaTerm, getWhoItaChapter, getWhoItaChapterByName, getTreatsForDisease, getDiseasesTreatedBy, getSymptomsOfDisease, getDiseasesWithSymptom, getComponentsOf, getCompoundContaining, getGraphStats, lookupGraphNode, getNodeLabel } from '../who-ita-knowledge'
+import { BHAVAPRAKASHA_HERBS, BHAVAPRAKASHA_FORMULATIONS, BHAVAPRAKASHA_DISEASES, BHAVAPRAKASHA_PREPARATIONS, searchBhavaKnowledge } from '../bhavaprakasha-nigantu'
+import { RASA_DRAVYAS, BHASMA_PREPARATIONS, RASA_AUSHADHIS, SHODHANA_PROCEDURES, searchRasaShastraKnowledge } from '../rasa-shastra'
+import { RASAYANA_HERBS, VAJIKARANA_HERBS, RASAYANA_PROTOCOLS, searchRasayanaVajikaranaKnowledge } from '../rasayana-vajikarana'
+import { YOGA_ASANAS, PRANAYAMA_TECHNIQUES, SHATKARMAS, YOGA_PROTOCOLS, searchYogaPranayamaKnowledge } from '../yoga-pranayama'
+import { GARBHA_CARE, SUTIKA_CARE, BAL_ROGA, GARBHASANSKAR, searchKaumaraBhrityaKnowledge } from '../kaumara-bhritya'
+import { UNMADA_TYPES, APASMARA_TYPES, MEDHYA_RASAYANAS, SATVAVAJAYA_TECHNIQUES, searchGrahaChikitsaKnowledge } from '../graha-chikitsa'
 
 export const AYURVEDA_KNOWLEDGE = {
   fundamentals: FUNDAMENTALS,
@@ -147,6 +153,41 @@ export const AYURVEDA_KNOWLEDGE = {
   graphComponentsOf: getComponentsOf,
   graphCompoundContaining: getCompoundContaining,
   graphStats: getGraphStats(),
+  // Bhavaprakasha Nigantu
+  bhavaprakashaHerbs: BHAVAPRAKASHA_HERBS,
+  bhavaprakashaFormulations: BHAVAPRAKASHA_FORMULATIONS,
+  bhavaprakashaDiseases: BHAVAPRAKASHA_DISEASES,
+  bhavaprakashaPreparations: BHAVAPRAKASHA_PREPARATIONS,
+  bhavaprakashaSearch: searchBhavaKnowledge,
+  // Rasa Shastra
+  rasaDravyas: RASA_DRAVYAS,
+  bhasmaPreparations: BHASMA_PREPARATIONS,
+  rasaAushadhis: RASA_AUSHADHIS,
+  shodhanaProcedures: SHODHANA_PROCEDURES,
+  rasaShastraSearch: searchRasaShastraKnowledge,
+  // Rasayana & Vajikarana
+  rasayanaHerbs: RASAYANA_HERBS,
+  vajikaranaHerbs: VAJIKARANA_HERBS,
+  rasayanaProtocols: RASAYANA_PROTOCOLS,
+  rasayanaVajikaranaSearch: searchRasayanaVajikaranaKnowledge,
+  // Yoga & Pranayama
+  yogaAsanas: YOGA_ASANAS,
+  pranayamaTechniques: PRANAYAMA_TECHNIQUES,
+  shatkarmas: SHATKARMAS,
+  yogaProtocols: YOGA_PROTOCOLS,
+  yogaPranayamaSearch: searchYogaPranayamaKnowledge,
+  // Kaumara Bhritya
+  garbhaCare: GARBHA_CARE,
+  sutikaCare: SUTIKA_CARE,
+  balRoga: BAL_ROGA,
+  garbhasanskar: GARBHASANSKAR,
+  kaumaraBhrityaSearch: searchKaumaraBhrityaKnowledge,
+  // Graha Chikitsa
+  unmadaTypes: UNMADA_TYPES,
+  apasmaraTypes: APASMARA_TYPES,
+  medhyaRasayanas: MEDHYA_RASAYANAS,
+  satvavajayaTechniques: SATVAVAJAYA_TECHNIQUES,
+  grahaChikitsaSearch: searchGrahaChikitsaKnowledge,
 }
 
 export function searchKnowledge(query: string): string {
@@ -577,6 +618,66 @@ export function searchKnowledge(query: string): string {
       const componentNames = components.slice(0, 3).map(c => getNodeLabel(c.component.id)).join(', ')
       results.push(`Compound [${term.term_id}] ${term.english} contains: ${componentNames}`)
     }
+  }
+
+  // 33. Search Bhavaprakasha Nigantu
+  const bhavaResults = searchBhavaKnowledge(query)
+  for (const herb of bhavaResults.herbs.slice(0, 3)) {
+    results.push(`Bhavaprakasha [${herb.varga}] ${herb.name} (${herb.transliteration} / ${herb.englishName}): Rasa=${herb.rasa}, Virya=${herb.veerya}, Vipaka=${herb.vipaka}. Indications: ${herb.indications.join(', ')}. Formulations: ${herb.formulations.join(', ')}`)
+  }
+  for (const f of bhavaResults.formulations.slice(0, 3)) {
+    results.push(`Bhavaprakasha Formulation [${f.dosageForm}] ${f.name} (${f.transliteration}): Ingredients: ${f.ingredients.join(', ')}. Dose: ${f.dose}. Indications: ${f.indications.join(', ')}`)
+  }
+
+  // 34. Search Rasa Shastra
+  const rasaResults = searchRasaShastraKnowledge(query)
+  for (const b of rasaResults.bhasmas.slice(0, 3)) {
+    results.push(`Rasa Shastra [Bhasma] ${b.name} (${b.transliteration} / ${b.englishName}): Metal=${b.metal}, Dose=${b.dose}. Indications: ${b.indications.join(', ')}. Quality tests: ${b.qualityTests.join(', ')}`)
+  }
+  for (const a of rasaResults.aushadhis.slice(0, 3)) {
+    results.push(`Rasa Shastra [Aushadhi] ${a.name} (${a.transliteration}): Ingredients: ${a.ingredients.join(', ')}. Dose: ${a.dose}. Indications: ${a.indications.join(', ')}`)
+  }
+
+  // 35. Search Rasayana & Vajikarana
+  const rvResults = searchRasayanaVajikaranaKnowledge(query)
+  for (const h of rvResults.rasayanaHerbs.slice(0, 3)) {
+    results.push(`Rasayana ${h.name} (${h.transliteration} / ${h.englishName}): Type=${h.type}. Indications: ${h.indications.join(', ')}. Mechanism: ${h.mechanism}`)
+  }
+  for (const h of rvResults.vajikaranaHerbs.slice(0, 3)) {
+    results.push(`Vajikarana ${h.name} (${h.transliteration} / ${h.englishName}): Indications: ${h.indications.join(', ')}. Mechanism: ${h.mechanism}`)
+  }
+
+  // 36. Search Yoga & Pranayama
+  const yogaResults = searchYogaPranayamaKnowledge(query)
+  for (const a of yogaResults.asanas.slice(0, 3)) {
+    results.push(`Yoga [${a.category}] ${a.name} (${a.transliteration} / ${a.englishName}): Difficulty=${a.difficulty}. Indications: ${a.indications.join(', ')}. Benefits: ${a.benefits.join(', ')}`)
+  }
+  for (const p of yogaResults.pranayama.slice(0, 3)) {
+    results.push(`Pranayama ${p.name} (${p.transliteration} / ${p.englishName}): Pattern=${p.pattern}. Indications: ${p.indications.join(', ')}. Benefits: ${p.benefits.join(', ')}`)
+  }
+  for (const pr of yogaResults.protocols.slice(0, 3)) {
+    results.push(`Yoga Protocol [${pr.condition}] ${pr.name}: Asanas=${pr.asanas.join(', ')}. Pranayama=${pr.pranayama.join(', ')}. Duration=${pr.duration}`)
+  }
+
+  // 37. Search Kaumara Bhritya
+  const kbResults = searchKaumaraBhrityaKnowledge(query)
+  for (const d of kbResults.balRoga.slice(0, 3)) {
+    results.push(`Kaumara Bhritya [${d.age}] ${d.name} (${d.transliteration} / ${d.englishName}): Symptoms: ${d.symptoms.join(', ')}. Formulations: ${d.formulations.join(', ')}. Dose: ${d.dose}`)
+  }
+  for (const g of kbResults.garbhaCare.slice(0, 3)) {
+    results.push(`Garbha Care [${g.trimester}] ${g.name}: Diet: ${g.diet.join(', ')}. Activities: ${g.activities.join(', ')}. Restrictions: ${g.restrictions.join(', ')}`)
+  }
+
+  // 38. Search Graha Chikitsa
+  const gcResults = searchGrahaChikitsaKnowledge(query)
+  for (const u of gcResults.unmada.slice(0, 3)) {
+    results.push(`Graha Chikitsa [Unmada - ${u.dosha}] ${u.name} (${u.transliteration} / ${u.englishName}): Symptoms: ${u.symptoms.join(', ')}. Formulations: ${u.formulations.join(', ')}. Psychotherapy: ${u.psychotherapy.join(', ')}`)
+  }
+  for (const m of gcResults.medhyaRasayanas.slice(0, 3)) {
+    results.push(`Medhya Rasayana ${m.name} (${m.transliteration} / ${m.englishName}): Ingredients: ${m.ingredients.join(', ')}. Dose: ${m.dose}. Benefits: ${m.benefits.join(', ')}`)
+  }
+  for (const s of gcResults.satvavajaya.slice(0, 3)) {
+    results.push(`Satvavajaya [${s.english}] ${s.name}: Technique: ${s.technique}. Indications: ${s.indications.join(', ')}. Benefits: ${s.benefits.join(', ')}`)
   }
 
   return results.length > 0 ? results.join('\n') : 'No direct matches found. Please try different search terms.'

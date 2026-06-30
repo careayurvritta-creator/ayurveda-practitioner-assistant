@@ -37,18 +37,24 @@ serve(async (req: Request) => {
       surface: 'treatment-protocol',
       doResearch: true,
       skipSerpAPI: !Deno.env.get('SERPAPI_KEY'),
-      matchCount: 25,
-      tokenBudget: 16000,
     });
 
-    const context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}/${c.title ?? 'N/A'}) ${c.content}`).join('\n\n');
+    let context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}/${c.title ?? 'N/A'}) ${c.content}`).join('\n\n');
+
+    if (retrieval.clinicalPathwayContext) {
+      context = `${retrieval.clinicalPathwayContext}\n\nRETRIEVED KNOWLEDGE:\n${context}`;
+    }
 
     const prompt = buildTreatmentProtocolPrompt(
       context, safeDiagnosis, safeSummary, severity, chronicity, retrieval.researchArticles
     );
 
+    const maxTokens = retrieval.query.complexity === 'complex' ? 20000
+      : retrieval.query.complexity === 'moderate' ? 16000
+      : 12000;
+
     const { text: fullText, errors: llmErrors } = await collectStream(
-      streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], 16000)
+      streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], maxTokens)
     );
 
     if (llmErrors.length > 0) {

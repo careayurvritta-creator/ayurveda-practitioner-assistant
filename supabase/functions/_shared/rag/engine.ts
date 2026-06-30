@@ -1,5 +1,5 @@
 import { parseQuery, expandQuery, CLINICAL_PATHWAYS, type ParsedQuery } from './query.ts';
-import { embed } from './embeddings.ts';
+import { embed, embedBatch } from './embeddings.ts';
 import { vectorSearch, fullTextSearch, hybridSearch, type KnowledgeChunk } from './knowledge.ts';
 import { fetchResearchArticles, type ResearchArticle } from './research.ts';
 import { rerankChunks, type RerankerConfig } from './reranker.ts';
@@ -31,17 +31,46 @@ export interface RetrievalResult {
     afterRerank: boolean;
     latencyMs: number;
     hybridUsed: boolean;
+    variantsSearched: number;
   };
 }
 
-const SURFACE_CONFIGS: Record<string, { matchCount: number; tokenBudget: number; categoryBias: string[]; rerankerTopN: number }> = {
-  chat: { matchCount: 15, tokenBudget: 8000, categoryBias: ['disease', 'herb_monograph', 'treatment', 'fundamentals'], rerankerTopN: 8 },
-  'clinical-docs': { matchCount: 20, tokenBudget: 12000, categoryBias: ['disease', 'herb_monograph', 'treatment', 'allopathy_integration', 'diagnostics'], rerankerTopN: 12 },
-  'treatment-protocol': { matchCount: 25, tokenBudget: 16000, categoryBias: ['disease', 'herb_monograph', 'treatment', 'classical_text', 'fundamentals'], rerankerTopN: 15 },
+// Complexity-scaled configuration
+const SURFACE_CONFIGS: Record<string, {
+  simple: { matchCount: number; tokenBudget: number; rerankerTopN: number };
+  moderate: { matchCount: number; tokenBudget: number; rerankerTopN: number };
+  complex: { matchCount: number; tokenBudget: number; rerankerTopN: number };
+  categoryBias: string[];
+}> = {
+  chat: {
+    simple:  { matchCount: 10, tokenBudget: 4000,  rerankerTopN: 5 },
+    moderate: { matchCount: 15, tokenBudget: 8000,  rerankerTopN: 8 },
+    complex: { matchCount: 25, tokenBudget: 12000, rerankerTopN: 12 },
+    categoryBias: ['disease', 'herb_monograph', 'treatment', 'fundamentals'],
+  },
+  'clinical-docs': {
+    simple:  { matchCount: 12, tokenBudget: 6000,  rerankerTopN: 6 },
+    moderate: { matchCount: 20, tokenBudget: 12000, rerankerTopN: 10 },
+    complex: { matchCount: 30, tokenBudget: 16000, rerankerTopN: 14 },
+    categoryBias: ['disease', 'herb_monograph', 'treatment', 'allopathy_integration', 'diagnostics'],
+  },
+  'treatment-protocol': {
+    simple:  { matchCount: 15, tokenBudget: 8000,  rerankerTopN: 8 },
+    moderate: { matchCount: 25, tokenBudget: 16000, rerankerTopN: 12 },
+    complex: { matchCount: 35, tokenBudget: 20000, rerankerTopN: 15 },
+    categoryBias: ['disease', 'herb_monograph', 'treatment', 'classical_text', 'fundamentals'],
+  },
 };
 
+/**
+ * Accuracy-aware token counting.
+ * Devanagari characters consume ~1.5 tokens (complex conjuncts).
+ * Latin/other characters: ~0.25 tokens per char (4 chars per token).
+ */
 function countTokens(text: string): number {
-  return Math.ceil(text.length / 4);
+  const devanagariChars = (text.match(/[\u0900-\u097F]/g) || []).length;
+  const otherChars = text.length - devanagariChars;
+  return Math.ceil(devanagariChars * 1.5 + otherChars * 0.25);
 }
 
 /**
@@ -125,48 +154,44 @@ function boostByIntent(chunks: KnowledgeChunk[], intent: string, surface: string
 }
 
 /**
- * Reciprocal Rank Fusion (RRF) — merges ranked lists from multiple retrievers.
+ * Reciprocal Rank Fusion (RRF) — merges multiple ranked lists.
  * score(d) = sum over retrievers: 1 / (k + rank_i(d)) where k=60 (standard).
- * Chunks appearing in both lists get boosted, resolving the vector-vs-keyword
- * precision gap. RRF outperforms score-averaging on production RAG stacks.
+ * Used to merge results from multiple query variant searches.
  */
-function reciprocalRankFusion(
-  vectorResults: KnowledgeChunk[],
-  keywordResults: KnowledgeChunk[],
-  k: number = 60
-): KnowledgeChunk[] {
+function reciprocalRankFusion(lists: KnowledgeChunk[][], k: number = 60): KnowledgeChunk[] {
   const rrfScores = new Map<string, number>();
+  const chunkMap = new Map<string, KnowledgeChunk>();
 
-  vectorResults.forEach((chunk, index) => {
-    const key = `${chunk.source}:${chunk.category}:${chunk.content.slice(0, 150)}`;
-    const existing = rrfScores.get(key) ?? 0;
-    rrfScores.set(key, existing + 1 / (k + index + 1));
-  });
+  for (const list of lists) {
+    list.forEach((chunk, index) => {
+      const key = `${chunk.source}:${chunk.category}:${chunk.content.slice(0, 150)}`;
+      const existing = rrfScores.get(key) ?? 0;
+      rrfScores.set(key, existing + 1 / (k + index + 1));
+      if (!chunkMap.has(key)) chunkMap.set(key, chunk);
+    });
+  }
 
-  keywordResults.forEach((chunk, index) => {
-    const key = `${chunk.source}:${chunk.category}:${chunk.content.slice(0, 150)}`;
-    const existing = rrfScores.get(key) ?? 0;
-    rrfScores.set(key, existing + 1 / (k + index + 1));
-  });
-
-  const allChunks = new Map<string, KnowledgeChunk>();
-  [...vectorResults, ...keywordResults].forEach(chunk => {
-    const key = `${chunk.source}:${chunk.category}:${chunk.content.slice(0, 150)}`;
-    if (!allChunks.has(key)) allChunks.set(key, chunk);
-  });
-
-  return Array.from(allChunks.entries())
-    .sort((a, b) => (rrfScores.get(b[0]) ?? 0) - (rrfScores.get(a[0]) ?? 0))
-    .map(([_, chunk]) => ({
-      ...chunk,
-      similarity: rrfScores.get(`${chunk.source}:${chunk.category}:${chunk.content.slice(0, 150)}`) ?? chunk.similarity,
+  return Array.from(rrfScores.entries())
+    .sort((a, b) => b[1] - a[1])
+    .map(([key, score]) => ({
+      ...chunkMap.get(key)!,
+      similarity: score,
     }));
 }
 
 /**
+ * Merge two ranked lists using RRF (for vector + keyword fallback).
+ */
+function mergeVectorKeyword(
+  vectorResults: KnowledgeChunk[],
+  keywordResults: KnowledgeChunk[],
+  k: number = 60
+): KnowledgeChunk[] {
+  return reciprocalRankFusion([vectorResults, keywordResults], k);
+}
+
+/**
  * Build a clinical pathway context block from the WHO ITA knowledge graph.
- * This provides structured treatment patterns, herb lists, and procedures
- * for known diseases.
  */
 function buildClinicalPathwayContext(pathwayKey: string): string | null {
   const pathway = CLINICAL_PATHWAYS[pathwayKey];
@@ -184,19 +209,16 @@ function buildClinicalPathwayContext(pathwayKey: string): string | null {
 }
 
 /**
- * Detect if the query is about a specific disease from clinical pathways
- * and inject pathway context into the retrieval.
+ * Detect if the query is about a specific disease from clinical pathways.
  */
 function findPathwayMatch(query: string, entities: string[]): string | null {
   const lower = query.toLowerCase();
 
-  // Direct match on entities
   for (const entity of entities) {
     const key = entity.toLowerCase();
     if (CLINICAL_PATHWAYS[key]) return key;
   }
 
-  // Fuzzy match on query text
   for (const pathwayKey of Object.keys(CLINICAL_PATHWAYS)) {
     if (lower.includes(pathwayKey)) return pathwayKey;
   }
@@ -213,45 +235,83 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
   const effectiveQuery = parsed.rewrittenQuery;
   const variants = expandQuery(effectiveQuery, parsed.intent, parsed.entities);
 
-  // Try hybrid search first, fall back to vector + keyword
-  const embedding = await embed(variants[0], 'query');
-  let vectorResults: KnowledgeChunk[] = [];
-  let keywordResults: KnowledgeChunk[] = [];
-  let hybridUsed = false;
+  // Complexity-scaled retrieval parameters
+  const complexityConfig = config[parsed.complexity] ?? config.moderate;
+  const matchCount = options.matchCount ?? complexityConfig.matchCount;
+  const tokenBudget = options.tokenBudget ?? complexityConfig.tokenBudget;
+  const rerankerTopN = options.enableRerank !== false ? complexityConfig.rerankerTopN : matchCount;
+
+  // Category filter: use surface categoryBias as actual retrieval filter
+  const categoryFilter = options.categoryFilter ?? config.categoryBias;
+
+  // === MULTI-QUERY RETRIEVAL ===
+  // Embed all variants (up to 3 for latency — primary + 2 best alternatives)
+  const variantsToEmbed = variants.slice(0, 3);
+  let embeddings: (EmbeddingResult | null)[];
 
   try {
-    // Use hybrid search when available — combines vector similarity + FTS
-    const hybridResults = await hybridSearch(embedding.embedding, effectiveQuery, {
-      matchThreshold: options.matchThreshold ?? 0.7,
-      matchCount: options.matchCount ?? config.matchCount,
-      categoryFilter: options.categoryFilter,
-      sourceFilter: options.sourceFilter,
-    });
-
-    if (hybridResults.length > 0) {
-      vectorResults = hybridResults;
-      keywordResults = [];
-      hybridUsed = true;
-    }
+    embeddings = await embedBatch(variantsToEmbed, 'query');
   } catch {
-    // Fall back to separate vector + keyword search
+    // Fallback to single embedding
+    const single = await embed(variantsToEmbed[0], 'query');
+    embeddings = [single];
   }
 
-  if (!hybridUsed) {
-    [vectorResults, keywordResults] = await Promise.all([
-      vectorSearch(embedding.embedding, {
+  // Collect results from all variants
+  const allVariantResults: KnowledgeChunk[][] = [];
+  let totalVectorCount = 0;
+  let totalKeywordCount = 0;
+  let hybridUsed = false;
+
+  for (let i = 0; i < embeddings.length; i++) {
+    const emb = embeddings[i];
+    if (!emb) continue;
+
+    const variantQuery = variantsToEmbed[i];
+
+    // Try hybrid search (now with proper RRF in SQL)
+    try {
+      const hybridResults = await hybridSearch(emb.embedding, variantQuery, {
         matchThreshold: options.matchThreshold ?? 0.7,
-        matchCount: options.matchCount ?? config.matchCount,
-        categoryFilter: options.categoryFilter,
+        matchCount,
+        categoryFilter,
+        sourceFilter: options.sourceFilter,
+      });
+
+      if (hybridResults.length > 0) {
+        allVariantResults.push(hybridResults);
+        totalVectorCount += hybridResults.length;
+        hybridUsed = true;
+        continue;
+      }
+    } catch {
+      // Fall back to separate vector + keyword search
+    }
+
+    // Fallback: separate vector + keyword
+    const [vectorResults, keywordResults] = await Promise.all([
+      vectorSearch(emb.embedding, {
+        matchThreshold: options.matchThreshold ?? 0.7,
+        matchCount,
+        categoryFilter,
         sourceFilter: options.sourceFilter,
       }),
-      fullTextSearch(effectiveQuery, 10).catch(() => []),
+      fullTextSearch(variantQuery, 10).catch(() => []),
     ]);
+
+    allVariantResults.push(vectorResults);
+    totalVectorCount += vectorResults.length;
+    totalKeywordCount += keywordResults.length;
+
+    if (keywordResults.length > 0) {
+      allVariantResults.push(keywordResults);
+    }
   }
 
-  const fused = hybridUsed
-    ? vectorResults
-    : reciprocalRankFusion(vectorResults, keywordResults);
+  // Merge all variant results using multi-list RRF
+  const fused = allVariantResults.length > 1
+    ? reciprocalRankFusion(allVariantResults)
+    : allVariantResults[0] ?? [];
 
   const deduped = deduplicateChunks(fused);
   const boosted = boostByIntent(deduped, parsed.intent, options.surface);
@@ -261,7 +321,7 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
   if (options.enableRerank !== false) {
     try {
       finalChunks = await rerankChunks(effectiveQuery, boosted, {
-        topN: config.rerankerTopN,
+        topN: rerankerTopN,
       });
       reranked = true;
     } catch (e) {
@@ -271,7 +331,7 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
 
   const diverse = enforceSourceDiversity(finalChunks, 3);
   const cited = addCitationMarkers(diverse);
-  const truncated = truncateToBudget(cited, options.tokenBudget ?? config.tokenBudget);
+  const truncated = truncateToBudget(cited, tokenBudget);
 
   // Build clinical pathway context if a known disease is detected
   let clinicalPathwayContext: string | null = null;
@@ -281,7 +341,7 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
   }
 
   let researchArticles: ResearchArticle[] = [];
-  if (options.doResearch && (options.surface === 'treatment-protocol')) {
+  if (options.doResearch && (options.surface === 'treatment-protocol' || (options.surface === 'chat' && parsed.complexity === 'complex'))) {
     try {
       researchArticles = await fetchResearchArticles(parsed.primaryCondition, {
         skipSerpAPI: options.skipSerpAPI,
@@ -299,12 +359,13 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
     totalTokens: truncated.reduce((sum, c) => sum + countTokens(c.content), 0),
     clinicalPathwayContext,
     retrievalMetadata: {
-      vectorCount: vectorResults.length,
-      keywordCount: keywordResults.length,
+      vectorCount: totalVectorCount,
+      keywordCount: totalKeywordCount,
       afterDedup: deduped.length,
       afterRerank: reranked,
       latencyMs: Date.now() - startTime,
       hybridUsed,
+      variantsSearched: embeddings.filter(Boolean).length,
     },
   };
 }
