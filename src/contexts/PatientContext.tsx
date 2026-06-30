@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useCallback, useRef } from 'react';
+import React, { createContext, useContext, useState, useCallback } from 'react';
 import type { Patient } from '../types';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
@@ -19,8 +19,6 @@ const PatientContext = createContext<PatientContextType | null>(null);
 export function PatientProvider({ children }: { children: React.ReactNode }) {
   const [patients, setPatients] = useLocalStorage<Patient[]>('ayurscribe_patients', []);
   const [selectedPatientId, setSelectedPatientId] = useLocalStorage<string | null>('ayurscribe_selected_patient', null);
-  const patientsRef = useRef(patients);
-  patientsRef.current = patients;
 
   const selectedPatient = patients.find((p) => p.id === selectedPatientId);
 

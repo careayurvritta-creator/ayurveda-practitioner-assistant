@@ -3,14 +3,14 @@ import { supabase } from '../supabase';
 import { DEFAULT_MODEL } from '../constants/models';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
-export interface ChatMessage {
+interface ChatMessage {
   id: string;
   role: 'user' | 'assistant';
   content: string;
   timestamp: string;
 }
 
-export interface ChatSession {
+interface ChatSession {
   id: string;
   title: string;
   patientId: string | null;

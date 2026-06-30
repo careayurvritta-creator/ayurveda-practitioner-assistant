@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 import { Header } from './Header';
 import { Sidebar } from './Sidebar';
 import { BottomTabs } from './BottomTabs';
 import { AddPatientModal } from '../patient/AddPatientModal';
-
-export interface OutletContextType {
-  showMobileSidebar: boolean;
-  setShowMobileSidebar: (show: boolean) => void;
-}
 
 export default function AppLayout() {
   const [showMobileSidebar, setShowMobileSidebar] = useState(false);

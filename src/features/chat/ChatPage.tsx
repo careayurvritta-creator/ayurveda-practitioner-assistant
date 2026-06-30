@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Send, Sparkles, Copy, Check, ChevronDown } from 'lucide-react';
 import { useChat } from '../../contexts/ChatContext';
 import { usePatients } from '../../contexts/PatientContext';
-import { NVIDIA_MODELS, DEFAULT_MODEL } from '../../constants/models';
+import { NVIDIA_MODELS } from '../../constants/models';
 import { Markdown } from '../../components/markdown/Markdown';
 import { Button } from '../../components/ui/Button';
 

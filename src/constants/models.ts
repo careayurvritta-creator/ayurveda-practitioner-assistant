@@ -1,11 +1,4 @@
-export interface ModelOption {
-  id: string;
-  name: string;
-  provider: string;
-  description: string;
-}
-
-export const NVIDIA_MODELS: ModelOption[] = [
+export const NVIDIA_MODELS = [
   {
     id: 'moonshotai/kimi-k2.6',
     name: 'Kimi K2.6',

@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useCallback } from 'react';
 import { supabase } from '../supabase';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
-export interface ProtocolAnswers {
+interface ProtocolAnswers {
   prakriti: string;
   vikriti: string;
   agni: string;

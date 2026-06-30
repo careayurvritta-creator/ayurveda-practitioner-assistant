@@ -14,21 +14,3 @@ export interface Patient {
   notes?: string;
   createdAt: string;
 }
-
-export interface Protocol {
-  id: string;
-  patientId: string;
-  title: string;
-  chiefComplaint: string;
-  generatedText: string;
-  createdAt: string;
-}
-
-export interface KnowledgeDoc {
-  id: string;
-  name: string;
-  type: string;
-  size: string;
-  uploadedAt: string;
-  status: 'indexed' | 'processing';
-}

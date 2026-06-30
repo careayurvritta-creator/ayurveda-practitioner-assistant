@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { X, Search, Trash2, Users, MessageSquare, RotateCcw } from 'lucide-react';
 import { usePatients } from '../../contexts/PatientContext';
 import { useChat } from '../../contexts/ChatContext';

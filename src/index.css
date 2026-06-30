@@ -52,8 +52,3 @@ input, textarea, select, button {
     color-scheme: dark;
   }
 }
-
-@media print {
-  .print-hidden { display: none !important; }
-  .print-block { display: block !important; }
-}
