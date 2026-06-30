@@ -1,0 +1,584 @@
+{
+  "chapter_1": [
+    {
+      "term_id": "ITA-1.1.1",
+      "input": "Define: Ayurveda",
+      "output": "Ayurveda (Āyurvedaḥ / आयुर्वेदः)\n\nWHO ITA Code: ITA-1.1.1\nChapter: Background Terminology\nDomain: general"
+    },
+    {
+      "term_id": "ITA-1.2.2",
+      "input": "Define: Salutary life",
+      "output": "Salutary life (hitāyuḥ / हितायुः)\n\nWHO ITA Code: ITA-1.2.2\nChapter: Background Terminology\nDomain: general"
+    },
+    {
+      "term_id": "ITA-1.2.3",
+      "input": "Define: Unsalutary life",
+      "output": "Unsalutary life (ahitāyuḥ / अहितायुः)\n\nWHO ITA Code: ITA-1.2.3\nChapter: Background Terminology\nDomain: general"
+    },
+    {
+      "term_id": "ITA-1.2.4",
+      "input": "Define: High quality of life",
+      "output": "High quality of life (sukhāyuḥ / सुखायुः)\n\nWHO ITA Code: ITA-1.2.4\nChapter: Background Terminology\nDomain: general"
+    },
+    {
+      "term_id": "ITA-1.2.5",
+      "input": "Define: Poor quality of life",
+      "output": "Poor quality of life (duḥkhāyuḥ / दुःखायुः)\n\nWHO ITA Code: ITA-1.2.5\nChapter: Background Terminology\nDomain: general"
+    },
+    {
+      "term_id": "ITA-1.3.1",
+      "input": "Define: Three core principles",
+      "output": "Three core principles (trisūtrāyurvedaḥ, / त्रिसूत्रायुर्वेदः)\n\nWHO ITA Code: ITA-1.3.1\nChapter: Background Terminology\nDomain: general"
+    },
+    {
+      "term_id": "ITA-1.4.2",
+      "input": "Define: Treatment",
+      "output": "Treatment (cikitsā / चिकित्सा)\n\nWHO ITA Code: ITA-1.4.2\nChapter: Background Terminology\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-1.4.3",
+      "input": "Define: General medicine",
+      "output": "General medicine (kāyacikitsā / कायचिकित्सा)\n\nWHO ITA Code: ITA-1.4.3\nChapter: Background Terminology\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-1.4.4",
+      "input": "Define: Child and maternal",
+      "output": "Child and maternal (bālacikitsā, / बालचिकित्सा)\n\nWHO ITA Code: ITA-1.4.4\nChapter: Background Terminology\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-1.4.5",
+      "input": "Define: Psychiatry",
+      "output": "Psychiatry (grahacikitsā, bhūtavidyā. / ग्रहचिकित्सा, भूतविद्या)\n\nWHO ITA Code: ITA-1.4.5\nChapter: Background Terminology\nDomain: therapeutics"
+    }
+  ],
+  "chapter_2": [
+    {
+      "term_id": "ITA-2.1.1",
+      "input": "Define: Dosha",
+      "output": "Dosha (doṣaḥ / दोषः)\n\nWHO ITA Code: ITA-2.1.1\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-2.1.2",
+      "input": "Define: Three doshas",
+      "output": "Three doshas (tridoṣaḥ, śārīrikadoṣa / त्रिदोषः, शारीरिकदोष)\n\nWHO ITA Code: ITA-2.1.2\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-2.1.1.1",
+      "input": "Define: Vata, dosha regulating",
+      "output": "Vata, dosha regulating (vātaḥ / वातः)\n\nWHO ITA Code: ITA-2.1.1.1\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-2.1.1.2",
+      "input": "Define: Vata, dosha that",
+      "output": "Vata, dosha that (prāṇaḥ / प्राणः)\n\nWHO ITA Code: ITA-2.1.1.2\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-2.1.1.4",
+      "input": "Define: Circulating vata",
+      "output": "Circulating vata (vyānaḥ / व्यानः)\n\nWHO ITA Code: ITA-2.1.1.4\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: philosophy, physiology"
+    },
+    {
+      "term_id": "ITA-2.1.1.7",
+      "input": "Define: Functions of vata",
+      "output": "Functions of vata (vāta-karma / वात-कर्म)\n\nWHO ITA Code: ITA-2.1.1.7\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: pharmacology, physiology"
+    },
+    {
+      "term_id": "ITA-2.1.1.8",
+      "input": "Define: Enthusiasm",
+      "output": "Enthusiasm (utsāhaḥ / उत्साहः)\n\nWHO ITA Code: ITA-2.1.1.8\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: philosophy, physiology"
+    },
+    {
+      "term_id": "ITA-2.1.1.9",
+      "input": "Define: Expiration",
+      "output": "Expiration (ucchvāsaḥ / उच्छ्वासः)\n\nWHO ITA Code: ITA-2.1.1.9\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: philosophy, physiology"
+    },
+    {
+      "term_id": "ITA-2.1.2.1",
+      "input": "Define: Pitta, dosha regulating",
+      "output": "Pitta, dosha regulating (pittam / पित्तम)\n\nWHO ITA Code: ITA-2.1.2.1\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-2.1.2.2",
+      "input": "Define: Digesting pitta",
+      "output": "Digesting pitta (pācaka-pittam / पाचक-पित्तम)\n\nWHO ITA Code: ITA-2.1.2.2\nChapter: Core Concepts (Maulika Siddhanta)\nDomain: physiology"
+    }
+  ],
+  "chapter_3": [
+    {
+      "term_id": "ITA-3.1.2",
+      "input": "Define: Body",
+      "output": "Body (śarīraḥ, dehaḥ, kāyaḥ, / शरीरः, देहः, कायः)\n\nWHO ITA Code: ITA-3.1.2\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    },
+    {
+      "term_id": "ITA-3.1.3",
+      "input": "Define: Factors responsible",
+      "output": "Factors responsible (śarīra-vṛddhikara-bhāvaḥ / शरीर-वृद्धिकर-भावः)\n\nWHO ITA Code: ITA-3.1.3\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    },
+    {
+      "term_id": "ITA-3.1.4",
+      "input": "Define: Healthy body",
+      "output": "Healthy body (śarīra-sampat / शरीर-सम्पत)\n\nWHO ITA Code: ITA-3.1.4\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    },
+    {
+      "term_id": "ITA-3.1.5",
+      "input": "Define: Body measurements",
+      "output": "Body measurements (pramāṇam / प्रमाणम)\n\nWHO ITA Code: ITA-3.1.5\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    },
+    {
+      "term_id": "ITA-3.1.6",
+      "input": "Define: Body part",
+      "output": "Body part (aṅgaḥ / अंगः)\n\nWHO ITA Code: ITA-3.1.6\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    },
+    {
+      "term_id": "ITA-3.1.7",
+      "input": "Define: Whole body",
+      "output": "Whole body (sarvāṅgaḥ / सर्वांगः)\n\nWHO ITA Code: ITA-3.1.7\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    },
+    {
+      "term_id": "ITA-3.1.12",
+      "input": "Define: Cavity",
+      "output": "Cavity (kūṭaḥ / कूटः)\n\nWHO ITA Code: ITA-3.1.12\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    },
+    {
+      "term_id": "ITA-3.1.14",
+      "input": "Define: Muscular or",
+      "output": "Muscular or (piṇḍikā / पिण्डिका)\n\nWHO ITA Code: ITA-3.1.14\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    },
+    {
+      "term_id": "ITA-3.1.15",
+      "input": "Define: Connecting structures",
+      "output": "Connecting structures (nibandhinī / निबन्धिनी)\n\nWHO ITA Code: ITA-3.1.15\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    },
+    {
+      "term_id": "ITA-3.1.17",
+      "input": "Define: Five prominences in",
+      "output": "Five prominences in (gātrapañcakam / गात्रपञ्चकम)\n\nWHO ITA Code: ITA-3.1.17\nChapter: Anatomy (Rachana Sharira)\nDomain: anatomy"
+    }
+  ],
+  "chapter_4": [
+    {
+      "term_id": "ITA-4.1.1",
+      "input": "Define: Diagnosis",
+      "output": "Diagnosis (vyādhiviniścayaḥ, / व्याधिविनिश्चयः)\n\nWHO ITA Code: ITA-4.1.1\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-4.2.2",
+      "input": "Define: Comorbidity",
+      "output": "Comorbidity (vyādhisaṅkaraḥ / व्याधिसंकरः)\n\nWHO ITA Code: ITA-4.2.2\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-4.2.3",
+      "input": "Define: Types of disease",
+      "output": "Types of disease (vyādhibhedaḥ / व्याधिभेदः)\n\nWHO ITA Code: ITA-4.2.3\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-4.2.4",
+      "input": "Define: Two types of",
+      "output": "Two types of (dvividha-mānasika-rogaḥ / द्विविध-मानसिक-रोगः)\n\nWHO ITA Code: ITA-4.2.4\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-4.2.7",
+      "input": "Define: Three types of somatic",
+      "output": "Three types of somatic (trividha-śārīrika-rogaḥ / त्रिविध-शारीरिक-रोगः)\n\nWHO ITA Code: ITA-4.2.7\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-4.2.8",
+      "input": "Define: Diseases caused by",
+      "output": "Diseases caused by (āgneyarogaḥ / आग्नेयरोगः)\n\nWHO ITA Code: ITA-4.2.8\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-4.2.9",
+      "input": "Define: Diseases caused by",
+      "output": "Diseases caused by (saumyarogaḥ / सौम्यरोगः)\n\nWHO ITA Code: ITA-4.2.9\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-4.2.10",
+      "input": "Define: Diseases caused by",
+      "output": "Diseases caused by (vāyavyarogaḥ / वायव्यरोगः)\n\nWHO ITA Code: ITA-4.2.10\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-4.2.11",
+      "input": "Define: Intrinsic or endoge",
+      "output": "Intrinsic or endoge (ādhyātmikarogaḥ / आध्यात्मिकरोगः)\n\nWHO ITA Code: ITA-4.2.11\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-4.2.12",
+      "input": "Define: Hereditary diseases",
+      "output": "Hereditary diseases (ādibalapravṛttarogaḥ / आदिबलप्रवृत्तरोगः)\n\nWHO ITA Code: ITA-4.2.12\nChapter: Morbidity Terms (Vikriti Vijnana)\nDomain: pathology"
+    }
+  ],
+  "chapter_5": [
+    {
+      "term_id": "ITA-5.1.1",
+      "input": "Define: Disorder",
+      "output": "Disorder (vikāraḥ / विकारः)\n\nWHO ITA Code: ITA-5.1.1\nChapter: Disorders (Roga Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-5.2.1",
+      "input": "Define: Derangement",
+      "output": "Derangement (doṣavaiṣamyam / दोषवैषम्यम)\n\nWHO ITA Code: ITA-5.2.1\nChapter: Disorders (Roga Vijnana)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-5.2.2",
+      "input": "Define: State of dosha",
+      "output": "State of dosha (doṣāvasthā / दोषावस्था)\n\nWHO ITA Code: ITA-5.2.2\nChapter: Disorders (Roga Vijnana)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-5.2.1.1",
+      "input": "Define: Accumulation of vata",
+      "output": "Accumulation of vata (vātasañcayaḥ / वातसञ्चयः)\n\nWHO ITA Code: ITA-5.2.1.1\nChapter: Disorders (Roga Vijnana)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-5.2.1.3",
+      "input": "Define: Aggravation",
+      "output": "Aggravation (prāṇavātakopaḥ / प्राणवातकोपः)\n\nWHO ITA Code: ITA-5.2.1.3\nChapter: Disorders (Roga Vijnana)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-5.2.1.5",
+      "input": "Define: Aggravation of",
+      "output": "Aggravation of (vyānavātakopaḥ / व्यानवातकोपः)\n\nWHO ITA Code: ITA-5.2.1.5\nChapter: Disorders (Roga Vijnana)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-5.2.1.10",
+      "input": "Define: Aggravation of vata in",
+      "output": "Aggravation of vata in (koṣṭhāśritavātakopaḥ / कोष्ठाश्रितवातकोपः)\n\nWHO ITA Code: ITA-5.2.1.10\nChapter: Disorders (Roga Vijnana)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-5.2.1.13",
+      "input": "Define: Aggravation of",
+      "output": "Aggravation of (pakvāśayagatavātaḥ / पक्वाशयगतवातः)\n\nWHO ITA Code: ITA-5.2.1.13\nChapter: Disorders (Roga Vijnana)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-5.2.1.15",
+      "input": "Define: Aggravation of",
+      "output": "Aggravation of (tvakgatavātaḥ / त्वक्गतवातः)\n\nWHO ITA Code: ITA-5.2.1.15\nChapter: Disorders (Roga Vijnana)\nDomain: physiology"
+    },
+    {
+      "term_id": "ITA-5.2.1.16",
+      "input": "Define: Aggravation of",
+      "output": "Aggravation of (asṛggatavātaḥ/ / असृग्गतवातः/)\n\nWHO ITA Code: ITA-5.2.1.16\nChapter: Disorders (Roga Vijnana)\nDomain: physiology"
+    }
+  ],
+  "chapter_6": [
+    {
+      "term_id": "ITA-6.1.2",
+      "input": "Define: Substance",
+      "output": "Substance (dravyam / द्रव्यम)\n\nWHO ITA Code: ITA-6.1.2\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-6.1.6",
+      "input": "Define: Medicine",
+      "output": "Medicine (auṣadham / औषधम)\n\nWHO ITA Code: ITA-6.1.6\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-6.1.10",
+      "input": "Define: Drugs of plant origin",
+      "output": "Drugs of plant origin (audbhidam / औद्भिदम)\n\nWHO ITA Code: ITA-6.1.10\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-6.1.12",
+      "input": "Define: Substitute drug",
+      "output": "Substitute drug (pratinidhidravyam / प्रतिनिधिद्रव्यम)\n\nWHO ITA Code: ITA-6.1.12\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-6.2.1.1",
+      "input": "Define: Taste",
+      "output": "Taste (rasaḥ / रसः)\n\nWHO ITA Code: ITA-6.2.1.1\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-6.2.1.2",
+      "input": "Define: Sweet taste",
+      "output": "Sweet taste (madhura-rasaḥ, svāduḥ / मधुर-रसः, स्वादुः)\n\nWHO ITA Code: ITA-6.2.1.2\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-6.2.1.3",
+      "input": "Define: Group of sweet",
+      "output": "Group of sweet (madhuraskandhaḥ / मधुरस्कन्धः)\n\nWHO ITA Code: ITA-6.2.1.3\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-6.2.1.4",
+      "input": "Define: Sour taste",
+      "output": "Sour taste (amla-rasaḥ / अम्ल-रसः)\n\nWHO ITA Code: ITA-6.2.1.4\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-6.2.1.5",
+      "input": "Define: Group of sour",
+      "output": "Group of sour (amlaskandhaḥ / अम्लस्कन्धः)\n\nWHO ITA Code: ITA-6.2.1.5\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-6.2.1.6",
+      "input": "Define: Salty taste",
+      "output": "Salty taste (lavaṇa-rasaḥ, paṭuḥ / लवण-रसः, पटुः)\n\nWHO ITA Code: ITA-6.2.1.6\nChapter: Materia Medica (Dravya)\nDomain: pharmacology"
+    }
+  ],
+  "chapter_7": [
+    {
+      "term_id": "ITA-7.1.1",
+      "input": "Define: Preparation of",
+      "output": "Preparation of (auṣadhakalpanā / औषधकल्पना)\n\nWHO ITA Code: ITA-7.1.1\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-7.1.2",
+      "input": "Define: Ayurvedic pharma",
+      "output": "Ayurvedic pharma (bhaiṣajyakalpanā / भैषज्यकल्पना)\n\nWHO ITA Code: ITA-7.1.2\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-7.1.3",
+      "input": "Define: Paste",
+      "output": "Paste (kalkaḥ / कल्कः)\n\nWHO ITA Code: ITA-7.1.3\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-7.1.4",
+      "input": "Define: Decoction",
+      "output": "Decoction (kvāthaḥ, śṛtaḥ, niryūhaḥ / क्वाथः, शृतः, निर्यूहः)\n\nWHO ITA Code: ITA-7.1.4\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-7.1.5",
+      "input": "Define: Powder",
+      "output": "Powder (cūrṇam, rajaḥ,kṣodaḥ / चूर्णम, रजः, क्षोदः)\n\nWHO ITA Code: ITA-7.1.5\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-7.1.6",
+      "input": "Define: Juice",
+      "output": "Juice (svarasaḥ / स्वरसः)\n\nWHO ITA Code: ITA-7.1.6\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-7.1.7",
+      "input": "Define: Juice expressed from",
+      "output": "Juice expressed from (puṭapākasvarasaḥ / पुटपाकस्वरसः)\n\nWHO ITA Code: ITA-7.1.7\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-7.1.9",
+      "input": "Define: Cold infusion",
+      "output": "Cold infusion (himakaṣāyaḥ, / हिमकषायः)\n\nWHO ITA Code: ITA-7.1.9\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-7.1.10",
+      "input": "Define: Water-soluble extract",
+      "output": "Water-soluble extract (rasakriyā / रसक्रिया)\n\nWHO ITA Code: ITA-7.1.10\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-7.1.12",
+      "input": "Define: Water-soluble solid",
+      "output": "Water-soluble solid (ghanasattvam / घनसत्त्वम)\n\nWHO ITA Code: ITA-7.1.12\nChapter: Pharmaceutical Preparations\nDomain: pharmacology"
+    }
+  ],
+  "chapter_8": [
+    {
+      "term_id": "ITA-8.1.1",
+      "input": "Define: Preparation of food",
+      "output": "Preparation of food (āhārakalpanā / आहारकल्पना)\n\nWHO ITA Code: ITA-8.1.1\nChapter: Diet and Lifestyle\nDomain: dietetics, pharmacology"
+    },
+    {
+      "term_id": "ITA-8.1.2",
+      "input": "Define: Food",
+      "output": "Food (āhāraḥ / आहारः)\n\nWHO ITA Code: ITA-8.1.2\nChapter: Diet and Lifestyle\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-8.1.3",
+      "input": "Define: Wholesome",
+      "output": "Wholesome (pathyam / पथ्यम)\n\nWHO ITA Code: ITA-8.1.3\nChapter: Diet and Lifestyle\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-8.1.4",
+      "input": "Define: Unwholesome",
+      "output": "Unwholesome (apathyam / अपथ्यम)\n\nWHO ITA Code: ITA-8.1.4\nChapter: Diet and Lifestyle\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-8.1.5",
+      "input": "Define: Incompatible foods",
+      "output": "Incompatible foods (viruddhāhāraḥ, / विरुद्धाहारः)\n\nWHO ITA Code: ITA-8.1.5\nChapter: Diet and Lifestyle\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-8.1.6",
+      "input": "Define: Varieties of food",
+      "output": "Varieties of food (āhārasvarūpabhedaḥ / आहारस्वरूपभेदः)\n\nWHO ITA Code: ITA-8.1.6\nChapter: Diet and Lifestyle\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-8.1.10",
+      "input": "Define: Suckables",
+      "output": "Suckables (coṣyam/cūṣyam / चोष्यम/चूष्यम)\n\nWHO ITA Code: ITA-8.1.10\nChapter: Diet and Lifestyle\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-8.1.12",
+      "input": "Define: Chewables",
+      "output": "Chewables (carvyam / चर्व्यम)\n\nWHO ITA Code: ITA-8.1.12\nChapter: Diet and Lifestyle\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-8.1.13",
+      "input": "Define: Eatables",
+      "output": "Eatables (bhakṣyam / भक्ष्यम)\n\nWHO ITA Code: ITA-8.1.13\nChapter: Diet and Lifestyle\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-8.2.1",
+      "input": "Define: Categories of food",
+      "output": "Categories of food (āhāravargaḥ / आहारवर्गः)\n\nWHO ITA Code: ITA-8.2.1\nChapter: Diet and Lifestyle\nDomain: dietetics"
+    }
+  ],
+  "chapter_9": [
+    {
+      "term_id": "ITA-9.1.1",
+      "input": "Define: General medicine",
+      "output": "General medicine (kāyacikitsā / कायचिकित्सा)\n\nWHO ITA Code: ITA-9.1.1\nChapter: Treatment Modalities (Chikitsa)\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-9.1.3",
+      "input": "Define: Treatment",
+      "output": "Treatment (cikitsā / चिकित्सा)\n\nWHO ITA Code: ITA-9.1.3\nChapter: Treatment Modalities (Chikitsa)\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-9.1.4",
+      "input": "Define: Disease elimination",
+      "output": "Disease elimination (vyādhiharam / व्याधिहरम)\n\nWHO ITA Code: ITA-9.1.4\nChapter: Treatment Modalities (Chikitsa)\nDomain: pathology"
+    },
+    {
+      "term_id": "ITA-9.1.5",
+      "input": "Define: Compatible with",
+      "output": "Compatible with (pathyam / पथ्यम)\n\nWHO ITA Code: ITA-9.1.5\nChapter: Treatment Modalities (Chikitsa)\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-9.1.7",
+      "input": "Define: Medication",
+      "output": "Medication (auṣadham / औषधम)\n\nWHO ITA Code: ITA-9.1.7\nChapter: Treatment Modalities (Chikitsa)\nDomain: pharmacology"
+    },
+    {
+      "term_id": "ITA-9.1.8",
+      "input": "Define: Treatment protocol",
+      "output": "Treatment protocol (upakramaḥ / उपक्रमः)\n\nWHO ITA Code: ITA-9.1.8\nChapter: Treatment Modalities (Chikitsa)\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-9.1.9",
+      "input": "Define: Amendment to wrong",
+      "output": "Amendment to wrong (prāyaścittam / प्रायश्चित्तम)\n\nWHO ITA Code: ITA-9.1.9\nChapter: Treatment Modalities (Chikitsa)\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-9.1.11",
+      "input": "Define: Restoration of health",
+      "output": "Restoration of health (prakṛtisthāpanam / प्रकृतिस्थापनम)\n\nWHO ITA Code: ITA-9.1.11\nChapter: Treatment Modalities (Chikitsa)\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-9.1.14",
+      "input": "Define: Therapeutic rituals",
+      "output": "Therapeutic rituals (daivavyapāśrayacikitsā, / दैवव्यपाश्रयचिकित्सा)\n\nWHO ITA Code: ITA-9.1.14\nChapter: Treatment Modalities (Chikitsa)\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-9.1.15",
+      "input": "Define: Chanting of auspicious",
+      "output": "Chanting of auspicious (mantracikitsā / मन्त्रचिकित्सा)\n\nWHO ITA Code: ITA-9.1.15\nChapter: Treatment Modalities (Chikitsa)\nDomain: therapeutics"
+    }
+  ],
+  "chapter_10": [
+    {
+      "term_id": "ITA-10.1.1",
+      "input": "Define: Healthy person",
+      "output": "Healthy person (svasthaḥ / स्वस्थः)\n\nWHO ITA Code: ITA-10.1.1\nChapter: Panchakarma and Rasayana\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-10.1.2",
+      "input": "Define: Positive attributes of",
+      "output": "Positive attributes of (svāsthyam, ārogyam / स्वास्थ्यम, आरोग्यम)\n\nWHO ITA Code: ITA-10.1.2\nChapter: Panchakarma and Rasayana\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-10.1.3",
+      "input": "Define: Routine(s) for health",
+      "output": "Routine(s) for health (svasthavṛttaḥ / स्वस्थवृत्तः)\n\nWHO ITA Code: ITA-10.1.3\nChapter: Panchakarma and Rasayana\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-10.2.1",
+      "input": "Define: Three pillars to",
+      "output": "Three pillars to (trayopastambhaḥ / त्रयोपस्तम्भः)\n\nWHO ITA Code: ITA-10.2.1\nChapter: Panchakarma and Rasayana\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-10.2.2",
+      "input": "Define: Food",
+      "output": "Food (āhāraḥ / आहारः)\n\nWHO ITA Code: ITA-10.2.2\nChapter: Panchakarma and Rasayana\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-10.2.3",
+      "input": "Define: Eight factors for",
+      "output": "Eight factors for (āhāravidhiviśeṣāyatanam / आहारविधिविशेषायतनम)\n\nWHO ITA Code: ITA-10.2.3\nChapter: Panchakarma and Rasayana\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-10.2.4",
+      "input": "Define: Factors facilitating",
+      "output": "Factors facilitating (āhāra pariṇāma / आहार परिणाम)\n\nWHO ITA Code: ITA-10.2.4\nChapter: Panchakarma and Rasayana\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-10.2.5",
+      "input": "Define: Diet-transition",
+      "output": "Diet-transition (pādāṃśikakramaḥ / पादांशिकक्रमः)\n\nWHO ITA Code: ITA-10.2.5\nChapter: Panchakarma and Rasayana\nDomain: therapeutics"
+    },
+    {
+      "term_id": "ITA-10.2.6",
+      "input": "Define: Appropriate time for",
+      "output": "Appropriate time for (praśasta-āhārakālaḥ / प्रशस्त-आहारकालः)\n\nWHO ITA Code: ITA-10.2.6\nChapter: Panchakarma and Rasayana\nDomain: dietetics"
+    },
+    {
+      "term_id": "ITA-10.2.7",
+      "input": "Define: Agreeable to nature",
+      "output": "Agreeable to nature (sātmyam / सात्म्यम)\n\nWHO ITA Code: ITA-10.2.7\nChapter: Panchakarma and Rasayana\nDomain: therapeutics"
+    }
+  ],
+  "edge_cases": [
+    {
+      "type": "long_term",
+      "term_id": "ITA-1.9.7.4",
+      "input": "What is Absolute nonexistence Absolute nonexistence, without beginning or end.?",
+      "output": "This refers to Absolute nonexistence Absolute nonexistence, without beginning or end. (atyantābhāvaḥ)"
+    },
+    {
+      "type": "long_term",
+      "term_id": "ITA-1.8.1",
+      "input": "What is Investigation, examination?",
+      "output": "This refers to Investigation, examination (parīkṣā)"
+    },
+    {
+      "type": "long_term",
+      "term_id": "ITA-5.56.1.6",
+      "input": "What is Anal fistula with orifice?",
+      "output": "This refers to Anal fistula with orifice (śambūkāvartabhaganda-)"
+    },
+    {
+      "type": "long_term",
+      "term_id": "ITA-7.2.13",
+      "input": "What is Modulating or restricting?",
+      "output": "This refers to Modulating or restricting (niyamanam)"
+    },
+    {
+      "type": "long_term",
+      "term_id": "ITA-9.2.3",
+      "input": "What is Patient fit for cleansing?",
+      "output": "This refers to Patient fit for cleansing (samśodhanārhaḥ)"
+    },
+    {
+      "type": "special_chars",
+      "term_id": "ITA-1.4.1",
+      "input": "How do you write Eight clinical speciali in Sanskrit?",
+      "output": "IAST: aṣṭāṅgāyurvedaḥ\nDevanagari: अष्टांगायुर्वेदः"
+    },
+    {
+      "type": "special_chars",
+      "term_id": "ITA-1.4.8",
+      "input": "How do you write Toxicology in Sanskrit?",
+      "output": "IAST: viṣacikitsā, garacikitsā\nDevanagari: विषचिकित्सा, गरचिकित्सा"
+    },
+    {
+      "type": "special_chars",
+      "term_id": "ITA-1.4.10",
+      "input": "How do you write Fertility treatment in Sanskrit?",
+      "output": "IAST: vajikaraṇacikitsa,\nDevanagari: वजिकरनअचिकित्स"
+    },
+    {
+      "type": "special_chars",
+      "term_id": "ITA-1.5.9",
+      "input": "How do you write Qualities of technical in Sanskrit?",
+      "output": "IAST: śāstraguṇāḥ\nDevanagari: शास्त्रगुणाः"
+    },
+    {
+      "type": "special_chars",
+      "term_id": "ITA-1.6.3",
+      "input": "How do you write Retrospective cross in Sanskrit?",
+      "output": "IAST: atītāvekṣaṇam\nDevanagari: अतीतावेक्षणम"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schedule_created": "2026-01-07T13:49:51.905465",
+  "validation_frequency": "monthly",
+  "upcoming_validations": [
+    {
+      "date": "2026-02-06",
+      "scope": "Full knowledge base",
+      "tasks": [
+        "Verify IAST-Devanagari parity",
+        "Check cross-reference integrity",
+        "Update confidence scores",
+        "Validate against latest WHO ITA"
+      ]
+    },
+    {
+      "date": "2026-03-08",
+      "scope": "Quarterly deep validation",
+      "tasks": [
+        "Expert review of flagged terms",
+        "Re-run Phase 6 validation suite",
+        "Update embeddings if needed"
+      ]
+    }
+  ],
+  "automation": {
+    "enabled": true,
+    "script": "phase6_enhanced_validator.py",
+    "notify_on_failure": [
+      "admin@ayurvritta.com"
+    ]
+  }
+}

@@ -1,0 +1,728 @@
+{
+  "generated_at": "2026-01-07T11:02:26.735075",
+  "statistics": {
+    "total_rows": 17684,
+    "rows_with_iast": 6471,
+    "rows_with_devanagari": 6378,
+    "matches": 497,
+    "mismatches": 5973,
+    "corrected": 5973,
+    "improved": 4576,
+    "no_iast": 10748,
+    "no_devanagari": 387
+  },
+  "by_chapter": {
+    "1": 252,
+    "2": 172,
+    "3": 373,
+    "4": 140,
+    "5": 1139,
+    "6": 101,
+    "7": 146,
+    "8": 90,
+    "9": 600,
+    "10": 20
+  },
+  "sample_corrections": [
+    {
+      "term_id": "ITA-1.1.1",
+      "english": "Ayurveda",
+      "iast": "Āyurvedaḥ",
+      "before": "आयर्दः",
+      "after": "आयुर्वेदः"
+    },
+    {
+      "term_id": "",
+      "english": "",
+      "iast": "1.āyuḥ;",
+      "before": "1.  आयः;",
+      "after": "1.आयुः;"
+    },
+    {
+      "term_id": "",
+      "english": "",
+      "iast": "2.dhāri;",
+      "before": "",
+      "after": "2.धारि;"
+    },
+    {
+      "term_id": "",
+      "english": "",
+      "iast": "3.jīvitam;",
+      "before": "3.  जीवितम;",
+      "after": "3.जीवितम;"
+    },
+    {
+      "term_id": "",
+      "english": "",
+      "iast": "4.nityaga;",
+      "before": "",
+      "after": "4.नित्यग;"
+    },
+    {
+      "term_id": "",
+      "english": "",
+      "iast": "5.anubandhaḥ.",
+      "before": "5.  अनबन्ध.",
+      "after": "5.अनुबन्धः"
+    },
+    {
+      "term_id": "ITA-1.2.2",
+      "english": "Salutary life",
+      "iast": "hitāyuḥ",
+      "before": "हितायः",
+      "after": "हितायुः"
+    },
+    {
+      "term_id": "ITA-1.2.3",
+      "english": "Unsalutary life",
+      "iast": "ahitāyuḥ",
+      "before": "अहितायः",
+      "after": "अहितायुः"
+    },
+    {
+      "term_id": "ITA-1.2.4",
+      "english": "High quality of life",
+      "iast": "sukhāyuḥ",
+      "before": "सखायः",
+      "after": "सुखायुः"
+    },
+    {
+      "term_id": "ITA-1.2.5",
+      "english": "Poor quality of life",
+      "iast": "duḥkhāyuḥ",
+      "before": "दःखायः",
+      "after": "दुःखायुः"
+    },
+    {
+      "term_id": "ITA-1.3.1",
+      "english": "Three core principles",
+      "iast": "trisūtrāyurvedaḥ,",
+      "before": "तरिसत्यर्दः,",
+      "after": "त्रिसूत्रायुर्वेदः"
+    },
+    {
+      "term_id": "",
+      "english": "of Ayurveda knowledge",
+      "iast": "triskandhaḥ",
+      "before": "तरिस्कन्",
+      "after": "त्रिस्कन्धः"
+    },
+    {
+      "term_id": "ITA-1.4.1",
+      "english": "Eight clinical speciali-",
+      "iast": "aṣṭāṅgāyurvedaḥ",
+      "before": "अष्टङ्गयर्दः",
+      "after": "अष्टांगायुर्वेदः"
+    },
+    {
+      "term_id": "ITA-1.4.2",
+      "english": "Treatment",
+      "iast": "cikitsā",
+      "before": "चिकित्स",
+      "after": "चिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.3",
+      "english": "General medicine",
+      "iast": "kāyacikitsā",
+      "before": "कायचिकित्स",
+      "after": "कायचिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.4",
+      "english": "Child and maternal",
+      "iast": "bālacikitsā,",
+      "before": "बालचिकित्स,",
+      "after": "बालचिकित्सा"
+    },
+    {
+      "term_id": "",
+      "english": "health",
+      "iast": "kaumārabhṛtyam",
+      "before": "कौमारभत्म",
+      "after": "कौमारभृत्यम"
+    },
+    {
+      "term_id": "ITA-1.4.5",
+      "english": "Psychiatry",
+      "iast": "grahacikitsā, bhūtavidyā.",
+      "before": "ग्रहचिकित्स,",
+      "after": "ग्रहचिकित्सा, भूतविद्या"
+    },
+    {
+      "term_id": "ITA-1.4.6",
+      "english": "Head and neck",
+      "iast": "śālakyatantra,",
+      "before": "शालाक्तन्,",
+      "after": "शालक्यतन्त्र"
+    },
+    {
+      "term_id": "",
+      "english": "medicine",
+      "iast": "ūrdhvāṅgacikitsā",
+      "before": "ऊर्धङ्गिकित्स",
+      "after": "ऊर्ध्वांगचिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.7",
+      "english": "Surgery",
+      "iast": "śalyacikitsā",
+      "before": "शल्यिकित्स",
+      "after": "शल्यचिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.8",
+      "english": "Toxicology",
+      "iast": "viṣacikitsā, garacikitsā",
+      "before": "विषचिकित्स,",
+      "after": "विषचिकित्सा, गरचिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.9",
+      "english": "Geriatrics",
+      "iast": "rasāyanacikitsā,",
+      "before": "रसायनचिकित्स,",
+      "after": "रसायनचिकित्सा"
+    },
+    {
+      "term_id": "",
+      "english": "",
+      "iast": "jarācikitsā",
+      "before": "जराचिकित्स",
+      "after": "जराचिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.10",
+      "english": "Fertility treatment",
+      "iast": "vajikaraṇacikitsa,",
+      "before": "वाजीकरणचिकित्स,",
+      "after": "वजिकरनअचिकित्स"
+    },
+    {
+      "term_id": "",
+      "english": "",
+      "iast": "vṛṣacikitsā,",
+      "before": "वषचिकित्स,",
+      "after": "वृषचिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.11",
+      "english": "Obstetrics,",
+      "iast": "prasūtītantra, strīroga",
+      "before": "प्रसतितन्, स्त्रोग",
+      "after": "प्रसूतीतन्त्र, स्त्रीरोग"
+    },
+    {
+      "term_id": "ITA-1.5.1",
+      "english": "Knowledge system",
+      "iast": "śāstram, sūtram,",
+      "before": "शासम, सतम,",
+      "after": "शास्त्रम, सूत्रम"
+    },
+    {
+      "term_id": "",
+      "english": "or treatise",
+      "iast": "śākhāvidyā, jñānam,",
+      "before": "शाखाविद्य, ज्ञाम,",
+      "after": "शाखाविद्या, ज्ञानम"
+    },
+    {
+      "term_id": "",
+      "english": "",
+      "iast": "tantram, vidhiḥ, vijñānam,",
+      "before": "तन्म, विधिः,",
+      "after": "तन्त्रम, विधिः, विज्ञानम"
+    },
+    {
+      "term_id": "",
+      "english": "",
+      "iast": "lakṣaṇam",
+      "before": "विज्ञाम, लक्षणम",
+      "after": "लक्षणम"
+    },
+    {
+      "term_id": "ITA-1.5.2",
+      "english": "Aphorism, summarized",
+      "iast": "sūtram",
+      "before": "सतम",
+      "after": "सूत्रम"
+    },
+    {
+      "term_id": "ITA-1.5.4",
+      "english": "Knowledge, discipline",
+      "iast": "vidyā",
+      "before": "विद्य",
+      "after": "विद्या"
+    },
+    {
+      "term_id": "ITA-1.5.5",
+      "english": "Understanding,",
+      "iast": "jñānam",
+      "before": "ज्ञाम",
+      "after": "ज्ञानम"
+    },
+    {
+      "term_id": "ITA-1.5.6",
+      "english": "Treatise, structurally",
+      "iast": "tantram",
+      "before": "तन्म",
+      "after": "तन्त्रम"
+    },
+    {
+      "term_id": "ITA-1.5.8",
+      "english": "Applied knowledge",
+      "iast": "vijñānam",
+      "before": "विज्ञाम",
+      "after": "विज्ञानम"
+    },
+    {
+      "term_id": "ITA-1.5.9",
+      "english": "Qualities of technical",
+      "iast": "śāstraguṇāḥ",
+      "before": "शासगणाः",
+      "after": "शास्त्रगुणाः"
+    },
+    {
+      "term_id": "ITA-1.6.1",
+      "english": "Devices for",
+      "iast": "tantrayuktiḥ",
+      "before": "तन्यक्ति",
+      "after": "तन्त्रयुक्तिः"
+    },
+    {
+      "term_id": "ITA-1.6.2",
+      "english": "Extending the scope",
+      "iast": "atideśaḥ",
+      "before": "अतिदशः",
+      "after": "अतिदेशः"
+    },
+    {
+      "term_id": "ITA-1.6.3",
+      "english": "Retrospective cross-",
+      "iast": "atītāvekṣaṇam",
+      "before": "अतीतावक्षणम",
+      "after": "अतीतावेक्षणम"
+    },
+    {
+      "term_id": "ITA-1.6.5",
+      "english": "Prospective cross-",
+      "iast": "anāgatavekṣaṇam",
+      "before": "अनागतवक्षणम",
+      "after": "अनागतवेक्षणम"
+    },
+    {
+      "term_id": "ITA-1.6.6",
+      "english": "Acceptance by not",
+      "iast": "anumataḥ",
+      "before": "अनमतः",
+      "after": "अनुमतः"
+    },
+    {
+      "term_id": "ITA-1.6.7",
+      "english": "Acceptance of multiple",
+      "iast": "anekāntaḥ",
+      "before": "अनकान्त",
+      "after": "अनेकान्तः"
+    },
+    {
+      "term_id": "ITA-1.6.8",
+      "english": "Supporting a proposed",
+      "iast": "apadeśaḥ",
+      "before": "अपदशः",
+      "after": "अपदेशः"
+    },
+    {
+      "term_id": "ITA-1.6.9",
+      "english": "Statement of",
+      "iast": "apavargaḥ",
+      "before": "अपवरग",
+      "after": "अपवर्गः"
+    },
+    {
+      "term_id": "ITA-1.6.10",
+      "english": "Implied or inferred",
+      "iast": "arthāpattiḥ",
+      "before": "अर्पत्ति",
+      "after": "अर्थापत्तिः"
+    },
+    {
+      "term_id": "ITA-1.6.11",
+      "english": "Concise statement",
+      "iast": "uddeśaḥ",
+      "before": "उद्शः",
+      "after": "उद्देशः"
+    },
+    {
+      "term_id": "ITA-1.6.12",
+      "english": "Consolidating an",
+      "iast": "uddhāraḥ",
+      "before": "उद्धाः",
+      "after": "उद्धारः"
+    },
+    {
+      "term_id": "ITA-1.6.13",
+      "english": "Authoritative",
+      "iast": "upadeśaḥ",
+      "before": "उपदशः",
+      "after": "उपदेशः"
+    },
+    {
+      "term_id": "ITA-1.6.15",
+      "english": "Definite conclusion",
+      "iast": "ekāntaḥ",
+      "before": "एकान्त",
+      "after": "एकान्तः"
+    },
+    {
+      "term_id": "ITA-1.6.16",
+      "english": "Illustrative statement",
+      "iast": "nidarśanam",
+      "before": "निदरशम",
+      "after": "निदर्शनम"
+    },
+    {
+      "term_id": "ITA-1.6.17",
+      "english": "Execution of",
+      "iast": "niyogaḥ/ sanniyogaḥ",
+      "before": "नियोगः/सननियोगः",
+      "after": "नियोगः/ सन्नियोगः"
+    },
+    {
+      "term_id": "ITA-1.6.18",
+      "english": "Decision based on",
+      "iast": "nirṇayaḥ",
+      "before": "निरयः",
+      "after": "निर्णयः"
+    },
+    {
+      "term_id": "ITA-1.6.19",
+      "english": "Detailed description,",
+      "iast": "nirdeśaḥ",
+      "before": "निरशः",
+      "after": "निर्देशः"
+    },
+    {
+      "term_id": "ITA-1.6.20",
+      "english": "Technical definition",
+      "iast": "nirvacanam",
+      "before": "निरवचम",
+      "after": "निर्वचनम"
+    },
+    {
+      "term_id": "ITA-1.6.21",
+      "english": "Objecting or opposing",
+      "iast": "pūrvapakṣaḥ",
+      "before": "परपक्",
+      "after": "पूर्वपक्षः"
+    },
+    {
+      "term_id": "ITA-1.6.22",
+      "english": "Negating or refuting an",
+      "iast": "pratyutsāraḥ",
+      "before": "प्रत्त्साः",
+      "after": "प्रत्युत्सारः"
+    },
+    {
+      "term_id": "ITA-1.6.23",
+      "english": "Partial description",
+      "iast": "pradeśaḥ",
+      "before": "प्रदशः",
+      "after": "प्रदेशः"
+    },
+    {
+      "term_id": "ITA-1.6.25",
+      "english": "Contextual repetition",
+      "iast": "prasaṅgaḥ",
+      "before": "प्रसङ्ग",
+      "after": "प्रसंगः"
+    },
+    {
+      "term_id": "ITA-1.6.27",
+      "english": "Supply of ellipsis",
+      "iast": "vākyaśeṣaḥ",
+      "before": "वाक्शषः",
+      "after": "वाक्यशेषः"
+    },
+    {
+      "term_id": "ITA-1.6.28",
+      "english": "Optional instructions",
+      "iast": "vikalpanam",
+      "before": "विकल्पम",
+      "after": "विकल्पनम"
+    },
+    {
+      "term_id": "ITA-1.6.30",
+      "english": "Implying the opposite",
+      "iast": "viparyayaḥ",
+      "before": "विपरयः",
+      "after": "विपर्ययः"
+    },
+    {
+      "term_id": "ITA-1.6.31",
+      "english": "Lucid explanation",
+      "iast": "vyākhyānam",
+      "before": "व्यख्याम",
+      "after": "व्याख्यानम"
+    },
+    {
+      "term_id": "ITA-1.6.32",
+      "english": "Inconclusive",
+      "iast": "saṃśayaḥ",
+      "before": "सशयः",
+      "after": "संशयः"
+    },
+    {
+      "term_id": "ITA-1.6.33",
+      "english": "Enlisting one by one",
+      "iast": "samuccayaḥ",
+      "before": "समच्चयः",
+      "after": "समुच्चयः"
+    },
+    {
+      "term_id": "ITA-1.6.34",
+      "english": "Statement indicating",
+      "iast": "sambhavaḥ",
+      "before": "सम्भः",
+      "after": "सम्भवः"
+    },
+    {
+      "term_id": "ITA-1.6.35",
+      "english": "Technical terminology",
+      "iast": "svasañjñā",
+      "before": "स्सञ्ज्ञ",
+      "after": "स्वसञ्ज्ञा"
+    },
+    {
+      "term_id": "ITA-1.6.36",
+      "english": "Extended reasoning",
+      "iast": "hetvarthaḥ",
+      "before": "हत्रथ",
+      "after": "हेत्वर्थः"
+    },
+    {
+      "term_id": "ITA-1.6.37",
+      "english": "Source of meaning",
+      "iast": "arthāśrayaḥ",
+      "before": "अर्श्रयः",
+      "after": "अर्थाश्रयः"
+    },
+    {
+      "term_id": "ITA-1.6.38",
+      "english": "Concept, hypothesis",
+      "iast": "kalpanā",
+      "before": "कल्पा",
+      "after": "कल्पना"
+    },
+    {
+      "term_id": "ITA-1.6.39",
+      "english": "Inclinations",
+      "iast": "tācchilyam",
+      "before": "ताच्छिल्म",
+      "after": "ताच्छिल्यम"
+    },
+    {
+      "term_id": "ITA-1.6.40",
+      "english": "Explanation,",
+      "iast": "vyākhyā",
+      "before": "व्यख्य",
+      "after": "व्याख्या"
+    },
+    {
+      "term_id": "ITA-1.7.1",
+      "english": "Theory",
+      "iast": "siddhāntaḥ",
+      "before": "सिद्धन्त",
+      "after": "सिद्धान्तः"
+    },
+    {
+      "term_id": "ITA-1.7.3",
+      "english": "Rules for debate",
+      "iast": "vādamārgaḥ",
+      "before": "वादमारग",
+      "after": "वादमार्गः"
+    },
+    {
+      "term_id": "ITA-1.7.4",
+      "english": "Unquestionable",
+      "iast": "ananuyojyam",
+      "before": "अननयोज्म",
+      "after": "अननुयोज्यम"
+    },
+    {
+      "term_id": "ITA-1.7.5",
+      "english": "Question",
+      "iast": "anuyogaḥ",
+      "before": "अनयोगः",
+      "after": "अनुयोगः"
+    },
+    {
+      "term_id": "ITA-1.7.6",
+      "english": "Questionable",
+      "iast": "anuyojyam",
+      "before": "अनयोज्म",
+      "after": "अनुयोज्यम"
+    },
+    {
+      "term_id": "ITA-1.7.7",
+      "english": "Unquestioning",
+      "iast": "abhyanujñā",
+      "before": "अभ्यज्ञ",
+      "after": "अभ्यनुज्ञा"
+    },
+    {
+      "term_id": "ITA-1.7.8",
+      "english": "Implied meaning",
+      "iast": "arthaprāptiḥ",
+      "before": "अरथप््ति",
+      "after": "अर्थप्राप्तिः"
+    },
+    {
+      "term_id": "ITA-1.7.9",
+      "english": "Varying meaning or",
+      "iast": "arthāntaram",
+      "before": "अर्न्तम",
+      "after": "अर्थान्तरम"
+    },
+    {
+      "term_id": "ITA-1.7.10",
+      "english": "Rejoinder",
+      "iast": "uttaram",
+      "before": "उत्म",
+      "after": "उत्तरम"
+    },
+    {
+      "term_id": "ITA-1.7.12",
+      "english": "Abusive argument",
+      "iast": "upālambhaḥ",
+      "before": "उपालम्भ",
+      "after": "उपालम्भः"
+    },
+    {
+      "term_id": "ITA-1.7.14",
+      "english": "Defensive argument",
+      "iast": "jalpaḥ",
+      "before": "जल्प",
+      "after": "जल्पः"
+    },
+    {
+      "term_id": "ITA-1.7.15",
+      "english": "Inquisitiveness",
+      "iast": "jijñāsā",
+      "before": "जिज्ञसा",
+      "after": "जिज्ञासा"
+    },
+    {
+      "term_id": "ITA-1.7.16",
+      "english": "Discussion amongst",
+      "iast": "tadvidyasambhāṣā",
+      "before": "तदविदसम्भषा",
+      "after": "तद्विद्यसम्भाषा"
+    },
+    {
+      "term_id": "ITA-1.7.18",
+      "english": "Point of defeat",
+      "iast": "nigrahasthānam",
+      "before": "निग्रहस्थाम",
+      "after": "निग्रहस्थानम"
+    },
+    {
+      "term_id": "ITA-1.7.20",
+      "english": "Proposition, proposed",
+      "iast": "pratijñā",
+      "before": "प्रतिज्ञ",
+      "after": "प्रतिज्ञा"
+    },
+    {
+      "term_id": "ITA-1.7.21",
+      "english": "Abandoning the",
+      "iast": "pratijñāhāniḥ",
+      "before": "प्रतिज्ञाानिः",
+      "after": "प्रतिज्ञाहानिः"
+    },
+    {
+      "term_id": "ITA-1.7.22",
+      "english": "Proving the alternate",
+      "iast": "pratiṣṭhāpanā",
+      "before": "प्रतिष्ठपना",
+      "after": "प्रतिष्ठापना"
+    },
+    {
+      "term_id": "ITA-1.7.23",
+      "english": "Counter-question",
+      "iast": "pratyanuyogaḥ",
+      "before": "प्रत्ययोगः",
+      "after": "प्रत्यनुयोगः"
+    },
+    {
+      "term_id": "ITA-1.7.24",
+      "english": "Syntax error,",
+      "iast": "vākyadoṣaḥ",
+      "before": "वाक्दोषः",
+      "after": "वाक्यदोषः"
+    },
+    {
+      "term_id": "ITA-1.7.25",
+      "english": "Correct statement",
+      "iast": "vākyapraśaṃsā",
+      "before": "वाक्प्रशसा",
+      "after": "वाक्यप्रशंसा"
+    },
+    {
+      "term_id": "ITA-1.7.26",
+      "english": "Hostile debate,",
+      "iast": "vitaṇḍā",
+      "before": "वितण्ड",
+      "after": "वितण्डा"
+    },
+    {
+      "term_id": "ITA-1.7.27",
+      "english": "Decision",
+      "iast": "vyavasāyaḥ",
+      "before": "व्सायः",
+      "after": "व्यवसायः"
+    },
+    {
+      "term_id": "ITA-1.7.28",
+      "english": "Proving the proposed",
+      "iast": "sthāpanā",
+      "before": "स्थपना",
+      "after": "स्थापना"
+    },
+    {
+      "term_id": "ITA-1.7.29",
+      "english": "Proposing the wrong",
+      "iast": "hetvantaram",
+      "before": "हत्न्तम",
+      "after": "हेत्वन्तरम"
+    },
+    {
+      "term_id": "ITA-1.7.30",
+      "english": "Discussion and debate",
+      "iast": "tadvidyasaṃbhāṣā,",
+      "before": "तदविदसभाषा",
+      "after": "तद्विद्यसंभाषा"
+    },
+    {
+      "term_id": "ITA-1.7.31",
+      "english": "Productive debate",
+      "iast": "sandhāyasaṃbhāṣā",
+      "before": "सन्धयसभाषा",
+      "after": "सन्धायसंभाषा"
+    },
+    {
+      "term_id": "ITA-1.7.32",
+      "english": "Unproductive, hostile",
+      "iast": "vigṛhyasaṃbhāṣā",
+      "before": "विगह्यसभाषा",
+      "after": "विगृह्यसंभाषा"
+    },
+    {
+      "term_id": "ITA-1.8.1",
+      "english": "Investigation, examination",
+      "iast": "parīkṣā",
+      "before": "परीक्",
+      "after": "परीक्षा"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "total_chapters": 10,
+  "chapters": {
+    "1": {
+      "name": "Background Concepts",
+      "term_count": 323,
+      "section_count": 11,
+      "ita_code_prefix": "ITA-1"
+    },
+    "2": {
+      "name": "Core Concepts",
+      "term_count": 207,
+      "section_count": 9,
+      "ita_code_prefix": "ITA-2"
+    },
+    "3": {
+      "name": "Structure (Anatomical Terms)",
+      "term_count": 438,
+      "section_count": 16,
+      "ita_code_prefix": "ITA-3"
+    },
+    "4": {
+      "name": "Morbidity & Diagnostic Terms (General)",
+      "term_count": 160,
+      "section_count": 8,
+      "ita_code_prefix": "ITA-4"
+    },
+    "5": {
+      "name": "Morbidity & Diagnostic Terms (Disorders)",
+      "term_count": 1297,
+      "section_count": 76,
+      "ita_code_prefix": "ITA-5"
+    },
+    "6": {
+      "name": "Materials",
+      "term_count": 127,
+      "section_count": 2,
+      "ita_code_prefix": "ITA-6"
+    },
+    "7": {
+      "name": "Preparation of Medicines",
+      "term_count": 195,
+      "section_count": 2,
+      "ita_code_prefix": "ITA-7"
+    },
+    "8": {
+      "name": "Preparation of Food",
+      "term_count": 113,
+      "section_count": 3,
+      "ita_code_prefix": "ITA-8"
+    },
+    "9": {
+      "name": "Treatment",
+      "term_count": 661,
+      "section_count": 9,
+      "ita_code_prefix": "ITA-9"
+    },
+    "10": {
+      "name": "Preventive Healthcare",
+      "term_count": 26,
+      "section_count": 3,
+      "ita_code_prefix": "ITA-10"
+    }
+  }
+}

@@ -1,0 +1,2191 @@
+WHO ITA KNOWLEDGE BASE VERIFICATION REPORT
+============================================================
+Generated: 2026-01-07T15:23:49.292691
+Total Terms: 427
+PDF Source: WHO STANDARD AYURVEDA TERMINOLOGIES-eng.pdf
+
+
+============================================================
+CHAPTER 1: Background Terminology
+============================================================
+
+[ITA-1.1.1]
+  English:    Ayurveda
+  IAST:       Āyurvedaḥ
+  Devanagari: आयुर्वेदः
+
+[ITA-1.10.1]
+  English:    Major triad of
+  IAST:       bṛhattrayī
+  Devanagari: बृहत्त्रयी
+
+[ITA-1.10.2]
+  English:    Lesser triad of
+  IAST:       Laghutrayī
+  Devanagari: लघुत्रयी
+
+[ITA-1.10.3]
+  English:    Materia medica
+  IAST:       nighaṇṭuḥ
+  Devanagari: निघण्टुः
+
+[ITA-1.11.1]
+  English:    Ten items for clinical
+  IAST:       daśavidhaparīkṣy-
+  Devanagari: दशविधपरीक्ष्य-
+
+[ITA-1.11.3]
+  English:    Tool, instrument
+  IAST:       karaṇam
+  Devanagari: करणम
+
+[ITA-1.11.4]
+  English:    Substratum of
+  IAST:       kāryayoniḥ
+  Devanagari: कार्ययोनिः
+
+[ITA-1.2.1]
+  English:    Life process, cycle or
+  IAST:       
+  Devanagari: 
+
+[ITA-1.2.2]
+  English:    Salutary life
+  IAST:       hitāyuḥ
+  Devanagari: हितायुः
+
+[ITA-1.2.3]
+  English:    Unsalutary life
+  IAST:       ahitāyuḥ
+  Devanagari: अहितायुः
+
+[ITA-1.4.10]
+  English:    Fertility treatment
+  IAST:       vajikaraṇacikitsa,
+  Devanagari: वजिकरनअचिकित्स
+
+[ITA-1.4.6]
+  English:    Head and neck
+  IAST:       śālakyatantra,
+  Devanagari: शालक्यतन्त्र
+
+[ITA-1.4.7]
+  English:    Surgery
+  IAST:       śalyacikitsā
+  Devanagari: शल्यचिकित्सा
+
+[ITA-1.4.9]
+  English:    Geriatrics
+  IAST:       rasāyanacikitsā,
+  Devanagari: रसायनचिकित्सा
+
+[ITA-1.5.5]
+  English:    Understanding
+  IAST:       jñānam
+  Devanagari: ज्ञानम
+
+[ITA-1.6.18]
+  English:    Decision based on
+  IAST:       nirṇayaḥ
+  Devanagari: निर्णयः
+
+[ITA-1.6.21]
+  English:    Objecting or opposing
+  IAST:       pūrvapakṣaḥ
+  Devanagari: पूर्वपक्षः
+
+[ITA-1.6.23]
+  English:    Partial description
+  IAST:       pradeśaḥ
+  Devanagari: प्रदेशः
+
+[ITA-1.6.26]
+  English:    Union, compounding
+  IAST:       yogaḥ
+  Devanagari: योगः
+
+[ITA-1.6.31]
+  English:    Lucid explanation
+  IAST:       vyākhyānam
+  Devanagari: व्याख्यानम
+
+[ITA-1.7.13]
+  English:    Perverted or deceitful
+  IAST:       chalaḥ
+  Devanagari: छलः
+
+[ITA-1.7.15]
+  English:    Inquisitiveness
+  IAST:       jijñāsā
+  Devanagari: जिज्ञासा
+
+[ITA-1.7.5]
+  English:    Question
+  IAST:       anuyogaḥ
+  Devanagari: अनुयोगः
+
+[ITA-1.8.2.14]
+  English:    
+  IAST:       aupādhika
+  Devanagari: औपाधिक
+
+[ITA-1.8.2.20]
+  English:    
+  IAST:       prakaraṇasamaḥ
+  Devanagari: प्रकरणसमः
+
+[ITA-1.8.2.30]
+  English:    
+  IAST:       samavāyikāraṇam
+  Devanagari: समवायिकारणम
+
+[ITA-1.8.2.5]
+  English:    Cause or variable
+  IAST:       sadhetu
+  Devanagari: सधेतु
+
+[ITA-1.8.2.6]
+  English:    Independent variable
+  IAST:       sādhana
+  Devanagari: साधन
+
+[ITA-1.8.2.7]
+  English:    Dependent variable
+  IAST:       sādhya
+  Devanagari: साध्य
+
+[ITA-1.8.2.9]
+  English:    Invariable
+  IAST:       avinābhāvasaṃbandhaḥ
+  Devanagari: अविनाभावसंबन्धः
+
+[ITA-1.8.3]
+  English:    Proof, means of
+  IAST:       pramāṇaḥ
+  Devanagari: प्रमाणः
+
+[ITA-1.8.3.3]
+  English:    Analogy
+  IAST:       upamānaḥ
+  Devanagari: उपमानः
+
+[ITA-1.8.3.5]
+  English:    Object denoted by a
+  IAST:       padārthaḥ
+  Devanagari: पदार्थः
+
+[ITA-1.9.3.2.12]
+  English:    
+  IAST:       caturviṃśati-puruṣaḥ
+  Devanagari: चतुर्विंशति-पुरुषः
+
+[ITA-1.9.3.2.14]
+  English:    
+  IAST:       niṣkriyaḥ
+  Devanagari: निष्क्रियः
+
+[ITA-1.9.3.2.16]
+  English:    
+  IAST:       anādi
+  Devanagari: अनादि
+
+[ITA-1.9.3.2.23]
+  English:    
+  IAST:       svatantra
+  Devanagari: स्वतन्त्र
+
+[ITA-1.9.3.3.25]
+  English:    
+  IAST:       damaḥ
+  Devanagari: दमः
+
+[ITA-1.9.3.3.27]
+  English:    
+  IAST:       lajjā
+  Devanagari: लज्जा
+
+[ITA-1.9.3.3.5]
+  English:    Trans-sense
+  IAST:       indriyāntara-sañcāraḥ
+  Devanagari: इन्द्रियान्तर-सञ्चारः
+
+[ITA-1.9.3.7.2]
+  English:    
+  IAST:       cetana-dravyam/
+  Devanagari: चेतन-द्रव्यम/
+
+[ITA-1.9.3.7.8]
+  English:    
+  IAST:       latā
+  Devanagari: लता
+
+[ITA-1.9.4.2.2]
+  English:    Heaviness
+  IAST:       guruḥ
+  Devanagari: गुरुः
+
+[ITA-1.9.4.3.2]
+  English:    Intelligence, intellect
+  IAST:       buddhiḥ
+  Devanagari: बुद्धिः
+
+[ITA-1.9.4.4.3]
+  English:    
+  IAST:       aparatvam
+  Devanagari: अपरत्वम
+
+[ITA-1.9.7.4]
+  English:    Absolute nonexistence Absolute nonexistence, without beginning or end.
+  IAST:       atyantābhāvaḥ
+  Devanagari: अत्यन्ताभावः
+
+[ITA-1.9.7.5]
+  English:    Mutual nonexistence
+  IAST:       anyonyābhāvaḥ
+  Devanagari: अञोञाभावः
+
+
+============================================================
+CHAPTER 10: Panchakarma and Rasayana
+============================================================
+
+[ITA-10.1.1]
+  English:    Healthy person
+  IAST:       svasthaḥ
+  Devanagari: स्वस्थः
+
+[ITA-10.1.2]
+  English:    Positive attributes of
+  IAST:       svāsthyam, ārogyam
+  Devanagari: स्वास्थ्यम, आरोग्यम
+
+[ITA-10.1.3]
+  English:    Routine(s) for health
+  IAST:       svasthavṛttaḥ
+  Devanagari: स्वस्थवृत्तः
+
+[ITA-10.2.1]
+  English:    Three pillars to
+  IAST:       trayopastambhaḥ
+  Devanagari: त्रयोपस्तम्भः
+
+[ITA-10.2.10]
+  English:    Sleep
+  IAST:       nidrā
+  Devanagari: निद्रा
+
+[ITA-10.2.11]
+  English:    Dream
+  IAST:       svapnam
+  Devanagari: स्वप्नम
+
+[ITA-10.2.12]
+  English:    Celibacy
+  IAST:       brahmacaryam
+  Devanagari: ब्रह्मचर्यम
+
+[ITA-10.2.13]
+  English:    
+  IAST:       
+  Devanagari: 
+
+[ITA-10.2.14]
+  English:    Activities
+  IAST:       vihāraḥ
+  Devanagari: विहारः
+
+[ITA-10.2.2]
+  English:    Food
+  IAST:       āhāraḥ
+  Devanagari: आहारः
+
+[ITA-10.2.3]
+  English:    Eight factors for
+  IAST:       āhāravidhiviśeṣāyatanam
+  Devanagari: आहारविधिविशेषायतनम
+
+[ITA-10.2.4]
+  English:    Factors facilitating
+  IAST:       āhāra pariṇāma
+  Devanagari: आहार परिणाम
+
+[ITA-10.2.5]
+  English:    Diet-transition
+  IAST:       pādāṃśikakramaḥ
+  Devanagari: पादांशिकक्रमः
+
+[ITA-10.2.6]
+  English:    Appropriate time for
+  IAST:       praśasta-āhārakālaḥ
+  Devanagari: प्रशस्त-आहारकालः
+
+[ITA-10.2.7]
+  English:    Agreeable to nature
+  IAST:       sātmyam
+  Devanagari: सात्म्यम
+
+[ITA-10.2.8]
+  English:    Combining wholesome
+  IAST:       samaśanam
+  Devanagari: समशनम
+
+[ITA-10.2.9]
+  English:    Unsuitable timing and
+  IAST:       viṣamāśanam
+  Devanagari: विषमाशनम
+
+[ITA-10.3.1]
+  English:    Daily routine
+  IAST:       dinacaryā
+  Devanagari: दिनचर्या
+
+[ITA-10.3.2]
+  English:    Night routine
+  IAST:       rātricaryā
+  Devanagari: रात्रिचर्या
+
+[ITA-10.3.3]
+  English:    Seasonal routine
+  IAST:       ṛtucaryā
+  Devanagari: ऋतुचर्या
+
+[ITA-10.3.4]
+  English:    Transition period be
+  IAST:       ṛtusandhiḥ
+  Devanagari: ऋतुसन्धिः
+
+[ITA-10.3.5]
+  English:    Abnormal seasonal
+  IAST:       vyāpannaṛtu, ṛtuvipa-
+  Devanagari: व्यापन्नऋतु, ऋतुविप-
+
+[ITA-10.3.6]
+  English:    Seasonal cleansing
+  IAST:       ṛtuśodhanam
+  Devanagari: ऋतुशोधनम
+
+[ITA-10.3.7]
+  English:    Harmonious way of
+  IAST:       sadvṛttam
+  Devanagari: सद्वृत्तम
+
+[ITA-10.3.8]
+  English:    Code and conduct
+  IAST:       ācārarasāyanam
+  Devanagari: आचाररसायनम
+
+[ITA-10.3.9]
+  English:    Immunity
+  IAST:       vyādhikṣamatva
+  Devanagari: व्याधिक्षमत्व
+
+
+============================================================
+CHAPTER 2: Core Concepts (Maulika Siddhanta)
+============================================================
+
+[ITA-2.1.1]
+  English:    Dosha
+  IAST:       doṣaḥ
+  Devanagari: दोषः
+
+[ITA-2.1.1.1]
+  English:    Vata, dosha regulating
+  IAST:       vātaḥ
+  Devanagari: वातः
+
+[ITA-2.1.1.10]
+  English:    
+  IAST:       niḥśvāsaḥ
+  Devanagari: निःश्वासः
+
+[ITA-2.1.1.11]
+  English:    
+  IAST:       ceṣṭā
+  Devanagari: चेष्टा
+
+[ITA-2.1.1.12]
+  English:    
+  IAST:       gatiḥ
+  Devanagari: गतिः
+
+[ITA-2.1.1.13]
+  English:    
+  IAST:       nimeṣaḥ
+  Devanagari: निमेषः
+
+[ITA-2.1.1.7]
+  English:    Functions of vata
+  IAST:       vāta-karma
+  Devanagari: वात-कर्म
+
+[ITA-2.1.2]
+  English:    Three doshas
+  IAST:       tridoṣaḥ, śārīrikadoṣa
+  Devanagari: त्रिदोषः, शारीरिकदोष
+
+[ITA-2.1.2.1]
+  English:    Pitta, dosha regulating
+  IAST:       pittam
+  Devanagari: पित्तम
+
+[ITA-2.1.2.3]
+  English:    Colouring pitta
+  IAST:       
+  Devanagari: रञ्जकपितम
+
+[ITA-2.1.3.8]
+  English:    Patience
+  IAST:       kṣamā
+  Devanagari: क्षमा
+
+[ITA-2.2.17]
+  English:    Replenishment
+  IAST:       pūraṇam
+  Devanagari: पूरणम
+
+[ITA-2.2.19]
+  English:    Semen
+  IAST:       retas
+  Devanagari: रेतस
+
+[ITA-2.2.21]
+  English:    Male seed
+  IAST:       puṃbījam
+  Devanagari: पुंबीजम
+
+[ITA-2.2.25]
+  English:    Ojas
+  IAST:       ojas
+  Devanagari: ओजस
+
+[ITA-2.2.30]
+  English:    Seasonal strength
+  IAST:       kālaja-balam
+  Devanagari: कालज-बलम
+
+[ITA-2.2.4]
+  English:    Primary circulating
+  IAST:       rasa-dhātuḥ, rasaḥ
+  Devanagari: रस-धातुः, रसः
+
+[ITA-2.2.6]
+  English:    Giving life
+  IAST:       jīvanam
+  Devanagari: जीवनम
+
+[ITA-2.3.1]
+  English:    Supportive structural
+  IAST:       upadhātuḥ
+  Devanagari: उपधातुः
+
+[ITA-2.3.2]
+  English:    Breast milk
+  IAST:       stanyam
+  Devanagari: स्तञम
+
+[ITA-2.4.11]
+  English:    Sebum
+  IAST:       lomakūpamalaḥ
+  Devanagari: लोमकूपमलः
+
+[ITA-2.4.8]
+  English:    Rheum
+  IAST:       akṣimalaḥ
+  Devanagari: अक्षिमलः
+
+[ITA-2.5.12]
+  English:    Blood vessels
+  IAST:       asṛgvahā
+  Devanagari: असृग्वहा
+
+[ITA-2.5.16]
+  English:    Channel carrying
+  IAST:       majjāvahasrotaḥ
+  Devanagari: मज्जावहस्रोतः
+
+[ITA-2.5.17]
+  English:    Channel carrying
+  IAST:       śukravahasrotaḥ
+  Devanagari: शुक्रवहस्रोतः
+
+[ITA-2.6.12]
+  English:    Metabolic factors
+  IAST:       rasadhātvagniḥ
+  Devanagari: रसधात्वग्निः
+
+[ITA-2.6.13]
+  English:    Metabolic factors
+  IAST:       raktadhātvagniḥ
+  Devanagari: रक्तधात्वग्निः
+
+[ITA-2.6.22]
+  English:    Chyle
+  IAST:       āhārarasaḥ
+  Devanagari: आहाररसः
+
+[ITA-2.6.31]
+  English:    Nutrient part of food
+  IAST:       prasādaḥ
+  Devanagari: प्रसादः
+
+[ITA-2.6.37]
+  English:    Bowel habit
+  IAST:       koṣṭhaḥ
+  Devanagari: कोष्ठः
+
+[ITA-2.6.40]
+  English:    Costive bowel habit
+  IAST:       krūra-koṣṭhaḥ
+  Devanagari: क्रूर-कोष्ठः
+
+[ITA-2.8.1.2]
+  English:    Person with predomi
+  IAST:       tvak-sāraḥ, rasa sāraḥ
+  Devanagari: त्वक-सारः, रस सारः
+
+[ITA-2.8.1.4]
+  English:    Person with
+  IAST:       māṃsa-sāraḥ
+  Devanagari: मांस-सारः
+
+[ITA-2.8.1.9]
+  English:    
+  IAST:       Characterized by features such as good memory; devotion;
+  Devanagari: छरच्तेरिएद ब्य एअतुरेस सुछ अस गोओद मेमोर्य; देवोतिओन;
+
+[ITA-2.8.14]
+  English:    Person with brave
+  IAST:       vāruṇakāyaḥ
+  Devanagari: वारुणकायः
+
+[ITA-2.8.15]
+  English:    Person with wealthy
+  IAST:       kauberakāyaḥ
+  Devanagari: कौबेरकायः
+
+[ITA-2.8.16]
+  English:    Person with artistic
+  IAST:       gandharvakāyaḥ
+  Devanagari: गन्धर्वकायः
+
+[ITA-2.8.17]
+  English:    Person with judicious
+  IAST:       yāmyakāyaḥ
+  Devanagari: याम्यकायः
+
+[ITA-2.8.19]
+  English:    Person with agitated
+  IAST:       rājasikakāyaḥ
+  Devanagari: राजसिककायः
+
+[ITA-2.8.23]
+  English:    Person with intolerant
+  IAST:       rākṣasakāyaḥ
+  Devanagari: राक्षसकायः
+
+[ITA-2.8.26]
+  English:    Person with inertial
+  IAST:       tāmasakāyaḥ
+  Devanagari: तामसकायः
+
+[ITA-2.8.27]
+  English:    Person with cowardly
+  IAST:       pāśavakāyaḥ
+  Devanagari: पाशवकायः
+
+[ITA-2.8.28]
+  English:    Person with timid
+  IAST:       matsyakāyaḥ
+  Devanagari: मत्स्यकायः
+
+[ITA-2.8.29]
+  English:    Person with lazy
+  IAST:       vānaspatyakāyaḥ
+  Devanagari: वानस्पत्यकायः
+
+[ITA-2.8.7]
+  English:    Body constitution with
+  IAST:       pittakaphaprakṛtiḥ
+  Devanagari: पित्तकफप्रकृतिः
+
+[ITA-2.9.1.16]
+  English:    
+  IAST:       āsannaprasavaḥ
+  Devanagari: आसन्नप्रसवः
+
+
+============================================================
+CHAPTER 3: Anatomy (Rachana Sharira)
+============================================================
+
+[ITA-3.1.1]
+  English:    Knowledge pertaining
+  IAST:       śārīraḥ
+  Devanagari: शारीरः
+
+[ITA-3.1.10]
+  English:    A subsidiary body part
+  IAST:       upāṅgaḥ
+  Devanagari: उपांगः
+
+[ITA-3.1.11]
+  English:    Orifice
+  IAST:       chidram, dvāram,
+  Devanagari: छिद्रम, द्वारम
+
+[ITA-3.1.12]
+  English:    Cavity
+  IAST:       kūṭaḥ
+  Devanagari: कूटः
+
+[ITA-3.1.13]
+  English:    Covering
+  IAST:       chadanam
+  Devanagari: छदनम
+
+[ITA-3.1.6]
+  English:    Body part
+  IAST:       aṅgaḥ
+  Devanagari: अंगः
+
+[ITA-3.10.1.1]
+  English:    
+  IAST:       tvak, carma, valkam
+  Devanagari: त्वक, चर्म, वल्कम
+
+[ITA-3.10.1.19]
+  English:    
+  IAST:       upanakham
+  Devanagari: उपनखम
+
+[ITA-3.10.1.9]
+  English:    
+  IAST:       keśaḥ, mastakabālaḥ
+  Devanagari: केशः, मस्तकबालः
+
+[ITA-3.12.2]
+  English:    Muscle-bearing
+  IAST:       māṃsadharākalā
+  Devanagari: मांसधराकला
+
+[ITA-3.12.3]
+  English:    Blood-bearing
+  IAST:       Raktadharākalā
+  Devanagari: रक्तधराकला
+
+[ITA-3.13.17]
+  English:    
+  IAST:       uraḥphalakaḥ
+  Devanagari: उरःफलकः
+
+[ITA-3.13.18]
+  English:    
+  IAST:       parśukā
+  Devanagari: पर्शुका
+
+[ITA-3.13.2]
+  English:    Part of bone
+  IAST:       asthikhaṇḍaḥ
+  Devanagari: अस्थिखण्डः
+
+[ITA-3.13.24]
+  English:    
+  IAST:       śroṇīkarṇaḥ
+  Devanagari: श्रोणीकर्णः
+
+[ITA-3.13.40]
+  English:    
+  IAST:       ulūkhalasandhiḥ
+  Devanagari: उलूखलसन्धिः
+
+[ITA-3.13.6]
+  English:    Teeth
+  IAST:       rucakāsthi
+  Devanagari: रुचकास्थि
+
+[ITA-3.13.67]
+  English:    
+  IAST:       māṃsajālam
+  Devanagari: मांसजालम
+
+[ITA-3.13.68]
+  English:    
+  IAST:       sirājālam
+  Devanagari: सिराजालम
+
+[ITA-3.15.1]
+  English:    Artery
+  IAST:       Dhamanī
+  Devanagari: धमनी
+
+[ITA-3.16.10]
+  English:    
+  IAST:       pṛṣṭhamarma
+  Devanagari: पृष्ठमर्म
+
+[ITA-3.16.12]
+  English:    
+  IAST:       Māṃsamarma
+  Devanagari: मांसमर्म
+
+[ITA-3.16.31]
+  English:    
+  IAST:       talahṛdayam (marma)
+  Devanagari: तलहृदयम (मर्म)
+
+[ITA-3.16.7]
+  English:    Vulnerable location(s)
+  IAST:       Bāhumarma
+  Devanagari: बाहुमर्म
+
+[ITA-3.16.8]
+  English:    Vulnerable location(s)
+  IAST:       Udaramarma,
+  Devanagari: उदरमर्म
+
+[ITA-3.2.1.18]
+  English:    
+  IAST:       aśrumārgaḥ
+  Devanagari: अश्रुमार्गः
+
+[ITA-3.2.1.28]
+  English:    
+  IAST:       vartmamaṇḍalam
+  Devanagari: वर्त्ममण्डलम
+
+[ITA-3.2.1.30]
+  English:    
+  IAST:       kṛṣṇa-maṇḍalam
+  Devanagari: कृष्ण-मण्डलम
+
+[ITA-3.2.1.4]
+  English:    Eyelid
+  IAST:       Vartma, netrakośaḥ,
+  Devanagari: वर्त्म, नेत्रकोशः
+
+[ITA-3.2.2]
+  English:    Head
+  IAST:       śiraḥ, mūrdhā,
+  Devanagari: शिरः, मूर्धा
+
+[ITA-3.2.2.12]
+  English:    
+  IAST:       nāsikāpuṭam
+  Devanagari: नासिकापुटम
+
+[ITA-3.2.2.4]
+  English:    Bridge of the nose
+  IAST:       nāsāvaṃśaḥ,
+  Devanagari: नासावंशः
+
+[ITA-3.2.2.5]
+  English:    Upper part of
+  IAST:       ghrāṇamūlam
+  Devanagari: घ्राणमूलम
+
+[ITA-3.2.3.3]
+  English:    Conduits carrying
+  IAST:       śabdānuvahā,
+  Devanagari: शब्दानुवहा
+
+[ITA-3.2.4.27]
+  English:    
+  IAST:       adhijihvikā
+  Devanagari: अधिजिह्विका
+
+[ITA-3.3.11]
+  English:    Supporting structures
+  IAST:       aṃsabandhanam
+  Devanagari: अंसबन्धनम
+
+[ITA-3.3.3]
+  English:    Base of the neck
+  IAST:       jatrumūlam
+  Devanagari: जत्रुमूलम
+
+[ITA-3.3.5]
+  English:    Trunk
+  IAST:       antarādhiḥ
+  Devanagari: अन्तराधिः
+
+[ITA-3.7.17]
+  English:    Vertebral column
+  IAST:       pṛṣṭhavaṃśaḥ, pṛṣṭheṣikā
+  Devanagari: पृष्ठवंशः, पृष्ठेषिका
+
+[ITA-3.8.1]
+  English:    Upper limb
+  IAST:       bāhuḥ, bhujā
+  Devanagari: बाहुः, भुजा
+
+[ITA-3.8.10]
+  English:    Hand, manus
+  IAST:       pāṇiḥ, karaḥ, hastaḥ
+  Devanagari: पाणिः, करः, हस्तः
+
+[ITA-3.8.22]
+  English:    Tip of the finger
+  IAST:       aṅgulyagram
+  Devanagari: अंगुल्यग्रम
+
+[ITA-3.8.25]
+  English:    Thumb pad
+  IAST:       aṅguṣṭhodaram
+  Devanagari: अंगुष्ठोदरम
+
+[ITA-3.8.3]
+  English:    Posterior part of
+  IAST:       bāhupṛṣṭham
+  Devanagari: बाहुपृष्ठम
+
+[ITA-3.9.15]
+  English:    Toes
+  IAST:       pādāṅguliḥ
+  Devanagari: पादांगुलिः
+
+
+============================================================
+CHAPTER 4: Morbidity Terms (Vikriti Vijnana)
+============================================================
+
+[ITA-4.1.1]
+  English:    Diagnosis
+  IAST:       vyādhiviniścayaḥ,
+  Devanagari: व्याधिविनिश्चयः
+
+[ITA-4.2.1]
+  English:    Disease
+  IAST:       
+  Devanagari: 
+
+[ITA-4.2.10]
+  English:    Diseases caused by
+  IAST:       vāyavyarogaḥ
+  Devanagari: वायव्यरोगः
+
+[ITA-4.2.11]
+  English:    Intrinsic or endoge
+  IAST:       ādhyātmikarogaḥ
+  Devanagari: आध्यात्मिकरोगः
+
+[ITA-4.2.12]
+  English:    Hereditary diseases
+  IAST:       ādibalapravṛttarogaḥ
+  Devanagari: आदिबलप्रवृत्तरोगः
+
+[ITA-4.2.14]
+  English:    Hereditary diseases
+  IAST:       pitṛjarogaḥ
+  Devanagari: पितृजरोगः
+
+[ITA-4.2.20]
+  English:    Diseases of the lower
+  IAST:       pakvāśayasamuttharogaḥ
+  Devanagari: पक्वाशयसमुत्थरोगः
+
+[ITA-4.2.21]
+  English:    Extrinsic, exogenous
+  IAST:       ādhibhautikarogaḥ
+  Devanagari: आधिभौतिकरोगः
+
+[ITA-4.2.27]
+  English:    Diseases resulting
+  IAST:       vyāpannartukṛtarogaḥ
+  Devanagari: व्यापन्नर्तुकृतरोगः
+
+[ITA-4.2.28]
+  English:    Diseases resulting
+  IAST:       avyāpannartukṛtarogaḥ
+  Devanagari: अव्यापन्नर्तुकृतरोगः
+
+[ITA-4.2.39]
+  English:    Diseases that are
+  IAST:       sukhasādhyarogaḥ
+  Devanagari: सुखसाध्यरोगः
+
+[ITA-4.2.4]
+  English:    Two types of
+  IAST:       dvividha-mānasika-rogaḥ
+  Devanagari: द्विविध-मानसिक-रोगः
+
+[ITA-4.2.40]
+  English:    Diseases that are
+  IAST:       kṛcchrasādhyarogaḥ
+  Devanagari: कृच्छ्रसाध्यरोगः
+
+[ITA-4.2.41]
+  English:    Diseases that
+  IAST:       asādhyarogaḥ
+  Devanagari: असाध्यरोगः
+
+[ITA-4.2.8]
+  English:    Diseases caused by
+  IAST:       āgneyarogaḥ
+  Devanagari: आग्नेयरोगः
+
+[ITA-4.3.2]
+  English:    Five diagnostic
+  IAST:       nidānapañcakaḥ
+  Devanagari: निदानपञ्चकः
+
+[ITA-4.4.16]
+  English:    Primary or independent
+  IAST:       anubandhyaḥ
+  Devanagari: अनुबन्ध्यः
+
+[ITA-4.4.17]
+  English:    Secondary or
+  IAST:       anubandhaḥ
+  Devanagari: अनुबन्धः
+
+[ITA-4.4.22]
+  English:    Four types of
+  IAST:       caturvidhahetuḥ
+  Devanagari: चतुर्विधहेतुः
+
+[ITA-4.4.23]
+  English:    Proximate cause
+  IAST:       sannikṛṣṭahetuḥ
+  Devanagari: सन्निकृष्टहेतुः
+
+[ITA-4.4.5]
+  English:    Extrinsic cause
+  IAST:       bāhyahetuḥ
+  Devanagari: बाह्यहेतुः
+
+[ITA-4.5.11]
+  English:    Treatment with
+  IAST:       viparītārthakārī
+  Devanagari: विपरीतार्थकारी
+
+[ITA-4.5.16]
+  English:    Evolution or natural
+  IAST:       samprāptiḥ, jātiḥ, āgatiḥ
+  Devanagari: सम्प्राप्तिः, जातिः, आगतिः
+
+[ITA-4.5.21]
+  English:    Fraction-specific
+  IAST:       vikalpasamprāptiḥ
+  Devanagari: विकल्पसम्प्राप्तिः
+
+[ITA-4.5.22]
+  English:    Intensity-specific
+  IAST:       balasamprāptiḥ
+  Devanagari: बलसम्प्राप्तिः
+
+[ITA-4.5.24]
+  English:    Complication
+  IAST:       upadravaḥ
+  Devanagari: उपद्रवः
+
+[ITA-4.5.26]
+  English:    Patient-related
+  IAST:       āturanimittajaḥ
+  Devanagari: आतुरनिमित्तजः
+
+[ITA-4.5.27]
+  English:    Physician-related
+  IAST:       bhiṣaṅnimittajaḥ
+  Devanagari: भिषंनिमित्तजः
+
+[ITA-4.5.4]
+  English:    General prodrome
+  IAST:       sāmānyapūrvarūpam
+  Devanagari: सामाञपूर्वरूपम
+
+[ITA-4.5.5]
+  English:    Signs and symptoms
+  IAST:       
+  Devanagari: 
+
+[ITA-4.5.7]
+  English:    Types of therapeutic
+  IAST:       upaśayabhedaḥ
+  Devanagari: उपशयभेदः
+
+[ITA-4.6.11]
+  English:    Stage of clinical
+  IAST:       vyaktiḥ
+  Devanagari: व्यक्तिः
+
+[ITA-4.6.4]
+  English:    Ripened stage of
+  IAST:       pakvāvasthā
+  Devanagari: पक्वावस्था
+
+[ITA-4.7.4]
+  English:    Eight methods of
+  IAST:       aṣṭasthānaparīkṣā
+  Devanagari: अष्टस्थानपरीक्षा
+
+[ITA-4.8.11]
+  English:    Disease pathogenesis
+  IAST:       rogādhiṣṭhānam
+  Devanagari: रोगाधिष्ठानम
+
+[ITA-4.8.12]
+  English:    Vitiated dosha
+  IAST:       līnadoṣāvasthā
+  Devanagari: लीनदोषावस्था
+
+[ITA-4.8.14]
+  English:    Correctly located
+  IAST:       sthānikadoṣaḥ
+  Devanagari: स्थानिकदोषः
+
+[ITA-4.8.18]
+  English:    Abnormal state
+  IAST:       vikṛtiḥ
+  Devanagari: विकृतिः
+
+[ITA-4.8.21]
+  English:    Shifting of dosha from
+  IAST:       śākhāgatiḥ
+  Devanagari: शाखागतिः
+
+[ITA-4.8.31]
+  English:    Mind as seat of
+  IAST:       manodhiśṭānaṃ
+  Devanagari: मनोधिश्टानं
+
+[ITA-4.8.35]
+  English:    Dependant, secondary
+  IAST:       paratantra
+  Devanagari: परतन्त्र
+
+[ITA-4.8.40]
+  English:    Conditions amenable
+  IAST:       śastrasādhya
+  Devanagari: शस्त्रसाध्य
+
+[ITA-4.8.42]
+  English:    Disease
+  IAST:       upadravaroga
+  Devanagari: उपद्रवरोग
+
+[ITA-4.8.8]
+  English:    Body channel
+  IAST:       sirāgranthiḥ
+  Devanagari: सिराग्रन्थिः
+
+
+============================================================
+CHAPTER 5: Disorders (Roga Vijnana)
+============================================================
+
+[ITA-5.1.1]
+  English:    Disorder
+  IAST:       vikāraḥ
+  Devanagari: विकारः
+
+[ITA-5.10.1]
+  English:    Haemorrhoids
+  IAST:       arśaḥ
+  Devanagari: अर्शः
+
+[ITA-5.10.2]
+  English:    Haemorrhoids due to
+  IAST:       vātajārśaḥ
+  Devanagari: वातजार्शः
+
+[ITA-5.10.3]
+  English:    Haemorrhoids due to
+  IAST:       pittajārśaḥ
+  Devanagari: पित्तजार्शः
+
+[ITA-5.10.4]
+  English:    Haemorrhoids due to
+  IAST:       kaphajārśaḥ
+  Devanagari: कफजार्शः
+
+[ITA-5.18.3]
+  English:    Cough due to
+  IAST:       pittajakāsaḥ
+  Devanagari: पित्तजकासः
+
+[ITA-5.2.1.12]
+  English:    Aggravation of
+  IAST:       āmāśayagatavātaḥ
+  Devanagari: आमाशयगतवातः
+
+[ITA-5.2.1.41]
+  English:    Lameness
+  IAST:       khañjaḥ
+  Devanagari: खञ्जः
+
+[ITA-5.2.2.4]
+  English:    Aggravation of pitta
+  IAST:       pittaprakopaḥ/
+  Devanagari: पित्तप्रकोपः/
+
+[ITA-5.20.1]
+  English:    Dyspnoea
+  IAST:       śvāsaḥ
+  Devanagari: श्वासः
+
+[ITA-5.20.6]
+  English:    Mild dyspnoea
+  IAST:       kṣudraśvāsaḥ
+  Devanagari: क्षुद्रश्वासः
+
+[ITA-5.31.1]
+  English:    Stiff thighs with loss
+  IAST:       ūrustambhaḥ
+  Devanagari: ऊरुस्तम्भः
+
+[ITA-5.4.12]
+  English:    Debris deposition at
+  IAST:       jihvāmūlagatamalaḥ
+  Devanagari: जिह्वामूलगतमलः
+
+[ITA-5.40.2]
+  English:    Prodromal symptoms
+  IAST:       aśmarī-pūrvarūpam
+  Devanagari: अश्मरी-पूर्वरूपम
+
+[ITA-5.41.1.7]
+  English:    Carbuncle character
+  IAST:       sarṣapikā-
+  Devanagari: सर्षपिका-
+
+[ITA-5.41.18]
+  English:    
+  IAST:       kṣāramehaḥ
+  Devanagari: क्षारमेहः
+
+[ITA-5.43.4]
+  English:    Abdominal enlarge
+  IAST:       kaphaja-udararogaḥ
+  Devanagari: कफज-उदररोगः
+
+[ITA-5.44.4]
+  English:    Oedema due to
+  IAST:       kaphajaśophaḥ
+  Devanagari: कफजशोफः
+
+[ITA-5.44.7]
+  English:    Oedema due to
+  IAST:       abhighātajaśophaḥ/
+  Devanagari: अभिघातजशोफः/
+
+[ITA-5.49.1]
+  English:    Nodular swelling, cyst
+  IAST:       granthiḥ
+  Devanagari: ग्रन्थिः
+
+[ITA-5.5.11]
+  English:    Vitiation of channels
+  IAST:       shukravahasrotoduṣṭiḥ
+  Devanagari: शुक्रवहस्रोतोदुष्टिः
+
+[ITA-5.52.5]
+  English:    Abscess due to
+  IAST:       sannipātajavidradhiḥ
+  Devanagari: सन्निपातजविद्रधिः
+
+[ITA-5.56.6]
+  English:    Deep ulcer with
+  IAST:       śalyanimittajanāḍīvraṇaḥ
+  Devanagari: शल्यनिमित्तजनाडीव्रणः
+
+[ITA-5.58.15]
+  English:    
+  IAST:       śoṇitārbudaḥ
+  Devanagari: शोणितार्बुदः
+
+[ITA-5.6.3]
+  English:    Fever due to
+  IAST:       vātajvaraḥ
+  Devanagari: वातज्वरः
+
+[ITA-5.6.8]
+  English:    Prodromal symptoms
+  IAST:       Kaphajvarapūrvarūpam
+  Devanagari: कफज्वरपूर्वरूपम
+
+[ITA-5.62.9]
+  English:    Circular blood
+  IAST:       gardabhikā
+  Devanagari: गर्दभिका
+
+[ITA-5.63.21]
+  English:    
+  IAST:       karālaḥ
+  Devanagari: करालः
+
+[ITA-5.63.5]
+  English:    Disorders of lip due
+  IAST:       kaphaja-oṣṭhaprakopaḥ
+  Devanagari: कफज-ओष्ठप्रकोपः
+
+[ITA-5.64.23]
+  English:    
+  IAST:       utpātaḥ
+  Devanagari: उत्पातः
+
+[ITA-5.66.25]
+  English:    
+  IAST:       ajakā
+  Devanagari: अजका
+
+[ITA-5.66.74]
+  English:    
+  IAST:       arśovartma
+  Devanagari: अर्शोवर्त्म
+
+[ITA-5.68.3]
+  English:    Dysfunctional uterine
+  IAST:       paittika-asṛgdaraḥ
+  Devanagari: पैत्तिक-असृग्दरः
+
+[ITA-5.71.2]
+  English:    Ophthalmia
+  IAST:       kukūṇaka
+  Devanagari: कुकूणक
+
+[ITA-5.73.4]
+  English:    Foreign body
+  IAST:       peśyantaragata-śalyaḥ
+  Devanagari: पेश्यन्तरगत-शल्यः
+
+[ITA-5.75.24]
+  English:    
+  IAST:       vyavāyamithyāyogaḥ/
+  Devanagari: व्यवायमिथ्यायोगः/
+
+[ITA-5.76.148]
+  English:    
+  IAST:       śastradaṇḍahate
+  Devanagari: शस्त्रदण्डहते
+
+[ITA-5.76.149]
+  English:    
+  IAST:       vyavāya vyāyāma
+  Devanagari: व्यवाय व्यायाम
+
+[ITA-5.76.186]
+  English:    
+  IAST:       tarpaṇahīnayogaḥ
+  Devanagari: तर्पणहीनयोगः
+
+[ITA-5.76.236]
+  English:    
+  IAST:       atisnigdhavraṇavarti-
+  Devanagari: अतिस्निग्धव्रणवर्ति-
+
+[ITA-5.76.24]
+  English:    
+  IAST:       vamanamithyāyogaḥ/
+  Devanagari: वमनमिथ्यायोगः/
+
+[ITA-5.76.3]
+  English:    Condition of sub
+  IAST:       snehana-ayogaḥ
+  Devanagari: स्नेहन-अयोगः
+
+[ITA-5.76.48]
+  English:    
+  IAST:       stambhaḥ-vamanavyāpat
+  Devanagari: स्तम्भः-वमनव्यापत
+
+[ITA-5.76.69]
+  English:    
+  IAST:       atirukṣa-virecanavyāpat
+  Devanagari: अतिरुक्ष-विरेचनव्यापत
+
+[ITA-5.76.78]
+  English:    
+  IAST:       vibhramśavirecanavyāpat
+  Devanagari: विभ्रम्शविरेचनव्यापत
+
+
+============================================================
+CHAPTER 6: Materia Medica (Dravya)
+============================================================
+
+[ITA-6.1.1]
+  English:    
+  IAST:       
+  Devanagari: 
+
+[ITA-6.1.10]
+  English:    Drugs of plant origin
+  IAST:       audbhidam
+  Devanagari: औद्भिदम
+
+[ITA-6.1.11]
+  English:    
+  IAST:       
+  Devanagari: 
+
+[ITA-6.1.12]
+  English:    Substitute drug
+  IAST:       pratinidhidravyam
+  Devanagari: प्रतिनिधिद्रव्यम
+
+[ITA-6.1.13]
+  English:    food, health practices
+  IAST:       
+  Devanagari: 
+
+[ITA-6.1.7]
+  English:    
+  IAST:       
+  Devanagari: 
+
+[ITA-6.1.8]
+  English:    
+  IAST:       
+  Devanagari: 
+
+[ITA-6.2.1]
+  English:    therapeutic principles
+  IAST:       
+  Devanagari: 
+
+[ITA-6.2.1.11]
+  English:    Group of bitter
+  IAST:       tiktaskandhaḥ
+  Devanagari: तिक्तस्कन्धः
+
+[ITA-6.2.1.14]
+  English:    Secondary taste
+  IAST:       anurasaḥ
+  Devanagari: अनुरसः
+
+[ITA-6.2.1.3]
+  English:    Group of sweet
+  IAST:       madhuraskandhaḥ
+  Devanagari: मधुरस्कन्धः
+
+[ITA-6.2.6.1]
+  English:    Pharmacological
+  IAST:       karma
+  Devanagari: कर्म
+
+[ITA-6.2.6.13]
+  English:    
+  IAST:       bhedanam
+  Devanagari: भेदनम
+
+[ITA-6.2.6.15]
+  English:    
+  IAST:       chedanam
+  Devanagari: छेदनम
+
+[ITA-6.2.6.21]
+  English:    
+  IAST:       śukralaḥ
+  Devanagari: शुक्रलः
+
+[ITA-6.2.6.22]
+  English:    
+  IAST:       śukraśodhanam
+  Devanagari: शुक्रशोधनम
+
+[ITA-6.2.6.24]
+  English:    
+  IAST:       ṣāṇḍhyakaraḥ, puṃstvo-
+  Devanagari: षाण्ढ्यकरः, पुंस्त्वो-
+
+[ITA-6.2.6.25]
+  English:    
+  IAST:       ārtavajananam
+  Devanagari: आर्तवजननम
+
+[ITA-6.2.6.29]
+  English:    Substance promoting
+  IAST:       netryam, cakṣuṣyam
+  Devanagari: नेत्र्यम, चक्षुष्यम
+
+[ITA-6.2.6.30]
+  English:    Substance clearing
+  IAST:       dṛkprasādanam
+  Devanagari: दृक्प्रसादनम
+
+[ITA-6.2.6.32]
+  English:    Substance enhancing
+  IAST:       svaryam
+  Devanagari: स्वर्यम
+
+[ITA-6.2.6.38]
+  English:    Rapidly acting
+  IAST:       āśukārī
+  Devanagari: आशुकारी
+
+[ITA-6.2.6.39]
+  English:    Substance spreading
+  IAST:       vyavāyī
+  Devanagari: व्यवायी
+
+[ITA-6.2.6.43]
+  English:    Substance maintain
+  IAST:       jīvanīyaḥ
+  Devanagari: जीवनीयः
+
+[ITA-6.2.6.52]
+  English:    
+  IAST:       purīṣajananam
+  Devanagari: पुरीषजननम
+
+[ITA-6.2.6.53]
+  English:    
+  IAST:       mūtrajananam
+  Devanagari: मूत्रजननम
+
+[ITA-6.2.6.54]
+  English:    
+  IAST:       yogavāhī
+  Devanagari: योगवाही
+
+[ITA-6.2.6.55]
+  English:    
+  IAST:       vraṇa-ropaṇaḥ
+  Devanagari: व्रण-रोपणः
+
+[ITA-6.2.6.56]
+  English:    
+  IAST:       vraṇyaḥ
+  Devanagari: व्रण्यः
+
+[ITA-6.2.6.59]
+  English:    
+  IAST:       vṛttikaraḥ
+  Devanagari: वृत्तिकरः
+
+[ITA-6.2.6.62]
+  English:    Substance enhancing
+  IAST:       vṛṣyam
+  Devanagari: वृष्यम
+
+[ITA-6.2.6.63]
+  English:    Unwholesome to ojas
+  IAST:       anaujasyam
+  Devanagari: अनौजस्यम
+
+[ITA-6.2.6.70]
+  English:    
+  IAST:       śvāsaharaḥ
+  Devanagari: श्वासहरः
+
+[ITA-6.2.6.71]
+  English:    
+  IAST:       saṃjñāsthāpanam
+  Devanagari: संज्ञास्थापनम
+
+[ITA-6.2.6.73]
+  English:    
+  IAST:       sandhānakaraḥ
+  Devanagari: सन्धानकरः
+
+[ITA-6.2.6.78]
+  English:    
+  IAST:       hikkānigrahaṇaḥ
+  Devanagari: हिक्कानिग्रहणः
+
+[ITA-6.2.6.79]
+  English:    
+  IAST:       bhagnasandhānam,
+  Devanagari: भग्नसन्धानम
+
+[ITA-6.2.6.80]
+  English:    
+  IAST:       keśavardhanam
+  Devanagari: केशवर्धनम
+
+[ITA-6.2.6.81]
+  English:    
+  IAST:       keśyam, romasañja-
+  Devanagari: केश्यम, रोमसञ्ज-
+
+[ITA-6.2.6.82]
+  English:    
+  IAST:       keśarañjanam
+  Devanagari: केशरञ्जनम
+
+[ITA-6.2.7.2]
+  English:    Administration of
+  IAST:       Abhaktam, anannam
+  Devanagari: अभक्तम, अनन्नम
+
+[ITA-6.2.7.3]
+  English:    Administration of
+  IAST:       bhuktādiḥ, annādau,
+  Devanagari: भुक्तादिः, अन्नादौ
+
+[ITA-6.2.7.5]
+  English:    Administration of
+  IAST:       aścādpbhaktaḥ,
+  Devanagari: अश्चाद्प्भक्तः
+
+[ITA-6.2.7.6]
+  English:    Frequent administration
+  IAST:       muhurmuhuḥ
+  Devanagari: मुहुर्मुहुः
+
+
+============================================================
+CHAPTER 7: Pharmaceutical Preparations
+============================================================
+
+[ITA-7.1.1]
+  English:    Preparation of
+  IAST:       auṣadhakalpanā
+  Devanagari: औषधकल्पना
+
+[ITA-7.1.1.1]
+  English:    Substance taken with
+  IAST:       anupānam
+  Devanagari: अनुपानम
+
+[ITA-7.1.1.2]
+  English:    Unhusked barley
+  IAST:       tuṣāmbuḥ
+  Devanagari: तुषाम्बुः
+
+[ITA-7.1.1.3]
+  English:    Fermentation
+  IAST:       sandhānam
+  Devanagari: सन्धानम
+
+[ITA-7.1.1.4]
+  English:    Distillate
+  IAST:       surā/prasannā
+  Devanagari: सुरा/प्रसन्ना
+
+[ITA-7.1.1.7]
+  English:    Lime water
+  IAST:       cūrṇodakam,
+  Devanagari: चूर्णोदकम
+
+[ITA-7.1.13]
+  English:    Tablet made from water
+  IAST:       ghanavaṭī
+  Devanagari: घनवटी
+
+[ITA-7.1.2.3]
+  English:    Pre-processing of ghee
+  IAST:       mūrcchanam
+  Devanagari: मूर्च्छनम
+
+[ITA-7.1.2.5]
+  English:    Pre-processing of oil
+  IAST:       tailamūrcchanam
+  Devanagari: तैलमूर्च्छनम
+
+[ITA-7.1.3.7]
+  English:    Apparatus used for
+  IAST:       dolāyantram
+  Devanagari: दोलायन्त्रम
+
+[ITA-7.1.4]
+  English:    Decoction
+  IAST:       kvāthaḥ, śṛtaḥ, niryūhaḥ
+  Devanagari: क्वाथः, शृतः, निर्यूहः
+
+[ITA-7.1.4.10]
+  English:    
+  IAST:       prasṛtiḥ
+  Devanagari: प्रसृतिः
+
+[ITA-7.1.4.12]
+  English:    
+  IAST:       mānikā/śarāvaḥ
+  Devanagari: मानिका/शरावः
+
+[ITA-7.1.4.18]
+  English:    
+  IAST:       khāriḥ
+  Devanagari: खारिः
+
+[ITA-7.1.4.19]
+  English:    Measure of weight
+  IAST:       tulā
+  Devanagari: तुला
+
+[ITA-7.1.4.24]
+  English:    Length equal to
+  IAST:       aṅgulaḥ
+  Devanagari: अंगुलः
+
+[ITA-7.1.4.27]
+  English:    
+  IAST:       hastaḥ
+  Devanagari: हस्तः
+
+[ITA-7.1.4.3]
+  English:    Measure of weight
+  IAST:       Guñjā, rattī
+  Devanagari: गुञ्जा, रत्ती
+
+[ITA-7.1.4.31]
+  English:    
+  IAST:       kāṣṭhā
+  Devanagari: काष्ठा
+
+[ITA-7.1.4.35]
+  English:    
+  IAST:       yāmaḥ
+  Devanagari: यामः
+
+[ITA-7.1.4.37]
+  English:    
+  IAST:       pakṣaḥ
+  Devanagari: पक्षः
+
+[ITA-7.1.4.39]
+  English:    
+  IAST:       ṛtuḥ
+  Devanagari: ऋतुः
+
+[ITA-7.1.4.6]
+  English:    Black gram seed
+  IAST:       māṣaḥ(bīja)
+  Devanagari: माषः(बीज)
+
+[ITA-7.2.1.10]
+  English:    Pouring molten metal
+  IAST:       dhalanam
+  Devanagari: धलनम
+
+[ITA-7.2.1.12]
+  English:    Cooking in a vessel
+  IAST:       sthālīpākaḥ
+  Devanagari: स्थालीपाकः
+
+[ITA-7.2.1.16]
+  English:    Traditional oven
+  IAST:       puṭaḥ
+  Devanagari: पुटः
+
+[ITA-7.2.1.21]
+  English:    
+  IAST:       vanopalā, vanotpalā,
+  Devanagari: वनोपला, वनोत्पला
+
+[ITA-7.2.1.22]
+  English:    
+  IAST:       kajjalī
+  Devanagari: कज्जली
+
+[ITA-7.2.1.5]
+  English:    Removal of physical
+  IAST:       nirmalīkaraṇam
+  Devanagari: निर्मलीकरणम
+
+[ITA-7.2.1.7]
+  English:    Calcinated minerals
+  IAST:       Bhasma,
+  Devanagari: भस्म
+
+[ITA-7.2.10.3]
+  English:    
+  IAST:       svarjikṣāraḥ, sarjikṣāraḥ,
+  Devanagari: स्वर्जिक्षारः, सर्जिक्षारः
+
+[ITA-7.2.2.1]
+  English:    Group of key
+  IAST:       mahārasaḥ
+  Devanagari: महारसः
+
+[ITA-7.2.2.3]
+  English:    Fluorspar and
+  IAST:       vaikrāntam
+  Devanagari: वैक्रान्तम
+
+[ITA-7.2.2.8]
+  English:    Bismuth or selenium
+  IAST:       capalaḥ
+  Devanagari: चपलः
+
+[ITA-7.2.2.9]
+  English:    Smithsonite, calamine
+  IAST:       rasakaḥ/kharparaḥ
+  Devanagari: रसकः/खर्परः
+
+[ITA-7.2.4.5]
+  English:    Marine or cowrie shell
+  IAST:       kapardakaḥ
+  Devanagari: कपर्दकः
+
+[ITA-7.2.4.7]
+  English:    Red oxide of mercury
+  IAST:       girisindūraḥ
+  Devanagari: गिरिसिन्दूरः
+
+[ITA-7.2.4.9]
+  English:    Litharge
+  IAST:       mṛddāraśrṛṃgaḥ
+  Devanagari: मृद्दारश्रृंगः
+
+[ITA-7.2.5.6]
+  English:    Tin
+  IAST:       vaṅgam
+  Devanagari: वंगम
+
+[ITA-7.2.7.2]
+  English:    Sun stone
+  IAST:       sūryakāntaḥ
+  Devanagari: सूर्यकान्तः
+
+[ITA-7.2.8.1]
+  English:    Group of white
+  IAST:       śuklavargaḥ, sudhāvar-
+  Devanagari: शुक्लवर्गः, सुधावर-
+
+[ITA-7.2.8.3]
+  English:    Conch shell
+  IAST:       śaṃkhaḥ
+  Devanagari: शंखः
+
+
+============================================================
+CHAPTER 8: Diet and Lifestyle
+============================================================
+
+[ITA-8.1.1]
+  English:    Preparation of food
+  IAST:       āhārakalpanā
+  Devanagari: आहारकल्पना
+
+[ITA-8.1.10]
+  English:    Suckables
+  IAST:       coṣyam/cūṣyam
+  Devanagari: चोष्यम/चूष्यम
+
+[ITA-8.1.11]
+  English:    Hard eatables
+  IAST:       khāditam
+  Devanagari: खादितम
+
+[ITA-8.1.12]
+  English:    Chewables
+  IAST:       carvyam
+  Devanagari: चर्व्यम
+
+[ITA-8.1.13]
+  English:    Eatables
+  IAST:       bhakṣyam
+  Devanagari: भक्ष्यम
+
+[ITA-8.1.6]
+  English:    Varieties of food
+  IAST:       āhārasvarūpabhedaḥ
+  Devanagari: आहारस्वरूपभेदः
+
+[ITA-8.1.7]
+  English:    Eatables
+  IAST:       aśitam
+  Devanagari: अशितम
+
+[ITA-8.1.8]
+  English:    Drinkables
+  IAST:       pītam
+  Devanagari: पीतम
+
+[ITA-8.1.9]
+  English:    Lickables
+  IAST:       līḍham
+  Devanagari: लीढम
+
+[ITA-8.2.11]
+  English:    Group of sugarcane
+  IAST:       ikṣuvargaḥ
+  Devanagari: इक्षुवर्गः
+
+[ITA-8.2.14]
+  English:    Group of milks
+  IAST:       kṣīravargaḥ
+  Devanagari: क्षीरवर्गः
+
+[ITA-8.2.18]
+  English:    Thick buttermilk
+  IAST:       udaśvit
+  Devanagari: उदश्वित
+
+[ITA-8.2.19]
+  English:    Thin buttermilk
+  IAST:       takram
+  Devanagari: तक्रम
+
+[ITA-8.2.21]
+  English:    Inspissated milk
+  IAST:       kilāṭam
+  Devanagari: किलाटम
+
+[ITA-8.2.28]
+  English:    Buttermilk prepared
+  IAST:       gholaḥ
+  Devanagari: घोलः
+
+[ITA-8.2.3]
+  English:    Group of pulses and
+  IAST:       śamīdhānyavargaḥ,
+  Devanagari: शमीधाञवर्गः
+
+[ITA-8.2.39]
+  English:    Spring water
+  IAST:       audbhidajalam
+  Devanagari: औद्भिदजलम
+
+[ITA-8.2.41]
+  English:    Well water
+  IAST:       kaupam
+  Devanagari: कौपम
+
+[ITA-8.2.49]
+  English:    Water derived from
+  IAST:       haimam
+  Devanagari: हैमम
+
+[ITA-8.2.8]
+  English:    Suitable for preparation
+  IAST:       sūpyam
+  Devanagari: सूप्यम
+
+[ITA-8.3.10]
+  English:    Group of processed
+  IAST:       kṛtānnavargaḥ
+  Devanagari: कृतान्नवर्गः
+
+[ITA-8.3.12]
+  English:    Thin rice gruel
+  IAST:       peyā
+  Devanagari: पेया
+
+[ITA-8.3.14]
+  English:    Cooked rice
+  IAST:       odanam
+  Devanagari: ओदनम
+
+[ITA-8.3.15]
+  English:    Parched paddy
+  IAST:       lājā
+  Devanagari: लाजा
+
+[ITA-8.3.16]
+  English:    Thin gruel of
+  IAST:       lājapeyā
+  Devanagari: लाजपेया
+
+[ITA-8.3.17]
+  English:    Liquid portion of
+  IAST:       lājamaṇḍaḥ
+  Devanagari: लाजमण्डः
+
+[ITA-8.3.2]
+  English:    Cooking with steam
+  IAST:       kukūlapācanam
+  Devanagari: कुकूलपाचनम
+
+[ITA-8.3.24]
+  English:    Thin meat soup
+  IAST:       tanurasaḥ
+  Devanagari: तनुरसः
+
+[ITA-8.3.25]
+  English:    Processed meat soup
+  IAST:       kṛtarasaḥ
+  Devanagari: कृतरसः
+
+[ITA-8.3.27]
+  English:    Soup without added
+  IAST:       anamlasūpaḥ
+  Devanagari: अनम्लसूपः
+
+[ITA-8.3.3]
+  English:    Cooking on pan
+  IAST:       karparapācanam
+  Devanagari: कर्परपाचनम
+
+[ITA-8.3.30]
+  English:    Flour cake, a type
+  IAST:       apūpaḥ
+  Devanagari: अपूपः
+
+[ITA-8.3.32]
+  English:    Sprouted grains
+  IAST:       virūḍhadhānāḥ,
+  Devanagari: विरूढधानाः
+
+[ITA-8.3.33]
+  English:    Type of cake
+  IAST:       śaṣkuliḥ
+  Devanagari: शष्कुलिः
+
+[ITA-8.3.34]
+  English:    Fried sweet bread
+  IAST:       pūpaḥ
+  Devanagari: पूपः
+
+[ITA-8.3.36]
+  English:    Boneless meat
+  IAST:       veśavāraḥ
+  Devanagari: वेशवारः
+
+[ITA-8.3.4]
+  English:    Processing by
+  IAST:       kālaprakarṣaḥ
+  Devanagari: कालप्रकर्षः
+
+[ITA-8.3.43]
+  English:    Type of fermented
+  IAST:       śiṇḍākī
+  Devanagari: शिण्डाकी
+
+[ITA-8.3.45]
+  English:    Beverage prepared
+  IAST:       khaḍaḥ
+  Devanagari: खडः
+
+[ITA-8.3.46]
+  English:    Beverage prepared
+  IAST:       kāmbalikaḥ
+  Devanagari: काम्बलिकः
+
+[ITA-8.3.47]
+  English:    Porridge
+  IAST:       kṛśarā
+  Devanagari: कृशरा
+
+[ITA-8.3.48]
+  English:    Oil cakes
+  IAST:       piṇyākaḥ
+  Devanagari: पिण्याकः
+
+[ITA-8.3.5]
+  English:    Processing by use
+  IAST:       bhājanam
+  Devanagari: भाजनम
+
+[ITA-8.3.7]
+  English:    Churning
+  IAST:       manthanam
+  Devanagari: मन्थनम
+
+
+============================================================
+CHAPTER 9: Treatment Modalities (Chikitsa)
+============================================================
+
+[ITA-9.1.1]
+  English:    General medicine
+  IAST:       kāyacikitsā
+  Devanagari: कायचिकित्सा
+
+[ITA-9.1.10]
+  English:    Palliation
+  IAST:       praśamanam
+  Devanagari: प्रशमनम
+
+[ITA-9.1.11]
+  English:    Restoration of health
+  IAST:       prakṛtisthāpanam
+  Devanagari: प्रकृतिस्थापनम
+
+[ITA-9.1.12]
+  English:    Salutary to health
+  IAST:       hitam
+  Devanagari: हितम
+
+[ITA-9.1.13]
+  English:    Rebuffing of disease
+  IAST:       vāraṇam
+  Devanagari: वारणम
+
+[ITA-9.1.9]
+  English:    Amendment to wrong
+  IAST:       prāyaścittam
+  Devanagari: प्रायश्चित्तम
+
+[ITA-9.2.11]
+  English:    External oleation
+  IAST:       bāhyasnehaḥ
+  Devanagari: बाह्यस्नेहः
+
+[ITA-9.2.12]
+  English:    Application of oil
+  IAST:       abhyaṅgaḥ
+  Devanagari: अभ्यंगः
+
+[ITA-9.2.39]
+  English:    Sweating induced
+  IAST:       agnisvedaḥ
+  Devanagari: अग्निस्वेदः
+
+[ITA-9.2.43]
+  English:    Sweating induced
+  IAST:       pariṣekasvedaḥ
+  Devanagari: परिषेकस्वेदः
+
+[ITA-9.2.46]
+  English:    Sweating induced on
+  IAST:       aśmaghanasvedaḥ
+  Devanagari: अश्मघनस्वेदः
+
+[ITA-9.2.55]
+  English:    Sweating induced by
+  IAST:       tāpasvedaḥ
+  Devanagari: तापस्वेदः
+
+[ITA-9.2.7]
+  English:    Intake of processed
+  IAST:       acchasnehaḥ
+  Devanagari: अच्छस्नेहः
+
+[ITA-9.2.71]
+  English:    Therapeutic enema
+  IAST:       bastikarma
+  Devanagari: बस्तिकर्म
+
+[ITA-9.2.72]
+  English:    Half-dose therapeutic
+  IAST:       anuvāsanabastiḥ
+  Devanagari: अनुवासनबस्तिः
+
+[ITA-9.2.74]
+  English:    Low-dose ghee or oily
+  IAST:       mātrābastiḥ
+  Devanagari: मात्राबस्तिः
+
+[ITA-9.2.96]
+  English:    Intranasal therapy
+  IAST:       śamananasyam
+  Devanagari: शमननस्यम
+
+[ITA-9.2.98]
+  English:    Vaginal tampon
+  IAST:       yoni picu
+  Devanagari: योनि पिचु
+
+[ITA-9.4.42]
+  English:    Proper dentition
+  IAST:       dantasampat
+  Devanagari: दन्तसम्पत
+
+[ITA-9.5.27]
+  English:    Collyrium
+  IAST:       añjanam
+  Devanagari: अञ्जनम
+
+[ITA-9.5.47]
+  English:    Lobuloplasty type 5
+  IAST:       gaṇḍakarṇaḥ
+  Devanagari: गण्डकर्णः
+
+[ITA-9.5.48]
+  English:    Lobuloplasty type 6
+  IAST:       āhārya
+  Devanagari: आहार्य
+
+[ITA-9.5.55]
+  English:    Lobuloplasty type 13
+  IAST:       vallīkarṇaḥ
+  Devanagari: वल्लीकर्णः
+
+[ITA-9.5.68]
+  English:    Medicated smoking
+  IAST:       dhūmapānam
+  Devanagari: धूमपानम
+
+[ITA-9.5.83]
+  English:    Retention of palliative
+  IAST:       śamanagaṇḍūṣaḥ
+  Devanagari: शमनगण्डूषः
+
+[ITA-9.5.84]
+  English:    Retention of
+  IAST:       śodhanagaṇḍūṣaḥ
+  Devanagari: शोधनगण्डूषः
+
+[ITA-9.5.86]
+  English:    Mouth gargle
+  IAST:       kavalaḥ
+  Devanagari: कवलः
+
+[ITA-9.6.134]
+  English:    Therapeutic rupturing
+  IAST:       dāraṇakarma
+  Devanagari: दारणकर्म
+
+[ITA-9.6.154]
+  English:    Hypergranulation
+  IAST:       avasādanam
+  Devanagari: अवसादनम
+
+[ITA-9.6.155]
+  English:    Wound-softening
+  IAST:       mṛdukarma
+  Devanagari: मृदुकर्म
+
+[ITA-9.6.204]
+  English:    Natural removal of
+  IAST:       svabhāvaḥ
+  Devanagari: स्वभावः
+
+[ITA-9.6.43]
+  English:    Circular knife
+  IAST:       maṇḍalāgraśastram
+  Devanagari: मण्डलाग्रशस्त्रम
+
+[ITA-9.6.64]
+  English:    Excision
+  IAST:       chedanakarma
+  Devanagari: छेदनकर्म
+
+[ITA-9.6.9]
+  English:    Forceps
+  IAST:       sandaṃśayantram
+  Devanagari: सन्दंशयन्त्रम
+
+[ITA-9.6.91]
+  English:    Internal administration
+  IAST:       pānīyakṣāraḥ
+  Devanagari: पानीयक्षारः
+
+[ITA-9.7.11]
+  English:    Substrata of poison in
+  IAST:       jāṅgamaviṣa-
+  Devanagari: जांगमविष-
+
+[ITA-9.7.17]
+  English:    Poisonous lady
+  IAST:       viṣakanyā
+  Devanagari: विषकञा
+
+[ITA-9.7.2]
+  English:    Management of
+  IAST:       viṣagaravairodhikacikitsā
+  Devanagari: विषगरवैरोधिकचिकित्सा
+
+[ITA-9.7.27]
+  English:    Application of heat
+  IAST:       agnikarma
+  Devanagari: अग्निकर्म
+
+[ITA-9.7.28]
+  English:    Streaming of
+  IAST:       pariṣekaḥ (viṣopakramaḥ)
+  Devanagari: परिषेकः (विषोपक्रमः)
+
+[ITA-9.7.37]
+  English:    Fumigation for
+  IAST:       dhūmam (viṣopakramaḥ)
+  Devanagari: धूमम (विषोपक्रमः)
+
+[ITA-9.9.23]
+  English:    Morbidities of semen
+  IAST:       duṣṭaśukram
+  Devanagari: दुष्टशुक्रम
+
+[ITA-9.9.33]
+  English:    Pyospermia
+  IAST:       pūtiśukradoṣaḥ
+  Devanagari: पूतिशुक्रदोषः
+
+[ITA-9.9.57]
+  English:    Semen quality
+  IAST:       śukropacayaḥ
+  Devanagari: शुक्रोपचयः
+

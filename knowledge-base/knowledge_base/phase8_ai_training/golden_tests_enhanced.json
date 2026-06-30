@@ -1,0 +1,1905 @@
+{
+  "count": 100,
+  "tests": [
+    {
+      "id": "golden_ITA-1.2.5",
+      "term_id": "ITA-1.2.5",
+      "chapter": "1",
+      "question": "What is Poor quality of life in Ayurveda?",
+      "expected": {
+        "english": "Poor quality of life",
+        "iast": "duḥkhāyuḥ",
+        "devanagari": "दुःखायुः",
+        "term_id": "ITA-1.2.5",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-1.9.3.7.13",
+      "term_id": "ITA-1.9.3.7.13",
+      "chapter": "1",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "aṇḍajaḥ",
+        "devanagari": "अण्डजः",
+        "term_id": "ITA-1.9.3.7.13",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-1.8.2.12",
+      "term_id": "ITA-1.8.2.12",
+      "chapter": "1",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "yadṛcchāsiddhiḥ",
+        "devanagari": "यदृच्छासिद्धिः",
+        "term_id": "ITA-1.8.2.12",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-1.9.3.2.21",
+      "term_id": "ITA-1.9.3.2.21",
+      "chapter": "1",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "avyayaḥ",
+        "devanagari": "अव्ययः",
+        "term_id": "ITA-1.9.3.2.21",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-1.9.3.2.27",
+      "term_id": "ITA-1.9.3.2.27",
+      "chapter": "1",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "jīvanmuktiḥ",
+        "devanagari": "जीवन्मुक्तिः",
+        "term_id": "ITA-1.9.3.2.27",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-1.9.1.3",
+      "term_id": "ITA-1.9.1.3",
+      "chapter": "1",
+      "question": "What is Similarity at the in Ayurveda?",
+      "expected": {
+        "english": "Similarity at the",
+        "iast": "guṇa-sāmānyam",
+        "devanagari": "गुण-सामाञम",
+        "term_id": "ITA-1.9.1.3",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-1.9.5.1",
+      "term_id": "ITA-1.9.5.1",
+      "chapter": "1",
+      "question": "What is Action in Ayurveda?",
+      "expected": {
+        "english": "Action",
+        "iast": "karma",
+        "devanagari": "कर्म",
+        "term_id": "ITA-1.9.5.1",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-1.11.13",
+      "term_id": "ITA-1.11.13",
+      "chapter": "1",
+      "question": "What is Components of in Ayurveda?",
+      "expected": {
+        "english": "Components of",
+        "iast": "pādacatuṣṭayam",
+        "devanagari": "पादचतुष्टयम",
+        "term_id": "ITA-1.11.13",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-1.8.2.10",
+      "term_id": "ITA-1.8.2.10",
+      "chapter": "1",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "avyabhicāritva",
+        "devanagari": "अव्यभिचारित्व",
+        "term_id": "ITA-1.8.2.10",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-1.9.1.4",
+      "term_id": "ITA-1.9.1.4",
+      "chapter": "1",
+      "question": "What is Similarity at the level in Ayurveda?",
+      "expected": {
+        "english": "Similarity at the level",
+        "iast": "karma-sāmānyam",
+        "devanagari": "कर्म-सामाञम",
+        "term_id": "ITA-1.9.1.4",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.2.2",
+      "term_id": "ITA-10.2.2",
+      "chapter": "10",
+      "question": "What is Food in Ayurveda?",
+      "expected": {
+        "english": "Food",
+        "iast": "āhāraḥ",
+        "devanagari": "आहारः",
+        "term_id": "ITA-10.2.2",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.1.1",
+      "term_id": "ITA-10.1.1",
+      "chapter": "10",
+      "question": "What is Healthy person in Ayurveda?",
+      "expected": {
+        "english": "Healthy person",
+        "iast": "svasthaḥ",
+        "devanagari": "स्वस्थः",
+        "term_id": "ITA-10.1.1",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.3.1",
+      "term_id": "ITA-10.3.1",
+      "chapter": "10",
+      "question": "What is Daily routine in Ayurveda?",
+      "expected": {
+        "english": "Daily routine",
+        "iast": "dinacaryā",
+        "devanagari": "दिनचर्या",
+        "term_id": "ITA-10.3.1",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.3.7",
+      "term_id": "ITA-10.3.7",
+      "chapter": "10",
+      "question": "What is Harmonious way of in Ayurveda?",
+      "expected": {
+        "english": "Harmonious way of",
+        "iast": "sadvṛttam",
+        "devanagari": "सद्वृत्तम",
+        "term_id": "ITA-10.3.7",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.2.5",
+      "term_id": "ITA-10.2.5",
+      "chapter": "10",
+      "question": "What is Diet-transition in Ayurveda?",
+      "expected": {
+        "english": "Diet-transition",
+        "iast": "pādāṃśikakramaḥ",
+        "devanagari": "पादांशिकक्रमः",
+        "term_id": "ITA-10.2.5",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.2.11",
+      "term_id": "ITA-10.2.11",
+      "chapter": "10",
+      "question": "What is Dream in Ayurveda?",
+      "expected": {
+        "english": "Dream",
+        "iast": "svapnam",
+        "devanagari": "स्वप्नम",
+        "term_id": "ITA-10.2.11",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.2.10",
+      "term_id": "ITA-10.2.10",
+      "chapter": "10",
+      "question": "What is Sleep in Ayurveda?",
+      "expected": {
+        "english": "Sleep",
+        "iast": "nidrā",
+        "devanagari": "निद्रा",
+        "term_id": "ITA-10.2.10",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.3.6",
+      "term_id": "ITA-10.3.6",
+      "chapter": "10",
+      "question": "What is Seasonal cleansing in Ayurveda?",
+      "expected": {
+        "english": "Seasonal cleansing",
+        "iast": "ṛtuśodhanam",
+        "devanagari": "ऋतुशोधनम",
+        "term_id": "ITA-10.3.6",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.3.3",
+      "term_id": "ITA-10.3.3",
+      "chapter": "10",
+      "question": "What is Seasonal routine in Ayurveda?",
+      "expected": {
+        "english": "Seasonal routine",
+        "iast": "ṛtucaryā",
+        "devanagari": "ऋतुचर्या",
+        "term_id": "ITA-10.3.3",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-10.3.5",
+      "term_id": "ITA-10.3.5",
+      "chapter": "10",
+      "question": "What is Abnormal seasonal in Ayurveda?",
+      "expected": {
+        "english": "Abnormal seasonal",
+        "iast": "vyāpannaṛtu, ṛtuvipa-",
+        "devanagari": "व्यापन्नऋतु, ऋतुविप-",
+        "term_id": "ITA-10.3.5",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.5.17",
+      "term_id": "ITA-2.5.17",
+      "chapter": "2",
+      "question": "What is Channel carrying in Ayurveda?",
+      "expected": {
+        "english": "Channel carrying",
+        "iast": "śukravahasrotaḥ",
+        "devanagari": "शुक्रवहस्रोतः",
+        "term_id": "ITA-2.5.17",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.1.1",
+      "term_id": "ITA-2.1.1",
+      "chapter": "2",
+      "question": "What is Dosha in Ayurveda?",
+      "expected": {
+        "english": "Dosha",
+        "iast": "doṣaḥ",
+        "devanagari": "दोषः",
+        "term_id": "ITA-2.1.1",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.9.1.13",
+      "term_id": "ITA-2.9.1.13",
+      "chapter": "2",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "aṣṭamamāsa-garbha:",
+        "devanagari": "अष्टममास-गर्भ:",
+        "term_id": "ITA-2.9.1.13",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.6.8",
+      "term_id": "ITA-2.6.8",
+      "chapter": "2",
+      "question": "What is Normal state of in Ayurveda?",
+      "expected": {
+        "english": "Normal state of",
+        "iast": "samāgniḥ",
+        "devanagari": "समाग्निः",
+        "term_id": "ITA-2.6.8",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.5.10",
+      "term_id": "ITA-2.5.10",
+      "chapter": "2",
+      "question": "What is Channel carrying in Ayurveda?",
+      "expected": {
+        "english": "Channel carrying",
+        "iast": "rasavahasrotaḥ",
+        "devanagari": "रसवहस्रोतः",
+        "term_id": "ITA-2.5.10",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.1.3.3",
+      "term_id": "ITA-2.1.3.3",
+      "chapter": "2",
+      "question": "What is Moistening kapha in Ayurveda?",
+      "expected": {
+        "english": "Moistening kapha",
+        "iast": "kledaka-kaphaḥ",
+        "devanagari": "क्लेदक-कफः",
+        "term_id": "ITA-2.1.3.3",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.2.24",
+      "term_id": "ITA-2.2.24",
+      "chapter": "2",
+      "question": "What is Healthy sperm, ovum in Ayurveda?",
+      "expected": {
+        "english": "Healthy sperm, ovum",
+        "iast": "kārmuka-bījam",
+        "devanagari": "कार्मुक-बीजम",
+        "term_id": "ITA-2.2.24",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.8.9",
+      "term_id": "ITA-2.8.9",
+      "chapter": "2",
+      "question": "What is Body constitution in in Ayurveda?",
+      "expected": {
+        "english": "Body constitution in",
+        "iast": "ṭridoṣajaprakṛtiḥ",
+        "devanagari": "ट्रिदोषजप्रकृतिः",
+        "term_id": "ITA-2.8.9",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.3.5",
+      "term_id": "ITA-2.3.5",
+      "chapter": "2",
+      "question": "What is Intramuscular fat in Ayurveda?",
+      "expected": {
+        "english": "Intramuscular fat",
+        "iast": "vasā",
+        "devanagari": "वसा",
+        "term_id": "ITA-2.3.5",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-2.6.20",
+      "term_id": "ITA-2.6.20",
+      "chapter": "2",
+      "question": "What is Theory of serial in Ayurveda?",
+      "expected": {
+        "english": "Theory of serial",
+        "iast": "kedārīkulyānyāyaḥ",
+        "devanagari": "केदारीकुल्याञायः",
+        "term_id": "ITA-2.6.20",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.13.40",
+      "term_id": "ITA-3.13.40",
+      "chapter": "3",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "ulūkhalasandhiḥ",
+        "devanagari": "उलूखलसन्धिः",
+        "term_id": "ITA-3.13.40",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.2.1.17",
+      "term_id": "ITA-3.2.1.17",
+      "chapter": "3",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "aśru",
+        "devanagari": "अश्रु",
+        "term_id": "ITA-3.2.1.17",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.2.4.15",
+      "term_id": "ITA-3.2.4.15",
+      "chapter": "3",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "dantāgram",
+        "devanagari": "दन्ताग्रम",
+        "term_id": "ITA-3.2.4.15",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.7.12",
+      "term_id": "ITA-3.7.12",
+      "chapter": "3",
+      "question": "What is Anal verge in Ayurveda?",
+      "expected": {
+        "english": "Anal verge",
+        "iast": "gudauṣṭham",
+        "devanagari": "गुदौष्ठम",
+        "term_id": "ITA-3.7.12",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.2.1.36",
+      "term_id": "ITA-3.2.1.36",
+      "chapter": "3",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "piśitāśritaṃpaṭalam",
+        "devanagari": "पिशिताश्रितंपटलम",
+        "term_id": "ITA-3.2.1.36",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.2.1.9",
+      "term_id": "ITA-3.2.1.9",
+      "chapter": "3",
+      "question": "What is Inner canthus in Ayurveda?",
+      "expected": {
+        "english": "Inner canthus",
+        "iast": "Kanīnikā, kanīnasandhiḥ,",
+        "devanagari": "कनीनिका, कनीनसन्धिः",
+        "term_id": "ITA-3.2.1.9",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.5.4",
+      "term_id": "ITA-3.5.4",
+      "chapter": "3",
+      "question": "What is Flank in Ayurveda?",
+      "expected": {
+        "english": "Flank",
+        "iast": "pārśvam",
+        "devanagari": "पार्श्वम",
+        "term_id": "ITA-3.5.4",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.13.55",
+      "term_id": "ITA-3.13.55",
+      "chapter": "3",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "snāyuḥ",
+        "devanagari": "स्नायुः",
+        "term_id": "ITA-3.13.55",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.12.3",
+      "term_id": "ITA-3.12.3",
+      "chapter": "3",
+      "question": "What is Blood-bearing in Ayurveda?",
+      "expected": {
+        "english": "Blood-bearing",
+        "iast": "Raktadharākalā",
+        "devanagari": "रक्तधराकला",
+        "term_id": "ITA-3.12.3",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-3.10.4",
+      "term_id": "ITA-3.10.4",
+      "chapter": "3",
+      "question": "What is Sensory faculty in Ayurveda?",
+      "expected": {
+        "english": "Sensory faculty",
+        "iast": "jñānendriyam",
+        "devanagari": "ज्ञानेन्द्रियम",
+        "term_id": "ITA-3.10.4",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.8.25",
+      "term_id": "ITA-4.8.25",
+      "chapter": "4",
+      "question": "What is Inherent capacity of in Ayurveda?",
+      "expected": {
+        "english": "Inherent capacity of",
+        "iast": "vyādhikṣamatvam",
+        "devanagari": "व्याधिक्षमत्वम",
+        "term_id": "ITA-4.8.25",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.2.25",
+      "term_id": "ITA-4.2.25",
+      "chapter": "4",
+      "question": "What is Diseases beyond in Ayurveda?",
+      "expected": {
+        "english": "Diseases beyond",
+        "iast": "ādhidaivikarogaḥ",
+        "devanagari": "आधिदैविकरोगः",
+        "term_id": "ITA-4.2.25",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.2.28",
+      "term_id": "ITA-4.2.28",
+      "chapter": "4",
+      "question": "What is Diseases resulting in Ayurveda?",
+      "expected": {
+        "english": "Diseases resulting",
+        "iast": "avyāpannartukṛtarogaḥ",
+        "devanagari": "अव्यापन्नर्तुकृतरोगः",
+        "term_id": "ITA-4.2.28",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.8.38",
+      "term_id": "ITA-4.8.38",
+      "chapter": "4",
+      "question": "What is Disease caused by in Ayurveda?",
+      "expected": {
+        "english": "Disease caused by",
+        "iast": "saṃsarga",
+        "devanagari": "संसर्ग",
+        "term_id": "ITA-4.8.38",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.2.40",
+      "term_id": "ITA-4.2.40",
+      "chapter": "4",
+      "question": "What is Diseases that are in Ayurveda?",
+      "expected": {
+        "english": "Diseases that are",
+        "iast": "kṛcchrasādhyarogaḥ",
+        "devanagari": "कृच्छ्रसाध्यरोगः",
+        "term_id": "ITA-4.2.40",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.8.2",
+      "term_id": "ITA-4.8.2",
+      "chapter": "4",
+      "question": "What is Functional alteration in Ayurveda?",
+      "expected": {
+        "english": "Functional alteration",
+        "iast": "srotovaiguṇyam",
+        "devanagari": "स्रोतोवैगुण्यम",
+        "term_id": "ITA-4.8.2",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.2.23",
+      "term_id": "ITA-4.2.23",
+      "chapter": "4",
+      "question": "What is Diseases caused by in Ayurveda?",
+      "expected": {
+        "english": "Diseases caused by",
+        "iast": "śastrakṛtarogaḥ",
+        "devanagari": "शस्त्रकृतरोगः",
+        "term_id": "ITA-4.2.23",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.2.18",
+      "term_id": "ITA-4.2.18",
+      "chapter": "4",
+      "question": "What is Disorders resulting in Ayurveda?",
+      "expected": {
+        "english": "Disorders resulting",
+        "iast": "doṣabalapravṛttarogaḥ",
+        "devanagari": "दोषबलप्रवृत्तरोगः",
+        "term_id": "ITA-4.2.18",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.8.15",
+      "term_id": "ITA-4.8.15",
+      "chapter": "4",
+      "question": "What is Disease symptoms in in Ayurveda?",
+      "expected": {
+        "english": "Disease symptoms in",
+        "iast": "prakṛtisamasam-",
+        "devanagari": "प्रकृतिसमसम-",
+        "term_id": "ITA-4.8.15",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-4.2.39",
+      "term_id": "ITA-4.2.39",
+      "chapter": "4",
+      "question": "What is Diseases that are in Ayurveda?",
+      "expected": {
+        "english": "Diseases that are",
+        "iast": "sukhasādhyarogaḥ",
+        "devanagari": "सुखसाध्यरोगः",
+        "term_id": "ITA-4.2.39",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.58.6",
+      "term_id": "ITA-5.58.6",
+      "chapter": "5",
+      "question": "What is Black boil resembling in Ayurveda?",
+      "expected": {
+        "english": "Black boil resembling",
+        "iast": "kumbhikā",
+        "devanagari": "कुम्भिका",
+        "term_id": "ITA-5.58.6",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.63.28",
+      "term_id": "ITA-5.63.28",
+      "chapter": "5",
+      "question": "What is Dental caries in Ayurveda?",
+      "expected": {
+        "english": "Dental caries",
+        "iast": "kṛmidantakaḥ",
+        "devanagari": "कृमिदन्तकः",
+        "term_id": "ITA-5.63.28",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.61.11",
+      "term_id": "ITA-5.61.11",
+      "chapter": "5",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "pittajamasūrikā",
+        "devanagari": "पित्तजमसूरिका",
+        "term_id": "ITA-5.61.11",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.64.18",
+      "term_id": "ITA-5.64.18",
+      "chapter": "5",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "pittajakarṇarogaḥ",
+        "devanagari": "पित्तजकर्णरोगः",
+        "term_id": "ITA-5.64.18",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.72.13",
+      "term_id": "ITA-5.72.13",
+      "chapter": "5",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "Dūṣīviṣaḥ/ kṛtrimaviṣaḥ",
+        "devanagari": "दूषीविषः/ कृत्रिमविषः",
+        "term_id": "ITA-5.72.13",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.65.20",
+      "term_id": "ITA-5.65.20",
+      "chapter": "5",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "nāsārbudaḥ",
+        "devanagari": "नासार्बुदः",
+        "term_id": "ITA-5.65.20",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.64.25",
+      "term_id": "ITA-5.64.25",
+      "chapter": "5",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "duḥkhavardhanaḥ",
+        "devanagari": "दुःखवर्धनः",
+        "term_id": "ITA-5.64.25",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.76.40",
+      "term_id": "ITA-5.76.40",
+      "chapter": "5",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "vamana-vyāpadaḥ",
+        "devanagari": "वमन-व्यापदः",
+        "term_id": "ITA-5.76.40",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.62.13",
+      "term_id": "ITA-5.62.13",
+      "chapter": "5",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "irivellikā",
+        "devanagari": "इरिवेल्लिका",
+        "term_id": "ITA-5.62.13",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-5.57.6",
+      "term_id": "ITA-5.57.6",
+      "chapter": "5",
+      "question": "What is Sexually transmitted in Ayurveda?",
+      "expected": {
+        "english": "Sexually transmitted",
+        "iast": "raktaja-upadaṃśaḥ",
+        "devanagari": "रक्तज-उपदंशः",
+        "term_id": "ITA-5.57.6",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.1.6",
+      "term_id": "ITA-6.2.1.6",
+      "chapter": "6",
+      "question": "What is Salty taste in Ayurveda?",
+      "expected": {
+        "english": "Salty taste",
+        "iast": "lavaṇa-rasaḥ, paṭuḥ",
+        "devanagari": "लवण-रसः, पटुः",
+        "term_id": "ITA-6.2.1.6",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.6.6",
+      "term_id": "ITA-6.2.6.6",
+      "chapter": "6",
+      "question": "What is Vitiating action in Ayurveda?",
+      "expected": {
+        "english": "Vitiating action",
+        "iast": "kopanam [vātakopanam,",
+        "devanagari": "कोपनम [वातकोपनम",
+        "term_id": "ITA-6.2.6.6",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.1.14",
+      "term_id": "ITA-6.2.1.14",
+      "chapter": "6",
+      "question": "What is Secondary taste in Ayurveda?",
+      "expected": {
+        "english": "Secondary taste",
+        "iast": "anurasaḥ",
+        "devanagari": "अनुरसः",
+        "term_id": "ITA-6.2.1.14",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.6.74",
+      "term_id": "ITA-6.2.6.74",
+      "chapter": "6",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "sthairyakaraḥ",
+        "devanagari": "स्थैर्यकरः",
+        "term_id": "ITA-6.2.6.74",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.1.10",
+      "term_id": "ITA-6.2.1.10",
+      "chapter": "6",
+      "question": "What is Bitter taste in Ayurveda?",
+      "expected": {
+        "english": "Bitter taste",
+        "iast": "tikta-rasaḥ",
+        "devanagari": "तिक्त-रसः",
+        "term_id": "ITA-6.2.1.10",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.1.16",
+      "term_id": "ITA-6.2.1.16",
+      "chapter": "6",
+      "question": "What is Taste exerting in Ayurveda?",
+      "expected": {
+        "english": "Taste exerting",
+        "iast": "saumyarasaḥ",
+        "devanagari": "सौम्यरसः",
+        "term_id": "ITA-6.2.1.16",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.6.1",
+      "term_id": "ITA-6.2.6.1",
+      "chapter": "6",
+      "question": "What is Pharmacological in Ayurveda?",
+      "expected": {
+        "english": "Pharmacological",
+        "iast": "karma",
+        "devanagari": "कर्म",
+        "term_id": "ITA-6.2.6.1",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.6.53",
+      "term_id": "ITA-6.2.6.53",
+      "chapter": "6",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "mūtrajananam",
+        "devanagari": "मूत्रजननम",
+        "term_id": "ITA-6.2.6.53",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.6.57",
+      "term_id": "ITA-6.2.6.57",
+      "chapter": "6",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "sadyaḥkṣataghnam",
+        "devanagari": "सद्यःक्षतघ्नम",
+        "term_id": "ITA-6.2.6.57",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-6.2.6.23",
+      "term_id": "ITA-6.2.6.23",
+      "chapter": "6",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "śukraharaḥ, śukraghnam",
+        "devanagari": "शुक्रहरः, शुक्रघ्नम",
+        "term_id": "ITA-6.2.6.23",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.2.5.12",
+      "term_id": "ITA-7.2.5.12",
+      "chapter": "7",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "maṇḍūram",
+        "devanagari": "मण्डूरम",
+        "term_id": "ITA-7.2.5.12",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.1.3.6",
+      "term_id": "ITA-7.1.3.6",
+      "chapter": "7",
+      "question": "What is Ladle-shaped in Ayurveda?",
+      "expected": {
+        "english": "Ladle-shaped",
+        "iast": "darvikayantram",
+        "devanagari": "दर्विकयन्त्रम",
+        "term_id": "ITA-7.1.3.6",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.2.3.5",
+      "term_id": "ITA-7.2.3.5",
+      "chapter": "7",
+      "question": "What is Potash alum in Ayurveda?",
+      "expected": {
+        "english": "Potash alum",
+        "iast": "kāṃkṣī/sphaṭikā",
+        "devanagari": "कांक्षी/स्फटिका",
+        "term_id": "ITA-7.2.3.5",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.1.4.39",
+      "term_id": "ITA-7.1.4.39",
+      "chapter": "7",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "ṛtuḥ",
+        "devanagari": "ऋतुः",
+        "term_id": "ITA-7.1.4.39",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.2.7.3",
+      "term_id": "ITA-7.2.7.3",
+      "chapter": "7",
+      "question": "What is Moon stone in Ayurveda?",
+      "expected": {
+        "english": "Moon stone",
+        "iast": "candrakāntaḥ",
+        "devanagari": "चन्द्रकान्तः",
+        "term_id": "ITA-7.2.7.3",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.2.1.18",
+      "term_id": "ITA-7.2.1.18",
+      "chapter": "7",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "gajapuṭaḥ",
+        "devanagari": "गजपुटः",
+        "term_id": "ITA-7.2.1.18",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.2.7.6",
+      "term_id": "ITA-7.2.7.6",
+      "chapter": "7",
+      "question": "What is Jade in Ayurveda?",
+      "expected": {
+        "english": "Jade",
+        "iast": "vyomāśmaḥ",
+        "devanagari": "व्योमाश्मः",
+        "term_id": "ITA-7.2.7.6",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.2.1.5",
+      "term_id": "ITA-7.2.1.5",
+      "chapter": "7",
+      "question": "What is Removal of physical in Ayurveda?",
+      "expected": {
+        "english": "Removal of physical",
+        "iast": "nirmalīkaraṇam",
+        "devanagari": "निर्मलीकरणम",
+        "term_id": "ITA-7.2.1.5",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.1.2.7",
+      "term_id": "ITA-7.1.2.7",
+      "chapter": "7",
+      "question": "What is Alternative for an un in Ayurveda?",
+      "expected": {
+        "english": "Alternative for an un",
+        "iast": "pratinidhidravyam",
+        "devanagari": "प्रतिनिधिद्रव्यम",
+        "term_id": "ITA-7.1.2.7",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-7.1.4.16",
+      "term_id": "ITA-7.1.4.16",
+      "chapter": "7",
+      "question": "What is  in Ayurveda?",
+      "expected": {
+        "english": "",
+        "iast": "śūrpaḥ",
+        "devanagari": "शूर्पः",
+        "term_id": "ITA-7.1.4.16",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.3.49",
+      "term_id": "ITA-8.3.49",
+      "chapter": "8",
+      "question": "What is Liquid portion of in Ayurveda?",
+      "expected": {
+        "english": "Liquid portion of",
+        "iast": "vāṭyamaṇḍaḥ",
+        "devanagari": "वाट्यमण्डः",
+        "term_id": "ITA-8.3.49",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.2.36",
+      "term_id": "ITA-8.2.36",
+      "chapter": "8",
+      "question": "What is Rainwater before in Ayurveda?",
+      "expected": {
+        "english": "Rainwater before",
+        "iast": "āntarikṣa-jalam/āntarikṣa-",
+        "devanagari": "आन्तरिक्ष-जलम/आन्तरिक्ष-",
+        "term_id": "ITA-8.2.36",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.3.35",
+      "term_id": "ITA-8.3.35",
+      "chapter": "8",
+      "question": "What is Deep-fried sweet in Ayurveda?",
+      "expected": {
+        "english": "Deep-fried sweet",
+        "iast": "pūpalikā",
+        "devanagari": "पूपलिका",
+        "term_id": "ITA-8.3.35",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.1.6",
+      "term_id": "ITA-8.1.6",
+      "chapter": "8",
+      "question": "What is Varieties of food in Ayurveda?",
+      "expected": {
+        "english": "Varieties of food",
+        "iast": "āhārasvarūpabhedaḥ",
+        "devanagari": "आहारस्वरूपभेदः",
+        "term_id": "ITA-8.1.6",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.2.23",
+      "term_id": "ITA-8.2.23",
+      "chapter": "8",
+      "question": "What is Solid part of milk in Ayurveda?",
+      "expected": {
+        "english": "Solid part of milk",
+        "iast": "takrakūrcikā",
+        "devanagari": "तक्रकूर्चिका",
+        "term_id": "ITA-8.2.23",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.2.44",
+      "term_id": "ITA-8.2.44",
+      "chapter": "8",
+      "question": "What is Water derived from in Ayurveda?",
+      "expected": {
+        "english": "Water derived from",
+        "iast": "prāsravaṇam",
+        "devanagari": "प्रास्रवणम",
+        "term_id": "ITA-8.2.44",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.2.12",
+      "term_id": "ITA-8.2.12",
+      "chapter": "8",
+      "question": "What is Group of food in Ayurveda?",
+      "expected": {
+        "english": "Group of food",
+        "iast": "āhārayogivargaḥ",
+        "devanagari": "आहारयोगिवर्गः",
+        "term_id": "ITA-8.2.12",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.2.5",
+      "term_id": "ITA-8.2.5",
+      "chapter": "8",
+      "question": "What is Group of vegetables in Ayurveda?",
+      "expected": {
+        "english": "Group of vegetables",
+        "iast": "śākavargaḥ",
+        "devanagari": "शाकवर्गः",
+        "term_id": "ITA-8.2.5",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.2.29",
+      "term_id": "ITA-8.2.29",
+      "chapter": "8",
+      "question": "What is Group of honeys in Ayurveda?",
+      "expected": {
+        "english": "Group of honeys",
+        "iast": "madhuvargaḥ",
+        "devanagari": "मधुवर्गः",
+        "term_id": "ITA-8.2.29",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-8.2.48",
+      "term_id": "ITA-8.2.48",
+      "chapter": "8",
+      "question": "What is Water detoxified by in Ayurveda?",
+      "expected": {
+        "english": "Water detoxified by",
+        "iast": "haṃsodakam",
+        "devanagari": "हंसोदकम",
+        "term_id": "ITA-8.2.48",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.6.153",
+      "term_id": "ITA-9.6.153",
+      "chapter": "9",
+      "question": "What is Granulation in Ayurveda?",
+      "expected": {
+        "english": "Granulation",
+        "iast": "utsādanakarma",
+        "devanagari": "उत्सादनकर्म",
+        "term_id": "ITA-9.6.153",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.9.16",
+      "term_id": "ITA-9.9.16",
+      "chapter": "9",
+      "question": "What is Scopophilia or in Ayurveda?",
+      "expected": {
+        "english": "Scopophilia or",
+        "iast": "īrṣyābhirati/īrṣyakaḥ",
+        "devanagari": "ईर्ष्याभिरति/ईर्ष्यकः",
+        "term_id": "ITA-9.9.16",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.2.3",
+      "term_id": "ITA-9.2.3",
+      "chapter": "9",
+      "question": "What is Patient fit for cleansing in Ayurveda?",
+      "expected": {
+        "english": "Patient fit for cleansing",
+        "iast": "samśodhanārhaḥ",
+        "devanagari": "सम्शोधनार्हः",
+        "term_id": "ITA-9.2.3",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.6.36",
+      "term_id": "ITA-9.6.36",
+      "chapter": "9",
+      "question": "What is Irrigation, streaming in Ayurveda?",
+      "expected": {
+        "english": "Irrigation, streaming",
+        "iast": "prakṣālanakarma",
+        "devanagari": "प्रक्षालनकर्म",
+        "term_id": "ITA-9.6.36",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.5.83",
+      "term_id": "ITA-9.5.83",
+      "chapter": "9",
+      "question": "What is Retention of palliative in Ayurveda?",
+      "expected": {
+        "english": "Retention of palliative",
+        "iast": "śamanagaṇḍūṣaḥ",
+        "devanagari": "शमनगण्डूषः",
+        "term_id": "ITA-9.5.83",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.4.34",
+      "term_id": "ITA-9.4.34",
+      "chapter": "9",
+      "question": "What is Tonsuring ceremony in Ayurveda?",
+      "expected": {
+        "english": "Tonsuring ceremony",
+        "iast": "cūḍākaraṇasaṁskāraḥ",
+        "devanagari": "चूडाकरणसंस्कारः",
+        "term_id": "ITA-9.4.34",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.1.46",
+      "term_id": "ITA-9.1.46",
+      "chapter": "9",
+      "question": "What is Lightness promoting in Ayurveda?",
+      "expected": {
+        "english": "Lightness promoting",
+        "iast": "laṅghanam",
+        "devanagari": "लंघनम",
+        "term_id": "ITA-9.1.46",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.6.167",
+      "term_id": "ITA-9.6.167",
+      "chapter": "9",
+      "question": "What is Bandaging in Ayurveda?",
+      "expected": {
+        "english": "Bandaging",
+        "iast": "bandhanakarma",
+        "devanagari": "बन्धनकर्म",
+        "term_id": "ITA-9.6.167",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.6.221",
+      "term_id": "ITA-9.6.221",
+      "chapter": "9",
+      "question": "What is Thick and hot in Ayurveda?",
+      "expected": {
+        "english": "Thick and hot",
+        "iast": "pradehaḥ",
+        "devanagari": "प्रदेहः",
+        "term_id": "ITA-9.6.221",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "golden_ITA-9.9.57",
+      "term_id": "ITA-9.9.57",
+      "chapter": "9",
+      "question": "What is Semen quality in Ayurveda?",
+      "expected": {
+        "english": "Semen quality",
+        "iast": "śukropacayaḥ",
+        "devanagari": "शुक्रोपचयः",
+        "term_id": "ITA-9.9.57",
+        "doshas": []
+      },
+      "grading": [
+        "Must include WHO ITA code",
+        "Must include Sanskrit (IAST or Devanagari)",
+        "Must provide accurate definition"
+      ],
+      "verified": true
+    }
+  ]
+}

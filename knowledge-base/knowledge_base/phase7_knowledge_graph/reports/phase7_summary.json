@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-01-07T11:48:33.399536",
+  "phase": 7,
+  "statistics": {
+    "entities": 3547,
+    "relationships": 17397,
+    "nodes": 3547,
+    "edges": 17397,
+    "total_nodes": 3545,
+    "total_edges": 17397,
+    "node_types": {
+      "CONCEPT": 290,
+      "TREATMENT": 686,
+      "DISEASE": 1383,
+      "ANATOMY": 466,
+      "PHYSIOLOGY": 183,
+      "MEDICINE": 331,
+      "SYMPTOM": 101,
+      "DIET": 105
+    },
+    "edge_types": {
+      "RELATED_TO": 1207,
+      "SAME_CATEGORY": 12313,
+      "COMPOSED_OF": 1558,
+      "PART_OF": 2145,
+      "SYMPTOM_OF": 29,
+      "TREATS": 145
+    },
+    "avg_degree": 9.814950634696755
+  },
+  "validation": {
+    "valid": false,
+    "checks": {
+      "edge_integrity": {
+        "passed": true,
+        "orphaned_edges": 0
+      },
+      "node_uniqueness": {
+        "passed": false,
+        "duplicates": 2
+      },
+      "connectivity": {
+        "components": 158,
+        "largest_component": 240,
+        "isolated_nodes": 29
+      },
+      "type_distribution": {
+        "CONCEPT": 290,
+        "TREATMENT": 686,
+        "DISEASE": 1385,
+        "ANATOMY": 466,
+        "PHYSIOLOGY": 183,
+        "MEDICINE": 331,
+        "SYMPTOM": 101,
+        "DIET": 105
+      }
+    },
+    "issues": []
+  },
+  "files_generated": [
+    "knowledge_graph.json",
+    "graph_nodes.json",
+    "graph_edges.json",
+    "ayurveda_ontology.json",
+    "graph_visualization.html"
+  ]
+}

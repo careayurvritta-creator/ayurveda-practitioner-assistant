@@ -1,0 +1,9 @@
+{
+  "source": "WHO International Standard Terminologies on Ayurveda (PDF)",
+  "pdf_path": "Reference Documents\\WHO STANDARD AYURVEDA TERMINOLOGIES-eng.pdf",
+  "pdf_exists": true,
+  "pdf_size_mb": 4.42,
+  "pdf_md5": "8bd0e56697716b059ac642e830b9f2ab",
+  "note": "PDF serves as ground truth for ambiguous cases",
+  "recommendation": "OCR verification can be done for specific disputed terms"
+}

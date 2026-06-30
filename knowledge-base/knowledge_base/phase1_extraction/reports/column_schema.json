@@ -1,0 +1,70 @@
+{
+  "total_columns": 17,
+  "semantic_mapping": {
+    "0": {
+      "name": "term_id",
+      "description": "ITA Term ID (e.g., ITA-1.1.1)"
+    },
+    "1": {
+      "name": "english_term",
+      "description": "English terminology"
+    },
+    "2": {
+      "name": "description",
+      "description": "Detailed definition/description"
+    },
+    "3": {
+      "name": "sanskrit_iast",
+      "description": "Sanskrit term in IAST transliteration"
+    },
+    "4": {
+      "name": "sanskrit_devanagari",
+      "description": "Sanskrit term in Devanagari script"
+    },
+    "5": {
+      "name": "extra_col_1",
+      "description": "Overflow/merged content"
+    }
+  },
+  "column_samples": {
+    "0": [
+      "1.1",
+      "ITA-1.1.1",
+      "1.2",
+      "ITA-1.2.1",
+      "Term ID"
+    ],
+    "1": [
+      "Ayurveda",
+      "Ayurveda",
+      "Terms related to life",
+      "Life process, cycle or",
+      "span"
+    ],
+    "2": [
+      "Ayurveda is a traditional system of medicine and health care",
+      "which originated in the Indian subcontinent. The term",
+      "Ayurveda denotes “knowledge of life”. It is a compound of two",
+      "words, “ayu” (life) and “veda” (knowledge). The discipline",
+      "encompasses the physical, psychological, spiritual and social"
+    ],
+    "3": [
+      "Āyurvedaḥ",
+      "1.āyuḥ;",
+      "2.dhāri;",
+      "3.jīvitam;",
+      "4.nityaga;"
+    ],
+    "4": [
+      "आयर्दः",
+      "1.  आयः;",
+      "2.  धारि;",
+      "3.  जीवितम;",
+      "4.  नित्ग;"
+    ],
+    "5": [
+      "1",
+      "3"
+    ]
+  }
+}

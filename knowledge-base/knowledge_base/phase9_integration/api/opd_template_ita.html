@@ -1,0 +1,74 @@
+<!-- OPD Consultation Template with WHO ITA Integration -->
+<div class="opd-consultation">
+  <h2>OPD Consultation Report</h2>
+  
+  <section class="patient-info">
+    <h3>Patient Information</h3>
+    <!-- Patient details -->
+  </section>
+
+  <section class="prakriti-assessment">
+    <h3>Prakriti (Constitution) - <span class="ita-ref">WHO ITA: 2.1</span></h3>
+    <div class="dosha-distribution">
+      <span class="dosha vata">Vata <span class="ita-code">ITA-2.1.1</span></span>
+      <span class="dosha pitta">Pitta <span class="ita-code">ITA-2.1.2</span></span>
+      <span class="dosha kapha">Kapha <span class="ita-code">ITA-2.1.3</span></span>
+    </div>
+  </section>
+
+  <section class="diagnosis">
+    <h3>Diagnosis (Vyadhi Nidana)</h3>
+    <div class="diagnosis-entry">
+      <span class="condition-name"><!-- Condition --></span>
+      <span class="sanskrit-name"><!-- Sanskrit (IAST / Devanagari) --></span>
+      <span class="ita-code">WHO ITA: <!-- ITA-X.X.X --></span>
+    </div>
+  </section>
+
+  <section class="treatment">
+    <h3>Treatment Plan (Chikitsa Sutra)</h3>
+    <div class="treatment-modality">
+      <h4>Shodhana <span class="ita-code">ITA-9.1</span></h4>
+      <!-- Purification therapies -->
+    </div>
+    <div class="treatment-modality">
+      <h4>Shamana <span class="ita-code">ITA-9.2</span></h4>
+      <!-- Palliative therapies -->
+    </div>
+  </section>
+
+  <section class="prescription">
+    <h3>Prescription (Aushadha Yoga)</h3>
+    <table class="medicine-table">
+      <thead>
+        <tr>
+          <th>Medicine</th>
+          <th>Sanskrit</th>
+          <th>ITA Code</th>
+          <th>Dosage</th>
+          <th>Anupana</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Medicine rows -->
+      </tbody>
+    </table>
+  </section>
+
+  <section class="pathya">
+    <h3>Pathya-Apathya (Diet & Lifestyle)</h3>
+    <div class="pathya-section">
+      <h4>Pathya (Beneficial) <span class="ita-code">ITA-8</span></h4>
+      <!-- Beneficial items -->
+    </div>
+    <div class="apathya-section">
+      <h4>Apathya (Contraindicated)</h4>
+      <!-- Contraindicated items -->
+    </div>
+  </section>
+
+  <footer class="report-footer">
+    <p>This consultation follows WHO International Standard Terminologies on Ayurveda (ITA)</p>
+    <p>Generated: {{date}} | Practitioner: {{practitioner}}</p>
+  </footer>
+</div>

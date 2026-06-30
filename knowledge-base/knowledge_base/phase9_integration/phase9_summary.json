@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-01-07T13:54:26.910592",
+  "phase": 9,
+  "term_count": 3547,
+  "artifacts": {
+    "api": "knowledge_base\\phase9_integration\\api\\main.py",
+    "hook": "knowledge_base\\phase9_integration\\frontend\\useITATerms.ts",
+    "component": "knowledge_base\\phase9_integration\\frontend\\ITAAutocomplete.tsx",
+    "css": "knowledge_base\\phase9_integration\\frontend\\ITAAutocomplete.css",
+    "gemini": "knowledge_base\\phase9_integration\\frontend\\geminiITAService.ts",
+    "bundle": "knowledge_base\\phase9_integration\\ita_bundle.json",
+    "bundle_size_kb": 56.0
+  }
+}

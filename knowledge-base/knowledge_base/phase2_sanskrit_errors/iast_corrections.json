@@ -1,0 +1,1663 @@
+{
+  "generated_at": "2026-01-07T10:57:34.974948",
+  "statistics": {
+    "total_mismatches": 150,
+    "corrected": 150,
+    "uncorrectable": 0,
+    "improved": 120
+  },
+  "corrections": [
+    {
+      "row": 465,
+      "term_id": "ITA-1.3.1",
+      "iast": "trisūtrāyurvedaḥ,",
+      "original_devanagari": "तरिसत्यर्दः,",
+      "corrected_devanagari": "त्रिसूत्रायुर्वेदः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 469,
+      "term_id": "ITA-1.4.1",
+      "iast": "aṣṭāṅgāyurvedaḥ",
+      "original_devanagari": "अष्टङ्गयर्दः",
+      "corrected_devanagari": "अष्टाङ्गायुर्वेदः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 5
+    },
+    {
+      "row": 471,
+      "term_id": "ITA-1.4.2",
+      "iast": "cikitsā",
+      "original_devanagari": "चिकित्स",
+      "corrected_devanagari": "चिकित्सा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 1
+    },
+    {
+      "row": 478,
+      "term_id": "ITA-1.4.5",
+      "iast": "grahacikitsā, bhūtavidyā.",
+      "original_devanagari": "ग्रहचिकित्स,",
+      "corrected_devanagari": "ग्र्ह्चिकित्सा, भूत्विद्या",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 14
+    },
+    {
+      "row": 487,
+      "term_id": "ITA-1.4.7",
+      "iast": "śalyacikitsā",
+      "original_devanagari": "शल्यिकित्स",
+      "corrected_devanagari": "श्ल्य्चिकित्सा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 490,
+      "term_id": "ITA-1.4.8",
+      "iast": "viṣacikitsā, garacikitsā",
+      "original_devanagari": "विषचिकित्स,",
+      "corrected_devanagari": "विष्चिकित्सा, ग्र्चिकित्सा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 15
+    },
+    {
+      "row": 495,
+      "term_id": "",
+      "iast": "vṛṣacikitsā,",
+      "original_devanagari": "वषचिकित्स,",
+      "corrected_devanagari": "वृष्चिकित्सा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 496,
+      "term_id": "ITA-1.4.11",
+      "iast": "prasūtītantra, strīroga",
+      "original_devanagari": "प्रसतितन्, स्त्रोग",
+      "corrected_devanagari": "प्र्सूतीत्न्त्र, स्त्रीरोग",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 8
+    },
+    {
+      "row": 501,
+      "term_id": "",
+      "iast": "tantram, vidhiḥ, vijñānam,",
+      "original_devanagari": "तन्म, विधिः,",
+      "corrected_devanagari": "त्न्त्र्म, विधिः, विज्ञान्म",
+      "issue": "ratio mismatch",
+      "length_change": 15
+    },
+    {
+      "row": 501,
+      "term_id": "",
+      "iast": "tantram, vidhiḥ, vijñānam,",
+      "original_devanagari": "तन्म, विधिः,",
+      "corrected_devanagari": "त्न्त्र्म, विधिः, विज्ञान्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 15
+    },
+    {
+      "row": 502,
+      "term_id": "",
+      "iast": "lakṣaṇam",
+      "original_devanagari": "विज्ञाम, लक्षणम",
+      "corrected_devanagari": "ल्क्ष्ण्म",
+      "issue": "ratio mismatch",
+      "length_change": -6
+    },
+    {
+      "row": 503,
+      "term_id": "ITA-1.5.2",
+      "iast": "sūtram",
+      "original_devanagari": "सतम",
+      "corrected_devanagari": "सूत्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 509,
+      "term_id": "ITA-1.5.4",
+      "iast": "vidyā",
+      "original_devanagari": "विद्य",
+      "corrected_devanagari": "विद्या",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 1
+    },
+    {
+      "row": 555,
+      "term_id": "ITA-1.6.10",
+      "iast": "arthāpattiḥ",
+      "original_devanagari": "अर्पत्ति",
+      "corrected_devanagari": "अर्थाप्त्तिः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 583,
+      "term_id": "ITA-1.6.21",
+      "iast": "pūrvapakṣaḥ",
+      "original_devanagari": "परपक्",
+      "corrected_devanagari": "पूर्व्प्क्षः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 615,
+      "term_id": "ITA-1.6.35",
+      "iast": "svasañjñā",
+      "original_devanagari": "स्सञ्ज्ञ",
+      "corrected_devanagari": "स्व्स्ञ्ज्ञा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 620,
+      "term_id": "ITA-1.6.37",
+      "iast": "arthāśrayaḥ",
+      "original_devanagari": "अर्श्रयः",
+      "corrected_devanagari": "अर्थाश्र्यः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 625,
+      "term_id": "ITA-1.6.40",
+      "iast": "vyākhyā",
+      "original_devanagari": "व्यख्य",
+      "corrected_devanagari": "व्याख्या",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 632,
+      "term_id": "ITA-1.7.1",
+      "iast": "siddhāntaḥ",
+      "original_devanagari": "सिद्धन्त",
+      "corrected_devanagari": "सिद्धान्तः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 648,
+      "term_id": "ITA-1.7.7",
+      "iast": "abhyanujñā",
+      "original_devanagari": "अभ्यज्ञ",
+      "corrected_devanagari": "अभ्य्नुज्ञा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 650,
+      "term_id": "ITA-1.7.8",
+      "iast": "arthaprāptiḥ",
+      "original_devanagari": "अरथप््ति",
+      "corrected_devanagari": "अर्थ्प्राप्तिः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 652,
+      "term_id": "ITA-1.7.9",
+      "iast": "arthāntaram",
+      "original_devanagari": "अर्न्तम",
+      "corrected_devanagari": "अर्थान्त्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 5
+    },
+    {
+      "row": 679,
+      "term_id": "ITA-1.7.20",
+      "iast": "pratijñā",
+      "original_devanagari": "प्रतिज्ञ",
+      "corrected_devanagari": "प्र्तिज्ञा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 696,
+      "term_id": "ITA-1.7.26",
+      "iast": "vitaṇḍā",
+      "original_devanagari": "वितण्ड",
+      "corrected_devanagari": "वित्ण्डा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 878,
+      "term_id": "ITA-1.9.2.3",
+      "iast": "guṇa-viśeṣaḥ",
+      "original_devanagari": "गण-विशषः",
+      "corrected_devanagari": "गुण-विशेषः",
+      "issue": "ratio mismatch",
+      "length_change": 2
+    },
+    {
+      "row": 910,
+      "term_id": "",
+      "iast": "pṛthvī",
+      "original_devanagari": "पथ्व",
+      "corrected_devanagari": "पृथ्वी",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 924,
+      "term_id": "ITA-1.9.3.2.5  The doer, the",
+      "iast": "kartā",
+      "original_devanagari": "कर्",
+      "corrected_devanagari": "क्र्ता",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 941,
+      "term_id": "",
+      "iast": "ṣaḍdhātupuruṣa",
+      "original_devanagari": "षड्धतपरुष",
+      "corrected_devanagari": "ष्ड्धातुपुरुष",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 967,
+      "term_id": "ITA-1.9.3.2.22  Observer, witness of",
+      "iast": "draṣṭā",
+      "original_devanagari": "द्रष्ट",
+      "corrected_devanagari": "द्र्ष्टा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 1045,
+      "term_id": "ITA-1.9.3.3.27  Shyness",
+      "iast": "lajjā",
+      "original_devanagari": "लज्ज",
+      "corrected_devanagari": "ल्ज्जा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 1074,
+      "term_id": "ITA-1.9.3.6.1  Unmanifest, without",
+      "iast": "amūrtadravyam",
+      "original_devanagari": "अमरद्रवम",
+      "corrected_devanagari": "अमूर्त्द्र्व्य्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 8
+    },
+    {
+      "row": 1188,
+      "term_id": "ITA-1.9.4.2.16  Minuteness,",
+      "iast": "sūkṣmaḥ",
+      "original_devanagari": "सक्ष्",
+      "corrected_devanagari": "सूक्ष्मः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 1190,
+      "term_id": "ITA-1.9.4.2.17  Grossness, bulkiness",
+      "iast": "sthūlaḥ",
+      "original_devanagari": "स्लः",
+      "corrected_devanagari": "स्थूलः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 1216,
+      "term_id": "ITA-1.9.4.3.5  Desire, craving",
+      "iast": "icchā",
+      "original_devanagari": "इच्छ",
+      "corrected_devanagari": "इच्छा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 1
+    },
+    {
+      "row": 1230,
+      "term_id": "ITA-1.9.4.4.4  Number, enumeration,",
+      "iast": "saṃkhyā",
+      "original_devanagari": "सख्य",
+      "corrected_devanagari": "संख्या",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 1248,
+      "term_id": "ITA-1.9.4.4.11  Practice",
+      "iast": "abhyāsaḥ",
+      "original_devanagari": "अभ्यसः",
+      "corrected_devanagari": "अभ्यासः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 1
+    },
+    {
+      "row": 1301,
+      "term_id": "",
+      "iast": "upāyaḥ)",
+      "original_devanagari": "दशः, कालः, प्रवत्,",
+      "corrected_devanagari": "उपायः)",
+      "issue": "ratio mismatch",
+      "length_change": -12
+    },
+    {
+      "row": 1372,
+      "term_id": "ITA-2.1.1.2",
+      "iast": "prāṇaḥ",
+      "original_devanagari": "प्णः",
+      "corrected_devanagari": "प्राणः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 1399,
+      "term_id": "ITA-2.1.1.9",
+      "iast": "ucchvāsaḥ",
+      "original_devanagari": "उच्छ्वसः",
+      "corrected_devanagari": "उच्छ्वासः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 1
+    },
+    {
+      "row": 1400,
+      "term_id": "ITA-2.1.1.10   Inspiration, inhalation",
+      "iast": "niḥśvāsaḥ",
+      "original_devanagari": "निःश्वसः",
+      "corrected_devanagari": "निःश्वासः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 1
+    },
+    {
+      "row": 1401,
+      "term_id": "ITA-2.1.1.11   Motion, action, function",
+      "iast": "ceṣṭā",
+      "original_devanagari": "चष्ट",
+      "corrected_devanagari": "चेष्टा",
+      "issue": "ratio mismatch",
+      "length_change": 2
+    },
+    {
+      "row": 1401,
+      "term_id": "ITA-2.1.1.11   Motion, action, function",
+      "iast": "ceṣṭā",
+      "original_devanagari": "चष्ट",
+      "corrected_devanagari": "चेष्टा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 1419,
+      "term_id": "ITA-2.1.2.5",
+      "iast": "bhrājakapittam",
+      "original_devanagari": "भ्रजकपितम",
+      "corrected_devanagari": "भ्राज्क्पित्त्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 1433,
+      "term_id": "ITA-2.1.3.1",
+      "iast": "śleṣmā, kapha",
+      "original_devanagari": "शलेष, कफ",
+      "corrected_devanagari": "श्लेष्मा, क्फ",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 5
+    },
+    {
+      "row": 1465,
+      "term_id": "ITA-2.2.2",
+      "iast": "dūṣyam",
+      "original_devanagari": "दष्म",
+      "corrected_devanagari": "दूष्य्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 1504,
+      "term_id": "ITA-2.2.13",
+      "iast": "parva, asthisandhayaḥ,",
+      "original_devanagari": "पर,",
+      "corrected_devanagari": "प्र्व, अस्थिस्न्ध्यः",
+      "issue": "ratio mismatch",
+      "length_change": 17
+    },
+    {
+      "row": 1511,
+      "term_id": "ITA-2.2.17",
+      "iast": "pūraṇam",
+      "original_devanagari": "परणम",
+      "corrected_devanagari": "पूर्ण्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 1588,
+      "term_id": "ITA-2.4.4",
+      "iast": "mūtram",
+      "original_devanagari": "मतम",
+      "corrected_devanagari": "मूत्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 1602,
+      "term_id": "ITA-2.4.11",
+      "iast": "lomakūpamalaḥ",
+      "original_devanagari": "लोमकपमलः",
+      "corrected_devanagari": "लोम्कूप्म्लः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 1613,
+      "term_id": "ITA-2.5.6",
+      "iast": "prāṇavahasrotaḥ",
+      "original_devanagari": "प्णवहस्रतः",
+      "corrected_devanagari": "प्राण्व्ह्स्रोतः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 1645,
+      "term_id": "ITA-2.5.19",
+      "iast": "mūtravahasrotaḥ",
+      "original_devanagari": "मत्रस्रतः",
+      "corrected_devanagari": "मूत्र्व्ह्स्रोतः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 1718,
+      "term_id": "ITA-2.6.19",
+      "iast": "kṣīradadhinyāyaḥ",
+      "original_devanagari": "क्षदधिन्ययः",
+      "corrected_devanagari": "क्षीर्द्धिन्यायः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 5
+    },
+    {
+      "row": 1730,
+      "term_id": "ITA-2.6.21",
+      "iast": "khalekapotanyāyaḥ",
+      "original_devanagari": "खलकपोतन्ययः",
+      "corrected_devanagari": "ख्लेक्पोत्न्यायः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 5
+    },
+    {
+      "row": 2151,
+      "term_id": "ITA-2.9.1.14   Onset signs of",
+      "iast": "prajāyanī/",
+      "original_devanagari": "प्रजायनी / प्रजननकालः",
+      "corrected_devanagari": "प्र्जाय्नी",
+      "issue": "ratio mismatch",
+      "length_change": -11
+    },
+    {
+      "row": 2199,
+      "term_id": "ITA-3.1.7",
+      "iast": "sarvāṅgaḥ",
+      "original_devanagari": "सर्ङ्ग",
+      "corrected_devanagari": "स्र्वाङ्गः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 2208,
+      "term_id": "ITA-3.1.11",
+      "iast": "chidram, dvāram,",
+      "original_devanagari": "छिद्रम, द्वम, विवरम,",
+      "corrected_devanagari": "छिद्र्म, द्वार्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": -4
+    },
+    {
+      "row": 2211,
+      "term_id": "ITA-3.1.12",
+      "iast": "kūṭaḥ",
+      "original_devanagari": "कटः",
+      "corrected_devanagari": "कूटः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 1
+    },
+    {
+      "row": 2222,
+      "term_id": "ITA-3.1.20",
+      "iast": "ūrdhvakāyaḥ",
+      "original_devanagari": "ऊर््ायः",
+      "corrected_devanagari": "ऊर्ध्व्कायः",
+      "issue": "ratio mismatch",
+      "length_change": 4
+    },
+    {
+      "row": 2226,
+      "term_id": "ITA-3.1.22",
+      "iast": "ūrdhvajatru",
+      "original_devanagari": "ऊर्जत",
+      "corrected_devanagari": "ऊर्ध्व्ज्त्रु",
+      "issue": "ratio mismatch",
+      "length_change": 8
+    },
+    {
+      "row": 2235,
+      "term_id": "ITA-3.2.2",
+      "iast": "śiraḥ, mūrdhā,",
+      "original_devanagari": "शिरः, मर्,",
+      "corrected_devanagari": "शिरः, मूर्धा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 2247,
+      "term_id": "ITA-3.2.1.3",
+      "iast": "akṣikūṭaḥ, koṭaraḥ",
+      "original_devanagari": "अक्षटः, कोटरः",
+      "corrected_devanagari": "अक्षिकूटः, कोट्रः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 2250,
+      "term_id": "",
+      "iast": "tra-chādana-",
+      "original_devanagari": "अक्पटम, नतपटम,",
+      "corrected_devanagari": "त्र-छाद्न-",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": -4
+    },
+    {
+      "row": 2289,
+      "term_id": "ITA-3.2.1.22  Eyebrows",
+      "iast": "bhrūḥ",
+      "original_devanagari": "भर",
+      "corrected_devanagari": "भ्रूः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2292,
+      "term_id": "ITA-3.2.1.24  Free ends",
+      "iast": "pakṣmāgram",
+      "original_devanagari": "पक्ष्ग्रम",
+      "corrected_devanagari": "प्क्ष्माग्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 2294,
+      "term_id": "ITA-3.2.1.25  Roots of eyelashes",
+      "iast": "pakṣmāśayaḥ",
+      "original_devanagari": "पक्ष्शयः",
+      "corrected_devanagari": "प्क्ष्माश्यः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 2299,
+      "term_id": "ITA-3.2.1.29  Sclera",
+      "iast": "śuklamaṇḍalam,",
+      "original_devanagari": "शक्मण्लम, श्तमण्लम",
+      "corrected_devanagari": "शुक्ल्म्ण्ड्ल्म",
+      "issue": "ratio mismatch",
+      "length_change": -3
+    },
+    {
+      "row": 2311,
+      "term_id": "ITA-3.2.1.35  Cornea",
+      "iast": "tejojalāśrita-",
+      "original_devanagari": "तजोजलाश्तबाह्यपटलम",
+      "corrected_devanagari": "तेजोज्लाश्रित-",
+      "issue": "ratio mismatch",
+      "length_change": -4
+    },
+    {
+      "row": 2321,
+      "term_id": "ITA-3.2.2.4",
+      "iast": "nāsāvaṃśaḥ,",
+      "original_devanagari": "नासावशः, नासास्थदण्ड",
+      "corrected_devanagari": "नासावंशः",
+      "issue": "ratio mismatch",
+      "length_change": -12
+    },
+    {
+      "row": 2323,
+      "term_id": "ITA-3.2.2.5",
+      "iast": "ghrāṇamūlam",
+      "original_devanagari": "घ्रणमलम",
+      "corrected_devanagari": "घ्राण्मूल्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 2339,
+      "term_id": "ITA-3.2.3.1",
+      "iast": "karṇaḥ,",
+      "original_devanagari": "करण, श्रम, श्रवणम",
+      "corrected_devanagari": "क्र्णः",
+      "issue": "ratio mismatch",
+      "length_change": -11
+    },
+    {
+      "row": 2343,
+      "term_id": "",
+      "iast": "śabdābhivahā,",
+      "original_devanagari": "शब्पथः, शब्दवस्रतस",
+      "corrected_devanagari": "श्ब्दाभिव्हा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": -6
+    },
+    {
+      "row": 2346,
+      "term_id": "ITA-3.2.3.4",
+      "iast": "karṇamūlam",
+      "original_devanagari": "करमलम",
+      "corrected_devanagari": "क्र्ण्मूल्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 2386,
+      "term_id": "",
+      "iast": "dantapiṇḍikā,",
+      "original_devanagari": "दन्तष्ः",
+      "corrected_devanagari": "द्न्त्पिण्डिका",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 2389,
+      "term_id": "ITA-3.2.4.15  Apex of tooth",
+      "iast": "dantāgram",
+      "original_devanagari": "दन्तग्रम",
+      "corrected_devanagari": "द्न्ताग्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2395,
+      "term_id": "ITA-3.2.4.19  Tip of the tongue",
+      "iast": "jihvāgram",
+      "original_devanagari": "जिह्वग्रम",
+      "corrected_devanagari": "जिह्वाग्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 2396,
+      "term_id": "ITA-3.2.4.20  Surface of the tongue",
+      "iast": "jihvātalam",
+      "original_devanagari": "जिह्वतलम",
+      "corrected_devanagari": "जिह्वात्ल्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2397,
+      "term_id": "ITA-3.2.4.21  Root of the tongue",
+      "iast": "jihvā-mūlam,",
+      "original_devanagari": "जिह्वमलम,",
+      "corrected_devanagari": "जिह्वा-मूल्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2398,
+      "term_id": "",
+      "iast": "jihvāprabandhaḥ,",
+      "original_devanagari": "जिह्वप्रबन्ध,",
+      "corrected_devanagari": "जिह्वाप्र्ब्न्धः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2399,
+      "term_id": "",
+      "iast": "jihvābandhanam,",
+      "original_devanagari": "जिह्वबन्धम,",
+      "corrected_devanagari": "जिह्वाब्न्ध्न्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 2426,
+      "term_id": "ITA-3.2.4.37  Trachea",
+      "iast": "kaṇṭhanāḍī,",
+      "original_devanagari": "कण्ठाडी, हृदयनाडिका,",
+      "corrected_devanagari": "क्ण्ठ्नाडी",
+      "issue": "ratio mismatch",
+      "length_change": -10
+    },
+    {
+      "row": 2438,
+      "term_id": "ITA-3.3.3",
+      "iast": "jatrumūlam",
+      "original_devanagari": "जतमलम",
+      "corrected_devanagari": "ज्त्रुमूल्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 2439,
+      "term_id": "ITA-3.3.4",
+      "iast": "manyā",
+      "original_devanagari": "मन्य",
+      "corrected_devanagari": "म्न्या",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 2444,
+      "term_id": "ITA-3.3.8",
+      "iast": "aṃsakūṭaḥ",
+      "original_devanagari": "असकटः",
+      "corrected_devanagari": "अंस्कूटः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2447,
+      "term_id": "ITA-3.3.10",
+      "iast": "aṃsapiṇḍaḥ,",
+      "original_devanagari": "असपिण्ड, असपिण्डिा",
+      "corrected_devanagari": "अंस्पिण्डः",
+      "issue": "ratio mismatch",
+      "length_change": -8
+    },
+    {
+      "row": 2451,
+      "term_id": "ITA-3.3.12",
+      "iast": "aṃsamūlam, bāhuśiraḥ,",
+      "original_devanagari": "असमलम,",
+      "corrected_devanagari": "अंस्मूल्म, बाहुशिरः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 13
+    },
+    {
+      "row": 2452,
+      "term_id": "",
+      "iast": "bāhuśīrṣaḥ",
+      "original_devanagari": "बाहुशिरः, बाहुशीरष",
+      "corrected_devanagari": "बाहुशीर्षः",
+      "issue": "ratio mismatch",
+      "length_change": -8
+    },
+    {
+      "row": 2464,
+      "term_id": "ITA-3.3.17",
+      "iast": "kakṣaḥ, kakṣā",
+      "original_devanagari": "कक्, कक्",
+      "corrected_devanagari": "क्क्षः, क्क्षा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 2470,
+      "term_id": "ITA-3.4.4",
+      "iast": "urogrīvam",
+      "original_devanagari": "उरोग्रम",
+      "corrected_devanagari": "उरोग्रीव्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2473,
+      "term_id": "ITA-3.4.6",
+      "iast": "cūcukam",
+      "original_devanagari": "चचकम",
+      "corrected_devanagari": "चूचुक्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2497,
+      "term_id": "ITA-3.6.6",
+      "iast": "kaṭī",
+      "original_devanagari": "कटि",
+      "corrected_devanagari": "क्टी",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 1
+    },
+    {
+      "row": 2498,
+      "term_id": "ITA-3.6.7",
+      "iast": "kaṭīpradeśaḥ",
+      "original_devanagari": "कटिप्रदशः",
+      "corrected_devanagari": "क्टीप्र्देशः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2510,
+      "term_id": "ITA-3.6.11",
+      "iast": "meḍhradvāram",
+      "original_devanagari": "मढ्रदम",
+      "corrected_devanagari": "मेढ्र्द्वार्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 2513,
+      "term_id": "ITA-3.6.12",
+      "iast": "meḍhrāgram",
+      "original_devanagari": "मढ्रग्रम",
+      "corrected_devanagari": "मेढ्राग्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2517,
+      "term_id": "ITA-3.6.15",
+      "iast": "vṛṣaṇaḥ, muṣkaḥ,",
+      "original_devanagari": "वषणः, मष्क, फलम,",
+      "corrected_devanagari": "वृष्णः, मुष्कः",
+      "issue": "ratio mismatch",
+      "length_change": -2
+    },
+    {
+      "row": 2522,
+      "term_id": "ITA-3.7.1",
+      "iast": "gudam,",
+      "original_devanagari": "गदम, पायः, ब्रध्न,",
+      "corrected_devanagari": "गुद्म",
+      "issue": "ratio mismatch",
+      "length_change": -13
+    },
+    {
+      "row": 2527,
+      "term_id": "ITA-3.7.4",
+      "iast": "gudavaliḥ,",
+      "original_devanagari": "गदवलिः, वलिः, पायवलिः",
+      "corrected_devanagari": "गुद्व्लिः",
+      "issue": "ratio mismatch",
+      "length_change": -12
+    },
+    {
+      "row": 2578,
+      "term_id": "ITA-3.8.9",
+      "iast": "kūrparaḥ,",
+      "original_devanagari": "करपः, कफोणिः, कहणिका",
+      "corrected_devanagari": "कूर्प्रः",
+      "issue": "ratio mismatch",
+      "length_change": -12
+    },
+    {
+      "row": 2585,
+      "term_id": "ITA-3.8.11",
+      "iast": "hastāgram",
+      "original_devanagari": "हस्तग्रम",
+      "corrected_devanagari": "ह्स्ताग्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2607,
+      "term_id": "ITA-3.8.24",
+      "iast": "aṅguṣṭhamūlam",
+      "original_devanagari": "अङ्ुमलम",
+      "corrected_devanagari": "अङ्गुष्ठ्मूल्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 2623,
+      "term_id": "ITA-3.9.7",
+      "iast": "jaṅghā",
+      "original_devanagari": "जङ्घ",
+      "corrected_devanagari": "ज्ङ्घा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 2630,
+      "term_id": "ITA-3.9.9",
+      "iast": "gulphaḥ,",
+      "original_devanagari": "गल्फ, घटिका, , घण्टिा",
+      "corrected_devanagari": "गुल्फः",
+      "issue": "ratio mismatch",
+      "length_change": -15
+    },
+    {
+      "row": 2663,
+      "term_id": "ITA-3.10.8",
+      "iast": "ghrāṇendriyam",
+      "original_devanagari": "घ्रणन्दयम",
+      "corrected_devanagari": "घ्राणेन्द्रिय्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 2681,
+      "term_id": "ITA-3.10.1.10  Body hair",
+      "iast": "bālaḥ, roma,",
+      "original_devanagari": "बालः, रोम, लोम, अङ्जम",
+      "corrected_devanagari": "बालः, रोम",
+      "issue": "ratio mismatch",
+      "length_change": -12
+    },
+    {
+      "row": 2686,
+      "term_id": "ITA-3.10.1.14  Hair follicle",
+      "iast": "romakūpaḥ, kūyakam",
+      "original_devanagari": "रोमकपः, कयकम",
+      "corrected_devanagari": "रोम्कूपः, कूय्क्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 5
+    },
+    {
+      "row": 2687,
+      "term_id": "ITA-3.10.1.15  Scalp",
+      "iast": "keśabhūmiḥ",
+      "original_devanagari": "कशभमिः",
+      "corrected_devanagari": "केश्भूमिः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2704,
+      "term_id": "ITA.3.11.2",
+      "iast": "koṣṭhāṅgam",
+      "original_devanagari": "कोष्ठङ्म",
+      "corrected_devanagari": "कोष्ठाङ्ग्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2708,
+      "term_id": "",
+      "iast": "nehaḥ,mastakamajjā,",
+      "original_devanagari": "मस्तक्ः, मस्तमज्ज,",
+      "corrected_devanagari": "नेहः,म्स्त्क्म्ज्जा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 1
+    },
+    {
+      "row": 2714,
+      "term_id": "ITA.3.11.6",
+      "iast": "phuphphusaḥ",
+      "original_devanagari": "फफ्सः",
+      "corrected_devanagari": "फुफ्फुसः",
+      "issue": "ratio mismatch",
+      "length_change": 3
+    },
+    {
+      "row": 2727,
+      "term_id": "",
+      "iast": "kāleyakam, kukṣigolakaḥ",
+      "original_devanagari": "कक्गोलकः",
+      "corrected_devanagari": "कालेय्क्म, कुक्षिगोल्कः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 15
+    },
+    {
+      "row": 2728,
+      "term_id": "ITA.3.11.13",
+      "iast": "bastiḥ, vastiḥ, mūtravasti,",
+      "original_devanagari": "बस्ति, वस्ति, मत्रवस,",
+      "corrected_devanagari": "ब्स्तिः, व्स्तिः, मूत्र्व्स्ति",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 9
+    },
+    {
+      "row": 2734,
+      "term_id": "ITA.3.11.16",
+      "iast": "vastiśiraḥ, vastimūrdhā,",
+      "original_devanagari": "वस्तिशिः, वस्तमर्,",
+      "corrected_devanagari": "व्स्तिशिरः, व्स्तिमूर्धा",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 2741,
+      "term_id": "ITA.3.11.21",
+      "iast": "mūtrasekaḥ, mūtrapathaḥ",
+      "original_devanagari": "मतसकः, मतपथः",
+      "corrected_devanagari": "मूत्र्सेकः, मूत्र्प्थः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 10
+    },
+    {
+      "row": 2746,
+      "term_id": "ITA.3.11.24",
+      "iast": "pakvāśayaḥ,",
+      "original_devanagari": "पक्वशयः,",
+      "corrected_devanagari": "प्क्वाश्यः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 2
+    },
+    {
+      "row": 2760,
+      "term_id": "ITA.3.11.31",
+      "iast": "antrāśayaḥ",
+      "original_devanagari": "अन्तशयः",
+      "corrected_devanagari": "अन्त्राश्यः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 2761,
+      "term_id": "ITA.3.11.32",
+      "iast": "kṣudrāntram",
+      "original_devanagari": "कषुद्म",
+      "corrected_devanagari": "क्षुद्रान्त्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 9
+    },
+    {
+      "row": 2768,
+      "term_id": "ITA.3.11.35",
+      "iast": "agnyāśayaḥ",
+      "original_devanagari": "अग्न्शयः",
+      "corrected_devanagari": "अग्न्याश्यः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2779,
+      "term_id": "ITA.3.11.42",
+      "iast": "pittāśayaḥ",
+      "original_devanagari": "पित्शयः",
+      "corrected_devanagari": "पित्ताश्यः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2781,
+      "term_id": "ITA.3.11.43",
+      "iast": "kaphāśayaḥ,",
+      "original_devanagari": "कफाशयः, शलेषशयः",
+      "corrected_devanagari": "क्फाश्यः",
+      "issue": "ratio mismatch",
+      "length_change": -7
+    },
+    {
+      "row": 2783,
+      "term_id": "ITA.3.11.44",
+      "iast": "raktāśayaḥ,",
+      "original_devanagari": "रक्शयः, शोणितस्थाम,",
+      "corrected_devanagari": "र्क्ताश्यः",
+      "issue": "ratio mismatch",
+      "length_change": -9
+    },
+    {
+      "row": 2788,
+      "term_id": "ITA.3.11.46",
+      "iast": "garbhāśayaḥ,",
+      "original_devanagari": "गर्शयः,",
+      "corrected_devanagari": "ग्र्भाश्यः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2789,
+      "term_id": "",
+      "iast": "garbhaśayyā, phalayoniḥ",
+      "original_devanagari": "गरशय्य, फलयोनिः",
+      "corrected_devanagari": "ग्र्भ्श्य्या, फ्ल्योनिः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 8
+    },
+    {
+      "row": 2793,
+      "term_id": "",
+      "iast": "garbhāśayadvāram,",
+      "original_devanagari": "गर्शयद्वम, योनिमखम",
+      "corrected_devanagari": "ग्र्भाश्य्द्वार्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": -1
+    },
+    {
+      "row": 2842,
+      "term_id": "ITA-3.13.15   Clavicle",
+      "iast": "akṣaḥ, akṣakaḥ,",
+      "original_devanagari": "अक्, अक्षकः, अक्षकास्थ,",
+      "corrected_devanagari": "अक्षः, अक्ष्कः",
+      "issue": "ratio mismatch",
+      "length_change": -9
+    },
+    {
+      "row": 2854,
+      "term_id": "ITA-3.13.20   Head of the rib",
+      "iast": "sthālakam",
+      "original_devanagari": "स्थलकम",
+      "corrected_devanagari": "स्थाल्क्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2856,
+      "term_id": "ITA-3.13.22   Hip bone",
+      "iast": "kaṭikapālaḥ,",
+      "original_devanagari": "कटिकपालः, जघनकपालः",
+      "corrected_devanagari": "क्टिक्पालः",
+      "issue": "ratio mismatch",
+      "length_change": -8
+    },
+    {
+      "row": 2859,
+      "term_id": "",
+      "iast": "śroṇikāṇḍāsthi,",
+      "original_devanagari": "श्रोणाण्डास्, मयरास्थ",
+      "corrected_devanagari": "श्रोणिकाण्डास्थि",
+      "issue": "ratio mismatch",
+      "length_change": -5
+    },
+    {
+      "row": 2886,
+      "term_id": "ITA-3.13.40   Ball and socket joint",
+      "iast": "ulūkhalasandhiḥ",
+      "original_devanagari": "उलखलसन्धि",
+      "corrected_devanagari": "उलूख्ल्स्न्धिः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 5
+    },
+    {
+      "row": 2903,
+      "term_id": "ITA-3.13.49   Shoulder joint",
+      "iast": "aṃsasandhiḥ,",
+      "original_devanagari": "अससन्धि, बाहुशिरसन्धि",
+      "corrected_devanagari": "अंस्स्न्धिः",
+      "issue": "ratio mismatch",
+      "length_change": -10
+    },
+    {
+      "row": 2914,
+      "term_id": "ITA-3.13.55   Sinews",
+      "iast": "snāyuḥ",
+      "original_devanagari": "स्यः",
+      "corrected_devanagari": "स्नायुः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2917,
+      "term_id": "ITA-3.13.58   Tendon",
+      "iast": "vṛttasnāyuḥ",
+      "original_devanagari": "वत्तयः",
+      "corrected_devanagari": "वृत्त्स्नायुः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 2918,
+      "term_id": "ITA-3.13.59   Aponeurosis",
+      "iast": "pṛthulā-snāyuḥ",
+      "original_devanagari": "पथलस्यः",
+      "corrected_devanagari": "पृथुला-स्नायुः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 2919,
+      "term_id": "ITA-3.13.60   Porous membrane",
+      "iast": "suṣirā-snāyuḥ",
+      "original_devanagari": "सषिरस्यः",
+      "corrected_devanagari": "सुषिरा-स्नायुः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 2921,
+      "term_id": "ITA-3.13.62   Brush-shaped",
+      "iast": "kūrcaḥ",
+      "original_devanagari": "करच",
+      "corrected_devanagari": "कूर्चः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 3
+    },
+    {
+      "row": 2930,
+      "term_id": "ITA-3.13.64   Conglomeration",
+      "iast": "asthisaṅghātaḥ,",
+      "original_devanagari": "अस्थसङ्घतः, सङ्घतः",
+      "corrected_devanagari": "अस्थिस्ङ्घातः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": -5
+    },
+    {
+      "row": 3014,
+      "term_id": "ITA-3.16.11",
+      "iast": "Śiromarma,",
+      "original_devanagari": "शिरोमर, जतर्मर",
+      "corrected_devanagari": "शिरोम्र्म",
+      "issue": "ratio mismatch",
+      "length_change": -5
+    },
+    {
+      "row": 3024,
+      "term_id": "ITA-3.16.14   Vulnerable location(s)",
+      "iast": "Snāyumarma",
+      "original_devanagari": "स्यमर",
+      "corrected_devanagari": "स्नायुम्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 3044,
+      "term_id": "ITA-3.16.18   Vulnerable location(s)",
+      "iast": "sadyaḥprāṇaharamarma",
+      "original_devanagari": "सद्यःपणहरमर",
+      "corrected_devanagari": "स्द्यःप्राण्ह्र्म्र्म",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 10
+    },
+    {
+      "row": 3047,
+      "term_id": "ITA-3.16.19   Vulnerable location(s)",
+      "iast": "kālāntara-",
+      "original_devanagari": "कालान्तरपणहरमर",
+      "corrected_devanagari": "कालान्त्र-",
+      "issue": "ratio mismatch",
+      "length_change": -4
+    },
+    {
+      "row": 3060,
+      "term_id": "ITA-3.16.24   Vulnerable location(s)",
+      "iast": "śrṛṅgāṭakam (marma)",
+      "original_devanagari": "शङ्गटकम (मर)",
+      "corrected_devanagari": "श्रृङ्गाट्क्म (म्र्म)",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 9
+    },
+    {
+      "row": 3066,
+      "term_id": "ITA-3.16.26   Vulnerable location(s)",
+      "iast": "stanamūlam (marma)",
+      "original_devanagari": "स्तमलम (मर)",
+      "corrected_devanagari": "स्त्न्मूल्म (म्र्म)",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 8
+    },
+    {
+      "row": 3125,
+      "term_id": "ITA-3.16.42   Vulnerable location(s)",
+      "iast": "kūrcaḥ (marma)",
+      "original_devanagari": "करच (मर)",
+      "corrected_devanagari": "कूर्चः (म्र्म)",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 6
+    },
+    {
+      "row": 3135,
+      "term_id": "",
+      "iast": "kakṣādharaḥ (marma)",
+      "original_devanagari": "कक्धरः (मर)",
+      "corrected_devanagari": "क्क्षाध्रः (म्र्म)",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 3152,
+      "term_id": "ITA-3.16.50   Vulnerable location(s)",
+      "iast": "manyā (marma)",
+      "original_devanagari": "मन्य (मर)",
+      "corrected_devanagari": "म्न्या (म्र्म)",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 5
+    },
+    {
+      "row": 3160,
+      "term_id": "ITA-3.16.53   Vulnerable location(s)",
+      "iast": "kūrcaśiraḥ (marma)",
+      "original_devanagari": "करचशिः (मर)",
+      "corrected_devanagari": "कूर्च्शिरः (म्र्म)",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 3175,
+      "term_id": "ITA-3.17.5",
+      "iast": "nābhināḍī,",
+      "original_devanagari": "नाभिनाडी, गरभाभिनाडी",
+      "corrected_devanagari": "नाभिनाडी",
+      "issue": "ratio mismatch",
+      "length_change": -12
+    },
+    {
+      "row": 3211,
+      "term_id": "",
+      "iast": "5.   yakṣmā, samuccaya;",
+      "original_devanagari": "5.  यक्ष्, समच्चय",
+      "corrected_devanagari": "5.   य्क्ष्मा, स्मुच्च्य",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 7
+    },
+    {
+      "row": 3275,
+      "term_id": "ITA-4.2.20",
+      "iast": "pakvāśayasamuttharogaḥ",
+      "original_devanagari": "पक्वशयसमत्थोगः",
+      "corrected_devanagari": "प्क्वाश्य्स्मुत्थ्रोगः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 8
+    },
+    {
+      "row": 3288,
+      "term_id": "ITA-4.2.24",
+      "iast": "vyālakṛtarogaḥ",
+      "original_devanagari": "व्यलकतरोगः",
+      "corrected_devanagari": "व्याल्कृत्रोगः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 4
+    },
+    {
+      "row": 3298,
+      "term_id": "ITA-4.2.27",
+      "iast": "vyāpannartukṛtarogaḥ",
+      "original_devanagari": "व्यपन््तरोगः",
+      "corrected_devanagari": "व्याप्न्न्र्तुकृत्रोगः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 10
+    },
+    {
+      "row": 3302,
+      "term_id": "ITA-4.2.28",
+      "iast": "avyāpannartukṛtarogaḥ",
+      "original_devanagari": "अव्यपन््तरोगः",
+      "corrected_devanagari": "अव्याप्न्न्र्तुकृत्रोगः",
+      "issue": "Long vowel in IAST but not in Devanagari",
+      "length_change": 10
+    }
+  ],
+  "sample_before_after": [
+    {
+      "term_id": "ITA-1.3.1",
+      "iast": "trisūtrāyurvedaḥ,",
+      "before": "तरिसत्यर्दः,",
+      "after": "त्रिसूत्रायुर्वेदः"
+    },
+    {
+      "term_id": "ITA-1.4.1",
+      "iast": "aṣṭāṅgāyurvedaḥ",
+      "before": "अष्टङ्गयर्दः",
+      "after": "अष्टाङ्गायुर्वेदः"
+    },
+    {
+      "term_id": "ITA-1.4.2",
+      "iast": "cikitsā",
+      "before": "चिकित्स",
+      "after": "चिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.5",
+      "iast": "grahacikitsā, bhūtavidyā.",
+      "before": "ग्रहचिकित्स,",
+      "after": "ग्र्ह्चिकित्सा, भूत्विद्या"
+    },
+    {
+      "term_id": "ITA-1.4.7",
+      "iast": "śalyacikitsā",
+      "before": "शल्यिकित्स",
+      "after": "श्ल्य्चिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.8",
+      "iast": "viṣacikitsā, garacikitsā",
+      "before": "विषचिकित्स,",
+      "after": "विष्चिकित्सा, ग्र्चिकित्सा"
+    },
+    {
+      "term_id": "",
+      "iast": "vṛṣacikitsā,",
+      "before": "वषचिकित्स,",
+      "after": "वृष्चिकित्सा"
+    },
+    {
+      "term_id": "ITA-1.4.11",
+      "iast": "prasūtītantra, strīroga",
+      "before": "प्रसतितन्, स्त्रोग",
+      "after": "प्र्सूतीत्न्त्र, स्त्रीरोग"
+    },
+    {
+      "term_id": "",
+      "iast": "tantram, vidhiḥ, vijñānam,",
+      "before": "तन्म, विधिः,",
+      "after": "त्न्त्र्म, विधिः, विज्ञान्म"
+    },
+    {
+      "term_id": "",
+      "iast": "tantram, vidhiḥ, vijñānam,",
+      "before": "तन्म, विधिः,",
+      "after": "त्न्त्र्म, विधिः, विज्ञान्म"
+    },
+    {
+      "term_id": "",
+      "iast": "lakṣaṇam",
+      "before": "विज्ञाम, लक्षणम",
+      "after": "ल्क्ष्ण्म"
+    },
+    {
+      "term_id": "ITA-1.5.2",
+      "iast": "sūtram",
+      "before": "सतम",
+      "after": "सूत्र्म"
+    },
+    {
+      "term_id": "ITA-1.5.4",
+      "iast": "vidyā",
+      "before": "विद्य",
+      "after": "विद्या"
+    },
+    {
+      "term_id": "ITA-1.6.10",
+      "iast": "arthāpattiḥ",
+      "before": "अर्पत्ति",
+      "after": "अर्थाप्त्तिः"
+    },
+    {
+      "term_id": "ITA-1.6.21",
+      "iast": "pūrvapakṣaḥ",
+      "before": "परपक्",
+      "after": "पूर्व्प्क्षः"
+    },
+    {
+      "term_id": "ITA-1.6.35",
+      "iast": "svasañjñā",
+      "before": "स्सञ्ज्ञ",
+      "after": "स्व्स्ञ्ज्ञा"
+    },
+    {
+      "term_id": "ITA-1.6.37",
+      "iast": "arthāśrayaḥ",
+      "before": "अर्श्रयः",
+      "after": "अर्थाश्र्यः"
+    },
+    {
+      "term_id": "ITA-1.6.40",
+      "iast": "vyākhyā",
+      "before": "व्यख्य",
+      "after": "व्याख्या"
+    },
+    {
+      "term_id": "ITA-1.7.1",
+      "iast": "siddhāntaḥ",
+      "before": "सिद्धन्त",
+      "after": "सिद्धान्तः"
+    },
+    {
+      "term_id": "ITA-1.7.7",
+      "iast": "abhyanujñā",
+      "before": "अभ्यज्ञ",
+      "after": "अभ्य्नुज्ञा"
+    },
+    {
+      "term_id": "ITA-1.7.8",
+      "iast": "arthaprāptiḥ",
+      "before": "अरथप््ति",
+      "after": "अर्थ्प्राप्तिः"
+    },
+    {
+      "term_id": "ITA-1.7.9",
+      "iast": "arthāntaram",
+      "before": "अर्न्तम",
+      "after": "अर्थान्त्र्म"
+    },
+    {
+      "term_id": "ITA-1.7.20",
+      "iast": "pratijñā",
+      "before": "प्रतिज्ञ",
+      "after": "प्र्तिज्ञा"
+    },
+    {
+      "term_id": "ITA-1.7.26",
+      "iast": "vitaṇḍā",
+      "before": "वितण्ड",
+      "after": "वित्ण्डा"
+    },
+    {
+      "term_id": "ITA-1.9.2.3",
+      "iast": "guṇa-viśeṣaḥ",
+      "before": "गण-विशषः",
+      "after": "गुण-विशेषः"
+    },
+    {
+      "term_id": "",
+      "iast": "pṛthvī",
+      "before": "पथ्व",
+      "after": "पृथ्वी"
+    },
+    {
+      "term_id": "ITA-1.9.3.2.5  The doer, the",
+      "iast": "kartā",
+      "before": "कर्",
+      "after": "क्र्ता"
+    },
+    {
+      "term_id": "",
+      "iast": "ṣaḍdhātupuruṣa",
+      "before": "षड्धतपरुष",
+      "after": "ष्ड्धातुपुरुष"
+    },
+    {
+      "term_id": "ITA-1.9.3.2.22  Observer, witness of",
+      "iast": "draṣṭā",
+      "before": "द्रष्ट",
+      "after": "द्र्ष्टा"
+    },
+    {
+      "term_id": "ITA-1.9.3.3.27  Shyness",
+      "iast": "lajjā",
+      "before": "लज्ज",
+      "after": "ल्ज्जा"
+    },
+    {
+      "term_id": "ITA-1.9.3.6.1  Unmanifest, without",
+      "iast": "amūrtadravyam",
+      "before": "अमरद्रवम",
+      "after": "अमूर्त्द्र्व्य्म"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.16  Minuteness,",
+      "iast": "sūkṣmaḥ",
+      "before": "सक्ष्",
+      "after": "सूक्ष्मः"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.17  Grossness, bulkiness",
+      "iast": "sthūlaḥ",
+      "before": "स्लः",
+      "after": "स्थूलः"
+    },
+    {
+      "term_id": "ITA-1.9.4.3.5  Desire, craving",
+      "iast": "icchā",
+      "before": "इच्छ",
+      "after": "इच्छा"
+    },
+    {
+      "term_id": "ITA-1.9.4.4.4  Number, enumeration,",
+      "iast": "saṃkhyā",
+      "before": "सख्य",
+      "after": "संख्या"
+    },
+    {
+      "term_id": "ITA-1.9.4.4.11  Practice",
+      "iast": "abhyāsaḥ",
+      "before": "अभ्यसः",
+      "after": "अभ्यासः"
+    },
+    {
+      "term_id": "",
+      "iast": "upāyaḥ)",
+      "before": "दशः, कालः, प्रवत्,",
+      "after": "उपायः)"
+    },
+    {
+      "term_id": "ITA-2.1.1.2",
+      "iast": "prāṇaḥ",
+      "before": "प्णः",
+      "after": "प्राणः"
+    },
+    {
+      "term_id": "ITA-2.1.1.9",
+      "iast": "ucchvāsaḥ",
+      "before": "उच्छ्वसः",
+      "after": "उच्छ्वासः"
+    },
+    {
+      "term_id": "ITA-2.1.1.10   Inspiration, inhalation",
+      "iast": "niḥśvāsaḥ",
+      "before": "निःश्वसः",
+      "after": "निःश्वासः"
+    },
+    {
+      "term_id": "ITA-2.1.1.11   Motion, action, function",
+      "iast": "ceṣṭā",
+      "before": "चष्ट",
+      "after": "चेष्टा"
+    },
+    {
+      "term_id": "ITA-2.1.1.11   Motion, action, function",
+      "iast": "ceṣṭā",
+      "before": "चष्ट",
+      "after": "चेष्टा"
+    },
+    {
+      "term_id": "ITA-2.1.2.5",
+      "iast": "bhrājakapittam",
+      "before": "भ्रजकपितम",
+      "after": "भ्राज्क्पित्त्म"
+    },
+    {
+      "term_id": "ITA-2.1.3.1",
+      "iast": "śleṣmā, kapha",
+      "before": "शलेष, कफ",
+      "after": "श्लेष्मा, क्फ"
+    },
+    {
+      "term_id": "ITA-2.2.2",
+      "iast": "dūṣyam",
+      "before": "दष्म",
+      "after": "दूष्य्म"
+    },
+    {
+      "term_id": "ITA-2.2.13",
+      "iast": "parva, asthisandhayaḥ,",
+      "before": "पर,",
+      "after": "प्र्व, अस्थिस्न्ध्यः"
+    },
+    {
+      "term_id": "ITA-2.2.17",
+      "iast": "pūraṇam",
+      "before": "परणम",
+      "after": "पूर्ण्म"
+    },
+    {
+      "term_id": "ITA-2.4.4",
+      "iast": "mūtram",
+      "before": "मतम",
+      "after": "मूत्र्म"
+    },
+    {
+      "term_id": "ITA-2.4.11",
+      "iast": "lomakūpamalaḥ",
+      "before": "लोमकपमलः",
+      "after": "लोम्कूप्म्लः"
+    },
+    {
+      "term_id": "ITA-2.5.6",
+      "iast": "prāṇavahasrotaḥ",
+      "before": "प्णवहस्रतः",
+      "after": "प्राण्व्ह्स्रोतः"
+    }
+  ]
+}

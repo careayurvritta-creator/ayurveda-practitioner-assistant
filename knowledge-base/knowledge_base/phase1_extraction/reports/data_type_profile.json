@@ -1,0 +1,199 @@
+{
+  "0": {
+    "types": {
+      "latin": 6506,
+      "empty": 10750,
+      "devanagari": 6
+    },
+    "has_devanagari": 6,
+    "has_latin": 6506,
+    "has_numbers": 4132,
+    "has_special": 4297,
+    "encoding_issues": 0
+  },
+  "1": {
+    "types": {
+      "latin": 9430,
+      "empty": 8224,
+      "devanagari": 10
+    },
+    "has_devanagari": 10,
+    "has_latin": 9430,
+    "has_numbers": 2217,
+    "has_special": 2862,
+    "encoding_issues": 0
+  },
+  "2": {
+    "types": {
+      "empty": 4994,
+      "latin": 10532,
+      "devanagari": 2156
+    },
+    "has_devanagari": 2156,
+    "has_latin": 10532,
+    "has_numbers": 108,
+    "has_special": 10179,
+    "encoding_issues": 0
+  },
+  "3": {
+    "types": {
+      "empty": 10748,
+      "latin": 6932
+    },
+    "has_devanagari": 0,
+    "has_latin": 6932,
+    "has_numbers": 16,
+    "has_special": 2082,
+    "encoding_issues": 0
+  },
+  "4": {
+    "types": {
+      "empty": 10841,
+      "devanagari": 3866,
+      "latin": 2963
+    },
+    "has_devanagari": 3866,
+    "has_latin": 2963,
+    "has_numbers": 2322,
+    "has_special": 6044,
+    "encoding_issues": 0
+  },
+  "5": {
+    "types": {
+      "empty": 15335,
+      "latin": 122,
+      "devanagari": 2176
+    },
+    "has_devanagari": 2176,
+    "has_latin": 122,
+    "has_numbers": 51,
+    "has_special": 2074,
+    "encoding_issues": 0
+  },
+  "6": {
+    "types": {
+      "empty": 17628,
+      "devanagari": 1,
+      "latin": 51
+    },
+    "has_devanagari": 1,
+    "has_latin": 51,
+    "has_numbers": 3,
+    "has_special": 0,
+    "encoding_issues": 0
+  },
+  "7": {
+    "types": {
+      "empty": 17631,
+      "devanagari": 1
+    },
+    "has_devanagari": 1,
+    "has_latin": 0,
+    "has_numbers": 51,
+    "has_special": 0,
+    "encoding_issues": 0
+  },
+  "8": {
+    "types": {
+      "empty": 17669,
+      "latin": 8,
+      "devanagari": 7
+    },
+    "has_devanagari": 7,
+    "has_latin": 8,
+    "has_numbers": 0,
+    "has_special": 0,
+    "encoding_issues": 0
+  },
+  "9": {
+    "types": {
+      "empty": 17682,
+      "devanagari": 1
+    },
+    "has_devanagari": 1,
+    "has_latin": 0,
+    "has_numbers": 0,
+    "has_special": 0,
+    "encoding_issues": 0
+  },
+  "10": {
+    "types": {
+      "empty": 17682,
+      "devanagari": 1
+    },
+    "has_devanagari": 1,
+    "has_latin": 0,
+    "has_numbers": 0,
+    "has_special": 0,
+    "encoding_issues": 0
+  },
+  "11": {
+    "types": {
+      "empty": 17666,
+      "latin": 9,
+      "devanagari": 8
+    },
+    "has_devanagari": 8,
+    "has_latin": 9,
+    "has_numbers": 0,
+    "has_special": 1,
+    "encoding_issues": 0
+  },
+  "12": {
+    "types": {
+      "empty": 17682,
+      "devanagari": 1
+    },
+    "has_devanagari": 1,
+    "has_latin": 0,
+    "has_numbers": 0,
+    "has_special": 0,
+    "encoding_issues": 0
+  },
+  "13": {
+    "types": {
+      "empty": 17682,
+      "devanagari": 1,
+      "latin": 1
+    },
+    "has_devanagari": 1,
+    "has_latin": 1,
+    "has_numbers": 0,
+    "has_special": 0,
+    "encoding_issues": 0
+  },
+  "14": {
+    "types": {
+      "empty": 17671,
+      "latin": 7,
+      "devanagari": 6
+    },
+    "has_devanagari": 6,
+    "has_latin": 7,
+    "has_numbers": 0,
+    "has_special": 0,
+    "encoding_issues": 0
+  },
+  "15": {
+    "types": {
+      "empty": 17681,
+      "devanagari": 1,
+      "latin": 1
+    },
+    "has_devanagari": 1,
+    "has_latin": 1,
+    "has_numbers": 0,
+    "has_special": 0,
+    "encoding_issues": 0
+  },
+  "16": {
+    "types": {
+      "empty": 17683
+    },
+    "has_devanagari": 0,
+    "has_latin": 0,
+    "has_numbers": 1,
+    "has_special": 0,
+    "encoding_issues": 0
+  }
+}

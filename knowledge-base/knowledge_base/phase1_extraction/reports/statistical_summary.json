@@ -1,0 +1,25 @@
+{
+  "total_rows": 18110,
+  "metadata_rows": 426,
+  "data_rows": 17684,
+  "index_rows": 3110,
+  "description_stats": {
+    "average_length": 41.95,
+    "min_length": 1,
+    "max_length": 82,
+    "total_descriptions": 12690
+  },
+  "terms_per_chapter": {
+    "1": 323,
+    "2": 207,
+    "3": 438,
+    "4": 160,
+    "5": 1297,
+    "6": 127,
+    "7": 195,
+    "8": 113,
+    "9": 661,
+    "10": 26
+  },
+  "extraction_timestamp": "2026-01-07T10:47:13.960769"
+}

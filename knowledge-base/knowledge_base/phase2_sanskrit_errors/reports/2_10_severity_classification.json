@@ -1,0 +1,72 @@
+{
+  "total_errors": 32458,
+  "by_severity": {
+    "critical": 29340,
+    "major": 1934,
+    "minor": 1099,
+    "cosmetic": 85
+  },
+  "error_breakdown": {
+    "invalid_devanagari": 29340,
+    "orphaned_matras": 0,
+    "invalid_matra_sequences": 85,
+    "virama_errors": 35,
+    "anusvara_issues": 1,
+    "iast_mismatches": 1899,
+    "sandhi_issues": 0,
+    "unusual_clusters": 1098,
+    "font_corruptions": 0,
+    "zero_width_chars": 0
+  },
+  "classification": {
+    "critical": [
+      {
+        "error_type": "invalid_devanagari",
+        "count": 29340
+      },
+      {
+        "error_type": "font_corruptions",
+        "count": 0
+      }
+    ],
+    "major": [
+      {
+        "error_type": "virama_errors",
+        "count": 35
+      },
+      {
+        "error_type": "iast_mismatches",
+        "count": 1899
+      }
+    ],
+    "minor": [
+      {
+        "error_type": "orphaned_matras",
+        "count": 0
+      },
+      {
+        "error_type": "anusvara_issues",
+        "count": 1
+      },
+      {
+        "error_type": "unusual_clusters",
+        "count": 1098
+      }
+    ],
+    "cosmetic": [
+      {
+        "error_type": "invalid_matra_sequences",
+        "count": 85
+      },
+      {
+        "error_type": "sandhi_issues",
+        "count": 0
+      },
+      {
+        "error_type": "zero_width_chars",
+        "count": 0
+      }
+    ]
+  },
+  "quality_score": -15011.75
+}

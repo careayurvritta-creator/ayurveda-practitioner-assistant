@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-01-07T11:44:14.607323",
+  "overall_score": 96.72,
+  "grade": "A+",
+  "component_scores": {
+    "id_uniqueness": 99.94,
+    "iast_deva_parity": 99.1,
+    "character_validity": 99.69,
+    "category_completeness": 100.0,
+    "xref_integrity": 100.0,
+    "confidence_assignment": 100.0,
+    "domain_tagging": 100.0,
+    "term_validity": 69.64
+  },
+  "terms_verified": 3547,
+  "fully_valid_terms": 2470,
+  "verification_rate": 69.64
+}

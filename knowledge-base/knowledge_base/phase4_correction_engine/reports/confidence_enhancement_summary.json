@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-01-07T11:26:45.276843",
+  "improvement": {
+    "before": {
+      "high": 164,
+      "medium": 42,
+      "low": 3341
+    },
+    "after": {
+      "high": 2907,
+      "medium": 600,
+      "low": 40
+    },
+    "change": {
+      "high": 2743,
+      "medium": 558,
+      "low": -3301
+    }
+  }
+}

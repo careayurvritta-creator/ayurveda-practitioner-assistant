@@ -1,0 +1,307 @@
+{
+  "potential_error_count": 0,
+  "compound_term_count": 1017,
+  "potential_errors": [],
+  "compound_terms_sample": [
+    {
+      "row": 465,
+      "term_id": "ITA-1.3.1",
+      "iast": "trisūtrāyurvedaḥ,",
+      "devanagari": "तरिसत्यर्दः,"
+    },
+    {
+      "row": 475,
+      "term_id": "ITA-1.4.4",
+      "iast": "bālacikitsā,",
+      "devanagari": "बालचिकित्स,"
+    },
+    {
+      "row": 478,
+      "term_id": "ITA-1.4.5",
+      "iast": "grahacikitsā, bhūtavidyā.",
+      "devanagari": "ग्रहचिकित्स,"
+    },
+    {
+      "row": 480,
+      "term_id": "ITA-1.4.6",
+      "iast": "śālakyatantra,",
+      "devanagari": "शालाक्तन्,"
+    },
+    {
+      "row": 490,
+      "term_id": "ITA-1.4.8",
+      "iast": "viṣacikitsā, garacikitsā",
+      "devanagari": "विषचिकित्स,"
+    },
+    {
+      "row": 492,
+      "term_id": "ITA-1.4.9",
+      "iast": "rasāyanacikitsā,",
+      "devanagari": "रसायनचिकित्स,"
+    },
+    {
+      "row": 494,
+      "term_id": "ITA-1.4.10",
+      "iast": "vajikaraṇacikitsa,",
+      "devanagari": "वाजीकरणचिकित्स,"
+    },
+    {
+      "row": 495,
+      "term_id": "",
+      "iast": "vṛṣacikitsā,",
+      "devanagari": "वषचिकित्स,"
+    },
+    {
+      "row": 496,
+      "term_id": "ITA-1.4.11",
+      "iast": "prasūtītantra, strīroga",
+      "devanagari": "प्रसतितन्, स्त्रोग"
+    },
+    {
+      "row": 499,
+      "term_id": "ITA-1.5.1",
+      "iast": "śāstram, sūtram,",
+      "devanagari": "शासम, सतम,"
+    },
+    {
+      "row": 500,
+      "term_id": "",
+      "iast": "śākhāvidyā, jñānam,",
+      "devanagari": "शाखाविद्य, ज्ञाम,"
+    },
+    {
+      "row": 501,
+      "term_id": "",
+      "iast": "tantram, vidhiḥ, vijñānam,",
+      "devanagari": "तन्म, विधिः,"
+    },
+    {
+      "row": 703,
+      "term_id": "ITA-1.7.30",
+      "iast": "tadvidyasaṃbhāṣā,",
+      "devanagari": "तदविदसभाषा"
+    },
+    {
+      "row": 771,
+      "term_id": "ITA-1.8.2.15   Negative correlation",
+      "iast": "kevalavyatireki-",
+      "devanagari": "कवलव्यतकि-अनमानम"
+    },
+    {
+      "row": 774,
+      "term_id": "ITA-1.8.2.16   Positive correlation",
+      "iast": "kevalānvayi-anumānam",
+      "devanagari": "कवलान्वय-अनमानम"
+    },
+    {
+      "row": 802,
+      "term_id": "ITA-1.8.2.27   Five-stepped",
+      "iast": "pañcāvayava-vākyam",
+      "devanagari": "पञ्चायव-वाक्म"
+    },
+    {
+      "row": 821,
+      "term_id": "ITA-1.8.2.31   Non-inherent cause",
+      "iast": "asamavāyi-kāraṇam",
+      "devanagari": "असमवायि-कारणम"
+    },
+    {
+      "row": 825,
+      "term_id": "ITA-1.8.2.32   Efficient cause",
+      "iast": "nimitta-kāraṇam",
+      "devanagari": "निमित-कारणम"
+    },
+    {
+      "row": 858,
+      "term_id": "ITA-1.9.1.2",
+      "iast": "dravya-sāmānyam",
+      "devanagari": "द्रव-सामान्म"
+    },
+    {
+      "row": 862,
+      "term_id": "ITA-1.9.1.3",
+      "iast": "guṇa-sāmānyam",
+      "devanagari": "गण-सामान्म"
+    },
+    {
+      "row": 865,
+      "term_id": "ITA-1.9.1.4",
+      "iast": "karma-sāmānyam",
+      "devanagari": "कर-सामान्म"
+    },
+    {
+      "row": 875,
+      "term_id": "ITA-1.9.2.2",
+      "iast": "dravya-viśeṣaḥ",
+      "devanagari": "द्रव-विशषः"
+    },
+    {
+      "row": 878,
+      "term_id": "ITA-1.9.2.3",
+      "iast": "guṇa-viśeṣaḥ",
+      "devanagari": "गण-विशषः"
+    },
+    {
+      "row": 881,
+      "term_id": "ITA-1.9.2.4",
+      "iast": "karma-viśeṣaḥ",
+      "devanagari": "कर-विशषः"
+    },
+    {
+      "row": 933,
+      "term_id": "ITA-1.9.3.2.8  Subtle body,",
+      "iast": "ativāhika-śarīram/",
+      "devanagari": "अतिवाहिक-शरीरम/"
+    },
+    {
+      "row": 940,
+      "term_id": "ITA-1.9.3.2.11  Person as the object",
+      "iast": "cikitsya-puruṣaḥ,",
+      "devanagari": "चिकित्स-परुषः,"
+    },
+    {
+      "row": 942,
+      "term_id": "ITA-1.9.3.2.12  Embodied being",
+      "iast": "caturviṃśati-puruṣaḥ",
+      "devanagari": "चतर्शति-परुषः"
+    },
+    {
+      "row": 987,
+      "term_id": "ITA-1.9.3.3.1",
+      "iast": "manaḥ, cetaḥ",
+      "devanagari": "मनः, चतः"
+    },
+    {
+      "row": 992,
+      "term_id": "ITA-1.9.3.3.3",
+      "iast": "aṇutva, paramāṇu",
+      "devanagari": "अणत्, परमाण"
+    },
+    {
+      "row": 996,
+      "term_id": "ITA-1.9.3.3.5",
+      "iast": "indriyāntara-sañcāraḥ",
+      "devanagari": "इन्दयान्त-सञ्चाः"
+    },
+    {
+      "row": 1014,
+      "term_id": "ITA-1.9.3.3.13  Psychological or",
+      "iast": "mānasika-bhāvaḥ",
+      "devanagari": "मानसिक-भावः"
+    },
+    {
+      "row": 1076,
+      "term_id": "ITA-1.9.3.6.2  Substances having",
+      "iast": "Mūrtadravya, paramāṇuḥ",
+      "devanagari": "मरद्रव, परमाणः"
+    },
+    {
+      "row": 1082,
+      "term_id": "ITA-1.9.3.7.2  Sentient being",
+      "iast": "cetana-dravyam/",
+      "devanagari": "चतन-द्रवम/सन्दयः"
+    },
+    {
+      "row": 1116,
+      "term_id": "ITA-1.9.3.7.16  Insentient material",
+      "iast": "acetana-dravyam/",
+      "devanagari": "अचतन-द्रवम/"
+    },
+    {
+      "row": 1131,
+      "term_id": "ITA-1.9.4.2",
+      "iast": "triguṇāḥ, mahāguṇaḥ",
+      "devanagari": "तरिगणा, महागणः"
+    },
+    {
+      "row": 1143,
+      "term_id": "ITA-1.9.4.1.1  Objects of special",
+      "iast": "arthaḥ, vaiśeṣikaguṇāḥ",
+      "devanagari": "अरथ, वशषिकगणाः"
+    },
+    {
+      "row": 1155,
+      "term_id": "ITA-1.9.4.2.1  Physical attributes,",
+      "iast": "śārīra-guṇāḥ/gurvādi-",
+      "devanagari": "शारीर-गणाः/गर्दि-"
+    },
+    {
+      "row": 1278,
+      "term_id": "",
+      "iast": "(Carakasaṃhita,",
+      "devanagari": "(चरकसहिता,"
+    },
+    {
+      "row": 1279,
+      "term_id": "",
+      "iast": "Suśrutasaṃhita,",
+      "devanagari": "सशतसहिता,"
+    },
+    {
+      "row": 1280,
+      "term_id": "",
+      "iast": "Aṣṭgasamgraha,",
+      "devanagari": "अष्टङ्सग्रह,"
+    },
+    {
+      "row": 1284,
+      "term_id": "",
+      "iast": "(Mādhavanidana,",
+      "devanagari": "शार्धरसहिता,"
+    },
+    {
+      "row": 1285,
+      "term_id": "",
+      "iast": "Śārṅgadharasaṃhita,",
+      "devanagari": "भावप्रकाश)"
+    },
+    {
+      "row": 1296,
+      "term_id": "ITA-1.11.1",
+      "iast": "daśavidhaparīkṣy-",
+      "devanagari": "दशविधपरीक्षभावः"
+    },
+    {
+      "row": 1297,
+      "term_id": "",
+      "iast": "abhāvaḥ (kāraṇa,",
+      "devanagari": "(कारण, करण,"
+    },
+    {
+      "row": 1298,
+      "term_id": "",
+      "iast": "karaṇa, kāryayoni, kārya,",
+      "devanagari": "कारयोनि, कार,"
+    },
+    {
+      "row": 1299,
+      "term_id": "",
+      "iast": "kāryaphala, anubandha,",
+      "devanagari": "कारफल, अनबन्,"
+    },
+    {
+      "row": 1341,
+      "term_id": "ITA-1.11.15",
+      "iast": "dravya, auṣadha",
+      "devanagari": "द्रव, औषध"
+    },
+    {
+      "row": 1365,
+      "term_id": "ITA-2.1.2",
+      "iast": "tridoṣaḥ, śārīrikadoṣa",
+      "devanagari": "तरिदोषः, शारीरिकदोष"
+    },
+    {
+      "row": 1397,
+      "term_id": "ITA-2.1.1.7",
+      "iast": "vāta-karma",
+      "devanagari": "वात-कर"
+    },
+    {
+      "row": 1409,
+      "term_id": "ITA-2.1.2.2",
+      "iast": "pācaka-pittam",
+      "devanagari": "पाचकपितम"
+    }
+  ]
+}

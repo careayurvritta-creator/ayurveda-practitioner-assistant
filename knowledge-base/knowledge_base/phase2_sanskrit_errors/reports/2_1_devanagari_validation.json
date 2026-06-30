@@ -1,0 +1,1859 @@
+{
+  "valid_char_count": 35314,
+  "invalid_char_count": 29340,
+  "unique_invalid_chars": 53,
+  "invalid_chars": [
+    {
+      "row": 444,
+      "term_id": "",
+      "char": "1",
+      "code": "0x31",
+      "position": 0,
+      "context": "1.  ",
+      "name": "DIGIT ONE"
+    },
+    {
+      "row": 446,
+      "term_id": "",
+      "char": "2",
+      "code": "0x32",
+      "position": 0,
+      "context": "2.  ",
+      "name": "DIGIT TWO"
+    },
+    {
+      "row": 447,
+      "term_id": "",
+      "char": "3",
+      "code": "0x33",
+      "position": 0,
+      "context": "3.  ",
+      "name": "DIGIT THREE"
+    },
+    {
+      "row": 449,
+      "term_id": "",
+      "char": "4",
+      "code": "0x34",
+      "position": 0,
+      "context": "4.  ",
+      "name": "DIGIT FOUR"
+    },
+    {
+      "row": 450,
+      "term_id": "",
+      "char": "5",
+      "code": "0x35",
+      "position": 0,
+      "context": "5.  ",
+      "name": "DIGIT FIVE"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "B",
+      "code": "0x42",
+      "position": 0,
+      "context": "Back",
+      "name": "LATIN CAPITAL LETTER B"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Backg",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 2,
+      "context": "Backgr",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "k",
+      "code": "0x6b",
+      "position": 3,
+      "context": "Backgro",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "g",
+      "code": "0x67",
+      "position": 4,
+      "context": "ackgrou",
+      "name": "LATIN SMALL LETTER G"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "ckgroun",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 6,
+      "context": "kground",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "u",
+      "code": "0x75",
+      "position": 7,
+      "context": "ground ",
+      "name": "LATIN SMALL LETTER U"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 8,
+      "context": "round c",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "d",
+      "code": "0x64",
+      "position": 9,
+      "context": "ound co",
+      "name": "LATIN SMALL LETTER D"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 11,
+      "context": "nd conc",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 12,
+      "context": "d conce",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 13,
+      "context": " concep",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 14,
+      "context": "concept",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "e",
+      "code": "0x65",
+      "position": 15,
+      "context": "oncepts",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "p",
+      "code": "0x70",
+      "position": 16,
+      "context": "ncepts",
+      "name": "LATIN SMALL LETTER P"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "t",
+      "code": "0x74",
+      "position": 17,
+      "context": "cepts",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 454,
+      "term_id": "",
+      "char": "s",
+      "code": "0x73",
+      "position": 18,
+      "context": "epts",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "S",
+      "code": "0x53",
+      "position": 0,
+      "context": "Sans",
+      "name": "LATIN CAPITAL LETTER S"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Sansk",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "n",
+      "code": "0x6e",
+      "position": 2,
+      "context": "Sanskr",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "s",
+      "code": "0x73",
+      "position": 3,
+      "context": "Sanskri",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "k",
+      "code": "0x6b",
+      "position": 4,
+      "context": "anskrit",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "nskrit ",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "i",
+      "code": "0x69",
+      "position": 6,
+      "context": "skrit t",
+      "name": "LATIN SMALL LETTER I"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 7,
+      "context": "krit te",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 9,
+      "context": "it term",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "e",
+      "code": "0x65",
+      "position": 10,
+      "context": "t term",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 11,
+      "context": " term",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 457,
+      "term_id": "Term ID",
+      "char": "m",
+      "code": "0x6d",
+      "position": 12,
+      "context": "term",
+      "name": "LATIN SMALL LETTER M"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "S",
+      "code": "0x53",
+      "position": 0,
+      "context": "Sans",
+      "name": "LATIN CAPITAL LETTER S"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Sansk",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "n",
+      "code": "0x6e",
+      "position": 2,
+      "context": "Sanskr",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "s",
+      "code": "0x73",
+      "position": 3,
+      "context": "Sanskri",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "k",
+      "code": "0x6b",
+      "position": 4,
+      "context": "anskrit",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "nskrit ",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "i",
+      "code": "0x69",
+      "position": 6,
+      "context": "skrit t",
+      "name": "LATIN SMALL LETTER I"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 7,
+      "context": "krit te",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 9,
+      "context": "it term",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "e",
+      "code": "0x65",
+      "position": 10,
+      "context": "t term",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 11,
+      "context": " term",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 486,
+      "term_id": "Term ID",
+      "char": "m",
+      "code": "0x6d",
+      "position": 12,
+      "context": "term",
+      "name": "LATIN SMALL LETTER M"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "B",
+      "code": "0x42",
+      "position": 0,
+      "context": "Back",
+      "name": "LATIN CAPITAL LETTER B"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Backg",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 2,
+      "context": "Backgr",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "k",
+      "code": "0x6b",
+      "position": 3,
+      "context": "Backgro",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "g",
+      "code": "0x67",
+      "position": 4,
+      "context": "ackgrou",
+      "name": "LATIN SMALL LETTER G"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "ckgroun",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 6,
+      "context": "kground",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "u",
+      "code": "0x75",
+      "position": 7,
+      "context": "ground ",
+      "name": "LATIN SMALL LETTER U"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 8,
+      "context": "round c",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "d",
+      "code": "0x64",
+      "position": 9,
+      "context": "ound co",
+      "name": "LATIN SMALL LETTER D"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 11,
+      "context": "nd conc",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 12,
+      "context": "d conce",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 13,
+      "context": " concep",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 14,
+      "context": "concept",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "e",
+      "code": "0x65",
+      "position": 15,
+      "context": "oncepts",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "p",
+      "code": "0x70",
+      "position": 16,
+      "context": "ncepts",
+      "name": "LATIN SMALL LETTER P"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "t",
+      "code": "0x74",
+      "position": 17,
+      "context": "cepts",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 512,
+      "term_id": "",
+      "char": "s",
+      "code": "0x73",
+      "position": 18,
+      "context": "epts",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "S",
+      "code": "0x53",
+      "position": 0,
+      "context": "Sans",
+      "name": "LATIN CAPITAL LETTER S"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Sansk",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "n",
+      "code": "0x6e",
+      "position": 2,
+      "context": "Sanskr",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "s",
+      "code": "0x73",
+      "position": 3,
+      "context": "Sanskri",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "k",
+      "code": "0x6b",
+      "position": 4,
+      "context": "anskrit",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "nskrit ",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "i",
+      "code": "0x69",
+      "position": 6,
+      "context": "skrit t",
+      "name": "LATIN SMALL LETTER I"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 7,
+      "context": "krit te",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 9,
+      "context": "it term",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "e",
+      "code": "0x65",
+      "position": 10,
+      "context": "t term",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 11,
+      "context": " term",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 515,
+      "term_id": "Term ID",
+      "char": "m",
+      "code": "0x6d",
+      "position": 12,
+      "context": "term",
+      "name": "LATIN SMALL LETTER M"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "S",
+      "code": "0x53",
+      "position": 0,
+      "context": "Sans",
+      "name": "LATIN CAPITAL LETTER S"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Sansk",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "n",
+      "code": "0x6e",
+      "position": 2,
+      "context": "Sanskr",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "s",
+      "code": "0x73",
+      "position": 3,
+      "context": "Sanskri",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "k",
+      "code": "0x6b",
+      "position": 4,
+      "context": "anskrit",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "nskrit ",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "i",
+      "code": "0x69",
+      "position": 6,
+      "context": "skrit t",
+      "name": "LATIN SMALL LETTER I"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 7,
+      "context": "krit te",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 9,
+      "context": "it term",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "e",
+      "code": "0x65",
+      "position": 10,
+      "context": "t term",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 11,
+      "context": " term",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 546,
+      "term_id": "Term ID",
+      "char": "m",
+      "code": "0x6d",
+      "position": 12,
+      "context": "term",
+      "name": "LATIN SMALL LETTER M"
+    },
+    {
+      "row": 568,
+      "term_id": "ITA-1.6.17",
+      "char": "/",
+      "code": "0x2f",
+      "position": 6,
+      "context": "ोगः/सनन",
+      "name": "SOLIDUS"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "B",
+      "code": "0x42",
+      "position": 0,
+      "context": "Back",
+      "name": "LATIN CAPITAL LETTER B"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Backg",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 2,
+      "context": "Backgr",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "k",
+      "code": "0x6b",
+      "position": 3,
+      "context": "Backgro",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "g",
+      "code": "0x67",
+      "position": 4,
+      "context": "ackgrou",
+      "name": "LATIN SMALL LETTER G"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "ckgroun",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 6,
+      "context": "kground",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "u",
+      "code": "0x75",
+      "position": 7,
+      "context": "ground ",
+      "name": "LATIN SMALL LETTER U"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 8,
+      "context": "round c",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "d",
+      "code": "0x64",
+      "position": 9,
+      "context": "ound co",
+      "name": "LATIN SMALL LETTER D"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 11,
+      "context": "nd conc",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 12,
+      "context": "d conce",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 13,
+      "context": " concep",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 14,
+      "context": "concept",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "e",
+      "code": "0x65",
+      "position": 15,
+      "context": "oncepts",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "p",
+      "code": "0x70",
+      "position": 16,
+      "context": "ncepts",
+      "name": "LATIN SMALL LETTER P"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "t",
+      "code": "0x74",
+      "position": 17,
+      "context": "cepts",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 571,
+      "term_id": "",
+      "char": "s",
+      "code": "0x73",
+      "position": 18,
+      "context": "epts",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "S",
+      "code": "0x53",
+      "position": 0,
+      "context": "Sans",
+      "name": "LATIN CAPITAL LETTER S"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Sansk",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "n",
+      "code": "0x6e",
+      "position": 2,
+      "context": "Sanskr",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "s",
+      "code": "0x73",
+      "position": 3,
+      "context": "Sanskri",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "k",
+      "code": "0x6b",
+      "position": 4,
+      "context": "anskrit",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "nskrit ",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "i",
+      "code": "0x69",
+      "position": 6,
+      "context": "skrit t",
+      "name": "LATIN SMALL LETTER I"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 7,
+      "context": "krit te",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 9,
+      "context": "it term",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "e",
+      "code": "0x65",
+      "position": 10,
+      "context": "t term",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 11,
+      "context": " term",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 574,
+      "term_id": "Term ID",
+      "char": "m",
+      "code": "0x6d",
+      "position": 12,
+      "context": "term",
+      "name": "LATIN SMALL LETTER M"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "S",
+      "code": "0x53",
+      "position": 0,
+      "context": "Sans",
+      "name": "LATIN CAPITAL LETTER S"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Sansk",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "n",
+      "code": "0x6e",
+      "position": 2,
+      "context": "Sanskr",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "s",
+      "code": "0x73",
+      "position": 3,
+      "context": "Sanskri",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "k",
+      "code": "0x6b",
+      "position": 4,
+      "context": "anskrit",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "nskrit ",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "i",
+      "code": "0x69",
+      "position": 6,
+      "context": "skrit t",
+      "name": "LATIN SMALL LETTER I"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 7,
+      "context": "krit te",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 9,
+      "context": "it term",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "e",
+      "code": "0x65",
+      "position": 10,
+      "context": "t term",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 11,
+      "context": " term",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 603,
+      "term_id": "Term ID",
+      "char": "m",
+      "code": "0x6d",
+      "position": 12,
+      "context": "term",
+      "name": "LATIN SMALL LETTER M"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "B",
+      "code": "0x42",
+      "position": 0,
+      "context": "Back",
+      "name": "LATIN CAPITAL LETTER B"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Backg",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 2,
+      "context": "Backgr",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "k",
+      "code": "0x6b",
+      "position": 3,
+      "context": "Backgro",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "g",
+      "code": "0x67",
+      "position": 4,
+      "context": "ackgrou",
+      "name": "LATIN SMALL LETTER G"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "ckgroun",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 6,
+      "context": "kground",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "u",
+      "code": "0x75",
+      "position": 7,
+      "context": "ground ",
+      "name": "LATIN SMALL LETTER U"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 8,
+      "context": "round c",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "d",
+      "code": "0x64",
+      "position": 9,
+      "context": "ound co",
+      "name": "LATIN SMALL LETTER D"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 11,
+      "context": "nd conc",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 12,
+      "context": "d conce",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 13,
+      "context": " concep",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 14,
+      "context": "concept",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "e",
+      "code": "0x65",
+      "position": 15,
+      "context": "oncepts",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "p",
+      "code": "0x70",
+      "position": 16,
+      "context": "ncepts",
+      "name": "LATIN SMALL LETTER P"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "t",
+      "code": "0x74",
+      "position": 17,
+      "context": "cepts",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 627,
+      "term_id": "",
+      "char": "s",
+      "code": "0x73",
+      "position": 18,
+      "context": "epts",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "S",
+      "code": "0x53",
+      "position": 0,
+      "context": "Sans",
+      "name": "LATIN CAPITAL LETTER S"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Sansk",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "n",
+      "code": "0x6e",
+      "position": 2,
+      "context": "Sanskr",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "s",
+      "code": "0x73",
+      "position": 3,
+      "context": "Sanskri",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "k",
+      "code": "0x6b",
+      "position": 4,
+      "context": "anskrit",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "nskrit ",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "i",
+      "code": "0x69",
+      "position": 6,
+      "context": "skrit t",
+      "name": "LATIN SMALL LETTER I"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 7,
+      "context": "krit te",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 9,
+      "context": "it term",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "e",
+      "code": "0x65",
+      "position": 10,
+      "context": "t term",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 11,
+      "context": " term",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 630,
+      "term_id": "Term ID",
+      "char": "m",
+      "code": "0x6d",
+      "position": 12,
+      "context": "term",
+      "name": "LATIN SMALL LETTER M"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "S",
+      "code": "0x53",
+      "position": 0,
+      "context": "Sans",
+      "name": "LATIN CAPITAL LETTER S"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Sansk",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "n",
+      "code": "0x6e",
+      "position": 2,
+      "context": "Sanskr",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "s",
+      "code": "0x73",
+      "position": 3,
+      "context": "Sanskri",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "k",
+      "code": "0x6b",
+      "position": 4,
+      "context": "anskrit",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "nskrit ",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "i",
+      "code": "0x69",
+      "position": 6,
+      "context": "skrit t",
+      "name": "LATIN SMALL LETTER I"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 7,
+      "context": "krit te",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 9,
+      "context": "it term",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "e",
+      "code": "0x65",
+      "position": 10,
+      "context": "t term",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 11,
+      "context": " term",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 660,
+      "term_id": "Term ID",
+      "char": "m",
+      "code": "0x6d",
+      "position": 12,
+      "context": "term",
+      "name": "LATIN SMALL LETTER M"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "B",
+      "code": "0x42",
+      "position": 0,
+      "context": "Back",
+      "name": "LATIN CAPITAL LETTER B"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Backg",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 2,
+      "context": "Backgr",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "k",
+      "code": "0x6b",
+      "position": 3,
+      "context": "Backgro",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "g",
+      "code": "0x67",
+      "position": 4,
+      "context": "ackgrou",
+      "name": "LATIN SMALL LETTER G"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "ckgroun",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 6,
+      "context": "kground",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "u",
+      "code": "0x75",
+      "position": 7,
+      "context": "ground ",
+      "name": "LATIN SMALL LETTER U"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 8,
+      "context": "round c",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "d",
+      "code": "0x64",
+      "position": 9,
+      "context": "ound co",
+      "name": "LATIN SMALL LETTER D"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 11,
+      "context": "nd conc",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "o",
+      "code": "0x6f",
+      "position": 12,
+      "context": "d conce",
+      "name": "LATIN SMALL LETTER O"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "n",
+      "code": "0x6e",
+      "position": 13,
+      "context": " concep",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "c",
+      "code": "0x63",
+      "position": 14,
+      "context": "concept",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "e",
+      "code": "0x65",
+      "position": 15,
+      "context": "oncepts",
+      "name": "LATIN SMALL LETTER E"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "p",
+      "code": "0x70",
+      "position": 16,
+      "context": "ncepts",
+      "name": "LATIN SMALL LETTER P"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "t",
+      "code": "0x74",
+      "position": 17,
+      "context": "cepts",
+      "name": "LATIN SMALL LETTER T"
+    },
+    {
+      "row": 687,
+      "term_id": "",
+      "char": "s",
+      "code": "0x73",
+      "position": 18,
+      "context": "epts",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 690,
+      "term_id": "Term ID",
+      "char": "S",
+      "code": "0x53",
+      "position": 0,
+      "context": "Sans",
+      "name": "LATIN CAPITAL LETTER S"
+    },
+    {
+      "row": 690,
+      "term_id": "Term ID",
+      "char": "a",
+      "code": "0x61",
+      "position": 1,
+      "context": "Sansk",
+      "name": "LATIN SMALL LETTER A"
+    },
+    {
+      "row": 690,
+      "term_id": "Term ID",
+      "char": "n",
+      "code": "0x6e",
+      "position": 2,
+      "context": "Sanskr",
+      "name": "LATIN SMALL LETTER N"
+    },
+    {
+      "row": 690,
+      "term_id": "Term ID",
+      "char": "s",
+      "code": "0x73",
+      "position": 3,
+      "context": "Sanskri",
+      "name": "LATIN SMALL LETTER S"
+    },
+    {
+      "row": 690,
+      "term_id": "Term ID",
+      "char": "k",
+      "code": "0x6b",
+      "position": 4,
+      "context": "anskrit",
+      "name": "LATIN SMALL LETTER K"
+    },
+    {
+      "row": 690,
+      "term_id": "Term ID",
+      "char": "r",
+      "code": "0x72",
+      "position": 5,
+      "context": "nskrit ",
+      "name": "LATIN SMALL LETTER R"
+    },
+    {
+      "row": 690,
+      "term_id": "Term ID",
+      "char": "i",
+      "code": "0x69",
+      "position": 6,
+      "context": "skrit t",
+      "name": "LATIN SMALL LETTER I"
+    },
+    {
+      "row": 690,
+      "term_id": "Term ID",
+      "char": "t",
+      "code": "0x74",
+      "position": 7,
+      "context": "krit te",
+      "name": "LATIN SMALL LETTER T"
+    }
+  ],
+  "char_frequency_top50": {
+    ".": 4868,
+    "्": 3929,
+    "-": 2474,
+    "र": 2421,
+    "ा": 2279,
+    "T": 2263,
+    "I": 2233,
+    "A": 2126,
+    "म": 2111,
+    " ": 1994,
+    "ि": 1883,
+    "1": 1808,
+    "क": 1807,
+    "त": 1802,
+    "r": 1748,
+    "ः": 1715,
+    "न": 1628,
+    "स": 1568,
+    "t": 1549,
+    "व": 1492,
+    "प": 1420,
+    "2": 1325,
+    "3": 1255,
+    "5": 1240,
+    "i": 1201,
+    "s": 1056,
+    "e": 1044,
+    "6": 1041,
+    "a": 996,
+    "द": 959,
+    "य": 889,
+    "n": 883,
+    "9": 832,
+    "m": 804,
+    "7": 765,
+    "4": 752,
+    "ग": 750,
+    "ष": 738,
+    "ो": 727,
+    "श": 703,
+    "ज": 701,
+    "d": 687,
+    "ल": 670,
+    "ध": 591,
+    "अ": 555,
+    "ण": 524,
+    "o": 521,
+    "k": 498,
+    "S": 489,
+    "8": 449
+  }
+}

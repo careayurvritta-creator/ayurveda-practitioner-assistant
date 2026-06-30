@@ -1,0 +1,283 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "WHO ITA Knowledge Base API",
+    "description": "REST API for accessing WHO International Standard Terminologies on Ayurveda",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Ayurvritta AIMRS",
+      "email": "support@ayurvritta.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "/api/v1/ita",
+      "description": "Production server"
+    }
+  ],
+  "paths": {
+    "/lookup/{termId}": {
+      "get": {
+        "summary": "Lookup term by ID",
+        "description": "Retrieve a single term by its WHO ITA code",
+        "operationId": "lookupTerm",
+        "parameters": [
+          {
+            "name": "termId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "ITA-1.1.1"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Term found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Term"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Term not found"
+          }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "summary": "Search terms",
+        "description": "Search terms by keyword in English, IAST, or Devanagari",
+        "operationId": "searchTerms",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Search query"
+          },
+          {
+            "name": "chapter",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by chapter (1-10)"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            },
+            "description": "Maximum results"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer"
+                    },
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Term"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/validate": {
+      "post": {
+        "summary": "Validate Sanskrit term",
+        "description": "Validate IAST-Devanagari consistency",
+        "operationId": "validateTerm",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "iast": {
+                    "type": "string"
+                  },
+                  "devanagari": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Validation result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "valid": {
+                      "type": "boolean"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/chapters": {
+      "get": {
+        "summary": "List chapters",
+        "description": "Get all WHO ITA chapters",
+        "operationId": "listChapters",
+        "responses": {
+          "200": {
+            "description": "Chapter list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Chapter"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/autocomplete": {
+      "get": {
+        "summary": "Autocomplete suggestions",
+        "description": "Get term suggestions for autocomplete",
+        "operationId": "autocomplete",
+        "parameters": [
+          {
+            "name": "prefix",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 2
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Suggestions",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "term_id": {
+                        "type": "string"
+                      },
+                      "english": {
+                        "type": "string"
+                      },
+                      "iast": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Term": {
+        "type": "object",
+        "properties": {
+          "term_id": {
+            "type": "string",
+            "example": "ITA-1.1.1"
+          },
+          "english": {
+            "type": "string",
+            "example": "Ayurveda"
+          },
+          "iast": {
+            "type": "string",
+            "example": "ayurveda"
+          },
+          "devanagari": {
+            "type": "string",
+            "example": "\u0906\u092f\u0941\u0930\u094d\u0935\u0947\u0926"
+          },
+          "chapter": {
+            "type": "string"
+          },
+          "chapter_name": {
+            "type": "string"
+          },
+          "domains": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      },
+      "Chapter": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "term_count": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

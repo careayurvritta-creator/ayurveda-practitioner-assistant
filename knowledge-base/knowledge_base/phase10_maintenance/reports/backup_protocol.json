@@ -1,0 +1,16 @@
+{
+  "schedule": {
+    "full": "Weekly (Sunday 03:00 UTC)",
+    "incremental": "Daily (03:00 UTC)",
+    "retention": "90 days"
+  },
+  "storage": {
+    "primary": "Local: /backups/ita_kb/",
+    "secondary": "Cloud: s3://ayurvritta-backups/ita/"
+  },
+  "recovery": {
+    "rto": "4 hours",
+    "rpo": "24 hours",
+    "tested": "2026-01-07"
+  }
+}

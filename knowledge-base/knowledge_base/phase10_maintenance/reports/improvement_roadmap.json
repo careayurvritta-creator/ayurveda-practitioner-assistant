@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "quarters": [
+    {
+      "quarter": "Q1 2026",
+      "theme": "Stabilization",
+      "goals": [
+        "Achieve 99% API uptime",
+        "Resolve all high-priority errors",
+        "Complete first expert review cycle"
+      ]
+    },
+    {
+      "quarter": "Q2 2026",
+      "theme": "Enhancement",
+      "goals": [
+        "Add 500+ compound terms",
+        "Improve search accuracy by 15%",
+        "Launch mobile-optimized API"
+      ]
+    },
+    {
+      "quarter": "Q3 2026",
+      "theme": "Integration",
+      "goals": [
+        "Integrate with 3 EMR systems",
+        "Add Sanskrit audio pronunciation",
+        "Enable multi-language support"
+      ]
+    },
+    {
+      "quarter": "Q4 2026",
+      "theme": "AI Advancement",
+      "goals": [
+        "Fine-tune proprietary LLM with ITA data",
+        "Launch clinical decision support",
+        "Publish research paper"
+      ]
+    }
+  ],
+  "kpis": [
+    {
+      "metric": "Term Accuracy",
+      "current": "96.72%",
+      "target": "99.5%"
+    },
+    {
+      "metric": "API Uptime",
+      "current": "N/A",
+      "target": "99.9%"
+    },
+    {
+      "metric": "User Satisfaction",
+      "current": "N/A",
+      "target": "4.5/5"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "backup_schedule": {
+    "full_backup": "weekly",
+    "incremental_backup": "daily",
+    "retention_period": "90 days"
+  },
+  "backup_locations": {
+    "primary": "/backups/ita_kb/",
+    "offsite": "cloud-storage://ayurvritta-backups/ita/"
+  },
+  "backup_contents": [
+    "normalized_knowledge_base.json",
+    "knowledge_graph.json",
+    "embeddings.json",
+    "training_data/",
+    "version_history.json"
+  ],
+  "recovery_procedures": {
+    "full_restore": {
+      "rto": "4 hours",
+      "rpo": "24 hours",
+      "steps": [
+        "Identify latest valid backup",
+        "Verify backup integrity (checksum)",
+        "Stop dependent services",
+        "Restore data files",
+        "Rebuild indexes",
+        "Verify data integrity",
+        "Restart services",
+        "Run validation suite"
+      ]
+    }
+  },
+  "testing": {
+    "frequency": "monthly",
+    "last_test": "2026-01-07",
+    "next_test": "2026-02-06"
+  }
+}

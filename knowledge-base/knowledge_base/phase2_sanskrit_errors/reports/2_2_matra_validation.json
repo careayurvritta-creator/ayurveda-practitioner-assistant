@@ -1,0 +1,687 @@
+{
+  "orphaned_matra_count": 0,
+  "invalid_sequence_count": 85,
+  "orphaned_matras": [],
+  "invalid_sequences": [
+    {
+      "row": 681,
+      "term_id": "ITA-1.7.21",
+      "sequence": "ाा",
+      "position": 9,
+      "context": "्ञाानिः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 962,
+      "term_id": "ITA-1.9.3.2.19  Formless",
+      "sequence": "िा",
+      "position": 5,
+      "context": "र्िारम",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 1799,
+      "term_id": "ITA-2.6.40",
+      "sequence": "ूो",
+      "position": 3,
+      "context": "करूोष्ठ",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2213,
+      "term_id": "ITA-3.1.14",
+      "sequence": "िा",
+      "position": 6,
+      "context": "्डिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2215,
+      "term_id": "ITA-3.1.15",
+      "sequence": "िी",
+      "position": 7,
+      "context": "्धिी",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2267,
+      "term_id": "",
+      "sequence": "िी",
+      "position": 5,
+      "context": "्षिीनिक",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2353,
+      "term_id": "ITA-3.2.3.10  External ear",
+      "sequence": "िा",
+      "position": 8,
+      "context": "ुलिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2394,
+      "term_id": "",
+      "sequence": "िा",
+      "position": 8,
+      "context": "्विा, ग",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2410,
+      "term_id": "ITA-3.2.4.26  Palatine tonsil",
+      "sequence": "िा",
+      "position": 8,
+      "context": "्विा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2411,
+      "term_id": "ITA-3.2.4.27  Epiglottis, adenoids",
+      "sequence": "िा",
+      "position": 9,
+      "context": "्विा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2417,
+      "term_id": "",
+      "sequence": "िा",
+      "position": 15,
+      "context": "्डिा,",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2418,
+      "term_id": "",
+      "sequence": "िा",
+      "position": 5,
+      "context": "्टिा, त",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2445,
+      "term_id": "ITA-3.3.9",
+      "sequence": "िा",
+      "position": 8,
+      "context": "्डिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2447,
+      "term_id": "ITA-3.3.10",
+      "sequence": "िा",
+      "position": 17,
+      "context": "्डिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2480,
+      "term_id": "ITA-3.5.3",
+      "sequence": "िा",
+      "position": 6,
+      "context": "र्िा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2532,
+      "term_id": "ITA-3.7.7",
+      "sequence": "िी",
+      "position": 6,
+      "context": "र्िी",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2547,
+      "term_id": "ITA-3.7.17",
+      "sequence": "िा",
+      "position": 13,
+      "context": "ेषिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2574,
+      "term_id": "ITA-3.8.5",
+      "sequence": "िा",
+      "position": 10,
+      "context": "्डिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2619,
+      "term_id": "ITA-3.9.4",
+      "sequence": "िा",
+      "position": 9,
+      "context": "्डिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2630,
+      "term_id": "ITA-3.9.9",
+      "sequence": "िा",
+      "position": 20,
+      "context": "्टिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2721,
+      "term_id": "ITA.3.11.11",
+      "sequence": "ीा",
+      "position": 4,
+      "context": "्लीा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2848,
+      "term_id": "ITA-3.13.18   Rib",
+      "sequence": "ुा",
+      "position": 3,
+      "context": "परुा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2849,
+      "term_id": "ITA-3.13.19   Anterior end of the rib",
+      "sequence": "ुा",
+      "position": 3,
+      "context": "परुाग्र",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2960,
+      "term_id": "",
+      "sequence": "िा",
+      "position": 11,
+      "context": "यसिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 2961,
+      "term_id": "ITA-3.14.12   Vessels of the neck",
+      "sequence": "िा",
+      "position": 6,
+      "context": "ठसिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 3248,
+      "term_id": "ITA-4.2.11",
+      "sequence": "िो",
+      "position": 9,
+      "context": "्मिोगः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 3675,
+      "term_id": "ITA-4.8.13",
+      "sequence": "ाा",
+      "position": 4,
+      "context": "्थाान्त",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 3677,
+      "term_id": "ITA-4.8.14",
+      "sequence": "ाि",
+      "position": 4,
+      "context": "्थािकदो",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 4002,
+      "term_id": "ITA-5.2.1.39",
+      "sequence": "ाी",
+      "position": 6,
+      "context": "्वाी",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 4041,
+      "term_id": "ITA-5.2.1.54",
+      "sequence": "ाा",
+      "position": 7,
+      "context": "्यााहः/",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 5309,
+      "term_id": "ITA-5.14.1",
+      "sequence": "ुो",
+      "position": 5,
+      "context": "ण्ुोगः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 5334,
+      "term_id": "ITA-5.14.2",
+      "sequence": "ुो",
+      "position": 9,
+      "context": "ण्ुोगः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 5350,
+      "term_id": "ITA-5.14.3",
+      "sequence": "ुो",
+      "position": 9,
+      "context": "ण्ुोगः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 5368,
+      "term_id": "ITA-5.14.4",
+      "sequence": "ुो",
+      "position": 8,
+      "context": "ण्ुोगः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 5381,
+      "term_id": "ITA-5.14.5",
+      "sequence": "ुो",
+      "position": 13,
+      "context": "ण्ुोगः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 5385,
+      "term_id": "",
+      "sequence": "ुो",
+      "position": 9,
+      "context": "ण्ुोगः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 5632,
+      "term_id": "ITA-5.19.5",
+      "sequence": "ीा",
+      "position": 5,
+      "context": "्भीाहिक",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 6011,
+      "term_id": "ITA-5.27.4",
+      "sequence": "ाि",
+      "position": 5,
+      "context": "्णािरोध",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 6476,
+      "term_id": "ITA-5.35.6",
+      "sequence": "िि",
+      "position": 4,
+      "context": "र्ििग्र",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 6493,
+      "term_id": "ITA-5.35.8",
+      "sequence": "ाि",
+      "position": 5,
+      "context": "्भािग्र",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 6502,
+      "term_id": "ITA-5.35.10   Disorders of reversed",
+      "sequence": "ाि",
+      "position": 5,
+      "context": "्गािग्र",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 6729,
+      "term_id": "ITA-5.39.11   Bladder insufficiency",
+      "sequence": "िा",
+      "position": 9,
+      "context": "डलिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 6980,
+      "term_id": "ITA-5.41.1.3",
+      "sequence": "िा",
+      "position": 6,
+      "context": "छपिा-प्",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 7003,
+      "term_id": "ITA-5.41.1.7",
+      "sequence": "िा",
+      "position": 5,
+      "context": "षपिा-प्",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 7125,
+      "term_id": "ITA-5.43.6",
+      "sequence": "ीो",
+      "position": 4,
+      "context": "्लीोदरः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 7650,
+      "term_id": "ITA-5.56.1.5",
+      "sequence": "ाी",
+      "position": 7,
+      "context": "्राीभगन",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 7657,
+      "term_id": "ITA-5.56.1.6",
+      "sequence": "ूा",
+      "position": 4,
+      "context": "म्ूावरभ",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 7707,
+      "term_id": "ITA-5.58.4",
+      "sequence": "िा",
+      "position": 7,
+      "context": "ीलिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 7714,
+      "term_id": "ITA-5.58.6",
+      "sequence": "िा",
+      "position": 5,
+      "context": "्भिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 7745,
+      "term_id": "ITA-5.58.16   Boils resembling",
+      "sequence": "िा",
+      "position": 5,
+      "context": "षपिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 7868,
+      "term_id": "ITA-5.59.19   Skin disease with",
+      "sequence": "िा",
+      "position": 6,
+      "context": "र्िा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 8153,
+      "term_id": "ITA-5.62.2",
+      "sequence": "िा",
+      "position": 7,
+      "context": "्लिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 8166,
+      "term_id": "ITA-5.62.6",
+      "sequence": "िा",
+      "position": 6,
+      "context": "छपिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 8185,
+      "term_id": "ITA-5.62.9",
+      "sequence": "िा",
+      "position": 5,
+      "context": "दभिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 8200,
+      "term_id": "ITA-5.62.13   Round skin lesions",
+      "sequence": "िा",
+      "position": 8,
+      "context": "्लिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 8258,
+      "term_id": "ITA-5.62.27   Furunculosis",
+      "sequence": "िा",
+      "position": 5,
+      "context": "ंशिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 8292,
+      "term_id": "ITA-5.62.36   Paraphimosis",
+      "sequence": "िा",
+      "position": 7,
+      "context": "र्िा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 8493,
+      "term_id": "ITA-5.63.35   Ranula or cystic",
+      "sequence": "िा",
+      "position": 8,
+      "context": "्विा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 8509,
+      "term_id": "ITA-5.63.38   Uvulitis or elongated",
+      "sequence": "िा",
+      "position": 7,
+      "context": "्डिा (क",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 9185,
+      "term_id": "ITA-5.66.43   Phthisis bulbi",
+      "sequence": "ीा",
+      "position": 5,
+      "context": "्भीा-दष",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 9284,
+      "term_id": "ITA-5.66.66   Corneal nodules",
+      "sequence": "िा",
+      "position": 5,
+      "context": "वणिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 9317,
+      "term_id": "ITA-5.66.71   Multiple styes",
+      "sequence": "ीा",
+      "position": 5,
+      "context": "्भीा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 9720,
+      "term_id": "ITA-5.71.6",
+      "sequence": "िा",
+      "position": 7,
+      "context": "्लिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 9810,
+      "term_id": "ITA-5.71.15   Prominent veins,",
+      "sequence": "िा",
+      "position": 7,
+      "context": "्डिाग्र",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 10169,
+      "term_id": "",
+      "sequence": "ाा",
+      "position": 8,
+      "context": "्धाारः",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 10587,
+      "term_id": "",
+      "sequence": "ाा",
+      "position": 6,
+      "context": "्यााम व",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 10682,
+      "term_id": "ITA-5.76.42   Condition of",
+      "sequence": "िा",
+      "position": 7,
+      "context": "र्िा-वम",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 10830,
+      "term_id": "ITA-5.76.73   Condition of scissoring",
+      "sequence": "िा",
+      "position": 7,
+      "context": "र्िाविर",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 10943,
+      "term_id": "ITA-5.76.96   Signs of sawing pain",
+      "sequence": "िा",
+      "position": 7,
+      "context": "र्िाबस्",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 11008,
+      "term_id": "",
+      "sequence": "ाा",
+      "position": 15,
+      "context": "र्ाा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 11065,
+      "term_id": "",
+      "sequence": "ाा",
+      "position": 13,
+      "context": "्माार्ा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 11065,
+      "term_id": "",
+      "sequence": "ाा",
+      "position": 17,
+      "context": "र्ाा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 11107,
+      "term_id": "ITA-5.76.121   Condition caused by",
+      "sequence": "ुो",
+      "position": 11,
+      "context": "ण्ुोग",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 11130,
+      "term_id": "ITA-5.76.125   Condition caused by",
+      "sequence": "ीा",
+      "position": 14,
+      "context": "्लीादयो",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 11252,
+      "term_id": "",
+      "sequence": "ाा",
+      "position": 10,
+      "context": "्ताा नस",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 11961,
+      "term_id": "ITA-6.2.6.49  Anti-emetic",
+      "sequence": "िि",
+      "position": 4,
+      "context": "र्ििग्र",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 12013,
+      "term_id": "ITA-6.2.6.72  Tissue-binding,",
+      "sequence": "ाी",
+      "position": 5,
+      "context": "्धाीय",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 12454,
+      "term_id": "ITA-7.2.3.5",
+      "sequence": "िा",
+      "position": 10,
+      "context": "फटिा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 12664,
+      "term_id": "",
+      "sequence": "िा",
+      "position": 4,
+      "context": "र्िाक्ष",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 12687,
+      "term_id": "ITA-8.1.5",
+      "sequence": "ाा",
+      "position": 8,
+      "context": "्धाारः/",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 12763,
+      "term_id": "ITA-8.2.22",
+      "sequence": "िा",
+      "position": 4,
+      "context": "र्िा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 12766,
+      "term_id": "ITA-8.2.23",
+      "sequence": "िा",
+      "position": 6,
+      "context": "र्िा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 12768,
+      "term_id": "ITA-8.2.24",
+      "sequence": "िा",
+      "position": 7,
+      "context": "र्िा",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 12932,
+      "term_id": "ITA-8.3.43",
+      "sequence": "ाी",
+      "position": 6,
+      "context": "्डाी",
+      "error": "Vowel/matra before matra"
+    },
+    {
+      "row": 14321,
+      "term_id": "ITA-9.6.187",
+      "sequence": "िा",
+      "position": 5,
+      "context": "थगिाबन्",
+      "error": "Vowel/matra before matra"
+    }
+  ]
+}

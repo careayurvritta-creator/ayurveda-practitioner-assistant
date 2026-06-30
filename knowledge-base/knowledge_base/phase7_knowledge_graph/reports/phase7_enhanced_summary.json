@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-01-07T11:56:48.960245",
+  "version": "2.0_enhanced",
+  "statistics": {
+    "entities": 3547,
+    "clinical_pathways": 254,
+    "relationships": 158698,
+    "nodes": 3547,
+    "edges": 158698,
+    "node_count": 3545,
+    "edge_count": 158698,
+    "node_types": {
+      "CONCEPT": 299,
+      "THERAPEUTICS": 652,
+      "DISEASE": 1279,
+      "FORMULATION": 273,
+      "MEDICINE": 24,
+      "PHYSIOLOGY": 205,
+      "ANATOMY": 438,
+      "PATHOLOGY": 104,
+      "SYMPTOM": 10,
+      "MATERIA_MEDICA": 123,
+      "DIETETICS": 113,
+      "PANCHAKARMA": 25
+    },
+    "edge_types": {
+      "SAME_CHAPTER": 2365,
+      "SAME_SECTION": 137778,
+      "RELATED": 17152,
+      "CAUSES": 13,
+      "SYMPTOM_OF": 41,
+      "INDICATES": 224,
+      "TREATS": 61,
+      "SAME_DOSHA": 600,
+      "SAME_DHATU": 464
+    },
+    "avg_degree": 78.18871650211565,
+    "max_degree": 243,
+    "min_degree": 0,
+    "density": 0.012631691219311847
+  },
+  "entity_distribution": {
+    "CONCEPT": 299,
+    "THERAPEUTICS": 652,
+    "DISEASE": 1281,
+    "FORMULATION": 273,
+    "MEDICINE": 24,
+    "PHYSIOLOGY": 205,
+    "ANATOMY": 438,
+    "PATHOLOGY": 104,
+    "SYMPTOM": 10,
+    "MATERIA_MEDICA": 123,
+    "DIETETICS": 113,
+    "PANCHAKARMA": 25
+  },
+  "dosha_coverage": {
+    "vata": 150,
+    "pitta": 131,
+    "kapha": 103
+  },
+  "clinical_significance": {
+    "high": 356,
+    "medium": 1950,
+    "low": 1241
+  },
+  "top_hub_nodes": [
+    {
+      "id": "ITA-5.76.15",
+      "label": "akṣīṇabalamāṃsasya",
+      "type": "DISEASE",
+      "score": 0.0686
+    },
+    {
+      "id": "ITA-5.76.68",
+      "label": "atisnigdha-",
+      "type": "DISEASE",
+      "score": 0.0683
+    },
+    {
+      "id": "ITA-5.76.236",
+      "label": "atisnigdhavraṇavarti-",
+      "type": "DISEASE",
+      "score": 0.0683
+    },
+    {
+      "id": "ITA-5.76.13",
+      "label": "āmātisārasaṅgrahaḥ",
+      "type": "DISEASE",
+      "score": 0.068
+    },
+    {
+      "id": "ITA-5.76.102",
+      "label": "ajīrṇa; atisnigdha;",
+      "type": "DISEASE",
+      "score": 0.068
+    },
+    {
+      "id": "ITA-5.76.239",
+      "label": "kaṣāyarasa-mithyāyogaḥ",
+      "type": "FORMULATION",
+      "score": 0.068
+    },
+    {
+      "id": "ITA-5.76.32",
+      "label": "Condition caused",
+      "type": "DISEASE",
+      "score": 0.0677
+    },
+    {
+      "id": "ITA-5.76.33",
+      "label": "Condition caused",
+      "type": "DISEASE",
+      "score": 0.0677
+    },
+    {
+      "id": "ITA-5.76.44",
+      "label": "hṝdayopasaraṇam/",
+      "type": "DISEASE",
+      "score": 0.0677
+    },
+    {
+      "id": "ITA-5.76.59",
+      "label": "adhogaraktapitta-",
+      "type": "DISEASE",
+      "score": 0.0677
+    }
+  ],
+  "exports": [
+    "JSON",
+    "CSV",
+    "GraphML",
+    "D3.js HTML"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "overall_score": 80.32,
+  "grade": "B",
+  "component_scores": {
+    "schema_validity": 70.43,
+    "iast_deva_parity": 99.1,
+    "id_uniqueness": 0,
+    "description_completeness": 0.0,
+    "character_validity": 99.69,
+    "xref_integrity": 100.0,
+    "category_validity": 100.0
+  },
+  "recommendations": [
+    "Improve schema validity: currently 70.43%",
+    "Improve id uniqueness: currently 0%",
+    "Improve description completeness: currently 0.0%"
+  ]
+}

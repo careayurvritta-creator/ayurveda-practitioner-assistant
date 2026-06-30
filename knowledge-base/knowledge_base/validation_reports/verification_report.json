@@ -1,0 +1,3446 @@
+{
+  "generated_at": "2026-01-07T15:23:49.284529",
+  "pdf_source": "WHO STANDARD AYURVEDA TERMINOLOGIES-eng.pdf",
+  "statistics": {
+    "total_terms": 427,
+    "with_english": 341,
+    "with_iast": 416,
+    "with_devanagari": 417,
+    "by_chapter": {
+      "1": 47,
+      "10": 26,
+      "2": 46,
+      "3": 45,
+      "4": 44,
+      "5": 45,
+      "6": 44,
+      "7": 42,
+      "8": 44,
+      "9": 44
+    }
+  },
+  "instructions": [
+    "Open the WHO ITA PDF document",
+    "Navigate to the chapter indicated for each term",
+    "Verify the term_id matches the English, IAST, and Devanagari",
+    "Mark any mismatches in the report"
+  ],
+  "terms": [
+    {
+      "term_id": "ITA-1.1.1",
+      "english": "Ayurveda",
+      "iast": "Āyurvedaḥ",
+      "devanagari": "आयुर्वेदः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.10.1",
+      "english": "Major triad of",
+      "iast": "bṛhattrayī",
+      "devanagari": "बृहत्त्रयी",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.10.2",
+      "english": "Lesser triad of",
+      "iast": "Laghutrayī",
+      "devanagari": "लघुत्रयी",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.10.3",
+      "english": "Materia medica",
+      "iast": "nighaṇṭuḥ",
+      "devanagari": "निघण्टुः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.11.1",
+      "english": "Ten items for clinical",
+      "iast": "daśavidhaparīkṣy-",
+      "devanagari": "दशविधपरीक्ष्य-",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.11.3",
+      "english": "Tool, instrument",
+      "iast": "karaṇam",
+      "devanagari": "करणम",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.11.4",
+      "english": "Substratum of",
+      "iast": "kāryayoniḥ",
+      "devanagari": "कार्ययोनिः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.2.1",
+      "english": "Life process, cycle or",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.2.2",
+      "english": "Salutary life",
+      "iast": "hitāyuḥ",
+      "devanagari": "हितायुः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.2.3",
+      "english": "Unsalutary life",
+      "iast": "ahitāyuḥ",
+      "devanagari": "अहितायुः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.4.10",
+      "english": "Fertility treatment",
+      "iast": "vajikaraṇacikitsa,",
+      "devanagari": "वजिकरनअचिकित्स",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.4.6",
+      "english": "Head and neck",
+      "iast": "śālakyatantra,",
+      "devanagari": "शालक्यतन्त्र",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.4.7",
+      "english": "Surgery",
+      "iast": "śalyacikitsā",
+      "devanagari": "शल्यचिकित्सा",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.4.9",
+      "english": "Geriatrics",
+      "iast": "rasāyanacikitsā,",
+      "devanagari": "रसायनचिकित्सा",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.5.5",
+      "english": "Understanding",
+      "iast": "jñānam",
+      "devanagari": "ज्ञानम",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.6.18",
+      "english": "Decision based on",
+      "iast": "nirṇayaḥ",
+      "devanagari": "निर्णयः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.6.21",
+      "english": "Objecting or opposing",
+      "iast": "pūrvapakṣaḥ",
+      "devanagari": "पूर्वपक्षः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.6.23",
+      "english": "Partial description",
+      "iast": "pradeśaḥ",
+      "devanagari": "प्रदेशः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.6.26",
+      "english": "Union, compounding",
+      "iast": "yogaḥ",
+      "devanagari": "योगः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.6.31",
+      "english": "Lucid explanation",
+      "iast": "vyākhyānam",
+      "devanagari": "व्याख्यानम",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.7.13",
+      "english": "Perverted or deceitful",
+      "iast": "chalaḥ",
+      "devanagari": "छलः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.7.15",
+      "english": "Inquisitiveness",
+      "iast": "jijñāsā",
+      "devanagari": "जिज्ञासा",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.7.5",
+      "english": "Question",
+      "iast": "anuyogaḥ",
+      "devanagari": "अनुयोगः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.2.14",
+      "english": "",
+      "iast": "aupādhika",
+      "devanagari": "औपाधिक",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.2.20",
+      "english": "",
+      "iast": "prakaraṇasamaḥ",
+      "devanagari": "प्रकरणसमः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.2.30",
+      "english": "",
+      "iast": "samavāyikāraṇam",
+      "devanagari": "समवायिकारणम",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.2.5",
+      "english": "Cause or variable",
+      "iast": "sadhetu",
+      "devanagari": "सधेतु",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.2.6",
+      "english": "Independent variable",
+      "iast": "sādhana",
+      "devanagari": "साधन",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.2.7",
+      "english": "Dependent variable",
+      "iast": "sādhya",
+      "devanagari": "साध्य",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.2.9",
+      "english": "Invariable",
+      "iast": "avinābhāvasaṃbandhaḥ",
+      "devanagari": "अविनाभावसंबन्धः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.3",
+      "english": "Proof, means of",
+      "iast": "pramāṇaḥ",
+      "devanagari": "प्रमाणः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.3.3",
+      "english": "Analogy",
+      "iast": "upamānaḥ",
+      "devanagari": "उपमानः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.8.3.5",
+      "english": "Object denoted by a",
+      "iast": "padārthaḥ",
+      "devanagari": "पदार्थः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.3.2.12",
+      "english": "",
+      "iast": "caturviṃśati-puruṣaḥ",
+      "devanagari": "चतुर्विंशति-पुरुषः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.3.2.14",
+      "english": "",
+      "iast": "niṣkriyaḥ",
+      "devanagari": "निष्क्रियः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.3.2.16",
+      "english": "",
+      "iast": "anādi",
+      "devanagari": "अनादि",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.3.2.23",
+      "english": "",
+      "iast": "svatantra",
+      "devanagari": "स्वतन्त्र",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.3.3.25",
+      "english": "",
+      "iast": "damaḥ",
+      "devanagari": "दमः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.3.3.27",
+      "english": "",
+      "iast": "lajjā",
+      "devanagari": "लज्जा",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.3.3.5",
+      "english": "Trans-sense",
+      "iast": "indriyāntara-sañcāraḥ",
+      "devanagari": "इन्द्रियान्तर-सञ्चारः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.3.7.2",
+      "english": "",
+      "iast": "cetana-dravyam/",
+      "devanagari": "चेतन-द्रव्यम/",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.3.7.8",
+      "english": "",
+      "iast": "latā",
+      "devanagari": "लता",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.2",
+      "english": "Heaviness",
+      "iast": "guruḥ",
+      "devanagari": "गुरुः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.4.3.2",
+      "english": "Intelligence, intellect",
+      "iast": "buddhiḥ",
+      "devanagari": "बुद्धिः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.4.4.3",
+      "english": "",
+      "iast": "aparatvam",
+      "devanagari": "अपरत्वम",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.7.4",
+      "english": "Absolute nonexistence Absolute nonexistence, without beginning or end.",
+      "iast": "atyantābhāvaḥ",
+      "devanagari": "अत्यन्ताभावः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-1.9.7.5",
+      "english": "Mutual nonexistence",
+      "iast": "anyonyābhāvaḥ",
+      "devanagari": "अञोञाभावः",
+      "chapter": "1",
+      "chapter_name": "Background Terminology"
+    },
+    {
+      "term_id": "ITA-10.1.1",
+      "english": "Healthy person",
+      "iast": "svasthaḥ",
+      "devanagari": "स्वस्थः",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.1.2",
+      "english": "Positive attributes of",
+      "iast": "svāsthyam, ārogyam",
+      "devanagari": "स्वास्थ्यम, आरोग्यम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.1.3",
+      "english": "Routine(s) for health",
+      "iast": "svasthavṛttaḥ",
+      "devanagari": "स्वस्थवृत्तः",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.1",
+      "english": "Three pillars to",
+      "iast": "trayopastambhaḥ",
+      "devanagari": "त्रयोपस्तम्भः",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.10",
+      "english": "Sleep",
+      "iast": "nidrā",
+      "devanagari": "निद्रा",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.11",
+      "english": "Dream",
+      "iast": "svapnam",
+      "devanagari": "स्वप्नम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.12",
+      "english": "Celibacy",
+      "iast": "brahmacaryam",
+      "devanagari": "ब्रह्मचर्यम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.13",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.14",
+      "english": "Activities",
+      "iast": "vihāraḥ",
+      "devanagari": "विहारः",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.2",
+      "english": "Food",
+      "iast": "āhāraḥ",
+      "devanagari": "आहारः",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.3",
+      "english": "Eight factors for",
+      "iast": "āhāravidhiviśeṣāyatanam",
+      "devanagari": "आहारविधिविशेषायतनम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.4",
+      "english": "Factors facilitating",
+      "iast": "āhāra pariṇāma",
+      "devanagari": "आहार परिणाम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.5",
+      "english": "Diet-transition",
+      "iast": "pādāṃśikakramaḥ",
+      "devanagari": "पादांशिकक्रमः",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.6",
+      "english": "Appropriate time for",
+      "iast": "praśasta-āhārakālaḥ",
+      "devanagari": "प्रशस्त-आहारकालः",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.7",
+      "english": "Agreeable to nature",
+      "iast": "sātmyam",
+      "devanagari": "सात्म्यम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.8",
+      "english": "Combining wholesome",
+      "iast": "samaśanam",
+      "devanagari": "समशनम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.2.9",
+      "english": "Unsuitable timing and",
+      "iast": "viṣamāśanam",
+      "devanagari": "विषमाशनम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.3.1",
+      "english": "Daily routine",
+      "iast": "dinacaryā",
+      "devanagari": "दिनचर्या",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.3.2",
+      "english": "Night routine",
+      "iast": "rātricaryā",
+      "devanagari": "रात्रिचर्या",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.3.3",
+      "english": "Seasonal routine",
+      "iast": "ṛtucaryā",
+      "devanagari": "ऋतुचर्या",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.3.4",
+      "english": "Transition period be",
+      "iast": "ṛtusandhiḥ",
+      "devanagari": "ऋतुसन्धिः",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.3.5",
+      "english": "Abnormal seasonal",
+      "iast": "vyāpannaṛtu, ṛtuvipa-",
+      "devanagari": "व्यापन्नऋतु, ऋतुविप-",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.3.6",
+      "english": "Seasonal cleansing",
+      "iast": "ṛtuśodhanam",
+      "devanagari": "ऋतुशोधनम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.3.7",
+      "english": "Harmonious way of",
+      "iast": "sadvṛttam",
+      "devanagari": "सद्वृत्तम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.3.8",
+      "english": "Code and conduct",
+      "iast": "ācārarasāyanam",
+      "devanagari": "आचाररसायनम",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-10.3.9",
+      "english": "Immunity",
+      "iast": "vyādhikṣamatva",
+      "devanagari": "व्याधिक्षमत्व",
+      "chapter": "10",
+      "chapter_name": "Panchakarma and Rasayana"
+    },
+    {
+      "term_id": "ITA-2.1.1",
+      "english": "Dosha",
+      "iast": "doṣaḥ",
+      "devanagari": "दोषः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.1.1",
+      "english": "Vata, dosha regulating",
+      "iast": "vātaḥ",
+      "devanagari": "वातः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.1.10",
+      "english": "",
+      "iast": "niḥśvāsaḥ",
+      "devanagari": "निःश्वासः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.1.11",
+      "english": "",
+      "iast": "ceṣṭā",
+      "devanagari": "चेष्टा",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.1.12",
+      "english": "",
+      "iast": "gatiḥ",
+      "devanagari": "गतिः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.1.13",
+      "english": "",
+      "iast": "nimeṣaḥ",
+      "devanagari": "निमेषः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.1.7",
+      "english": "Functions of vata",
+      "iast": "vāta-karma",
+      "devanagari": "वात-कर्म",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.2",
+      "english": "Three doshas",
+      "iast": "tridoṣaḥ, śārīrikadoṣa",
+      "devanagari": "त्रिदोषः, शारीरिकदोष",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.2.1",
+      "english": "Pitta, dosha regulating",
+      "iast": "pittam",
+      "devanagari": "पित्तम",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.2.3",
+      "english": "Colouring pitta",
+      "iast": "",
+      "devanagari": "रञ्जकपितम",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.1.3.8",
+      "english": "Patience",
+      "iast": "kṣamā",
+      "devanagari": "क्षमा",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.2.17",
+      "english": "Replenishment",
+      "iast": "pūraṇam",
+      "devanagari": "पूरणम",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.2.19",
+      "english": "Semen",
+      "iast": "retas",
+      "devanagari": "रेतस",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.2.21",
+      "english": "Male seed",
+      "iast": "puṃbījam",
+      "devanagari": "पुंबीजम",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.2.25",
+      "english": "Ojas",
+      "iast": "ojas",
+      "devanagari": "ओजस",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.2.30",
+      "english": "Seasonal strength",
+      "iast": "kālaja-balam",
+      "devanagari": "कालज-बलम",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.2.4",
+      "english": "Primary circulating",
+      "iast": "rasa-dhātuḥ, rasaḥ",
+      "devanagari": "रस-धातुः, रसः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.2.6",
+      "english": "Giving life",
+      "iast": "jīvanam",
+      "devanagari": "जीवनम",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.3.1",
+      "english": "Supportive structural",
+      "iast": "upadhātuḥ",
+      "devanagari": "उपधातुः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.3.2",
+      "english": "Breast milk",
+      "iast": "stanyam",
+      "devanagari": "स्तञम",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.4.11",
+      "english": "Sebum",
+      "iast": "lomakūpamalaḥ",
+      "devanagari": "लोमकूपमलः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.4.8",
+      "english": "Rheum",
+      "iast": "akṣimalaḥ",
+      "devanagari": "अक्षिमलः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.5.12",
+      "english": "Blood vessels",
+      "iast": "asṛgvahā",
+      "devanagari": "असृग्वहा",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.5.16",
+      "english": "Channel carrying",
+      "iast": "majjāvahasrotaḥ",
+      "devanagari": "मज्जावहस्रोतः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.5.17",
+      "english": "Channel carrying",
+      "iast": "śukravahasrotaḥ",
+      "devanagari": "शुक्रवहस्रोतः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.6.12",
+      "english": "Metabolic factors",
+      "iast": "rasadhātvagniḥ",
+      "devanagari": "रसधात्वग्निः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.6.13",
+      "english": "Metabolic factors",
+      "iast": "raktadhātvagniḥ",
+      "devanagari": "रक्तधात्वग्निः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.6.22",
+      "english": "Chyle",
+      "iast": "āhārarasaḥ",
+      "devanagari": "आहाररसः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.6.31",
+      "english": "Nutrient part of food",
+      "iast": "prasādaḥ",
+      "devanagari": "प्रसादः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.6.37",
+      "english": "Bowel habit",
+      "iast": "koṣṭhaḥ",
+      "devanagari": "कोष्ठः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.6.40",
+      "english": "Costive bowel habit",
+      "iast": "krūra-koṣṭhaḥ",
+      "devanagari": "क्रूर-कोष्ठः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.1.2",
+      "english": "Person with predomi",
+      "iast": "tvak-sāraḥ, rasa sāraḥ",
+      "devanagari": "त्वक-सारः, रस सारः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.1.4",
+      "english": "Person with",
+      "iast": "māṃsa-sāraḥ",
+      "devanagari": "मांस-सारः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.1.9",
+      "english": "",
+      "iast": "Characterized by features such as good memory; devotion;",
+      "devanagari": "छरच्तेरिएद ब्य एअतुरेस सुछ अस गोओद मेमोर्य; देवोतिओन;",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.14",
+      "english": "Person with brave",
+      "iast": "vāruṇakāyaḥ",
+      "devanagari": "वारुणकायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.15",
+      "english": "Person with wealthy",
+      "iast": "kauberakāyaḥ",
+      "devanagari": "कौबेरकायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.16",
+      "english": "Person with artistic",
+      "iast": "gandharvakāyaḥ",
+      "devanagari": "गन्धर्वकायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.17",
+      "english": "Person with judicious",
+      "iast": "yāmyakāyaḥ",
+      "devanagari": "याम्यकायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.19",
+      "english": "Person with agitated",
+      "iast": "rājasikakāyaḥ",
+      "devanagari": "राजसिककायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.23",
+      "english": "Person with intolerant",
+      "iast": "rākṣasakāyaḥ",
+      "devanagari": "राक्षसकायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.26",
+      "english": "Person with inertial",
+      "iast": "tāmasakāyaḥ",
+      "devanagari": "तामसकायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.27",
+      "english": "Person with cowardly",
+      "iast": "pāśavakāyaḥ",
+      "devanagari": "पाशवकायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.28",
+      "english": "Person with timid",
+      "iast": "matsyakāyaḥ",
+      "devanagari": "मत्स्यकायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.29",
+      "english": "Person with lazy",
+      "iast": "vānaspatyakāyaḥ",
+      "devanagari": "वानस्पत्यकायः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.8.7",
+      "english": "Body constitution with",
+      "iast": "pittakaphaprakṛtiḥ",
+      "devanagari": "पित्तकफप्रकृतिः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-2.9.1.16",
+      "english": "",
+      "iast": "āsannaprasavaḥ",
+      "devanagari": "आसन्नप्रसवः",
+      "chapter": "2",
+      "chapter_name": "Core Concepts (Maulika Siddhanta)"
+    },
+    {
+      "term_id": "ITA-3.1.1",
+      "english": "Knowledge pertaining",
+      "iast": "śārīraḥ",
+      "devanagari": "शारीरः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.1.10",
+      "english": "A subsidiary body part",
+      "iast": "upāṅgaḥ",
+      "devanagari": "उपांगः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.1.11",
+      "english": "Orifice",
+      "iast": "chidram, dvāram,",
+      "devanagari": "छिद्रम, द्वारम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.1.12",
+      "english": "Cavity",
+      "iast": "kūṭaḥ",
+      "devanagari": "कूटः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.1.13",
+      "english": "Covering",
+      "iast": "chadanam",
+      "devanagari": "छदनम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.1.6",
+      "english": "Body part",
+      "iast": "aṅgaḥ",
+      "devanagari": "अंगः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.10.1.1",
+      "english": "",
+      "iast": "tvak, carma, valkam",
+      "devanagari": "त्वक, चर्म, वल्कम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.10.1.19",
+      "english": "",
+      "iast": "upanakham",
+      "devanagari": "उपनखम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.10.1.9",
+      "english": "",
+      "iast": "keśaḥ, mastakabālaḥ",
+      "devanagari": "केशः, मस्तकबालः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.12.2",
+      "english": "Muscle-bearing",
+      "iast": "māṃsadharākalā",
+      "devanagari": "मांसधराकला",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.12.3",
+      "english": "Blood-bearing",
+      "iast": "Raktadharākalā",
+      "devanagari": "रक्तधराकला",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.13.17",
+      "english": "",
+      "iast": "uraḥphalakaḥ",
+      "devanagari": "उरःफलकः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.13.18",
+      "english": "",
+      "iast": "parśukā",
+      "devanagari": "पर्शुका",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.13.2",
+      "english": "Part of bone",
+      "iast": "asthikhaṇḍaḥ",
+      "devanagari": "अस्थिखण्डः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.13.24",
+      "english": "",
+      "iast": "śroṇīkarṇaḥ",
+      "devanagari": "श्रोणीकर्णः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.13.40",
+      "english": "",
+      "iast": "ulūkhalasandhiḥ",
+      "devanagari": "उलूखलसन्धिः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.13.6",
+      "english": "Teeth",
+      "iast": "rucakāsthi",
+      "devanagari": "रुचकास्थि",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.13.67",
+      "english": "",
+      "iast": "māṃsajālam",
+      "devanagari": "मांसजालम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.13.68",
+      "english": "",
+      "iast": "sirājālam",
+      "devanagari": "सिराजालम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.15.1",
+      "english": "Artery",
+      "iast": "Dhamanī",
+      "devanagari": "धमनी",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.16.10",
+      "english": "",
+      "iast": "pṛṣṭhamarma",
+      "devanagari": "पृष्ठमर्म",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.16.12",
+      "english": "",
+      "iast": "Māṃsamarma",
+      "devanagari": "मांसमर्म",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.16.31",
+      "english": "",
+      "iast": "talahṛdayam (marma)",
+      "devanagari": "तलहृदयम (मर्म)",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.16.7",
+      "english": "Vulnerable location(s)",
+      "iast": "Bāhumarma",
+      "devanagari": "बाहुमर्म",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.16.8",
+      "english": "Vulnerable location(s)",
+      "iast": "Udaramarma,",
+      "devanagari": "उदरमर्म",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.1.18",
+      "english": "",
+      "iast": "aśrumārgaḥ",
+      "devanagari": "अश्रुमार्गः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.1.28",
+      "english": "",
+      "iast": "vartmamaṇḍalam",
+      "devanagari": "वर्त्ममण्डलम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.1.30",
+      "english": "",
+      "iast": "kṛṣṇa-maṇḍalam",
+      "devanagari": "कृष्ण-मण्डलम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.1.4",
+      "english": "Eyelid",
+      "iast": "Vartma, netrakośaḥ,",
+      "devanagari": "वर्त्म, नेत्रकोशः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.2",
+      "english": "Head",
+      "iast": "śiraḥ, mūrdhā,",
+      "devanagari": "शिरः, मूर्धा",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.2.12",
+      "english": "",
+      "iast": "nāsikāpuṭam",
+      "devanagari": "नासिकापुटम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.2.4",
+      "english": "Bridge of the nose",
+      "iast": "nāsāvaṃśaḥ,",
+      "devanagari": "नासावंशः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.2.5",
+      "english": "Upper part of",
+      "iast": "ghrāṇamūlam",
+      "devanagari": "घ्राणमूलम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.3.3",
+      "english": "Conduits carrying",
+      "iast": "śabdānuvahā,",
+      "devanagari": "शब्दानुवहा",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.2.4.27",
+      "english": "",
+      "iast": "adhijihvikā",
+      "devanagari": "अधिजिह्विका",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.3.11",
+      "english": "Supporting structures",
+      "iast": "aṃsabandhanam",
+      "devanagari": "अंसबन्धनम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.3.3",
+      "english": "Base of the neck",
+      "iast": "jatrumūlam",
+      "devanagari": "जत्रुमूलम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.3.5",
+      "english": "Trunk",
+      "iast": "antarādhiḥ",
+      "devanagari": "अन्तराधिः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.7.17",
+      "english": "Vertebral column",
+      "iast": "pṛṣṭhavaṃśaḥ, pṛṣṭheṣikā",
+      "devanagari": "पृष्ठवंशः, पृष्ठेषिका",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.8.1",
+      "english": "Upper limb",
+      "iast": "bāhuḥ, bhujā",
+      "devanagari": "बाहुः, भुजा",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.8.10",
+      "english": "Hand, manus",
+      "iast": "pāṇiḥ, karaḥ, hastaḥ",
+      "devanagari": "पाणिः, करः, हस्तः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.8.22",
+      "english": "Tip of the finger",
+      "iast": "aṅgulyagram",
+      "devanagari": "अंगुल्यग्रम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.8.25",
+      "english": "Thumb pad",
+      "iast": "aṅguṣṭhodaram",
+      "devanagari": "अंगुष्ठोदरम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.8.3",
+      "english": "Posterior part of",
+      "iast": "bāhupṛṣṭham",
+      "devanagari": "बाहुपृष्ठम",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-3.9.15",
+      "english": "Toes",
+      "iast": "pādāṅguliḥ",
+      "devanagari": "पादांगुलिः",
+      "chapter": "3",
+      "chapter_name": "Anatomy (Rachana Sharira)"
+    },
+    {
+      "term_id": "ITA-4.1.1",
+      "english": "Diagnosis",
+      "iast": "vyādhiviniścayaḥ,",
+      "devanagari": "व्याधिविनिश्चयः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.1",
+      "english": "Disease",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.10",
+      "english": "Diseases caused by",
+      "iast": "vāyavyarogaḥ",
+      "devanagari": "वायव्यरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.11",
+      "english": "Intrinsic or endoge",
+      "iast": "ādhyātmikarogaḥ",
+      "devanagari": "आध्यात्मिकरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.12",
+      "english": "Hereditary diseases",
+      "iast": "ādibalapravṛttarogaḥ",
+      "devanagari": "आदिबलप्रवृत्तरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.14",
+      "english": "Hereditary diseases",
+      "iast": "pitṛjarogaḥ",
+      "devanagari": "पितृजरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.20",
+      "english": "Diseases of the lower",
+      "iast": "pakvāśayasamuttharogaḥ",
+      "devanagari": "पक्वाशयसमुत्थरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.21",
+      "english": "Extrinsic, exogenous",
+      "iast": "ādhibhautikarogaḥ",
+      "devanagari": "आधिभौतिकरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.27",
+      "english": "Diseases resulting",
+      "iast": "vyāpannartukṛtarogaḥ",
+      "devanagari": "व्यापन्नर्तुकृतरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.28",
+      "english": "Diseases resulting",
+      "iast": "avyāpannartukṛtarogaḥ",
+      "devanagari": "अव्यापन्नर्तुकृतरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.39",
+      "english": "Diseases that are",
+      "iast": "sukhasādhyarogaḥ",
+      "devanagari": "सुखसाध्यरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.4",
+      "english": "Two types of",
+      "iast": "dvividha-mānasika-rogaḥ",
+      "devanagari": "द्विविध-मानसिक-रोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.40",
+      "english": "Diseases that are",
+      "iast": "kṛcchrasādhyarogaḥ",
+      "devanagari": "कृच्छ्रसाध्यरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.41",
+      "english": "Diseases that",
+      "iast": "asādhyarogaḥ",
+      "devanagari": "असाध्यरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.2.8",
+      "english": "Diseases caused by",
+      "iast": "āgneyarogaḥ",
+      "devanagari": "आग्नेयरोगः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.3.2",
+      "english": "Five diagnostic",
+      "iast": "nidānapañcakaḥ",
+      "devanagari": "निदानपञ्चकः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.4.16",
+      "english": "Primary or independent",
+      "iast": "anubandhyaḥ",
+      "devanagari": "अनुबन्ध्यः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.4.17",
+      "english": "Secondary or",
+      "iast": "anubandhaḥ",
+      "devanagari": "अनुबन्धः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.4.22",
+      "english": "Four types of",
+      "iast": "caturvidhahetuḥ",
+      "devanagari": "चतुर्विधहेतुः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.4.23",
+      "english": "Proximate cause",
+      "iast": "sannikṛṣṭahetuḥ",
+      "devanagari": "सन्निकृष्टहेतुः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.4.5",
+      "english": "Extrinsic cause",
+      "iast": "bāhyahetuḥ",
+      "devanagari": "बाह्यहेतुः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.11",
+      "english": "Treatment with",
+      "iast": "viparītārthakārī",
+      "devanagari": "विपरीतार्थकारी",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.16",
+      "english": "Evolution or natural",
+      "iast": "samprāptiḥ, jātiḥ, āgatiḥ",
+      "devanagari": "सम्प्राप्तिः, जातिः, आगतिः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.21",
+      "english": "Fraction-specific",
+      "iast": "vikalpasamprāptiḥ",
+      "devanagari": "विकल्पसम्प्राप्तिः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.22",
+      "english": "Intensity-specific",
+      "iast": "balasamprāptiḥ",
+      "devanagari": "बलसम्प्राप्तिः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.24",
+      "english": "Complication",
+      "iast": "upadravaḥ",
+      "devanagari": "उपद्रवः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.26",
+      "english": "Patient-related",
+      "iast": "āturanimittajaḥ",
+      "devanagari": "आतुरनिमित्तजः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.27",
+      "english": "Physician-related",
+      "iast": "bhiṣaṅnimittajaḥ",
+      "devanagari": "भिषंनिमित्तजः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.4",
+      "english": "General prodrome",
+      "iast": "sāmānyapūrvarūpam",
+      "devanagari": "सामाञपूर्वरूपम",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.5",
+      "english": "Signs and symptoms",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.5.7",
+      "english": "Types of therapeutic",
+      "iast": "upaśayabhedaḥ",
+      "devanagari": "उपशयभेदः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.6.11",
+      "english": "Stage of clinical",
+      "iast": "vyaktiḥ",
+      "devanagari": "व्यक्तिः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.6.4",
+      "english": "Ripened stage of",
+      "iast": "pakvāvasthā",
+      "devanagari": "पक्वावस्था",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.7.4",
+      "english": "Eight methods of",
+      "iast": "aṣṭasthānaparīkṣā",
+      "devanagari": "अष्टस्थानपरीक्षा",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.11",
+      "english": "Disease pathogenesis",
+      "iast": "rogādhiṣṭhānam",
+      "devanagari": "रोगाधिष्ठानम",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.12",
+      "english": "Vitiated dosha",
+      "iast": "līnadoṣāvasthā",
+      "devanagari": "लीनदोषावस्था",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.14",
+      "english": "Correctly located",
+      "iast": "sthānikadoṣaḥ",
+      "devanagari": "स्थानिकदोषः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.18",
+      "english": "Abnormal state",
+      "iast": "vikṛtiḥ",
+      "devanagari": "विकृतिः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.21",
+      "english": "Shifting of dosha from",
+      "iast": "śākhāgatiḥ",
+      "devanagari": "शाखागतिः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.31",
+      "english": "Mind as seat of",
+      "iast": "manodhiśṭānaṃ",
+      "devanagari": "मनोधिश्टानं",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.35",
+      "english": "Dependant, secondary",
+      "iast": "paratantra",
+      "devanagari": "परतन्त्र",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.40",
+      "english": "Conditions amenable",
+      "iast": "śastrasādhya",
+      "devanagari": "शस्त्रसाध्य",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.42",
+      "english": "Disease",
+      "iast": "upadravaroga",
+      "devanagari": "उपद्रवरोग",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-4.8.8",
+      "english": "Body channel",
+      "iast": "sirāgranthiḥ",
+      "devanagari": "सिराग्रन्थिः",
+      "chapter": "4",
+      "chapter_name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.1.1",
+      "english": "Disorder",
+      "iast": "vikāraḥ",
+      "devanagari": "विकारः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.10.1",
+      "english": "Haemorrhoids",
+      "iast": "arśaḥ",
+      "devanagari": "अर्शः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.10.2",
+      "english": "Haemorrhoids due to",
+      "iast": "vātajārśaḥ",
+      "devanagari": "वातजार्शः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.10.3",
+      "english": "Haemorrhoids due to",
+      "iast": "pittajārśaḥ",
+      "devanagari": "पित्तजार्शः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.10.4",
+      "english": "Haemorrhoids due to",
+      "iast": "kaphajārśaḥ",
+      "devanagari": "कफजार्शः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.18.3",
+      "english": "Cough due to",
+      "iast": "pittajakāsaḥ",
+      "devanagari": "पित्तजकासः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.2.1.12",
+      "english": "Aggravation of",
+      "iast": "āmāśayagatavātaḥ",
+      "devanagari": "आमाशयगतवातः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.2.1.41",
+      "english": "Lameness",
+      "iast": "khañjaḥ",
+      "devanagari": "खञ्जः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.2.2.4",
+      "english": "Aggravation of pitta",
+      "iast": "pittaprakopaḥ/",
+      "devanagari": "पित्तप्रकोपः/",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.20.1",
+      "english": "Dyspnoea",
+      "iast": "śvāsaḥ",
+      "devanagari": "श्वासः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.20.6",
+      "english": "Mild dyspnoea",
+      "iast": "kṣudraśvāsaḥ",
+      "devanagari": "क्षुद्रश्वासः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.31.1",
+      "english": "Stiff thighs with loss",
+      "iast": "ūrustambhaḥ",
+      "devanagari": "ऊरुस्तम्भः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.4.12",
+      "english": "Debris deposition at",
+      "iast": "jihvāmūlagatamalaḥ",
+      "devanagari": "जिह्वामूलगतमलः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.40.2",
+      "english": "Prodromal symptoms",
+      "iast": "aśmarī-pūrvarūpam",
+      "devanagari": "अश्मरी-पूर्वरूपम",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.41.1.7",
+      "english": "Carbuncle character",
+      "iast": "sarṣapikā-",
+      "devanagari": "सर्षपिका-",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.41.18",
+      "english": "",
+      "iast": "kṣāramehaḥ",
+      "devanagari": "क्षारमेहः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.43.4",
+      "english": "Abdominal enlarge",
+      "iast": "kaphaja-udararogaḥ",
+      "devanagari": "कफज-उदररोगः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.44.4",
+      "english": "Oedema due to",
+      "iast": "kaphajaśophaḥ",
+      "devanagari": "कफजशोफः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.44.7",
+      "english": "Oedema due to",
+      "iast": "abhighātajaśophaḥ/",
+      "devanagari": "अभिघातजशोफः/",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.49.1",
+      "english": "Nodular swelling, cyst",
+      "iast": "granthiḥ",
+      "devanagari": "ग्रन्थिः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.5.11",
+      "english": "Vitiation of channels",
+      "iast": "shukravahasrotoduṣṭiḥ",
+      "devanagari": "शुक्रवहस्रोतोदुष्टिः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.52.5",
+      "english": "Abscess due to",
+      "iast": "sannipātajavidradhiḥ",
+      "devanagari": "सन्निपातजविद्रधिः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.56.6",
+      "english": "Deep ulcer with",
+      "iast": "śalyanimittajanāḍīvraṇaḥ",
+      "devanagari": "शल्यनिमित्तजनाडीव्रणः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.58.15",
+      "english": "",
+      "iast": "śoṇitārbudaḥ",
+      "devanagari": "शोणितार्बुदः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.6.3",
+      "english": "Fever due to",
+      "iast": "vātajvaraḥ",
+      "devanagari": "वातज्वरः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.6.8",
+      "english": "Prodromal symptoms",
+      "iast": "Kaphajvarapūrvarūpam",
+      "devanagari": "कफज्वरपूर्वरूपम",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.62.9",
+      "english": "Circular blood",
+      "iast": "gardabhikā",
+      "devanagari": "गर्दभिका",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.63.21",
+      "english": "",
+      "iast": "karālaḥ",
+      "devanagari": "करालः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.63.5",
+      "english": "Disorders of lip due",
+      "iast": "kaphaja-oṣṭhaprakopaḥ",
+      "devanagari": "कफज-ओष्ठप्रकोपः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.64.23",
+      "english": "",
+      "iast": "utpātaḥ",
+      "devanagari": "उत्पातः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.66.25",
+      "english": "",
+      "iast": "ajakā",
+      "devanagari": "अजका",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.66.74",
+      "english": "",
+      "iast": "arśovartma",
+      "devanagari": "अर्शोवर्त्म",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.68.3",
+      "english": "Dysfunctional uterine",
+      "iast": "paittika-asṛgdaraḥ",
+      "devanagari": "पैत्तिक-असृग्दरः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.71.2",
+      "english": "Ophthalmia",
+      "iast": "kukūṇaka",
+      "devanagari": "कुकूणक",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.73.4",
+      "english": "Foreign body",
+      "iast": "peśyantaragata-śalyaḥ",
+      "devanagari": "पेश्यन्तरगत-शल्यः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.75.24",
+      "english": "",
+      "iast": "vyavāyamithyāyogaḥ/",
+      "devanagari": "व्यवायमिथ्यायोगः/",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.76.148",
+      "english": "",
+      "iast": "śastradaṇḍahate",
+      "devanagari": "शस्त्रदण्डहते",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.76.149",
+      "english": "",
+      "iast": "vyavāya vyāyāma",
+      "devanagari": "व्यवाय व्यायाम",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.76.186",
+      "english": "",
+      "iast": "tarpaṇahīnayogaḥ",
+      "devanagari": "तर्पणहीनयोगः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.76.236",
+      "english": "",
+      "iast": "atisnigdhavraṇavarti-",
+      "devanagari": "अतिस्निग्धव्रणवर्ति-",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.76.24",
+      "english": "",
+      "iast": "vamanamithyāyogaḥ/",
+      "devanagari": "वमनमिथ्यायोगः/",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.76.3",
+      "english": "Condition of sub",
+      "iast": "snehana-ayogaḥ",
+      "devanagari": "स्नेहन-अयोगः",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.76.48",
+      "english": "",
+      "iast": "stambhaḥ-vamanavyāpat",
+      "devanagari": "स्तम्भः-वमनव्यापत",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.76.69",
+      "english": "",
+      "iast": "atirukṣa-virecanavyāpat",
+      "devanagari": "अतिरुक्ष-विरेचनव्यापत",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-5.76.78",
+      "english": "",
+      "iast": "vibhramśavirecanavyāpat",
+      "devanagari": "विभ्रम्शविरेचनव्यापत",
+      "chapter": "5",
+      "chapter_name": "Disorders (Roga Vijnana)"
+    },
+    {
+      "term_id": "ITA-6.1.1",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.1.10",
+      "english": "Drugs of plant origin",
+      "iast": "audbhidam",
+      "devanagari": "औद्भिदम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.1.11",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.1.12",
+      "english": "Substitute drug",
+      "iast": "pratinidhidravyam",
+      "devanagari": "प्रतिनिधिद्रव्यम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.1.13",
+      "english": "food, health practices",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.1.7",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.1.8",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.1",
+      "english": "therapeutic principles",
+      "iast": "",
+      "devanagari": "",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.1.11",
+      "english": "Group of bitter",
+      "iast": "tiktaskandhaḥ",
+      "devanagari": "तिक्तस्कन्धः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.1.14",
+      "english": "Secondary taste",
+      "iast": "anurasaḥ",
+      "devanagari": "अनुरसः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.1.3",
+      "english": "Group of sweet",
+      "iast": "madhuraskandhaḥ",
+      "devanagari": "मधुरस्कन्धः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.1",
+      "english": "Pharmacological",
+      "iast": "karma",
+      "devanagari": "कर्म",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.13",
+      "english": "",
+      "iast": "bhedanam",
+      "devanagari": "भेदनम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.15",
+      "english": "",
+      "iast": "chedanam",
+      "devanagari": "छेदनम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.21",
+      "english": "",
+      "iast": "śukralaḥ",
+      "devanagari": "शुक्रलः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.22",
+      "english": "",
+      "iast": "śukraśodhanam",
+      "devanagari": "शुक्रशोधनम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.24",
+      "english": "",
+      "iast": "ṣāṇḍhyakaraḥ, puṃstvo-",
+      "devanagari": "षाण्ढ्यकरः, पुंस्त्वो-",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.25",
+      "english": "",
+      "iast": "ārtavajananam",
+      "devanagari": "आर्तवजननम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.29",
+      "english": "Substance promoting",
+      "iast": "netryam, cakṣuṣyam",
+      "devanagari": "नेत्र्यम, चक्षुष्यम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.30",
+      "english": "Substance clearing",
+      "iast": "dṛkprasādanam",
+      "devanagari": "दृक्प्रसादनम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.32",
+      "english": "Substance enhancing",
+      "iast": "svaryam",
+      "devanagari": "स्वर्यम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.38",
+      "english": "Rapidly acting",
+      "iast": "āśukārī",
+      "devanagari": "आशुकारी",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.39",
+      "english": "Substance spreading",
+      "iast": "vyavāyī",
+      "devanagari": "व्यवायी",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.43",
+      "english": "Substance maintain",
+      "iast": "jīvanīyaḥ",
+      "devanagari": "जीवनीयः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.52",
+      "english": "",
+      "iast": "purīṣajananam",
+      "devanagari": "पुरीषजननम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.53",
+      "english": "",
+      "iast": "mūtrajananam",
+      "devanagari": "मूत्रजननम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.54",
+      "english": "",
+      "iast": "yogavāhī",
+      "devanagari": "योगवाही",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.55",
+      "english": "",
+      "iast": "vraṇa-ropaṇaḥ",
+      "devanagari": "व्रण-रोपणः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.56",
+      "english": "",
+      "iast": "vraṇyaḥ",
+      "devanagari": "व्रण्यः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.59",
+      "english": "",
+      "iast": "vṛttikaraḥ",
+      "devanagari": "वृत्तिकरः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.62",
+      "english": "Substance enhancing",
+      "iast": "vṛṣyam",
+      "devanagari": "वृष्यम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.63",
+      "english": "Unwholesome to ojas",
+      "iast": "anaujasyam",
+      "devanagari": "अनौजस्यम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.70",
+      "english": "",
+      "iast": "śvāsaharaḥ",
+      "devanagari": "श्वासहरः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.71",
+      "english": "",
+      "iast": "saṃjñāsthāpanam",
+      "devanagari": "संज्ञास्थापनम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.73",
+      "english": "",
+      "iast": "sandhānakaraḥ",
+      "devanagari": "सन्धानकरः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.78",
+      "english": "",
+      "iast": "hikkānigrahaṇaḥ",
+      "devanagari": "हिक्कानिग्रहणः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.79",
+      "english": "",
+      "iast": "bhagnasandhānam,",
+      "devanagari": "भग्नसन्धानम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.80",
+      "english": "",
+      "iast": "keśavardhanam",
+      "devanagari": "केशवर्धनम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.81",
+      "english": "",
+      "iast": "keśyam, romasañja-",
+      "devanagari": "केश्यम, रोमसञ्ज-",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.6.82",
+      "english": "",
+      "iast": "keśarañjanam",
+      "devanagari": "केशरञ्जनम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.7.2",
+      "english": "Administration of",
+      "iast": "Abhaktam, anannam",
+      "devanagari": "अभक्तम, अनन्नम",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.7.3",
+      "english": "Administration of",
+      "iast": "bhuktādiḥ, annādau,",
+      "devanagari": "भुक्तादिः, अन्नादौ",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.7.5",
+      "english": "Administration of",
+      "iast": "aścādpbhaktaḥ,",
+      "devanagari": "अश्चाद्प्भक्तः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-6.2.7.6",
+      "english": "Frequent administration",
+      "iast": "muhurmuhuḥ",
+      "devanagari": "मुहुर्मुहुः",
+      "chapter": "6",
+      "chapter_name": "Materia Medica (Dravya)"
+    },
+    {
+      "term_id": "ITA-7.1.1",
+      "english": "Preparation of",
+      "iast": "auṣadhakalpanā",
+      "devanagari": "औषधकल्पना",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.1.1",
+      "english": "Substance taken with",
+      "iast": "anupānam",
+      "devanagari": "अनुपानम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.1.2",
+      "english": "Unhusked barley",
+      "iast": "tuṣāmbuḥ",
+      "devanagari": "तुषाम्बुः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.1.3",
+      "english": "Fermentation",
+      "iast": "sandhānam",
+      "devanagari": "सन्धानम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.1.4",
+      "english": "Distillate",
+      "iast": "surā/prasannā",
+      "devanagari": "सुरा/प्रसन्ना",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.1.7",
+      "english": "Lime water",
+      "iast": "cūrṇodakam,",
+      "devanagari": "चूर्णोदकम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.13",
+      "english": "Tablet made from water",
+      "iast": "ghanavaṭī",
+      "devanagari": "घनवटी",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.2.3",
+      "english": "Pre-processing of ghee",
+      "iast": "mūrcchanam",
+      "devanagari": "मूर्च्छनम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.2.5",
+      "english": "Pre-processing of oil",
+      "iast": "tailamūrcchanam",
+      "devanagari": "तैलमूर्च्छनम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.3.7",
+      "english": "Apparatus used for",
+      "iast": "dolāyantram",
+      "devanagari": "दोलायन्त्रम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4",
+      "english": "Decoction",
+      "iast": "kvāthaḥ, śṛtaḥ, niryūhaḥ",
+      "devanagari": "क्वाथः, शृतः, निर्यूहः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.10",
+      "english": "",
+      "iast": "prasṛtiḥ",
+      "devanagari": "प्रसृतिः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.12",
+      "english": "",
+      "iast": "mānikā/śarāvaḥ",
+      "devanagari": "मानिका/शरावः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.18",
+      "english": "",
+      "iast": "khāriḥ",
+      "devanagari": "खारिः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.19",
+      "english": "Measure of weight",
+      "iast": "tulā",
+      "devanagari": "तुला",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.24",
+      "english": "Length equal to",
+      "iast": "aṅgulaḥ",
+      "devanagari": "अंगुलः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.27",
+      "english": "",
+      "iast": "hastaḥ",
+      "devanagari": "हस्तः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.3",
+      "english": "Measure of weight",
+      "iast": "Guñjā, rattī",
+      "devanagari": "गुञ्जा, रत्ती",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.31",
+      "english": "",
+      "iast": "kāṣṭhā",
+      "devanagari": "काष्ठा",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.35",
+      "english": "",
+      "iast": "yāmaḥ",
+      "devanagari": "यामः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.37",
+      "english": "",
+      "iast": "pakṣaḥ",
+      "devanagari": "पक्षः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.39",
+      "english": "",
+      "iast": "ṛtuḥ",
+      "devanagari": "ऋतुः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.1.4.6",
+      "english": "Black gram seed",
+      "iast": "māṣaḥ(bīja)",
+      "devanagari": "माषः(बीज)",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.1.10",
+      "english": "Pouring molten metal",
+      "iast": "dhalanam",
+      "devanagari": "धलनम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.1.12",
+      "english": "Cooking in a vessel",
+      "iast": "sthālīpākaḥ",
+      "devanagari": "स्थालीपाकः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.1.16",
+      "english": "Traditional oven",
+      "iast": "puṭaḥ",
+      "devanagari": "पुटः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.1.21",
+      "english": "",
+      "iast": "vanopalā, vanotpalā,",
+      "devanagari": "वनोपला, वनोत्पला",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.1.22",
+      "english": "",
+      "iast": "kajjalī",
+      "devanagari": "कज्जली",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.1.5",
+      "english": "Removal of physical",
+      "iast": "nirmalīkaraṇam",
+      "devanagari": "निर्मलीकरणम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.1.7",
+      "english": "Calcinated minerals",
+      "iast": "Bhasma,",
+      "devanagari": "भस्म",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.10.3",
+      "english": "",
+      "iast": "svarjikṣāraḥ, sarjikṣāraḥ,",
+      "devanagari": "स्वर्जिक्षारः, सर्जिक्षारः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.2.1",
+      "english": "Group of key",
+      "iast": "mahārasaḥ",
+      "devanagari": "महारसः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.2.3",
+      "english": "Fluorspar and",
+      "iast": "vaikrāntam",
+      "devanagari": "वैक्रान्तम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.2.8",
+      "english": "Bismuth or selenium",
+      "iast": "capalaḥ",
+      "devanagari": "चपलः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.2.9",
+      "english": "Smithsonite, calamine",
+      "iast": "rasakaḥ/kharparaḥ",
+      "devanagari": "रसकः/खर्परः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.4.5",
+      "english": "Marine or cowrie shell",
+      "iast": "kapardakaḥ",
+      "devanagari": "कपर्दकः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.4.7",
+      "english": "Red oxide of mercury",
+      "iast": "girisindūraḥ",
+      "devanagari": "गिरिसिन्दूरः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.4.9",
+      "english": "Litharge",
+      "iast": "mṛddāraśrṛṃgaḥ",
+      "devanagari": "मृद्दारश्रृंगः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.5.6",
+      "english": "Tin",
+      "iast": "vaṅgam",
+      "devanagari": "वंगम",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.7.2",
+      "english": "Sun stone",
+      "iast": "sūryakāntaḥ",
+      "devanagari": "सूर्यकान्तः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.8.1",
+      "english": "Group of white",
+      "iast": "śuklavargaḥ, sudhāvar-",
+      "devanagari": "शुक्लवर्गः, सुधावर-",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-7.2.8.3",
+      "english": "Conch shell",
+      "iast": "śaṃkhaḥ",
+      "devanagari": "शंखः",
+      "chapter": "7",
+      "chapter_name": "Pharmaceutical Preparations"
+    },
+    {
+      "term_id": "ITA-8.1.1",
+      "english": "Preparation of food",
+      "iast": "āhārakalpanā",
+      "devanagari": "आहारकल्पना",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.1.10",
+      "english": "Suckables",
+      "iast": "coṣyam/cūṣyam",
+      "devanagari": "चोष्यम/चूष्यम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.1.11",
+      "english": "Hard eatables",
+      "iast": "khāditam",
+      "devanagari": "खादितम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.1.12",
+      "english": "Chewables",
+      "iast": "carvyam",
+      "devanagari": "चर्व्यम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.1.13",
+      "english": "Eatables",
+      "iast": "bhakṣyam",
+      "devanagari": "भक्ष्यम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.1.6",
+      "english": "Varieties of food",
+      "iast": "āhārasvarūpabhedaḥ",
+      "devanagari": "आहारस्वरूपभेदः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.1.7",
+      "english": "Eatables",
+      "iast": "aśitam",
+      "devanagari": "अशितम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.1.8",
+      "english": "Drinkables",
+      "iast": "pītam",
+      "devanagari": "पीतम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.1.9",
+      "english": "Lickables",
+      "iast": "līḍham",
+      "devanagari": "लीढम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.11",
+      "english": "Group of sugarcane",
+      "iast": "ikṣuvargaḥ",
+      "devanagari": "इक्षुवर्गः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.14",
+      "english": "Group of milks",
+      "iast": "kṣīravargaḥ",
+      "devanagari": "क्षीरवर्गः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.18",
+      "english": "Thick buttermilk",
+      "iast": "udaśvit",
+      "devanagari": "उदश्वित",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.19",
+      "english": "Thin buttermilk",
+      "iast": "takram",
+      "devanagari": "तक्रम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.21",
+      "english": "Inspissated milk",
+      "iast": "kilāṭam",
+      "devanagari": "किलाटम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.28",
+      "english": "Buttermilk prepared",
+      "iast": "gholaḥ",
+      "devanagari": "घोलः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.3",
+      "english": "Group of pulses and",
+      "iast": "śamīdhānyavargaḥ,",
+      "devanagari": "शमीधाञवर्गः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.39",
+      "english": "Spring water",
+      "iast": "audbhidajalam",
+      "devanagari": "औद्भिदजलम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.41",
+      "english": "Well water",
+      "iast": "kaupam",
+      "devanagari": "कौपम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.49",
+      "english": "Water derived from",
+      "iast": "haimam",
+      "devanagari": "हैमम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.2.8",
+      "english": "Suitable for preparation",
+      "iast": "sūpyam",
+      "devanagari": "सूप्यम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.10",
+      "english": "Group of processed",
+      "iast": "kṛtānnavargaḥ",
+      "devanagari": "कृतान्नवर्गः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.12",
+      "english": "Thin rice gruel",
+      "iast": "peyā",
+      "devanagari": "पेया",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.14",
+      "english": "Cooked rice",
+      "iast": "odanam",
+      "devanagari": "ओदनम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.15",
+      "english": "Parched paddy",
+      "iast": "lājā",
+      "devanagari": "लाजा",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.16",
+      "english": "Thin gruel of",
+      "iast": "lājapeyā",
+      "devanagari": "लाजपेया",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.17",
+      "english": "Liquid portion of",
+      "iast": "lājamaṇḍaḥ",
+      "devanagari": "लाजमण्डः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.2",
+      "english": "Cooking with steam",
+      "iast": "kukūlapācanam",
+      "devanagari": "कुकूलपाचनम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.24",
+      "english": "Thin meat soup",
+      "iast": "tanurasaḥ",
+      "devanagari": "तनुरसः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.25",
+      "english": "Processed meat soup",
+      "iast": "kṛtarasaḥ",
+      "devanagari": "कृतरसः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.27",
+      "english": "Soup without added",
+      "iast": "anamlasūpaḥ",
+      "devanagari": "अनम्लसूपः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.3",
+      "english": "Cooking on pan",
+      "iast": "karparapācanam",
+      "devanagari": "कर्परपाचनम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.30",
+      "english": "Flour cake, a type",
+      "iast": "apūpaḥ",
+      "devanagari": "अपूपः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.32",
+      "english": "Sprouted grains",
+      "iast": "virūḍhadhānāḥ,",
+      "devanagari": "विरूढधानाः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.33",
+      "english": "Type of cake",
+      "iast": "śaṣkuliḥ",
+      "devanagari": "शष्कुलिः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.34",
+      "english": "Fried sweet bread",
+      "iast": "pūpaḥ",
+      "devanagari": "पूपः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.36",
+      "english": "Boneless meat",
+      "iast": "veśavāraḥ",
+      "devanagari": "वेशवारः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.4",
+      "english": "Processing by",
+      "iast": "kālaprakarṣaḥ",
+      "devanagari": "कालप्रकर्षः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.43",
+      "english": "Type of fermented",
+      "iast": "śiṇḍākī",
+      "devanagari": "शिण्डाकी",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.45",
+      "english": "Beverage prepared",
+      "iast": "khaḍaḥ",
+      "devanagari": "खडः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.46",
+      "english": "Beverage prepared",
+      "iast": "kāmbalikaḥ",
+      "devanagari": "काम्बलिकः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.47",
+      "english": "Porridge",
+      "iast": "kṛśarā",
+      "devanagari": "कृशरा",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.48",
+      "english": "Oil cakes",
+      "iast": "piṇyākaḥ",
+      "devanagari": "पिण्याकः",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.5",
+      "english": "Processing by use",
+      "iast": "bhājanam",
+      "devanagari": "भाजनम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-8.3.7",
+      "english": "Churning",
+      "iast": "manthanam",
+      "devanagari": "मन्थनम",
+      "chapter": "8",
+      "chapter_name": "Diet and Lifestyle"
+    },
+    {
+      "term_id": "ITA-9.1.1",
+      "english": "General medicine",
+      "iast": "kāyacikitsā",
+      "devanagari": "कायचिकित्सा",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.1.10",
+      "english": "Palliation",
+      "iast": "praśamanam",
+      "devanagari": "प्रशमनम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.1.11",
+      "english": "Restoration of health",
+      "iast": "prakṛtisthāpanam",
+      "devanagari": "प्रकृतिस्थापनम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.1.12",
+      "english": "Salutary to health",
+      "iast": "hitam",
+      "devanagari": "हितम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.1.13",
+      "english": "Rebuffing of disease",
+      "iast": "vāraṇam",
+      "devanagari": "वारणम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.1.9",
+      "english": "Amendment to wrong",
+      "iast": "prāyaścittam",
+      "devanagari": "प्रायश्चित्तम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.11",
+      "english": "External oleation",
+      "iast": "bāhyasnehaḥ",
+      "devanagari": "बाह्यस्नेहः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.12",
+      "english": "Application of oil",
+      "iast": "abhyaṅgaḥ",
+      "devanagari": "अभ्यंगः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.39",
+      "english": "Sweating induced",
+      "iast": "agnisvedaḥ",
+      "devanagari": "अग्निस्वेदः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.43",
+      "english": "Sweating induced",
+      "iast": "pariṣekasvedaḥ",
+      "devanagari": "परिषेकस्वेदः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.46",
+      "english": "Sweating induced on",
+      "iast": "aśmaghanasvedaḥ",
+      "devanagari": "अश्मघनस्वेदः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.55",
+      "english": "Sweating induced by",
+      "iast": "tāpasvedaḥ",
+      "devanagari": "तापस्वेदः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.7",
+      "english": "Intake of processed",
+      "iast": "acchasnehaḥ",
+      "devanagari": "अच्छस्नेहः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.71",
+      "english": "Therapeutic enema",
+      "iast": "bastikarma",
+      "devanagari": "बस्तिकर्म",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.72",
+      "english": "Half-dose therapeutic",
+      "iast": "anuvāsanabastiḥ",
+      "devanagari": "अनुवासनबस्तिः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.74",
+      "english": "Low-dose ghee or oily",
+      "iast": "mātrābastiḥ",
+      "devanagari": "मात्राबस्तिः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.96",
+      "english": "Intranasal therapy",
+      "iast": "śamananasyam",
+      "devanagari": "शमननस्यम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.2.98",
+      "english": "Vaginal tampon",
+      "iast": "yoni picu",
+      "devanagari": "योनि पिचु",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.4.42",
+      "english": "Proper dentition",
+      "iast": "dantasampat",
+      "devanagari": "दन्तसम्पत",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.5.27",
+      "english": "Collyrium",
+      "iast": "añjanam",
+      "devanagari": "अञ्जनम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.5.47",
+      "english": "Lobuloplasty type 5",
+      "iast": "gaṇḍakarṇaḥ",
+      "devanagari": "गण्डकर्णः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.5.48",
+      "english": "Lobuloplasty type 6",
+      "iast": "āhārya",
+      "devanagari": "आहार्य",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.5.55",
+      "english": "Lobuloplasty type 13",
+      "iast": "vallīkarṇaḥ",
+      "devanagari": "वल्लीकर्णः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.5.68",
+      "english": "Medicated smoking",
+      "iast": "dhūmapānam",
+      "devanagari": "धूमपानम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.5.83",
+      "english": "Retention of palliative",
+      "iast": "śamanagaṇḍūṣaḥ",
+      "devanagari": "शमनगण्डूषः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.5.84",
+      "english": "Retention of",
+      "iast": "śodhanagaṇḍūṣaḥ",
+      "devanagari": "शोधनगण्डूषः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.5.86",
+      "english": "Mouth gargle",
+      "iast": "kavalaḥ",
+      "devanagari": "कवलः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.6.134",
+      "english": "Therapeutic rupturing",
+      "iast": "dāraṇakarma",
+      "devanagari": "दारणकर्म",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.6.154",
+      "english": "Hypergranulation",
+      "iast": "avasādanam",
+      "devanagari": "अवसादनम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.6.155",
+      "english": "Wound-softening",
+      "iast": "mṛdukarma",
+      "devanagari": "मृदुकर्म",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.6.204",
+      "english": "Natural removal of",
+      "iast": "svabhāvaḥ",
+      "devanagari": "स्वभावः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.6.43",
+      "english": "Circular knife",
+      "iast": "maṇḍalāgraśastram",
+      "devanagari": "मण्डलाग्रशस्त्रम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.6.64",
+      "english": "Excision",
+      "iast": "chedanakarma",
+      "devanagari": "छेदनकर्म",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.6.9",
+      "english": "Forceps",
+      "iast": "sandaṃśayantram",
+      "devanagari": "सन्दंशयन्त्रम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.6.91",
+      "english": "Internal administration",
+      "iast": "pānīyakṣāraḥ",
+      "devanagari": "पानीयक्षारः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.7.11",
+      "english": "Substrata of poison in",
+      "iast": "jāṅgamaviṣa-",
+      "devanagari": "जांगमविष-",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.7.17",
+      "english": "Poisonous lady",
+      "iast": "viṣakanyā",
+      "devanagari": "विषकञा",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.7.2",
+      "english": "Management of",
+      "iast": "viṣagaravairodhikacikitsā",
+      "devanagari": "विषगरवैरोधिकचिकित्सा",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.7.27",
+      "english": "Application of heat",
+      "iast": "agnikarma",
+      "devanagari": "अग्निकर्म",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.7.28",
+      "english": "Streaming of",
+      "iast": "pariṣekaḥ (viṣopakramaḥ)",
+      "devanagari": "परिषेकः (विषोपक्रमः)",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.7.37",
+      "english": "Fumigation for",
+      "iast": "dhūmam (viṣopakramaḥ)",
+      "devanagari": "धूमम (विषोपक्रमः)",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.9.23",
+      "english": "Morbidities of semen",
+      "iast": "duṣṭaśukram",
+      "devanagari": "दुष्टशुक्रम",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.9.33",
+      "english": "Pyospermia",
+      "iast": "pūtiśukradoṣaḥ",
+      "devanagari": "पूतिशुक्रदोषः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    },
+    {
+      "term_id": "ITA-9.9.57",
+      "english": "Semen quality",
+      "iast": "śukropacayaḥ",
+      "devanagari": "शुक्रोपचयः",
+      "chapter": "9",
+      "chapter_name": "Treatment Modalities (Chikitsa)"
+    }
+  ]
+}

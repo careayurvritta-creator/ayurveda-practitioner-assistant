@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-01-07T11:22:44.239945",
+  "phase": 4,
+  "statistics": {
+    "total_terms": 3547,
+    "font_fixes": 0,
+    "matra_fixes": 0,
+    "dict_validated": 206,
+    "compounds_found": 886,
+    "diacritical_fixes": 0,
+    "synonyms_linked": 8,
+    "confidence_high": 164,
+    "confidence_medium": 42,
+    "confidence_low": 3341,
+    "review_queue_size": 3341
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-01-07T13:54:27.760625",
+  "schedule": {
+    "automated": {
+      "frequency": "weekly",
+      "day": "Sunday",
+      "time": "02:00 UTC",
+      "script": "phase6_enhanced_validator.py",
+      "notify_on_failure": true
+    },
+    "full_validation": {
+      "frequency": "monthly",
+      "next": "2026-02-01",
+      "scope": "All 3,547 terms"
+    },
+    "expert_review": {
+      "frequency": "quarterly",
+      "next": "2026-06-30",
+      "reviewers": [
+        "Sanskrit Scholar",
+        "Ayurvedic Physician"
+      ]
+    }
+  },
+  "validation_checks": [
+    "IAST-Devanagari parity",
+    "Cross-reference integrity",
+    "Confidence score accuracy",
+    "WHO ITA compliance"
+  ]
+}

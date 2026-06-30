@@ -1,0 +1,64 @@
+{
+  "roadmap_version": "1.0",
+  "created_at": "2026-01-07T13:49:51.803784",
+  "quarters": [
+    {
+      "quarter": "Q1 2026",
+      "focus": "Foundation Stabilization",
+      "initiatives": [
+        "Complete Phase 1-10 implementation",
+        "Establish monitoring baselines",
+        "Train support team on KB usage"
+      ]
+    },
+    {
+      "quarter": "Q2 2026",
+      "focus": "Quality Enhancement",
+      "initiatives": [
+        "Address top 50 user-reported issues",
+        "Add 500+ new compound terms",
+        "Improve embedding accuracy by 10%"
+      ]
+    },
+    {
+      "quarter": "Q3 2026",
+      "focus": "Feature Expansion",
+      "initiatives": [
+        "Add clinical pathway recommendations",
+        "Integrate with EMR systems",
+        "Launch Sanskrit pronunciation audio"
+      ]
+    },
+    {
+      "quarter": "Q4 2026",
+      "focus": "AI Enhancement",
+      "initiatives": [
+        "Fine-tune Gemini with ITA data",
+        "Add multi-modal support",
+        "Publish research paper"
+      ]
+    }
+  ],
+  "kpis": [
+    {
+      "name": "Term Accuracy",
+      "target": "99.5%",
+      "current": "96.72%"
+    },
+    {
+      "name": "User Satisfaction",
+      "target": "4.5/5",
+      "current": "TBD"
+    },
+    {
+      "name": "Lookup Success Rate",
+      "target": "99%",
+      "current": "TBD"
+    },
+    {
+      "name": "AI Response Accuracy",
+      "target": "95%",
+      "current": "TBD"
+    }
+  ]
+}

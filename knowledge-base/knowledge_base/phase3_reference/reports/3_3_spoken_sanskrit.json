@@ -1,0 +1,14 @@
+{
+  "source": "Spoken Sanskrit Dictionary",
+  "url": "https://spokensanskrit.org/",
+  "purpose": "Identify variant spellings in modern usage",
+  "variants_found": 1,
+  "samples": [
+    {
+      "term_id": "ITA-2.1.2.1",
+      "iast": "pittam",
+      "canonical": "pitta",
+      "is_canonical": false
+    }
+  ]
+}

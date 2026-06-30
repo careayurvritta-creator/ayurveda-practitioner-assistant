@@ -1,0 +1,709 @@
+{
+  "total_clusters": 3458,
+  "unique_clusters": 296,
+  "unusual_cluster_occurrences": 1098,
+  "all_clusters": {
+    "प्र": 228,
+    "क्ष": 173,
+    "व्य": 157,
+    "न्ध": 122,
+    "स्थ": 119,
+    "त्स": 101,
+    "स्त": 100,
+    "व्र": 89,
+    "स्र": 80,
+    "न्त": 76,
+    "ग्र": 73,
+    "द्र": 73,
+    "न्द": 60,
+    "न्म": 58,
+    "द्ध": 58,
+    "ष्ट": 55,
+    "ष्ठ": 46,
+    "ज्व": 46,
+    "ण्ड": 43,
+    "क्त": 39,
+    "ञ्ज": 37,
+    "स्म": 37,
+    "स्द": 36,
+    "ङ्ग": 35,
+    "त्त": 34,
+    "न्य": 33,
+    "स्क": 30,
+    "म्म": 30,
+    "म्भ": 29,
+    "स्व": 24,
+    "त्म": 22,
+    "ष्ण": 22,
+    "न्थ": 21,
+    "ध्म": 20,
+    "थ्य": 20,
+    "स्य": 20,
+    "त्व": 19,
+    "ज्ञ": 18,
+    "ष्म": 18,
+    "श्म": 18,
+    "ग्न": 18,
+    "क्ल": 18,
+    "त्य": 17,
+    "ल्म": 17,
+    "ण्ल": 17,
+    "ह्व": 17,
+    "ग्ध": 16,
+    "ल्य": 15,
+    "त्र": 15,
+    "च्छ": 15,
+    "श्र": 14,
+    "ज्ज": 14,
+    "श्च": 14,
+    "ल्प": 13,
+    "ध्य": 13,
+    "श्व": 13,
+    "म्ल": 13,
+    "त्प": 13,
+    "क्ब": 13,
+    "द्य": 12,
+    "ङ्म": 12,
+    "श्य": 12,
+    "ब्म": 12,
+    "ह्य": 11,
+    "स्फ": 11,
+    "द्ग": 11,
+    "र्च": 11,
+    "र्ध": 10,
+    "स्स": 10,
+    "क्र": 10,
+    "न्श": 10,
+    "श्त": 10,
+    "ङ्क": 10,
+    "स्प": 10,
+    "स्न": 10,
+    "क्व": 10,
+    "घ्न": 10,
+    "छ्र": 10,
+    "म्प": 10,
+    "र्श": 9,
+    "क्प": 9,
+    "त्क": 9,
+    "क्म": 9,
+    "व्न": 9,
+    "ङ्घ": 9,
+    "त्च": 9,
+    "च्त": 9,
+    "ल्ल": 8,
+    "ग्द": 8,
+    "र्द": 7,
+    "ख्य": 7,
+    "क्द": 7,
+    "ष्प": 7,
+    "ब्द": 7,
+    "स्ल": 7,
+    "प्ण": 7,
+    "न्न": 7,
+    "म्य": 7,
+    "द्व": 7,
+    "न्ज": 7
+  },
+  "unusual_clusters": [
+    {
+      "row": 449,
+      "term_id": "",
+      "cluster": "त्ग",
+      "context": "नित्ग;"
+    },
+    {
+      "row": 471,
+      "term_id": "ITA-1.4.2",
+      "cluster": "त्स",
+      "context": "कित्स"
+    },
+    {
+      "row": 472,
+      "term_id": "ITA-1.4.3",
+      "cluster": "त्स",
+      "context": "कित्स"
+    },
+    {
+      "row": 475,
+      "term_id": "ITA-1.4.4",
+      "cluster": "त्स",
+      "context": "कित्स,"
+    },
+    {
+      "row": 476,
+      "term_id": "",
+      "cluster": "त्म",
+      "context": "रभत्म"
+    },
+    {
+      "row": 478,
+      "term_id": "ITA-1.4.5",
+      "cluster": "त्स",
+      "context": "कित्स,"
+    },
+    {
+      "row": 481,
+      "term_id": "",
+      "cluster": "त्स",
+      "context": "कित्स"
+    },
+    {
+      "row": 487,
+      "term_id": "ITA-1.4.7",
+      "cluster": "ल्य",
+      "context": "शल्यिकि"
+    },
+    {
+      "row": 487,
+      "term_id": "ITA-1.4.7",
+      "cluster": "त्स",
+      "context": "कित्स"
+    },
+    {
+      "row": 490,
+      "term_id": "ITA-1.4.8",
+      "cluster": "त्स",
+      "context": "कित्स,"
+    },
+    {
+      "row": 491,
+      "term_id": "",
+      "cluster": "त्स",
+      "context": "कित्स"
+    },
+    {
+      "row": 492,
+      "term_id": "ITA-1.4.9",
+      "cluster": "त्स",
+      "context": "कित्स,"
+    },
+    {
+      "row": 493,
+      "term_id": "",
+      "cluster": "त्स",
+      "context": "कित्स"
+    },
+    {
+      "row": 494,
+      "term_id": "ITA-1.4.10",
+      "cluster": "त्स",
+      "context": "कित्स,"
+    },
+    {
+      "row": 495,
+      "term_id": "",
+      "cluster": "त्स",
+      "context": "कित्स,"
+    },
+    {
+      "row": 501,
+      "term_id": "",
+      "cluster": "न्म",
+      "context": "तन्म, व"
+    },
+    {
+      "row": 516,
+      "term_id": "ITA-1.5.6",
+      "cluster": "न्म",
+      "context": "तन्म"
+    },
+    {
+      "row": 557,
+      "term_id": "ITA-1.6.11",
+      "cluster": "द्श",
+      "context": "उद्शः"
+    },
+    {
+      "row": 585,
+      "term_id": "ITA-1.6.22",
+      "cluster": "त्स",
+      "context": "त्त्साः"
+    },
+    {
+      "row": 596,
+      "term_id": "ITA-1.6.27",
+      "cluster": "क्श",
+      "context": "वाक्शषः"
+    },
+    {
+      "row": 608,
+      "term_id": "ITA-1.6.31",
+      "cluster": "ख्य",
+      "context": "्यख्याम"
+    },
+    {
+      "row": 613,
+      "term_id": "ITA-1.6.34",
+      "cluster": "म्भ",
+      "context": "सम्भः"
+    },
+    {
+      "row": 615,
+      "term_id": "ITA-1.6.35",
+      "cluster": "स्स",
+      "context": "स्सञ्ज"
+    },
+    {
+      "row": 623,
+      "term_id": "ITA-1.6.39",
+      "cluster": "ल्म",
+      "context": "छिल्म"
+    },
+    {
+      "row": 625,
+      "term_id": "ITA-1.6.40",
+      "cluster": "ख्य",
+      "context": "्यख्य"
+    },
+    {
+      "row": 642,
+      "term_id": "ITA-1.7.4",
+      "cluster": "ज्म",
+      "context": "योज्म"
+    },
+    {
+      "row": 646,
+      "term_id": "ITA-1.7.6",
+      "cluster": "ज्म",
+      "context": "योज्म"
+    },
+    {
+      "row": 654,
+      "term_id": "ITA-1.7.10",
+      "cluster": "त्म",
+      "context": "उत्म"
+    },
+    {
+      "row": 661,
+      "term_id": "ITA-1.7.12",
+      "cluster": "म्भ",
+      "context": "ालम्भ"
+    },
+    {
+      "row": 670,
+      "term_id": "ITA-1.7.16",
+      "cluster": "म्भ",
+      "context": "दसम्भषा"
+    },
+    {
+      "row": 691,
+      "term_id": "ITA-1.7.24",
+      "cluster": "क्द",
+      "context": "वाक्दोषः"
+    },
+    {
+      "row": 694,
+      "term_id": "ITA-1.7.25",
+      "cluster": "क्प",
+      "context": "वाक्प्रश"
+    },
+    {
+      "row": 698,
+      "term_id": "ITA-1.7.27",
+      "cluster": "व्स",
+      "context": "व्सायः"
+    },
+    {
+      "row": 701,
+      "term_id": "ITA-1.7.29",
+      "cluster": "त्न",
+      "context": "हत्न्तम"
+    },
+    {
+      "row": 721,
+      "term_id": "ITA-1.8.1.1",
+      "cluster": "त्क",
+      "context": "्रत्क्षम"
+    },
+    {
+      "row": 737,
+      "term_id": "ITA-1.8.2.5",
+      "cluster": "द्त",
+      "context": "सद्त"
+    },
+    {
+      "row": 760,
+      "term_id": "ITA-1.8.2.11   Inseparable",
+      "cluster": "त्म",
+      "context": "िदत्म"
+    },
+    {
+      "row": 802,
+      "term_id": "ITA-1.8.2.27   Five-stepped",
+      "cluster": "क्म",
+      "context": "वाक्म"
+    },
+    {
+      "row": 831,
+      "term_id": "ITA-1.8.3.1",
+      "cluster": "प्प",
+      "context": "आप्पदशः"
+    },
+    {
+      "row": 855,
+      "term_id": "ITA-1.9.1.1",
+      "cluster": "न्म",
+      "context": "मान्म"
+    },
+    {
+      "row": 858,
+      "term_id": "ITA-1.9.1.2",
+      "cluster": "न्म",
+      "context": "मान्म"
+    },
+    {
+      "row": 862,
+      "term_id": "ITA-1.9.1.3",
+      "cluster": "न्म",
+      "context": "मान्म"
+    },
+    {
+      "row": 865,
+      "term_id": "ITA-1.9.1.4",
+      "cluster": "न्म",
+      "context": "मान्म"
+    },
+    {
+      "row": 910,
+      "term_id": "",
+      "cluster": "थ्व",
+      "context": "पथ्व"
+    },
+    {
+      "row": 913,
+      "term_id": "",
+      "cluster": "न्म",
+      "context": "तन्मात"
+    },
+    {
+      "row": 917,
+      "term_id": "ITA-1.9.3.2.1  Self",
+      "cluster": "त्म",
+      "context": "आत्म"
+    },
+    {
+      "row": 919,
+      "term_id": "ITA-1.9.3.2.2  Self-embodied being",
+      "cluster": "त्म",
+      "context": "तात्म"
+    },
+    {
+      "row": 928,
+      "term_id": "ITA-1.9.3.2.7  Relating to self",
+      "cluster": "त्म",
+      "context": "यात्म"
+    },
+    {
+      "row": 940,
+      "term_id": "ITA-1.9.3.2.11  Person as the object",
+      "cluster": "त्स",
+      "context": "कित्स-पर"
+    },
+    {
+      "row": 941,
+      "term_id": "",
+      "cluster": "ड्ध",
+      "context": "षड्धतपर"
+    },
+    {
+      "row": 956,
+      "term_id": "ITA-1.9.3.2.17  Consciousness",
+      "cluster": "न्म",
+      "context": "चतन्म"
+    },
+    {
+      "row": 957,
+      "term_id": "ITA-1.9.3.2.18  Eternal",
+      "cluster": "त्म",
+      "context": "नित्म"
+    },
+    {
+      "row": 964,
+      "term_id": "ITA-1.9.3.2.20  Irresistible will",
+      "cluster": "म्म",
+      "context": "राम्म"
+    },
+    {
+      "row": 970,
+      "term_id": "ITA-1.9.3.2.24  Introverted",
+      "cluster": "न्श",
+      "context": "अन्श्तन"
+    },
+    {
+      "row": 970,
+      "term_id": "ITA-1.9.3.2.24  Introverted",
+      "cluster": "श्त",
+      "context": "न्श्तन"
+    },
+    {
+      "row": 974,
+      "term_id": "ITA-1.9.3.2.26  Perception of truth",
+      "cluster": "त्ब",
+      "context": "सत्बद्ध"
+    },
+    {
+      "row": 998,
+      "term_id": "ITA-1.9.3.3.6",
+      "cluster": "त्म",
+      "context": "नित्म"
+    },
+    {
+      "row": 1027,
+      "term_id": "ITA-1.9.3.3.19  Anger",
+      "cluster": "क्ध",
+      "context": "क्धः"
+    },
+    {
+      "row": 1033,
+      "term_id": "ITA-1.9.3.3.23  Discontentment",
+      "cluster": "त्स",
+      "context": "मात्सम"
+    },
+    {
+      "row": 1045,
+      "term_id": "ITA-1.9.3.3.27  Shyness",
+      "cluster": "ज्ज",
+      "context": "लज्ज"
+    },
+    {
+      "row": 1054,
+      "term_id": "ITA-1.9.3.3.31  Delusion",
+      "cluster": "म्म",
+      "context": "सम्मोः"
+    },
+    {
+      "row": 1084,
+      "term_id": "ITA-1.9.3.7.3  Stationary in form,",
+      "cluster": "न्श",
+      "context": "/अन्श्तन"
+    },
+    {
+      "row": 1084,
+      "term_id": "ITA-1.9.3.7.3  Stationary in form,",
+      "cluster": "श्त",
+      "context": "न्श्तनः"
+    },
+    {
+      "row": 1105,
+      "term_id": "ITA-1.9.3.7.11  Mobile life form with",
+      "cluster": "ङ्म",
+      "context": "जङ्मः/"
+    },
+    {
+      "row": 1106,
+      "term_id": "",
+      "cluster": "न्श",
+      "context": "िरन्श्तन"
+    },
+    {
+      "row": 1106,
+      "term_id": "",
+      "cluster": "श्त",
+      "context": "न्श्तनः"
+    },
+    {
+      "row": 1110,
+      "term_id": "ITA-1.9.3.7.13  Oviparous animals",
+      "cluster": "ण्ज",
+      "context": "अण्जः"
+    },
+    {
+      "row": 1112,
+      "term_id": "ITA-1.9.3.7.14  Creatures generated",
+      "cluster": "स्द",
+      "context": "स्दजः"
+    },
+    {
+      "row": 1170,
+      "term_id": "ITA-1.9.4.2.8",
+      "cluster": "ग्ध",
+      "context": "निग्ध"
+    },
+    {
+      "row": 1174,
+      "term_id": "ITA-1.9.4.2.10  Smoothness,",
+      "cluster": "श्ल",
+      "context": "श्लक्ष"
+    },
+    {
+      "row": 1190,
+      "term_id": "ITA-1.9.4.2.17  Grossness, bulkiness",
+      "cluster": "स्ल",
+      "context": "स्लः"
+    },
+    {
+      "row": 1202,
+      "term_id": "ITA-1.9.4.3.1",
+      "cluster": "त्ग",
+      "context": "आत्गणः"
+    },
+    {
+      "row": 1219,
+      "term_id": "ITA-1.9.4.3.7  Effort",
+      "cluster": "त्न",
+      "context": "रयत्न"
+    },
+    {
+      "row": 1225,
+      "term_id": "ITA-1.9.4.4.2  Relatively superior,",
+      "cluster": "त्म",
+      "context": "परत्म"
+    },
+    {
+      "row": 1227,
+      "term_id": "ITA-1.9.4.4.3  Relatively inferior,",
+      "cluster": "त्म",
+      "context": "परत्म"
+    },
+    {
+      "row": 1230,
+      "term_id": "ITA-1.9.4.4.4  Number, enumeration,",
+      "cluster": "ख्य",
+      "context": "सख्य"
+    },
+    {
+      "row": 1261,
+      "term_id": "ITA-1.9.7.2",
+      "cluster": "प्ग",
+      "context": "प्गभाव"
+    },
+    {
+      "row": 1263,
+      "term_id": "ITA-1.9.7.3",
+      "cluster": "ध्स",
+      "context": "्रध्साभा"
+    },
+    {
+      "row": 1269,
+      "term_id": "ITA-1.9.7.4",
+      "cluster": "त्न",
+      "context": "अत्न्तभ"
+    },
+    {
+      "row": 1280,
+      "term_id": "",
+      "cluster": "ङ्स",
+      "context": "्टङ्सग्र"
+    },
+    {
+      "row": 1282,
+      "term_id": "",
+      "cluster": "ङ्ह",
+      "context": "्टङ्हृदय"
+    },
+    {
+      "row": 1372,
+      "term_id": "ITA-2.1.1.2",
+      "cluster": "प्ण",
+      "context": "प्णः"
+    },
+    {
+      "row": 1398,
+      "term_id": "ITA-2.1.1.8",
+      "cluster": "त्स",
+      "context": "उत्साः"
+    },
+    {
+      "row": 1399,
+      "term_id": "ITA-2.1.1.9",
+      "cluster": "छ्व",
+      "context": "च्छ्वसः"
+    },
+    {
+      "row": 1404,
+      "term_id": "ITA-2.1.1.14   Opening of eyelid",
+      "cluster": "न्ष",
+      "context": "उन्षः"
+    },
+    {
+      "row": 1437,
+      "term_id": "ITA-2.1.3.2",
+      "cluster": "म्ब",
+      "context": "वलम्बकफः"
+    },
+    {
+      "row": 1443,
+      "term_id": "ITA-2.1.3.3",
+      "cluster": "क्द",
+      "context": "क्दककफ"
+    },
+    {
+      "row": 1465,
+      "term_id": "ITA-2.2.2",
+      "cluster": "ष्म",
+      "context": "दष्म"
+    },
+    {
+      "row": 1498,
+      "term_id": "ITA-2.2.11",
+      "cluster": "ण्म",
+      "context": "काण्म"
+    },
+    {
+      "row": 1499,
+      "term_id": "ITA-2.2.12",
+      "cluster": "ण्व",
+      "context": "अण्वस्"
+    },
+    {
+      "row": 1508,
+      "term_id": "ITA-2.2.16",
+      "cluster": "ज्ज",
+      "context": "मज्जधात"
+    },
+    {
+      "row": 1524,
+      "term_id": "ITA-2.2.22",
+      "cluster": "त्ब",
+      "context": "स्त्बीजम"
+    },
+    {
+      "row": 1535,
+      "term_id": "ITA-2.2.26",
+      "cluster": "म्म",
+      "context": "साम्म"
+    },
+    {
+      "row": 1543,
+      "term_id": "ITA-2.2.27",
+      "cluster": "त्म",
+      "context": "षमत्म"
+    },
+    {
+      "row": 1555,
+      "term_id": "ITA-2.3.2",
+      "cluster": "न्म",
+      "context": "स्न्म"
+    },
+    {
+      "row": 1562,
+      "term_id": "ITA-2.3.3",
+      "cluster": "ष्म",
+      "context": " पष्म,"
+    },
+    {
+      "row": 1563,
+      "term_id": "",
+      "cluster": "ष्म",
+      "context": "तपष्म, श"
+    },
+    {
+      "row": 1590,
+      "term_id": "ITA-2.4.5",
+      "cluster": "स्द",
+      "context": "स्दः"
+    },
+    {
+      "row": 1598,
+      "term_id": "ITA-2.4.8",
+      "cluster": "क्म",
+      "context": "अक्मलः"
+    },
+    {
+      "row": 1604,
+      "term_id": "ITA-2.4.13",
+      "cluster": "श्म",
+      "context": "श्म"
+    }
+  ]
+}

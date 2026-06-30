@@ -45,6 +45,14 @@ function generateTitle(content: string): string {
   return words.length > 40 ? words.slice(0, 40) + '...' : words;
 }
 
+/**
+ * Truncate message content for display in error messages to avoid leaking
+ * potentially sensitive clinical data in error UI.
+ */
+function sanitizeErrorContent(content: string): string {
+  return content.length > 200 ? content.slice(0, 200) + '...' : content;
+}
+
 export function ChatProvider({ children }: { children: React.ReactNode }) {
   const [sessions, setSessions] = useLocalStorage<ChatSession[]>('ayurscribe_chat_sessions', []);
   const [currentSessionId, setCurrentSessionId] = useLocalStorage<string | null>('ayurscribe_current_session', null);
@@ -116,7 +124,9 @@ export function ChatProvider({ children }: { children: React.ReactNode }) {
 
     try {
       const session = sessions.find((s) => s.id === sessionId);
-      const existingMessages = (session?.messages ?? []).slice(-10).map((m) => ({
+
+      // Send last 20 messages for context (increased from 10)
+      const existingMessages = (session?.messages ?? []).slice(-20).map((m) => ({
         role: m.role === 'user' ? 'user' : 'assistant',
         content: m.content,
       }));
@@ -125,22 +135,41 @@ export function ChatProvider({ children }: { children: React.ReactNode }) {
         { role: 'user' as const, content },
       ];
 
+      // Determine the effective patientId: explicit param > session patientId
+      const effectivePatientId = patientId ?? session?.patientId;
+
       const { data, error } = await supabase.functions.invoke('chat', {
         body: {
           message: content,
           model: selectedModel,
           history,
-          patientId: patientId ?? session?.patientId,
+          patientId: effectivePatientId,
           sessionId: sessionId,
         },
       });
 
-      if (error) throw error;
+      if (error) {
+        // Parse Supabase edge function error for better messaging
+        const errMsg = error.message || error.error || String(error);
+        if (errMsg.includes('not configured')) {
+          throw new Error('AI service is temporarily unavailable. Please try again later.');
+        }
+        if (errMsg.includes('rate limit')) {
+          throw new Error('Too many requests. Please wait a moment and try again.');
+        }
+        throw new Error(errMsg || 'Failed to get response');
+      }
+
+      // Handle various response shapes
+      const responseText = data?.text || data?.reply || data?.choices?.[0]?.message?.content || '';
+      if (!responseText) {
+        throw new Error('Received empty response from AI. Please try rephrasing your query.');
+      }
 
       const assistantMessage: ChatMessage = {
         id: generateId(),
         role: 'assistant',
-        content: data.text || data.reply || data.choices?.[0]?.message?.content || 'No response received.',
+        content: responseText,
         timestamp: new Date().toISOString(),
       };
 
@@ -155,10 +184,19 @@ export function ChatProvider({ children }: { children: React.ReactNode }) {
         })
       );
     } catch (err) {
+      let errorText: string;
+      if (err instanceof Error) {
+        errorText = err.message;
+      } else if (typeof err === 'string') {
+        errorText = err;
+      } else {
+        errorText = 'An unexpected error occurred. Please try again.';
+      }
+
       const errorMessage: ChatMessage = {
         id: generateId(),
         role: 'assistant',
-        content: `Error: ${err instanceof Error ? err.message : 'Failed to get response'}`,
+        content: `Error: ${errorText}`,
         timestamp: new Date().toISOString(),
       };
 

@@ -1,0 +1,1377 @@
+{
+  "count": 49,
+  "conversations": [
+    {
+      "id": "conv_ITA-5.1.1",
+      "type": "diagnostic",
+      "condition": "Disorder",
+      "ita_code": "ITA-5.1.1",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Disorder according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Disorder (WHO ITA: ITA-5.1.1) is an Ayurvedic condition. Its Sanskrit name is vikāraḥ (विकारः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Disorder follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1",
+      "type": "diagnostic",
+      "condition": "Derangement",
+      "ita_code": "ITA-5.2.1",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Derangement according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Derangement (WHO ITA: ITA-5.2.1) is an Ayurvedic condition. Its Sanskrit name is doṣavaiṣamyam (दोषवैषम्यम).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Derangement follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.2",
+      "type": "diagnostic",
+      "condition": "State of dosha",
+      "ita_code": "ITA-5.2.2",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is State of dosha according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "State of dosha (WHO ITA: ITA-5.2.2) is an Ayurvedic condition. Its Sanskrit name is doṣāvasthā (दोषावस्था).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for State of dosha follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.1",
+      "type": "diagnostic",
+      "condition": "Accumulation of vata",
+      "ita_code": "ITA-5.2.1.1",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Accumulation of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Accumulation of vata (WHO ITA: ITA-5.2.1.1) is an Ayurvedic condition. Its Sanskrit name is vātasañcayaḥ (वातसञ्चयः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Accumulation of vata follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.2",
+      "type": "diagnostic",
+      "condition": "Aggravation of vata",
+      "ita_code": "ITA-5.2.1.2",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of vata (WHO ITA: ITA-5.2.1.2) is an Ayurvedic condition. Its Sanskrit name is vātaprakopaḥ/ (वातप्रकोपः/).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of vata follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.3",
+      "type": "diagnostic",
+      "condition": "Aggravation",
+      "ita_code": "ITA-5.2.1.3",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation (WHO ITA: ITA-5.2.1.3) is an Ayurvedic condition. Its Sanskrit name is prāṇavātakopaḥ (प्राणवातकोपः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.4",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.4",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.4) is an Ayurvedic condition. Its Sanskrit name is udānavātakopaḥ (उदानवातकोपः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.5",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.5",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.5) is an Ayurvedic condition. Its Sanskrit name is vyānavātakopaḥ (व्यानवातकोपः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.6",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.6",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.6) is an Ayurvedic condition. Its Sanskrit name is samānavātakopaḥ (समानवातकोपः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.7",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.7",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.7) is an Ayurvedic condition. Its Sanskrit name is apānavātakopaḥ (अपानवातकोपः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.8",
+      "type": "diagnostic",
+      "condition": "Spreading of vata",
+      "ita_code": "ITA-5.2.1.8",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Spreading of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Spreading of vata (WHO ITA: ITA-5.2.1.8) is an Ayurvedic condition. Its Sanskrit name is vātaprasaraṇam (वातप्रसरणम).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Spreading of vata follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.9",
+      "type": "diagnostic",
+      "condition": "Diminution of vata",
+      "ita_code": "ITA-5.2.1.9",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Diminution of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Diminution of vata (WHO ITA: ITA-5.2.1.9) is an Ayurvedic condition. Its Sanskrit name is vātakṣayaḥ (वातक्षयः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Diminution of vata follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.10",
+      "type": "diagnostic",
+      "condition": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.10",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of vata in (WHO ITA: ITA-5.2.1.10) is an Ayurvedic condition. Its Sanskrit name is koṣṭhāśritavātakopaḥ (कोष्ठाश्रितवातकोपः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of vata in follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.12",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.12",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.12) is an Ayurvedic condition. Its Sanskrit name is āmāśayagatavātaḥ (आमाशयगतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.13",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.13",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.13) is an Ayurvedic condition. Its Sanskrit name is pakvāśayagatavātaḥ (पक्वाशयगतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.14",
+      "type": "diagnostic",
+      "condition": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.14",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of vata in (WHO ITA: ITA-5.2.1.14) is an Ayurvedic condition. Its Sanskrit name is Jñnendriyagatavata/ (ज्ननेन्द्रियगतवत/).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of vata in follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.15",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.15",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.15) is an Ayurvedic condition. Its Sanskrit name is tvakgatavātaḥ (त्वक्गतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.16",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.16",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.16) is an Ayurvedic condition. Its Sanskrit name is asṛggatavātaḥ/ (असृग्गतवातः/).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.17",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.17",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.17) is an Ayurvedic condition. Its Sanskrit name is māṃsagatavātaḥ (मांसगतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.18",
+      "type": "diagnostic",
+      "condition": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.18",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of vata in (WHO ITA: ITA-5.2.1.18) is an Ayurvedic condition. Its Sanskrit name is medogatavātaḥ (मेदोगतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of vata in follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.19",
+      "type": "diagnostic",
+      "condition": "Aggravation of",
+      "ita_code": "ITA-5.2.1.19",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of (WHO ITA: ITA-5.2.1.19) is an Ayurvedic condition. Its Sanskrit name is asthigatavātaḥ (अस्थिगतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.20",
+      "type": "diagnostic",
+      "condition": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.20",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of vata in (WHO ITA: ITA-5.2.1.20) is an Ayurvedic condition. Its Sanskrit name is majjāgatavātaḥ (मज्जागतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of vata in follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.21",
+      "type": "diagnostic",
+      "condition": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.21",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of vata in (WHO ITA: ITA-5.2.1.21) is an Ayurvedic condition. Its Sanskrit name is śukragatavātaḥ (शुक्रगतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of vata in follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.22",
+      "type": "diagnostic",
+      "condition": "Aggravation of vata",
+      "ita_code": "ITA-5.2.1.22",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of vata (WHO ITA: ITA-5.2.1.22) is an Ayurvedic condition. Its Sanskrit name is snāyugatavātaḥ (स्नायुगतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of vata follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.23",
+      "type": "diagnostic",
+      "condition": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.23",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of vata in (WHO ITA: ITA-5.2.1.23) is an Ayurvedic condition. Its Sanskrit name is sirāgatavātaḥ (सिरागतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of vata in follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.24",
+      "type": "diagnostic",
+      "condition": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.24",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Aggravation of vata in (WHO ITA: ITA-5.2.1.24) is an Ayurvedic condition. Its Sanskrit name is sandhigatavātaḥ (सन्धिगतवातः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Aggravation of vata in follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.25",
+      "type": "diagnostic",
+      "condition": "Convulsions",
+      "ita_code": "ITA-5.2.1.25",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Convulsions according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Convulsions (WHO ITA: ITA-5.2.1.25) is an Ayurvedic condition. Its Sanskrit name is ākṣepakaḥ (आक्षेपकः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Convulsions follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.26",
+      "type": "diagnostic",
+      "condition": "Tonic convulsion",
+      "ita_code": "ITA-5.2.1.26",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Tonic convulsion according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Tonic convulsion (WHO ITA: ITA-5.2.1.26) is an Ayurvedic condition. Its Sanskrit name is daṇḍakaḥ (दण्डकः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Tonic convulsion follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.27",
+      "type": "diagnostic",
+      "condition": "Convulsive fit",
+      "ita_code": "ITA-5.2.1.27",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Convulsive fit according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Convulsive fit (WHO ITA: ITA-5.2.1.27) is an Ayurvedic condition. Its Sanskrit name is apatantrakaḥ (अपतन्त्रकः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Convulsive fit follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.28",
+      "type": "diagnostic",
+      "condition": "Orthotonus",
+      "ita_code": "ITA-5.2.1.28",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Orthotonus according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Orthotonus (WHO ITA: ITA-5.2.1.28) is an Ayurvedic condition. Its Sanskrit name is apatānakaḥ (अपतानकः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Orthotonus follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.29",
+      "type": "diagnostic",
+      "condition": "Orthotonus with rod",
+      "ita_code": "ITA-5.2.1.29",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Orthotonus with rod according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Orthotonus with rod (WHO ITA: ITA-5.2.1.29) is an Ayurvedic condition. Its Sanskrit name is daṇḍāpatānakaḥ (दण्डापतानकः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Orthotonus with rod follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.30",
+      "type": "diagnostic",
+      "condition": "Opisthotonus",
+      "ita_code": "ITA-5.2.1.30",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Opisthotonus according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Opisthotonus (WHO ITA: ITA-5.2.1.30) is an Ayurvedic condition. Its Sanskrit name is bahirāyāmaḥ/ (बहिरायामः/).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Opisthotonus follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.31",
+      "type": "diagnostic",
+      "condition": "Hemiplegia",
+      "ita_code": "ITA-5.2.1.31",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Hemiplegia according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Hemiplegia (WHO ITA: ITA-5.2.1.31) is an Ayurvedic condition. Its Sanskrit name is pakṣāghātaḥ/ (पक्षाघातः/).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Hemiplegia follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.32",
+      "type": "diagnostic",
+      "condition": "Paraparesis",
+      "ita_code": "ITA-5.2.1.32",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Paraparesis according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Paraparesis (WHO ITA: ITA-5.2.1.32) is an Ayurvedic condition. Its Sanskrit name is sarvāṅgavātaḥ/ (सर्वांगवातः/).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Paraparesis follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.33",
+      "type": "diagnostic",
+      "condition": "Facial paralysis",
+      "ita_code": "ITA-5.2.1.33",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Facial paralysis according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Facial paralysis (WHO ITA: ITA-5.2.1.33) is an Ayurvedic condition. Its Sanskrit name is arditaḥ (अर्दितः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Facial paralysis follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.34",
+      "type": "diagnostic",
+      "condition": "Lockjaw; trismus",
+      "ita_code": "ITA-5.2.1.34",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Lockjaw; trismus according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Lockjaw; trismus (WHO ITA: ITA-5.2.1.34) is an Ayurvedic condition. Its Sanskrit name is hanugrahaḥ (हनुग्रहः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Lockjaw; trismus follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.35",
+      "type": "diagnostic",
+      "condition": "Wry neck; torticollis",
+      "ita_code": "ITA-5.2.1.35",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Wry neck; torticollis according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Wry neck; torticollis (WHO ITA: ITA-5.2.1.35) is an Ayurvedic condition. Its Sanskrit name is manyāstambhaḥ (मञास्तम्भः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Wry neck; torticollis follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.36",
+      "type": "diagnostic",
+      "condition": "Rigid tongue",
+      "ita_code": "ITA-5.2.1.36",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Rigid tongue according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Rigid tongue (WHO ITA: ITA-5.2.1.36) is an Ayurvedic condition. Its Sanskrit name is jihvāstambhaḥ (जिह्वास्तम्भः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Rigid tongue follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.37",
+      "type": "diagnostic",
+      "condition": "Obstructed",
+      "ita_code": "ITA-5.2.1.37",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Obstructed according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Obstructed (WHO ITA: ITA-5.2.1.37) is an Ayurvedic condition. Its Sanskrit name is sirāgrahaḥ (सिराग्रहः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Obstructed follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.38",
+      "type": "diagnostic",
+      "condition": "Sciatica",
+      "ita_code": "ITA-5.2.1.38",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Sciatica according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Sciatica (WHO ITA: ITA-5.2.1.38) is an Ayurvedic condition. Its Sanskrit name is gṛdhrasī (गृध्रसी).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Sciatica follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.39",
+      "type": "diagnostic",
+      "condition": "Brachial neuralgia",
+      "ita_code": "ITA-5.2.1.39",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Brachial neuralgia according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Brachial neuralgia (WHO ITA: ITA-5.2.1.39) is an Ayurvedic condition. Its Sanskrit name is viśvācī (विश्वाची).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Brachial neuralgia follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.40",
+      "type": "diagnostic",
+      "condition": "Synovitis of the knee",
+      "ita_code": "ITA-5.2.1.40",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Synovitis of the knee according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Synovitis of the knee (WHO ITA: ITA-5.2.1.40) is an Ayurvedic condition. Its Sanskrit name is kroṣṭukaśīrṣaḥ (क्रोष्टुकशीर्षः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Synovitis of the knee follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.41",
+      "type": "diagnostic",
+      "condition": "Lameness",
+      "ita_code": "ITA-5.2.1.41",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Lameness according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Lameness (WHO ITA: ITA-5.2.1.41) is an Ayurvedic condition. Its Sanskrit name is khañjaḥ (खञ्जः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Lameness follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.42",
+      "type": "diagnostic",
+      "condition": "Paraplegia",
+      "ita_code": "ITA-5.2.1.42",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Paraplegia according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Paraplegia (WHO ITA: ITA-5.2.1.42) is an Ayurvedic condition. Its Sanskrit name is paṅguḥ (पंगुः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Paraplegia follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.43",
+      "type": "diagnostic",
+      "condition": "Kesari palsy",
+      "ita_code": "ITA-5.2.1.43",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Kesari palsy according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Kesari palsy (WHO ITA: ITA-5.2.1.43) is an Ayurvedic condition. Its Sanskrit name is kalāyakhañjaḥ (कलायखञ्जः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Kesari palsy follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.44",
+      "type": "diagnostic",
+      "condition": "Pain specific to heels",
+      "ita_code": "ITA-5.2.1.44",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Pain specific to heels according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pain specific to heels (WHO ITA: ITA-5.2.1.44) is an Ayurvedic condition. Its Sanskrit name is vātakhuḍḍatā/ (वातखुड्डता/).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Pain specific to heels follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.45",
+      "type": "diagnostic",
+      "condition": "Burning feet",
+      "ita_code": "ITA-5.2.1.45",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Burning feet according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Burning feet (WHO ITA: ITA-5.2.1.45) is an Ayurvedic condition. Its Sanskrit name is pādadāhaḥ (पाददाहः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Burning feet follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.46",
+      "type": "diagnostic",
+      "condition": "Peripheral neuritis",
+      "ita_code": "ITA-5.2.1.46",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Peripheral neuritis according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Peripheral neuritis (WHO ITA: ITA-5.2.1.46) is an Ayurvedic condition. Its Sanskrit name is pādaharṣaḥ (पादहर्षः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Peripheral neuritis follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.47",
+      "type": "diagnostic",
+      "condition": "Muscle wasting around",
+      "ita_code": "ITA-5.2.1.47",
+      "turns": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health advisor following WHO ITA standards."
+        },
+        {
+          "role": "user",
+          "content": "What is Muscle wasting around according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "Muscle wasting around (WHO ITA: ITA-5.2.1.47) is an Ayurvedic condition. Its Sanskrit name is aṃsaśoṣaḥ (अंसशोषः).\n\nThis condition is classified under Chapter 5: Disorders (Roga Vijnana).\n\nWould you like to know about its treatment or symptoms?"
+        },
+        {
+          "role": "user",
+          "content": "Yes, what are the main treatments?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for Muscle wasting around follows Ayurvedic principles considering the dosha involvement.\n\n**General Approach:**\n1. Nidana Parivarjana (avoiding causative factors)\n2. Shodhana (purification therapy) if indicated\n3. Shamana (palliative treatment)\n4. Pathya (dietary regimen)\n\nFor specific treatment protocols, please consult a qualified Ayurvedic practitioner who can assess your individual constitution (Prakriti) and current imbalance (Vikriti)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-01-07T13:54:27.756467",
+  "period": "last_30_days",
+  "summary": {
+    "total_lookups": 350732,
+    "unique_terms_accessed": 3523,
+    "total_terms": 3547,
+    "avg_lookups_per_term": 98.88
+  },
+  "top_20_terms": [
+    {
+      "term_id": "ITA-5.35.3",
+      "lookups": 299
+    },
+    {
+      "term_id": "ITA-5.41.21",
+      "lookups": 299
+    },
+    {
+      "term_id": "ITA-5.63.30",
+      "lookups": 299
+    },
+    {
+      "term_id": "ITA-5.71.4",
+      "lookups": 299
+    },
+    {
+      "term_id": "ITA-5.76.234",
+      "lookups": 299
+    },
+    {
+      "term_id": "ITA-5.18.5",
+      "lookups": 298
+    },
+    {
+      "term_id": "ITA-5.39.15",
+      "lookups": 298
+    },
+    {
+      "term_id": "ITA-5.66.15",
+      "lookups": 298
+    },
+    {
+      "term_id": "ITA-5.59.3",
+      "lookups": 297
+    },
+    {
+      "term_id": "ITA-5.66.26",
+      "lookups": 297
+    },
+    {
+      "term_id": "ITA-5.74.6",
+      "lookups": 297
+    },
+    {
+      "term_id": "ITA-5.76.19",
+      "lookups": 297
+    },
+    {
+      "term_id": "ITA-5.76.122",
+      "lookups": 297
+    },
+    {
+      "term_id": "ITA-5.25.4",
+      "lookups": 296
+    },
+    {
+      "term_id": "ITA-5.28.9",
+      "lookups": 296
+    },
+    {
+      "term_id": "ITA-5.57.6",
+      "lookups": 296
+    },
+    {
+      "term_id": "ITA-5.63.42",
+      "lookups": 296
+    },
+    {
+      "term_id": "ITA-5.76.5",
+      "lookups": 296
+    },
+    {
+      "term_id": "ITA-5.14.2",
+      "lookups": 295
+    },
+    {
+      "term_id": "ITA-5.76.140",
+      "lookups": 295
+    }
+  ],
+  "rarely_used": [
+    {
+      "term_id": "ITA-1.9.4.2.13",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-1.9.4.4.6",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-1.9.6.1",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-2.2.8",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-2.3.4",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-2.5.19",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-2.8.10",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-3.6.1",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-3.13.71",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-4.4.13",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-6.2.6.61",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-6.2.7.5",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-7.1.12",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-8.1.2",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-8.1.9",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-9.2.1",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-9.2.67",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-9.6.139",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-9.7.7",
+      "lookups": 0
+    },
+    {
+      "term_id": "ITA-9.9.54",
+      "lookups": 0
+    }
+  ],
+  "chapter_distribution": {
+    "1": {
+      "lookups": 16011,
+      "terms": 323,
+      "name": "Background Terminology"
+    },
+    "2": {
+      "lookups": 10080,
+      "terms": 207,
+      "name": "Core Concepts (Maulika Siddhanta)"
+    },
+    "3": {
+      "lookups": 23046,
+      "terms": 438,
+      "name": "Anatomy (Rachana Sharira)"
+    },
+    "4": {
+      "lookups": 7783,
+      "terms": 160,
+      "name": "Morbidity Terms (Vikriti Vijnana)"
+    },
+    "5": {
+      "lookups": 194288,
+      "terms": 1297,
+      "name": "Disorders (Roga Vijnana)"
+    },
+    "6": {
+      "lookups": 12729,
+      "terms": 127,
+      "name": "Materia Medica (Dravya)"
+    },
+    "7": {
+      "lookups": 14294,
+      "terms": 195,
+      "name": "Pharmaceutical Preparations"
+    },
+    "8": {
+      "lookups": 5077,
+      "terms": 113,
+      "name": "Diet and Lifestyle"
+    },
+    "9": {
+      "lookups": 66397,
+      "terms": 661,
+      "name": "Treatment Modalities (Chikitsa)"
+    },
+    "10": {
+      "lookups": 1175,
+      "terms": 26,
+      "name": "Panchakarma and Rasayana"
+    }
+  }
+}

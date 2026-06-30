@@ -1,0 +1,6235 @@
+[
+  {
+    "id": "pathway_ITA-4.8.42",
+    "disease_id": "ITA-4.8.42",
+    "disease_name": "Disease",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.1",
+    "disease_id": "ITA-5.2.1.1",
+    "disease_name": "Accumulation of vata",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.2",
+    "disease_id": "ITA-5.2.1.2",
+    "disease_name": "Aggravation of vata",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.3",
+    "disease_id": "ITA-5.2.1.3",
+    "disease_name": "Aggravation",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.4",
+    "disease_id": "ITA-5.2.1.4",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.5",
+    "disease_id": "ITA-5.2.1.5",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.6",
+    "disease_id": "ITA-5.2.1.6",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.7",
+    "disease_id": "ITA-5.2.1.7",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.8",
+    "disease_id": "ITA-5.2.1.8",
+    "disease_name": "Spreading of vata",
+    "doshas": [
+      "vata",
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.4.12",
+      "ITA-9.5.77"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-5.76.10",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.5.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.9",
+    "disease_id": "ITA-5.2.1.9",
+    "disease_name": "Diminution of vata",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.10",
+    "disease_id": "ITA-5.2.1.10",
+    "disease_name": "Aggravation of vata in",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.11",
+    "disease_id": "ITA-5.2.1.11",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.12",
+    "disease_id": "ITA-5.2.1.12",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.13",
+    "disease_id": "ITA-5.2.1.13",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.14",
+    "disease_id": "ITA-5.2.1.14",
+    "disease_name": "Aggravation of vata in",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.15",
+    "disease_id": "ITA-5.2.1.15",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.16",
+    "disease_id": "ITA-5.2.1.16",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.17",
+    "disease_id": "ITA-5.2.1.17",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.18",
+    "disease_id": "ITA-5.2.1.18",
+    "disease_name": "Aggravation of vata in",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.19",
+    "disease_id": "ITA-5.2.1.19",
+    "disease_name": "Aggravation of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.20",
+    "disease_id": "ITA-5.2.1.20",
+    "disease_name": "Aggravation of vata in",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.21",
+    "disease_id": "ITA-5.2.1.21",
+    "disease_name": "Aggravation of vata in",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.22",
+    "disease_id": "ITA-5.2.1.22",
+    "disease_name": "Aggravation of vata",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.23",
+    "disease_id": "ITA-5.2.1.23",
+    "disease_name": "Aggravation of vata in",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.24",
+    "disease_id": "ITA-5.2.1.24",
+    "disease_name": "Aggravation of vata in",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.32",
+    "disease_id": "ITA-5.2.1.32",
+    "disease_name": "Paraparesis",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.44",
+    "disease_id": "ITA-5.2.1.44",
+    "disease_name": "Pain specific to heels",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.1.58",
+    "disease_id": "ITA-5.2.1.58",
+    "disease_name": "Upward movement",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.2.1",
+    "disease_id": "ITA-5.2.2.1",
+    "disease_name": "Derangement of pitta",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.2.2",
+    "disease_id": "ITA-5.2.2.2",
+    "disease_name": "Morbid state of pitta",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.2.3",
+    "disease_id": "ITA-5.2.2.3",
+    "disease_name": "Accumulation of pitta",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.2.4",
+    "disease_id": "ITA-5.2.2.4",
+    "disease_name": "Aggravation of pitta",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.2.5",
+    "disease_id": "ITA-5.2.2.5",
+    "disease_name": "Spreading of pitta",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.2.6",
+    "disease_id": "ITA-5.2.2.6",
+    "disease_name": "Diminution of pitta",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.3.1",
+    "disease_id": "ITA-5.2.3.1",
+    "disease_name": "Morbid state of kapha",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.3.2",
+    "disease_id": "ITA-5.2.3.2",
+    "disease_name": "Accumulation of kapha",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.3.3",
+    "disease_id": "ITA-5.2.3.3",
+    "disease_name": "Aggravation of kapha",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.3.4",
+    "disease_id": "ITA-5.2.3.4",
+    "disease_name": "Spreading of kapha",
+    "doshas": [
+      "pitta",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.2.60",
+      "ITA-9.2.80"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.15",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.2.3.5",
+    "disease_id": "ITA-5.2.3.5",
+    "disease_name": "Diminution of kapha",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.3.8",
+    "disease_id": "ITA-5.3.8",
+    "disease_name": "Blood vitiated by vata",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.3.9",
+    "disease_id": "ITA-5.3.9",
+    "disease_name": "Blood vitiated by pitta",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.3.10",
+    "disease_id": "ITA-5.3.10",
+    "disease_name": "Blood vitiated",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.5.2",
+    "disease_id": "ITA-5.5.2",
+    "disease_name": "Vitiation of channels",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.3",
+    "disease_id": "ITA-5.6.3",
+    "disease_name": "Fever due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.3",
+    "disease_id": "ITA-5.6.3",
+    "disease_name": "Fever due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.3",
+    "disease_id": "ITA-5.6.3",
+    "disease_name": "Fever due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.4",
+    "disease_id": "ITA-5.6.4",
+    "disease_name": "Prodromal symptoms",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.5",
+    "disease_id": "ITA-5.6.5",
+    "disease_name": "Fever due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.6",
+    "disease_id": "ITA-5.6.6",
+    "disease_name": "Prodromal symptoms",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.7",
+    "disease_id": "ITA-5.6.7",
+    "disease_name": "Fever due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.8",
+    "disease_id": "ITA-5.6.8",
+    "disease_name": "Prodromal symptoms",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.9",
+    "disease_id": "ITA-5.6.9",
+    "disease_name": "Fever due to vitiated",
+    "doshas": [
+      "vata",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.4.12",
+      "ITA-9.5.74",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.10",
+    "disease_id": "ITA-5.6.10",
+    "disease_name": "Fever due to vitiated",
+    "doshas": [
+      "vata",
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.4.12",
+      "ITA-9.5.77"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-5.76.10",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.5.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.11",
+    "disease_id": "ITA-5.6.11",
+    "disease_name": "Fever due to vitiated",
+    "doshas": [
+      "pitta",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.2.60",
+      "ITA-9.2.80"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.15",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.19",
+    "disease_id": "ITA-5.6.19",
+    "disease_name": "Intermittent fever",
+    "doshas": [
+      "pitta",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.2.60",
+      "ITA-9.2.80"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.15",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.20",
+    "disease_id": "ITA-5.6.20",
+    "disease_name": "Intermittent fever",
+    "doshas": [
+      "vata",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.4.12",
+      "ITA-9.5.74",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.21",
+    "disease_id": "ITA-5.6.21",
+    "disease_name": "Intermittent fever",
+    "doshas": [
+      "vata",
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.4.12",
+      "ITA-9.5.77"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-5.76.10",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.5.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.23",
+    "disease_id": "ITA-5.6.23",
+    "disease_name": "Intermittent fever",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.24",
+    "disease_id": "ITA-5.6.24",
+    "disease_name": "Intermittent fever",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.25",
+    "disease_id": "ITA-5.6.25",
+    "disease_name": "Intermittent fiver",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.6.27",
+    "disease_id": "ITA-5.6.27",
+    "disease_name": "Persistent low-grade",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.7.3",
+    "disease_id": "ITA-5.7.3",
+    "disease_name": "Diarrhoea due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.7.4",
+    "disease_id": "ITA-5.7.4",
+    "disease_name": "Diarrhoea due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.7.5",
+    "disease_id": "ITA-5.7.5",
+    "disease_name": "Diarrhoea due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.9.2",
+    "disease_id": "ITA-5.9.2",
+    "disease_name": "Chronic diarrhoea",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.9.3",
+    "disease_id": "ITA-5.9.3",
+    "disease_name": "Chronic diarrhoea",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.9.4",
+    "disease_id": "ITA-5.9.4",
+    "disease_name": "Chronic diarrhoea",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.10.2",
+    "disease_id": "ITA-5.10.2",
+    "disease_name": "Haemorrhoids due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.10.3",
+    "disease_id": "ITA-5.10.3",
+    "disease_name": "Haemorrhoids due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.10.4",
+    "disease_id": "ITA-5.10.4",
+    "disease_name": "Haemorrhoids due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.11.10",
+    "disease_id": "ITA-5.11.10",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.12.2",
+    "disease_id": "ITA-5.12.2",
+    "disease_name": "Complications of",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.13.5",
+    "disease_id": "ITA-5.13.5",
+    "disease_name": "Worm or parasite",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.14.2",
+    "disease_id": "ITA-5.14.2",
+    "disease_name": "Anaemic syndrome",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.14.3",
+    "disease_id": "ITA-5.14.3",
+    "disease_name": "Anaemic syndrome",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.14.4",
+    "disease_id": "ITA-5.14.4",
+    "disease_name": "Anaemic syndrome",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.16.1",
+    "disease_id": "ITA-5.16.1",
+    "disease_name": "Haemorrhage from",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.16.2",
+    "disease_id": "ITA-5.16.2",
+    "disease_name": "Haemorrhage due to",
+    "doshas": [
+      "vata",
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.4.12",
+      "ITA-9.5.77"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-5.76.10",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.5.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.16.3",
+    "disease_id": "ITA-5.16.3",
+    "disease_name": "Haemorrhage due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.16.4",
+    "disease_id": "ITA-5.16.4",
+    "disease_name": "Haemorrhage due to",
+    "doshas": [
+      "pitta",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.2.60",
+      "ITA-9.2.80"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.15",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.16.5",
+    "disease_id": "ITA-5.16.5",
+    "disease_name": "Haemorrhage due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.18.2",
+    "disease_id": "ITA-5.18.2",
+    "disease_name": "Cough due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.18.3",
+    "disease_id": "ITA-5.18.3",
+    "disease_name": "Cough due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.18.4",
+    "disease_id": "ITA-5.18.4",
+    "disease_name": "Cough due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.21.2",
+    "disease_id": "ITA-5.21.2",
+    "disease_name": "Hoarse voice, altered",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.21.3",
+    "disease_id": "ITA-5.21.3",
+    "disease_name": "Hoarse voice, altered",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.21.4",
+    "disease_id": "ITA-5.21.4",
+    "disease_name": "Hoarse voice, altered",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.22.2",
+    "disease_id": "ITA-5.22.2",
+    "disease_name": "Anorexia due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.22.3",
+    "disease_id": "ITA-5.22.3",
+    "disease_name": "Anorexia due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.22.4",
+    "disease_id": "ITA-5.22.4",
+    "disease_name": "Anorexia due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.23.2",
+    "disease_id": "ITA-5.23.2",
+    "disease_name": "Vomiting due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.23.3",
+    "disease_id": "ITA-5.23.3",
+    "disease_name": "Vomiting due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.23.4",
+    "disease_id": "ITA-5.23.4",
+    "disease_name": "Vomiting due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.24.3",
+    "disease_id": "ITA-5.24.3",
+    "disease_name": "Morbid thirst due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.24.4",
+    "disease_id": "ITA-5.24.4",
+    "disease_name": "Morbid thirst due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.24.5",
+    "disease_id": "ITA-5.24.5",
+    "disease_name": "Morbid thirst due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.25.3",
+    "disease_id": "ITA-5.25.3",
+    "disease_name": "Syncope due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.25.4",
+    "disease_id": "ITA-5.25.4",
+    "disease_name": "Syncope due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.25.5",
+    "disease_id": "ITA-5.25.5",
+    "disease_name": "Syncope due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.27.3",
+    "disease_id": "ITA-5.27.3",
+    "disease_name": "Generalized burning",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.28.2",
+    "disease_id": "ITA-5.28.2",
+    "disease_name": "Psychosis due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.28.3",
+    "disease_id": "ITA-5.28.3",
+    "disease_name": "Psychosis due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.28.4",
+    "disease_id": "ITA-5.28.4",
+    "disease_name": "Psychosis due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.29.2",
+    "disease_id": "ITA-5.29.2",
+    "disease_name": "Epilepsy due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.29.3",
+    "disease_id": "ITA-5.29.3",
+    "disease_name": "Epilepsy due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.29.4",
+    "disease_id": "ITA-5.29.4",
+    "disease_name": "Epilepsy due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.30.1",
+    "disease_id": "ITA-5.30.1",
+    "disease_name": "Polyarthritis due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.30.2",
+    "disease_id": "ITA-5.30.2",
+    "disease_name": "Superficial",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.30.3",
+    "disease_id": "ITA-5.30.3",
+    "disease_name": "Deep-rooted",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.32.1",
+    "disease_id": "ITA-5.32.1",
+    "disease_name": "Polyarthitis due",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.32.2",
+    "disease_id": "ITA-5.32.2",
+    "disease_name": "Vata-predominent",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.32.3",
+    "disease_id": "ITA-5.32.3",
+    "disease_name": "Pitta-predominent",
+    "doshas": [
+      "vata",
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.4.12",
+      "ITA-9.5.77"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-5.76.10",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.5.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.32.4",
+    "disease_id": "ITA-5.32.4",
+    "disease_name": "Kapha-predominant",
+    "doshas": [
+      "vata",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.4.12",
+      "ITA-9.5.74",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.32.5",
+    "disease_id": "ITA-5.32.5",
+    "disease_name": "Advanced stage of",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.33.1",
+    "disease_id": "ITA-5.33.1",
+    "disease_name": "Hyperacidity",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.33.2",
+    "disease_id": "ITA-5.33.2",
+    "disease_name": "Type of hyperacidity",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.33.3",
+    "disease_id": "ITA-5.33.3",
+    "disease_name": "Type of hyperacidity",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.33.4",
+    "disease_id": "ITA-5.33.4",
+    "disease_name": "Type of hyperacidity",
+    "doshas": [
+      "vata",
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.4.12",
+      "ITA-9.5.77"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-5.76.10",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.5.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.33.5",
+    "disease_id": "ITA-5.33.5",
+    "disease_name": "Type of hyperacidity",
+    "doshas": [
+      "pitta",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.2.60",
+      "ITA-9.2.80"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.15",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.34.2",
+    "disease_id": "ITA-5.34.2",
+    "disease_name": "Abdominal colic due",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.34.3",
+    "disease_id": "ITA-5.34.3",
+    "disease_name": "Abdominal colic due",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.34.4",
+    "disease_id": "ITA-5.34.4",
+    "disease_name": "Abdominal colic due",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.34.8",
+    "disease_id": "ITA-5.34.8",
+    "disease_name": "Abdominal colic due",
+    "doshas": [
+      "vata",
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.4.12",
+      "ITA-9.5.77"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-5.76.10",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.5.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.34.10",
+    "disease_id": "ITA-5.34.10",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.34.11",
+    "disease_id": "ITA-5.34.11",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.34.12",
+    "disease_id": "ITA-5.34.12",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.34.13",
+    "disease_id": "ITA-5.34.13",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.35.2",
+    "disease_id": "ITA-5.35.2",
+    "disease_name": "Disorders of reversed",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.37.2",
+    "disease_id": "ITA-5.37.2",
+    "disease_name": "Lumps or growths",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.37.3",
+    "disease_id": "ITA-5.37.3",
+    "disease_name": "Lumps or growths",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.37.4",
+    "disease_id": "ITA-5.37.4",
+    "disease_name": "Lumps or growths",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.38.2",
+    "disease_id": "ITA-5.38.2",
+    "disease_name": "Heart disease due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.38.3",
+    "disease_id": "ITA-5.38.3",
+    "disease_name": "Heart disease due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.38.4",
+    "disease_id": "ITA-5.38.4",
+    "disease_name": "Heart disease due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.39.2",
+    "disease_id": "ITA-5.39.2",
+    "disease_name": "Difficulty in urination",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.39.3",
+    "disease_id": "ITA-5.39.3",
+    "disease_name": "Difficulty in urination",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.39.4",
+    "disease_id": "ITA-5.39.4",
+    "disease_name": "Difficulty in urination",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.39.11",
+    "disease_id": "ITA-5.39.11",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.39.13",
+    "disease_id": "ITA-5.39.13",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.39.20",
+    "disease_id": "ITA-5.39.20",
+    "disease_name": "",
+    "doshas": [
+      "vata",
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.4.12",
+      "ITA-9.5.77"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-5.76.10",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.5.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.40.3",
+    "disease_id": "ITA-5.40.3",
+    "disease_name": "Urinary calculus due",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.40.4",
+    "disease_id": "ITA-5.40.4",
+    "disease_name": "Urinary calculus due",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.40.5",
+    "disease_id": "ITA-5.40.5",
+    "disease_name": "Urinary calculus due",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.41.2",
+    "disease_id": "ITA-5.41.2",
+    "disease_name": "Polyuria disorder due",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.41.9",
+    "disease_id": "ITA-5.41.9",
+    "disease_name": "Polyuria disorder with",
+    "doshas": [
+      "vata",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.4.12",
+      "ITA-9.5.74",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.41.17",
+    "disease_id": "ITA-5.41.17",
+    "disease_name": "Polyuria disorder due",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.41.24",
+    "disease_id": "ITA-5.41.24",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.41.25",
+    "disease_id": "ITA-5.41.25",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.43.2",
+    "disease_id": "ITA-5.43.2",
+    "disease_name": "Abdominal enlarge",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.43.3",
+    "disease_id": "ITA-5.43.3",
+    "disease_name": "Abdominal enlarge",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.43.4",
+    "disease_id": "ITA-5.43.4",
+    "disease_name": "Abdominal enlarge",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.44.2",
+    "disease_id": "ITA-5.44.2",
+    "disease_name": "Oedema due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.44.3",
+    "disease_id": "ITA-5.44.3",
+    "disease_name": "Oedema due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.44.4",
+    "disease_id": "ITA-5.44.4",
+    "disease_name": "Oedema due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.45.2",
+    "disease_id": "ITA-5.45.2",
+    "disease_name": "Hydrocoele due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.45.3",
+    "disease_id": "ITA-5.45.3",
+    "disease_name": "Hydrocoele due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.45.4",
+    "disease_id": "ITA-5.45.4",
+    "disease_name": "Hydrocoele due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.47.2",
+    "disease_id": "ITA-5.47.2",
+    "disease_name": "Goitre due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.47.3",
+    "disease_id": "ITA-5.47.3",
+    "disease_name": "Goitre due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.49.2",
+    "disease_id": "ITA-5.49.2",
+    "disease_name": "Nodular swelling, cyst",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.49.3",
+    "disease_id": "ITA-5.49.3",
+    "disease_name": "Nodular swelling, cyst",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.49.4",
+    "disease_id": "ITA-5.49.4",
+    "disease_name": "Nodular swelling, cyst",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.51.2",
+    "disease_id": "ITA-5.51.2",
+    "disease_name": "Filariasis due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.51.3",
+    "disease_id": "ITA-5.51.3",
+    "disease_name": "Filariasis due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.51.4",
+    "disease_id": "ITA-5.51.4",
+    "disease_name": "Filariasis due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.52.2",
+    "disease_id": "ITA-5.52.2",
+    "disease_name": "Abscess due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.52.3",
+    "disease_id": "ITA-5.52.3",
+    "disease_name": "Abscess due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.52.4",
+    "disease_id": "ITA-5.52.4",
+    "disease_name": "Abscess due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.53.2",
+    "disease_id": "ITA-5.53.2",
+    "disease_name": "Pre-ulcerative",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.53.3",
+    "disease_id": "ITA-5.53.3",
+    "disease_name": "Pre-ulcerative",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.53.4",
+    "disease_id": "ITA-5.53.4",
+    "disease_name": "Pre-ulcerative",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.54.3",
+    "disease_id": "ITA-5.54.3",
+    "disease_name": "Ulcer due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.54.4",
+    "disease_id": "ITA-5.54.4",
+    "disease_name": "Ulcer due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.56.2",
+    "disease_id": "ITA-5.56.2",
+    "disease_name": "Deep ulcer with",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.56.3",
+    "disease_id": "ITA-5.56.3",
+    "disease_name": "Deep ulcer with",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.56.4",
+    "disease_id": "ITA-5.56.4",
+    "disease_name": "Deep ulcer with",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.57.2",
+    "disease_id": "ITA-5.57.2",
+    "disease_name": "Sexually transmitted",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.57.3",
+    "disease_id": "ITA-5.57.3",
+    "disease_name": "Sexually transmitted",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.57.4",
+    "disease_id": "ITA-5.57.4",
+    "disease_name": "Sexually transmitted",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.59.22",
+    "disease_id": "ITA-5.59.22",
+    "disease_name": "",
+    "doshas": [
+      "vata",
+      "pitta",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.2.60",
+      "ITA-9.2.80"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.15",
+      "ITA-5.74.16",
+      "ITA-5.76.10",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.5.9",
+      "ITA-7.2.9.6"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.60.2",
+    "disease_id": "ITA-5.60.2",
+    "disease_name": "Erysipelas, spreading",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.60.3",
+    "disease_id": "ITA-5.60.3",
+    "disease_name": "Erysipelas, spreading",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.60.4",
+    "disease_id": "ITA-5.60.4",
+    "disease_name": "Erysipelas, spreading",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.61.2",
+    "disease_id": "ITA-5.61.2",
+    "disease_name": "Bullous eruptions due",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.61.3",
+    "disease_id": "ITA-5.61.3",
+    "disease_name": "Bullous eruptions due",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.61.4",
+    "disease_id": "ITA-5.61.4",
+    "disease_name": "Bullous eruptions due",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.61.10",
+    "disease_id": "ITA-5.61.10",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.61.11",
+    "disease_id": "ITA-5.61.11",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.61.12",
+    "disease_id": "ITA-5.61.12",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.3",
+    "disease_id": "ITA-5.63.3",
+    "disease_name": "Disorders of lip due",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.4",
+    "disease_id": "ITA-5.63.4",
+    "disease_name": "Disorders of lip due",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.5",
+    "disease_id": "ITA-5.63.5",
+    "disease_name": "Disorders of lip due",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.23",
+    "disease_id": "ITA-5.63.23",
+    "disease_name": "Alveolar sinus due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.24",
+    "disease_id": "ITA-5.63.24",
+    "disease_name": "Alveolar sinus due",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.25",
+    "disease_id": "ITA-5.63.25",
+    "disease_name": "Alveolar sinus due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.52",
+    "disease_id": "ITA-5.63.52",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.53",
+    "disease_id": "ITA-5.63.53",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.54",
+    "disease_id": "ITA-5.63.54",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.63.70",
+    "disease_id": "ITA-5.63.70",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.64.17",
+    "disease_id": "ITA-5.64.17",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.64.18",
+    "disease_id": "ITA-5.64.18",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.64.19",
+    "disease_id": "ITA-5.64.19",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.65.14",
+    "disease_id": "ITA-5.65.14",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.65.15",
+    "disease_id": "ITA-5.65.15",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.65.16",
+    "disease_id": "ITA-5.65.16",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.65.22",
+    "disease_id": "ITA-5.65.22",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.65.23",
+    "disease_id": "ITA-5.65.23",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.65.24",
+    "disease_id": "ITA-5.65.24",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.66.8",
+    "disease_id": "ITA-5.66.8",
+    "disease_name": "Glaucoma due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.66.9",
+    "disease_id": "ITA-5.66.9",
+    "disease_name": "Glaucoma due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.66.10",
+    "disease_id": "ITA-5.66.10",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.66.15",
+    "disease_id": "ITA-5.66.15",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.66.17",
+    "disease_id": "ITA-5.66.17",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.66.38",
+    "disease_id": "ITA-5.66.38",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.66.39",
+    "disease_id": "ITA-5.66.39",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.66.62",
+    "disease_id": "ITA-5.66.62",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.66.64",
+    "disease_id": "ITA-5.66.64",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.67.2",
+    "disease_id": "ITA-5.67.2",
+    "disease_name": "Headache due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.67.3",
+    "disease_id": "ITA-5.67.3",
+    "disease_name": "Headache due to",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.67.4",
+    "disease_id": "ITA-5.67.4",
+    "disease_name": "Headache due to",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.67.8",
+    "disease_id": "ITA-5.67.8",
+    "disease_name": "Trigeminal neuralgia",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.68.2",
+    "disease_id": "ITA-5.68.2",
+    "disease_name": "Dysfunctional uterine",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.68.3",
+    "disease_id": "ITA-5.68.3",
+    "disease_name": "Dysfunctional uterine",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.68.4",
+    "disease_id": "ITA-5.68.4",
+    "disease_name": "Dysfunctional uterine",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.69.2",
+    "disease_id": "ITA-5.69.2",
+    "disease_name": "Vaginal disease due",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.69.3",
+    "disease_id": "ITA-5.69.3",
+    "disease_name": "Vaginal disease due",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.69.4",
+    "disease_id": "ITA-5.69.4",
+    "disease_name": "Vaginal disease due",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.69.7",
+    "disease_id": "ITA-5.69.7",
+    "disease_name": "Round-shaped",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.69.8",
+    "disease_id": "ITA-5.69.8",
+    "disease_name": "Round-shaped",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.69.9",
+    "disease_id": "ITA-5.69.9",
+    "disease_name": "Round-shaped",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.70.10",
+    "disease_id": "ITA-5.70.10",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.70.11",
+    "disease_id": "ITA-5.70.11",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.70.12",
+    "disease_id": "ITA-5.70.12",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.71.14",
+    "disease_id": "ITA-5.71.14",
+    "disease_name": "",
+    "doshas": [
+      "vata",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.4.12",
+      "ITA-9.5.74",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.73.22",
+    "disease_id": "ITA-5.73.22",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.73.24",
+    "disease_id": "ITA-5.73.24",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.75.7",
+    "disease_id": "ITA-5.75.7",
+    "disease_name": "Disorder due to head",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.75.9",
+    "disease_id": "ITA-5.75.9",
+    "disease_name": "Disorder due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.9",
+    "disease_id": "ITA-5.76.9",
+    "disease_name": "Condition due to",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.32",
+    "disease_id": "ITA-5.76.32",
+    "disease_name": "Condition caused",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.44",
+    "disease_id": "ITA-5.76.44",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.50",
+    "disease_id": "ITA-5.76.50",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.59",
+    "disease_id": "ITA-5.76.59",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.68",
+    "disease_id": "ITA-5.76.68",
+    "disease_name": "",
+    "doshas": [
+      "pitta",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.2.60",
+      "ITA-9.2.80"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.15",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.75",
+    "disease_id": "ITA-5.76.75",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.80",
+    "disease_id": "ITA-5.76.80",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.102",
+    "disease_id": "ITA-5.76.102",
+    "disease_name": "",
+    "doshas": [
+      "pitta",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.2.60",
+      "ITA-9.2.80"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.15",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.171",
+    "disease_id": "ITA-5.76.171",
+    "disease_name": "",
+    "doshas": [
+      "vata",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.4.12",
+      "ITA-9.5.74",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.172",
+    "disease_id": "ITA-5.76.172",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.207",
+    "disease_id": "ITA-5.76.207",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.208",
+    "disease_id": "ITA-5.76.208",
+    "disease_name": "",
+    "doshas": [
+      "pitta"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.5.77",
+      "ITA-9.5.82"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.4",
+      "ITA-6.2.1.5"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.209",
+    "disease_id": "ITA-5.76.209",
+    "disease_name": "",
+    "doshas": [
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.60",
+      "ITA-9.2.80",
+      "ITA-9.5.74",
+      "ITA-9.5.82",
+      "ITA-9.6.155"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.15",
+      "ITA-7.2.1.20",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.235",
+    "disease_id": "ITA-5.76.235",
+    "disease_name": "",
+    "doshas": [
+      "vata"
+    ],
+    "recommended_treatments": [
+      "ITA-9.4.12",
+      "ITA-9.9.39",
+      "ITA-9.9.42",
+      "ITA-9.9.49"
+    ],
+    "recommended_medicines": [
+      "ITA-5.76.10",
+      "ITA-7.2.1.20",
+      "ITA-7.2.2.9",
+      "ITA-7.2.9.6",
+      "ITA-6.2.6.5",
+      "ITA-6.2.6.6",
+      "ITA-6.2.6.64"
+    ],
+    "pathway_type": "dosha_based"
+  },
+  {
+    "id": "pathway_ITA-5.76.236",
+    "disease_id": "ITA-5.76.236",
+    "disease_name": "",
+    "doshas": [
+      "pitta",
+      "kapha"
+    ],
+    "recommended_treatments": [
+      "ITA-9.2.37",
+      "ITA-9.2.38",
+      "ITA-9.2.59",
+      "ITA-9.2.60",
+      "ITA-9.2.80"
+    ],
+    "recommended_medicines": [
+      "ITA-5.74.8",
+      "ITA-5.74.15",
+      "ITA-5.74.16",
+      "ITA-7.1.8",
+      "ITA-7.1.4.41",
+      "ITA-7.2.1.20",
+      "ITA-7.2.5.9",
+      "ITA-6.2.1.2",
+      "ITA-6.2.1.3",
+      "ITA-6.2.1.4"
+    ],
+    "pathway_type": "dosha_based"
+  }
+]

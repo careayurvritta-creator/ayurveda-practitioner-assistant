@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-01-07T12:21:51.769899",
+  "phase": 8,
+  "statistics": {
+    "qa_pairs": 14988,
+    "conversations": 49,
+    "few_shot_examples": 110,
+    "context_chunks": 48,
+    "rag_documents": 3547,
+    "system_prompts": 3,
+    "validation_terms": 359,
+    "golden_tests": 100
+  },
+  "files": [
+    "qa_pairs",
+    "conversations",
+    "few_shot",
+    "chunks",
+    "rag_index",
+    "system_prompts",
+    "validation",
+    "golden_tests"
+  ]
+}

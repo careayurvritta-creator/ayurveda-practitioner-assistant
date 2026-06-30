@@ -41,6 +41,7 @@ import { AYURWIKI_HERBS, searchAyurwikiHerbs } from '../ayurwiki-herbs-knowledge
 import { GITACARAK_SAMHITA, searchGitaCharak } from '../gita-datasets-charak-knowledge'
 import { CHARAK_ONLINE_SHLOKAS, CHARAK_ONLINE_CHAPTERS, CHARAK_ONLINE_STHANAS, CHARAK_ONLINE_STATS, searchCharakOnline, getCharakOnlineChapter, getCharakOnlineSthana } from '../carak-samhita-knowledge'
 import { TATTVA_VIDHI_VIMARSHA, searchTattvaVimarsha, getChapterVimarsha, getAllTattvaVimarsha, getAllVidhiVimarsha } from '../carak-samhita-knowledge/tattva-vimarsha'
+import { WHO_ITA_TERMS, WHO_ITA_STATS, WHO_ITA_CHAPTERS, searchWhoItaTerms, lookupWhoItaTerm, getWhoItaChapter, getWhoItaChapterByName, getTreatsForDisease, getDiseasesTreatedBy, getSymptomsOfDisease, getDiseasesWithSymptom, getComponentsOf, getCompoundContaining, getGraphStats, lookupGraphNode, getNodeLabel } from '../who-ita-knowledge'
 
 export const AYURVEDA_KNOWLEDGE = {
   fundamentals: FUNDAMENTALS,
@@ -128,6 +129,24 @@ export const AYURVEDA_KNOWLEDGE = {
   charakOnlineChapters: CHARAK_ONLINE_CHAPTERS,
   charakOnlineSthanas: CHARAK_ONLINE_STHANAS,
   charakOnlineMetadata: CHARAK_ONLINE_STATS,
+  // WHO International Standard Terminologies on Ayurveda (3,547 terms)
+  whoItaTerms: WHO_ITA_TERMS,
+  whoItaChapters: WHO_ITA_CHAPTERS,
+  whoItaMetadata: { totalTerms: WHO_ITA_STATS.totalTerms, source: 'WHO ITA Standard', highConfidence: WHO_ITA_STATS.highConfidence, withDevanagari: WHO_ITA_STATS.withDevanagari, chapterCounts: WHO_ITA_STATS.chapterCounts },
+  whoItaSearch: searchWhoItaTerms,
+  whoItaLookup: lookupWhoItaTerm,
+  whoItaGetChapter: getWhoItaChapter,
+  whoItaGetChapterByName: getWhoItaChapterByName,
+  // Knowledge Graph functions
+  graphLookupNode: lookupGraphNode,
+  graphGetNodeLabel: getNodeLabel,
+  graphTreatsForDisease: getTreatsForDisease,
+  graphDiseasesTreatedBy: getDiseasesTreatedBy,
+  graphSymptomsOfDisease: getSymptomsOfDisease,
+  graphDiseasesWithSymptom: getDiseasesWithSymptom,
+  graphComponentsOf: getComponentsOf,
+  graphCompoundContaining: getCompoundContaining,
+  graphStats: getGraphStats(),
 }
 
 export function searchKnowledge(query: string): string {
@@ -518,6 +537,45 @@ export function searchKnowledge(query: string): string {
   if (vimarshaMatches && vimarshaMatches.length > 0) {
     for (const match of vimarshaMatches.slice(0, 5)) {
       results.push(`Tattva Vimarsha [${match.entry.sthana} Ch.${match.entry.chapterNumber}] - ${match.entry.chapterTitle}: ${match.matchedContent.substring(0, 300)}`)
+    }
+  }
+
+  // 29. Search WHO ITA Terms (3,547 standardized terms)
+  const whoItaMatches = searchWhoItaTerms(query)
+  if (whoItaMatches && whoItaMatches.length > 0) {
+    for (const term of whoItaMatches.slice(0, 5)) {
+      const devStr = term.devanagari ? ` (${term.devanagari})` : '';
+      const iastStr = term.iast ? ` [${term.iast}]` : '';
+      const descStr = term.description ? ` - ${term.description}` : '';
+      results.push(`WHO ITA [${term.term_id}] ${term.english}${devStr}${iastStr}${descStr} (${term.category.chapter_name}, confidence: ${term.confidence.level})`)
+    }
+  }
+
+  // 30. Search Knowledge Graph - TREATS relationships
+  const graphTreatsMatches = searchWhoItaTerms(query)
+  for (const term of graphTreatsMatches.slice(0, 3)) {
+    const diseasesTreated = getDiseasesTreatedBy(term.term_id)
+    if (diseasesTreated.length > 0) {
+      const diseaseNames = diseasesTreated.slice(0, 3).map(d => getNodeLabel(d.disease.id)).join(', ')
+      results.push(`Treatment [${term.term_id}] ${term.english} treats: ${diseaseNames}`)
+    }
+  }
+
+  // 31. Search Knowledge Graph - SYMPTOM_OF relationships
+  for (const term of graphTreatsMatches.slice(0, 3)) {
+    const diseasesWithSymptom = getDiseasesWithSymptom(term.term_id)
+    if (diseasesWithSymptom.length > 0) {
+      const diseaseNames = diseasesWithSymptom.slice(0, 3).map(d => getNodeLabel(d.disease.id)).join(', ')
+      results.push(`Symptom [${term.term_id}] ${term.english} indicates: ${diseaseNames}`)
+    }
+  }
+
+  // 32. Search Knowledge Graph - COMPOSED_OF relationships
+  for (const term of graphTreatsMatches.slice(0, 3)) {
+    const components = getComponentsOf(term.term_id)
+    if (components.length > 0) {
+      const componentNames = components.slice(0, 3).map(c => getNodeLabel(c.component.id)).join(', ')
+      results.push(`Compound [${term.term_id}] ${term.english} contains: ${componentNames}`)
     }
   }
 

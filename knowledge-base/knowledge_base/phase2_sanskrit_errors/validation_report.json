@@ -1,0 +1,582 @@
+{
+  "generated_at": "2026-01-07T11:05:48.557428",
+  "total_corrections": 5973,
+  "good_corrections": 4318,
+  "questionable": 1397,
+  "iast_source_errors": 4,
+  "accuracy_percentage": 72.29,
+  "questionable_samples": [
+    {
+      "row": 444,
+      "term_id": "",
+      "english": "",
+      "iast": "1.āyuḥ;",
+      "original_devanagari": "1.  आयः;",
+      "corrected_devanagari": "1.आयुः;",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 447,
+      "term_id": "",
+      "english": "",
+      "iast": "3.jīvitam;",
+      "original_devanagari": "3.  जीवितम;",
+      "corrected_devanagari": "3.जीवितम;",
+      "is_improved": false,
+      "length_change": -2,
+      "validation": "different"
+    },
+    {
+      "row": 450,
+      "term_id": "",
+      "english": "",
+      "iast": "5.anubandhaḥ.",
+      "original_devanagari": "5.  अनबन्ध.",
+      "corrected_devanagari": "5.अनुबन्धः",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 494,
+      "term_id": "ITA-1.4.10",
+      "english": "Fertility treatment",
+      "iast": "vajikaraṇacikitsa,",
+      "original_devanagari": "वाजीकरणचिकित्स,",
+      "corrected_devanagari": "वजिकरनअचिकित्स",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 502,
+      "term_id": "",
+      "english": "",
+      "iast": "lakṣaṇam",
+      "original_devanagari": "विज्ञाम, लक्षणम",
+      "corrected_devanagari": "लक्षणम",
+      "is_improved": false,
+      "length_change": -9,
+      "validation": "different"
+    },
+    {
+      "row": 771,
+      "term_id": "ITA-1.8.2.15   Negative correlation",
+      "english": "",
+      "iast": "kevalavyatireki-",
+      "original_devanagari": "कवलव्यतकि-अनमानम",
+      "corrected_devanagari": "केवलव्यतिरेकि-",
+      "is_improved": false,
+      "length_change": -2,
+      "validation": "different"
+    },
+    {
+      "row": 855,
+      "term_id": "ITA-1.9.1.1",
+      "english": "Generality, shared",
+      "iast": "sāmānyam",
+      "original_devanagari": "सामान्म",
+      "corrected_devanagari": "सामाञम",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 934,
+      "term_id": "",
+      "english": "causal body",
+      "iast": "sūkṣmaśarīram/",
+      "original_devanagari": "सक्षशरीरम / लिङ्",
+      "corrected_devanagari": "सूक्ष्मशरीरम/",
+      "is_improved": false,
+      "length_change": -3,
+      "validation": "different"
+    },
+    {
+      "row": 1082,
+      "term_id": "ITA-1.9.3.7.2  Sentient being",
+      "english": "",
+      "iast": "cetana-dravyam/",
+      "original_devanagari": "चतन-द्रवम/सन्दयः",
+      "corrected_devanagari": "चेतन-द्रव्यम/",
+      "is_improved": false,
+      "length_change": -3,
+      "validation": "different"
+    },
+    {
+      "row": 1270,
+      "term_id": "ITA-1.9.7.5",
+      "english": "Mutual nonexistence",
+      "iast": "anyonyābhāvaḥ",
+      "original_devanagari": "अन्यन्यभावः",
+      "corrected_devanagari": "अञोञाभावः",
+      "is_improved": false,
+      "length_change": -2,
+      "validation": "different"
+    },
+    {
+      "row": 1278,
+      "term_id": "",
+      "english": "Ayurveda texts",
+      "iast": "(Carakasaṃhita,",
+      "original_devanagari": "(चरकसहिता,",
+      "corrected_devanagari": "(चरकसंहित",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 1280,
+      "term_id": "",
+      "english": "",
+      "iast": "Aṣṭgasamgraha,",
+      "original_devanagari": "अष्टङ्सग्रह,",
+      "corrected_devanagari": "असतगसम्ग्रह",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 1283,
+      "term_id": "ITA-1.10.2",
+      "english": "Lesser triad of",
+      "iast": "Laghutrayī",
+      "original_devanagari": "लघतयी (माधवनिदान,",
+      "corrected_devanagari": "लघुत्रयी",
+      "is_improved": false,
+      "length_change": -9,
+      "validation": "different"
+    },
+    {
+      "row": 1284,
+      "term_id": "",
+      "english": "Ayurveda texts",
+      "iast": "(Mādhavanidana,",
+      "original_devanagari": "शार्धरसहिता,",
+      "corrected_devanagari": "(माधवनिदन",
+      "is_improved": false,
+      "length_change": -3,
+      "validation": "different"
+    },
+    {
+      "row": 1296,
+      "term_id": "ITA-1.11.1",
+      "english": "Ten items for clinical",
+      "iast": "daśavidhaparīkṣy-",
+      "original_devanagari": "दशविधपरीक्षभावः",
+      "corrected_devanagari": "दशविधपरीक्ष्य-",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 1301,
+      "term_id": "",
+      "english": "",
+      "iast": "upāyaḥ)",
+      "original_devanagari": "दशः, कालः, प्रवत्,",
+      "corrected_devanagari": "उपायः)",
+      "is_improved": false,
+      "length_change": -12,
+      "validation": "different"
+    },
+    {
+      "row": 1483,
+      "term_id": "ITA-2.2.5",
+      "english": "Blood",
+      "iast": "rakta-dhātuḥ,",
+      "original_devanagari": "रकधातः, रकम, शोणितम",
+      "corrected_devanagari": "रक्त-धातुः",
+      "is_improved": false,
+      "length_change": -9,
+      "validation": "different"
+    },
+    {
+      "row": 1489,
+      "term_id": "ITA-2.2.8",
+      "english": "Muscle",
+      "iast": "māṃsa-dhātuḥ,",
+      "original_devanagari": "मासधातः, मासम, पशी",
+      "corrected_devanagari": "मांस-धातुः",
+      "is_improved": false,
+      "length_change": -8,
+      "validation": "different"
+    },
+    {
+      "row": 1505,
+      "term_id": "",
+      "english": "",
+      "iast": "asthiparva",
+      "original_devanagari": "अस्थसन्यः, अस्थपर",
+      "corrected_devanagari": "अस्थिपर्व",
+      "is_improved": false,
+      "length_change": -8,
+      "validation": "different"
+    },
+    {
+      "row": 1621,
+      "term_id": "ITA-2.5.8",
+      "english": "Channel, pathway for",
+      "iast": "Udakavahasrotaḥ,",
+      "original_devanagari": "उदकवहस्रतः,अम्ुवस्रतः,",
+      "corrected_devanagari": "उदकवहस्रोतः",
+      "is_improved": false,
+      "length_change": -11,
+      "validation": "different"
+    },
+    {
+      "row": 1668,
+      "term_id": "ITA-2.6.6",
+      "english": "Metabolic factors",
+      "iast": "dhātvagniḥ [rasāgni,",
+      "original_devanagari": "धात्वग (रसाग्नि, रक्त्नि,",
+      "corrected_devanagari": "धात्वग्निः [रसाग्नि",
+      "is_improved": false,
+      "length_change": -6,
+      "validation": "different"
+    },
+    {
+      "row": 1670,
+      "term_id": "",
+      "english": "components",
+      "iast": "medo-agni, asthyagni,",
+      "original_devanagari": "अस्थ््नि, मज्जधात्व्नि,",
+      "corrected_devanagari": "मेदो-अग्नि, अस्थ्यग्नि",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 2092,
+      "term_id": "ITA-2.9.1.2",
+      "english": "Pregnant state,",
+      "iast": "garbhavastha/",
+      "original_devanagari": "गर्ास्थ / व्गरभ",
+      "corrected_devanagari": "गर्भवस्थ/",
+      "is_improved": false,
+      "length_change": -6,
+      "validation": "different"
+    },
+    {
+      "row": 2151,
+      "term_id": "ITA-2.9.1.14   Onset signs of",
+      "english": "",
+      "iast": "prajāyanī/",
+      "original_devanagari": "प्रजायनी / प्रजननकालः",
+      "corrected_devanagari": "प्रजायनी/",
+      "is_improved": false,
+      "length_change": -12,
+      "validation": "different"
+    },
+    {
+      "row": 2188,
+      "term_id": "ITA-3.1.2",
+      "english": "Body",
+      "iast": "śarīraḥ, dehaḥ, kāyaḥ,",
+      "original_devanagari": "शरीरः, दहः, कायः, तनः,",
+      "corrected_devanagari": "शरीरः, देहः, कायः",
+      "is_improved": false,
+      "length_change": -5,
+      "validation": "different"
+    },
+    {
+      "row": 2208,
+      "term_id": "ITA-3.1.11",
+      "english": "Orifice",
+      "iast": "chidram, dvāram,",
+      "original_devanagari": "छिद्रम, द्वम, विवरम,",
+      "corrected_devanagari": "छिद्रम, द्वारम",
+      "is_improved": false,
+      "length_change": -6,
+      "validation": "different"
+    },
+    {
+      "row": 2209,
+      "term_id": "",
+      "english": "",
+      "iast": "vivaram,",
+      "original_devanagari": "सशिरम, कहरम",
+      "corrected_devanagari": "विवरम",
+      "is_improved": false,
+      "length_change": -6,
+      "validation": "different"
+    },
+    {
+      "row": 2244,
+      "term_id": "ITA-3.2.1.2",
+      "english": "Eyeball",
+      "iast": "dṛṣṭi-golakaḥ, nayana-",
+      "original_devanagari": "दष्गोलकः, नयन-बद्दः,",
+      "corrected_devanagari": "दृष्टि-गोलकः, नयन-",
+      "is_improved": false,
+      "length_change": -2,
+      "validation": "different"
+    },
+    {
+      "row": 2248,
+      "term_id": "ITA-3.2.1.4",
+      "english": "Eyelid",
+      "iast": "Vartma, netrakośaḥ,",
+      "original_devanagari": "वर्, नत्ोशः, अक्षोशः,",
+      "corrected_devanagari": "वर्त्म, नेत्रकोशः",
+      "is_improved": false,
+      "length_change": -4,
+      "validation": "different"
+    },
+    {
+      "row": 2250,
+      "term_id": "",
+      "english": "",
+      "iast": "tra-chādana-",
+      "original_devanagari": "अक्पटम, नतपटम,",
+      "corrected_devanagari": "त्र-छादन-",
+      "is_improved": false,
+      "length_change": -5,
+      "validation": "different"
+    },
+    {
+      "row": 2251,
+      "term_id": "",
+      "english": "",
+      "iast": "m,akṣipuṭam,ne-",
+      "original_devanagari": "अक्षिव, अक्षिव्ोशः",
+      "corrected_devanagari": "म, अक्षिपुटम, ने-",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 2290,
+      "term_id": "ITA-3.2.1.23  Eyelashes",
+      "english": "",
+      "iast": "pakṣma, pratibālāḥ,",
+      "original_devanagari": "पक्ष, प्रतिबालः, अक्पक्ष",
+      "corrected_devanagari": "पक्ष्म, प्रतिबालाः",
+      "is_improved": false,
+      "length_change": -6,
+      "validation": "different"
+    },
+    {
+      "row": 2299,
+      "term_id": "ITA-3.2.1.29  Sclera",
+      "english": "",
+      "iast": "śuklamaṇḍalam,",
+      "original_devanagari": "शक्मण्लम, श्तमण्लम",
+      "corrected_devanagari": "शुक्लमण्डलम",
+      "is_improved": false,
+      "length_change": -7,
+      "validation": "different"
+    },
+    {
+      "row": 2311,
+      "term_id": "ITA-3.2.1.35  Cornea",
+      "english": "",
+      "iast": "tejojalāśrita-",
+      "original_devanagari": "तजोजलाश्तबाह्यपटलम",
+      "corrected_devanagari": "तेजोजलाश्रित-",
+      "is_improved": false,
+      "length_change": -5,
+      "validation": "different"
+    },
+    {
+      "row": 2321,
+      "term_id": "ITA-3.2.2.4",
+      "english": "Bridge of the nose",
+      "iast": "nāsāvaṃśaḥ,",
+      "original_devanagari": "नासावशः, नासास्थदण्ड",
+      "corrected_devanagari": "नासावंशः",
+      "is_improved": false,
+      "length_change": -12,
+      "validation": "different"
+    },
+    {
+      "row": 2335,
+      "term_id": "ITA-3.2.2.11   Nostril",
+      "english": "",
+      "iast": "nāsārandhram,",
+      "original_devanagari": "नासारनध्रम, नासाविवरम",
+      "corrected_devanagari": "नासारन्ध्रम",
+      "is_improved": false,
+      "length_change": -10,
+      "validation": "different"
+    },
+    {
+      "row": 2339,
+      "term_id": "ITA-3.2.3.1",
+      "english": "Ear",
+      "iast": "karṇaḥ,",
+      "original_devanagari": "करण, श्रम, श्रवणम",
+      "corrected_devanagari": "कर्णः",
+      "is_improved": false,
+      "length_change": -12,
+      "validation": "different"
+    },
+    {
+      "row": 2342,
+      "term_id": "ITA-3.2.3.3",
+      "english": "Conduits carrying",
+      "iast": "śabdānuvahā,",
+      "original_devanagari": "शब्दावहा, शब्दाभिवा,",
+      "corrected_devanagari": "शब्दानुवहा",
+      "is_improved": false,
+      "length_change": -10,
+      "validation": "different"
+    },
+    {
+      "row": 2343,
+      "term_id": "",
+      "english": "sound",
+      "iast": "śabdābhivahā,",
+      "original_devanagari": "शब्पथः, शब्दवस्रतस",
+      "corrected_devanagari": "शब्दाभिवहा",
+      "is_improved": false,
+      "length_change": -8,
+      "validation": "different"
+    },
+    {
+      "row": 2382,
+      "term_id": "ITA-3.2.4.14  Gum, alveolar arch",
+      "english": "",
+      "iast": "dantabandhanam,",
+      "original_devanagari": "दन्बन्धम, दविजबन्धम,",
+      "corrected_devanagari": "दन्तबन्धनम",
+      "is_improved": false,
+      "length_change": -10,
+      "validation": "different"
+    },
+    {
+      "row": 2383,
+      "term_id": "",
+      "english": "",
+      "iast": "dvijabandhanam,",
+      "original_devanagari": "दन्मासम, दन्मलम,",
+      "corrected_devanagari": "द्विजबन्धनम",
+      "is_improved": false,
+      "length_change": -5,
+      "validation": "different"
+    },
+    {
+      "row": 2384,
+      "term_id": "",
+      "english": "",
+      "iast": "dantamāṃsam,",
+      "original_devanagari": "दन्तपिण्डा, दन्तधारः,",
+      "corrected_devanagari": "दन्तमांसम",
+      "is_improved": false,
+      "length_change": -12,
+      "validation": "different"
+    },
+    {
+      "row": 2391,
+      "term_id": "ITA-3.2.4.17  Teeth in the",
+      "english": "",
+      "iast": "uttaradantaḥ,",
+      "original_devanagari": "उत्दन्त, ऊर्दन्पङ््ति",
+      "corrected_devanagari": "उत्तरदन्तः",
+      "is_improved": false,
+      "length_change": -11,
+      "validation": "different"
+    },
+    {
+      "row": 2416,
+      "term_id": "ITA-3.2.4.31  Uvula",
+      "english": "",
+      "iast": "kākalam, kākalakam,",
+      "original_devanagari": "काकलम, काकलकम,",
+      "corrected_devanagari": "काकलम, काकलकम",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 2426,
+      "term_id": "ITA-3.2.4.37  Trachea",
+      "english": "",
+      "iast": "kaṇṭhanāḍī,",
+      "original_devanagari": "कण्ठाडी, हृदयनाडिका,",
+      "corrected_devanagari": "कण्ठनाडी",
+      "is_improved": false,
+      "length_change": -12,
+      "validation": "different"
+    },
+    {
+      "row": 2427,
+      "term_id": "",
+      "english": "",
+      "iast": "hṛdayanāḍikā,",
+      "original_devanagari": "गलनलकम, शसना,",
+      "corrected_devanagari": "हृदयनाडिका",
+      "is_improved": false,
+      "length_change": -3,
+      "validation": "different"
+    },
+    {
+      "row": 2439,
+      "term_id": "ITA-3.3.4",
+      "english": "Carotid area",
+      "iast": "manyā",
+      "original_devanagari": "मन्य",
+      "corrected_devanagari": "मञा",
+      "is_improved": false,
+      "length_change": -1,
+      "validation": "different"
+    },
+    {
+      "row": 2447,
+      "term_id": "ITA-3.3.10",
+      "english": "Deltoid prominence",
+      "iast": "aṃsapiṇḍaḥ,",
+      "original_devanagari": "असपिण्ड, असपिण्डिा",
+      "corrected_devanagari": "अंसपिण्डः",
+      "is_improved": false,
+      "length_change": -9,
+      "validation": "different"
+    },
+    {
+      "row": 2452,
+      "term_id": "",
+      "english": "apex of scapula",
+      "iast": "bāhuśīrṣaḥ",
+      "original_devanagari": "बाहुशिरः, बाहुशीरष",
+      "corrected_devanagari": "बाहुशीर्षः",
+      "is_improved": false,
+      "length_change": -8,
+      "validation": "different"
+    },
+    {
+      "row": 2490,
+      "term_id": "",
+      "english": "",
+      "iast": "taram, raktapathaḥ",
+      "original_devanagari": "विशिखान्तम, रकपथः",
+      "corrected_devanagari": "तरम, रक्तपथः",
+      "is_improved": false,
+      "length_change": -5,
+      "validation": "different"
+    }
+  ],
+  "iast_errors": [
+    {
+      "term_id": "ITA-1.4.10",
+      "iast": "vajikaraṇacikitsa,",
+      "issue": "IAST missing long vowel (should be cikitsā)"
+    },
+    {
+      "term_id": "",
+      "iast": "cikitsa",
+      "issue": "IAST missing long vowel (should be cikitsā)"
+    },
+    {
+      "term_id": "snehana-apacāraḥ",
+      "iast": "śodhana cikitsa",
+      "issue": "IAST missing long vowel (should be cikitsā)"
+    },
+    {
+      "term_id": "utthāpanam",
+      "iast": "vajikaraṇacikitsa",
+      "issue": "IAST missing long vowel (should be cikitsā)"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-01-07T13:49:51.903887",
+  "period": "last_30_days",
+  "error_categories": {
+    "term_not_found": {
+      "count": 47,
+      "examples": [
+        "ITA-99.1.1",
+        "ITA-5.99.1"
+      ],
+      "action": "Add missing terms or fix typos"
+    },
+    "incorrect_sanskrit": {
+      "count": 12,
+      "examples": [
+        "ITA-2.3.5: vata -> vaata"
+      ],
+      "action": "Review IAST transliteration"
+    },
+    "mismatched_translation": {
+      "count": 8,
+      "examples": [
+        "ITA-5.1.3: English mismatch"
+      ],
+      "action": "Verify English translations"
+    },
+    "invalid_ita_format": {
+      "count": 23,
+      "examples": [
+        "ITA1.1.1",
+        "ITA-1-1-1"
+      ],
+      "action": "Educate users on correct format"
+    }
+  },
+  "total_errors": 90,
+  "error_rate": 0.012,
+  "priority_fixes": [
+    {
+      "term_id": "ITA-5.1.3",
+      "issue": "Translation mismatch",
+      "priority": "high"
+    },
+    {
+      "term_id": "ITA-2.3.5",
+      "issue": "IAST correction needed",
+      "priority": "medium"
+    }
+  ]
+}

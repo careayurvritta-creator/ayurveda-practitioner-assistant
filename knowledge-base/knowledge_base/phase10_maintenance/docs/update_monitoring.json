@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {
+      "name": "WHO Traditional Medicine",
+      "url": "https://www.who.int/traditional-complementary-integrative-medicine",
+      "check_frequency": "weekly"
+    },
+    {
+      "name": "AYUSH Ministry",
+      "url": "https://www.ayush.gov.in",
+      "check_frequency": "monthly"
+    }
+  ],
+  "notification": {
+    "channels": [
+      "email",
+      "slack"
+    ],
+    "recipients": [
+      "kb-admin@ayurvritta.com"
+    ]
+  },
+  "update_process": {
+    "steps": [
+      "Download updated ITA document",
+      "Run comparison with current KB",
+      "Identify new/modified/deprecated terms",
+      "Queue for expert review",
+      "Apply approved changes",
+      "Increment version",
+      "Regenerate embeddings",
+      "Deploy update"
+    ]
+  }
+}

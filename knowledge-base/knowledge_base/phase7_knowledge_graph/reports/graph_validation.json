@@ -1,0 +1,29 @@
+{
+  "valid": false,
+  "checks": {
+    "edge_integrity": {
+      "passed": true,
+      "orphaned_edges": 0
+    },
+    "node_uniqueness": {
+      "passed": false,
+      "duplicates": 2
+    },
+    "connectivity": {
+      "components": 158,
+      "largest_component": 240,
+      "isolated_nodes": 29
+    },
+    "type_distribution": {
+      "CONCEPT": 290,
+      "TREATMENT": 686,
+      "DISEASE": 1385,
+      "ANATOMY": 466,
+      "PHYSIOLOGY": 183,
+      "MEDICINE": 331,
+      "SYMPTOM": 101,
+      "DIET": 105
+    }
+  },
+  "issues": []
+}

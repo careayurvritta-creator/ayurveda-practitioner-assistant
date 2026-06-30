@@ -1,0 +1,20 @@
+{
+  "source_file": "Reference Documents\\WHO international standard terminologies on ayurveda.csv",
+  "file_size_bytes": 1497309,
+  "md5": "cd3e51efcf5016d932e568603e4a7fd5",
+  "sha256": "5c17a3567443a30aea8d6447c71abfd6417d1c0045ded78aeadc4bc28e5c3a8e",
+  "snapshot_timestamp": "2026-01-07T10:47:13.976809",
+  "total_rows": 18110,
+  "phase1_reports": [
+    "raw_extraction_log.json",
+    "column_schema.json",
+    "header_detection.json",
+    "section_tree.json",
+    "all_ita_codes.json",
+    "data_type_profile.json",
+    "null_analysis.json",
+    "unicode_analysis.json",
+    "duplicate_detection.json",
+    "statistical_summary.json"
+  ]
+}

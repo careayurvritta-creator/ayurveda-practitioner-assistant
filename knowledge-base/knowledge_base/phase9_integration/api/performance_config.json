@@ -1,0 +1,29 @@
+{
+  "caching": {
+    "enabled": true,
+    "ttl_seconds": 3600,
+    "max_entries": 1000
+  },
+  "lazy_loading": {
+    "enabled": true,
+    "chunk_size": 500,
+    "preload_chapters": [
+      "1",
+      "5",
+      "9"
+    ]
+  },
+  "search": {
+    "debounce_ms": 300,
+    "min_query_length": 2,
+    "max_results": 50
+  },
+  "indexing": {
+    "build_on_load": true,
+    "index_fields": [
+      "english",
+      "iast",
+      "devanagari"
+    ]
+  }
+}

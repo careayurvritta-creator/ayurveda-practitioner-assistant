@@ -1,10 +1,97 @@
 import { serve } from 'https://deno.land/std@0.168.0/http/server.ts';
 import { userScopedClient, serviceRoleClient, authUid } from '../_shared/db.ts';
 import { streamLLM, resolveModel } from '../_shared/rag/llm.ts';
-import { buildPatientChatPrompt } from '../_shared/rag/prompts.ts';
+import { buildPatientChatPrompt, getCurrentRitu, getISTDateTime } from '../_shared/rag/prompts.ts';
 import { retrieve } from '../_shared/rag/engine.ts';
 import { corsPreflightResponse, jsonResponse, errorResponse } from '../_shared/cors.ts';
 import { collectStream } from '../_shared/stream.ts';
+
+function buildTemporalContext(): string {
+  const now = new Date();
+  const ist = new Date(now.getTime() + (5.5 * 60 * 60 * 1000));
+  const ritu = getCurrentRitu();
+  const dateTime = getISTDateTime();
+  const month = ist.getMonth() + 1;
+  const hours = ist.getHours();
+
+  const agniNote = ritu.english === 'Monsoon'
+    ? 'Mandagni (weak digestion) is common during Varsha Ritu. Light, easily digestible foods recommended.'
+    : ritu.english === 'Autumn'
+    ? 'Tikshnagni (sharp digestion) is typical in Sharad Ritu. Bitter-pungent tastes (Tikta-Katu Rasa) are beneficial.'
+    : ritu.english === 'Summer'
+    ? 'Jirnagni may be affected by heat. Pitta-aggravating foods should be minimized.'
+    : ritu.english === 'Spring'
+    ? 'Kapha accumulation from winter is resolving. Kapha-pacifying regimen is ideal.'
+    : ritu.english === 'Early Winter'
+    ? 'Agni is naturally strong in Hemanta Ritu. Heavier, nourishing foods (Madhura, Amla, Lavana Rasa) are well tolerated.'
+    : 'Agni may be moderate in Shishira Ritu. Warm, cooked foods are preferred.';
+
+  const kalaNote = hours >= 6 && hours < 10
+    ? 'Morning (प्रातःकाल) — Kapha time. Ideal for वमन (Vamana) procedures if indicated.'
+    : hours >= 10 && hours < 14
+    ? 'Midday (मध्याह्न) — Pitta time. Largest meal of the day recommended (मध्याह्न भोजन).'
+    : hours >= 14 && hours < 18
+    ? 'Afternoon (सायम्) — Kapha-Vata transition. Light activity preferred.'
+    : hours >= 18 && hours < 22
+    ? 'Evening (सायंकाल) — Vata time. Light dinner, early rest recommended.'
+    : 'Night (रात्रि) — Vata time. बस्ति (Basti) procedures are most effective during Vata hours.';
+
+  return `Date & Time: ${dateTime}
+Current ऋतु (Ritu): ${ritu.devanagari} (${ritu.english}) — ${ritu.months}
+Agni pattern: ${agniNote}
+Kala (time-of-day) note: ${kalaNote}`;
+}
+
+async function fetchPatientContext(userClient: any, patientId: string): Promise<string | null> {
+  try {
+    const { data: patient, error } = await userClient
+      .from('patients')
+      .select('*')
+      .eq('id', patientId)
+      .single();
+
+    if (error || !patient) return null;
+
+    const parts: string[] = [];
+    if (patient.name) parts.push(`Name: ${patient.name}`);
+    if (patient.age) parts.push(`Age: ${patient.age}`);
+    if (patient.gender) parts.push(`Gender: ${patient.gender}`);
+    if (patient.prakriti) parts.push(`प्रकृति (Prakriti): ${patient.prakriti}`);
+    if (patient.vikriti) parts.push(`विकृति (Vikriti): ${patient.vikriti}`);
+    if (patient.allergies?.length) parts.push(`Allergies: ${patient.allergies.join(', ')}`);
+    if (patient.current_medications?.length) parts.push(`Current Medications: ${patient.current_medications.join(', ')}`);
+    if (patient.chronic_conditions?.length) parts.push(`Chronic Conditions: ${patient.chronic_conditions.join(', ')}`);
+    if (patient.notes) parts.push(`Clinical Notes: ${patient.notes}`);
+
+    return parts.length > 0 ? parts.join('\n') : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Compress long conversation history by summarizing older messages.
+ * Keeps the last 5 messages intact, summarizes the rest into a brief context.
+ */
+function compressHistory(history: Array<{ role: string; content: string }>): Array<{ role: string; content: string }> {
+  if (history.length <= 6) return history;
+
+  const older = history.slice(0, -5);
+  const recent = history.slice(-5);
+
+  const topics = older
+    .filter(m => m.role === 'user')
+    .map(m => m.content.slice(0, 100))
+    .join('; ');
+
+  const summary = `[Earlier conversation summary: Doctor discussed ${topics || 'various clinical topics'}]`;
+
+  return [
+    { role: 'user', content: summary },
+    { role: 'assistant', content: 'Understood. Continuing from where we left off.' },
+    ...recent,
+  ];
+}
 
 serve(async (req: Request) => {
   if (req.method === 'OPTIONS') return corsPreflightResponse(req);
@@ -22,7 +109,7 @@ serve(async (req: Request) => {
     if (contentLength > 256 * 1024) return errorResponse(req, 'Request body too large', 413);
 
     const body = await req.json();
-    const { message, model, history = [], sessionId } = body;
+    const { message, model, history = [], sessionId, patientId } = body;
 
     if (!message || typeof message !== 'string' || message.trim().length === 0) {
       return errorResponse(req, 'message is required', 400);
@@ -44,6 +131,19 @@ serve(async (req: Request) => {
 
     const resolved = resolveModel(model);
 
+    // Build temporal context (IST date/time, Ritu, Kala)
+    const temporalContext = buildTemporalContext();
+
+    // Fetch patient details if patientId provided (server-side, with user-scoped RLS)
+    let patientContext: string | null = null;
+    if (patientId) {
+      const userClient = userScopedClient(jwt);
+      patientContext = await fetchPatientContext(userClient, patientId);
+    }
+
+    // Compress long histories
+    const compressedHistory = compressHistory(safeHistory);
+
     const retrieval = await retrieve(message, {
       surface: 'chat',
       doResearch: false,
@@ -51,9 +151,20 @@ serve(async (req: Request) => {
       tokenBudget: 8000,
     });
 
-    const context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}) ${c.content}`).join('\n\n');
+    let context = retrieval.chunks.map((c, i) => `[${i + 1}] (${c.source}) ${c.content}`).join('\n\n');
 
-    const prompt = buildPatientChatPrompt(context, safeHistory, message);
+    // Inject clinical pathway context if available
+    if (retrieval.clinicalPathwayContext) {
+      context = `${retrieval.clinicalPathwayContext}\n\nRETRIEVED KNOWLEDGE:\n${context}`;
+    }
+
+    const prompt = buildPatientChatPrompt(
+      context,
+      compressedHistory,
+      message,
+      patientContext ?? undefined,
+      temporalContext,
+    );
 
     const { text: fullText, errors: llmErrors } = await collectStream(
       streamLLM(model, prompt.system, [{ role: 'user', content: prompt.user }], 8000)
@@ -102,6 +213,12 @@ serve(async (req: Request) => {
         mode: resolved.provider,
         model: resolved.model,
         chunksUsed: retrieval.chunks.length,
+        temporalContext: temporalContext.slice(0, 200),
+        patientContextApplied: !!patientContext,
+        clinicalPathway: retrieval.query.clinicalPathway,
+        isFollowUp: retrieval.query.isFollowUp,
+        intent: retrieval.query.intent,
+        complexity: retrieval.query.complexity,
       },
     });
   } catch (e: any) {

@@ -1,0 +1,101 @@
+Term ID,English,IAST,Devanagari,Confidence,Reason
+ITA-1.2.1,"Life process, cycle or",,,low,
+ITA-1.3.1,Three core principles,"trisūtrāyurvedaḥ,",त्रिसूत्रायुर्वेदः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.4.1,Eight clinical speciali-,aṣṭāṅgāyurvedaḥ,अष्टांगायुर्वेदः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.4.5,Psychiatry,"grahacikitsā, bhūtavidyā.","ग्रहचिकित्सा, भूतविद्या",low,IAST-corrected; IAST+Devanagari present
+ITA-1.4.8,Toxicology,"viṣacikitsā, garacikitsā","विषचिकित्सा, गरचिकित्सा",low,IAST-corrected; IAST+Devanagari present
+ITA-1.4.10,Fertility treatment,"vajikaraṇacikitsa,",वजिकरनअचिकित्स,low,IAST-corrected; IAST+Devanagari present
+ITA-1.4.11,"Obstetrics,","prasūtītantra, strīroga","प्रसूतीतन्त्र, स्त्रीरोग",low,IAST-corrected; IAST+Devanagari present
+ITA-1.5.1,Knowledge system,"śāstram, sūtram,","शास्त्रम, सूत्रम",low,IAST-corrected; IAST+Devanagari present
+ITA-1.5.3,Branch of knowledge,śākhā,शाखा,low,IAST+Devanagari present
+ITA-1.5.7,Mandatory injunction,vidhiḥ,विधिः,low,IAST+Devanagari present
+ITA-1.5.9,Qualities of technical,śāstraguṇāḥ,शास्त्रगुणाः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.1,Devices for,tantrayuktiḥ,तन्त्रयुक्तिः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.2,Extending the scope,atideśaḥ,अतिदेशः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.3,Retrospective cross-,atītāvekṣaṇam,अतीतावेक्षणम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.4,Topic or subject of,adhikaraṇam,अधिकरणम,low,IAST+Devanagari present
+ITA-1.6.5,Prospective cross-,anāgatavekṣaṇam,अनागतवेक्षणम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.6,Acceptance by not,anumataḥ,अनुमतः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.7,Acceptance of multiple,anekāntaḥ,अनेकान्तः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.8,Supporting a proposed,apadeśaḥ,अपदेशः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.9,Statement of,apavargaḥ,अपवर्गः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.10,Implied or inferred,arthāpattiḥ,अर्थापत्तिः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.11,Concise statement,uddeśaḥ,उद्देशः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.12,Consolidating an,uddhāraḥ,उद्धारः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.13,Authoritative,upadeśaḥ,उपदेशः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.14,Extrapolation,ūhyam,ऊह्यम,low,IAST+Devanagari present
+ITA-1.6.15,Definite conclusion,ekāntaḥ,एकान्तः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.16,Illustrative statement,nidarśanam,निदर्शनम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.17,Execution of,niyogaḥ/ sanniyogaḥ,नियोगः/ सन्नियोगः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.18,Decision based on,nirṇayaḥ,निर्णयः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.19,"Detailed description,",nirdeśaḥ,निर्देशः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.20,Technical definition,nirvacanam,निर्वचनम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.21,Objecting or opposing,pūrvapakṣaḥ,पूर्वपक्षः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.22,Negating or refuting an,pratyutsāraḥ,प्रत्युत्सारः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.23,Partial description,pradeśaḥ,प्रदेशः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.24,"Aim, objective",Prayojanam,प्रयोजनम,low,IAST+Devanagari present
+ITA-1.6.25,Contextual repetition,prasaṅgaḥ,प्रसंगः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.27,Supply of ellipsis,vākyaśeṣaḥ,वाक्यशेषः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.28,Optional instructions,vikalpanam,विकल्पनम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.29,Sequential narration,vidhānam,विधानम,low,IAST+Devanagari present
+ITA-1.6.30,Implying the opposite,viparyayaḥ,विपर्ययः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.31,Lucid explanation,vyākhyānam,व्याख्यानम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.32,Inconclusive,saṃśayaḥ,संशयः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.33,Enlisting one by one,samuccayaḥ,समुच्चयः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.34,Statement indicating,sambhavaḥ,सम्भवः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.35,Technical terminology,svasañjñā,स्वसञ्ज्ञा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.36,Extended reasoning,hetvarthaḥ,हेत्वर्थः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.37,Source of meaning,arthāśrayaḥ,अर्थाश्रयः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.38,"Concept, hypothesis",kalpanā,कल्पना,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.39,Inclinations,tācchilyam,ताच्छिल्यम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.6.40,"Explanation,",vyākhyā,व्याख्या,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.2,Doctrine,vādaḥ,वादः,low,IAST+Devanagari present
+ITA-1.7.3,Rules for debate,vādamārgaḥ,वादमार्गः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.4,Unquestionable,ananuyojyam,अननुयोज्यम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.5,Question,anuyogaḥ,अनुयोगः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.6,Questionable,anuyojyam,अनुयोज्यम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.7,Unquestioning,abhyanujñā,अभ्यनुज्ञा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.8,Implied meaning,arthaprāptiḥ,अर्थप्राप्तिः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.9,Varying meaning or,arthāntaram,अर्थान्तरम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.10,Rejoinder,uttaram,उत्तरम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.11,Application of proof,upanayaḥ,उपनयः,low,IAST+Devanagari present
+ITA-1.7.12,Abusive argument,upālambhaḥ,उपालम्भः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.13,Perverted or deceitful,chalaḥ,छलः,low,IAST+Devanagari present
+ITA-1.7.14,Defensive argument,jalpaḥ,जल्पः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.15,Inquisitiveness,jijñāsā,जिज्ञासा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.16,Discussion amongst,tadvidyasambhāṣā,तद्विद्यसम्भाषा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.17,"Deduction, conclusion",nigamanam,निगमनम,low,IAST+Devanagari present
+ITA-1.7.18,Point of defeat,nigrahasthānam,निग्रहस्थानम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.19,Amendment of a,parihāraḥ,परिहारः,low,IAST+Devanagari present
+ITA-1.7.20,"Proposition, proposed",pratijñā,प्रतिज्ञा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.21,Abandoning the,pratijñāhāniḥ,प्रतिज्ञाहानिः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.22,Proving the alternate,pratiṣṭhāpanā,प्रतिष्ठापना,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.23,Counter-question,pratyanuyogaḥ,प्रत्यनुयोगः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.24,"Syntax error,",vākyadoṣaḥ,वाक्यदोषः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.25,Correct statement,vākyapraśaṃsā,वाक्यप्रशंसा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.26,"Hostile debate,",vitaṇḍā,वितण्डा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.27,Decision,vyavasāyaḥ,व्यवसायः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.28,Proving the proposed,sthāpanā,स्थापना,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.29,Proposing the wrong,hetvantaram,हेत्वन्तरम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.30,Discussion and debate,"tadvidyasaṃbhāṣā,",तद्विद्यसंभाषा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.31,Productive debate,sandhāyasaṃbhāṣā,सन्धायसंभाषा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.7.32,"Unproductive, hostile",vigṛhyasaṃbhāṣā,विगृह्यसंभाषा,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.1.1,"Direct perception,",pratyakṣam,प्रत्यक्षम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.1.2,Contact,sannikarṣaḥ,सन्निकर्षः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.1.3,Indeterminate,nirvikalpakam,निर्विकल्पकम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.1.4,Determinate,savikalpakam,सविकल्पकम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.2,Inferential knowledge,anumitiḥ,अनुमितिः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.3,Fallacious reason,ahetuḥ,अहेतुः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.4,Cause or variable,hetu,हेतु,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.5,"Cause or variable,",sadhetu,सधेतु,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.6,Independent variable,sādhana,साधन,low,IAST+Devanagari present
+ITA-1.8.2.7,Dependent variable,sādhya,साध्य,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.8,False positive or,hetvābhāsaḥ,हेत्वाभासः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.9,Invariable,avinābhāvasaṃbandhaḥ,अविनाभावसंबन्धः,low,IAST-corrected; IAST+Devanagari present
+"ITA-1.8.2.10   Non-deviation,",,avyabhicāritva,अव्यभिचारित्व,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.11   Inseparable,,ayutasiddhatvam,अयुतसिद्धत्वम,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.12   Chance effect,,yadṛcchāsiddhiḥ,यदृच्छासिद्धिः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.13   Real effect,,prātiniyamikīsiddhiḥ,प्रातिनियमिकीसिद्धिः,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.14   Conditional effect,,aupādhika,औपाधिक,low,IAST+Devanagari present
+ITA-1.8.2.15   Negative correlation,,kevalavyatireki-,केवलव्यतिरेकि-,low,IAST-corrected; IAST+Devanagari present
+ITA-1.8.2.16   Positive correlation,,kevalānvayi-anumānam,केवलान्वयि-अनुमानम,low,IAST-corrected; IAST+Devanagari present

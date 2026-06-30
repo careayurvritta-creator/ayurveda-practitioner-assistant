@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WHO ITA Term",
+  "type": "object",
+  "required": [
+    "term_id",
+    "english"
+  ],
+  "properties": {
+    "term_id": {
+      "type": "string",
+      "description": "WHO ITA standard term identifier",
+      "pattern": "^ITA-\\d+(?:\\.\\d+)*$"
+    },
+    "backup_id": {
+      "type": "string",
+      "description": "Numeric backup ID without ITA prefix"
+    },
+    "english": {
+      "type": "string",
+      "description": "English term name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Full description of the term"
+    },
+    "iast": {
+      "type": "string",
+      "description": "Sanskrit term in IAST transliteration"
+    },
+    "devanagari": {
+      "type": "string",
+      "description": "Sanskrit term in Devanagari script"
+    },
+    "category": {
+      "type": "object",
+      "properties": {
+        "chapter": {
+          "type": "string"
+        },
+        "chapter_name": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "subsection": {
+          "type": "string"
+        },
+        "full_path": {
+          "type": "string"
+        }
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Clinical domain tags"
+    },
+    "related_terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "term_id": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "score": {
+          "type": "number"
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "was_corrected": {
+          "type": "boolean"
+        },
+        "last_updated": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

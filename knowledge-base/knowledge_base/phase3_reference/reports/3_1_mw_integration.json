@@ -1,0 +1,41 @@
+{
+  "source": "Monier-Williams Sanskrit-English Dictionary",
+  "url": "https://www.sanskrit-lexicon.uni-koeln.de/",
+  "total_reference_terms": 72,
+  "matches_found": 4,
+  "verified_exact": 3,
+  "matches": [
+    {
+      "term_id": "ITA-1.4.2",
+      "iast": "cikitsā",
+      "devanagari": "चिकित्सा",
+      "mw_devanagari": "चिकित्सा",
+      "mw_meaning": "treatment, therapy",
+      "verified": true
+    },
+    {
+      "term_id": "ITA-2.2.25",
+      "iast": "ojas",
+      "devanagari": "ओजस",
+      "mw_devanagari": "ओजस्",
+      "mw_meaning": "vital essence, immunity",
+      "verified": false
+    },
+    {
+      "term_id": "ITA-3.13.1",
+      "iast": "asthi",
+      "devanagari": "अस्थि",
+      "mw_devanagari": "अस्थि",
+      "mw_meaning": "bone",
+      "verified": true
+    },
+    {
+      "term_id": "ITA-9.1.3",
+      "iast": "cikitsā",
+      "devanagari": "चिकित्सा",
+      "mw_devanagari": "चिकित्सा",
+      "mw_meaning": "treatment, therapy",
+      "verified": true
+    }
+  ]
+}

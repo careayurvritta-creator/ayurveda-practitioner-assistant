@@ -1,0 +1,1599 @@
+{
+  "sample_size": 177,
+  "sample_percentage": 4.99,
+  "items": [
+    {
+      "term_id": "ITA-7.1.4.31",
+      "english": "",
+      "iast": "kāṣṭhā",
+      "devanagari": "काष्ठा",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.6.28",
+      "english": "Ingestive power, food",
+      "iast": "abhyavaharaṇa-śaktiḥ",
+      "devanagari": "अभ्यवहरण-शक्तिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.8.1.1",
+      "english": "Direct perception",
+      "iast": "pratyakṣam",
+      "devanagari": "प्रत्यक्षम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.4.1",
+      "english": "Paediatrics",
+      "iast": "kumāratantram/",
+      "devanagari": "कुमारतन्त्रम/",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.8.41",
+      "english": "Primary disorder",
+      "iast": "svatantra",
+      "devanagari": "स्वतन्त्र",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.2.35",
+      "english": "Natural diseases of",
+      "iast": "kālajarogaḥ",
+      "devanagari": "कालजरोगः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.16.10",
+      "english": "",
+      "iast": "pṛṣṭhamarma",
+      "devanagari": "पृष्ठमर्म",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.2.1.13",
+      "english": "",
+      "iast": "kṛṣṇa-dṛṣṭi-sandhiḥ",
+      "devanagari": "कृष्ण-दृष्टि-सन्धिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.2.93",
+      "english": "Intranasal therapy",
+      "iast": "dhūmanasyam",
+      "devanagari": "धूमनस्यम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.5.11",
+      "english": "Channel carrying",
+      "iast": "Raktavahasrotaḥ",
+      "devanagari": "रक्तवहस्रोतः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-8.2.12",
+      "english": "Group of food",
+      "iast": "āhārayogivargaḥ",
+      "devanagari": "आहारयोगिवर्गः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.2.110",
+      "english": "Posttherapy dietary",
+      "iast": "saṁsarjana-kramaḥ",
+      "devanagari": "संसर्जन-क्रमः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.49",
+      "english": "",
+      "iast": "klamaḥ-vamanavyāpat",
+      "devanagari": "क्लमः-वमनव्यापत",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.1.3.5",
+      "english": "Nourishing kapha",
+      "iast": "tarpaka-kaphaḥ",
+      "devanagari": "तर्पक-कफः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.234",
+      "english": "",
+      "iast": "abudhnavraṇaḥ",
+      "devanagari": "अबुध्नव्रणः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.60.1",
+      "english": "Dermatological",
+      "iast": "visarpaḥ",
+      "devanagari": "विसर्पः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.8.2.25",
+      "english": "",
+      "iast": "vyāptiḥ",
+      "devanagari": "व्याप्तिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.8.2.17",
+      "english": "",
+      "iast": "tarkaḥ",
+      "devanagari": "तर्कः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.2.23",
+      "english": "Virility",
+      "iast": "vṛṣatā",
+      "devanagari": "वृषता",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.14.13",
+      "english": "",
+      "iast": "lalāṭasirā",
+      "devanagari": "ललाटसिरा",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.16.48",
+      "english": "",
+      "iast": "aṃsaphalakam (marma)",
+      "devanagari": "अंसफलकम (मर्म)",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.72.3",
+      "english": "Animal poison",
+      "iast": "jaṅgamaviṣaḥ",
+      "devanagari": "जंगमविषः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-6.2.6.10",
+      "english": "",
+      "iast": "vamana-karma,",
+      "devanagari": "वमन-कर्म",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.8.2.3",
+      "english": "Fallacious reason",
+      "iast": "ahetuḥ",
+      "devanagari": "अहेतुः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.114",
+      "english": "Condition caused by",
+      "iast": "alasaka; visūcika; āma",
+      "devanagari": "अलसक; विसूचिक; आम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.13.3",
+      "english": "Small bone",
+      "iast": "aṇvasthi",
+      "devanagari": "अण्वस्थि",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.2.9",
+      "english": "External cleansing",
+      "iast": "bahiḥparimārjanam",
+      "devanagari": "बहिःपरिमार्जनम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.2.1.17",
+      "english": "",
+      "iast": "kapotapuṭaḥ",
+      "devanagari": "कपोतपुटः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.1.13",
+      "english": "Rebuffing of disease",
+      "iast": "vāraṇam",
+      "devanagari": "वारणम",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.48",
+      "english": "",
+      "iast": "stambhaḥ-vamanavyāpat",
+      "devanagari": "स्तम्भः-वमनव्यापत",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.59.16",
+      "english": "",
+      "iast": "pāmā (kacchū)",
+      "devanagari": "पामा (कच्छू)",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.15.4",
+      "english": "Artery related to",
+      "iast": "Rūpavahādhamanī",
+      "devanagari": "रूपवहाधमनी",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.63.40",
+      "english": "",
+      "iast": "tuṇḍikerī;",
+      "devanagari": "तुण्डिकेरी;",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.229",
+      "english": "",
+      "iast": "atidagdha-arśaḥ",
+      "devanagari": "अतिदग्ध-अर्शः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.2.1.9",
+      "english": "Diminution of vata",
+      "iast": "vātakṣayaḥ",
+      "devanagari": "वातक्षयः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.6.141",
+      "english": "Squeezing",
+      "iast": "pīḍanakarma",
+      "devanagari": "पीडनकर्म",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.5.9",
+      "english": "Qualities of technical",
+      "iast": "śāstraguṇāḥ",
+      "devanagari": "शास्त्रगुणाः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.5.25",
+      "english": "Instillation of eye",
+      "iast": "ropaṇa-āścyotanam",
+      "devanagari": "रोपण-आश्च्योतनम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.6.126",
+      "english": "Application of poultice",
+      "iast": "upanāhakarma",
+      "devanagari": "उपनाहकर्म",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.2.4.38",
+      "english": "",
+      "iast": "vāyumārgaḥ, anilāyanam",
+      "devanagari": "वायुमार्गः, अनिलायनम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-8.3.50",
+      "english": "Meat soup",
+      "iast": "māṃsarasaḥ, rasaḥ.",
+      "devanagari": "मांसरसः, रसः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.60.4",
+      "english": "Erysipelas, spreading",
+      "iast": "kaphajavisarpaḥ",
+      "devanagari": "कफजविसर्पः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.21.3",
+      "english": "Hoarse voice, altered",
+      "iast": "pittajasvarabhedaḥ",
+      "devanagari": "पित्तजस्वरभेदः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.2.1.8",
+      "english": "Spreading of vata",
+      "iast": "vātaprasaraṇam",
+      "devanagari": "वातप्रसरणम",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.2.4.21",
+      "english": "",
+      "iast": "jihvā-mūlam,",
+      "devanagari": "जिह्वा-मूलम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.13.70",
+      "english": "",
+      "iast": "asthijālam",
+      "devanagari": "अस्थिजालम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.5.44",
+      "english": "Lobuloplasty type 2",
+      "iast": "utpalabhedakaḥ",
+      "devanagari": "उत्पलभेदकः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.18.6",
+      "english": "Cough due to",
+      "iast": "kṣayajakāsaḥ",
+      "devanagari": "क्षयजकासः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.5.10",
+      "english": "Channel carrying",
+      "iast": "rasavahasrotaḥ",
+      "devanagari": "रसवहस्रोतः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.2.19",
+      "english": "Semen",
+      "iast": "retas",
+      "devanagari": "रेतस",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.41.13",
+      "english": "Polyuria disorder with",
+      "iast": "surāmehaḥ",
+      "devanagari": "सुरामेहः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.4.1",
+      "english": "Excretory products",
+      "iast": "malaḥ",
+      "devanagari": "मलः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.32.4",
+      "english": "Kapha-predominant",
+      "iast": "kaphaja-āmavātaḥ",
+      "devanagari": "कफज-आमवातः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.9.8",
+      "english": "Healthy sperm",
+      "iast": "kārmukabījaḥ",
+      "devanagari": "कार्मुकबीजः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.23.6",
+      "english": "Vomiting due to",
+      "iast": "āgantujachardiḥ",
+      "devanagari": "आगन्तुजछर्दिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-6.2.6.17",
+      "english": "",
+      "iast": "karśanam",
+      "devanagari": "कर्शनम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.7.3",
+      "english": "Six ways of clinical",
+      "iast": "ṣaḍvidhaparīkṣā",
+      "devanagari": "षड्विधपरीक्षा",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.6.131",
+      "english": "Therapeutic purgation",
+      "iast": "virecanakarma",
+      "devanagari": "विरेचनकर्म",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.9.3.2.17",
+      "english": "",
+      "iast": "cetanā/ caitanyam",
+      "devanagari": "चेतना/ चैतञम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.2.65",
+      "english": "Sweating induced by",
+      "iast": "niragni-upanāhasvedaḥ",
+      "devanagari": "निरग्नि-उपनाहस्वेदः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.64.12",
+      "english": "",
+      "iast": "karṇa-pākaḥ",
+      "devanagari": "कर्ण-पाकः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.12",
+      "english": "",
+      "iast": "stambhana-atiyogaḥ",
+      "devanagari": "स्तम्भन-अतियोगः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.9.2",
+      "english": "Senility",
+      "iast": "vārdhakyam",
+      "devanagari": "वार्धक्यम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.41.7",
+      "english": "Polyuria disorder with",
+      "iast": "śuklamehaḥ",
+      "devanagari": "शुक्लमेहः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.11.17",
+      "english": "Patient",
+      "iast": "rogi",
+      "devanagari": "रोगि",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.77",
+      "english": "",
+      "iast": "jīvādānavirecanavyāpat",
+      "devanagari": "जीवादानविरेचनव्यापत",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.3.1",
+      "english": "Derangement of",
+      "iast": "dhātuvaiṣamyam",
+      "devanagari": "धातुवैषम्यम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.6.223",
+      "english": "External application",
+      "iast": "doṣaghnalepaḥ",
+      "devanagari": "दोषघ्नलेपः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.1.2.2",
+      "english": "Crushing in mortar",
+      "iast": "mardanam",
+      "devanagari": "मर्दनम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-6.2.6.78",
+      "english": "",
+      "iast": "hikkānigrahaṇaḥ",
+      "devanagari": "हिक्कानिग्रहणः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-10.2.6",
+      "english": "Appropriate time for",
+      "iast": "praśasta-āhārakālaḥ",
+      "devanagari": "प्रशस्त-आहारकालः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.34.5",
+      "english": "Abdominal colic due",
+      "iast": "sānnipātikaśūlaḥ",
+      "devanagari": "सान्निपातिकशूलः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.180",
+      "english": "",
+      "iast": "prasādāñjana-ayogaḥ",
+      "devanagari": "प्रसादाञ्जन-अयोगः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.10.1.6",
+      "english": "",
+      "iast": "vedinī",
+      "devanagari": "वेदिनी",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.1.26",
+      "english": "Structured therapy",
+      "iast": "yuktivyapāśrayacikitsā,",
+      "devanagari": "युक्तिव्यपाश्रयचिकित्सा",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.9.4.3.7",
+      "english": "",
+      "iast": "prayatnaḥ",
+      "devanagari": "प्रयत्नः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.9.3.2.27",
+      "english": "",
+      "iast": "jīvanmuktiḥ",
+      "devanagari": "जीवन्मुक्तिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.2.6.2",
+      "english": "Ruby",
+      "iast": "māṇikyam",
+      "devanagari": "माणिक्यम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.16.29",
+      "english": "",
+      "iast": "apastambhaḥ (marma)",
+      "devanagari": "अपस्तम्भः (मर्म)",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.5.83",
+      "english": "Retention of palliative",
+      "iast": "śamanagaṇḍūṣaḥ",
+      "devanagari": "शमनगण्डूषः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.2.1.55",
+      "english": "Globular swelling",
+      "iast": "vātāṣṭhīlā",
+      "devanagari": "वाताष्ठीला",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.1.1.2",
+      "english": "Vata, dosha that",
+      "iast": "prāṇaḥ",
+      "devanagari": "प्राणः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.9.40",
+      "english": "Seminal abnormalities",
+      "iast": "retodoṣaḥ",
+      "devanagari": "रेतोदोषः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.16.49",
+      "english": "",
+      "iast": "nīlā (marma)",
+      "devanagari": "नीला (मर्म)",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.5.5",
+      "english": "Anal or urethral",
+      "iast": "adhaḥsrotaḥ",
+      "devanagari": "अधःस्रोतः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.63.58",
+      "english": "",
+      "iast": "kaṇṭhaśālūkaḥ",
+      "devanagari": "कण्ठशालूकः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.1.4.15",
+      "english": "",
+      "iast": "droṇaḥ",
+      "devanagari": "द्रोणः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.7.17",
+      "english": "Poisonous lady",
+      "iast": "viṣakanyā",
+      "devanagari": "विषकञा",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.35.5",
+      "english": "Disorders of reversed",
+      "iast": "śukrābhighāta-",
+      "devanagari": "शुक्राभिघात-",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.3.13",
+      "english": "Shoulder region",
+      "iast": "aṃsadeśaḥ",
+      "devanagari": "अंसदेशः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.39.2",
+      "english": "Difficulty in urination",
+      "iast": "vātajamūtrakṛcchram",
+      "devanagari": "वातजमूत्रकृच्छ्रम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.28.9",
+      "english": "Psychosis making",
+      "iast": "gandharvonmādaḥ",
+      "devanagari": "गन्धर्वोन्मादः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.13.47",
+      "english": "",
+      "iast": "hanusandhiḥ",
+      "devanagari": "हनुसन्धिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.2.10.4",
+      "english": "",
+      "iast": "yavakṣāraḥ",
+      "devanagari": "यवक्षारः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.8.8",
+      "english": "Body channel",
+      "iast": "sirāgranthiḥ",
+      "devanagari": "सिराग्रन्थिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.1.15",
+      "english": "Chanting of auspicious",
+      "iast": "mantracikitsā",
+      "devanagari": "मन्त्रचिकित्सा",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-8.2.40",
+      "english": "Water derived from",
+      "iast": "kāram",
+      "devanagari": "कारम",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.2.1.10",
+      "english": "Pouring molten metal",
+      "iast": "dhalanam",
+      "devanagari": "धलनम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.9.4.4.8",
+      "english": "",
+      "iast": "parimāṇaḥ",
+      "devanagari": "परिमाणः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-6.2.6.40",
+      "english": "Substance damaging",
+      "iast": "vikāśī",
+      "devanagari": "विकाशी",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.1.4.12",
+      "english": "",
+      "iast": "mānikā/śarāvaḥ",
+      "devanagari": "मानिका/शरावः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.7.2",
+      "english": "Anal margin",
+      "iast": "gudamaṇḍalam",
+      "devanagari": "गुदमण्डलम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.3",
+      "english": "Condition of sub",
+      "iast": "snehana-ayogaḥ",
+      "devanagari": "स्नेहन-अयोगः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.2.63",
+      "english": "Sweating induced by",
+      "iast": "bhayaḥ",
+      "devanagari": "भयः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.2.34",
+      "english": "Conditions resulting",
+      "iast": "svabhāvaba-",
+      "devanagari": "स्वभावब-",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.3.16",
+      "english": "The hard areas on",
+      "iast": "śleṣmabhuvaḥ",
+      "devanagari": "श्लेष्मभुवः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.64.24",
+      "english": "",
+      "iast": "unmathakaḥ",
+      "devanagari": "उन्मथकः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.41.11",
+      "english": "Polyuria disorder with",
+      "iast": "sikatāmehaḥ",
+      "devanagari": "सिकतामेहः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.8.20",
+      "english": "Transit destinations of",
+      "iast": "sañcārasthānam",
+      "devanagari": "सञ्चारस्थानम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.1.4.33",
+      "english": "",
+      "iast": "ghaṭī/nāḍikā",
+      "devanagari": "घटी/नाडिका",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-8.3.9",
+      "english": "Fritter-like preparation",
+      "iast": "sapiṇḍikaḥ",
+      "devanagari": "सपिण्डिकः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.97",
+      "english": "",
+      "iast": "parisrāvabastivyāpat",
+      "devanagari": "परिस्रावबस्तिव्यापत",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.15.1",
+      "english": "Artery",
+      "iast": "Dhamanī",
+      "devanagari": "धमनी",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-8.2.45",
+      "english": "Step well water",
+      "iast": "vāpyam",
+      "devanagari": "वाप्यम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.11.3",
+      "english": "Irregular digestive",
+      "iast": "viṣamāgniḥ",
+      "devanagari": "विषमाग्निः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.8.9",
+      "english": "Rejuvention therapy",
+      "iast": "vayasthāpanam",
+      "devanagari": "वयस्थापनम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.5.64",
+      "english": "Rhinoplasty",
+      "iast": "nāsāsandhānavidhiḥ",
+      "devanagari": "नासासन्धानविधिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.6.4",
+      "english": "Simulated training in",
+      "iast": "yogyā",
+      "devanagari": "योग्या",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.9.3.7.2",
+      "english": "",
+      "iast": "cetana-dravyam/",
+      "devanagari": "चेतन-द्रव्यम/",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.16.34",
+      "english": "",
+      "iast": "kaṭīkataruṇam (marma)",
+      "devanagari": "कटीकतरुणम (मर्म)",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.6.192",
+      "english": "Cephalic bandage",
+      "iast": "vitānabandhaḥ",
+      "devanagari": "वितानबन्धः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.8.2.26",
+      "english": "",
+      "iast": "vyatirekavyāptiḥ",
+      "devanagari": "व्यतिरेकव्याप्तिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.6.123",
+      "english": "Therapeutic massage",
+      "iast": "abhyaṅgakarma",
+      "devanagari": "अभ्यंगकर्म",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.6.27",
+      "english": "Persistent low-grade",
+      "iast": "vātabalāsakajvaraḥ",
+      "devanagari": "वातबलासकज्वरः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.53.7",
+      "english": "Pre-ulcerative",
+      "iast": "abhighātajavraṇaśophaḥ",
+      "devanagari": "अभिघातजव्रणशोफः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.8.11",
+      "english": "Disease pathogenesis",
+      "iast": "rogādhiṣṭhānam",
+      "devanagari": "रोगाधिष्ठानम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.9.4.2.15",
+      "english": "",
+      "iast": "kaṭhinaḥ",
+      "devanagari": "कठिनः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.13.53",
+      "english": "",
+      "iast": "jānvadhaḥsandhiḥ",
+      "devanagari": "जान्वधःसन्धिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.139",
+      "english": "",
+      "iast": "nasyātiyogaḥ",
+      "devanagari": "नस्यातियोगः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.2.17",
+      "english": "Application of oil",
+      "iast": "śirobhyaṅgaḥ",
+      "devanagari": "शिरोभ्यंगः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.6.23",
+      "english": "Intermittent fever",
+      "iast": "vātajacaturthakajvaraḥ",
+      "devanagari": "वातजचतुर्थकज्वरः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.13.59",
+      "english": "",
+      "iast": "pṛthulā-snāyuḥ",
+      "devanagari": "पृथुला-स्नायुः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.2.3.8",
+      "english": "Antimony trisulfide;",
+      "iast": "añjanam",
+      "devanagari": "अञ्जनम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.70.7",
+      "english": "Obstructed fetal",
+      "iast": "parighaḥ",
+      "devanagari": "परिघः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.49.6",
+      "english": "Nodular swelling, cyst",
+      "iast": "sirājagranthiḥ",
+      "devanagari": "सिराजग्रन्थिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.2.3",
+      "english": "Eight stages of the",
+      "iast": "pārada-aṣṭasaṃskāraḥ",
+      "devanagari": "पारद-अष्टसंस्कारः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.64.10",
+      "english": "",
+      "iast": "kṛmikarṇakaḥ",
+      "devanagari": "कृमिकर्णकः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.2.1.27",
+      "english": "",
+      "iast": "pakṣmamaṇḍalam",
+      "devanagari": "पक्ष्ममण्डलम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.7.4",
+      "english": "Eight methods of",
+      "iast": "aṣṭasthānaparīkṣā",
+      "devanagari": "अष्टस्थानपरीक्षा",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.2.42",
+      "english": "Diseases that can",
+      "iast": "yāpyarogaḥ",
+      "devanagari": "याप्यरोगः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.4.15",
+      "english": "Sprinkling water over",
+      "iast": "śitodaka/ usṇodaka-",
+      "devanagari": "शितोदक/ उस्नओदक-",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.115",
+      "english": "Condition caused by",
+      "iast": "madhumeha",
+      "devanagari": "मधुमेह",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.23",
+      "english": "",
+      "iast": "vamana-atiyogaḥ",
+      "devanagari": "वमन-अतियोगः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.6.8",
+      "english": "Stage of a dosha",
+      "iast": "prakopaḥ",
+      "devanagari": "प्रकोपः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.4.23",
+      "english": "Placing a water pot",
+      "iast": "udakakumbhasthapana",
+      "devanagari": "उदककुम्भस्थपन",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.210",
+      "english": "",
+      "iast": "atipravṛttaraktaḥ",
+      "devanagari": "अतिप्रवृत्तरक्तः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.61.18",
+      "english": "",
+      "iast": "medogatamasūrikā",
+      "devanagari": "मेदोगतमसूरिका",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.206",
+      "english": "",
+      "iast": "karṇavyadhana-",
+      "devanagari": "कर्णव्यधन-",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.52.5",
+      "english": "Abscess due to",
+      "iast": "sannipātajavidradhiḥ",
+      "devanagari": "सन्निपातजविद्रधिः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.34.6",
+      "english": "Abdominal colic",
+      "iast": "āmaśūlaḥ",
+      "devanagari": "आमशूलः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.14.16",
+      "english": "",
+      "iast": "kāmasirā",
+      "devanagari": "कामसिरा",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.2.1.8",
+      "english": "Part of the",
+      "iast": "apāṅgadeśaḥ",
+      "devanagari": "अपांगदेशः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.72.21",
+      "english": "",
+      "iast": "alarkaviṣaḥ",
+      "devanagari": "अलर्कविषः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.67.10",
+      "english": "Headache worsening",
+      "iast": "sūryāvartaḥ",
+      "devanagari": "सूर्यावर्तः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.2.12",
+      "english": "Short bones",
+      "iast": "aṇvasthi",
+      "devanagari": "अण्वस्थि",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.5.12",
+      "english": "Eye disorders in",
+      "iast": "aśastrakṛt-rogaḥ",
+      "devanagari": "अशस्त्रकृत-रोगः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.9.3.3.3",
+      "english": "Atomicity",
+      "iast": "aṇutva, paramāṇu",
+      "devanagari": "अणुत्व, परमाणु",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-10.2.4",
+      "english": "Factors facilitating",
+      "iast": "āhāra pariṇāma",
+      "devanagari": "आहार परिणाम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-2.6.21",
+      "english": "Theory of selective",
+      "iast": "khalekapotanyāyaḥ",
+      "devanagari": "खलेकपोतञायः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.2.4.7",
+      "english": "",
+      "iast": "",
+      "devanagari": "adharaḥ, adharauṣṭhaḥ",
+      "confidence": "low",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-7.1.1.6",
+      "english": "Powder made from",
+      "iast": "caṇakāmlaḥ",
+      "devanagari": "चणकाम्लः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-3.3.2",
+      "english": "Suprasternal notch",
+      "iast": "grīvāmūlam",
+      "devanagari": "ग्रीवामूलम",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-9.6.70",
+      "english": "Probing",
+      "iast": "eṣaṇakarma",
+      "devanagari": "एषणकर्म",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-8.2.28",
+      "english": "Buttermilk prepared",
+      "iast": "gholaḥ",
+      "devanagari": "घोलः",
+      "confidence": "medium",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.60.2",
+      "english": "Erysipelas, spreading",
+      "iast": "vātajavisarpaḥ",
+      "devanagari": "वातजविसर्पः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-6.2.1.4",
+      "english": "Sour taste",
+      "iast": "amla-rasaḥ",
+      "devanagari": "अम्ल-रसः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.9.4.2.4",
+      "english": "Mildness, slowness",
+      "iast": "mandaḥ",
+      "devanagari": "मन्दः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.41.1.4",
+      "english": "Carbuncle resembling",
+      "iast": "jālinī-pramehapiḍakā",
+      "devanagari": "जालिनी-प्रमेहपिडका",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.41.20",
+      "english": "",
+      "iast": "nīlamehaḥ",
+      "devanagari": "नीलमेहः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-6.2.1.2",
+      "english": "Sweet taste",
+      "iast": "madhura-rasaḥ, svāduḥ",
+      "devanagari": "मधुर-रसः, स्वादुः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.65.22",
+      "english": "",
+      "iast": "vātajanāsārśaḥ",
+      "devanagari": "वातजनासार्शः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.75.11",
+      "english": "",
+      "iast": "chardivegarodhaḥ",
+      "devanagari": "छर्दिवेगरोधः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-4.4.16",
+      "english": "Primary or independent",
+      "iast": "anubandhyaḥ",
+      "devanagari": "अनुबन्ध्यः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-5.76.82",
+      "english": "",
+      "iast": "vibandhavyāpat",
+      "devanagari": "विबन्धव्यापत",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-10.2.2",
+      "english": "Food",
+      "iast": "āhāraḥ",
+      "devanagari": "आहारः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-1.6.21",
+      "english": "Objecting or opposing",
+      "iast": "pūrvapakṣaḥ",
+      "devanagari": "पूर्वपक्षः",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "term_id": "ITA-8.2.27",
+      "english": "Watery part of curd",
+      "iast": "dadhimastu",
+      "devanagari": "दधिमस्तु",
+      "confidence": "high",
+      "review_status": "pending",
+      "reviewer_notes": ""
+    }
+  ]
+}

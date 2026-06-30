@@ -1,0 +1,4249 @@
+{
+  "total_verified": 3547,
+  "fully_valid": 2470,
+  "check_stats": {
+    "term_id_format": {
+      "passed": 3547,
+      "failed": 0,
+      "rate": 100.0
+    },
+    "english_present": {
+      "passed": 2498,
+      "failed": 1049,
+      "rate": 70.43
+    },
+    "iast_format": {
+      "passed": 3525,
+      "failed": 22,
+      "rate": 99.38
+    },
+    "devanagari_valid": {
+      "passed": 3531,
+      "failed": 16,
+      "rate": 99.55
+    },
+    "iast_deva_parity": {
+      "passed": 3534,
+      "failed": 13,
+      "rate": 99.63
+    },
+    "category_present": {
+      "passed": 3547,
+      "failed": 0,
+      "rate": 100.0
+    },
+    "domains_assigned": {
+      "passed": 3547,
+      "failed": 0,
+      "rate": 100.0
+    },
+    "confidence_present": {
+      "passed": 3547,
+      "failed": 0,
+      "rate": 100.0
+    }
+  },
+  "sample_verifications": [
+    {
+      "term_id": "ITA-1.1.1",
+      "english": "Ayurveda",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.1.1"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Ayurveda"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "Āyurvedaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "आयुर्वेदः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.23)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.2.1",
+      "english": "Life process, cycle or",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.2.1"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Life process, cycle or"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "(empty)"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "(empty)"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both empty"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "low (0.05)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.2.2",
+      "english": "Salutary life",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.2.2"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Salutary life"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "hitāyuḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "हितायुः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.2.3",
+      "english": "Unsalutary life",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.2.3"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Unsalutary life"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "ahitāyuḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अहितायुः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.23)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.2.4",
+      "english": "High quality of life",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.2.4"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "High quality of life"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "sukhāyuḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "सुखायुः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.23)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.2.5",
+      "english": "Poor quality of life",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.2.5"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Poor quality of life"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "duḥkhāyuḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "दुःखायुः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.3.1",
+      "english": "Three core principles",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.3.1"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Three core principles"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "trisūtrāyurvedaḥ,"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "त्रिसूत्रायुर्वेदः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.1",
+      "english": "Eight clinical speciali",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.1"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Eight clinical speciali"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "aṣṭāṅgāyurvedaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अष्टांगायुर्वेदः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.68)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.2",
+      "english": "Treatment",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.2"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Treatment"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "cikitsā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "चिकित्सा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "therapeutics"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.3",
+      "english": "General medicine",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.3"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "General medicine"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "kāyacikitsā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "कायचिकित्सा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "therapeutics"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.4",
+      "english": "Child and maternal",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.4"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Child and maternal"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "bālacikitsā,"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "बालचिकित्सा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "therapeutics"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.5",
+      "english": "Psychiatry",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.5"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Psychiatry"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "grahacikitsā, bhūtavidyā."
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "ग्रहचिकित्सा, भूतविद्या"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "therapeutics"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.6",
+      "english": "Head and neck",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.6"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Head and neck"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "śālakyatantra,"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "शालक्यतन्त्र"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.13)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.7",
+      "english": "Surgery",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.7"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Surgery"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "śalyacikitsā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "शल्यचिकित्सा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "therapeutics"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.8",
+      "english": "Toxicology",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.8"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Toxicology"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "viṣacikitsā, garacikitsā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "विषचिकित्सा, गरचिकित्सा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "therapeutics"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.23)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.9",
+      "english": "Geriatrics",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.9"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Geriatrics"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "rasāyanacikitsā,"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "रसायनचिकित्सा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "therapeutics"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.10",
+      "english": "Fertility treatment",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.10"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Fertility treatment"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vajikaraṇacikitsa,"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "वजिकरनअचिकित्स"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.58)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.4.11",
+      "english": "Obstetrics",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.4.11"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Obstetrics"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "prasūtītantra, strīroga"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "प्रसूतीतन्त्र, स्त्रीरोग"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "pathology"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.5.1",
+      "english": "Knowledge system",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.5.1"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Knowledge system"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "śāstram, sūtram,"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "शास्त्रम, सूत्रम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.07)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.5.2",
+      "english": "Aphorism, summarized",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.5.2"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Aphorism, summarized"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "sūtram"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "सूत्रम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.5.3",
+      "english": "Branch of knowledge",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.5.3"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Branch of knowledge"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "śākhā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "शाखा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.58)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.5.4",
+      "english": "Knowledge, discipline",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.5.4"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Knowledge, discipline"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vidyā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "विद्या"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.23)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.5.5",
+      "english": "Understanding",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.5.5"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Understanding"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "jñānam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "ज्ञानम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.5.6",
+      "english": "Treatise, structurally",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.5.6"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Treatise, structurally"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "tantram"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "तन्त्रम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.5.7",
+      "english": "Mandatory injunction",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.5.7"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Mandatory injunction"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vidhiḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "विधिः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.63)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.5.8",
+      "english": "Applied knowledge",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.5.8"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Applied knowledge"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vijñānam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "विज्ञानम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.23)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.5.9",
+      "english": "Qualities of technical",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.5.9"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Qualities of technical"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "śāstraguṇāḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "शास्त्रगुणाः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.1",
+      "english": "Devices for",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.1"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Devices for"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "tantrayuktiḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "तन्त्रयुक्तिः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.2",
+      "english": "Extending the scope",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.2"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Extending the scope"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "atideśaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अतिदेशः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.3",
+      "english": "Retrospective cross",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.3"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Retrospective cross"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "atītāvekṣaṇam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अतीतावेक्षणम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.4",
+      "english": "Topic or subject of",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.4"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Topic or subject of"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "adhikaraṇam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अधिकरणम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.63)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.5",
+      "english": "Prospective cross",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.5"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Prospective cross"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "anāgatavekṣaṇam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अनागतवेक्षणम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.6",
+      "english": "Acceptance by not",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.6"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Acceptance by not"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "anumataḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अनुमतः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.7",
+      "english": "Acceptance of multiple",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.7"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Acceptance of multiple"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "anekāntaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अनेकान्तः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.8",
+      "english": "Supporting a proposed",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.8"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Supporting a proposed"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "apadeśaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अपदेशः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.9",
+      "english": "Statement of",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.9"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Statement of"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "apavargaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अपवर्गः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.10",
+      "english": "Implied or inferred",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.10"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Implied or inferred"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "arthāpattiḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अर्थापत्तिः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.11",
+      "english": "Concise statement",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.11"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Concise statement"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "uddeśaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "उद्देशः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.12",
+      "english": "Consolidating an",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.12"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Consolidating an"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "uddhāraḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "उद्धारः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.13",
+      "english": "Authoritative",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.13"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Authoritative"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "upadeśaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "उपदेशः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.14",
+      "english": "Extrapolation",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.14"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Extrapolation"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "ūhyam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "ऊह्यम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.58)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.15",
+      "english": "Definite conclusion",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.15"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Definite conclusion"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "ekāntaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "एकान्तः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.16",
+      "english": "Illustrative statement",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.16"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Illustrative statement"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "nidarśanam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "निदर्शनम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.17",
+      "english": "Execution of",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.17"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Execution of"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "niyogaḥ/ sanniyogaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "नियोगः/ सन्नियोगः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "pharmacology"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.18",
+      "english": "Decision based on",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.18"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Decision based on"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "nirṇayaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "निर्णयः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.19",
+      "english": "Detailed description",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.19"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Detailed description"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "nirdeśaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "निर्देशः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.20",
+      "english": "Technical definition",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.20"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Technical definition"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "nirvacanam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "निर्वचनम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.21",
+      "english": "Objecting or opposing",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.21"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Objecting or opposing"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "pūrvapakṣaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "पूर्वपक्षः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.22",
+      "english": "Negating or refuting an",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.22"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Negating or refuting an"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "pratyutsāraḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "प्रत्युत्सारः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.23",
+      "english": "Partial description",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.23"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Partial description"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "pradeśaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "प्रदेशः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.24",
+      "english": "Aim, objective",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.24"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Aim, objective"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "Prayojanam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "प्रयोजनम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.63)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.25",
+      "english": "Contextual repetition",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.25"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Contextual repetition"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "prasaṅgaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "प्रसंगः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "anatomy, pharmacology"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.78)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.26",
+      "english": "Union, compounding",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.26"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Union, compounding"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "yogaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "योगः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "pharmacology"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.93)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.27",
+      "english": "Supply of ellipsis",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.27"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Supply of ellipsis"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vākyaśeṣaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "वाक्यशेषः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.28",
+      "english": "Optional instructions",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.28"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Optional instructions"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vikalpanam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "विकल्पनम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "pharmacology"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.29",
+      "english": "Sequential narration",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.29"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Sequential narration"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vidhānam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "विधानम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.63)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.30",
+      "english": "Implying the opposite",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.30"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Implying the opposite"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "viparyayaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "विपर्ययः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.31",
+      "english": "Lucid explanation",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.31"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Lucid explanation"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vyākhyānam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "व्याख्यानम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.32",
+      "english": "Inconclusive",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.32"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Inconclusive"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "saṃśayaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "संशयः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.33",
+      "english": "Enlisting one by one",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.33"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Enlisting one by one"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "samuccayaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "समुच्चयः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.34",
+      "english": "Statement indicating",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.34"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Statement indicating"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "sambhavaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "सम्भवः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.35",
+      "english": "Technical terminology",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.35"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Technical terminology"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "svasañjñā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "स्वसञ्ज्ञा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.36",
+      "english": "Extended reasoning",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.36"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Extended reasoning"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "hetvarthaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "हेत्वर्थः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.37",
+      "english": "Source of meaning",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.37"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Source of meaning"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "arthāśrayaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अर्थाश्रयः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.38",
+      "english": "Concept, hypothesis",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.38"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Concept, hypothesis"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "kalpanā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "कल्पना"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "pharmacology"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.39",
+      "english": "Inclinations",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.39"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Inclinations"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "tācchilyam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "ताच्छिल्यम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.6.40",
+      "english": "Explanation",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.6.40"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Explanation"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vyākhyā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "व्याख्या"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.1",
+      "english": "Theory",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.1"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Theory"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "siddhāntaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "सिद्धान्तः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.2",
+      "english": "Doctrine",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.2"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Doctrine"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vādaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "वादः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.58)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.3",
+      "english": "Rules for debate",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.3"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Rules for debate"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vādamārgaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "वादमार्गः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.4",
+      "english": "Unquestionable",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.4"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Unquestionable"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "ananuyojyam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अननुयोज्यम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.5",
+      "english": "Question",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.5"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Question"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "anuyogaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अनुयोगः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "pharmacology"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.6",
+      "english": "Questionable",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.6"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Questionable"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "anuyojyam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अनुयोज्यम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.7",
+      "english": "Unquestioning",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.7"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Unquestioning"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "abhyanujñā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अभ्यनुज्ञा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.8",
+      "english": "Implied meaning",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.8"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Implied meaning"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "arthaprāptiḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अर्थप्राप्तिः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.9",
+      "english": "Varying meaning or",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.9"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Varying meaning or"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "arthāntaram"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "अर्थान्तरम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.10",
+      "english": "Rejoinder",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.10"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Rejoinder"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "uttaram"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "उत्तरम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.11",
+      "english": "Application of proof",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.11"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Application of proof"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "upanayaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "उपनयः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.63)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.12",
+      "english": "Abusive argument",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.12"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Abusive argument"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "upālambhaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "उपालम्भः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.13",
+      "english": "Perverted or deceitful",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.13"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Perverted or deceitful"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "chalaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "छलः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.58)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.14",
+      "english": "Defensive argument",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.14"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Defensive argument"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "jalpaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "जल्पः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.15",
+      "english": "Inquisitiveness",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.15"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Inquisitiveness"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "jijñāsā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "जिज्ञासा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.16",
+      "english": "Discussion amongst",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.16"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Discussion amongst"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "tadvidyasambhāṣā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "तद्विद्यसम्भाषा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.17",
+      "english": "Deduction, conclusion",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.17"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Deduction, conclusion"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "nigamanam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "निगमनम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.63)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.18",
+      "english": "Point of defeat",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.18"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Point of defeat"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "nigrahasthānam"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "निग्रहस्थानम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.19",
+      "english": "Amendment of a",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.19"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Amendment of a"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "parihāraḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "परिहारः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "medium (0.63)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.20",
+      "english": "Proposition, proposed",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.20"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Proposition, proposed"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "pratijñā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "प्रतिज्ञा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.21",
+      "english": "Abandoning the",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.21"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Abandoning the"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "pratijñāhāniḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "प्रतिज्ञाहानिः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.22",
+      "english": "Proving the alternate",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.22"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Proving the alternate"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "pratiṣṭhāpanā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "प्रतिष्ठापना"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.23",
+      "english": "Counter-question",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.23"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Counter-question"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "pratyanuyogaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "प्रत्यनुयोगः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "pharmacology"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.24",
+      "english": "Syntax error",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.24"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Syntax error"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vākyadoṣaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "वाक्यदोषः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "physiology"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.25",
+      "english": "Correct statement",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.25"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Correct statement"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vākyapraśaṃsā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "वाक्यप्रशंसा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.26",
+      "english": "Hostile debate",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.26"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Hostile debate"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vitaṇḍā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "वितण्डा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.27",
+      "english": "Decision",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.27"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Decision"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vyavasāyaḥ"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "व्यवसायः"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.28",
+      "english": "Proving the proposed",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.28"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Proving the proposed"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "sthāpanā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "स्थापना"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.29",
+      "english": "Proposing the wrong",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.29"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Proposing the wrong"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "hetvantaram"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "हेत्वन्तरम"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.30",
+      "english": "Discussion and debate",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.30"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Discussion and debate"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "tadvidyasaṃbhāṣā,"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "तद्विद्यसंभाषा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.31",
+      "english": "Productive debate",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.31"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Productive debate"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "sandhāyasaṃbhāṣā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "सन्धायसंभाषा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.83)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.7.32",
+      "english": "Unproductive, hostile",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.7.32"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Unproductive, hostile"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "vigṛhyasaṃbhāṣā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "विगृह्यसंभाषा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "general"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (0.88)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    },
+    {
+      "term_id": "ITA-1.8.1",
+      "english": "Investigation, examination",
+      "checks": {
+        "term_id_format": {
+          "passed": true,
+          "value": "ITA-1.8.1"
+        },
+        "english_present": {
+          "passed": true,
+          "value": "Investigation, examination"
+        },
+        "iast_format": {
+          "passed": true,
+          "value": "parīkṣā"
+        },
+        "devanagari_valid": {
+          "passed": true,
+          "value": "परीक्षा"
+        },
+        "iast_deva_parity": {
+          "passed": true,
+          "value": "both present"
+        },
+        "category_present": {
+          "passed": true,
+          "value": "Background Terminology"
+        },
+        "domains_assigned": {
+          "passed": true,
+          "value": "diagnostics"
+        },
+        "confidence_present": {
+          "passed": true,
+          "value": "high (1.18)"
+        }
+      },
+      "passed": 8,
+      "failed": 0,
+      "overall_valid": true,
+      "validity_score": 100.0
+    }
+  ],
+  "verification_rate": 69.64
+}

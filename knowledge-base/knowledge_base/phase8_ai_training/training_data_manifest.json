@@ -1,0 +1,25 @@
+{
+  "package_name": "WHO_ITA_AI_Training_Data",
+  "version": "1.0",
+  "generated_at": "2026-01-07T12:21:51.769899",
+  "files": {
+    "qa_pairs": "knowledge_base\\phase8_ai_training\\qa_training_data.json",
+    "conversations": "knowledge_base\\phase8_ai_training\\conversation_training_data.json",
+    "few_shot": "knowledge_base\\phase8_ai_training\\few_shot_examples.json",
+    "chunks": "knowledge_base\\phase8_ai_training\\context_chunks.json",
+    "rag_index": "knowledge_base\\phase8_ai_training\\rag_index.json",
+    "system_prompts": "knowledge_base\\phase8_ai_training\\system_prompts.json",
+    "validation": "knowledge_base\\phase8_ai_training\\validation_set.json",
+    "golden_tests": "knowledge_base\\phase8_ai_training\\golden_test_cases.json"
+  },
+  "statistics": {
+    "qa_pairs": 14988,
+    "conversations": 49,
+    "few_shot_examples": 110,
+    "context_chunks": 48,
+    "rag_documents": 3547,
+    "system_prompts": 3,
+    "validation_terms": 359,
+    "golden_tests": 100
+  }
+}

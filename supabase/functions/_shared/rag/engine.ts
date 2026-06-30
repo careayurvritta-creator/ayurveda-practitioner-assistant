@@ -1,6 +1,6 @@
-import { parseQuery, expandQuery, type ParsedQuery } from './query.ts';
+import { parseQuery, expandQuery, CLINICAL_PATHWAYS, type ParsedQuery } from './query.ts';
 import { embed } from './embeddings.ts';
-import { vectorSearch, fullTextSearch, type KnowledgeChunk } from './knowledge.ts';
+import { vectorSearch, fullTextSearch, hybridSearch, type KnowledgeChunk } from './knowledge.ts';
 import { fetchResearchArticles, type ResearchArticle } from './research.ts';
 import { rerankChunks, type RerankerConfig } from './reranker.ts';
 
@@ -14,6 +14,7 @@ export interface RetrievalOptions {
   doResearch?: boolean;
   skipSerpAPI?: boolean;
   enableRerank?: boolean;
+  history?: Array<{ role: string; content: string }>;
 }
 
 export interface RetrievalResult {
@@ -22,12 +23,14 @@ export interface RetrievalResult {
   query: ParsedQuery;
   variants: string[];
   totalTokens: number;
+  clinicalPathwayContext: string | null;
   retrievalMetadata: {
     vectorCount: number;
     keywordCount: number;
     afterDedup: number;
     afterRerank: boolean;
     latencyMs: number;
+    hybridUsed: boolean;
   };
 }
 
@@ -94,21 +97,23 @@ function boostByIntent(chunks: KnowledgeChunk[], intent: string, surface: string
     let score = c.similarity;
     const cat = c.category;
     const intentBoosts: Record<string, string[]> = {
-      herb: ['herb_monograph', 'drug_interaction'],
-      disease: ['disease', 'classical_text'],
-      treatment: ['treatment', 'classical_text'],
-      diet: ['dietary_guideline', 'pathya_apathya'],
-      dosha: ['fundamentals', 'diagnostics'],
-      diagnosis: ['diagnostics', 'fundamentals'],
+      herb: ['herb_monograph', 'drug_interaction', 'materia_medica'],
+      disease: ['disease', 'classical_text', 'pathology'],
+      treatment: ['treatment', 'classical_text', 'therapeutics'],
+      diet: ['dietary_guideline', 'pathya_apathya', 'dietetics'],
+      dosha: ['fundamentals', 'diagnostics', 'core_concepts'],
+      diagnosis: ['diagnostics', 'fundamentals', 'pathology'],
+      procedure: ['therapeutics', 'treatment', 'classical_text'],
+      formulation: ['formulations', 'herb_monograph', 'classical_text'],
       general: [],
     };
     const preferred = intentBoosts[intent] ?? [];
-    if (preferred.includes(cat)) score += 0.1;
+    if (preferred.includes(cat)) score += 0.12;
 
     const surfaceBoosts: Record<string, string[]> = {
-      chat: ['fundamentals', 'disease'],
-      'clinical-docs': ['disease', 'herb_monograph'],
-      'treatment-protocol': ['classical_text', 'disease', 'treatment'],
+      chat: ['fundamentals', 'disease', 'herb_monograph'],
+      'clinical-docs': ['disease', 'herb_monograph', 'diagnostics'],
+      'treatment-protocol': ['classical_text', 'disease', 'treatment', 'therapeutics'],
     };
     const surfacePreferred = surfaceBoosts[surface] ?? [];
     if (surfacePreferred.includes(cat)) score += 0.05;
@@ -158,25 +163,96 @@ function reciprocalRankFusion(
     }));
 }
 
+/**
+ * Build a clinical pathway context block from the WHO ITA knowledge graph.
+ * This provides structured treatment patterns, herb lists, and procedures
+ * for known diseases.
+ */
+function buildClinicalPathwayContext(pathwayKey: string): string | null {
+  const pathway = CLINICAL_PATHWAYS[pathwayKey];
+  if (!pathway) return null;
+
+  const lines: string[] = [
+    `CLINICAL PATHWAY for ${pathway.diagnosis}:`,
+    `- Dominant Dosha: ${pathway.dosha}`,
+    `- Treatment Strategy: ${pathway.treatment}`,
+    `- Key Herbs: ${pathway.herbs.join(', ')}`,
+    `- Relevant Procedures: ${pathway.procedures.join(', ')}`,
+  ];
+
+  return lines.join('\n');
+}
+
+/**
+ * Detect if the query is about a specific disease from clinical pathways
+ * and inject pathway context into the retrieval.
+ */
+function findPathwayMatch(query: string, entities: string[]): string | null {
+  const lower = query.toLowerCase();
+
+  // Direct match on entities
+  for (const entity of entities) {
+    const key = entity.toLowerCase();
+    if (CLINICAL_PATHWAYS[key]) return key;
+  }
+
+  // Fuzzy match on query text
+  for (const pathwayKey of Object.keys(CLINICAL_PATHWAYS)) {
+    if (lower.includes(pathwayKey)) return pathwayKey;
+  }
+
+  return null;
+}
+
 export async function retrieve(query: string, options: RetrievalOptions): Promise<RetrievalResult> {
   const startTime = Date.now();
   const config = SURFACE_CONFIGS[options.surface];
-  const parsed = parseQuery(query);
-  const variants = expandQuery(query, parsed.intent, parsed.entities);
 
+  // Parse query with follow-up detection and rewriting
+  const parsed = parseQuery(query, options.history);
+  const effectiveQuery = parsed.rewrittenQuery;
+  const variants = expandQuery(effectiveQuery, parsed.intent, parsed.entities);
+
+  // Try hybrid search first, fall back to vector + keyword
   const embedding = await embed(variants[0], 'query');
+  let vectorResults: KnowledgeChunk[] = [];
+  let keywordResults: KnowledgeChunk[] = [];
+  let hybridUsed = false;
 
-  const [vectorResults, keywordResults] = await Promise.all([
-    vectorSearch(embedding.embedding, {
+  try {
+    // Use hybrid search when available — combines vector similarity + FTS
+    const hybridResults = await hybridSearch(embedding.embedding, effectiveQuery, {
       matchThreshold: options.matchThreshold ?? 0.7,
       matchCount: options.matchCount ?? config.matchCount,
       categoryFilter: options.categoryFilter,
       sourceFilter: options.sourceFilter,
-    }),
-    fullTextSearch(query, 10).catch(() => []),
-  ]);
+    });
 
-  const fused = reciprocalRankFusion(vectorResults, keywordResults);
+    if (hybridResults.length > 0) {
+      vectorResults = hybridResults;
+      keywordResults = [];
+      hybridUsed = true;
+    }
+  } catch {
+    // Fall back to separate vector + keyword search
+  }
+
+  if (!hybridUsed) {
+    [vectorResults, keywordResults] = await Promise.all([
+      vectorSearch(embedding.embedding, {
+        matchThreshold: options.matchThreshold ?? 0.7,
+        matchCount: options.matchCount ?? config.matchCount,
+        categoryFilter: options.categoryFilter,
+        sourceFilter: options.sourceFilter,
+      }),
+      fullTextSearch(effectiveQuery, 10).catch(() => []),
+    ]);
+  }
+
+  const fused = hybridUsed
+    ? vectorResults
+    : reciprocalRankFusion(vectorResults, keywordResults);
+
   const deduped = deduplicateChunks(fused);
   const boosted = boostByIntent(deduped, parsed.intent, options.surface);
 
@@ -184,7 +260,7 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
   let finalChunks = boosted;
   if (options.enableRerank !== false) {
     try {
-      finalChunks = await rerankChunks(query, boosted, {
+      finalChunks = await rerankChunks(effectiveQuery, boosted, {
         topN: config.rerankerTopN,
       });
       reranked = true;
@@ -196,6 +272,13 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
   const diverse = enforceSourceDiversity(finalChunks, 3);
   const cited = addCitationMarkers(diverse);
   const truncated = truncateToBudget(cited, options.tokenBudget ?? config.tokenBudget);
+
+  // Build clinical pathway context if a known disease is detected
+  let clinicalPathwayContext: string | null = null;
+  const pathwayKey = parsed.clinicalPathway ?? findPathwayMatch(effectiveQuery, parsed.entities);
+  if (pathwayKey) {
+    clinicalPathwayContext = buildClinicalPathwayContext(pathwayKey);
+  }
 
   let researchArticles: ResearchArticle[] = [];
   if (options.doResearch && (options.surface === 'treatment-protocol')) {
@@ -214,12 +297,14 @@ export async function retrieve(query: string, options: RetrievalOptions): Promis
     query: parsed,
     variants,
     totalTokens: truncated.reduce((sum, c) => sum + countTokens(c.content), 0),
+    clinicalPathwayContext,
     retrievalMetadata: {
       vectorCount: vectorResults.length,
       keywordCount: keywordResults.length,
       afterDedup: deduped.length,
       afterRerank: reranked,
       latencyMs: Date.now() - startTime,
+      hybridUsed,
     },
   };
 }

@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "lookup_latency": {
+      "threshold_ms": 100,
+      "alert_if_exceeds": true
+    },
+    "search_latency": {
+      "threshold_ms": 500,
+      "alert_if_exceeds": true
+    },
+    "embedding_quality": {
+      "threshold": 0.8,
+      "measure": "cosine_similarity_accuracy"
+    },
+    "cache_hit_rate": {
+      "threshold": 0.7,
+      "alert_if_below": true
+    }
+  },
+  "alerting": {
+    "channels": [
+      "email",
+      "pagerduty"
+    ],
+    "recipients": [
+      "ops@ayurvritta.com"
+    ],
+    "cooldown_minutes": 30
+  },
+  "dashboards": {
+    "grafana_url": "https://grafana.ayurvritta.com/d/ita-kb",
+    "refresh_interval": "30s"
+  },
+  "logging": {
+    "level": "INFO",
+    "retention_days": 30,
+    "structured": true
+  }
+}

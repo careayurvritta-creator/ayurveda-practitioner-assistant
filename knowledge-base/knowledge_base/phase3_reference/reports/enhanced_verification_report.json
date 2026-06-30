@@ -1,0 +1,1941 @@
+{
+  "generated_at": "2026-01-07T11:17:28.024823",
+  "statistics": {
+    "total_ita_terms": 3547,
+    "verified_against_references": 151,
+    "corrected_in_phase2": 2911,
+    "self_validated": 453,
+    "unverified": 32,
+    "reference_terms_count": 257
+  },
+  "confidence_breakdown": {
+    "verified": 151,
+    "corrected": 2911,
+    "self_valid": 453,
+    "unverified": 32
+  },
+  "verified_samples": [
+    {
+      "term_id": "ITA-1.1.1",
+      "english": "Ayurveda",
+      "iast": "Āyurvedaḥ",
+      "devanagari": "आयुर्वेदः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "āyurveda",
+        "ref_deva": "आयुर्वेद",
+        "ref_eng": "science of life",
+        "ref_source": "MW",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.2.2",
+      "english": "Salutary life",
+      "iast": "hitāyuḥ",
+      "devanagari": "हितायुः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "hitāyu",
+        "ref_deva": "हितायुः",
+        "ref_eng": "salutary life",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.2.3",
+      "english": "Unsalutary life",
+      "iast": "ahitāyuḥ",
+      "devanagari": "अहितायुः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "ahitāyuḥ",
+        "ref_deva": "अहितायुः",
+        "ref_eng": "unsalutary life",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.2.4",
+      "english": "High quality of life",
+      "iast": "sukhāyuḥ",
+      "devanagari": "सुखायुः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sukhāyu",
+        "ref_deva": "सुखायुः",
+        "ref_eng": "high quality life",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.2.5",
+      "english": "Poor quality of life",
+      "iast": "duḥkhāyuḥ",
+      "devanagari": "दुःखायुः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "duḥkhāyu",
+        "ref_deva": "दुःखायुः",
+        "ref_eng": "poor quality life",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.4.2",
+      "english": "Treatment",
+      "iast": "cikitsā",
+      "devanagari": "चिकित्सा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "cikitsā",
+        "ref_deva": "चिकित्सा",
+        "ref_eng": "treatment, therapy",
+        "ref_source": "MW",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.4.3",
+      "english": "General medicine",
+      "iast": "kāyacikitsā",
+      "devanagari": "कायचिकित्सा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "kāyacikitsā",
+        "ref_deva": "कायचिकित्सा",
+        "ref_eng": "general medicine",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.4.4",
+      "english": "Child and maternal",
+      "iast": "bālacikitsā,",
+      "devanagari": "बालचिकित्सा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "bālacikitsā",
+        "ref_deva": "बालचिकित्सा",
+        "ref_eng": "pediatrics",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.4.5",
+      "english": "Psychiatry",
+      "iast": "grahacikitsā, bhūtavidyā.",
+      "devanagari": "ग्रहचिकित्सा, भूतविद्या",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "grahacikitsā",
+        "ref_deva": "ग्रहचिकित्सा",
+        "ref_eng": "psychiatry",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.4.6",
+      "english": "Head and neck",
+      "iast": "śālakyatantra,",
+      "devanagari": "शालक्यतन्त्र",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "śālakyatantra",
+        "ref_deva": "शालाक्यतन्त्र",
+        "ref_eng": "ENT medicine",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.4.7",
+      "english": "Surgery",
+      "iast": "śalyacikitsā",
+      "devanagari": "शल्यचिकित्सा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "śalyacikitsā",
+        "ref_deva": "शल्यचिकित्सा",
+        "ref_eng": "surgery",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.4.8",
+      "english": "Toxicology",
+      "iast": "viṣacikitsā, garacikitsā",
+      "devanagari": "विषचिकित्सा, गरचिकित्सा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "viṣacikitsā",
+        "ref_deva": "विषचिकित्सा",
+        "ref_eng": "toxicology",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.4.9",
+      "english": "Geriatrics",
+      "iast": "rasāyanacikitsā,",
+      "devanagari": "रसायनचिकित्सा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "rasāyanacikitsā",
+        "ref_deva": "रसायनचिकित्सा",
+        "ref_eng": "geriatrics",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.4.11",
+      "english": "Obstetrics,",
+      "iast": "prasūtītantra, strīroga",
+      "devanagari": "प्रसूतीतन्त्र, स्त्रीरोग",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "strīroga",
+        "ref_deva": "स्त्रीरोग",
+        "ref_eng": "gynecology",
+        "ref_source": "WHO",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.5.1",
+      "english": "Knowledge system",
+      "iast": "śāstram, sūtram,",
+      "devanagari": "शास्त्रम, सूत्रम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sūtra",
+        "ref_deva": "सूत्र",
+        "ref_eng": "aphorism, thread",
+        "ref_source": "MW",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.5.2",
+      "english": "Aphorism, summarized",
+      "iast": "sūtram",
+      "devanagari": "सूत्रम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sūtra",
+        "ref_deva": "सूत्र",
+        "ref_eng": "aphorism, thread",
+        "ref_source": "MW",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.5.4",
+      "english": "Knowledge, discipline",
+      "iast": "vidyā",
+      "devanagari": "विद्या",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "vidyā",
+        "ref_deva": "विद्या",
+        "ref_eng": "knowledge, discipline",
+        "ref_source": "MW",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.5.5",
+      "english": "Understanding,",
+      "iast": "jñānam",
+      "devanagari": "ज्ञानम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "jñāna",
+        "ref_deva": "ज्ञानम्",
+        "ref_eng": "understanding",
+        "ref_source": "MW",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.5.6",
+      "english": "Treatise, structurally",
+      "iast": "tantram",
+      "devanagari": "तन्त्रम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "tantram",
+        "ref_deva": "तन्त्रम्",
+        "ref_eng": "treatise",
+        "ref_source": "MW",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.5.8",
+      "english": "Applied knowledge",
+      "iast": "vijñānam",
+      "devanagari": "विज्ञानम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "vijñāna",
+        "ref_deva": "विज्ञानम्",
+        "ref_eng": "applied knowledge",
+        "ref_source": "MW",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.6.26",
+      "english": "Union, compounding,",
+      "iast": "yogaḥ",
+      "devanagari": "योगः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "yoga",
+        "ref_deva": "योग",
+        "ref_eng": "formulation",
+        "ref_source": "MW",
+        "ref_chapter": "7"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.7.1",
+      "english": "Theory",
+      "iast": "siddhāntaḥ",
+      "devanagari": "सिद्धान्तः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "siddhānta",
+        "ref_deva": "सिद्धान्त",
+        "ref_eng": "established doctrine",
+        "ref_source": "MW",
+        "ref_chapter": "1"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.8.1",
+      "english": "Investigation, examination",
+      "iast": "parīkṣā",
+      "devanagari": "परीक्षा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "parīkṣā",
+        "ref_deva": "परीक्षा",
+        "ref_eng": "examination",
+        "ref_source": "MW",
+        "ref_chapter": "4"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.3.1",
+      "english": "Substance, entity",
+      "iast": "dravyam",
+      "devanagari": "द्रव्यम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "dravya",
+        "ref_deva": "द्रव्य",
+        "ref_eng": "substance, drug",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.3.7.9  Shrub",
+      "english": "",
+      "iast": "gulma",
+      "devanagari": "गुल्म",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "gulma",
+        "ref_deva": "गुल्म",
+        "ref_eng": "abdominal tumor",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.1",
+      "english": "Property, quality or",
+      "iast": "guṇaḥ",
+      "devanagari": "गुणः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "guṇa",
+        "ref_deva": "गुण",
+        "ref_eng": "quality",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.1.3  Taste",
+      "english": "",
+      "iast": "rasaḥ",
+      "devanagari": "रसः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "rasa",
+        "ref_deva": "रस",
+        "ref_eng": "mercurial preparation",
+        "ref_source": "RS",
+        "ref_chapter": "7"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.2",
+      "english": "Heaviness",
+      "iast": "guruḥ",
+      "devanagari": "गुरुः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "guru",
+        "ref_deva": "गुरु",
+        "ref_eng": "heavy",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.3",
+      "english": "Lightness",
+      "iast": "laghuḥ",
+      "devanagari": "लघुः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "laghu",
+        "ref_deva": "लघु",
+        "ref_eng": "light",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.4",
+      "english": "Mildness, slowness",
+      "iast": "mandaḥ",
+      "devanagari": "मन्दः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "manda",
+        "ref_deva": "मन्द",
+        "ref_eng": "slow, dull",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.5",
+      "english": "Sharpness, speed",
+      "iast": "tīkṣṇaḥ",
+      "devanagari": "तीक्ष्णः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "tīkṣṇa",
+        "ref_deva": "तीक्ष्ण",
+        "ref_eng": "sharp, penetrating",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.6",
+      "english": "Coldness",
+      "iast": "śītaḥ",
+      "devanagari": "शीतः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "śīta",
+        "ref_deva": "शीत",
+        "ref_eng": "cold",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.7",
+      "english": "Hotness",
+      "iast": "uṣṇaḥ",
+      "devanagari": "उष्णः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "uṣṇa",
+        "ref_deva": "उष्ण",
+        "ref_eng": "hot",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.8",
+      "english": "Unctuousness,",
+      "iast": "snigdhaḥ",
+      "devanagari": "स्निग्धः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "snigdha",
+        "ref_deva": "स्निग्ध",
+        "ref_eng": "oily, unctuous",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.9",
+      "english": "Dryness",
+      "iast": "rūkṣaḥ",
+      "devanagari": "रूक्षः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "rūkṣa",
+        "ref_deva": "रूक्ष",
+        "ref_eng": "dry",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.10  Smoothness,",
+      "english": "",
+      "iast": "ślakṣṇaḥ",
+      "devanagari": "श्लक्ष्णः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "ślakṣṇa",
+        "ref_deva": "श्लक्ष्ण",
+        "ref_eng": "smooth",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.11  Roughness",
+      "english": "",
+      "iast": "kharaḥ",
+      "devanagari": "खरः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "khara",
+        "ref_deva": "खर",
+        "ref_eng": "rough",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.14  Softness, mildness",
+      "english": "",
+      "iast": "mṛduḥ",
+      "devanagari": "मृदुः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "mṛdu",
+        "ref_deva": "मृदु",
+        "ref_eng": "soft",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.15  Hardness",
+      "english": "",
+      "iast": "kaṭhinaḥ",
+      "devanagari": "कठिनः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "kaṭhina",
+        "ref_deva": "कठिन",
+        "ref_eng": "hard",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.16  Minuteness,",
+      "english": "",
+      "iast": "sūkṣmaḥ",
+      "devanagari": "सूक्ष्मः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sūkṣma",
+        "ref_deva": "सूक्ष्म",
+        "ref_eng": "subtle",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.17  Grossness, bulkiness",
+      "english": "",
+      "iast": "sthūlaḥ",
+      "devanagari": "स्थूलः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sthūla",
+        "ref_deva": "स्थूल",
+        "ref_eng": "gross, bulky",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.18  Stability, immobility",
+      "english": "",
+      "iast": "sthiraḥ",
+      "devanagari": "स्थिरः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sthira",
+        "ref_deva": "स्थिर",
+        "ref_eng": "stable",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.19  Instability, mobility",
+      "english": "",
+      "iast": "saraḥ",
+      "devanagari": "सरः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sara",
+        "ref_deva": "सर",
+        "ref_eng": "flowing, mobile",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.20  Conspicuous-ness,",
+      "english": "",
+      "iast": "viśadaḥ",
+      "devanagari": "विशदः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "viśada",
+        "ref_deva": "विशद",
+        "ref_eng": "clear, non-slimy",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.21  Sliminess, murkiness",
+      "english": "",
+      "iast": "picchilaḥ",
+      "devanagari": "पिच्छिलः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "picchila",
+        "ref_deva": "पिच्छिल",
+        "ref_eng": "slimy",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-1.11.15",
+      "english": "Materials for",
+      "iast": "dravya, auṣadha",
+      "devanagari": "द्रव्य, औषध",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "dravya",
+        "ref_deva": "द्रव्य",
+        "ref_eng": "substance, drug",
+        "ref_source": "MW",
+        "ref_chapter": "6"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.1.1",
+      "english": "Dosha",
+      "iast": "doṣaḥ",
+      "devanagari": "दोषः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "doṣa",
+        "ref_deva": "दोष",
+        "ref_eng": "humor, fault",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.1.1.1",
+      "english": "Vata, dosha regulating",
+      "iast": "vātaḥ",
+      "devanagari": "वातः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "vāta",
+        "ref_deva": "वात",
+        "ref_eng": "wind, vata dosha",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.1.1.2",
+      "english": "Vata, dosha that",
+      "iast": "prāṇaḥ",
+      "devanagari": "प्राणः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "prāṇa",
+        "ref_deva": "प्राण",
+        "ref_eng": "life force, breath",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.1.2.1",
+      "english": "Pitta, dosha regulating",
+      "iast": "pittam",
+      "devanagari": "पित्तम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "pittam",
+        "ref_deva": "पित्तम्",
+        "ref_eng": "bile",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.1.2.5",
+      "english": "Pitta for complexion",
+      "iast": "bhrājakapittam",
+      "devanagari": "भ्राजकपित्तम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "bhrājakapitta",
+        "ref_deva": "भ्राजकपित्त",
+        "ref_eng": "lustrous pitta",
+        "ref_source": "CS",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.1.2.6",
+      "english": "Pitta for intellect",
+      "iast": "sādhakapittam",
+      "devanagari": "साधकपित्तम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sādhakapitta",
+        "ref_deva": "साधकपित्त",
+        "ref_eng": "accomplishing pitta",
+        "ref_source": "CS",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.1.2.13   Thirst",
+      "english": "",
+      "iast": "tṛṣṇā, pipāsā",
+      "devanagari": "तृष्णा, पिपासा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "tṛṣṇā",
+        "ref_deva": "तृष्णा",
+        "ref_eng": "thirst disorder",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.1.3.1",
+      "english": "Kapha, doṣha",
+      "iast": "śleṣmā, kapha",
+      "devanagari": "श्लेष्मा, कफ",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "śleṣmā",
+        "ref_deva": "श्लेष्मा",
+        "ref_eng": "phlegm",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.2.1",
+      "english": "Fundamental structural",
+      "iast": "dhātuḥ",
+      "devanagari": "धातुः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "dhātu",
+        "ref_deva": "धातु",
+        "ref_eng": "tissue, element",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.2.4",
+      "english": "Primary circulating",
+      "iast": "rasa-dhātuḥ, rasaḥ",
+      "devanagari": "रस-धातुः, रसः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "rasa",
+        "ref_deva": "रस",
+        "ref_eng": "mercurial preparation",
+        "ref_source": "RS",
+        "ref_chapter": "7"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.2.18",
+      "english": "Reproductive",
+      "iast": "śukradhātuḥ",
+      "devanagari": "शुक्रधातुः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "śukradhātu",
+        "ref_deva": "शुक्रधातु",
+        "ref_eng": "reproductive tissue",
+        "ref_source": "CS",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.2.25",
+      "english": "Ojas",
+      "iast": "ojas",
+      "devanagari": "ओजस",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "ojas",
+        "ref_deva": "ओजस्",
+        "ref_eng": "vital essence, immunity",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.4.1",
+      "english": "Excretory products",
+      "iast": "malaḥ",
+      "devanagari": "मलः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "mala",
+        "ref_deva": "मल",
+        "ref_eng": "waste, excreta",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.4.3",
+      "english": "Faeces",
+      "iast": "purīṣam, śakṛt, viṭ",
+      "devanagari": "पुरीषम, शकृत, विट",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "purīṣa",
+        "ref_deva": "पुरीष",
+        "ref_eng": "feces",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.4.4",
+      "english": "Urine",
+      "iast": "mūtram",
+      "devanagari": "मूत्रम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "mūtra",
+        "ref_deva": "मूत्र",
+        "ref_eng": "urine",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.4.5",
+      "english": "Sweat",
+      "iast": "svedaḥ",
+      "devanagari": "स्वेदः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sveda",
+        "ref_deva": "स्वेद",
+        "ref_eng": "sweat",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.6.1",
+      "english": "Digestive, metabolic",
+      "iast": "agniḥ",
+      "devanagari": "अग्निः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "agni",
+        "ref_deva": "अग्नि",
+        "ref_eng": "fire, digestive fire",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.6.3",
+      "english": "Metabolic factors",
+      "iast": "jāṭharāgniḥ",
+      "devanagari": "जाठराग्निः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "jāṭharāgni",
+        "ref_deva": "जाठराग्नि",
+        "ref_eng": "gastric fire",
+        "ref_source": "CS",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.6.7",
+      "english": "Transforming factors",
+      "iast": "bhūtāgniḥ",
+      "devanagari": "भूताग्निः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "bhūtāgni",
+        "ref_deva": "भूताग्नि",
+        "ref_eng": "elemental fire",
+        "ref_source": "CS",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.6.8",
+      "english": "Normal state of",
+      "iast": "samāgniḥ",
+      "devanagari": "समाग्निः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "samāgni",
+        "ref_deva": "समाग्नि",
+        "ref_eng": "balanced digestive fire",
+        "ref_source": "CS",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.6.9",
+      "english": "Intense state of",
+      "iast": "tīkṣṇāgniḥ",
+      "devanagari": "तीक्ष्णाग्निः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "tīkṣṇāgni",
+        "ref_deva": "तीक्ष्णाग्नि",
+        "ref_eng": "sharp digestive fire",
+        "ref_source": "CS",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.6.10",
+      "english": "Irregular state of",
+      "iast": "viṣamāgniḥ",
+      "devanagari": "विषमाग्निः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "viṣamāgni",
+        "ref_deva": "विषमाग्नि",
+        "ref_eng": "irregular digestive fire",
+        "ref_source": "CS",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-2.8.1",
+      "english": "An individual’s",
+      "iast": "prakṛtiḥ",
+      "devanagari": "प्रकृतिः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "prakṛti",
+        "ref_deva": "प्रकृति",
+        "ref_eng": "constitution, nature",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.1.2",
+      "english": "Body",
+      "iast": "śarīraḥ, dehaḥ, kāyaḥ,",
+      "devanagari": "शरीरः, देहः, कायः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "śarīra",
+        "ref_deva": "शरीर",
+        "ref_eng": "body",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.1.6",
+      "english": "Body part",
+      "iast": "aṅgaḥ",
+      "devanagari": "अंगः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "aṅga",
+        "ref_deva": "अङ्ग",
+        "ref_eng": "limb, body part",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.2.4.30  Anterior portion",
+      "english": "",
+      "iast": "kaṇṭhaḥ",
+      "devanagari": "कण्ठः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "kaṇṭha",
+        "ref_deva": "कण्ठ",
+        "ref_eng": "throat",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.3.1",
+      "english": "Neck",
+      "iast": "grīvā",
+      "devanagari": "ग्रीवा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "grīvā",
+        "ref_deva": "ग्रीवा",
+        "ref_eng": "neck",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.3.6",
+      "english": "Shoulder",
+      "iast": "aṃsaḥ, skandhaḥ",
+      "devanagari": "अंसः, स्कन्धः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "skandha",
+        "ref_deva": "स्कन्ध",
+        "ref_eng": "shoulder",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.5.1",
+      "english": "Abdomen",
+      "iast": "udaram, kukṣiḥ, jaṭharam",
+      "devanagari": "उदरम, कुक्षिः, जठरम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "udara",
+        "ref_deva": "उदर",
+        "ref_eng": "ascites, abdominal disease",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.7.1",
+      "english": "Anus",
+      "iast": "gudam,",
+      "devanagari": "गुदम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "guda",
+        "ref_deva": "गुदः",
+        "ref_eng": "rectum",
+        "ref_source": "SS",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.7.16",
+      "english": "Back, dorsum",
+      "iast": "pṛṣṭham",
+      "devanagari": "पृष्ठम",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "pṛṣṭha",
+        "ref_deva": "पृष्ठ",
+        "ref_eng": "back",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.8.1",
+      "english": "Upper limb",
+      "iast": "bāhuḥ, bhujā",
+      "devanagari": "बाहुः, भुजा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "bāhu",
+        "ref_deva": "बाहु",
+        "ref_eng": "arm",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.8.10",
+      "english": "Hand, manus",
+      "iast": "pāṇiḥ, karaḥ, hastaḥ",
+      "devanagari": "पाणिः, करः, हस्तः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "hasta",
+        "ref_deva": "हस्त",
+        "ref_eng": "hand",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.8.18",
+      "english": "Digits",
+      "iast": "aṅguliḥ",
+      "devanagari": "अंगुलिः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "aṅguli",
+        "ref_deva": "अङ्गुलि",
+        "ref_eng": "finger",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.9.2",
+      "english": "Thigh",
+      "iast": "ūru",
+      "devanagari": "ऊरु",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "ūru",
+        "ref_deva": "ऊरु",
+        "ref_eng": "thigh",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.9.6",
+      "english": "Knee region",
+      "iast": "jānu",
+      "devanagari": "जानु",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "jānu",
+        "ref_deva": "जानु",
+        "ref_eng": "knee",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.9.7",
+      "english": "Lower leg",
+      "iast": "jaṅghā",
+      "devanagari": "जंघा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "jaṅghā",
+        "ref_deva": "जङ्घा",
+        "ref_eng": "calf, leg",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.9.12",
+      "english": "Foot",
+      "iast": "pādaḥ",
+      "devanagari": "पादः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "pāda",
+        "ref_deva": "पाद",
+        "ref_eng": "foot",
+        "ref_source": "MW",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.13.1",
+      "english": "Bone",
+      "iast": "asthi",
+      "devanagari": "अस्थि",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "asthi",
+        "ref_deva": "अस्थि",
+        "ref_eng": "bone",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.16.4",
+      "english": "Mortal or vulnerable",
+      "iast": "Marma",
+      "devanagari": "मर्म",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "marma",
+        "ref_deva": "मर्म",
+        "ref_eng": "vital point",
+        "ref_source": "SS",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-3.16.18   Vulnerable location(s)",
+      "english": "",
+      "iast": "sadyaḥprāṇaharamarma",
+      "devanagari": "सद्यःप्राणहरमर्म",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sadyaḥprāṇaharamarma",
+        "ref_deva": "सद्यःप्राणहरमर्म",
+        "ref_eng": "immediately fatal marma",
+        "ref_source": "SS",
+        "ref_chapter": "3"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-4.7.4",
+      "english": "Eight methods of",
+      "iast": "aṣṭasthānaparīkṣā",
+      "devanagari": "अष्टस्थानपरीक्षा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "aṣṭasthānaparīkṣā",
+        "ref_deva": "अष्टस्थानपरीक्षा",
+        "ref_eng": "eight-fold examination",
+        "ref_source": "CS",
+        "ref_chapter": "4"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-4.7.5",
+      "english": "Ten domains of",
+      "iast": "daśavidhaparīkṣā",
+      "devanagari": "दशविधपरीक्षा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "daśavidhaparīkṣā",
+        "ref_deva": "दशविधपरीक्षा",
+        "ref_eng": "ten-fold examination",
+        "ref_source": "CS",
+        "ref_chapter": "4"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-4.8.17",
+      "english": "Normal state,",
+      "iast": "prakṛtiḥ",
+      "devanagari": "प्रकृतिः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "prakṛti",
+        "ref_deva": "प्रकृति",
+        "ref_eng": "constitution, nature",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-4.8.18",
+      "english": "Abnormal state",
+      "iast": "vikṛtiḥ",
+      "devanagari": "विकृतिः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "vikṛti",
+        "ref_deva": "विकृति",
+        "ref_eng": "deviation, imbalance",
+        "ref_source": "MW",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-5.1.1",
+      "english": "Disorder",
+      "iast": "vikāraḥ",
+      "devanagari": "विकारः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "vikāra",
+        "ref_deva": "विकार",
+        "ref_eng": "pathological change",
+        "ref_source": "MW",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-5.2.1.24",
+      "english": "Aggravation of vata in",
+      "iast": "sandhigatavātaḥ",
+      "devanagari": "सन्धिगतवातः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "sandhigatavāta",
+        "ref_deva": "सन्धिगतवात",
+        "ref_eng": "osteoarthritis",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-5.6.1",
+      "english": "Fever",
+      "iast": "jvaraḥ",
+      "devanagari": "ज्वरः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "jvara",
+        "ref_deva": "ज्वर",
+        "ref_eng": "fever",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-5.7.1",
+      "english": "Diarrhoea",
+      "iast": "atisāra",
+      "devanagari": "अतिसार",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "atisāra",
+        "ref_deva": "अतिसार",
+        "ref_eng": "diarrhea",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-5.11.3",
+      "english": "Irregular digestive,",
+      "iast": "viṣamāgniḥ",
+      "devanagari": "विषमाग्निः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "viṣamāgni",
+        "ref_deva": "विषमाग्नि",
+        "ref_eng": "irregular digestive fire",
+        "ref_source": "CS",
+        "ref_chapter": "2"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-5.18.1",
+      "english": "Cough",
+      "iast": "kāsaḥ",
+      "devanagari": "कासः",
+      "was_corrected": false,
+      "matched": true,
+      "match_info": {
+        "matched_form": "kāsa",
+        "ref_deva": "कास",
+        "ref_eng": "cough",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-5.20.1",
+      "english": "Dyspnoea",
+      "iast": "śvāsaḥ",
+      "devanagari": "श्वासः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "śvāsa",
+        "ref_deva": "श्वास",
+        "ref_eng": "asthma, dyspnea",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-5.23.1",
+      "english": "Vomiting",
+      "iast": "chardiḥ",
+      "devanagari": "छर्दिः",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "chardi",
+        "ref_deva": "छर्दि",
+        "ref_eng": "vomiting",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    },
+    {
+      "term_id": "ITA-5.24.1",
+      "english": "Morbid thirst",
+      "iast": "tṛṣṇā",
+      "devanagari": "तृष्णा",
+      "was_corrected": true,
+      "matched": true,
+      "match_info": {
+        "matched_form": "tṛṣṇā",
+        "ref_deva": "तृष्णा",
+        "ref_eng": "thirst disorder",
+        "ref_source": "CS",
+        "ref_chapter": "5"
+      },
+      "confidence": "verified"
+    }
+  ],
+  "unverified_samples": [
+    {
+      "term_id": "ITA-1.2.1",
+      "english": "Life process, cycle or",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-1.9.3.1.3",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-1.9.3.1.4",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-1.9.3.1.5",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-1.9.3.1.6",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-1.9.3.1.7",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-1.9.3.1.8",
+      "english": "element",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-2.1.2.3",
+      "english": "Colouring pitta",
+      "iast": "",
+      "devanagari": "रञ्जकपितम",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-2.6.17",
+      "english": "Metabolic factors",
+      "iast": "",
+      "devanagari": "मज्जधात्व्नि",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-2.9.1",
+      "english": "",
+      "iast": "",
+      "devanagari": "vayaḥ/kālaḥ",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-3.2.4.1",
+      "english": "",
+      "iast": "",
+      "devanagari": "mukham, vaktram,",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-3.2.4.2",
+      "english": "",
+      "iast": "",
+      "devanagari": "vadanāntaram,",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-3.2.4.3",
+      "english": "",
+      "iast": "",
+      "devanagari": "ānanam",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-3.2.4.4",
+      "english": "",
+      "iast": "",
+      "devanagari": "kapolaḥ, gaṇḍaḥ, gallaḥ",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-3.2.4.5",
+      "english": "",
+      "iast": "",
+      "devanagari": "cibukam",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-3.2.4.6",
+      "english": "",
+      "iast": "",
+      "devanagari": "oṣṭhaḥ, daśanacchadau",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-3.2.4.7",
+      "english": "",
+      "iast": "",
+      "devanagari": "adharaḥ, adharauṣṭhaḥ",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-3.2.4.8",
+      "english": "",
+      "iast": "",
+      "devanagari": "uttarauṣṭhaḥ",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-3.2.4.9",
+      "english": "",
+      "iast": "",
+      "devanagari": "sṛkkaṇī, oṣṭhaprāntaḥ",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-4.2.1",
+      "english": "Disease",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-4.4.1",
+      "english": "Etiology",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-4.5.5",
+      "english": "Signs and symptoms",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-5.74.1",
+      "english": "",
+      "iast": "",
+      "devanagari": "āhāravaiṣamyam",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-6.1.1",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-6.1.4",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-6.1.5",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-6.1.7",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-6.1.8",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-6.1.11",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-6.1.13",
+      "english": "food, health practices",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-6.2.1",
+      "english": "therapeutic principles",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    },
+    {
+      "term_id": "ITA-10.2.13",
+      "english": "",
+      "iast": "",
+      "devanagari": "",
+      "was_corrected": false,
+      "matched": false,
+      "match_info": null,
+      "confidence": "unverified"
+    }
+  ]
+}

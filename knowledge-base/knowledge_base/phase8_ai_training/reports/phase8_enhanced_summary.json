@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-01-07T13:38:28.639729",
+  "version": "2.0_enhanced",
+  "statistics": {
+    "qa_pairs": 11408,
+    "conversations": 130,
+    "few_shot_examples": 150,
+    "context_chunks": 52,
+    "rag_documents": 2498,
+    "system_prompts": 3,
+    "validation_terms": 359,
+    "golden_tests": 100
+  },
+  "improvements": [
+    "Fixed dosha questions using entity data",
+    "Skipped terms with empty Sanskrit",
+    "Better answer formatting",
+    "Added clinical case Q&A",
+    "Enhanced few-shot with dosha categories"
+  ]
+}

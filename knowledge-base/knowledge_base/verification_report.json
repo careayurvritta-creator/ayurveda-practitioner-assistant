@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-01-07T13:56:49.660688",
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Data Extraction",
+      "status": "ISSUES",
+      "stats": {},
+      "issues": [
+        "Missing raw_who_ita_data.json"
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "Sanskrit Error Detection",
+      "status": "ISSUES",
+      "stats": {},
+      "issues": [
+        "Missing error_report.json"
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Reference Integration",
+      "status": "PASS",
+      "stats": {
+        "cross_references.json": "missing",
+        "enhanced_verification_results.json": "missing"
+      },
+      "issues": []
+    },
+    {
+      "phase": 4,
+      "name": "Correction Engine",
+      "status": "ISSUES",
+      "stats": {},
+      "issues": [
+        "Missing correction_summary.json"
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "Normalization",
+      "status": "PASS",
+      "stats": {
+        "total_terms": 3547,
+        "complete_sanskrit": 3515,
+        "incomplete_sanskrit": 32
+      },
+      "issues": []
+    },
+    {
+      "phase": 6,
+      "name": "Quality Assurance",
+      "status": "PASS",
+      "stats": {
+        "grade": "N/A",
+        "score": 0
+      },
+      "issues": []
+    },
+    {
+      "phase": 7,
+      "name": "Knowledge Graph",
+      "status": "PASS",
+      "stats": {
+        "nodes": 3547,
+        "edges": 158698,
+        "visualization": "present"
+      },
+      "issues": []
+    },
+    {
+      "phase": 8,
+      "name": "AI Training Data",
+      "status": "PASS",
+      "stats": {
+        "qa_pairs": 11408,
+        "golden_tests": 100
+      },
+      "issues": []
+    },
+    {
+      "phase": 9,
+      "name": "Integration",
+      "status": "PASS",
+      "stats": {
+        "api_files": 11,
+        "frontend_files": 4,
+        "bundle_terms": 2498
+      },
+      "issues": []
+    },
+    {
+      "phase": 10,
+      "name": "Maintenance",
+      "status": "PASS",
+      "stats": {
+        "reports": 5,
+        "backups": 1,
+        "version": "1.0.0"
+      },
+      "issues": []
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "total": 10,
+    "status": "ISSUES_FOUND"
+  }
+}

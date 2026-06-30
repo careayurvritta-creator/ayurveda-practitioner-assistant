@@ -1,0 +1,18 @@
+{
+  "current": "1.0.0",
+  "checksum": "75bcd255ae9a7e54",
+  "term_count": 3547,
+  "history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-01-07",
+      "changes": [
+        "Initial release with 3,547 WHO ITA terms",
+        "Completed 10-phase processing pipeline",
+        "Grade A+ validation (96.72%)",
+        "Knowledge graph with 158,698 edges"
+      ]
+    }
+  ],
+  "changelog_url": "/docs/CHANGELOG.md"
+}

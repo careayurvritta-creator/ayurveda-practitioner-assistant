@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-01-07T11:11:27.598434",
+  "phase_3_statistics": {
+    "mw_matches": 4,
+    "mw_verified": 3,
+    "apte_matches": 9,
+    "specialized_ayurveda": 3538,
+    "variants_found": 1,
+    "api_matches": 1,
+    "pharma_terms": 119,
+    "cs_matches": 4,
+    "ss_matches": 0,
+    "ah_matches": 9,
+    "ccras_aligned": 3547,
+    "total_indexed": 3547,
+    "verified": 10
+  },
+  "verification_coverage": "10/3547 (0%)",
+  "confidence_breakdown": {
+    "high": 10,
+    "medium": 3025,
+    "low": 512
+  },
+  "reference_sources_used": [
+    "MW",
+    "CS",
+    "SS",
+    "AH",
+    "AF",
+    "RS",
+    "API",
+    "WHO"
+  ]
+}

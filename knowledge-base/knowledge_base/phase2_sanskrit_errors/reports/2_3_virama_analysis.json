@@ -1,0 +1,416 @@
+{
+  "virama_error_count": 35,
+  "excessive_virama_count": 22,
+  "unique_conjuncts": 305,
+  "top_conjuncts": {
+    "प्र": 228,
+    "क्ष": 173,
+    "व्य": 157,
+    "न्ध": 122,
+    "स्थ": 119,
+    "त्स": 101,
+    "स्त": 100,
+    "व्र": 89,
+    "स्र": 80,
+    "न्त": 76,
+    "ग्र": 73,
+    "द्र": 73,
+    "न्द": 60,
+    "न्म": 58,
+    "द्ध": 58,
+    "ष्ट": 55,
+    "ष्ठ": 46,
+    "ज्व": 46,
+    "ण्ड": 43,
+    "क्त": 39,
+    "ञ्ज": 37,
+    "स्म": 37,
+    "स्द": 36,
+    "ङ्ग": 35,
+    "त्त": 34,
+    "न्य": 33,
+    "स्क": 30,
+    "म्म": 30,
+    "म्भ": 29,
+    "स्व": 24,
+    "त्म": 22,
+    "ष्ण": 22,
+    "न्थ": 21,
+    "ध्म": 20,
+    "थ्य": 20,
+    "स्य": 20,
+    "त्व": 19,
+    "ज्ञ": 18,
+    "ष्म": 18,
+    "श्म": 18,
+    "ग्न": 18,
+    "क्ल": 18,
+    "त्य": 17,
+    "ल्म": 17,
+    "ण्ल": 17,
+    "ह्व": 17,
+    "ग्ध": 16,
+    "ल्य": 15,
+    "त्र": 15,
+    "च्छ": 15
+  },
+  "virama_errors": [
+    {
+      "row": 650,
+      "term_id": "ITA-1.7.8",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "थप््ति"
+    },
+    {
+      "row": 797,
+      "term_id": "ITA-1.8.2.25   Invariable",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्या्ति"
+    },
+    {
+      "row": 800,
+      "term_id": "ITA-1.8.2.26   Negative invariable",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्या्ति"
+    },
+    {
+      "row": 977,
+      "term_id": "ITA-1.9.3.2.27  Liberation in the",
+      "error": "Virama after non-consonant",
+      "prev_char": "ु",
+      "context": "न्ु्ति"
+    },
+    {
+      "row": 1670,
+      "term_id": "",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "्थ््नि,"
+    },
+    {
+      "row": 1695,
+      "term_id": "ITA-2.6.11",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्दा्नि"
+    },
+    {
+      "row": 2222,
+      "term_id": "ITA-3.1.20",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "ऊर््ायः"
+    },
+    {
+      "row": 2391,
+      "term_id": "ITA-3.2.4.17  Teeth in the",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "पङ््ति"
+    },
+    {
+      "row": 2454,
+      "term_id": "ITA-3.3.14",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "ऊर््रिक"
+    },
+    {
+      "row": 2523,
+      "term_id": "",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्मा्"
+    },
+    {
+      "row": 3298,
+      "term_id": "ITA-4.2.27",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "पन््तरो"
+    },
+    {
+      "row": 3302,
+      "term_id": "ITA-4.2.28",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "पन््तरो"
+    },
+    {
+      "row": 3525,
+      "term_id": "ITA-4.5.16",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "्प््ति,"
+    },
+    {
+      "row": 3529,
+      "term_id": "ITA-4.5.18",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3531,
+      "term_id": "ITA-4.5.19",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3533,
+      "term_id": "ITA-4.5.20",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3540,
+      "term_id": "ITA-4.5.21",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3542,
+      "term_id": "ITA-4.5.22",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3544,
+      "term_id": "ITA-4.5.23",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3611,
+      "term_id": "ITA-4.6.11",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "व््ति"
+    },
+    {
+      "row": 4057,
+      "term_id": "ITA-5.2.1.58",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "ऊर््ातः"
+    },
+    {
+      "row": 4687,
+      "term_id": "ITA-5.6.17",
+      "error": "Virama after non-consonant",
+      "prev_char": "ु",
+      "context": "द्ु्कवि"
+    },
+    {
+      "row": 5164,
+      "term_id": "ITA-5.11.1",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्दा्नि"
+    },
+    {
+      "row": 9195,
+      "term_id": "ITA-5.66.47   Pterygium",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्ता्"
+    },
+    {
+      "row": 9335,
+      "term_id": "ITA-5.66.75   Granuloma or",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्का्/लो"
+    },
+    {
+      "row": 9353,
+      "term_id": "ITA-5.66.79   Lid abscess",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "वर््ममः"
+    },
+    {
+      "row": 10496,
+      "term_id": "",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्या्नम "
+    },
+    {
+      "row": 10638,
+      "term_id": "ITA-5.76.34",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "ऊर््ाता"
+    },
+    {
+      "row": 10997,
+      "term_id": "ITA-5.76.103   Condition caused by",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्दा्"
+    },
+    {
+      "row": 11052,
+      "term_id": "",
+      "error": "Virama after non-consonant",
+      "prev_char": "ा",
+      "context": "्का्ा"
+    },
+    {
+      "row": 12021,
+      "term_id": "ITA-6.2.6.74  Substance promoting",
+      "error": "Virama after non-consonant",
+      "prev_char": "ै",
+      "context": "स्ै्यः"
+    },
+    {
+      "row": 12140,
+      "term_id": "ITA-7.1.2.3",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "मर््म"
+    },
+    {
+      "row": 13576,
+      "term_id": "",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "तर््िकि"
+    },
+    {
+      "row": 14589,
+      "term_id": "ITA-9.8.20",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "वर््"
+    },
+    {
+      "row": 14634,
+      "term_id": "ITA-9.9.16",
+      "error": "Virama after non-consonant",
+      "prev_char": "्",
+      "context": "ईर््ः"
+    }
+  ],
+  "excessive_viramas": [
+    {
+      "row": 650,
+      "term_id": "ITA-1.7.8",
+      "context": "थप््ति"
+    },
+    {
+      "row": 1670,
+      "term_id": "",
+      "context": "्थ््नि"
+    },
+    {
+      "row": 2222,
+      "term_id": "ITA-3.1.20",
+      "context": "ऊर््ाय"
+    },
+    {
+      "row": 2391,
+      "term_id": "ITA-3.2.4.17  Teeth in the",
+      "context": "पङ््ति"
+    },
+    {
+      "row": 2454,
+      "term_id": "ITA-3.3.14",
+      "context": "ऊर््रि"
+    },
+    {
+      "row": 3298,
+      "term_id": "ITA-4.2.27",
+      "context": "पन््तर"
+    },
+    {
+      "row": 3302,
+      "term_id": "ITA-4.2.28",
+      "context": "पन््तर"
+    },
+    {
+      "row": 3525,
+      "term_id": "ITA-4.5.16",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3529,
+      "term_id": "ITA-4.5.18",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3531,
+      "term_id": "ITA-4.5.19",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3533,
+      "term_id": "ITA-4.5.20",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3540,
+      "term_id": "ITA-4.5.21",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3542,
+      "term_id": "ITA-4.5.22",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3544,
+      "term_id": "ITA-4.5.23",
+      "context": "्प््ति"
+    },
+    {
+      "row": 3611,
+      "term_id": "ITA-4.6.11",
+      "context": "व््ति"
+    },
+    {
+      "row": 4057,
+      "term_id": "ITA-5.2.1.58",
+      "context": "ऊर््ात"
+    },
+    {
+      "row": 9353,
+      "term_id": "ITA-5.66.79   Lid abscess",
+      "context": "वर््मम"
+    },
+    {
+      "row": 10638,
+      "term_id": "ITA-5.76.34",
+      "context": "ऊर््ात"
+    },
+    {
+      "row": 12140,
+      "term_id": "ITA-7.1.2.3",
+      "context": "मर््म"
+    },
+    {
+      "row": 13576,
+      "term_id": "",
+      "context": "तर््िक"
+    },
+    {
+      "row": 14589,
+      "term_id": "ITA-9.8.20",
+      "context": "वर््"
+    },
+    {
+      "row": 14634,
+      "term_id": "ITA-9.9.16",
+      "context": "ईर््ः"
+    }
+  ]
+}

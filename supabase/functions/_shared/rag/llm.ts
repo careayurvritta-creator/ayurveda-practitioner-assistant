@@ -4,6 +4,12 @@ const GEMINI_API_KEY = Deno.env.get('GEMINI_API_KEY');
 const NVIDIA_BASE_URL = 'https://integrate.api.nvidia.com/v1';
 const GEMINI_BASE_URL = 'https://generativelanguage.googleapis.com/v1beta';
 
+// Fallback models if primary fails
+const FALLBACK_MODELS: Record<string, string> = {
+  'moonshotai/kimi-k2.6': 'nvidia/llama-3.3-nemotron-super-49b-v1.5',
+  'nvidia/llama-3.3-nemotron-super-49b-v1.5': 'nvidia/llama-3.1-nemotron-70b-instruct',
+};
+
 export type LLMProvider = 'nvidia' | 'gemini';
 
 export interface LLMResponse {
@@ -26,11 +32,19 @@ function countMessagesTokens(messages: Array<{ role: string; content: string }>)
   return messages.reduce((sum, m) => sum + countTokens(m.content) + 4, 0);
 }
 
+/**
+ * Delay helper for retry logic with exponential backoff.
+ */
+function delay(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 export async function* streamNVIDIA(
   model: string,
   system: string,
   messages: Array<{ role: string; content: string }>,
-  maxTokens: number
+  maxTokens: number,
+  attempt: number = 0
 ): AsyncGenerator<StreamPart> {
   if (!NVIDIA_API_KEY) {
     yield { type: 'error', error: 'NVIDIA_API_KEY is not configured' };
@@ -43,6 +57,10 @@ export async function* streamNVIDIA(
     apiMessages.push({ role: m.role, content: m.content });
   }
 
+  // Adaptive temperature: 0.5 for more natural responses (was 0.3)
+  // top_p: 0.9 for diverse but coherent responses
+  // frequency_penalty: 0.1 to reduce repetition
+  // presence_penalty: 0.1 to encourage new topics
   const res = await fetch(`${NVIDIA_BASE_URL}/chat/completions`, {
     method: 'POST',
     headers: {
@@ -53,10 +71,23 @@ export async function* streamNVIDIA(
       model,
       messages: apiMessages,
       max_tokens: maxTokens,
-      temperature: 0.3,
+      temperature: 0.5,
+      top_p: 0.9,
+      frequency_penalty: 0.1,
+      presence_penalty: 0.1,
       stream: true,
     }),
   });
+
+  // Retry on transient errors (429, 502, 503, 504)
+  if (!res.ok && [429, 502, 503, 504].includes(res.status) && attempt < 2) {
+    const retryAfter = res.headers.get('retry-after');
+    const waitMs = retryAfter ? parseInt(retryAfter) * 1000 : (attempt + 1) * 2000;
+    console.warn(`NVIDIA ${res.status} — retrying in ${waitMs}ms (attempt ${attempt + 1}/3)`);
+    await delay(waitMs);
+    yield* streamNVIDIA(model, system, messages, maxTokens, attempt + 1);
+    return;
+  }
 
   if (!res.ok) {
     const err = await res.text();
@@ -117,7 +148,14 @@ export async function* streamGemini(
       'Content-Type': 'application/json',
       'x-goog-api-key': GEMINI_API_KEY,
     },
-    body: JSON.stringify({ contents, generationConfig: { maxOutputTokens: maxTokens, temperature: 0.3 } }),
+    body: JSON.stringify({
+      contents,
+      generationConfig: {
+        maxOutputTokens: maxTokens,
+        temperature: 0.5,
+        topP: 0.9,
+      },
+    }),
   });
 
   if (!res.ok) {
@@ -188,6 +226,13 @@ export function resolveModel(requested?: string): { provider: LLMProvider; model
   return { provider: 'nvidia', model: `moonshotai/${effective}` };
 }
 
+/**
+ * Get a fallback model for the given model if the primary fails.
+ */
+function getFallbackModel(model: string): string | undefined {
+  return FALLBACK_MODELS[model];
+}
+
 export async function* streamLLM(
   model: string | undefined,
   system: string,
@@ -195,9 +240,31 @@ export async function* streamLLM(
   maxTokens: number
 ): AsyncGenerator<StreamPart> {
   const resolved = resolveModel(model);
+
+  // Try primary model first
+  let hasError = false;
+  let errorContent = '';
+
   if (resolved.provider === 'gemini') {
     yield* streamGemini(resolved.model, system, messages, maxTokens);
   } else {
-    yield* streamNVIDIA(resolved.model, system, messages, maxTokens);
+    const gen = streamNVIDIA(resolved.model, system, messages, maxTokens);
+    for await (const part of gen) {
+      if (part.type === 'error') {
+        hasError = true;
+        errorContent = part.error || 'Unknown error';
+      }
+      yield part;
+      if (part.type === 'done' || part.type === 'error') break;
+    }
+  }
+
+  // If we got an error and have a fallback model, try it
+  if (hasError && resolved.provider === 'nvidia') {
+    const fallback = getFallbackModel(resolved.model);
+    if (fallback) {
+      console.warn(`Primary model ${resolved.model} failed (${errorContent}), trying fallback: ${fallback}`);
+      yield* streamNVIDIA(fallback, system, messages, maxTokens);
+    }
   }
 }

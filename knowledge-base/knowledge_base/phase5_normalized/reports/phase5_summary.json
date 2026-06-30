@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-01-07T11:32:50.159877",
+  "phase": 5,
+  "statistics": {
+    "total_terms": 3547,
+    "term_id_standardized": 1021,
+    "english_normalized": 111,
+    "description_cleaned": 0,
+    "iast_normalized": 8,
+    "devanagari_normalized": 0,
+    "cross_references_built": 3508,
+    "abbreviations_expanded": 0
+  },
+  "domain_distribution": {
+    "general": 277,
+    "therapeutics": 575,
+    "pathology": 1053,
+    "pharmacology": 576,
+    "anatomy": 526,
+    "physiology": 480,
+    "diagnostics": 167,
+    "philosophy": 128,
+    "dietetics": 166
+  },
+  "chapter_distribution": {
+    "1": 323,
+    "2": 207,
+    "3": 438,
+    "4": 160,
+    "5": 1297,
+    "6": 127,
+    "7": 195,
+    "8": 113,
+    "9": 661,
+    "10": 26
+  }
+}

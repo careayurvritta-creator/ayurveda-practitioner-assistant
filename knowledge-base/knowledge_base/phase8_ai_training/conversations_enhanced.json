@@ -1,0 +1,3405 @@
+{
+  "count": 130,
+  "conversations": [
+    {
+      "id": "conv_ITA-5.1.1",
+      "type": "diagnostic_inquiry",
+      "topic": "Disorder",
+      "ita_code": "ITA-5.1.1",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Disorder according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Disorder** (vikāraḥ / विकारः)\n\n**WHO ITA Code:** ITA-5.1.1\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Disorder** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1",
+      "type": "diagnostic_inquiry",
+      "topic": "Derangement",
+      "ita_code": "ITA-5.2.1",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Derangement according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Derangement** (doṣavaiṣamyam / दोषवैषम्यम)\n\n**WHO ITA Code:** ITA-5.2.1\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Derangement** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.2",
+      "type": "diagnostic_inquiry",
+      "topic": "State of dosha",
+      "ita_code": "ITA-5.2.2",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain State of dosha according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**State of dosha** (doṣāvasthā / दोषावस्था)\n\n**WHO ITA Code:** ITA-5.2.2\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **State of dosha** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.1",
+      "type": "diagnostic_inquiry",
+      "topic": "Accumulation of vata",
+      "ita_code": "ITA-5.2.1.1",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Accumulation of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Accumulation of vata** (vātasañcayaḥ / वातसञ्चयः)\n\n**WHO ITA Code:** ITA-5.2.1.1\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Accumulation of vata** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.2",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of vata",
+      "ita_code": "ITA-5.2.1.2",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of vata** (vātaprakopaḥ/ / वातप्रकोपः/)\n\n**WHO ITA Code:** ITA-5.2.1.2\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of vata** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.3",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation",
+      "ita_code": "ITA-5.2.1.3",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation** (prāṇavātakopaḥ / प्राणवातकोपः)\n\n**WHO ITA Code:** ITA-5.2.1.3\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.4",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (udānavātakopaḥ / उदानवातकोपः)\n\n**WHO ITA Code:** ITA-5.2.1.4\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.5",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.5",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (vyānavātakopaḥ / व्यानवातकोपः)\n\n**WHO ITA Code:** ITA-5.2.1.5\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.6",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.6",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (samānavātakopaḥ / समानवातकोपः)\n\n**WHO ITA Code:** ITA-5.2.1.6\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.7",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.7",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (apānavātakopaḥ / अपानवातकोपः)\n\n**WHO ITA Code:** ITA-5.2.1.7\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.8",
+      "type": "diagnostic_inquiry",
+      "topic": "Spreading of vata",
+      "ita_code": "ITA-5.2.1.8",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Spreading of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Spreading of vata** (vātaprasaraṇam / वातप्रसरणम)\n\n**WHO ITA Code:** ITA-5.2.1.8\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Spreading of vata** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.9",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of vata",
+      "ita_code": "ITA-5.2.1.9",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of vata** (vātakṣayaḥ / वातक्षयः)\n\n**WHO ITA Code:** ITA-5.2.1.9\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of vata** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.10",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.10",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of vata in** (koṣṭhāśritavātakopaḥ / कोष्ठाश्रितवातकोपः)\n\n**WHO ITA Code:** ITA-5.2.1.10\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of vata in** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.11",
+      "type": "diagnostic_inquiry",
+      "topic": "",
+      "ita_code": "ITA-5.2.1.11",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain  according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**** (gudasthitavātaḥ / गुदस्थितवातः)\n\n**WHO ITA Code:** ITA-5.2.1.11\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.12",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.12",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (āmāśayagatavātaḥ / आमाशयगतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.12\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.13",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.13",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (pakvāśayagatavātaḥ / पक्वाशयगतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.13\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.14",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.14",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of vata in** (Jñnendriyagatavata/ / ज्ननेन्द्रियगतवत/)\n\n**WHO ITA Code:** ITA-5.2.1.14\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of vata in** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.15",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.15",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (tvakgatavātaḥ / त्वक्गतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.15\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.16",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.16",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (asṛggatavātaḥ/ / असृग्गतवातः/)\n\n**WHO ITA Code:** ITA-5.2.1.16\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.17",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.17",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (māṃsagatavātaḥ / मांसगतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.17\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.18",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.18",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of vata in** (medogatavātaḥ / मेदोगतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.18\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of vata in** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.19",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of",
+      "ita_code": "ITA-5.2.1.19",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of** (asthigatavātaḥ / अस्थिगतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.19\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.20",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.20",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of vata in** (majjāgatavātaḥ / मज्जागतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.20\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of vata in** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.21",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.21",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of vata in** (śukragatavātaḥ / शुक्रगतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.21\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of vata in** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.22",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of vata",
+      "ita_code": "ITA-5.2.1.22",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of vata** (snāyugatavātaḥ / स्नायुगतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.22\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of vata** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.23",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.23",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of vata in** (sirāgatavātaḥ / सिरागतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.23\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of vata in** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.24",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of vata in",
+      "ita_code": "ITA-5.2.1.24",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of vata in according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of vata in** (sandhigatavātaḥ / सन्धिगतवातः)\n\n**WHO ITA Code:** ITA-5.2.1.24\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of vata in** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.25",
+      "type": "diagnostic_inquiry",
+      "topic": "Convulsions",
+      "ita_code": "ITA-5.2.1.25",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Convulsions according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Convulsions** (ākṣepakaḥ / आक्षेपकः)\n\n**WHO ITA Code:** ITA-5.2.1.25\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Convulsions** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.26",
+      "type": "diagnostic_inquiry",
+      "topic": "Tonic convulsion",
+      "ita_code": "ITA-5.2.1.26",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Tonic convulsion according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Tonic convulsion** (daṇḍakaḥ / दण्डकः)\n\n**WHO ITA Code:** ITA-5.2.1.26\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Tonic convulsion** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.27",
+      "type": "diagnostic_inquiry",
+      "topic": "Convulsive fit",
+      "ita_code": "ITA-5.2.1.27",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Convulsive fit according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Convulsive fit** (apatantrakaḥ / अपतन्त्रकः)\n\n**WHO ITA Code:** ITA-5.2.1.27\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Convulsive fit** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.28",
+      "type": "diagnostic_inquiry",
+      "topic": "Orthotonus",
+      "ita_code": "ITA-5.2.1.28",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Orthotonus according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Orthotonus** (apatānakaḥ / अपतानकः)\n\n**WHO ITA Code:** ITA-5.2.1.28\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Orthotonus** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.29",
+      "type": "diagnostic_inquiry",
+      "topic": "Orthotonus with rod",
+      "ita_code": "ITA-5.2.1.29",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Orthotonus with rod according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Orthotonus with rod** (daṇḍāpatānakaḥ / दण्डापतानकः)\n\n**WHO ITA Code:** ITA-5.2.1.29\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Orthotonus with rod** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.30",
+      "type": "diagnostic_inquiry",
+      "topic": "Opisthotonus",
+      "ita_code": "ITA-5.2.1.30",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Opisthotonus according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Opisthotonus** (bahirāyāmaḥ/ / बहिरायामः/)\n\n**WHO ITA Code:** ITA-5.2.1.30\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Opisthotonus** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.31",
+      "type": "diagnostic_inquiry",
+      "topic": "Hemiplegia",
+      "ita_code": "ITA-5.2.1.31",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Hemiplegia according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Hemiplegia** (pakṣāghātaḥ/ / पक्षाघातः/)\n\n**WHO ITA Code:** ITA-5.2.1.31\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Hemiplegia** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.32",
+      "type": "diagnostic_inquiry",
+      "topic": "Paraparesis",
+      "ita_code": "ITA-5.2.1.32",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Paraparesis according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Paraparesis** (sarvāṅgavātaḥ/ / सर्वांगवातः/)\n\n**WHO ITA Code:** ITA-5.2.1.32\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Paraparesis** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.33",
+      "type": "diagnostic_inquiry",
+      "topic": "Facial paralysis",
+      "ita_code": "ITA-5.2.1.33",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Facial paralysis according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Facial paralysis** (arditaḥ / अर्दितः)\n\n**WHO ITA Code:** ITA-5.2.1.33\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Facial paralysis** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.34",
+      "type": "diagnostic_inquiry",
+      "topic": "Lockjaw; trismus",
+      "ita_code": "ITA-5.2.1.34",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Lockjaw; trismus according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Lockjaw; trismus** (hanugrahaḥ / हनुग्रहः)\n\n**WHO ITA Code:** ITA-5.2.1.34\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Lockjaw; trismus** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.35",
+      "type": "diagnostic_inquiry",
+      "topic": "Wry neck; torticollis",
+      "ita_code": "ITA-5.2.1.35",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Wry neck; torticollis according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Wry neck; torticollis** (manyāstambhaḥ / मञास्तम्भः)\n\n**WHO ITA Code:** ITA-5.2.1.35\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Wry neck; torticollis** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.36",
+      "type": "diagnostic_inquiry",
+      "topic": "Rigid tongue",
+      "ita_code": "ITA-5.2.1.36",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Rigid tongue according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Rigid tongue** (jihvāstambhaḥ / जिह्वास्तम्भः)\n\n**WHO ITA Code:** ITA-5.2.1.36\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Rigid tongue** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.37",
+      "type": "diagnostic_inquiry",
+      "topic": "Obstructed",
+      "ita_code": "ITA-5.2.1.37",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Obstructed according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Obstructed** (sirāgrahaḥ / सिराग्रहः)\n\n**WHO ITA Code:** ITA-5.2.1.37\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Obstructed** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.38",
+      "type": "diagnostic_inquiry",
+      "topic": "Sciatica",
+      "ita_code": "ITA-5.2.1.38",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Sciatica according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Sciatica** (gṛdhrasī / गृध्रसी)\n\n**WHO ITA Code:** ITA-5.2.1.38\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Sciatica** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.39",
+      "type": "diagnostic_inquiry",
+      "topic": "Brachial neuralgia",
+      "ita_code": "ITA-5.2.1.39",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Brachial neuralgia according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Brachial neuralgia** (viśvācī / विश्वाची)\n\n**WHO ITA Code:** ITA-5.2.1.39\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Brachial neuralgia** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.40",
+      "type": "diagnostic_inquiry",
+      "topic": "Synovitis of the knee",
+      "ita_code": "ITA-5.2.1.40",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Synovitis of the knee according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Synovitis of the knee** (kroṣṭukaśīrṣaḥ / क्रोष्टुकशीर्षः)\n\n**WHO ITA Code:** ITA-5.2.1.40\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Synovitis of the knee** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.41",
+      "type": "diagnostic_inquiry",
+      "topic": "Lameness",
+      "ita_code": "ITA-5.2.1.41",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Lameness according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Lameness** (khañjaḥ / खञ्जः)\n\n**WHO ITA Code:** ITA-5.2.1.41\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Lameness** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.42",
+      "type": "diagnostic_inquiry",
+      "topic": "Paraplegia",
+      "ita_code": "ITA-5.2.1.42",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Paraplegia according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Paraplegia** (paṅguḥ / पंगुः)\n\n**WHO ITA Code:** ITA-5.2.1.42\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Paraplegia** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.43",
+      "type": "diagnostic_inquiry",
+      "topic": "Kesari palsy",
+      "ita_code": "ITA-5.2.1.43",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Kesari palsy according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Kesari palsy** (kalāyakhañjaḥ / कलायखञ्जः)\n\n**WHO ITA Code:** ITA-5.2.1.43\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Kesari palsy** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.44",
+      "type": "diagnostic_inquiry",
+      "topic": "Pain specific to heels",
+      "ita_code": "ITA-5.2.1.44",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Pain specific to heels according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Pain specific to heels** (vātakhuḍḍatā/ / वातखुड्डता/)\n\n**WHO ITA Code:** ITA-5.2.1.44\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Pain specific to heels** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.45",
+      "type": "diagnostic_inquiry",
+      "topic": "Burning feet",
+      "ita_code": "ITA-5.2.1.45",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Burning feet according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Burning feet** (pādadāhaḥ / पाददाहः)\n\n**WHO ITA Code:** ITA-5.2.1.45\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Burning feet** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.46",
+      "type": "diagnostic_inquiry",
+      "topic": "Peripheral neuritis",
+      "ita_code": "ITA-5.2.1.46",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Peripheral neuritis according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Peripheral neuritis** (pādaharṣaḥ / पादहर्षः)\n\n**WHO ITA Code:** ITA-5.2.1.46\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Peripheral neuritis** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.47",
+      "type": "diagnostic_inquiry",
+      "topic": "Muscle wasting around",
+      "ita_code": "ITA-5.2.1.47",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Muscle wasting around according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Muscle wasting around** (aṃsaśoṣaḥ / अंसशोषः)\n\n**WHO ITA Code:** ITA-5.2.1.47\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Muscle wasting around** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.48",
+      "type": "diagnostic_inquiry",
+      "topic": "Painful conditions of",
+      "ita_code": "ITA-5.2.1.48",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Painful conditions of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Painful conditions of** (avabāhukaḥ / अवबाहुकः)\n\n**WHO ITA Code:** ITA-5.2.1.48\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Painful conditions of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.49",
+      "type": "diagnostic_inquiry",
+      "topic": "Dumbness",
+      "ita_code": "ITA-5.2.1.49",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Dumbness according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Dumbness** (mūkatvam / मूकत्वम)\n\n**WHO ITA Code:** ITA-5.2.1.49\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Dumbness** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.50",
+      "type": "diagnostic_inquiry",
+      "topic": "Nasal intonation of",
+      "ita_code": "ITA-5.2.1.50",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Nasal intonation of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Nasal intonation of** (minminaḥ / मिन्मिनः)\n\n**WHO ITA Code:** ITA-5.2.1.50\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Nasal intonation of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.51",
+      "type": "diagnostic_inquiry",
+      "topic": "Bladder pain radiating",
+      "ita_code": "ITA-5.2.1.51",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Bladder pain radiating according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Bladder pain radiating** (tūnī / तूनी)\n\n**WHO ITA Code:** ITA-5.2.1.51\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Bladder pain radiating** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.52",
+      "type": "diagnostic_inquiry",
+      "topic": "Proctalgia",
+      "ita_code": "ITA-5.2.1.52",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Proctalgia according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Proctalgia** (pratitūnī / प्रतितूनी)\n\n**WHO ITA Code:** ITA-5.2.1.52\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Proctalgia** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.53",
+      "type": "diagnostic_inquiry",
+      "topic": "Constipation and",
+      "ita_code": "ITA-5.2.1.53",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Constipation and according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Constipation and** (ānāhaḥ/ ādhmānam / आनाहः/ आध्मानम)\n\n**WHO ITA Code:** ITA-5.2.1.53\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Constipation and** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.54",
+      "type": "diagnostic_inquiry",
+      "topic": "Severe abdominal",
+      "ita_code": "ITA-5.2.1.54",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Severe abdominal according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Severe abdominal** (pratyānāhaḥ/ / प्रत्यानाहः/)\n\n**WHO ITA Code:** ITA-5.2.1.54\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Severe abdominal** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.55",
+      "type": "diagnostic_inquiry",
+      "topic": "Globular swelling",
+      "ita_code": "ITA-5.2.1.55",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Globular swelling according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Globular swelling** (vātāṣṭhīlā / वाताष्ठीला)\n\n**WHO ITA Code:** ITA-5.2.1.55\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Globular swelling** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.56",
+      "type": "diagnostic_inquiry",
+      "topic": "Morbid tremor",
+      "ita_code": "ITA-5.2.1.56",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Morbid tremor according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Morbid tremor** (kampaḥ/ vepathuḥ / कम्पः/ वेपथुः)\n\n**WHO ITA Code:** ITA-5.2.1.56\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Morbid tremor** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.57",
+      "type": "diagnostic_inquiry",
+      "topic": "Twisting pain in upper",
+      "ita_code": "ITA-5.2.1.57",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Twisting pain in upper according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Twisting pain in upper** (khallī / खल्ली)\n\n**WHO ITA Code:** ITA-5.2.1.57\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Twisting pain in upper** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.1.58",
+      "type": "diagnostic_inquiry",
+      "topic": "Upward movement",
+      "ita_code": "ITA-5.2.1.58",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Upward movement according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Upward movement** (ūrdhvavātaḥ / ऊर्ध्ववातः)\n\n**WHO ITA Code:** ITA-5.2.1.58\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Upward movement** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.2.1",
+      "type": "diagnostic_inquiry",
+      "topic": "Derangement of pitta",
+      "ita_code": "ITA-5.2.2.1",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Derangement of pitta according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Derangement of pitta** (pittavikāraḥ / पित्तविकारः)\n\n**WHO ITA Code:** ITA-5.2.2.1\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Derangement of pitta** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.2.2",
+      "type": "diagnostic_inquiry",
+      "topic": "Morbid state of pitta",
+      "ita_code": "ITA-5.2.2.2",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Morbid state of pitta according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Morbid state of pitta** (pittadoṣāvasthā / पित्तदोषावस्था)\n\n**WHO ITA Code:** ITA-5.2.2.2\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Morbid state of pitta** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.2.3",
+      "type": "diagnostic_inquiry",
+      "topic": "Accumulation of pitta",
+      "ita_code": "ITA-5.2.2.3",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Accumulation of pitta according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Accumulation of pitta** (pittasañcayaḥ / पित्तसञ्चयः)\n\n**WHO ITA Code:** ITA-5.2.2.3\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Accumulation of pitta** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.2.4",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of pitta",
+      "ita_code": "ITA-5.2.2.4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of pitta according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of pitta** (pittaprakopaḥ/ / पित्तप्रकोपः/)\n\n**WHO ITA Code:** ITA-5.2.2.4\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of pitta** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.2.5",
+      "type": "diagnostic_inquiry",
+      "topic": "Spreading of pitta",
+      "ita_code": "ITA-5.2.2.5",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Spreading of pitta according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Spreading of pitta** (pittaprasaraḥ / पित्तप्रसरः)\n\n**WHO ITA Code:** ITA-5.2.2.5\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Spreading of pitta** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.2.6",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of pitta",
+      "ita_code": "ITA-5.2.2.6",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of pitta according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of pitta** (pittakṣayaḥ / पित्तक्षयः)\n\n**WHO ITA Code:** ITA-5.2.2.6\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of pitta** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.3.1",
+      "type": "diagnostic_inquiry",
+      "topic": "Morbid state of kapha",
+      "ita_code": "ITA-5.2.3.1",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Morbid state of kapha according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Morbid state of kapha** (kaphadoṣāvasthā / कफदोषावस्था)\n\n**WHO ITA Code:** ITA-5.2.3.1\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Morbid state of kapha** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.3.2",
+      "type": "diagnostic_inquiry",
+      "topic": "Accumulation of kapha",
+      "ita_code": "ITA-5.2.3.2",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Accumulation of kapha according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Accumulation of kapha** (kaphasañcayaḥ / कफसञ्चयः)\n\n**WHO ITA Code:** ITA-5.2.3.2\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Accumulation of kapha** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.3.3",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation of kapha",
+      "ita_code": "ITA-5.2.3.3",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation of kapha according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation of kapha** (kaphaprakopaḥ / कफप्रकोपः)\n\n**WHO ITA Code:** ITA-5.2.3.3\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation of kapha** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.3.4",
+      "type": "diagnostic_inquiry",
+      "topic": "Spreading of kapha",
+      "ita_code": "ITA-5.2.3.4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Spreading of kapha according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Spreading of kapha** (kaphaprasaraḥ / कफप्रसरः)\n\n**WHO ITA Code:** ITA-5.2.3.4\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Spreading of kapha** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.2.3.5",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of kapha",
+      "ita_code": "ITA-5.2.3.5",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of kapha according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of kapha** (kaphakṣayaḥ / कफक्षयः)\n\n**WHO ITA Code:** ITA-5.2.3.5\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of kapha** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.1",
+      "type": "diagnostic_inquiry",
+      "topic": "Derangement of",
+      "ita_code": "ITA-5.3.1",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Derangement of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Derangement of** (dhātuvaiṣamyam / धातुवैषम्यम)\n\n**WHO ITA Code:** ITA-5.3.1\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Derangement of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.2",
+      "type": "diagnostic_inquiry",
+      "topic": "Derangement of",
+      "ita_code": "ITA-5.3.2",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Derangement of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Derangement of** (rasavaiṣamyam / रसवैषम्यम)\n\n**WHO ITA Code:** ITA-5.3.2\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Derangement of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.3",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of primary",
+      "ita_code": "ITA-5.3.3",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of primary according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of primary** (rasakṣayaḥ / रसक्षयः)\n\n**WHO ITA Code:** ITA-5.3.3\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of primary** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.4",
+      "type": "diagnostic_inquiry",
+      "topic": "Aggravation or",
+      "ita_code": "ITA-5.3.4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Aggravation or according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Aggravation or** (rasavṛddhiḥ / रसवृद्धिः)\n\n**WHO ITA Code:** ITA-5.3.4\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Aggravation or** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.5",
+      "type": "diagnostic_inquiry",
+      "topic": "Disproportion of blood",
+      "ita_code": "ITA-5.3.5",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Disproportion of blood according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Disproportion of blood** (raktavaiṣamyam / रक्तवैषम्यम)\n\n**WHO ITA Code:** ITA-5.3.5\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Disproportion of blood** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.6",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of blood",
+      "ita_code": "ITA-5.3.6",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of blood according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of blood** (raktakṣayaḥ / रक्तक्षयः)\n\n**WHO ITA Code:** ITA-5.3.6\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of blood** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.7",
+      "type": "diagnostic_inquiry",
+      "topic": "Morbid increase",
+      "ita_code": "ITA-5.3.7",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Morbid increase according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Morbid increase** (raktavṛddhiḥ / रक्तवृद्धिः)\n\n**WHO ITA Code:** ITA-5.3.7\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Morbid increase** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.8",
+      "type": "diagnostic_inquiry",
+      "topic": "Blood vitiated by vata",
+      "ita_code": "ITA-5.3.8",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Blood vitiated by vata according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Blood vitiated by vata** (vātikaraktaduṣṭiḥ / वातिकरक्तदुष्टिः)\n\n**WHO ITA Code:** ITA-5.3.8\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Blood vitiated by vata** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.9",
+      "type": "diagnostic_inquiry",
+      "topic": "Blood vitiated by pitta",
+      "ita_code": "ITA-5.3.9",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Blood vitiated by pitta according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Blood vitiated by pitta** (paittikaraktaduṣṭiḥ / पैत्तिकरक्तदुष्टिः)\n\n**WHO ITA Code:** ITA-5.3.9\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Blood vitiated by pitta** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.10",
+      "type": "diagnostic_inquiry",
+      "topic": "Blood vitiated",
+      "ita_code": "ITA-5.3.10",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Blood vitiated according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Blood vitiated** (ślaiṣmikaraktaduṣṭiḥ / श्लैष्मिकरक्तदुष्टिः)\n\n**WHO ITA Code:** ITA-5.3.10\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Blood vitiated** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.11",
+      "type": "diagnostic_inquiry",
+      "topic": "Blood vitiated",
+      "ita_code": "ITA-5.3.11",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Blood vitiated according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Blood vitiated** (sānnipātikaraktaduṣṭiḥ / सान्निपातिकरक्तदुष्टिः)\n\n**WHO ITA Code:** ITA-5.3.11\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Blood vitiated** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.12",
+      "type": "diagnostic_inquiry",
+      "topic": "Disproportion",
+      "ita_code": "ITA-5.3.12",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Disproportion according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Disproportion** (māmsavaiṣamyam / माम्सवैषम्यम)\n\n**WHO ITA Code:** ITA-5.3.12\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Disproportion** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.13",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of muscle",
+      "ita_code": "ITA-5.3.13",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of muscle according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of muscle** (māmsakṣayaḥ / माम्सक्षयः)\n\n**WHO ITA Code:** ITA-5.3.13\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of muscle** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.14",
+      "type": "diagnostic_inquiry",
+      "topic": "Excessive increase",
+      "ita_code": "ITA-5.3.14",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Excessive increase according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Excessive increase** (māmsavṛddhiḥ / माम्सवृद्धिः)\n\n**WHO ITA Code:** ITA-5.3.14\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Excessive increase** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.15",
+      "type": "diagnostic_inquiry",
+      "topic": "Disproportion of fat",
+      "ita_code": "ITA-5.3.15",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Disproportion of fat according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Disproportion of fat** (medovaiṣamyam / मेदोवैषम्यम)\n\n**WHO ITA Code:** ITA-5.3.15\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Disproportion of fat** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.16",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of fat",
+      "ita_code": "ITA-5.3.16",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of fat according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of fat** (medaḥkṣayaḥ / मेदःक्षयः)\n\n**WHO ITA Code:** ITA-5.3.16\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of fat** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.17",
+      "type": "diagnostic_inquiry",
+      "topic": "Morbid increase of fat",
+      "ita_code": "ITA-5.3.17",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Morbid increase of fat according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Morbid increase of fat** (medovṛddhiḥ / मेदोवृद्धिः)\n\n**WHO ITA Code:** ITA-5.3.17\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Morbid increase of fat** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.18",
+      "type": "diagnostic_inquiry",
+      "topic": "Disproportion of bone",
+      "ita_code": "ITA-5.3.18",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Disproportion of bone according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Disproportion of bone** (asthivaiṣamyam / अस्थिवैषम्यम)\n\n**WHO ITA Code:** ITA-5.3.18\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Disproportion of bone** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.19",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of bone",
+      "ita_code": "ITA-5.3.19",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of bone according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of bone** (asthikṣayaḥ / अस्थिक्षयः)\n\n**WHO ITA Code:** ITA-5.3.19\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of bone** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.20",
+      "type": "diagnostic_inquiry",
+      "topic": "Morbid increase",
+      "ita_code": "ITA-5.3.20",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Morbid increase according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Morbid increase** (asthivṛddhiḥ / अस्थिवृद्धिः)\n\n**WHO ITA Code:** ITA-5.3.20\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Morbid increase** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.21",
+      "type": "diagnostic_inquiry",
+      "topic": "Disproportion of",
+      "ita_code": "ITA-5.3.21",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Disproportion of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Disproportion of** (majjāvaiṣamyam / मज्जावैषम्यम)\n\n**WHO ITA Code:** ITA-5.3.21\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Disproportion of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.22",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of",
+      "ita_code": "ITA-5.3.22",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of** (majjākṣayaḥ / मज्जाक्षयः)\n\n**WHO ITA Code:** ITA-5.3.22\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.23",
+      "type": "diagnostic_inquiry",
+      "topic": "Morbid increase of",
+      "ita_code": "ITA-5.3.23",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Morbid increase of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Morbid increase of** (majjāvṛddhiḥ / मज्जावृद्धिः)\n\n**WHO ITA Code:** ITA-5.3.23\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Morbid increase of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.24",
+      "type": "diagnostic_inquiry",
+      "topic": "Disproportion",
+      "ita_code": "ITA-5.3.24",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Disproportion according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Disproportion** (śukravaiṣamyam / शुक्रवैषम्यम)\n\n**WHO ITA Code:** ITA-5.3.24\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Disproportion** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.25",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of semen",
+      "ita_code": "ITA-5.3.25",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of semen according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of semen** (śukrakṣayaḥ / शुक्रक्षयः)\n\n**WHO ITA Code:** ITA-5.3.25\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of semen** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.26",
+      "type": "diagnostic_inquiry",
+      "topic": "Morbid increase",
+      "ita_code": "ITA-5.3.26",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Morbid increase according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Morbid increase** (śukravṛddhiḥ / शुक्रवृद्धिः)\n\n**WHO ITA Code:** ITA-5.3.26\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Morbid increase** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.27",
+      "type": "diagnostic_inquiry",
+      "topic": "Disorders of",
+      "ita_code": "ITA-5.3.27",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Disorders of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Disorders of** (ārtavavaiṣamyam / आर्तववैषम्यम)\n\n**WHO ITA Code:** ITA-5.3.27\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Disorders of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_ITA-5.3.28",
+      "type": "diagnostic_inquiry",
+      "topic": "Diminution of",
+      "ita_code": "ITA-5.3.28",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic health educator following WHO ITA standards. Provide educational information; always recommend consulting qualified practitioners."
+        },
+        {
+          "role": "user",
+          "content": "Can you explain Diminution of according to Ayurveda?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Diminution of** (ārtavakṣayaḥ / आर्तवक्षयः)\n\n**WHO ITA Code:** ITA-5.3.28\n\nThis is an Ayurvedic condition classified under Chapter 5 (Disorders).\n\nWould you like to know about its signs, causative factors, or treatment approach?"
+        },
+        {
+          "role": "user",
+          "content": "What about treatment options?"
+        },
+        {
+          "role": "assistant",
+          "content": "Treatment for **Diminution of** follows Ayurvedic principles:\n\n**1. Nidana Parivarjana**\nAvoiding causative factors\n\n**2. Shodhana (if indicated)**\nPurification therapies based on dosha predominance\n\n**3. Shamana**\nPacification through appropriate medications\n\n**4. Pathya-Apathya**\nDietary and lifestyle modifications\n\n> **Important:** Please consult a qualified Ayurvedic practitioner (BAMS/MD Ayurveda) for personalized treatment. This information is for educational purposes."
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.1",
+      "type": "treatment_inquiry",
+      "topic": "General medicine",
+      "ita_code": "ITA-9.1.1",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is General medicine therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**General medicine** (kāyacikitsā)\n**WHO ITA:** ITA-9.1.1\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.2",
+      "type": "treatment_inquiry",
+      "topic": "Body or internal fire",
+      "ita_code": "ITA-9.1.2",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Body or internal fire therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Body or internal fire** (kāyaḥ)\n**WHO ITA:** ITA-9.1.2\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.3",
+      "type": "treatment_inquiry",
+      "topic": "Treatment",
+      "ita_code": "ITA-9.1.3",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Treatment therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Treatment** (cikitsā)\n**WHO ITA:** ITA-9.1.3\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.4",
+      "type": "treatment_inquiry",
+      "topic": "Disease elimination",
+      "ita_code": "ITA-9.1.4",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Disease elimination therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Disease elimination** (vyādhiharam)\n**WHO ITA:** ITA-9.1.4\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.5",
+      "type": "treatment_inquiry",
+      "topic": "Compatible with",
+      "ita_code": "ITA-9.1.5",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Compatible with therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Compatible with** (pathyam)\n**WHO ITA:** ITA-9.1.5\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.6",
+      "type": "treatment_inquiry",
+      "topic": "Treatment instrument",
+      "ita_code": "ITA-9.1.6",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Treatment instrument therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Treatment instrument** (sādhanam)\n**WHO ITA:** ITA-9.1.6\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.7",
+      "type": "treatment_inquiry",
+      "topic": "Medication",
+      "ita_code": "ITA-9.1.7",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Medication therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Medication** (auṣadham)\n**WHO ITA:** ITA-9.1.7\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.8",
+      "type": "treatment_inquiry",
+      "topic": "Treatment protocol",
+      "ita_code": "ITA-9.1.8",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Treatment protocol therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Treatment protocol** (upakramaḥ)\n**WHO ITA:** ITA-9.1.8\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.9",
+      "type": "treatment_inquiry",
+      "topic": "Amendment to wrong",
+      "ita_code": "ITA-9.1.9",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Amendment to wrong therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Amendment to wrong** (prāyaścittam)\n**WHO ITA:** ITA-9.1.9\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.10",
+      "type": "treatment_inquiry",
+      "topic": "Palliation",
+      "ita_code": "ITA-9.1.10",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Palliation therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Palliation** (praśamanam)\n**WHO ITA:** ITA-9.1.10\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.11",
+      "type": "treatment_inquiry",
+      "topic": "Restoration of health",
+      "ita_code": "ITA-9.1.11",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Restoration of health therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Restoration of health** (prakṛtisthāpanam)\n**WHO ITA:** ITA-9.1.11\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.12",
+      "type": "treatment_inquiry",
+      "topic": "Salutary to health",
+      "ita_code": "ITA-9.1.12",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Salutary to health therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Salutary to health** (hitam)\n**WHO ITA:** ITA-9.1.12\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.13",
+      "type": "treatment_inquiry",
+      "topic": "Rebuffing of disease",
+      "ita_code": "ITA-9.1.13",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Rebuffing of disease therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Rebuffing of disease** (vāraṇam)\n**WHO ITA:** ITA-9.1.13\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.14",
+      "type": "treatment_inquiry",
+      "topic": "Therapeutic rituals",
+      "ita_code": "ITA-9.1.14",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Therapeutic rituals therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Therapeutic rituals** (daivavyapāśrayacikitsā,)\n**WHO ITA:** ITA-9.1.14\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.15",
+      "type": "treatment_inquiry",
+      "topic": "Chanting of auspicious",
+      "ita_code": "ITA-9.1.15",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Chanting of auspicious therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Chanting of auspicious** (mantracikitsā)\n**WHO ITA:** ITA-9.1.15\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.16",
+      "type": "treatment_inquiry",
+      "topic": "Gem wearing",
+      "ita_code": "ITA-9.1.16",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Gem wearing therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Gem wearing** (maṇidhāraṇam)\n**WHO ITA:** ITA-9.1.16\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.17",
+      "type": "treatment_inquiry",
+      "topic": "Auspicious offerings",
+      "ita_code": "ITA-9.1.17",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Auspicious offerings therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Auspicious offerings** (maṅgalam)\n**WHO ITA:** ITA-9.1.17\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.18",
+      "type": "treatment_inquiry",
+      "topic": "Offerings to deity",
+      "ita_code": "ITA-9.1.18",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Offerings to deity therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Offerings to deity** (baliḥ)\n**WHO ITA:** ITA-9.1.18\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.19",
+      "type": "treatment_inquiry",
+      "topic": "Offerings to deity",
+      "ita_code": "ITA-9.1.19",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Offerings to deity therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Offerings to deity** (upahāraḥ)\n**WHO ITA:** ITA-9.1.19\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.20",
+      "type": "treatment_inquiry",
+      "topic": "Oblations or offerings",
+      "ita_code": "ITA-9.1.20",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Oblations or offerings therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Oblations or offerings** (homam)\n**WHO ITA:** ITA-9.1.20\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.21",
+      "type": "treatment_inquiry",
+      "topic": "Practising auspicious",
+      "ita_code": "ITA-9.1.21",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Practising auspicious therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Practising auspicious** (niyamaḥ)\n**WHO ITA:** ITA-9.1.21\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.22",
+      "type": "treatment_inquiry",
+      "topic": "Atonement",
+      "ita_code": "ITA-9.1.22",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Atonement therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Atonement** (prāyaścittam)\n**WHO ITA:** ITA-9.1.22\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.23",
+      "type": "treatment_inquiry",
+      "topic": "Mindful restriction of",
+      "ita_code": "ITA-9.1.23",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Mindful restriction of therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Mindful restriction of** (upavāsaḥ)\n**WHO ITA:** ITA-9.1.23\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.24",
+      "type": "treatment_inquiry",
+      "topic": "Blessings from elders",
+      "ita_code": "ITA-9.1.24",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Blessings from elders therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Blessings from elders** (svastyayanam)\n**WHO ITA:** ITA-9.1.24\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.25",
+      "type": "treatment_inquiry",
+      "topic": "Pilgrimage",
+      "ita_code": "ITA-9.1.25",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Pilgrimage therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Pilgrimage** (praṇipātagamanam)\n**WHO ITA:** ITA-9.1.25\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.26",
+      "type": "treatment_inquiry",
+      "topic": "Structured therapy",
+      "ita_code": "ITA-9.1.26",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Structured therapy therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Structured therapy** (yuktivyapāśrayacikitsā,)\n**WHO ITA:** ITA-9.1.26\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.27",
+      "type": "treatment_inquiry",
+      "topic": "Proven or evidence",
+      "ita_code": "ITA-9.1.27",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Proven or evidence therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Proven or evidence** (naiṣṭhikīcikitsā)\n**WHO ITA:** ITA-9.1.27\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.28",
+      "type": "treatment_inquiry",
+      "topic": "Administration of",
+      "ita_code": "ITA-9.1.28",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Administration of therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Administration of** (āhāradravyayojanam)\n**WHO ITA:** ITA-9.1.28\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.29",
+      "type": "treatment_inquiry",
+      "topic": "Administration of",
+      "ita_code": "ITA-9.1.29",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Administration of therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Administration of** (auṣadhadravyayojanam)\n**WHO ITA:** ITA-9.1.29\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    },
+    {
+      "id": "conv_treat_ITA-9.1.30",
+      "type": "treatment_inquiry",
+      "topic": "Hazardous substance",
+      "ita_code": "ITA-9.1.30",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are an Ayurvedic treatment educator explaining therapeutic procedures."
+        },
+        {
+          "role": "user",
+          "content": "What is Hazardous substance therapy?"
+        },
+        {
+          "role": "assistant",
+          "content": "**Hazardous substance** (abheṣajam)\n**WHO ITA:** ITA-9.1.30\n\nThis is a therapeutic procedure classified under Chapter 9 (Treatment Modalities).\n\nShall I explain the indications, procedure, or precautions?"
+        }
+      ]
+    }
+  ]
+}

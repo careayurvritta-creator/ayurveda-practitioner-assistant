@@ -1,0 +1,1072 @@
+{
+  "chapter_1": [
+    {
+      "term_id": "ITA-1.6.40",
+      "input": "Define: Explanation",
+      "output": "**Explanation**\n(vyākhyā / व्याख्या)\n\n**WHO ITA:** ITA-1.6.40\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.4.8",
+      "input": "Define: Toxicology",
+      "output": "**Toxicology**\n(viṣacikitsā, garacikitsā / विषचिकित्सा, गरचिकित्सा)\n\n**WHO ITA:** ITA-1.4.8\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.9.3.2.11",
+      "input": "Define: ",
+      "output": "****\n(cikitsya-puruṣaḥ, / चिकित्स्य-पुरुषः)\n\n**WHO ITA:** ITA-1.9.3.2.11\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.9.1.4",
+      "input": "Define: Similarity at the level",
+      "output": "**Similarity at the level**\n(karma-sāmānyam / कर्म-सामाञम)\n\n**WHO ITA:** ITA-1.9.1.4\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.8.2.26",
+      "input": "Define: ",
+      "output": "****\n(vyatirekavyāptiḥ / व्यतिरेकव्याप्तिः)\n\n**WHO ITA:** ITA-1.8.2.26\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.7.18",
+      "input": "Define: Point of defeat",
+      "output": "**Point of defeat**\n(nigrahasthānam / निग्रहस्थानम)\n\n**WHO ITA:** ITA-1.7.18\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.6.35",
+      "input": "Define: Technical terminology",
+      "output": "**Technical terminology**\n(svasañjñā / स्वसञ्ज्ञा)\n\n**WHO ITA:** ITA-1.6.35\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.6.26",
+      "input": "Define: Union, compounding",
+      "output": "**Union, compounding**\n(yogaḥ / योगः)\n\n**WHO ITA:** ITA-1.6.26\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.9.4.2.17",
+      "input": "Define: ",
+      "output": "****\n(sthūlaḥ / स्थूलः)\n\n**WHO ITA:** ITA-1.9.4.2.17\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.5.2",
+      "input": "Define: Aphorism, summarized",
+      "output": "**Aphorism, summarized**\n(sūtram / सूत्रम)\n\n**WHO ITA:** ITA-1.5.2\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.5.1",
+      "input": "Define: Knowledge system",
+      "output": "**Knowledge system**\n(śāstram, sūtram, / शास्त्रम, सूत्रम)\n\n**WHO ITA:** ITA-1.5.1\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.6.30",
+      "input": "Define: Implying the opposite",
+      "output": "**Implying the opposite**\n(viparyayaḥ / विपर्ययः)\n\n**WHO ITA:** ITA-1.6.30\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.8.2.23",
+      "input": "Define: ",
+      "output": "****\n(sapakṣaḥ / सपक्षः)\n\n**WHO ITA:** ITA-1.8.2.23\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.8.3.4",
+      "input": "Define: Object of knowledge",
+      "output": "**Object of knowledge**\n(prameyaḥ / प्रमेयः)\n\n**WHO ITA:** ITA-1.8.3.4\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-1.4.9",
+      "input": "Define: Geriatrics",
+      "output": "**Geriatrics**\n(rasāyanacikitsā, / रसायनचिकित्सा)\n\n**WHO ITA:** ITA-1.4.9\n**Chapter:** Background Terminology",
+      "chapter": "1",
+      "quality_score": "high"
+    }
+  ],
+  "chapter_10": [
+    {
+      "term_id": "ITA-10.3.5",
+      "input": "Define: Abnormal seasonal",
+      "output": "**Abnormal seasonal**\n(vyāpannaṛtu, ṛtuvipa- / व्यापन्नऋतु, ऋतुविप-)\n\n**WHO ITA:** ITA-10.3.5\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.2.4",
+      "input": "Define: Factors facilitating",
+      "output": "**Factors facilitating**\n(āhāra pariṇāma / आहार परिणाम)\n\n**WHO ITA:** ITA-10.2.4\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.3.9",
+      "input": "Define: Immunity",
+      "output": "**Immunity**\n(vyādhikṣamatva / व्याधिक्षमत्व)\n\n**WHO ITA:** ITA-10.3.9\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.3.1",
+      "input": "Define: Daily routine",
+      "output": "**Daily routine**\n(dinacaryā / दिनचर्या)\n\n**WHO ITA:** ITA-10.3.1\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.2.5",
+      "input": "Define: Diet-transition",
+      "output": "**Diet-transition**\n(pādāṃśikakramaḥ / पादांशिकक्रमः)\n\n**WHO ITA:** ITA-10.2.5\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.3.2",
+      "input": "Define: Night routine",
+      "output": "**Night routine**\n(rātricaryā / रात्रिचर्या)\n\n**WHO ITA:** ITA-10.3.2\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.2.7",
+      "input": "Define: Agreeable to nature",
+      "output": "**Agreeable to nature**\n(sātmyam / सात्म्यम)\n\n**WHO ITA:** ITA-10.2.7\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.2.2",
+      "input": "Define: Food",
+      "output": "**Food**\n(āhāraḥ / आहारः)\n\n**WHO ITA:** ITA-10.2.2\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.2.12",
+      "input": "Define: Celibacy",
+      "output": "**Celibacy**\n(brahmacaryam / ब्रह्मचर्यम)\n\n**WHO ITA:** ITA-10.2.12\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.1.1",
+      "input": "Define: Healthy person",
+      "output": "**Healthy person**\n(svasthaḥ / स्वस्थः)\n\n**WHO ITA:** ITA-10.1.1\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.1.3",
+      "input": "Define: Routine(s) for health",
+      "output": "**Routine(s) for health**\n(svasthavṛttaḥ / स्वस्थवृत्तः)\n\n**WHO ITA:** ITA-10.1.3\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.3.7",
+      "input": "Define: Harmonious way of",
+      "output": "**Harmonious way of**\n(sadvṛttam / सद्वृत्तम)\n\n**WHO ITA:** ITA-10.3.7\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.2.3",
+      "input": "Define: Eight factors for",
+      "output": "**Eight factors for**\n(āhāravidhiviśeṣāyatanam / आहारविधिविशेषायतनम)\n\n**WHO ITA:** ITA-10.2.3\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.3.6",
+      "input": "Define: Seasonal cleansing",
+      "output": "**Seasonal cleansing**\n(ṛtuśodhanam / ऋतुशोधनम)\n\n**WHO ITA:** ITA-10.3.6\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-10.1.2",
+      "input": "Define: Positive attributes of",
+      "output": "**Positive attributes of**\n(svāsthyam, ārogyam / स्वास्थ्यम, आरोग्यम)\n\n**WHO ITA:** ITA-10.1.2\n**Chapter:** Panchakarma and Rasayana",
+      "chapter": "10",
+      "quality_score": "high"
+    }
+  ],
+  "chapter_2": [
+    {
+      "term_id": "ITA-2.2.28",
+      "input": "Define: Innate strength",
+      "output": "**Innate strength**\n(sahaja-balam / सहज-बलम)\n\n**WHO ITA:** ITA-2.2.28\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.5.18",
+      "input": "Define: Female reproductive",
+      "output": "**Female reproductive**\n(ārtavavaha-srotaḥ / आर्तववह-स्रोतः)\n\n**WHO ITA:** ITA-2.5.18\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.1.3.3",
+      "input": "Define: Moistening kapha",
+      "output": "**Moistening kapha**\n(kledaka-kaphaḥ / क्लेदक-कफः)\n\n**WHO ITA:** ITA-2.1.3.3\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.1.2.13",
+      "input": "Define: ",
+      "output": "****\n(tṛṣṇā, pipāsā / तृष्णा, पिपासा)\n\n**WHO ITA:** ITA-2.1.2.13\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.6.9",
+      "input": "Define: Intense state of",
+      "output": "**Intense state of**\n(tīkṣṇāgniḥ / तीक्ष्णाग्निः)\n\n**WHO ITA:** ITA-2.6.9\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.1.3.1",
+      "input": "Define: Kapha, doṣha",
+      "output": "**Kapha, doṣha**\n(śleṣmā, kapha / श्लेष्मा, कफ)\n\n**WHO ITA:** ITA-2.1.3.1\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.6.3",
+      "input": "Define: Metabolic factors",
+      "output": "**Metabolic factors**\n(jāṭharāgniḥ / जाठराग्निः)\n\n**WHO ITA:** ITA-2.6.3\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.5.20",
+      "input": "Define: Channel in which",
+      "output": "**Channel in which**\n(purīṣavahasrotaḥ / पुरीषवहस्रोतः)\n\n**WHO ITA:** ITA-2.5.20\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.8.1.6",
+      "input": "Define: Person with",
+      "output": "**Person with**\n(asthi-sāraḥ / अस्थि-सारः)\n\n**WHO ITA:** ITA-2.8.1.6\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.4.8",
+      "input": "Define: Rheum",
+      "output": "**Rheum**\n(akṣimalaḥ / अक्षिमलः)\n\n**WHO ITA:** ITA-2.4.8\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.1.1.14",
+      "input": "Define: ",
+      "output": "****\n(unmeṣaḥ / उन्मेषः)\n\n**WHO ITA:** ITA-2.1.1.14\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.6.34",
+      "input": "Define: Internal-external",
+      "output": "**Internal-external**\n(antarbahirvibhāgaḥ / अन्तर्बहिर्विभागः)\n\n**WHO ITA:** ITA-2.6.34\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.8.11",
+      "input": "Define: Person with tranquil",
+      "output": "**Person with tranquil**\n(sattvakāyaḥ / सत्त्वकायः)\n\n**WHO ITA:** ITA-2.8.11\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.1.3.9",
+      "input": "Define: Firmness",
+      "output": "**Firmness**\n(dārḍhyam / दार्ढ्यम)\n\n**WHO ITA:** ITA-2.1.3.9\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-2.6.8",
+      "input": "Define: Normal state of",
+      "output": "**Normal state of**\n(samāgniḥ / समाग्निः)\n\n**WHO ITA:** ITA-2.6.8\n**Chapter:** Core Concepts (Maulika Siddhanta)",
+      "chapter": "2",
+      "quality_score": "high"
+    }
+  ],
+  "chapter_3": [
+    {
+      "term_id": "ITA-3.2.1.28",
+      "input": "Define: ",
+      "output": "****\n(vartmamaṇḍalam / वर्त्ममण्डलम)\n\n**WHO ITA:** ITA-3.2.1.28\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.14.5",
+      "input": "Define: Vein carrying blood",
+      "output": "**Vein carrying blood**\n(Raktavahā / रक्तवहा)\n\n**WHO ITA:** ITA-3.14.5\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.7.22",
+      "input": "Define: Pelvis",
+      "output": "**Pelvis**\n(śroṇiḥ / श्रोणिः)\n\n**WHO ITA:** ITA-3.7.22\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.16.52",
+      "input": "Define: ",
+      "output": "****\n(āvartaḥ (marma) / आवर्तः (मर्म))\n\n**WHO ITA:** ITA-3.16.52\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.16.29",
+      "input": "Define: ",
+      "output": "****\n(apastambhaḥ (marma) / अपस्तम्भः (मर्म))\n\n**WHO ITA:** ITA-3.16.29\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.9.13",
+      "input": "Define: Heel",
+      "output": "**Heel**\n(pārṣṇiḥ, prapadam / पार्ष्णिः, प्रपदम)\n\n**WHO ITA:** ITA-3.9.13\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.16.4",
+      "input": "Define: Mortal or vulnerable",
+      "output": "**Mortal or vulnerable**\n(Marma / मर्म)\n\n**WHO ITA:** ITA-3.16.4\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.3.7",
+      "input": "Define: Glenoid cavity",
+      "output": "**Glenoid cavity**\n(aṃsapīṭham / अंसपीठम)\n\n**WHO ITA:** ITA-3.3.7\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.2.1.23",
+      "input": "Define: ",
+      "output": "****\n(pakṣma, pratibālāḥ, / पक्ष्म, प्रतिबालाः)\n\n**WHO ITA:** ITA-3.2.1.23\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.2.1.10",
+      "input": "Define: ",
+      "output": "****\n(pakṣmavartma-sandhiḥ / पक्ष्मवर्त्म-सन्धिः)\n\n**WHO ITA:** ITA-3.2.1.10\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.5.2",
+      "input": "Define: Abdominal cavity",
+      "output": "**Abdominal cavity**\n(antaḥkukṣiḥ / अन्तःकुक्षिः)\n\n**WHO ITA:** ITA-3.5.2\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.7.18",
+      "input": "Define: Cervical part of",
+      "output": "**Cervical part of**\n(grīvāvaṃśaḥ / ग्रीवावंशः)\n\n**WHO ITA:** ITA-3.7.18\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.5.5",
+      "input": "Define: Sides of abdomen",
+      "output": "**Sides of abdomen**\n(udarapārśvam / उदरपार्श्वम)\n\n**WHO ITA:** ITA-3.5.5\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.2.2.3",
+      "input": "Define: Cavity of the nose",
+      "output": "**Cavity of the nose**\n(nāsāpuṭam / नासापुटम)\n\n**WHO ITA:** ITA-3.2.2.3\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-3.10.8",
+      "input": "Define: Olfactory sense",
+      "output": "**Olfactory sense**\n(ghrāṇendriyam / घ्राणेन्द्रियम)\n\n**WHO ITA:** ITA-3.10.8\n**Chapter:** Anatomy (Rachana Sharira)",
+      "chapter": "3",
+      "quality_score": "high"
+    }
+  ],
+  "chapter_4": [
+    {
+      "term_id": "ITA-4.5.11",
+      "input": "Define: Treatment with",
+      "output": "**Treatment with**\n(viparītārthakārī / विपरीतार्थकारी)\n\n**WHO ITA:** ITA-4.5.11\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.8.22",
+      "input": "Define: Shifting of dosha",
+      "output": "**Shifting of dosha**\n(madhyamagatiḥ / मध्यमगतिः)\n\n**WHO ITA:** ITA-4.8.22\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.6.11",
+      "input": "Define: Stage of clinical",
+      "output": "**Stage of clinical**\n(vyaktiḥ / व्यक्तिः)\n\n**WHO ITA:** ITA-4.6.11\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.4.3",
+      "input": "Define: Originating cause of",
+      "output": "**Originating cause of**\n(utpādakahetuḥ / उत्पादकहेतुः)\n\n**WHO ITA:** ITA-4.4.3\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.6.12",
+      "input": "Define: Stage of disease",
+      "output": "**Stage of disease**\n(bhedaḥ / भेदः)\n\n**WHO ITA:** ITA-4.6.12\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.6.6",
+      "input": "Define: Stages of disease",
+      "output": "**Stages of disease**\n(kriyākālaḥ/satkriyakalah / क्रियाकालः/सत्क्रियकलह)\n\n**WHO ITA:** ITA-4.6.6\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.4.16",
+      "input": "Define: Primary or independent",
+      "output": "**Primary or independent**\n(anubandhyaḥ / अनुबन्ध्यः)\n\n**WHO ITA:** ITA-4.4.16\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.5.8",
+      "input": "Define: Antagonistic",
+      "output": "**Antagonistic**\n(hetuviparītaḥ / हेतुविपरीतः)\n\n**WHO ITA:** ITA-4.5.8\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.2.22",
+      "input": "Define: Traumatic physical",
+      "output": "**Traumatic physical**\n(samghātabala- / सम्घातबल-)\n\n**WHO ITA:** ITA-4.2.22\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.4.5",
+      "input": "Define: Extrinsic cause",
+      "output": "**Extrinsic cause**\n(bāhyahetuḥ / बाह्यहेतुः)\n\n**WHO ITA:** ITA-4.4.5\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.4.25",
+      "input": "Define: Mild yet potential",
+      "output": "**Mild yet potential**\n(vyabhicārihetuḥ / व्यभिचारिहेतुः)\n\n**WHO ITA:** ITA-4.4.25\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.8.26",
+      "input": "Define: Inherent capacity of",
+      "output": "**Inherent capacity of**\n(vyādhibalavirodhitatvam / व्याधिबलविरोधितत्वम)\n\n**WHO ITA:** ITA-4.8.26\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.7.4",
+      "input": "Define: Eight methods of",
+      "output": "**Eight methods of**\n(aṣṭasthānaparīkṣā / अष्टस्थानपरीक्षा)\n\n**WHO ITA:** ITA-4.7.4\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.5.9",
+      "input": "Define: Antagonistic",
+      "output": "**Antagonistic**\n(vyādhiviparītaḥ / व्याधिविपरीतः)\n\n**WHO ITA:** ITA-4.5.9\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-4.4.19",
+      "input": "Define: Causes which",
+      "output": "**Causes which**\n(doṣahetuḥ / दोषहेतुः)\n\n**WHO ITA:** ITA-4.4.19\n**Chapter:** Morbidity Terms (Vikriti Vijnana)",
+      "chapter": "4",
+      "quality_score": "high"
+    }
+  ],
+  "chapter_5": [
+    {
+      "term_id": "ITA-5.65.16",
+      "input": "Define: ",
+      "output": "****\n(kaphaja-pratiśyāyaḥ / कफज-प्रतिश्यायः)\n\n**WHO ITA:** ITA-5.65.16\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.6.3",
+      "input": "Define: Fever due to",
+      "output": "**Fever due to**\n(vātajvaraḥ / वातज्वरः)\n\n**WHO ITA:** ITA-5.6.3\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.56.1.4",
+      "input": "Define: Anal fistula with",
+      "output": "**Anal fistula with**\n(uṣṭragrīvabhagandaraḥ/ / उष्ट्रग्रीवभगन्दरः/)\n\n**WHO ITA:** ITA-5.56.1.4\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.3.14",
+      "input": "Define: Excessive increase",
+      "output": "**Excessive increase**\n(māmsavṛddhiḥ / माम्सवृद्धिः)\n\n**WHO ITA:** ITA-5.3.14\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.64.19",
+      "input": "Define: ",
+      "output": "****\n(kaphajakarṇarogaḥ / कफजकर्णरोगः)\n\n**WHO ITA:** ITA-5.64.19\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.73.1",
+      "input": "Define: Injury of vulnerable",
+      "output": "**Injury of vulnerable**\n(marmaviddhaḥ/ / मर्मविद्धः/)\n\n**WHO ITA:** ITA-5.73.1\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.62.4",
+      "input": "Define: Raised papule",
+      "output": "**Raised papule**\n(āntrālajī / आन्त्रालजी)\n\n**WHO ITA:** ITA-5.62.4\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.6.25",
+      "input": "Define: Intermittent fiver",
+      "output": "**Intermittent fiver**\n(kaphajacaturthakajvaraḥ / कफजचतुर्थकज्वरः)\n\n**WHO ITA:** ITA-5.6.25\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.50.5",
+      "input": "Define: Proliferative tumour",
+      "output": "**Proliferative tumour**\n(dvirarbudaḥ / द्विरर्बुदः)\n\n**WHO ITA:** ITA-5.50.5\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.64.17",
+      "input": "Define: ",
+      "output": "****\n(vātajakarṇarogaḥ/ / वातजकर्णरोगः/)\n\n**WHO ITA:** ITA-5.64.17\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.51.3",
+      "input": "Define: Filariasis due to",
+      "output": "**Filariasis due to**\n(pittajaślīpadaḥ / पित्तजश्लीपदः)\n\n**WHO ITA:** ITA-5.51.3\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.76.139",
+      "input": "Define: ",
+      "output": "****\n(nasyātiyogaḥ / नस्यातियोगः)\n\n**WHO ITA:** ITA-5.76.139\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.72.19",
+      "input": "Define: ",
+      "output": "****\n(vṛścikaviṣaḥ / वृश्चिकविषः)\n\n**WHO ITA:** ITA-5.72.19\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.76.53",
+      "input": "Define: ",
+      "output": "****\n(virecanāyogaḥ / विरेचनायोगः)\n\n**WHO ITA:** ITA-5.76.53\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-5.34.1",
+      "input": "Define: Abdominal colic",
+      "output": "**Abdominal colic**\n(śūlaḥ / शूलः)\n\n**WHO ITA:** ITA-5.34.1\n**Chapter:** Disorders (Roga Vijnana)",
+      "chapter": "5",
+      "quality_score": "high"
+    }
+  ],
+  "chapter_6": [
+    {
+      "term_id": "ITA-6.2.6.16",
+      "input": "Define: ",
+      "output": "****\n(lekhanam / लेखनम)\n\n**WHO ITA:** ITA-6.2.6.16\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.1.14",
+      "input": "Define: Secondary taste",
+      "output": "**Secondary taste**\n(anurasaḥ / अनुरसः)\n\n**WHO ITA:** ITA-6.2.1.14\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.14",
+      "input": "Define: ",
+      "output": "****\n(virecana-karma, re- / विरेचन-कर्म, रे-)\n\n**WHO ITA:** ITA-6.2.6.14\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.71",
+      "input": "Define: ",
+      "output": "****\n(saṃjñāsthāpanam / संज्ञास्थापनम)\n\n**WHO ITA:** ITA-6.2.6.71\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.67",
+      "input": "Define: Substance alleviating",
+      "output": "**Substance alleviating**\n(śothaharaḥ, śothaghnaḥ, / शोथहरः, शोथघ्नः)\n\n**WHO ITA:** ITA-6.2.6.67\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.74",
+      "input": "Define: ",
+      "output": "****\n(sthairyakaraḥ / स्थैर्यकरः)\n\n**WHO ITA:** ITA-6.2.6.74\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.49",
+      "input": "Define: ",
+      "output": "****\n(chardinigrahaṇam, char- / छर्दिनिग्रहणम, छर-)\n\n**WHO ITA:** ITA-6.2.6.49\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.44",
+      "input": "Define: Bulk-promoting",
+      "output": "**Bulk-promoting**\n(bṛṃhaṇīyaḥ / बृंहणीयः)\n\n**WHO ITA:** ITA-6.2.6.44\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.32",
+      "input": "Define: Substance enhancing",
+      "output": "**Substance enhancing**\n(svaryam / स्वर्यम)\n\n**WHO ITA:** ITA-6.2.6.32\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.11",
+      "input": "Define: ",
+      "output": "****\n(anulomanam / अनुलोमनम)\n\n**WHO ITA:** ITA-6.2.6.11\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.64",
+      "input": "Define: Substance pacifying",
+      "output": "**Substance pacifying**\n(Śītapraśamanam, / शीतप्रशमनम)\n\n**WHO ITA:** ITA-6.2.6.64\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.6.62",
+      "input": "Define: Substance enhancing",
+      "output": "**Substance enhancing**\n(vṛṣyam / वृष्यम)\n\n**WHO ITA:** ITA-6.2.6.62\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.1.8",
+      "input": "Define: Pungent taste",
+      "output": "**Pungent taste**\n(kaṭu-rasaḥ, ūṣaṇaḥ / कटु-रसः, ऊषणः)\n\n**WHO ITA:** ITA-6.2.1.8\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.1.3",
+      "input": "Define: Group of sweet",
+      "output": "**Group of sweet**\n(madhuraskandhaḥ / मधुरस्कन्धः)\n\n**WHO ITA:** ITA-6.2.1.3\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-6.2.1.11",
+      "input": "Define: Group of bitter",
+      "output": "**Group of bitter**\n(tiktaskandhaḥ / तिक्तस्कन्धः)\n\n**WHO ITA:** ITA-6.2.1.11\n**Chapter:** Materia Medica (Dravya)",
+      "chapter": "6",
+      "quality_score": "high"
+    }
+  ],
+  "chapter_7": [
+    {
+      "term_id": "ITA-7.1.4.15",
+      "input": "Define: ",
+      "output": "****\n(droṇaḥ / द्रोणः)\n\n**WHO ITA:** ITA-7.1.4.15\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.1.4.16",
+      "input": "Define: ",
+      "output": "****\n(śūrpaḥ / शूर्पः)\n\n**WHO ITA:** ITA-7.1.4.16\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.2.6.4",
+      "input": "Define: Coral",
+      "output": "**Coral**\n(vidrumam / विद्रुमम)\n\n**WHO ITA:** ITA-7.2.6.4\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.1.1.7",
+      "input": "Define: Lime water",
+      "output": "**Lime water**\n(cūrṇodakam, / चूर्णोदकम)\n\n**WHO ITA:** ITA-7.1.1.7\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.2.4.9",
+      "input": "Define: Litharge",
+      "output": "**Litharge**\n(mṛddāraśrṛṃgaḥ / मृद्दारश्रृंगः)\n\n**WHO ITA:** ITA-7.2.4.9\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.2.4.7",
+      "input": "Define: Red oxide of mercury",
+      "output": "**Red oxide of mercury**\n(girisindūraḥ / गिरिसिन्दूरः)\n\n**WHO ITA:** ITA-7.2.4.7\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.2.7.7",
+      "input": "Define: Quartz",
+      "output": "**Quartz**\n(sphaṭikaḥ / स्फटिकः)\n\n**WHO ITA:** ITA-7.2.7.7\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.2.10.3",
+      "input": "Define: ",
+      "output": "****\n(svarjikṣāraḥ, sarjikṣāraḥ, / स्वर्जिक्षारः, सर्जिक्षारः)\n\n**WHO ITA:** ITA-7.2.10.3\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.2.1.1",
+      "input": "Define: Crucible",
+      "output": "**Crucible**\n(mūṣā / मूषा)\n\n**WHO ITA:** ITA-7.2.1.1\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.1.3",
+      "input": "Define: Paste",
+      "output": "**Paste**\n(kalkaḥ / कल्कः)\n\n**WHO ITA:** ITA-7.1.3\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.1.3.5",
+      "input": "Define: Distillation apparatus",
+      "output": "**Distillation apparatus**\n(tiryakapātanayantram / तिर्यकपातनयन्त्रम)\n\n**WHO ITA:** ITA-7.1.3.5\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.2.1.7",
+      "input": "Define: Calcinated minerals",
+      "output": "**Calcinated minerals**\n(Bhasma, / भस्म)\n\n**WHO ITA:** ITA-7.2.1.7\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.2.2.7",
+      "input": "Define: Bornite and",
+      "output": "**Bornite and**\n(sasyakaḥ/tutthaḥ / सस्यकः/तुत्थः)\n\n**WHO ITA:** ITA-7.2.2.7\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.1.3.4",
+      "input": "Define: Instrument for",
+      "output": "**Instrument for**\n(ḍamaruyantram / डमरुयन्त्रम)\n\n**WHO ITA:** ITA-7.1.3.4\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-7.2.1.15",
+      "input": "Define: Sealing of vessel joint",
+      "output": "**Sealing of vessel joint**\n(sandhilēpanam / सन्धिलपनम)\n\n**WHO ITA:** ITA-7.2.1.15\n**Chapter:** Pharmaceutical Preparations",
+      "chapter": "7",
+      "quality_score": "high"
+    }
+  ],
+  "chapter_8": [
+    {
+      "term_id": "ITA-8.3.11",
+      "input": "Define: Supernatant liquid",
+      "output": "**Supernatant liquid**\n(maṇḍaḥ / मण्डः)\n\n**WHO ITA:** ITA-8.3.11\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.2.14",
+      "input": "Define: Group of milks",
+      "output": "**Group of milks**\n(kṣīravargaḥ / क्षीरवर्गः)\n\n**WHO ITA:** ITA-8.2.14\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.3.16",
+      "input": "Define: Thin gruel of",
+      "output": "**Thin gruel of**\n(lājapeyā / लाजपेया)\n\n**WHO ITA:** ITA-8.3.16\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.1.1",
+      "input": "Define: Preparation of food",
+      "output": "**Preparation of food**\n(āhārakalpanā / आहारकल्पना)\n\n**WHO ITA:** ITA-8.1.1\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.2.31",
+      "input": "Define: Ghee-coloured honey",
+      "output": "**Ghee-coloured honey**\n(pauttikam / पौत्तिकम)\n\n**WHO ITA:** ITA-8.2.31\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.3.22",
+      "input": "Define: Non-processed soup",
+      "output": "**Non-processed soup**\n(akṛtayūṣaḥ / अकृतयूषः)\n\n**WHO ITA:** ITA-8.3.22\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.2.16",
+      "input": "Define: Group of curds",
+      "output": "**Group of curds**\n(dadhivargaḥ / दधिवर्गः)\n\n**WHO ITA:** ITA-8.2.16\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.2.7",
+      "input": "Define: Group of greens",
+      "output": "**Group of greens**\n(haritavargaḥ / हरितवर्गः)\n\n**WHO ITA:** ITA-8.2.7\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.3.41",
+      "input": "Define: Electuary",
+      "output": "**Electuary**\n(lehaḥ / लेहः)\n\n**WHO ITA:** ITA-8.3.41\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.2.36",
+      "input": "Define: Rainwater before",
+      "output": "**Rainwater before**\n(āntarikṣa-jalam/āntarikṣa- / आन्तरिक्ष-जलम/आन्तरिक्ष-)\n\n**WHO ITA:** ITA-8.2.36\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.3.42",
+      "input": "Define: Vinegar",
+      "output": "**Vinegar**\n(śuktam / शुक्तम)\n\n**WHO ITA:** ITA-8.3.42\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.3.35",
+      "input": "Define: Deep-fried sweet",
+      "output": "**Deep-fried sweet**\n(pūpalikā / पूपलिका)\n\n**WHO ITA:** ITA-8.3.35\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.2.20",
+      "input": "Define: Whey",
+      "output": "**Whey**\n(kaṭvaram / कट्वरम)\n\n**WHO ITA:** ITA-8.2.20\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.2.13",
+      "input": "Define: Milk",
+      "output": "**Milk**\n(kṣīram/payaḥ/dugdham / क्षीरम/पयः/दुग्धम)\n\n**WHO ITA:** ITA-8.2.13\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-8.3.1",
+      "input": "Define: Processed by heating",
+      "output": "**Processed by heating**\n(agnisiddhaḥ / अग्निसिद्धः)\n\n**WHO ITA:** ITA-8.3.1\n**Chapter:** Diet and Lifestyle",
+      "chapter": "8",
+      "quality_score": "high"
+    }
+  ],
+  "chapter_9": [
+    {
+      "term_id": "ITA-9.4.20",
+      "input": "Define: Care of newborn",
+      "output": "**Care of newborn**\n(jātakarma / जातकर्म)\n\n**WHO ITA:** ITA-9.4.20\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.9.46",
+      "input": "Define: Seminal abnormalities",
+      "output": "**Seminal abnormalities**\n(śukravikṛtiḥ / शुक्रविकृतिः)\n\n**WHO ITA:** ITA-9.9.46\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.9.37",
+      "input": "Define: Impotency due to",
+      "output": "**Impotency due to**\n(meḍhrarogajaklaibyam / मेढ्ररोगजक्लैब्यम)\n\n**WHO ITA:** ITA-9.9.37\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.1.1",
+      "input": "Define: General medicine",
+      "output": "**General medicine**\n(kāyacikitsā / कायचिकित्सा)\n\n**WHO ITA:** ITA-9.1.1\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.6.62",
+      "input": "Define: Sharp probe",
+      "output": "**Sharp probe**\n(eṣaṇīśastram / एषणीशस्त्रम)\n\n**WHO ITA:** ITA-9.6.62\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.8.9",
+      "input": "Define: Rejuvention therapy",
+      "output": "**Rejuvention therapy**\n(vayasthāpanam / वयस्थापनम)\n\n**WHO ITA:** ITA-9.8.9\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.1.34",
+      "input": "Define: Health-promoting",
+      "output": "**Health-promoting**\n(svasthasyorjaskaram / स्वस्थस्योर्जस्करम)\n\n**WHO ITA:** ITA-9.1.34\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.2.77",
+      "input": "Define: Enema practicable",
+      "output": "**Enema practicable**\n(yuktarathabastiḥ / युक्तरथबस्तिः)\n\n**WHO ITA:** ITA-9.2.77\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.6.112",
+      "input": "Define: Gentle massage",
+      "output": "**Gentle massage**\n(vimlāpanakarma / विम्लापनकर्म)\n\n**WHO ITA:** ITA-9.6.112\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.6.44",
+      "input": "Define: Bone saw",
+      "output": "**Bone saw**\n(karapatraśastram / करपत्रशस्त्रम)\n\n**WHO ITA:** ITA-9.6.44\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.5.62",
+      "input": "Define: Ear canal cleaning",
+      "output": "**Ear canal cleaning**\n(karṇapramārjanam / कर्णप्रमार्जनम)\n\n**WHO ITA:** ITA-9.5.62\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.2.12",
+      "input": "Define: Application of oil",
+      "output": "**Application of oil**\n(abhyaṅgaḥ / अभ्यंगः)\n\n**WHO ITA:** ITA-9.2.12\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.5.63",
+      "input": "Define: Management of",
+      "output": "**Management of**\n(nāsārogacikitsā / नासारोगचिकित्सा)\n\n**WHO ITA:** ITA-9.5.63\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.2.37",
+      "input": "Define: Sweating induced by",
+      "output": "**Sweating induced by**\n(dravasvedaḥ / द्रवस्वेदः)\n\n**WHO ITA:** ITA-9.2.37\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    },
+    {
+      "term_id": "ITA-9.2.46",
+      "input": "Define: Sweating induced on",
+      "output": "**Sweating induced on**\n(aśmaghanasvedaḥ / अश्मघनस्वेदः)\n\n**WHO ITA:** ITA-9.2.46\n**Chapter:** Treatment Modalities (Chikitsa)",
+      "chapter": "9",
+      "quality_score": "high"
+    }
+  ]
+}

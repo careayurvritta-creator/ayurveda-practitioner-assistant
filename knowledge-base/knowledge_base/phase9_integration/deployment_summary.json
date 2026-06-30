@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-01-07T13:46:49.192482",
+  "phase": 9,
+  "artifacts": {
+    "api_spec": "knowledge_base\\phase9_integration\\api\\openapi.json",
+    "frontend_components": 3,
+    "gemini_integration": 2,
+    "templates": 1,
+    "offline_bundle": "knowledge_base\\phase9_integration\\ita_offline_bundle.json",
+    "compressed_bundle": "knowledge_base\\phase9_integration\\ita_offline_bundle.json.gz",
+    "documentation": "knowledge_base\\phase9_integration\\docs\\API_DOCUMENTATION.md"
+  },
+  "statistics": {
+    "terms_bundled": 2498,
+    "bundle_size_kb": 59.798828125,
+    "api_endpoints": 5
+  },
+  "deployment_checklist": [
+    "Copy frontend components to src/components/",
+    "Copy hooks to src/hooks/",
+    "Copy services to src/services/",
+    "Deploy offline bundle to public/assets/",
+    "Update API routes",
+    "Run integration tests"
+  ]
+}

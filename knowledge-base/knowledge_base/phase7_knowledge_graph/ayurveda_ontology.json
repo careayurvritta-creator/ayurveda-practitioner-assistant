@@ -1,0 +1,100 @@
+{
+  "name": "AyurvedaOntology",
+  "version": "1.0",
+  "namespace": "http://ayurvritta.org/ontology/ayurveda#",
+  "description": "Ontology for WHO ITA Ayurveda terminology",
+  "classes": {
+    "AyurvedaConcept": {
+      "description": "Root class for all Ayurveda concepts",
+      "subclasses": {
+        "Disease": {
+          "description": "Disorders and diseases (Roga/Vyadhi)",
+          "properties": [
+            "symptoms",
+            "causes",
+            "treatments"
+          ]
+        },
+        "Symptom": {
+          "description": "Signs and symptoms (Lakshana)",
+          "properties": [
+            "associated_diseases",
+            "severity"
+          ]
+        },
+        "Treatment": {
+          "description": "Therapeutic interventions (Chikitsa)",
+          "properties": [
+            "treats",
+            "contraindications",
+            "method"
+          ]
+        },
+        "Medicine": {
+          "description": "Medicines and formulations (Aushadha)",
+          "properties": [
+            "ingredients",
+            "dosage",
+            "indications"
+          ]
+        },
+        "Anatomy": {
+          "description": "Body parts and structures (Sharira)",
+          "properties": [
+            "location",
+            "function",
+            "related_parts"
+          ]
+        },
+        "Physiology": {
+          "description": "Physiological concepts (Dosha/Dhatu)",
+          "properties": [
+            "function",
+            "imbalance_effects"
+          ]
+        },
+        "Diet": {
+          "description": "Dietary concepts (Ahara)",
+          "properties": [
+            "properties",
+            "therapeutic_use"
+          ]
+        },
+        "Concept": {
+          "description": "Theoretical concepts",
+          "properties": [
+            "definition",
+            "related_concepts"
+          ]
+        }
+      }
+    }
+  },
+  "object_properties": {
+    "treats": {
+      "domain": "Treatment",
+      "range": "Disease"
+    },
+    "causes": {
+      "domain": "Physiology",
+      "range": "Disease"
+    },
+    "symptomOf": {
+      "domain": "Symptom",
+      "range": "Disease"
+    },
+    "partOf": {
+      "domain": "Anatomy",
+      "range": "Anatomy"
+    },
+    "composedOf": {
+      "domain": "Medicine",
+      "range": "Medicine"
+    },
+    "relatedTo": {
+      "domain": "AyurvedaConcept",
+      "range": "AyurvedaConcept"
+    }
+  },
+  "generated_at": "2026-01-07T11:48:31.122956"
+}

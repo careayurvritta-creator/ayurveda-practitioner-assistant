@@ -1,0 +1,308 @@
+{
+  "source": "Ayurvedic Pharmacopoeia of India (API)",
+  "reference": "Ministry of AYUSH Publications",
+  "api_verified": 1,
+  "pharmaceutical_terms": 119,
+  "samples": [
+    {
+      "term_id": "ITA-1.6.17",
+      "iast": "niyogaḥ/ sanniyogaḥ",
+      "english": "Execution of",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-1.6.26",
+      "iast": "yogaḥ",
+      "english": "Union, compounding,",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-1.7.5",
+      "iast": "anuyogaḥ",
+      "english": "Question",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-1.7.23",
+      "iast": "pratyanuyogaḥ",
+      "english": "Counter-question",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-1.9.1.2",
+      "iast": "dravya-sāmānyam",
+      "english": "Similarity at the level",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-1.9.2.2",
+      "iast": "dravya-viśeṣaḥ",
+      "english": "Dissimilarity at the",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-1.9.3.1",
+      "iast": "dravyam",
+      "english": "Substance, entity",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-1.9.3.1.1  Causal material",
+      "iast": "kāraṇadravyam",
+      "english": "",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-1.9.3.6.1  Unmanifest, without",
+      "iast": "amūrtadravyam",
+      "english": "",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-1.9.3.6.2  Substances having",
+      "iast": "Mūrtadravya, paramāṇuḥ",
+      "english": "",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-1.9.3.7.1  Resultant material,",
+      "iast": "kāryadravyam",
+      "english": "",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-1.9.3.7.2  Sentient being",
+      "iast": "cetana-dravyam/",
+      "english": "",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-1.9.3.7.16  Insentient material",
+      "iast": "acetana-dravyam/",
+      "english": "",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-1.9.4.4.5  Combination",
+      "iast": "saṃyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-1.11.15",
+      "iast": "dravya, auṣadha",
+      "english": "Materials for",
+      "keyword": "dravya"
+    },
+    {
+      "term_id": "ITA-2.9.1.4",
+      "iast": "sadyogarbhaḥ",
+      "english": "Early signs of",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-3.5.3",
+      "iast": "taila-vartikā",
+      "english": "Omentum",
+      "keyword": "taila"
+    },
+    {
+      "term_id": "ITA-4.5.28",
+      "iast": "bheṣajanimittajaḥ",
+      "english": "Treatment-related",
+      "keyword": "bheṣaja"
+    },
+    {
+      "term_id": "ITA-5.11.2",
+      "iast": "atyagniḥ/ bhasmakaḥ",
+      "english": "Excessive digestive,",
+      "keyword": "bhasma"
+    },
+    {
+      "term_id": "ITA-5.74.4",
+      "iast": "āhāramithyāyogaḥ",
+      "english": "Disorder due to",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.8",
+      "iast": "uṣṇavīrya-dravyātiyogaḥ /",
+      "english": "Disorder due to",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.9",
+      "iast": "navaguḍa-atyupayogaḥ",
+      "english": "Disorder due to",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.10   Disorder due to",
+      "iast": "śālidhānya-atiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.11   Disorder due to",
+      "iast": "tailasevana-atiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.12   Disorder due to",
+      "iast": "madyapānātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.13   Disorder due to",
+      "iast": "dadhi-mithyopayogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.14   Disorder due to",
+      "iast": "rasātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.15   Disorder due to",
+      "iast": "madhurarasātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.16   Disorder due to",
+      "iast": "amlarasātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.17   Disorder due to",
+      "iast": "lavaṇarasātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.18   Disorder due to",
+      "iast": "kaṭurasātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.19   Disorder due to",
+      "iast": "tiktarasātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.74.20   Disorder due to",
+      "iast": "kaṣāyarasātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.75.24   Disorder due to",
+      "iast": "vyavāyamithyāyogaḥ/",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.75.25   Disorder due to",
+      "iast": "vyavāyātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.3",
+      "iast": "snehana-ayogaḥ",
+      "english": "Condition of sub-",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.4",
+      "iast": "snehana-atiyogaḥ",
+      "english": "Condition of excessive",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.5",
+      "iast": "snehanamithyāyogaḥ/",
+      "english": "Condition of improper",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.7",
+      "iast": "svedana-ayogaḥ",
+      "english": "Condition of sub-",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.8",
+      "iast": "svedana-atiyogaḥ",
+      "english": "Condition of",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.10   Condition of excessive",
+      "iast": "rūkṣaṇa-atiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.12   Condition of",
+      "iast": "stambhana-atiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.18   Condition of",
+      "iast": "laṅghana-atiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.20   Condition of",
+      "iast": "bṛṃhaṇa-atiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.22   Condition of incom-",
+      "iast": "vamana-ayogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.23   Condition due to",
+      "iast": "vamana-atiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.24   Condition due to",
+      "iast": "vamanamithyāyogaḥ/",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.52   Signs of excessive",
+      "iast": "virecanātiyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.53   Condition of",
+      "iast": "virecanāyogaḥ",
+      "english": "",
+      "keyword": "yoga"
+    },
+    {
+      "term_id": "ITA-5.76.83   Condition due to",
+      "iast": "sāvaśeṣauṣadhavyāpat",
+      "english": "",
+      "keyword": "auṣadha"
+    }
+  ]
+}

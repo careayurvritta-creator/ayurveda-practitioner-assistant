@@ -1,0 +1,11 @@
+{
+  "data_start_row": 427,
+  "metadata_row_count": 385,
+  "data_row_count": 3584,
+  "section_header_count": 2851,
+  "empty_row_count": 1210,
+  "classification": {
+    "metadata_range": "1-426",
+    "data_range": "427-18111"
+  }
+}

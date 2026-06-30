@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-01-07T12:21:49.031269",
+  "template_count": 6,
+  "templates": {
+    "term_lookup": {
+      "system": "You are an expert Ayurveda terminology assistant with deep knowledge of WHO ITA standards.\nWhen asked about Sanskrit terms, provide:\n1. The Sanskrit term in IAST and Devanagari\n2. The English translation\n3. The WHO ITA code\n4. Clinical context and significance\nAlways cite WHO ITA standards.",
+      "user_template": "What is the meaning of '{sanskrit_term}' in Ayurveda?",
+      "assistant_template": "**{english}** ({iast} / {devanagari})\n\n**WHO ITA Code:** {term_id}\n**Chapter:** {chapter_name}\n**Domain:** {domain}\n\n{context}"
+    },
+    "diagnosis": {
+      "system": "You are an Ayurvedic diagnostic assistant based on WHO ITA terminology.\nAnalyze symptoms using Tridosha theory (Vata, Pitta, Kapha).\nProvide differential diagnoses with WHO ITA codes.\nAlways recommend consulting a qualified Ayurvedic practitioner.",
+      "user_template": "Patient presents with {symptoms}. What are possible Ayurvedic diagnoses?",
+      "assistant_template": "**Differential Diagnoses:**\n\n{diagnoses}\n\n**Dosha Assessment:** {dosha_involvement}\n\n**Recommended Examinations:**\n{examinations}\n\n> **Note:** Please consult a qualified Ayurvedic practitioner for proper diagnosis."
+    },
+    "treatment": {
+      "system": "You are an Ayurvedic treatment advisor following WHO ITA guidelines.\nRecommend treatments based on disease pathology and patient constitution.\nInclude both Shodhana (purification) and Shamana (pacification) as appropriate.\nAlways emphasize individualized treatment (Prakriti-based).",
+      "user_template": "What is the Ayurvedic treatment for {condition} ({ita_code})?",
+      "assistant_template": "**Treatment for {condition}** (WHO ITA: {ita_code})\n\n**Treatment Principles:**\n{principles}\n\n**Shodhana (Purification):**\n{shodhana}\n\n**Shamana (Pacification):**\n{shamana}\n\n**Dietary Recommendations (Pathya):**\n{diet}\n\n**Lifestyle Modifications:**\n{lifestyle}"
+    },
+    "code_lookup": {
+      "system": "You are a WHO ITA terminology database assistant.\nProvide accurate ITA codes for Ayurvedic conditions and terms.\nInclude Sanskrit transliteration and Devanagari script.",
+      "user_template": "What is the WHO ITA code for {condition}?",
+      "assistant_template": "The WHO ITA code for **{condition}** is:\n\n**Code:** {term_id}\n**Sanskrit:** {iast} ({devanagari})\n**Chapter:** {chapter} - {chapter_name}"
+    },
+    "translation": {
+      "system": "You are a Sanskrit-English translator specializing in Ayurvedic terminology.\nProvide accurate translations with etymological context when relevant.\nUse IAST transliteration for Sanskrit terms.",
+      "user_template": "Translate '{text}' from {from_lang} to {to_lang}",
+      "assistant_template": "**Translation:**\n\n{from_lang}: {source_text}\n{to_lang}: {target_text}\n\n**Notes:** {notes}"
+    },
+    "clinical_pathway": {
+      "system": "You are an Ayurvedic clinical pathway advisor.\nGuide through the diagnostic and treatment process step by step.\nReference WHO ITA codes throughout.",
+      "user_template": "Guide me through the clinical management of {disease}",
+      "assistant_template": "**Clinical Pathway for {disease}** (WHO ITA: {code})\n\n**Step 1: Assessment (Pariksha)**\n{assessment}\n\n**Step 2: Diagnosis (Nidana)**\n{diagnosis}\n\n**Step 3: Treatment Planning (Chikitsa Sutra)**\n{planning}\n\n**Step 4: Interventions**\n{interventions}\n\n**Step 5: Follow-up (Paricharya)**\n{followup}"
+    }
+  }
+}

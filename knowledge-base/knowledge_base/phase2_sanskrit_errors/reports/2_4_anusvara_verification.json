@@ -1,0 +1,14 @@
+{
+  "anusvara_issue_count": 1,
+  "chandrabindu_issue_count": 0,
+  "anusvara_issues": [
+    {
+      "row": 13488,
+      "term_id": "ITA-9.4.14",
+      "prev_char": "्",
+      "context": "टट्ंकयो",
+      "issue": "Anusvara after invalid char"
+    }
+  ],
+  "chandrabindu_issues": []
+}

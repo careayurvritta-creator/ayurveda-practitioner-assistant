@@ -1,0 +1,18 @@
+{
+  "experiments": [
+    {
+      "id": "ita_autocomplete_v2",
+      "description": "Test new autocomplete with ITA integration",
+      "variants": [
+        "control",
+        "treatment"
+      ],
+      "allocation": 0.5
+    }
+  ],
+  "metrics": [
+    "lookup_success_rate",
+    "search_latency",
+    "user_satisfaction"
+  ]
+}

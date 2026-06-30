@@ -1,0 +1,284 @@
+{
+  "total_unique_chars": 171,
+  "devanagari_char_count": 62,
+  "latin_char_count": 52,
+  "special_char_count": 24,
+  "problematic_char_count": 0,
+  "devanagari_chars": {
+    "्": {
+      "count": 7933,
+      "name": "DEVANAGARI SIGN VIRAMA"
+    },
+    "र": {
+      "count": 4896,
+      "name": "DEVANAGARI LETTER RA"
+    },
+    "ा": {
+      "count": 4598,
+      "name": "DEVANAGARI VOWEL SIGN AA"
+    },
+    "म": {
+      "count": 4257,
+      "name": "DEVANAGARI LETTER MA"
+    },
+    "ि": {
+      "count": 3790,
+      "name": "DEVANAGARI VOWEL SIGN I"
+    },
+    "क": {
+      "count": 3648,
+      "name": "DEVANAGARI LETTER KA"
+    },
+    "त": {
+      "count": 3647,
+      "name": "DEVANAGARI LETTER TA"
+    },
+    "ः": {
+      "count": 3483,
+      "name": "DEVANAGARI SIGN VISARGA"
+    },
+    "न": {
+      "count": 3282,
+      "name": "DEVANAGARI LETTER NA"
+    },
+    "स": {
+      "count": 3166,
+      "name": "DEVANAGARI LETTER SA"
+    },
+    "व": {
+      "count": 3002,
+      "name": "DEVANAGARI LETTER VA"
+    },
+    "प": {
+      "count": 2849,
+      "name": "DEVANAGARI LETTER PA"
+    },
+    "द": {
+      "count": 1940,
+      "name": "DEVANAGARI LETTER DA"
+    },
+    "य": {
+      "count": 1793,
+      "name": "DEVANAGARI LETTER YA"
+    },
+    "ग": {
+      "count": 1510,
+      "name": "DEVANAGARI LETTER GA"
+    },
+    "ष": {
+      "count": 1500,
+      "name": "DEVANAGARI LETTER SSA"
+    },
+    "ो": {
+      "count": 1471,
+      "name": "DEVANAGARI VOWEL SIGN O"
+    },
+    "श": {
+      "count": 1430,
+      "name": "DEVANAGARI LETTER SHA"
+    },
+    "ज": {
+      "count": 1407,
+      "name": "DEVANAGARI LETTER JA"
+    },
+    "ल": {
+      "count": 1362,
+      "name": "DEVANAGARI LETTER LA"
+    },
+    "ध": {
+      "count": 1189,
+      "name": "DEVANAGARI LETTER DHA"
+    },
+    "अ": {
+      "count": 1115,
+      "name": "DEVANAGARI LETTER A"
+    },
+    "ण": {
+      "count": 1054,
+      "name": "DEVANAGARI LETTER NNA"
+    },
+    "ह": {
+      "count": 909,
+      "name": "DEVANAGARI LETTER HA"
+    },
+    "ी": {
+      "count": 783,
+      "name": "DEVANAGARI VOWEL SIGN II"
+    },
+    "च": {
+      "count": 711,
+      "name": "DEVANAGARI LETTER CA"
+    },
+    "भ": {
+      "count": 519,
+      "name": "DEVANAGARI LETTER BHA"
+    },
+    "ब": {
+      "count": 453,
+      "name": "DEVANAGARI LETTER BA"
+    },
+    "थ": {
+      "count": 449,
+      "name": "DEVANAGARI LETTER THA"
+    },
+    "ट": {
+      "count": 325,
+      "name": "DEVANAGARI LETTER TTA"
+    },
+    "उ": {
+      "count": 311,
+      "name": "DEVANAGARI LETTER U"
+    },
+    "आ": {
+      "count": 308,
+      "name": "DEVANAGARI LETTER AA"
+    },
+    "फ": {
+      "count": 279,
+      "name": "DEVANAGARI LETTER PHA"
+    },
+    "ु": {
+      "count": 227,
+      "name": "DEVANAGARI VOWEL SIGN U"
+    },
+    "ड": {
+      "count": 225,
+      "name": "DEVANAGARI LETTER DDA"
+    },
+    "ङ": {
+      "count": 210,
+      "name": "DEVANAGARI LETTER NGA"
+    },
+    "ख": {
+      "count": 184,
+      "name": "DEVANAGARI LETTER KHA"
+    },
+    "घ": {
+      "count": 161,
+      "name": "DEVANAGARI LETTER GHA"
+    },
+    "ञ": {
+      "count": 159,
+      "name": "DEVANAGARI LETTER NYA"
+    },
+    "ठ": {
+      "count": 127,
+      "name": "DEVANAGARI LETTER TTHA"
+    },
+    "छ": {
+      "count": 119,
+      "name": "DEVANAGARI LETTER CHA"
+    },
+    "ू": {
+      "count": 89,
+      "name": "DEVANAGARI VOWEL SIGN UU"
+    },
+    "ौ": {
+      "count": 82,
+      "name": "DEVANAGARI VOWEL SIGN AU"
+    },
+    "े": {
+      "count": 59,
+      "name": "DEVANAGARI VOWEL SIGN E"
+    },
+    "ऊ": {
+      "count": 57,
+      "name": "DEVANAGARI LETTER UU"
+    },
+    "ृ": {
+      "count": 49,
+      "name": "DEVANAGARI VOWEL SIGN VOCALIC R"
+    },
+    "ओ": {
+      "count": 48,
+      "name": "DEVANAGARI LETTER O"
+    },
+    "ढ": {
+      "count": 39,
+      "name": "DEVANAGARI LETTER DDHA"
+    },
+    "औ": {
+      "count": 29,
+      "name": "DEVANAGARI LETTER AU"
+    },
+    "ऋ": {
+      "count": 25,
+      "name": "DEVANAGARI LETTER VOCALIC R"
+    },
+    "इ": {
+      "count": 19,
+      "name": "DEVANAGARI LETTER I"
+    },
+    "ए": {
+      "count": 18,
+      "name": "DEVANAGARI LETTER E"
+    },
+    "ऽ": {
+      "count": 10,
+      "name": "DEVANAGARI SIGN AVAGRAHA"
+    },
+    "ै": {
+      "count": 8,
+      "name": "DEVANAGARI VOWEL SIGN AI"
+    },
+    "ॄ": {
+      "count": 7,
+      "name": "DEVANAGARI VOWEL SIGN VOCALIC RR"
+    },
+    "ई": {
+      "count": 5,
+      "name": "DEVANAGARI LETTER II"
+    },
+    "ं": {
+      "count": 4,
+      "name": "DEVANAGARI SIGN ANUSVARA"
+    },
+    "।": {
+      "count": 1,
+      "name": "DEVANAGARI DANDA"
+    },
+    "ॠ": {
+      "count": 1,
+      "name": "DEVANAGARI LETTER VOCALIC RR"
+    },
+    "ऌ": {
+      "count": 1,
+      "name": "DEVANAGARI LETTER VOCALIC L"
+    },
+    "ॡ": {
+      "count": 1,
+      "name": "DEVANAGARI LETTER VOCALIC LL"
+    },
+    "झ": {
+      "count": 1,
+      "name": "DEVANAGARI LETTER JHA"
+    }
+  },
+  "special_chars": {
+    "'.'": 21693,
+    "'-'": 10695,
+    "';'": 10019,
+    "','": 2586,
+    "'/'": 1913,
+    "')'": 1125,
+    "'('": 1123,
+    "':'": 804,
+    "'*'": 681,
+    "'’'": 70,
+    "'•'": 54,
+    "'̣'": 26,
+    "'“'": 19,
+    "'”'": 18,
+    "'['": 15,
+    "']'": 15,
+    "'='": 11,
+    "'&'": 7,
+    "'?'": 6,
+    "'̄'": 5,
+    "'_'": 5,
+    "'̃'": 2,
+    "'◌'": 2,
+    "'#'": 1
+  },
+  "problematic_chars": []
+}

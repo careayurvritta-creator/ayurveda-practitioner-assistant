@@ -1,0 +1,37 @@
+{
+  "source": "Charaka Samhita",
+  "reference": "Digital Sanskrit Buddhist Canon / GRETIL",
+  "relevant_chapters": [
+    "1",
+    "2",
+    "5",
+    "9"
+  ],
+  "verified_terms": 4,
+  "samples": [
+    {
+      "term_id": "ITA-1.8.2.7",
+      "iast": "sādhya",
+      "cs_verified": true,
+      "cs_meaning": "curable"
+    },
+    {
+      "term_id": "ITA-1.9.3.7.9  Shrub",
+      "iast": "gulma",
+      "cs_verified": true,
+      "cs_meaning": "abdominal tumor"
+    },
+    {
+      "term_id": "ITA-5.7.1",
+      "iast": "atisāra",
+      "cs_verified": true,
+      "cs_meaning": "diarrhea"
+    },
+    {
+      "term_id": "ITA-9.2.2",
+      "iast": "pañcakarma",
+      "cs_verified": true,
+      "cs_meaning": "five cleansing actions"
+    }
+  ]
+}
