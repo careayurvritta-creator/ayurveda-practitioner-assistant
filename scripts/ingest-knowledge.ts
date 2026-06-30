@@ -94,22 +94,33 @@ function contentHash(content: string): string {
   return createHash('sha256').update(content).digest('hex');
 }
 
+function sanitizeText(text: string): string {
+  // Remove control chars, replace excessive whitespace, strip null bytes
+  return text
+    .replace(/\0/g, '')
+    .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, '')
+    .replace(/\s{3,}/g, '  ')
+    .trim();
+}
+
 function textEmbeddingInput(text: string): string {
-  return text.slice(0, 1500);
+  return sanitizeText(text).slice(0, 350);
 }
 
 /**
- * Split long text into ≤512-token segments, embed each, and average.
- * Ensures no chunk is skipped due to NVIDIA's token limit.
+ * Split long text into safe segments and embed each, averaging results.
+ * NVIDIA nv-embedqa-e5-v5 has ~512 token limit; Devanagari uses ~2x tokens/char.
+ * Safe threshold: 300 characters per segment.
  */
 async function embedSingleSafe(text: string): Promise<number[]> {
-  const TRUNC = 1400;
-  if (text.length <= TRUNC) {
-    const [embed] = await embedNVIDIA([text]);
+  const SAFE_LEN = 300;
+  const safe = sanitizeText(text);
+  if (safe.length <= SAFE_LEN) {
+    const [embed] = await embedNVIDIA([safe]);
     return embed;
   }
-  const mid = Math.floor(text.length / 2);
-  const [eL, eR] = await embedNVIDIA([text.slice(0, mid).slice(0, TRUNC), text.slice(mid).slice(0, TRUNC)]);
+  const mid = Math.floor(safe.length / 2);
+  const [eL, eR] = await embedNVIDIA([safe.slice(0, mid).slice(0, SAFE_LEN), safe.slice(mid).slice(0, SAFE_LEN)]);
   return eL.map((v, i) => (v + eR[i]) / 2);
 }
 
@@ -158,54 +169,65 @@ async function embedGeminiBatch(texts: string[]): Promise<number[][]> {
 }
 
 async function embedBatch(texts: string[]): Promise<(number[] | null)[]> {
-  if (NVIDIA_API_KEY) {
-    const batchSize = 10;
-    const allEmbeds: number[][] = [];
-    for (let i = 0; i < texts.length; i += batchSize) {
-      const batch = texts.slice(i, i + batchSize);
-      let attempts = 0;
-      while (attempts < 3) {
-        try {
-          const embeddings = await embedNVIDIA(batch);
-          allEmbeds.push(...embeddings);
-          break;
-        } catch (err: any) {
-          attempts++;
-          const isTokenErr = err.message?.includes('400') || err.message?.includes('token size');
-          if (isTokenErr) {
-            // Embed each text individually with safe splitting
-            for (const t of batch) {
-              try {
-                const e = await embedSingleSafe(t);
-                allEmbeds.push(e);
-              } catch {
-                console.error(`EMBEDDING FAILED for text (token error, length ${t.length}). Skipping.`);
-                allEmbeds.push(null);
-              }
-            }
-            break;
-          }
-          if (attempts >= 3) {
-            for (const t of batch) {
-              try {
-                const e = await embedSingleSafe(t);
-                allEmbeds.push(e);
-              } catch {
-                console.error(`EMBEDDING FAILED for text (max retries, length ${t.length}). Skipping.`);
-                allEmbeds.push(null);
-              }
-            }
-            break;
-          }
-          console.warn(`  Retry ${attempts}/3 for batch ${i}-${i + batch.length}`);
-          await new Promise(r => setTimeout(r, 2000 * attempts));
+  if (!NVIDIA_API_KEY && !GEMINI_API_KEY) {
+    return texts.map(() => null);
+  }
+
+  const results: (number[] | null)[] = [];
+  let successCount = 0;
+  let failCount = 0;
+
+  for (let i = 0; i < texts.length; i++) {
+    const text = texts[i];
+    let embedded = false;
+
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        if (NVIDIA_API_KEY) {
+          const [e] = await embedNVIDIA([text]);
+          results.push(e);
+        } else {
+          const [e] = await embedGeminiBatch([text]);
+          results.push(e);
+        }
+        successCount++;
+        embedded = true;
+        break;
+      } catch (err: any) {
+        const delay = 2000 * (attempt + 1);
+        if (attempt < 2) {
+          process.stdout.write(`  Retry ${attempt + 1}/3 for chunk ${i + 1}/${texts.length} (waiting ${delay / 1000}s)...\r`);
+          await new Promise(r => setTimeout(r, delay));
         }
       }
-      if (i + batchSize < texts.length) await new Promise(r => setTimeout(r, 300));
     }
-    return allEmbeds;
+
+    if (!embedded) {
+      // Final attempt: try with safe splitting
+      try {
+        const e = await embedSingleSafe(text);
+        results.push(e);
+        successCount++;
+      } catch {
+        console.error(`  ✗ Chunk ${i + 1}/${texts.length} failed all attempts (len=${text.length}). Skipping.`);
+        results.push(null);
+        failCount++;
+      }
+    }
+
+    // Progress every 10 chunks
+    if ((i + 1) % 10 === 0 || i === texts.length - 1) {
+      process.stdout.write(`  Progress: ${i + 1}/${texts.length} (${successCount} ok, ${failCount} failed)\r`);
+    }
+
+    // Delay between requests (2s to avoid rate limiting)
+    if (i < texts.length - 1) {
+      await new Promise(r => setTimeout(r, 2000));
+    }
   }
-  return embedGeminiBatch(texts);
+
+  console.log(`\n  Embedding complete: ${successCount} success, ${failCount} failed out of ${texts.length}`);
+  return results;
 }
 
 async function supabaseInsert(rows: any[]) {
@@ -1431,24 +1453,54 @@ function chunkGrahaChikitsa(): ChunkInput[] {
 }
 
 function chunkWhoItaTerms(): ChunkInput[] {
-  // Chunk WHO ITA terms - one chunk per term with relevant context
-  return WHO_ITA_TERMS.map(t => ({
-    content: `WHO ITA - ${t.english} (${t.devanagari || 'N/A'} / ${t.iast || 'N/A'})\nID: ${t.term_id}\nCategory: ${t.category.chapter_name} (${t.category.chapter_id})\nDescription: ${t.description || 'N/A'}\nConfidence: ${t.confidence.level} (${t.confidence.source_count} sources)`,
-    source: 'who-ita',
-    category: 'standardized-terminology',
-    title: `${t.english} - WHO ITA`,
-    metadata: {},
-  }));
+  // Group by category to reduce chunk count (3,547 terms → ~50 category chunks)
+  const byCategory = new Map<string, typeof WHO_ITA_TERMS>();
+  for (const t of WHO_ITA_TERMS) {
+    const key = `${t.category.chapter_id}|${t.category.chapter_name}`;
+    if (!byCategory.has(key)) byCategory.set(key, []);
+    byCategory.get(key)!.push(t);
+  }
+  const chunks: ChunkInput[] = [];
+  for (const [key, terms] of byCategory) {
+    const [chapterId, chapterName] = key.split('|');
+    const termList = terms.map(t =>
+      `- ${t.english} (${t.devanagari || ''} / ${t.iast || ''}) [${t.term_id}]: ${t.description || 'N/A'}`
+    ).join('\n');
+    chunks.push({
+      content: `WHO ITA Chapter: ${chapterName} (${chapterId})\nTerms (${terms.length}):\n${termList}`,
+      source: 'who-ita',
+      category: 'standardized-terminology',
+      title: `${chapterName} - WHO ITA`,
+      metadata: { chapterId, termCount: terms.length },
+    });
+  }
+  return chunks;
 }
 
 function chunkLabValues(): ChunkInput[] {
-  return LAB_TESTS.map(t => ({
-    content: `Clinical Lab Value - ${t.name} (${t.category})\nNormal Range: ${t.normalRange} ${t.unit}\nAyurvedic Interpretation: ${t.ayurvedicInterpretation}\nDosha Correlation: ${t.doshaCorrelation}\nClinical Significance: ${t.clinicalSignificance}`,
-    source: 'lab-values',
-    category: 'clinical-reference',
-    title: `${t.name} - Lab Values`,
-    metadata: {},
-  }));
+  return LAB_TESTS.map(t => {
+    const interp = t.ayurvedicInterpretation;
+    const dosha = t.doshaCorrelation;
+    return {
+      content: [
+        `Clinical Lab Value - ${t.name} (${t.category})`,
+        `Sanskrit: ${t.sanskritTerm} (${t.devanagariTerm})`,
+        `Normal Range: ${t.normalRange} ${t.unit}`,
+        `Ayurvedic Interpretation:`,
+        `  Low: ${interp.low}`,
+        `  Normal: ${interp.normal}`,
+        `  High: ${interp.high}`,
+        `Dosha Correlation:`,
+        `  Primary: ${dosha.primaryDosha}, Secondary: ${dosha.secondaryDosha}`,
+        `  Effect: ${dosha.doshaEffect}`,
+        `Clinical Significance: ${t.clinicalSignificance}`,
+      ].join('\n'),
+      source: 'lab-values',
+      category: 'clinical-reference',
+      title: `${t.name} - Lab Values`,
+      metadata: { sanskritTerm: t.sanskritTerm, devanagariTerm: t.devanagariTerm },
+    };
+  });
 }
 
 function chunkPlanetAyurvedaFormulations(formulations: any[]): ChunkInput[] {
@@ -1506,174 +1558,233 @@ function chunkPlanetAyurvedaFormulations(formulations: any[]): ChunkInput[] {
 }
 
 async function main() {
-  console.log('=== AyurScribe Knowledge Ingestion ===\n');
+  console.log('=== AyurScribe Knowledge Ingestion (v2) ===\n');
+
+  // ── Step 1: Fetch existing sources from DB ──
+  console.log('Fetching existing sources from DB (paginated)...');
+  const existingSources = new Set<string>();
+  let offset = 0;
+  const PAGE = 1000;
+  while (true) {
+    const url = `${SUPABASE_URL}/rest/v1/knowledge_embeddings?select=source&limit=${PAGE}&offset=${offset}`;
+    const res = await fetch(url, {
+      headers: {
+        'apikey': SUPABASE_SERVICE_ROLE_KEY!,
+        'Authorization': `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
+      },
+    });
+    if (!res.ok) { console.warn(`  Failed at offset ${offset}`); break; }
+    const rows = await res.json();
+    if (rows.length === 0) break;
+    for (const r of rows) existingSources.add(r.source);
+    offset += PAGE;
+    if (rows.length < PAGE) break;
+  }
+  console.log(`  Found ${existingSources.size} existing sources: ${[...existingSources].sort().join(', ')}\n`);
 
   const knowledgeBasePath = resolve(ROOT, 'knowledge-base', 'ayurknowledge');
-
   const mod = await import(`file:///${knowledgeBasePath.replace(/\\/g, '/')}/index.ts`);
   const AYURVEDA_KNOWLEDGE = mod.AYURVEDA_KNOWLEDGE;
 
+  // ── Step 2: Chunk sources NOT already in DB ──
   const allChunks: ChunkInput[] = [];
 
-  console.log('Chunking diseases...');
-  for (const d of (AYURVEDA_KNOWLEDGE.diseases ?? [])) allChunks.push(...chunkDisease(d));
-  console.log(`  → ${allChunks.length} chunks from diseases`);
+  const shouldSkip = (source: string) => {
+    if (existingSources.has(source)) {
+      console.log(`  ⏭ Skipping ${source} (already in DB)`);
+      return true;
+    }
+    return false;
+  };
 
-  console.log('Chunking herbs...');
-  for (const h of (AYURVEDA_KNOWLEDGE.herbs ?? [])) allChunks.push(...chunkHerb(h));
-  console.log(`  → ${allChunks.length} total chunks`);
+  if (!shouldSkip('diseases')) {
+    console.log('Chunking diseases...');
+    for (const d of (AYURVEDA_KNOWLEDGE.diseases ?? [])) allChunks.push(...chunkDisease(d));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking treatments...');
-  for (const t of (AYURVEDA_KNOWLEDGE.treatments ?? [])) allChunks.push(...chunkTreatment(t));
-  console.log(`  → ${allChunks.length} total chunks`);
+  if (!shouldSkip('herbs')) {
+    console.log('Chunking herbs...');
+    for (const h of (AYURVEDA_KNOWLEDGE.herbs ?? [])) allChunks.push(...chunkHerb(h));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking diagnostics...');
-  for (const m of (AYURVEDA_KNOWLEDGE.diagnostics ?? [])) allChunks.push(...chunkDiagnostics(m));
-  console.log(`  → ${allChunks.length} total chunks`);
+  if (!shouldSkip('treatments')) {
+    console.log('Chunking treatments...');
+    for (const t of (AYURVEDA_KNOWLEDGE.treatments ?? [])) allChunks.push(...chunkTreatment(t));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking allopathy integration...');
-  for (const a of (AYURVEDA_KNOWLEDGE.allopathyIntegration ?? [])) allChunks.push(...chunkAllopathy(a));
-  console.log(`  → ${allChunks.length} total chunks`);
+  if (!shouldSkip('diagnostics')) {
+    console.log('Chunking diagnostics...');
+    for (const m of (AYURVEDA_KNOWLEDGE.diagnostics ?? [])) allChunks.push(...chunkDiagnostics(m));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking fundamentals...');
-  allChunks.push(...chunkFundamentalsConcepts(AYURVEDA_KNOWLEDGE.fundamentals));
-  console.log(`  → ${allChunks.length} total chunks`);
+  if (!shouldSkip('allopathy')) {
+    console.log('Chunking allopathy integration...');
+    for (const a of (AYURVEDA_KNOWLEDGE.allopathyIntegration ?? [])) allChunks.push(...chunkAllopathy(a));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Charak Samhita...');
-  allChunks.push(...chunkCharakSamhita(AYURVEDA_KNOWLEDGE.charakSamhita));
-  console.log(`  → ${allChunks.length} total chunks`);
+  if (!shouldSkip('fundamentals')) {
+    console.log('Chunking fundamentals...');
+    allChunks.push(...chunkFundamentalsConcepts(AYURVEDA_KNOWLEDGE.fundamentals));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Sushruta Samhita (verse-based)...');
-  const sushrutaChunks = chunkSushrutaSamhita();
-  allChunks.push(...sushrutaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${sushrutaChunks.length} from Sushruta)`);
+  if (!shouldSkip('charak-samhita')) {
+    console.log('Chunking Charak Samhita...');
+    allChunks.push(...chunkCharakSamhita(AYURVEDA_KNOWLEDGE.charakSamhita));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Charak Online shlokas (verse-based)...');
-  const charakOnlineChunks = chunkCharakOnlineShlokas();
-  allChunks.push(...charakOnlineChunks);
-  console.log(`  → ${allChunks.length} total chunks (${charakOnlineChunks.length} from Charak Online)`);
+  if (!shouldSkip('sushruta-samhita')) {
+    console.log('Chunking Sushruta Samhita...');
+    allChunks.push(...chunkSushrutaSamhita());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Tattva Vimarsha...');
-  const tattvaChunks = chunkTattvaVimarsha();
-  allChunks.push(...tattvaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${tattvaChunks.length} from Tattva/Vidhi Vimarsha)`);
+  if (!shouldSkip('charak-online')) {
+    console.log('Chunking Charak Online shlokas...');
+    allChunks.push(...chunkCharakOnlineShlokas());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Dr. Vasishth clinical experiences...');
-  const vasishthChunks = chunkVasishthArticles(AYURVEDA_KNOWLEDGE.vasishthArticles ?? []);
-  allChunks.push(...vasishthChunks);
-  console.log(`  → ${allChunks.length} total chunks (${vasishthChunks.length} from vasishth)`);
+  if (!shouldSkip('charak-tattva-vimarsha') && !shouldSkip('charak-vidhi-vimarsha')) {
+    console.log('Chunking Tattva Vimarsha...');
+    allChunks.push(...chunkTattvaVimarsha());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Ayur case studies...');
-  const csChunks = chunkCaseStudies(AYURVEDA_KNOWLEDGE.caseStudies ?? []);
-  allChunks.push(...csChunks);
-  console.log(`  → ${allChunks.length} total chunks (${csChunks.length} from case studies)`);
+  if (!shouldSkip('vasishth-clinical-experience')) {
+    console.log('Chunking Dr. Vasishth clinical experiences...');
+    allChunks.push(...chunkVasishthArticles(AYURVEDA_KNOWLEDGE.vasishthArticles ?? []));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking case study treatments...');
-  const txChunks = chunkCaseTreatments(AYURVEDA_KNOWLEDGE.caseTreatments ?? []);
-  allChunks.push(...txChunks);
-  console.log(`  → ${allChunks.length} total chunks (${txChunks.length} from treatments)`);
+  if (!shouldSkip('ayur-case-study')) {
+    console.log('Chunking Ayur case studies...');
+    allChunks.push(...chunkCaseStudies(AYURVEDA_KNOWLEDGE.caseStudies ?? []));
+    console.log(`  → ${allChunks.length} chunks`);
+    console.log('Chunking case study treatments...');
+    allChunks.push(...chunkCaseTreatments(AYURVEDA_KNOWLEDGE.caseTreatments ?? []));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Planet Ayurveda diseases...');
-  const paChunks = chunkPlanetAyurveda(AYURVEDA_KNOWLEDGE.planetAyurvedaDiseases ?? []);
-  allChunks.push(...paChunks);
-  console.log(`  → ${allChunks.length} total chunks (${paChunks.length} from Planet Ayurveda)`);
+  if (!shouldSkip('planet-ayurveda')) {
+    console.log('Chunking Planet Ayurveda diseases...');
+    allChunks.push(...chunkPlanetAyurveda(AYURVEDA_KNOWLEDGE.planetAyurvedaDiseases ?? []));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Planet Ayurveda herbs...');
-  const paHerbChunks = chunkPlanetAyurvedaHerbs(AYURVEDA_KNOWLEDGE.planetAyurvedaHerbs ?? []);
-  allChunks.push(...paHerbChunks);
-  console.log(`  → ${allChunks.length} total chunks (${paHerbChunks.length} from Planet Ayurveda herbs)`);
+  if (!shouldSkip('planet-ayurveda-herb')) {
+    console.log('Chunking Planet Ayurveda herbs...');
+    allChunks.push(...chunkPlanetAyurvedaHerbs(AYURVEDA_KNOWLEDGE.planetAyurvedaHerbs ?? []));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Planet Ayurveda classical formulations...');
-  const paFormChunks = chunkPlanetAyurvedaFormulations(AYURVEDA_KNOWLEDGE.planetAyurvedaFormulations ?? []);
-  allChunks.push(...paFormChunks);
-  console.log(`  → ${allChunks.length} total chunks (${paFormChunks.length} from Planet Ayurveda formulations)`);
+  if (!shouldSkip('planet-ayurveda-formulation')) {
+    console.log('Chunking Planet Ayurveda classical formulations...');
+    allChunks.push(...chunkPlanetAyurvedaFormulations(AYURVEDA_KNOWLEDGE.planetAyurvedaFormulations ?? []));
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Amidha Herb Database (360 herbs)...');
-  const amidhaChunks = chunkAmidhaHerbs();
-  allChunks.push(...amidhaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${amidhaChunks.length} from Amidha)`);
+  if (!shouldSkip('amidha-herbs')) {
+    console.log('Chunking Amidha Herb Database...');
+    allChunks.push(...chunkAmidhaHerbs());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Bhaishajya Kalpana Kosha (176 formulations)...');
-  const bhaishajyaChunks = chunkBhaishajyaFormulations();
-  allChunks.push(...bhaishajyaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${bhaishajyaChunks.length} from Bhaishajya)`);
+  if (!shouldSkip('bhaishajya-kalpana-kosha')) {
+    console.log('Chunking Bhaishajya Kalpana Kosha...');
+    allChunks.push(...chunkBhaishajyaFormulations());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Ashtanga Hridaya (138 chapters)...');
-  const ashtangaChunks = chunkAshtangaHridaya();
-  allChunks.push(...ashtangaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${ashtangaChunks.length} from Ashtanga Hridaya)`);
+  if (!shouldSkip('ashtanga-hridaya')) {
+    console.log('Chunking Ashtanga Hridaya...');
+    allChunks.push(...chunkAshtangaHridaya());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Siddhanta Kosha (162 principles)...');
-  const siddhantaChunks = chunkSiddhantaKosha();
-  allChunks.push(...siddhantaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${siddhantaChunks.length} from Siddhanta Kosha)`);
+  if (!shouldSkip('siddhanta-kosha')) {
+    console.log('Chunking Siddhanta Kosha...');
+    allChunks.push(...chunkSiddhantaKosha());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Kerala Ayurveda documents...');
-  const keralaChunks = chunkKeralaAyurveda();
-  allChunks.push(...keralaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${keralaChunks.length} from Kerala Ayurveda)`);
+  if (!shouldSkip('kerala-ayurveda')) {
+    console.log('Chunking Kerala Ayurveda...');
+    allChunks.push(...chunkKeralaAyurveda());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Indian Vedas Corpus...');
-  const vedasChunks = chunkVedasCorpus();
-  allChunks.push(...vedasChunks);
-  console.log(`  → ${allChunks.length} total chunks (${vedasChunks.length} from Vedas Corpus)`);
+  if (!shouldSkip('vedas-corpus')) {
+    console.log('Chunking Indian Vedas Corpus...');
+    allChunks.push(...chunkVedasCorpus());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Ayurwiki Herbs (2,185 herbs)...');
-  const ayurwikiChunks = chunkAyurwikiHerbs();
-  allChunks.push(...ayurwikiChunks);
-  console.log(`  → ${allChunks.length} total chunks (${ayurwikiChunks.length} from Ayurwiki)`);
+  if (!shouldSkip('ayurwiki')) {
+    console.log('Chunking Ayurwiki Herbs...');
+    allChunks.push(...chunkAyurwikiHerbs());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
-  console.log('Chunking Gita/Datasets Charak Samhita (7,978 verses)...');
-  const gitaChunks = chunkGitaCharak();
-  allChunks.push(...gitaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${gitaChunks.length} from Gita/Charak)`);
+  if (!shouldSkip('gita-charak')) {
+    console.log('Chunking Gita/Datasets Charak Samhita...');
+    allChunks.push(...chunkGitaCharak());
+    console.log(`  → ${allChunks.length} chunks`);
+  }
 
+  // ── NEW sources (always embed) ──
   console.log('Chunking Bhavaprakasha Nigantu...');
-  const bhavaprakashaChunks = chunkBhavaprakasha();
-  allChunks.push(...bhavaprakashaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${bhavaprakashaChunks.length} from Bhavaprakasha)`);
+  allChunks.push(...chunkBhavaprakasha());
+  console.log(`  → ${allChunks.length} chunks`);
 
   console.log('Chunking Rasa Shastra...');
-  const rasaShastraChunks = chunkRasaShastra();
-  allChunks.push(...rasaShastraChunks);
-  console.log(`  → ${allChunks.length} total chunks (${rasaShastraChunks.length} from Rasa Shastra)`);
+  allChunks.push(...chunkRasaShastra());
+  console.log(`  → ${allChunks.length} chunks`);
 
   console.log('Chunking Rasayana & Vajikarana...');
-  const rasayanaChunks = chunkRasayanaVajikarana();
-  allChunks.push(...rasayanaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${rasayanaChunks.length} from Rasayana/Vajikarana)`);
+  allChunks.push(...chunkRasayanaVajikarana());
+  console.log(`  → ${allChunks.length} chunks`);
 
   console.log('Chunking Yoga & Pranayama...');
-  const yogaChunks = chunkYogaPranayama();
-  allChunks.push(...yogaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${yogaChunks.length} from Yoga/Pranayama)`);
+  allChunks.push(...chunkYogaPranayama());
+  console.log(`  → ${allChunks.length} chunks`);
 
   console.log('Chunking Kaumara Bhritya...');
-  const kaumaraChunks = chunkKaumaraBhritya();
-  allChunks.push(...kaumaraChunks);
-  console.log(`  → ${allChunks.length} total chunks (${kaumaraChunks.length} from Kaumara Bhritya)`);
+  allChunks.push(...chunkKaumaraBhritya());
+  console.log(`  → ${allChunks.length} chunks`);
 
   console.log('Chunking Graha Chikitsa...');
-  const grahaChunks = chunkGrahaChikitsa();
-  allChunks.push(...grahaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${grahaChunks.length} from Graha Chikitsa)`);
+  allChunks.push(...chunkGrahaChikitsa());
+  console.log(`  → ${allChunks.length} chunks`);
 
-  console.log('Chunking WHO ITA Terms...');
-  const whoItaChunks = chunkWhoItaTerms();
-  allChunks.push(...whoItaChunks);
-  console.log(`  → ${allChunks.length} total chunks (${whoItaChunks.length} from WHO ITA)`);
+  console.log('Chunking WHO ITA Terms (grouped by category)...');
+  allChunks.push(...chunkWhoItaTerms());
+  console.log(`  → ${allChunks.length} chunks`);
 
   console.log('Chunking Lab Values...');
-  const labChunks = chunkLabValues();
-  allChunks.push(...labChunks);
-  console.log(`  → ${allChunks.length} total chunks (${labChunks.length} from Lab Values)`);
+  allChunks.push(...chunkLabValues());
+  console.log(`  → ${allChunks.length} chunks`);
 
+  // ── Step 3: All remaining chunks are new ──
+  console.log(`\n${allChunks.length} new chunks to embed`);
+
+  if (allChunks.length === 0) {
+    console.log('Nothing new to embed. Done.');
+    return;
+  }
+
+  // ── Step 4: Embed with conservative batching ──
   const totalTexts = allChunks.map(c => {
     const prefix = generateContextPrefix(c);
     return `${prefix}\n\n${c.content}`;
   });
-  console.log(`\nTotal chunks: ${allChunks.length}`);
-  console.log(`Embedding with ${NVIDIA_API_KEY ? 'NVIDIA' : 'Gemini'} (with contextual prefixes)...`);
+  console.log(`\nEmbedding ${totalTexts.length} new chunks (batch size 2, 1.5s delay)...`);
 
   const embeddings = await embedBatch(totalTexts);
 
@@ -1688,13 +1799,13 @@ async function main() {
     console.warn(`  ⚠ ${allChunks.length - validIndices.length} chunks had failed embeddings and will be skipped.`);
   }
 
+  // ── Step 5: Insert into Supabase ──
   let inserted = 0;
-  let skipped = 0;
   let errors = 0;
 
-  const BATCH_SIZE = 50;
-  for (let i = 0; i < validIndices.length; i += BATCH_SIZE) {
-    const batchIndices = validIndices.slice(i, i + BATCH_SIZE);
+  const INSERT_BATCH = 20;
+  for (let i = 0; i < validIndices.length; i += INSERT_BATCH) {
+    const batchIndices = validIndices.slice(i, i + INSERT_BATCH);
     const batch = batchIndices.map(idx => allChunks[idx]);
 
     const rows = batch.map((chunk, j) => ({
@@ -1715,15 +1826,16 @@ async function main() {
       errors += rows.length;
     }
 
-    if (i + BATCH_SIZE < validIndices.length) {
+    if (i + INSERT_BATCH < validIndices.length) {
       await new Promise(r => setTimeout(r, 200));
     }
   }
 
   console.log(`\n\n=== Summary ===`);
-  console.log(`  Chunks embedded: ${allChunks.length}`);
+  console.log(`  New chunks embedded: ${validIndices.length}`);
+  console.log(`  Failed embeddings: ${allChunks.length - validIndices.length}`);
   console.log(`  Upserted: ${inserted}`);
-  console.log(`  Errors: ${errors}`);
+  console.log(`  Insert errors: ${errors}`);
   console.log(`Done.`);
 }
 
