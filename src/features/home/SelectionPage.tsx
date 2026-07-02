@@ -48,9 +48,12 @@ export default function SelectionPage() {
           </button>
 
           {/* HIMS Card */}
-          <div className="bg-white dark:bg-surface-800 rounded-2xl shadow-lg border border-surface-200 dark:border-surface-700 p-6 text-left opacity-75">
-            <div className="w-12 h-12 rounded-xl bg-surface-200 dark:bg-surface-700 flex items-center justify-center mb-4">
-              <Building2 className="w-6 h-6 text-surface-500 dark:text-surface-400" />
+          <button
+            onClick={() => navigate('/hims/dashboard')}
+            className="group bg-white dark:bg-surface-800 rounded-2xl shadow-lg border border-surface-200 dark:border-surface-700 p-6 text-left hover:shadow-xl hover:border-emerald-300 dark:hover:border-emerald-700 transition-all duration-200 min-h-[48px]"
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+              <Building2 className="w-6 h-6 text-white" />
             </div>
             <h2 className="text-xl font-semibold text-surface-900 dark:text-white mb-2">
               HIMS
@@ -58,10 +61,13 @@ export default function SelectionPage() {
             <p className="text-sm text-surface-500 dark:text-surface-400 mb-4">
               Hospital Information Management System for patient records and operations
             </p>
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-surface-100 dark:bg-surface-700 text-surface-600 dark:text-surface-400">
-              Coming Soon
-            </span>
-          </div>
+            <div className="flex items-center text-emerald-600 dark:text-emerald-400 text-sm font-medium">
+              Launch
+              <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </button>
         </div>
 
         <div className="flex items-center justify-between text-sm">
