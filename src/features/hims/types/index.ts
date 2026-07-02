@@ -7,11 +7,12 @@ export interface HimsPatient {
   phone: string;
   email?: string;
   address?: string;
-  bloodGroup?: string;
+  bloodGroup?: 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-' | 'O+' | 'O-';
   prakriti?: string;
   vikriti?: string;
   allergies?: string;
   emergencyContact?: string;
+  lastVisit?: string;
   createdAt: string;
 }
 
@@ -35,6 +36,10 @@ export interface OpdVisit {
   notes?: string;
   status: 'waiting' | 'in-progress' | 'completed' | 'cancelled';
   consultationFee: number;
+  startedAt?: string;
+  completedAt?: string;
+  cancelledAt?: string;
+  chamber?: string;
 }
 
 export interface InvoiceItem {
@@ -97,4 +102,35 @@ export interface DispensingRecord {
   unit: string;
   dispensedBy: string;
   dispensedAt: string;
+}
+
+export interface DuplicateCheckResult {
+  isDuplicate: boolean;
+  existingPatient?: HimsPatient;
+  matchType: 'phone' | 'name' | 'none';
+}
+
+export const PRAKRITI_TYPES = [
+  'Vata',
+  'Pitta',
+  'Kapha',
+  'Vata-Pitta',
+  'Pitta-Kapha',
+  'Vata-Kapha',
+  'Tridosha',
+] as const;
+
+export const GENDERS = ['Male', 'Female', 'Other'] as const;
+
+export const BLOOD_GROUPS = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'] as const;
+
+export const VALID_STATUS_TRANSITIONS: Record<string, string[]> = {
+  'waiting': ['in-progress', 'cancelled'],
+  'in-progress': ['completed', 'cancelled'],
+  'completed': [],
+  'cancelled': [],
+};
+
+export function canTransition(from: string, to: string): boolean {
+  return VALID_STATUS_TRANSITIONS[from]?.includes(to) ?? false;
 }

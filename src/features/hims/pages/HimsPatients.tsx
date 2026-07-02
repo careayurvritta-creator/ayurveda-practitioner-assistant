@@ -1,31 +1,75 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { UserPlus, Search, Trash2, Eye, Pencil } from 'lucide-react';
+import { UserPlus, Search, Trash2, Eye, Pencil, X, Users } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
+import { ConfirmationDialog } from '../../../components/ui/ConfirmationDialog';
 import { useHimsPatients } from '../contexts/HimsPatientContext';
-import { RegisterPatientModal } from '../components/RegisterPatientModal';
-import { EditPatientModal } from '../components/EditPatientModal';
+import { useOpd } from '../contexts/OpdContext';
+import { useBilling } from '../contexts/BillingContext';
+import { useToast } from '../../../contexts/ToastContext';
+import { PatientFormModal } from '../components/PatientFormModal';
 import type { HimsPatient } from '../types';
 
 export default function HimsPatients() {
   const navigate = useNavigate();
   const { patients, deletePatient } = useHimsPatients();
+  const { visits } = useOpd();
+  const { invoices } = useBilling();
+  const { showToast } = useToast();
+
   const [search, setSearch] = useState('');
+  const [debouncedSearch, setDebouncedSearch] = useState('');
   const [showRegister, setShowRegister] = useState(false);
   const [editingPatient, setEditingPatient] = useState<HimsPatient | null>(null);
+  const [deletingPatient, setDeletingPatient] = useState<HimsPatient | null>(null);
+  const debounceTimer = useRef<ReturnType<typeof setTimeout>>(null);
 
-  const filteredPatients = patients.filter(
-    (p) =>
-      p.name.toLowerCase().includes(search.toLowerCase()) ||
-      p.mrn.toLowerCase().includes(search.toLowerCase()) ||
-      p.phone.includes(search)
-  );
+  useEffect(() => {
+    if (debounceTimer.current) clearTimeout(debounceTimer.current);
+    debounceTimer.current = setTimeout(() => {
+      setDebouncedSearch(search);
+    }, 300);
+    return () => { if (debounceTimer.current) clearTimeout(debounceTimer.current); };
+  }, [search]);
+
+  const filteredPatients = patients.filter((p) => {
+    if (debouncedSearch.length < 2) return true;
+    const q = debouncedSearch.toLowerCase();
+    return (
+      p.name.toLowerCase().includes(q) ||
+      p.mrn.toLowerCase().includes(q) ||
+      p.phone.includes(q)
+    );
+  });
+
+  const hasRelatedRecords = (patientId: string): boolean => {
+    const hasVisits = visits.some((v) => v.patientId === patientId);
+    const hasInvoices = invoices.some((inv) => inv.patientId === patientId);
+    return hasVisits || hasInvoices;
+  };
+
+  const handleDelete = () => {
+    if (!deletingPatient) return;
+    if (hasRelatedRecords(deletingPatient.id)) {
+      showToast('Cannot delete patient with visit or billing history', 'error');
+      setDeletingPatient(null);
+      return;
+    }
+    deletePatient(deletingPatient.id);
+    showToast('Patient deleted successfully', 'success');
+    setDeletingPatient(null);
+  };
+
+  const formatDate = (dateStr?: string) => {
+    if (!dateStr) return null;
+    return new Date(dateStr).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+  };
 
   return (
     <div className="h-full flex flex-col">
       <div className="sticky top-0 z-10 bg-white/50 dark:bg-surface-900/50 backdrop-blur-sm border-b border-surface-200 dark:border-surface-700 px-4 py-3">
         <div className="max-w-4xl mx-auto flex items-center justify-between gap-4">
-          <h1 className="text-lg font-semibold text-surface-900 dark:text-white">
+          <h1 className="text-xl font-bold text-surface-900 dark:text-white">
             Patients
             <span className="ml-2 text-sm font-normal text-surface-500">
               ({patients.length})
@@ -47,17 +91,32 @@ export default function HimsPatients() {
               placeholder="Search by name, MRN, or phone..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full pl-9 pr-4 py-2.5 text-sm rounded-lg bg-surface-50 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 focus:ring-2 focus:ring-emerald-500 outline-none min-h-[44px]"
+              className="w-full pl-9 pr-10 py-2.5 text-sm rounded-lg bg-surface-50 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 focus:ring-2 focus:ring-emerald-500 outline-none min-h-[48px]"
             />
+            {search && (
+              <button
+                onClick={() => setSearch('')}
+                className="absolute right-3 top-1/2 -translate-y-1/2 p-1 rounded-lg hover:bg-surface-200 dark:hover:bg-surface-700"
+              >
+                <X className="w-4 h-4 text-surface-400" />
+              </button>
+            )}
           </div>
 
           {filteredPatients.length === 0 ? (
             <div className="text-center py-12 text-surface-500">
+              <Users className="w-12 h-12 mx-auto mb-4 text-surface-300" />
               <p className="text-lg mb-2">
                 {patients.length === 0 ? 'No patients registered yet' : 'No matching patients'}
               </p>
+              <p className="text-sm mb-4">
+                {patients.length === 0
+                  ? 'Register your first patient to get started'
+                  : 'Try a different search term'}
+              </p>
               {patients.length === 0 && (
                 <Button size="sm" onClick={() => setShowRegister(true)}>
+                  <UserPlus className="w-4 h-4" />
                   Register First Patient
                 </Button>
               )}
@@ -67,7 +126,7 @@ export default function HimsPatients() {
               {filteredPatients.map((patient) => (
                 <div
                   key={patient.id}
-                  className="bg-white dark:bg-surface-800 rounded-lg border border-surface-200 dark:border-surface-700 p-4 hover:shadow-sm transition-shadow"
+                  className="bg-white dark:bg-surface-800 rounded-lg border border-surface-200 dark:border-surface-700 p-4 hover:shadow-sm transition-all hover:border-l-2 hover:border-l-emerald-500"
                 >
                   <div className="flex items-center justify-between">
                     <div className="min-w-0 flex-1">
@@ -83,6 +142,11 @@ export default function HimsPatients() {
                         {patient.age}y · {patient.gender} · {patient.phone}
                         {patient.prakriti && ` · ${patient.prakriti}`}
                       </div>
+                      {patient.lastVisit && (
+                        <div className="text-xs text-surface-400 dark:text-surface-500 mt-1">
+                          Last visit: {formatDate(patient.lastVisit)}
+                        </div>
+                      )}
                     </div>
                     <div className="flex items-center gap-1 ml-2">
                       <button
@@ -100,9 +164,7 @@ export default function HimsPatients() {
                         <Eye className="w-4 h-4 text-surface-500" />
                       </button>
                       <button
-                        onClick={() => {
-                          if (confirm(`Delete ${patient.name}?`)) deletePatient(patient.id);
-                        }}
+                        onClick={() => setDeletingPatient(patient)}
                         className="p-2 rounded-lg hover:bg-red-100 dark:hover:bg-red-900/30 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                         title="Delete patient"
                       >
@@ -117,10 +179,19 @@ export default function HimsPatients() {
         </div>
       </div>
 
-      {showRegister && <RegisterPatientModal onClose={() => setShowRegister(false)} />}
+      {showRegister && <PatientFormModal onClose={() => setShowRegister(false)} />}
       {editingPatient && (
-        <EditPatientModal patient={editingPatient} onClose={() => setEditingPatient(null)} />
+        <PatientFormModal patient={editingPatient} onClose={() => setEditingPatient(null)} />
       )}
+      <ConfirmationDialog
+        isOpen={!!deletingPatient}
+        onClose={() => setDeletingPatient(null)}
+        onConfirm={handleDelete}
+        title="Delete Patient"
+        message={`Are you sure you want to delete ${deletingPatient?.name}? This action cannot be undone.`}
+        confirmLabel="Delete"
+        destructive
+      />
     </div>
   );
 }

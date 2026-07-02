@@ -18,6 +18,8 @@ import { HimsPatientProvider } from './features/hims/contexts/HimsPatientContext
 import { OpdProvider } from './features/hims/contexts/OpdContext';
 import { BillingProvider } from './features/hims/contexts/BillingContext';
 import { PharmacyProvider } from './features/hims/contexts/PharmacyContext';
+import { ToastProvider } from './contexts/ToastContext';
+import { GoogleCalendarProvider } from './contexts/GoogleCalendarContext';
 import HimsDashboard from './features/hims/pages/HimsDashboard';
 import HimsPatients from './features/hims/pages/HimsPatients';
 import HimsPatientDetail from './features/hims/pages/HimsPatientDetail';
@@ -48,6 +50,7 @@ export default function App() {
     <ErrorBoundary>
       <BrowserRouter>
         <AuthProvider>
+          <ToastProvider>
           <ProtectedRoute>
             <Routes>
               <Route path="/" element={<SelectionPage />} />
@@ -65,6 +68,7 @@ export default function App() {
                 <Route path="protocol" element={<ProtocolPage />} />
               </Route>
               <Route path="/hims" element={
+                <GoogleCalendarProvider>
                 <HimsPatientProvider>
                   <OpdProvider>
                     <BillingProvider>
@@ -74,6 +78,7 @@ export default function App() {
                     </BillingProvider>
                   </OpdProvider>
                 </HimsPatientProvider>
+                </GoogleCalendarProvider>
               }>
                 <Route index element={<Navigate to="/hims/dashboard" replace />} />
                 <Route path="dashboard" element={<HimsDashboard />} />
@@ -86,6 +91,7 @@ export default function App() {
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </ProtectedRoute>
+          </ToastProvider>
         </AuthProvider>
       </BrowserRouter>
     </ErrorBoundary>

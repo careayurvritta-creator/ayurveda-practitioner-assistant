@@ -1,11 +1,18 @@
 import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Phone, Mail, Droplets, AlertTriangle, Pencil, Receipt } from 'lucide-react';
+import { ArrowLeft, Phone, Mail, Droplets, AlertTriangle, Pencil, Receipt, User } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { useHimsPatients } from '../contexts/HimsPatientContext';
 import { useOpd } from '../contexts/OpdContext';
 import { useBilling } from '../contexts/BillingContext';
-import { EditPatientModal } from '../components/EditPatientModal';
+import { PatientFormModal } from '../components/PatientFormModal';
+
+const STATUS_STYLES: Record<string, string> = {
+  'waiting': 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
+  'in-progress': 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400',
+  'completed': 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400',
+  'cancelled': 'bg-surface-100 text-surface-500 dark:bg-surface-700 dark:text-surface-400',
+};
 
 export default function HimsPatientDetail() {
   const { id } = useParams<{ id: string }>();
@@ -23,7 +30,8 @@ export default function HimsPatientDetail() {
     return (
       <div className="h-full flex items-center justify-center">
         <div className="text-center">
-          <p className="text-surface-500 mb-4">Patient not found</p>
+          <User className="w-12 h-12 mx-auto mb-4 text-surface-300" />
+          <p className="text-lg text-surface-500 mb-4">Patient not found</p>
           <Button variant="secondary" onClick={() => navigate('/hims/patients')}>
             Back to Patients
           </Button>
@@ -34,16 +42,19 @@ export default function HimsPatientDetail() {
 
   return (
     <div className="h-full overflow-y-auto">
-      <div className="max-w-3xl mx-auto px-4 py-6">
-        {/* Back button */}
-        <button
-          onClick={() => navigate('/hims/patients')}
-          className="flex items-center gap-2 text-surface-500 hover:text-surface-700 dark:hover:text-surface-300 mb-4 min-h-[44px]"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Patients
-        </button>
+      <div className="sticky top-0 z-10 bg-white/50 dark:bg-surface-900/50 backdrop-blur-sm border-b border-surface-200 dark:border-surface-700 px-4 py-3">
+        <div className="max-w-3xl mx-auto">
+          <button
+            onClick={() => navigate('/hims/patients')}
+            className="flex items-center gap-2 text-surface-500 hover:text-surface-700 dark:hover:text-surface-300 min-h-[44px]"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span className="text-sm font-medium">Back to Patients</span>
+          </button>
+        </div>
+      </div>
 
+      <div className="max-w-3xl mx-auto px-4 py-6">
         {/* Patient Header */}
         <div className="bg-white dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700 p-6 mb-6">
           <div className="flex items-start justify-between mb-4">
@@ -51,7 +62,7 @@ export default function HimsPatientDetail() {
               <h1 className="text-xl font-bold text-surface-900 dark:text-white mb-1">
                 {patient.name}
               </h1>
-              <span className="text-sm px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 font-medium">
+              <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 font-medium">
                 {patient.mrn}
               </span>
             </div>
@@ -61,34 +72,34 @@ export default function HimsPatientDetail() {
             </Button>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 text-sm">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
             <div>
-              <span className="text-surface-500">Age/Gender</span>
+              <span className="text-xs text-surface-500 uppercase tracking-wide">Age / Gender</span>
               <p className="font-medium text-surface-900 dark:text-white">
                 {patient.age} years · {patient.gender}
               </p>
             </div>
             {patient.bloodGroup && (
-              <div className="flex items-center gap-1">
-                <Droplets className="w-4 h-4 text-red-400" />
+              <div className="flex items-start gap-1">
+                <Droplets className="w-4 h-4 text-red-400 mt-0.5" />
                 <div>
-                  <span className="text-surface-500">Blood Group</span>
+                  <span className="text-xs text-surface-500 uppercase tracking-wide">Blood Group</span>
                   <p className="font-medium text-surface-900 dark:text-white">{patient.bloodGroup}</p>
                 </div>
               </div>
             )}
-            <div className="flex items-center gap-1">
-              <Phone className="w-4 h-4 text-surface-400" />
+            <div className="flex items-start gap-1">
+              <Phone className="w-4 h-4 text-surface-400 mt-0.5" />
               <div>
-                <span className="text-surface-500">Phone</span>
+                <span className="text-xs text-surface-500 uppercase tracking-wide">Phone</span>
                 <p className="font-medium text-surface-900 dark:text-white">{patient.phone}</p>
               </div>
             </div>
             {patient.email && (
-              <div className="flex items-center gap-1">
-                <Mail className="w-4 h-4 text-surface-400" />
+              <div className="flex items-start gap-1">
+                <Mail className="w-4 h-4 text-surface-400 mt-0.5" />
                 <div>
-                  <span className="text-surface-500">Email</span>
+                  <span className="text-xs text-surface-500 uppercase tracking-wide">Email</span>
                   <p className="font-medium text-surface-900 dark:text-white">{patient.email}</p>
                 </div>
               </div>
@@ -97,16 +108,16 @@ export default function HimsPatientDetail() {
 
           {/* Ayurvedic Info */}
           {(patient.prakriti || patient.vikriti) && (
-            <div className="mt-4 pt-4 border-t border-surface-200 dark:border-surface-700 grid grid-cols-2 gap-4 text-sm">
+            <div className="mt-4 pt-4 border-t border-surface-200 dark:border-surface-700 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
               {patient.prakriti && (
                 <div>
-                  <span className="text-surface-500">Prakriti</span>
+                  <span className="text-xs text-surface-500 uppercase tracking-wide">Prakriti</span>
                   <p className="font-medium text-surface-900 dark:text-white">{patient.prakriti}</p>
                 </div>
               )}
               {patient.vikriti && (
                 <div>
-                  <span className="text-surface-500">Vikriti</span>
+                  <span className="text-xs text-surface-500 uppercase tracking-wide">Vikriti</span>
                   <p className="font-medium text-surface-900 dark:text-white">{patient.vikriti}</p>
                 </div>
               )}
@@ -116,26 +127,28 @@ export default function HimsPatientDetail() {
           {/* Allergies */}
           {patient.allergies && (
             <div className="mt-4 pt-4 border-t border-surface-200 dark:border-surface-700">
-              <div className="flex items-center gap-1 text-sm">
-                <AlertTriangle className="w-4 h-4 text-amber-500" />
-                <span className="text-surface-500">Allergies:</span>
-                <span className="font-medium text-amber-700 dark:text-amber-400">
-                  {patient.allergies}
-                </span>
+              <div className="flex items-start gap-2 text-sm">
+                <AlertTriangle className="w-4 h-4 text-amber-500 mt-0.5" />
+                <div>
+                  <span className="text-xs text-surface-500 uppercase tracking-wide">Allergies</span>
+                  <p className="font-medium text-amber-700 dark:text-amber-400">
+                    {patient.allergies}
+                  </p>
+                </div>
               </div>
             </div>
           )}
 
           {patient.address && (
             <div className="mt-4 pt-4 border-t border-surface-200 dark:border-surface-700 text-sm">
-              <span className="text-surface-500">Address:</span>
+              <span className="text-xs text-surface-500 uppercase tracking-wide">Address</span>
               <p className="text-surface-900 dark:text-white">{patient.address}</p>
             </div>
           )}
 
           {patient.emergencyContact && (
-            <div className="mt-2 text-sm">
-              <span className="text-surface-500">Emergency Contact:</span>
+            <div className="mt-3 text-sm">
+              <span className="text-xs text-surface-500 uppercase tracking-wide">Emergency Contact</span>
               <p className="text-surface-900 dark:text-white">{patient.emergencyContact}</p>
             </div>
           )}
@@ -144,7 +157,7 @@ export default function HimsPatientDetail() {
         {/* Visit History */}
         <div className="bg-white dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700">
           <div className="px-4 py-3 border-b border-surface-200 dark:border-surface-700">
-            <h2 className="font-medium text-surface-900 dark:text-white">
+            <h2 className="text-sm font-medium text-surface-900 dark:text-white">
               Visit History ({visits.length})
             </h2>
           </div>
@@ -172,11 +185,7 @@ export default function HimsPatientDetail() {
                         </span>
                       )}
                       <span
-                        className={`text-xs px-2 py-0.5 rounded-full font-medium ${
-                          visit.status === 'completed'
-                            ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
-                            : 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'
-                        }`}
+                        className={`text-xs px-2 py-0.5 rounded-full font-medium ${STATUS_STYLES[visit.status] || STATUS_STYLES['waiting']}`}
                       >
                         {visit.status}
                       </span>
@@ -201,7 +210,7 @@ export default function HimsPatientDetail() {
           </div>
         </div>
       </div>
-      {showEdit && <EditPatientModal patient={patient} onClose={() => setShowEdit(false)} />}
+      {showEdit && <PatientFormModal patient={patient} onClose={() => setShowEdit(false)} />}
     </div>
   );
 }

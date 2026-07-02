@@ -1,6 +1,7 @@
-import { Menu, PanelLeftClose, PanelLeft, LogOut } from 'lucide-react';
+import { Menu, PanelLeftClose, PanelLeft, LogOut, Calendar, CalendarCheck } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../../contexts/AuthContext';
+import { useGoogleCalendar } from '../../../contexts/GoogleCalendarContext';
 
 interface HimsHeaderProps {
   onMenuToggle: () => void;
@@ -11,6 +12,7 @@ interface HimsHeaderProps {
 export function HimsHeader({ onMenuToggle, onCollapseToggle, collapsed }: HimsHeaderProps) {
   const { userEmail, signOut } = useAuth();
   const navigate = useNavigate();
+  const { isConnected, connect, disconnect } = useGoogleCalendar();
 
   return (
     <header className="fixed top-0 left-0 right-0 z-40 bg-white/80 dark:bg-surface-900/80 backdrop-blur-md border-b border-surface-200 dark:border-surface-700 pt-[env(safe-area-inset-top)]">
@@ -51,6 +53,17 @@ export function HimsHeader({ onMenuToggle, onCollapseToggle, collapsed }: HimsHe
         </div>
 
         <div className="flex items-center gap-2">
+          <button
+            onClick={isConnected ? disconnect : connect}
+            className={`p-2 rounded-lg transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center ${
+              isConnected
+                ? 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400'
+                : 'hover:bg-surface-100 dark:hover:bg-surface-800 text-surface-500'
+            }`}
+            title={isConnected ? 'Disconnect Google Calendar' : 'Connect Google Calendar'}
+          >
+            {isConnected ? <CalendarCheck className="w-5 h-5" /> : <Calendar className="w-5 h-5" />}
+          </button>
           <span className="text-sm text-surface-600 dark:text-surface-400 hidden sm:block truncate max-w-[120px]">
             {userEmail}
           </span>
