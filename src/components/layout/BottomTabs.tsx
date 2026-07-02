@@ -2,8 +2,8 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { MessageSquare, FileText } from 'lucide-react';
 
 const tabs = [
-  { path: '/app/chat', label: 'Chat', icon: MessageSquare },
-  { path: '/app/protocol', label: 'Protocol', icon: FileText },
+  { path: '/ayurgpt/chat', label: 'Chat', icon: MessageSquare },
+  { path: '/ayurgpt/protocol', label: 'Protocol', icon: FileText },
 ];
 
 export function BottomTabs() {

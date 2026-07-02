@@ -7,8 +7,10 @@ import { ProtocolProvider } from './contexts/ProtocolContext';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { LoginPage } from './components/auth/LoginPage';
 import AppLayout from './components/layout/AppLayout';
+import SelectionPage from './features/home/SelectionPage';
 import ChatPage from './features/chat/ChatPage';
 import ProtocolPage from './features/protocol/ProtocolPage';
+import HimsPlaceholder from './features/hims/HimsPlaceholder';
 import { Spinner } from './components/ui/Spinner';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
@@ -35,21 +37,24 @@ export default function App() {
       <BrowserRouter>
         <AuthProvider>
           <ProtectedRoute>
-            <PatientProvider>
-              <ChatProvider>
-                <ProtocolProvider>
-                  <Routes>
-                    <Route path="/" element={<Navigate to="/app/chat" replace />} />
-                    <Route path="/app" element={<AppLayout />}>
-                      <Route index element={<Navigate to="/app/chat" replace />} />
-                      <Route path="chat" element={<ChatPage />} />
-                      <Route path="protocol" element={<ProtocolPage />} />
-                    </Route>
-                    <Route path="*" element={<Navigate to="/app/chat" replace />} />
-                  </Routes>
-                </ProtocolProvider>
-              </ChatProvider>
-            </PatientProvider>
+            <Routes>
+              <Route path="/" element={<SelectionPage />} />
+              <Route path="/ayurgpt" element={
+                <PatientProvider>
+                  <ChatProvider>
+                    <ProtocolProvider>
+                      <AppLayout />
+                    </ProtocolProvider>
+                  </ChatProvider>
+                </PatientProvider>
+              }>
+                <Route index element={<Navigate to="/ayurgpt/chat" replace />} />
+                <Route path="chat" element={<ChatPage />} />
+                <Route path="protocol" element={<ProtocolPage />} />
+              </Route>
+              <Route path="/hims" element={<HimsPlaceholder />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
           </ProtectedRoute>
         </AuthProvider>
       </BrowserRouter>

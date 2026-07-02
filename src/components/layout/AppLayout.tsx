@@ -14,7 +14,7 @@ export default function AppLayout() {
     <div className="min-h-screen bg-surface-50 dark:bg-surface-900 flex flex-col">
       <Header
         onMenuToggle={() => setShowMobileSidebar(true)}
-        onNewChat={() => navigate('/app/chat')}
+        onNewChat={() => navigate('/ayurgpt/chat')}
       />
 
       <div className="flex flex-1 pt-[56px] pb-[64px] md:pb-0 md:pt-[56px]">
