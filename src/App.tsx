@@ -10,8 +10,20 @@ import AppLayout from './components/layout/AppLayout';
 import SelectionPage from './features/home/SelectionPage';
 import ChatPage from './features/chat/ChatPage';
 import ProtocolPage from './features/protocol/ProtocolPage';
-import HimsPlaceholder from './features/hims/HimsPlaceholder';
 import { Spinner } from './components/ui/Spinner';
+
+// HIMS imports
+import HimsLayout from './features/hims/layout/HimsLayout';
+import { HimsPatientProvider } from './features/hims/contexts/HimsPatientContext';
+import { OpdProvider } from './features/hims/contexts/OpdContext';
+import { BillingProvider } from './features/hims/contexts/BillingContext';
+import { PharmacyProvider } from './features/hims/contexts/PharmacyContext';
+import HimsDashboard from './features/hims/pages/HimsDashboard';
+import HimsPatients from './features/hims/pages/HimsPatients';
+import HimsPatientDetail from './features/hims/pages/HimsPatientDetail';
+import HimsOPD from './features/hims/pages/HimsOPD';
+import HimsBilling from './features/hims/pages/HimsBilling';
+import HimsPharmacy from './features/hims/pages/HimsPharmacy';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { isLoggedIn, loading } = useAuth();
@@ -52,7 +64,25 @@ export default function App() {
                 <Route path="chat" element={<ChatPage />} />
                 <Route path="protocol" element={<ProtocolPage />} />
               </Route>
-              <Route path="/hims" element={<HimsPlaceholder />} />
+              <Route path="/hims" element={
+                <HimsPatientProvider>
+                  <OpdProvider>
+                    <BillingProvider>
+                      <PharmacyProvider>
+                        <HimsLayout />
+                      </PharmacyProvider>
+                    </BillingProvider>
+                  </OpdProvider>
+                </HimsPatientProvider>
+              }>
+                <Route index element={<Navigate to="/hims/dashboard" replace />} />
+                <Route path="dashboard" element={<HimsDashboard />} />
+                <Route path="patients" element={<HimsPatients />} />
+                <Route path="patients/:id" element={<HimsPatientDetail />} />
+                <Route path="opd" element={<HimsOPD />} />
+                <Route path="billing" element={<HimsBilling />} />
+                <Route path="pharmacy" element={<HimsPharmacy />} />
+              </Route>
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </ProtectedRoute>
