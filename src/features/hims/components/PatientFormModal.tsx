@@ -105,8 +105,6 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
     e.preventDefault();
     if (!validateForm()) return;
 
-    const numericAge = parseInt(age, 10);
-
     if (!isEdit) {
       const duplicate = findDuplicatePatient(phone, name);
       if (duplicate.isDuplicate && duplicate.existingPatient) {
@@ -200,7 +198,7 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
                       key={g}
                       type="button"
                       role="radio"
-                      aria-pressed={gender === g}
+                      aria-checked={gender === g}
                       onClick={() => setGender(g)}
                       className={`flex-1 py-2.5 px-2 text-sm font-medium rounded-lg transition-colors min-h-[44px] ${
                         gender === g
@@ -280,7 +278,7 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
                       key={p}
                       type="button"
                       role="radio"
-                      aria-pressed={prakriti === p}
+                      aria-checked={prakriti === p}
                       onClick={() => setPrakriti(prakriti === p ? '' : p)}
                       className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors min-h-[40px] ${
                         prakriti === p

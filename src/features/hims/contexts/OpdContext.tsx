@@ -21,7 +21,7 @@ const OpdContext = createContext<OpdContextType | null>(null);
 export function OpdProvider({ children }: { children: React.ReactNode }) {
   const [visits, setVisits] = useLocalStorage<OpdVisit[]>('hims_visits', []);
 
-  const todayStr = new Date().toISOString().split('T')[0];
+  const todayStr = new Date().toLocaleDateString('sv-SE');
   const todayVisits = useMemo(
     () => visits.filter((v) => v.visitDate.startsWith(todayStr)),
     [visits, todayStr]
