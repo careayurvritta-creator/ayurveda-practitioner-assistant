@@ -1,17 +1,23 @@
+import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Phone, Mail, Droplets, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Phone, Mail, Droplets, AlertTriangle, Pencil, Receipt } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { useHimsPatients } from '../contexts/HimsPatientContext';
 import { useOpd } from '../contexts/OpdContext';
+import { useBilling } from '../contexts/BillingContext';
+import { EditPatientModal } from '../components/EditPatientModal';
 
 export default function HimsPatientDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { getPatient } = useHimsPatients();
   const { getVisitsByPatient } = useOpd();
+  const { getInvoicesByPatient } = useBilling();
+  const [showEdit, setShowEdit] = useState(false);
 
   const patient = getPatient(id || '');
   const visits = id ? getVisitsByPatient(id) : [];
+  const invoices = id ? getInvoicesByPatient(id) : [];
 
   if (!patient) {
     return (
@@ -49,6 +55,10 @@ export default function HimsPatientDetail() {
                 {patient.mrn}
               </span>
             </div>
+            <Button size="sm" variant="secondary" onClick={() => setShowEdit(true)}>
+              <Pencil className="w-4 h-4" />
+              Edit
+            </Button>
           </div>
 
           <div className="grid grid-cols-2 gap-4 text-sm">
@@ -154,15 +164,23 @@ export default function HimsPatientDetail() {
                         year: 'numeric',
                       })}
                     </span>
-                    <span
-                      className={`text-xs px-2 py-0.5 rounded-full font-medium ${
-                        visit.status === 'completed'
-                          ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
-                          : 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'
-                      }`}
-                    >
-                      {visit.status}
-                    </span>
+                    <div className="flex items-center gap-2">
+                      {invoices.some((inv) => inv.visitId === visit.id) && (
+                        <span className="text-xs text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
+                          <Receipt className="w-3 h-3" />
+                          Billed
+                        </span>
+                      )}
+                      <span
+                        className={`text-xs px-2 py-0.5 rounded-full font-medium ${
+                          visit.status === 'completed'
+                            ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
+                            : 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'
+                        }`}
+                      >
+                        {visit.status}
+                      </span>
+                    </div>
                   </div>
                   <div className="text-sm text-surface-500">
                     {visit.doctorName} · {visit.chiefComplaint}
@@ -183,6 +201,7 @@ export default function HimsPatientDetail() {
           </div>
         </div>
       </div>
+      {showEdit && <EditPatientModal patient={patient} onClose={() => setShowEdit(false)} />}
     </div>
   );
 }

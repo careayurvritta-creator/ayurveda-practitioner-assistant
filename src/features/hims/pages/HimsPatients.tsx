@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { UserPlus, Search, Trash2, Eye } from 'lucide-react';
+import { UserPlus, Search, Trash2, Eye, Pencil } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { useHimsPatients } from '../contexts/HimsPatientContext';
 import { RegisterPatientModal } from '../components/RegisterPatientModal';
+import { EditPatientModal } from '../components/EditPatientModal';
+import type { HimsPatient } from '../types';
 
 export default function HimsPatients() {
   const navigate = useNavigate();
   const { patients, deletePatient } = useHimsPatients();
   const [search, setSearch] = useState('');
   const [showRegister, setShowRegister] = useState(false);
+  const [editingPatient, setEditingPatient] = useState<HimsPatient | null>(null);
 
   const filteredPatients = patients.filter(
     (p) =>
@@ -83,6 +86,13 @@ export default function HimsPatients() {
                     </div>
                     <div className="flex items-center gap-1 ml-2">
                       <button
+                        onClick={() => setEditingPatient(patient)}
+                        className="p-2 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+                        title="Edit patient"
+                      >
+                        <Pencil className="w-4 h-4 text-surface-500" />
+                      </button>
+                      <button
                         onClick={() => navigate(`/hims/patients/${patient.id}`)}
                         className="p-2 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                         title="View details"
@@ -108,6 +118,9 @@ export default function HimsPatients() {
       </div>
 
       {showRegister && <RegisterPatientModal onClose={() => setShowRegister(false)} />}
+      {editingPatient && (
+        <EditPatientModal patient={editingPatient} onClose={() => setEditingPatient(null)} />
+      )}
     </div>
   );
 }

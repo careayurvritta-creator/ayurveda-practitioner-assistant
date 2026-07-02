@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Modal } from '../../../components/ui/Modal';
 import { Button } from '../../../components/ui/Button';
 import { Input } from '../../../components/ui/Input';
 import { useHimsPatients } from '../contexts/HimsPatientContext';
 import { useOpd } from '../contexts/OpdContext';
+import { usePharmacy } from '../contexts/PharmacyContext';
 import { DOCTORS } from '../types';
 import type { PrescriptionItem } from '../types';
 
@@ -14,6 +15,7 @@ interface CreateVisitModalProps {
 export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
   const { patients } = useHimsPatients();
   const { addVisit } = useOpd();
+  const { searchMedicines } = usePharmacy();
   const [patientSearch, setPatientSearch] = useState('');
   const [selectedPatientId, setSelectedPatientId] = useState('');
   const [doctorName, setDoctorName] = useState(DOCTORS[0]);
@@ -29,12 +31,18 @@ export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
   const [rxFrequency, setRxFrequency] = useState('Once daily');
   const [rxDuration, setRxDuration] = useState('7 days');
   const [rxInstructions, setRxInstructions] = useState('');
+  const [showMedicineDropdown, setShowMedicineDropdown] = useState(false);
 
   const filteredPatients = patients.filter(
     (p) =>
       p.name.toLowerCase().includes(patientSearch.toLowerCase()) ||
       p.mrn.toLowerCase().includes(patientSearch.toLowerCase())
   );
+
+  const matchedMedicines = useMemo(() => {
+    if (!rxMedicine || rxMedicine.length < 2) return [];
+    return searchMedicines(rxMedicine).filter((m) => m.quantity > 0).slice(0, 5);
+  }, [rxMedicine, searchMedicines]);
 
   const selectedPatient = patients.find((p) => p.id === selectedPatientId);
 
@@ -196,13 +204,43 @@ export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
           )}
 
           <div className="grid grid-cols-2 gap-2">
-            <input
-              type="text"
-              placeholder="Medicine name"
-              value={rxMedicine}
-              onChange={(e) => setRxMedicine(e.target.value)}
-              className="px-3 py-2 text-sm rounded-lg bg-surface-50 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 outline-none"
-            />
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Medicine name"
+                value={rxMedicine}
+                onChange={(e) => {
+                  setRxMedicine(e.target.value);
+                  setShowMedicineDropdown(true);
+                }}
+                onFocus={() => setShowMedicineDropdown(true)}
+                onBlur={() => setTimeout(() => setShowMedicineDropdown(false), 200)}
+                className="w-full px-3 py-2 text-sm rounded-lg bg-surface-50 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 outline-none"
+              />
+              {showMedicineDropdown && matchedMedicines.length > 0 && (
+                <div className="absolute z-10 top-full left-0 right-0 mt-1 max-h-40 overflow-y-auto bg-white dark:bg-surface-800 border border-surface-200 dark:border-surface-700 rounded-lg shadow-lg">
+                  {matchedMedicines.map((med) => (
+                    <button
+                      key={med.id}
+                      type="button"
+                      onClick={() => {
+                        setRxMedicine(med.name);
+                        setShowMedicineDropdown(false);
+                      }}
+                      className="w-full text-left px-3 py-2 text-sm hover:bg-surface-50 dark:hover:bg-surface-700 border-b border-surface-100 dark:border-surface-700 last:border-0"
+                    >
+                      <div className="flex justify-between">
+                        <span className="font-medium">{med.name}</span>
+                        <span className="text-surface-500">₹{med.price}</span>
+                      </div>
+                      <div className="text-xs text-surface-400">
+                        {med.category} · Stock: {med.quantity} {med.unit}
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             <input
               type="text"
               placeholder="Dosage (e.g. 500mg)"

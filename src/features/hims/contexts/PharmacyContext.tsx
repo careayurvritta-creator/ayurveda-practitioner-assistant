@@ -1,22 +1,25 @@
 import { createContext, useContext, useCallback, useMemo } from 'react';
-import type { Medicine } from '../types';
+import type { Medicine, DispensingRecord } from '../types';
 import { useLocalStorage } from '../../../hooks/useLocalStorage';
 
 interface PharmacyContextType {
   medicines: Medicine[];
   lowStockMedicines: Medicine[];
+  dispensingRecords: DispensingRecord[];
   addMedicine: (medicine: Omit<Medicine, 'id' | 'createdAt'>) => void;
   updateMedicine: (id: string, updates: Partial<Medicine>) => void;
   deleteMedicine: (id: string) => void;
-  dispenseMedicine: (id: string, quantity: number) => void;
+  dispenseMedicine: (medicineId: string, quantity: number, patientId: string, patientName: string, visitId: string, dispensedBy: string) => DispensingRecord | null;
   getMedicine: (id: string) => Medicine | undefined;
   searchMedicines: (query: string) => Medicine[];
+  getDispensingByVisit: (visitId: string) => DispensingRecord[];
 }
 
 const PharmacyContext = createContext<PharmacyContextType | null>(null);
 
 export function PharmacyProvider({ children }: { children: React.ReactNode }) {
   const [medicines, setMedicines] = useLocalStorage<Medicine[]>('hims_medicines', []);
+  const [dispensingRecords, setDispensingRecords] = useLocalStorage<DispensingRecord[]>('hims_dispensing', []);
 
   const lowStockMedicines = useMemo(
     () => medicines.filter((m) => m.quantity <= m.reorderLevel),
@@ -50,12 +53,30 @@ export function PharmacyProvider({ children }: { children: React.ReactNode }) {
   );
 
   const dispenseMedicine = useCallback(
-    (id: string, quantity: number) => {
+    (medicineId: string, quantity: number, patientId: string, patientName: string, visitId: string, dispensedBy: string) => {
+      const medicine = medicines.find((m) => m.id === medicineId);
+      if (!medicine || medicine.quantity < quantity) return null;
+
+      const record: DispensingRecord = {
+        id: `disp_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+        patientId,
+        patientName,
+        visitId,
+        medicineId,
+        medicineName: medicine.name,
+        quantityDispensed: quantity,
+        unit: medicine.unit,
+        dispensedBy,
+        dispensedAt: new Date().toISOString(),
+      };
+
       setMedicines((prev) =>
-        prev.map((m) => (m.id === id ? { ...m, quantity: Math.max(0, m.quantity - quantity) } : m))
+        prev.map((m) => (m.id === medicineId ? { ...m, quantity: Math.max(0, m.quantity - quantity) } : m))
       );
+      setDispensingRecords((prev) => [record, ...prev]);
+      return record;
     },
-    [setMedicines]
+    [medicines, setMedicines, setDispensingRecords]
   );
 
   const getMedicine = useCallback((id: string) => medicines.find((m) => m.id === id), [medicines]);
@@ -73,17 +94,24 @@ export function PharmacyProvider({ children }: { children: React.ReactNode }) {
     [medicines]
   );
 
+  const getDispensingByVisit = useCallback(
+    (visitId: string) => dispensingRecords.filter((r) => r.visitId === visitId),
+    [dispensingRecords]
+  );
+
   return (
     <PharmacyContext.Provider
       value={{
         medicines,
         lowStockMedicines,
+        dispensingRecords,
         addMedicine,
         updateMedicine,
         deleteMedicine,
         dispenseMedicine,
         getMedicine,
         searchMedicines,
+        getDispensingByVisit,
       }}
     >
       {children}

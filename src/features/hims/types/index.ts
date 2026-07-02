@@ -85,3 +85,16 @@ export const DOCTORS = [
 export const MEDICINE_CATEGORIES = ['Ayurvedic', 'Allopathic', 'Siddha'] as const;
 
 export const MEDICINE_UNITS = ['tablets', 'bottles', 'grams', 'ml', 'packets'] as const;
+
+export interface DispensingRecord {
+  id: string;
+  patientId: string;
+  patientName: string;
+  visitId: string;
+  medicineId: string;
+  medicineName: string;
+  quantityDispensed: number;
+  unit: string;
+  dispensedBy: string;
+  dispensedAt: string;
+}
