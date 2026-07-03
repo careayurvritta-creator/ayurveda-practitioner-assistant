@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Plus, Clock, CheckCircle, XCircle, Loader, Calendar, ChevronLeft, ChevronRight, Receipt, Pill, CalendarDays, Pencil, Trash2 } from 'lucide-react';
+import { Plus, Clock, CheckCircle, XCircle, Loader, Calendar, ChevronLeft, ChevronRight, Receipt, Pill, CalendarDays, Pencil, Trash2, FileText } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { ConfirmationDialog } from '../../../components/ui/ConfirmationDialog';
 import { useAppDispatch, useAppSelector } from '../../../store/hooks';
@@ -10,6 +10,7 @@ import { CreateVisitModal } from '../components/CreateVisitModal';
 import { EditVisitModal } from '../components/EditVisitModal';
 import { QuickInvoiceModal } from '../components/QuickInvoiceModal';
 import { DispenseMedicineModal } from '../components/DispenseMedicineModal';
+import { ConsultationFormModal } from '../components/ConsultationFormModal';
 import { CalendarSyncButton } from '../components/CalendarSyncButton';
 import type { VisitRecord } from '../db/VisitRepository';
 
@@ -37,6 +38,7 @@ export default function HimsOPD() {
   const [cancellingVisit, setCancellingVisit] = useState<VisitRecord | null>(null);
   const [statusChangeVisit, setStatusChangeVisit] = useState<{ visit: VisitRecord; newStatus: VisitRecord['status'] } | null>(null);
   const [deletingVisit, setDeletingVisit] = useState<VisitRecord | null>(null);
+  const [consultationVisit, setConsultationVisit] = useState<VisitRecord | null>(null);
 
   useEffect(() => {
     dispatch(fetchVisits());
@@ -327,6 +329,12 @@ export default function HimsOPD() {
                       {statusActions(visit)}
                       <div className="flex gap-1">
                         <button
+                          onClick={() => setConsultationVisit(visit)}
+                          className="text-xs px-2 py-1 rounded bg-purple-100 text-purple-700 hover:bg-purple-200 dark:bg-purple-900/30 dark:text-purple-400 min-h-[28px] flex items-center gap-1"
+                        >
+                          <FileText className="w-3 h-3" /> Consult
+                        </button>
+                        <button
                           onClick={() => setEditingVisit(visit)}
                           className="text-xs px-2 py-1 rounded bg-surface-100 text-surface-600 hover:bg-surface-200 dark:bg-surface-700 dark:text-surface-400 min-h-[28px] flex items-center gap-1"
                         >
@@ -382,6 +390,9 @@ export default function HimsOPD() {
       )}
       {dispenseVisit && (
         <DispenseMedicineModal visit={dispenseVisit as any} onClose={() => setDispenseVisit(null)} />
+      )}
+      {consultationVisit && (
+        <ConsultationFormModal visit={consultationVisit as any} onClose={() => setConsultationVisit(null)} />
       )}
 
       <ConfirmationDialog

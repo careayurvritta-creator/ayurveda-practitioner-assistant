@@ -28,8 +28,9 @@ export const fetchInvoices = createAsyncThunk(
 
 export const createInvoice = createAsyncThunk(
   'hims/billing/create',
-  async (invoice: Omit<InvoiceRecord, 'id' | 'createdAt' | 'updatedAt'>) => {
-    return await InvoiceRepository.create(invoice);
+  async (invoice: Omit<InvoiceRecord, 'id' | 'invoiceNumber' | 'createdAt' | 'updatedAt'>) => {
+    const invoiceNumber = await InvoiceRepository.generateInvoiceNumber();
+    return await InvoiceRepository.create({ ...invoice, invoiceNumber });
   }
 );
 

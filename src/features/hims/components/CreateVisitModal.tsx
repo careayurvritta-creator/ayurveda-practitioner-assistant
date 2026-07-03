@@ -4,9 +4,10 @@ import { Button } from '../../../components/ui/Button';
 import { Input } from '../../../components/ui/Input';
 import { Select } from '../../../components/ui/Select';
 import { Textarea } from '../../../components/ui/Textarea';
-import { useHimsPatients } from '../contexts/HimsPatientContext';
-import { useOpd } from '../contexts/OpdContext';
-import { usePharmacy } from '../contexts/PharmacyContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { fetchPatients } from '../slices/himsPatientSlice';
+import { createVisit } from '../slices/opdSlice';
+import { fetchMedicines } from '../slices/pharmacySlice';
 import { useToast } from '../../../contexts/ToastContext';
 import { useFormValidation } from '../../../hooks/useFormValidation';
 import { DOCTORS } from '../types';
@@ -26,9 +27,9 @@ const FREQUENCIES = [
 ];
 
 export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
-  const { patients } = useHimsPatients();
-  const { addVisit } = useOpd();
-  const { searchMedicines } = usePharmacy();
+  const dispatch = useAppDispatch();
+  const { patients } = useAppSelector((s) => s.hims.patients);
+  const { medicines } = useAppSelector((s) => s.hims.pharmacy);
   const { showToast } = useToast();
   const { errors, validate, clearFieldError, getFieldError } = useFormValidation();
 
@@ -52,6 +53,11 @@ export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
   const debounceTimer = useRef<ReturnType<typeof setTimeout>>(null);
 
   useEffect(() => {
+    dispatch(fetchPatients());
+    dispatch(fetchMedicines());
+  }, [dispatch]);
+
+  useEffect(() => {
     if (debounceTimer.current) clearTimeout(debounceTimer.current);
     debounceTimer.current = setTimeout(() => {
       setDebouncedSearch(patientSearch);
@@ -72,8 +78,11 @@ export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
 
   const matchedMedicines = useMemo(() => {
     if (!rxMedicine || rxMedicine.length < 2) return [];
-    return searchMedicines(rxMedicine).filter((m) => m.quantity > 0).slice(0, 5);
-  }, [rxMedicine, searchMedicines]);
+    const q = rxMedicine.toLowerCase();
+    return medicines.filter(
+      (m) => (m.name.toLowerCase().includes(q) || m.category.toLowerCase().includes(q)) && m.quantity > 0
+    ).slice(0, 5);
+  }, [rxMedicine, medicines]);
 
   const selectedPatient = patients.find((p) => p.id === selectedPatientId);
 
@@ -106,11 +115,11 @@ export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
     ]);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validateForm()) return;
 
-    addVisit({
+    await dispatch(createVisit({
       patientId: selectedPatientId,
       patientName: selectedPatient?.name || '',
       doctorName,
@@ -120,7 +129,7 @@ export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
       notes: notes.trim() || undefined,
       status: 'waiting',
       consultationFee: parseFloat(consultationFee) || 500,
-    });
+    }));
     showToast('Visit created successfully', 'success');
     onClose();
   };

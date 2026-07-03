@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Modal } from '../../../components/ui/Modal';
 import { Button } from '../../../components/ui/Button';
 import { Input } from '../../../components/ui/Input';
-import { useBilling } from '../contexts/BillingContext';
-import { usePharmacy } from '../contexts/PharmacyContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { createInvoice } from '../slices/billingSlice';
+import { fetchMedicines } from '../slices/pharmacySlice';
 import { useToast } from '../../../contexts/ToastContext';
 import type { OpdVisit, InvoiceItem } from '../types';
 
@@ -13,8 +14,8 @@ interface QuickInvoiceModalProps {
 }
 
 export function QuickInvoiceModal({ visit, onClose }: QuickInvoiceModalProps) {
-  const { addInvoice } = useBilling();
-  const { medicines } = usePharmacy();
+  const dispatch = useAppDispatch();
+  const { medicines } = useAppSelector((s) => s.hims.pharmacy);
   const { showToast } = useToast();
 
   const [paymentMethod, setPaymentMethod] = useState<'cash' | 'card' | 'upi' | 'insurance'>('cash');
@@ -25,6 +26,10 @@ export function QuickInvoiceModal({ visit, onClose }: QuickInvoiceModalProps) {
   const [paymentReference, setPaymentReference] = useState('');
   const [cgstRate, setCgstRate] = useState('0');
   const [sgstRate, setSgstRate] = useState('0');
+
+  useEffect(() => {
+    dispatch(fetchMedicines());
+  }, [dispatch]);
 
   const [items, setItems] = useState<InvoiceItem[]>(() => {
     const base: InvoiceItem[] = [
@@ -71,7 +76,7 @@ export function QuickInvoiceModal({ visit, onClose }: QuickInvoiceModalProps) {
     );
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (total <= 0) {
       showToast('Invoice total must be greater than 0', 'error');
@@ -82,7 +87,7 @@ export function QuickInvoiceModal({ visit, onClose }: QuickInvoiceModalProps) {
       : paymentStatus === 'partial' ? Math.min(parseFloat(paidAmount) || 0, total)
       : 0;
 
-    addInvoice({
+    await dispatch(createInvoice({
       patientId: visit.patientId,
       patientName: visit.patientName,
       visitId: visit.id,
@@ -94,7 +99,7 @@ export function QuickInvoiceModal({ visit, onClose }: QuickInvoiceModalProps) {
       paymentStatus,
       paidAmount: finalPaidAmount,
       paymentReference: paymentReference || undefined,
-    });
+    }));
     showToast('Invoice created successfully', 'success');
     onClose();
   };

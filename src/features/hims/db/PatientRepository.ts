@@ -9,7 +9,7 @@ export interface PatientRecord extends BaseEntity {
   phone: string;
   email?: string;
   address?: string;
-  bloodGroup?: string;
+  bloodGroup?: 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-' | 'O+' | 'O-';
   prakriti?: string;
   vikriti?: string;
   allergies?: string;

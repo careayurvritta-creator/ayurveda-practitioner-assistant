@@ -2,7 +2,8 @@ import { useState, useMemo } from 'react';
 import { Search, CheckCircle, AlertTriangle } from 'lucide-react';
 import { Modal } from '../../../components/ui/Modal';
 import { Button } from '../../../components/ui/Button';
-import { usePharmacy } from '../contexts/PharmacyContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { dispenseMedicine } from '../slices/pharmacySlice';
 import { useToast } from '../../../contexts/ToastContext';
 import type { OpdVisit } from '../types';
 import { DOCTORS } from '../types';
@@ -13,7 +14,8 @@ interface DispenseMedicineModalProps {
 }
 
 export function DispenseMedicineModal({ visit, onClose }: DispenseMedicineModalProps) {
-  const { medicines, dispenseMedicine, searchMedicines } = usePharmacy();
+  const dispatch = useAppDispatch();
+  const { medicines } = useAppSelector((s) => s.hims.pharmacy);
   const { showToast } = useToast();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedMedicine, setSelectedMedicine] = useState<string>('');
@@ -22,31 +24,35 @@ export function DispenseMedicineModal({ visit, onClose }: DispenseMedicineModalP
   const [dispensedItems, setDispensedItems] = useState<{ medicineName: string; quantity: number; unit: string }[]>([]);
 
   const filteredMedicines = useMemo(() => {
-    if (!searchQuery) return medicines.filter((m) => m.quantity > 0).slice(0, 10);
-    return searchMedicines(searchQuery).filter((m) => m.quantity > 0).slice(0, 10);
-  }, [searchQuery, medicines, searchMedicines]);
+    const inStock = medicines.filter((m) => m.quantity > 0);
+    if (!searchQuery) return inStock.slice(0, 10);
+    const q = searchQuery.toLowerCase();
+    return inStock.filter(
+      (m) => m.name.toLowerCase().includes(q) || m.category.toLowerCase().includes(q)
+    ).slice(0, 10);
+  }, [searchQuery, medicines]);
 
   const selectedMed = medicines.find((m) => m.id === selectedMedicine);
 
   const prescribedMedicines = visit.prescription.map((p) => p.medicine.toLowerCase());
 
-  const handleDispense = () => {
+  const handleDispense = async () => {
     if (!selectedMedicine || !selectedMed || quantity <= 0) return;
     if (quantity > selectedMed.quantity) return;
 
-    const record = dispenseMedicine(
-      selectedMedicine,
+    const result = await dispatch(dispenseMedicine({
+      medicineId: selectedMedicine,
       quantity,
-      visit.patientId,
-      visit.patientName,
-      visit.id,
-      dispensedBy
-    );
+      patientId: visit.patientId,
+      patientName: visit.patientName,
+      visitId: visit.id,
+      dispensedBy,
+    }));
 
-    if (record) {
+    if (dispenseMedicine.fulfilled.match(result)) {
       setDispensedItems((prev) => [
         ...prev,
-        { medicineName: record.medicineName, quantity: record.quantityDispensed, unit: record.unit },
+        { medicineName: selectedMed.name, quantity, unit: selectedMed.unit },
       ]);
       setSelectedMedicine('');
       setQuantity(1);

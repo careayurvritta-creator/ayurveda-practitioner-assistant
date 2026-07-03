@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Modal } from '../../../components/ui/Modal';
 import { Button } from '../../../components/ui/Button';
 import { Input } from '../../../components/ui/Input';
-import { usePharmacy } from '../contexts/PharmacyContext';
+import { useAppDispatch } from '../../../store/hooks';
+import { createMedicine } from '../slices/pharmacySlice';
 import { MEDICINE_CATEGORIES, MEDICINE_UNITS } from '../types';
 import type { Medicine } from '../types';
 
@@ -11,7 +12,7 @@ interface AddMedicineModalProps {
 }
 
 export function AddMedicineModal({ onClose }: AddMedicineModalProps) {
-  const { addMedicine } = usePharmacy();
+  const dispatch = useAppDispatch();
   const [name, setName] = useState('');
   const [category, setCategory] = useState<Medicine['category']>('Ayurvedic');
   const [manufacturer, setManufacturer] = useState('');
@@ -23,11 +24,11 @@ export function AddMedicineModal({ onClose }: AddMedicineModalProps) {
   const [costPrice, setCostPrice] = useState('');
   const [reorderLevel, setReorderLevel] = useState('10');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!name.trim() || !quantity || !price) return;
 
-    addMedicine({
+    await dispatch(createMedicine({
       name: name.trim(),
       category,
       manufacturer: manufacturer.trim() || undefined,
@@ -38,7 +39,7 @@ export function AddMedicineModal({ onClose }: AddMedicineModalProps) {
       price: parseFloat(price),
       costPrice: costPrice ? parseFloat(costPrice) : undefined,
       reorderLevel: parseInt(reorderLevel, 10) || 10,
-    });
+    }));
     onClose();
   };
 

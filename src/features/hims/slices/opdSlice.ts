@@ -28,8 +28,8 @@ export const fetchVisits = createAsyncThunk(
 
 export const createVisit = createAsyncThunk(
   'hims/opd/create',
-  async (visit: Omit<VisitRecord, 'id' | 'createdAt' | 'updatedAt'>) => {
-    return await VisitRepository.create(visit);
+  async (visit: Omit<VisitRecord, 'id' | 'visitDate' | 'createdAt' | 'updatedAt'>) => {
+    return await VisitRepository.create({ ...visit, visitDate: new Date().toISOString() });
   }
 );
 

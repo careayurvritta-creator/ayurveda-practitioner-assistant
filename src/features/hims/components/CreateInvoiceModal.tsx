@@ -1,17 +1,18 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Modal } from '../../../components/ui/Modal';
 import { Button } from '../../../components/ui/Button';
 import { Input } from '../../../components/ui/Input';
-import { useHimsPatients } from '../contexts/HimsPatientContext';
-import { useBilling } from '../contexts/BillingContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { fetchPatients } from '../slices/himsPatientSlice';
+import { createInvoice } from '../slices/billingSlice';
 
 interface CreateInvoiceModalProps {
   onClose: () => void;
 }
 
 export function CreateInvoiceModal({ onClose }: CreateInvoiceModalProps) {
-  const { patients } = useHimsPatients();
-  const { addInvoice } = useBilling();
+  const dispatch = useAppDispatch();
+  const { patients } = useAppSelector((s) => s.hims.patients);
 
   const [patientSearch, setPatientSearch] = useState('');
   const [selectedPatientId, setSelectedPatientId] = useState('');
@@ -20,6 +21,10 @@ export function CreateInvoiceModal({ onClose }: CreateInvoiceModalProps) {
   const [items, setItems] = useState<{ description: string; quantity: number; unitPrice: number }[]>([
     { description: 'Consultation Fee', quantity: 1, unitPrice: 500 },
   ]);
+
+  useEffect(() => {
+    dispatch(fetchPatients());
+  }, [dispatch]);
 
   const filteredPatients = patients.filter(
     (p) =>
@@ -49,11 +54,11 @@ export function CreateInvoiceModal({ onClose }: CreateInvoiceModalProps) {
     setItems((prev) => prev.filter((_, i) => i !== index));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!selectedPatientId || items.length === 0) return;
 
-    addInvoice({
+    await dispatch(createInvoice({
       patientId: selectedPatientId,
       patientName: selectedPatient?.name || '',
       items: items.map((item) => ({
@@ -66,7 +71,7 @@ export function CreateInvoiceModal({ onClose }: CreateInvoiceModalProps) {
       paymentMethod,
       paymentStatus: 'paid',
       paidAmount: total,
-    });
+    }));
     onClose();
   };
 

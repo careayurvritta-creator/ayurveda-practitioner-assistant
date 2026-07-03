@@ -46,6 +46,31 @@ export const deleteMedicine = createAsyncThunk(
   }
 );
 
+export const dispenseMedicine = createAsyncThunk(
+  'hims/pharmacy/dispense',
+  async (payload: {
+    medicineId: string;
+    quantity: number;
+    patientId: string;
+    patientName: string;
+    visitId: string;
+    dispensedBy: string;
+  }) => {
+    const record = await MedicineRepository.dispense({
+      patientId: payload.patientId,
+      patientName: payload.patientName,
+      visitId: payload.visitId,
+      medicineId: payload.medicineId,
+      medicineName: '',
+      quantityDispensed: payload.quantity,
+      unit: '',
+      dispensedBy: payload.dispensedBy,
+      dispensedAt: new Date().toISOString(),
+    });
+    return record;
+  }
+);
+
 const pharmacySlice = createSlice({
   name: 'hims/pharmacy',
   initialState,
@@ -79,6 +104,14 @@ const pharmacySlice = createSlice({
       .addCase(deleteMedicine.fulfilled, (state, action) => {
         state.medicines = state.medicines.filter(m => m.id !== action.payload);
         state.lowStockMedicines = state.lowStockMedicines.filter(m => m.id !== action.payload);
+      })
+      .addCase(dispenseMedicine.fulfilled, (state, action) => {
+        state.dispensingRecords.unshift(action.payload);
+        const medIndex = state.medicines.findIndex(m => m.id === action.payload.medicineId);
+        if (medIndex !== -1) {
+          state.medicines[medIndex].quantity = Math.max(0, state.medicines[medIndex].quantity - action.payload.quantityDispensed);
+          state.lowStockMedicines = state.medicines.filter(m => m.quantity <= m.reorderLevel);
+        }
       });
   },
 });

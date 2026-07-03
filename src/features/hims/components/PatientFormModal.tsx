@@ -5,20 +5,22 @@ import { Select } from '../../../components/ui/Select';
 import { Textarea } from '../../../components/ui/Textarea';
 import { Button } from '../../../components/ui/Button';
 import { ConfirmationDialog } from '../../../components/ui/ConfirmationDialog';
-import { useHimsPatients } from '../contexts/HimsPatientContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { createPatient, updatePatient } from '../slices/himsPatientSlice';
 import { useToast } from '../../../contexts/ToastContext';
 import { useFormValidation } from '../../../hooks/useFormValidation';
-import type { HimsPatient } from '../types';
+import type { PatientRecord } from '../db/PatientRepository';
 import { GENDERS, BLOOD_GROUPS, PRAKRITI_TYPES } from '../types';
 
 interface PatientFormModalProps {
   isOpen?: boolean;
   onClose: () => void;
-  patient?: HimsPatient;
+  patient?: PatientRecord;
 }
 
 export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFormModalProps) {
-  const { addPatient, updatePatient, findDuplicatePatient } = useHimsPatients();
+  const dispatch = useAppDispatch();
+  const { patients } = useAppSelector((s) => s.hims.patients);
   const { showToast } = useToast();
   const { errors, validate, clearErrors, clearFieldError, getFieldError } = useFormValidation();
 
@@ -26,7 +28,7 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
 
   const [name, setName] = useState('');
   const [age, setAge] = useState('');
-  const [gender, setGender] = useState<HimsPatient['gender']>('Male');
+  const [gender, setGender] = useState<PatientRecord['gender']>('Male');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [address, setAddress] = useState('');
@@ -39,7 +41,7 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
   const [duplicateWarning, setDuplicateWarning] = useState<{
     isOpen: boolean;
     message: string;
-    existingPatient?: HimsPatient;
+    existingPatient?: PatientRecord;
   }>({ isOpen: false, message: '' });
 
   useEffect(() => {
@@ -89,6 +91,27 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
     clearFieldError('name');
   };
 
+  const findDuplicatePatient = (phoneNum: string, nameVal: string, excludeId?: string) => {
+    const normalizedPhone = phoneNum.replace(/\D/g, '');
+    const trimmedName = nameVal.trim().toLowerCase();
+
+    const phoneMatch = patients.find(
+      (p) => p.id !== excludeId && p.phone.replace(/\D/g, '') === normalizedPhone
+    );
+    if (phoneMatch) {
+      return { isDuplicate: true, existingPatient: phoneMatch, matchType: 'phone' as const };
+    }
+
+    const nameMatch = patients.find(
+      (p) => p.id !== excludeId && p.name.trim().toLowerCase() === trimmedName
+    );
+    if (nameMatch) {
+      return { isDuplicate: true, existingPatient: nameMatch, matchType: 'name' as const };
+    }
+
+    return { isDuplicate: false, matchType: 'none' as const };
+  };
+
   const validateForm = (): boolean => {
     return validate([
       { field: 'name', condition: !name.trim(), message: 'Name is required' },
@@ -120,7 +143,7 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
     savePatient();
   };
 
-  const savePatient = () => {
+  const savePatient = async () => {
     const patientData = {
       name: name.trim(),
       age: parseInt(age, 10),
@@ -128,7 +151,7 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
       phone: phone.trim(),
       email: email.trim() || undefined,
       address: address.trim() || undefined,
-      bloodGroup: (bloodGroup || undefined) as HimsPatient['bloodGroup'],
+      bloodGroup: (bloodGroup || undefined) as PatientRecord['bloodGroup'],
       emergencyContact: emergencyContact.trim() || undefined,
       prakriti: prakriti || undefined,
       vikriti: vikriti || undefined,
@@ -136,10 +159,10 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
     };
 
     if (isEdit && patient) {
-      updatePatient(patient.id, patientData);
+      await dispatch(updatePatient({ id: patient.id, updates: patientData }));
       showToast('Patient updated successfully', 'success');
     } else {
-      addPatient(patientData);
+      await dispatch(createPatient(patientData));
       showToast('Patient registered successfully', 'success');
     }
     onClose();
