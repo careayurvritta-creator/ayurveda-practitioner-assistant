@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Plus, Search, Bed, User, Stethoscope } from 'lucide-react';
+import { Plus, Search, Bed, Stethoscope, AlertCircle, CheckCircle, XCircle, ArrowRightLeft } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { Input } from '../../../components/ui/Input';
 import { Select } from '../../../components/ui/Select';
@@ -9,6 +9,10 @@ import { useAppDispatch, useAppSelector } from '../../../store/hooks';
 import { fetchPatients } from '../slices/himsPatientSlice';
 import { useToast } from '../../../contexts/ToastContext';
 import { DOCTORS, IPD_STATUS } from '../types';
+import { Breadcrumbs } from '../../../components/ui/Breadcrumb';
+import { PageHeader } from '../../../components/ui/PageHeader';
+import { StatusBadge, getStatusVariant } from '../../../components/ui/StatusBadge';
+import { EmptyState } from '../../../components/ui/EmptyState';
 import type { IpdCasePaper } from '../types';
 
 export default function HimsIPD() {
@@ -21,7 +25,6 @@ export default function HimsIPD() {
   const [editingCase, setEditingCase] = useState<IpdCasePaper | null>(null);
   const [statusFilter, setStatusFilter] = useState<string>('all');
 
-  // Form state
   const [patientId, setPatientId] = useState('');
   const [doctorName, setDoctorName] = useState(DOCTORS[0]);
   const [chiefComplaint, setChiefComplaint] = useState('');
@@ -57,9 +60,7 @@ export default function HimsIPD() {
       setAllergies(casePaper.allergies);
       setTreatmentPlan(casePaper.treatmentPlan);
       setVitals(casePaper.vitals);
-    } else {
-      resetForm();
-    }
+    } else { resetForm(); }
     setShowForm(true);
   };
 
@@ -93,94 +94,159 @@ export default function HimsIPD() {
 
   const selectedPatient = patients.find((p) => p.id === patientId);
 
+  const statusIcon = (status: string) => {
+    switch (status) {
+      case 'active': return <CheckCircle className="w-4 h-4 text-emerald-500" />;
+      case 'critical': return <AlertCircle className="w-4 h-4 text-red-500" />;
+      case 'discharged': return <XCircle className="w-4 h-4 text-surface-400" />;
+      case 'referred': return <ArrowRightLeft className="w-4 h-4 text-amber-500" />;
+      default: return null;
+    }
+  };
+
   return (
-    <div className="p-4 space-y-4">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-xl font-bold text-surface-900 dark:text-white">IPD Case Papers</h1>
-          <p className="text-sm text-surface-500">{cases.length} admissions</p>
-        </div>
-        <Button onClick={() => openForm()} className="gap-2"><Plus className="w-4 h-4" /> New Admission</Button>
-      </div>
+    <div className="h-full overflow-y-auto">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        <Breadcrumbs items={[{ label: 'IPD' }]} />
 
-      {/* Filters */}
-      <div className="flex gap-2">
-        <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-surface-400" />
-          <input type="text" placeholder="Search by name or IPD number..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-3 py-2.5 border border-surface-200 dark:border-surface-700 rounded-lg bg-white dark:bg-surface-800 text-sm focus:ring-2 focus:ring-emerald-500 outline-none min-h-[44px]" />
-        </div>
-        <div className="flex gap-1">
-          {['all', ...IPD_STATUS].map((s) => (
-            <button key={s} onClick={() => setStatusFilter(s)}
-              className={`px-3 py-2 text-xs font-medium rounded-lg capitalize min-h-[40px] ${statusFilter === s ? 'bg-emerald-600 text-white' : 'bg-surface-100 dark:bg-surface-800 text-surface-600 dark:text-surface-400'}`}>
-              {s}
-            </button>
-          ))}
-        </div>
-      </div>
+        <PageHeader
+          title="IPD Case Papers"
+          subtitle={`${cases.length} admissions`}
+          actions={
+            <Button size="sm" onClick={() => openForm()}>
+              <Plus className="w-4 h-4" /> New Admission
+            </Button>
+          }
+        />
 
-      {/* Cases List */}
-      {filteredCases.length === 0 ? (
-        <div className="text-center py-12">
-          <Bed className="w-12 h-12 mx-auto text-surface-300 dark:text-surface-600 mb-3" />
-          <p className="text-surface-500">No IPD cases found</p>
+        {/* Filters */}
+        <div className="flex flex-col sm:flex-row gap-3 mb-5">
+          <div className="relative flex-1">
+            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-surface-400" />
+            <input
+              type="text"
+              placeholder="Search by name or IPD number..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-10 pr-4 py-3 text-sm rounded-xl bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 focus:ring-2 focus:ring-emerald-500 outline-none transition-all"
+            />
+          </div>
+          <div className="flex gap-1.5 overflow-x-auto pb-1">
+            {['all', ...IPD_STATUS].map((s) => (
+              <button
+                key={s}
+                onClick={() => setStatusFilter(s)}
+                className={`px-3 py-2 text-xs font-semibold rounded-lg capitalize min-h-[36px] whitespace-nowrap border transition-all ${
+                  statusFilter === s
+                    ? 'bg-emerald-600 text-white border-emerald-600 shadow-sm'
+                    : 'bg-white dark:bg-surface-900 text-surface-600 dark:text-surface-400 border-surface-200 dark:border-surface-800 hover:bg-surface-50'
+                }`}
+              >
+                {s}
+              </button>
+            ))}
+          </div>
         </div>
-      ) : (
-        <div className="space-y-3">
-          {filteredCases.map((c) => (
-            <div key={c.id} className="p-4 bg-white dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700">
-              <div className="flex items-start justify-between mb-2">
-                <div>
-                  <div className="flex items-center gap-2">
-                    <span className="font-medium text-surface-900 dark:text-white">{c.patientName}</span>
-                    <span className="text-xs px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400">{c.ipdNumber}</span>
-                    <span className={`text-xs px-2 py-0.5 rounded-full capitalize ${
-                      c.status === 'active' ? 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400' :
-                      c.status === 'critical' ? 'bg-red-100 dark:bg-red-900/30 text-red-700 dark:text-red-400' :
-                      c.status === 'discharged' ? 'bg-surface-100 dark:bg-surface-700 text-surface-600 dark:text-surface-400' :
-                      'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400'
-                    }`}>{c.status}</span>
+
+        {/* Cases */}
+        {filteredCases.length === 0 ? (
+          <EmptyState
+            icon={Bed}
+            title="No IPD cases found"
+            description="Admit a patient to get started"
+            action={
+              <Button size="sm" onClick={() => openForm()}>
+                <Plus className="w-4 h-4" /> New Admission
+              </Button>
+            }
+          />
+        ) : (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+            {filteredCases.map((c) => (
+              <div
+                key={c.id}
+                className={`bg-white dark:bg-surface-900 rounded-xl border p-5 transition-all hover:shadow-sm ${
+                  c.status === 'critical'
+                    ? 'border-red-200 dark:border-red-800 ring-1 ring-red-100 dark:ring-red-900/50'
+                    : 'border-surface-200/60 dark:border-surface-800'
+                }`}
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="font-semibold text-sm text-surface-900 dark:text-white truncate">{c.patientName}</span>
+                      <StatusBadge label={c.status} variant={getStatusVariant(c.status)} dot />
+                    </div>
+                    <div className="flex items-center gap-2 text-xs text-surface-500">
+                      <span className="font-mono px-1.5 py-0.5 rounded bg-surface-50 dark:bg-surface-800">{c.ipdNumber}</span>
+                      <span>&middot;</span>
+                      <span>UHID: {c.uhid}</span>
+                    </div>
                   </div>
-                  <p className="text-sm text-surface-500 mt-1">
-                    <Stethoscope className="w-3 h-3 inline mr-1" />{c.doctorName} · UHID: {c.uhid}
-                  </p>
+                  <div className="flex gap-1 shrink-0">
+                    <button
+                      onClick={() => openForm(c)}
+                      className="text-xs px-2.5 py-1 rounded-lg bg-surface-50 dark:bg-surface-800 text-surface-600 dark:text-surface-400 hover:bg-surface-100 dark:hover:bg-surface-700 font-medium transition-colors"
+                    >
+                      Edit
+                    </button>
+                    {c.status === 'active' && (
+                      <>
+                        <button
+                          onClick={() => updateStatus(c.id, 'critical')}
+                          className="text-xs px-2.5 py-1 rounded-lg bg-red-50 dark:bg-red-500/10 text-red-700 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-500/20 font-medium transition-colors"
+                        >
+                          Critical
+                        </button>
+                        <button
+                          onClick={() => updateStatus(c.id, 'discharged')}
+                          className="text-xs px-2.5 py-1 rounded-lg bg-emerald-50 dark:bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 hover:bg-emerald-100 dark:hover:bg-emerald-500/20 font-medium transition-colors"
+                        >
+                          Discharge
+                        </button>
+                      </>
+                    )}
+                  </div>
                 </div>
-                <div className="flex gap-1">
-                  <Button variant="secondary" onClick={() => openForm(c)} className="text-xs px-2 py-1">Edit</Button>
-                  {c.status === 'active' && (
-                    <>
-                      <button onClick={() => updateStatus(c.id, 'critical')} className="px-2 py-1 text-xs rounded bg-red-100 text-red-700">Critical</button>
-                      <button onClick={() => updateStatus(c.id, 'discharged')} className="px-2 py-1 text-xs rounded bg-emerald-100 text-emerald-700">Discharge</button>
-                    </>
+                <div className="space-y-1.5">
+                  <p className="text-sm text-surface-700 dark:text-surface-300">
+                    <Stethoscope className="w-3 h-3 inline mr-1 text-surface-400" />
+                    {c.doctorName}
+                  </p>
+                  <p className="text-sm text-surface-600 dark:text-surface-400">
+                    <strong>Chief Complaint:</strong> {c.chiefComplaint}
+                  </p>
+                  {c.diagnosis && (
+                    <p className="text-sm text-surface-500">
+                      <strong>Diagnosis:</strong> {c.diagnosis}
+                    </p>
                   )}
                 </div>
+                <div className="mt-3 pt-3 border-t border-surface-100 dark:border-surface-800 text-xs text-surface-400">
+                  Admitted: {new Date(c.admissionDate).toLocaleDateString('en-IN')}
+                  {c.dischargeDate && ` · Discharged: ${new Date(c.dischargeDate).toLocaleDateString('en-IN')}`}
+                </div>
               </div>
-              <p className="text-sm text-surface-700 dark:text-surface-300"><strong>Chief Complaint:</strong> {c.chiefComplaint}</p>
-              {c.diagnosis && <p className="text-sm text-surface-500 mt-1"><strong>Diagnosis:</strong> {c.diagnosis}</p>}
-              <p className="text-xs text-surface-400 mt-2">Admitted: {new Date(c.admissionDate).toLocaleDateString('en-IN')}</p>
-            </div>
-          ))}
-        </div>
-      )}
+            ))}
+          </div>
+        )}
+      </div>
 
-      {/* Admission Form Modal */}
       {showForm && (
         <Modal isOpen={true} onClose={() => { setShowForm(false); resetForm(); }} title={editingCase ? 'Edit Case Paper' : 'New IPD Admission'} maxWidth="max-w-lg">
           <div className="space-y-4">
             <div className="space-y-1.5">
               <label className="block text-sm font-medium text-surface-700 dark:text-surface-300">Patient *</label>
               {selectedPatient ? (
-                <div className="p-3 bg-emerald-50 dark:bg-emerald-900/20 rounded-lg border border-emerald-200 dark:border-emerald-800">
+                <div className="p-3 bg-emerald-50 dark:bg-emerald-500/10 rounded-lg border border-emerald-200 dark:border-emerald-800">
                   <span className="font-medium">{selectedPatient.name}</span>
                   <span className="ml-2 text-xs text-surface-500">{selectedPatient.mrn}</span>
                 </div>
               ) : (
-                <Input label="" placeholder="Search patient..." value={patients.find((p) => p.id === patientId)?.name || ''}
-                  onChange={() => {}} />
+                <Input label="" placeholder="Search patient..." value={patients.find((p) => p.id === patientId)?.name || ''} onChange={() => {}} />
               )}
               {!patientId && (
-                <div className="max-h-40 overflow-y-auto border border-surface-200 dark:border-surface-700 rounded-lg">
+                <div className="max-h-40 overflow-y-auto border border-surface-200 dark:border-surface-800 rounded-lg">
                   {patients.slice(0, 5).map((p) => (
                     <button key={p.id} onClick={() => setPatientId(p.id)}
                       className="w-full text-left px-3 py-2 hover:bg-surface-50 dark:hover:bg-surface-800 text-sm border-b border-surface-100 dark:border-surface-800 last:border-0">
@@ -190,17 +256,14 @@ export default function HimsIPD() {
                 </div>
               )}
             </div>
-
             <Select label="Doctor *" value={doctorName} onChange={(e) => setDoctorName(e.target.value)}>
               {DOCTORS.map((d) => <option key={d} value={d}>{d}</option>)}
             </Select>
-
             <Textarea label="Chief Complaint *" value={chiefComplaint} onChange={(e) => setChiefComplaint(e.target.value)} rows={2} placeholder="Reason for admission..." />
             <Textarea label="Diagnosis" value={diagnosis} onChange={(e) => setDiagnosis(e.target.value)} rows={2} placeholder="Provisional diagnosis..." />
             <Textarea label="Past History" value={pastHistory} onChange={(e) => setPastHistory(e.target.value)} rows={2} placeholder="Previous illnesses..." />
             <Input label="Allergies" value={allergies} onChange={(e) => setAllergies(e.target.value)} placeholder="Known allergies" />
             <Textarea label="Treatment Plan" value={treatmentPlan} onChange={(e) => setTreatmentPlan(e.target.value)} rows={3} placeholder="Treatment approach..." />
-
             <div className="grid grid-cols-4 gap-2">
               {([
                 ['bp', 'BP', '120/80'], ['pulse', 'Pulse', '72'], ['temperature', 'Temp °F', '98.6'], ['weight', 'Weight kg', '70'],
@@ -208,7 +271,6 @@ export default function HimsIPD() {
                 <Input key={k} label={l} value={vitals[k]} onChange={(e) => setVitals((v) => ({ ...v, [k]: e.target.value }))} placeholder={p} />
               ))}
             </div>
-
             <div className="flex gap-3 pt-2">
               <Button variant="secondary" onClick={() => { setShowForm(false); resetForm(); }} className="flex-1">Cancel</Button>
               <Button onClick={handleSubmit} disabled={!patientId || !chiefComplaint.trim()} className="flex-1">

@@ -1,4 +1,4 @@
-import { Menu, PanelLeftClose, PanelLeft, LogOut, Calendar, CalendarCheck } from 'lucide-react';
+import { Menu, PanelLeftClose, PanelLeft, LogOut, Calendar, CalendarCheck, ChevronDown } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../../contexts/AuthContext';
 import { useGoogleCalendar } from '../../../contexts/GoogleCalendarContext';
@@ -15,8 +15,9 @@ export function HimsHeader({ onMenuToggle, onCollapseToggle, collapsed }: HimsHe
   const { isConnected, connect, disconnect } = useGoogleCalendar();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-40 bg-white/80 dark:bg-surface-900/80 backdrop-blur-md border-b border-surface-200 dark:border-surface-700 pt-[env(safe-area-inset-top)]">
-      <div className="flex items-center justify-between h-[56px] px-4">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-surface-900/80 backdrop-blur-xl border-b border-surface-200/60 dark:border-surface-800/60 pt-[env(safe-area-inset-top)]">
+      <div className="flex items-center justify-between h-[60px] px-4">
+        {/* Left section */}
         <div className="flex items-center gap-2">
           <button
             onClick={onMenuToggle}
@@ -31,48 +32,61 @@ export function HimsHeader({ onMenuToggle, onCollapseToggle, collapsed }: HimsHe
             title={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
           >
             {collapsed ? (
-              <PanelLeft className="w-5 h-5 text-surface-600 dark:text-surface-400" />
+              <PanelLeft className="w-5 h-5 text-surface-500" />
             ) : (
-              <PanelLeftClose className="w-5 h-5 text-surface-600 dark:text-surface-400" />
+              <PanelLeftClose className="w-5 h-5 text-surface-500" />
             )}
           </button>
 
           <button
             onClick={() => navigate('/')}
-            className="flex items-center gap-2 min-w-[44px] min-h-[44px] justify-center"
+            className="flex items-center gap-2.5 min-w-[44px] min-h-[44px] justify-center"
           >
-            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center">
-              <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" />
+            <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center shadow-lg shadow-emerald-500/25">
+              <svg className="w-4.5 h-4.5 text-white" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
               </svg>
             </div>
-            <span className="font-semibold text-surface-900 dark:text-white hidden sm:block">
-              HIMS
-            </span>
+            <div className="hidden sm:flex flex-col items-start">
+              <span className="text-sm font-bold text-surface-900 dark:text-white leading-tight">
+                AyurScribe
+              </span>
+              <span className="text-[10px] text-surface-400 dark:text-surface-500 leading-tight">
+                HIMS
+              </span>
+            </div>
           </button>
         </div>
 
-        <div className="flex items-center gap-2">
+        {/* Right section */}
+        <div className="flex items-center gap-1.5">
           <button
             onClick={isConnected ? disconnect : connect}
-            className={`p-2 rounded-lg transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center ${
+            className={`p-2 rounded-lg transition-all duration-200 min-w-[40px] min-h-[40px] flex items-center justify-center ${
               isConnected
-                ? 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400'
-                : 'hover:bg-surface-100 dark:hover:bg-surface-800 text-surface-500'
+                ? 'bg-emerald-50 dark:bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 ring-1 ring-emerald-200 dark:ring-emerald-800'
+                : 'hover:bg-surface-100 dark:hover:bg-surface-800 text-surface-400'
             }`}
-            title={isConnected ? 'Disconnect Google Calendar' : 'Connect Google Calendar'}
+            title={isConnected ? 'Google Calendar connected' : 'Connect Google Calendar'}
           >
-            {isConnected ? <CalendarCheck className="w-5 h-5" /> : <Calendar className="w-5 h-5" />}
+            {isConnected ? <CalendarCheck className="w-[18px] h-[18px]" /> : <Calendar className="w-[18px] h-[18px]" />}
           </button>
-          <span className="text-sm text-surface-600 dark:text-surface-400 hidden sm:block truncate max-w-[120px]">
-            {userEmail}
-          </span>
+
+          <div className="hidden sm:flex items-center gap-2 pl-2 border-l border-surface-200 dark:border-surface-700">
+            <div className="w-7 h-7 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center text-white text-xs font-bold">
+              {userEmail?.charAt(0).toUpperCase()}
+            </div>
+            <span className="text-xs text-surface-600 dark:text-surface-400 max-w-[100px] truncate">
+              {userEmail}
+            </span>
+          </div>
+
           <button
             onClick={signOut}
-            className="p-2 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+            className="p-2 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors min-w-[40px] min-h-[40px] flex items-center justify-center"
             title="Sign out"
           >
-            <LogOut className="w-5 h-5 text-surface-500" />
+            <LogOut className="w-[18px] h-[18px] text-surface-400 hover:text-surface-600 dark:hover:text-surface-300" />
           </button>
         </div>
       </div>

@@ -10,14 +10,14 @@ export default function HimsLayout() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-surface-50 dark:bg-surface-900 flex flex-col">
+    <div className="min-h-screen bg-surface-50 dark:bg-surface-950 flex flex-col">
       <HimsHeader
         onMenuToggle={() => setShowMobileSidebar(true)}
         onCollapseToggle={() => setCollapsed((c) => !c)}
         collapsed={collapsed}
       />
 
-      <div className="flex flex-1 pt-[56px] pb-[64px] md:pb-0">
+      <div className="flex flex-1 pt-[60px] pb-[64px] md:pb-0">
         <HimsSidebar
           isOpen={showMobileSidebar}
           collapsed={collapsed}
@@ -29,11 +29,13 @@ export default function HimsLayout() {
         />
 
         <main
-          className={`flex-1 min-w-0 transition-all duration-200 ${
-            collapsed ? 'md:ml-[64px]' : 'md:ml-[240px]'
+          className={`flex-1 min-w-0 transition-all duration-300 ease-in-out ${
+            collapsed ? 'md:ml-[68px]' : 'md:ml-[260px]'
           }`}
         >
-          <Outlet />
+          <div className="h-full">
+            <Outlet />
+          </div>
         </main>
       </div>
 

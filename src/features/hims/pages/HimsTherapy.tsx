@@ -7,6 +7,10 @@ import { Modal } from '../../../components/ui/Modal';
 import { useAppSelector } from '../../../store/hooks';
 import { useToast } from '../../../contexts/ToastContext';
 import { DOCTORS, THERAPY_CATEGORIES, THERAPY_STATUS } from '../types';
+import { Breadcrumbs } from '../../../components/ui/Breadcrumb';
+import { PageHeader } from '../../../components/ui/PageHeader';
+import { StatusBadge, getStatusVariant } from '../../../components/ui/StatusBadge';
+import { EmptyState } from '../../../components/ui/EmptyState';
 import type { TherapySession } from '../types';
 
 export default function HimsTherapy() {
@@ -19,7 +23,6 @@ export default function HimsTherapy() {
   const [statusFilter, setStatusFilter] = useState<string>('all');
   const [dateFilter, setDateFilter] = useState('');
 
-  // Form state
   const [patientId, setPatientId] = useState('');
   const [therapyName, setTherapyName] = useState('');
   const [therapyCategory, setTherapyCategory] = useState<TherapySession['therapyCategory']>('Abhyanga & Massage');
@@ -87,95 +90,146 @@ export default function HimsTherapy() {
   };
 
   return (
-    <div className="p-4 space-y-4">
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-xl font-bold text-surface-900 dark:text-white">Therapy Register</h1>
-          <p className="text-sm text-surface-500">{sessions.length} sessions</p>
-        </div>
-        <Button onClick={() => openForm()} className="gap-2"><Plus className="w-4 h-4" /> New Session</Button>
-      </div>
+    <div className="h-full overflow-y-auto">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+        <Breadcrumbs items={[{ label: 'Therapy Register' }]} />
 
-      {/* Filters */}
-      <div className="flex gap-2 flex-wrap">
-        <div className="relative flex-1 min-w-[200px]">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-surface-400" />
-          <input type="text" placeholder="Search..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full pl-10 pr-3 py-2.5 border border-surface-200 dark:border-surface-700 rounded-lg bg-white dark:bg-surface-800 text-sm focus:ring-2 focus:ring-emerald-500 outline-none min-h-[44px]" />
-        </div>
-        <input type="date" value={dateFilter} onChange={(e) => setDateFilter(e.target.value)}
-          className="px-3 py-2 border border-surface-200 dark:border-surface-700 rounded-lg bg-white dark:bg-surface-800 text-sm min-h-[44px]" />
-        <div className="flex gap-1">
-          {['all', ...THERAPY_STATUS].map((s) => (
-            <button key={s} onClick={() => setStatusFilter(s)}
-              className={`px-3 py-2 text-xs font-medium rounded-lg capitalize min-h-[40px] ${statusFilter === s ? 'bg-emerald-600 text-white' : 'bg-surface-100 dark:bg-surface-800 text-surface-600 dark:text-surface-400'}`}>
-              {s}
-            </button>
-          ))}
-        </div>
-      </div>
+        <PageHeader
+          title="Therapy Register"
+          subtitle={`${sessions.length} sessions`}
+          actions={
+            <Button size="sm" onClick={() => openForm()}>
+              <Plus className="w-4 h-4" /> New Session
+            </Button>
+          }
+        />
 
-      {/* Sessions */}
-      {filteredSessions.length === 0 ? (
-        <div className="text-center py-12">
-          <Calendar className="w-12 h-12 mx-auto text-surface-300 dark:text-surface-600 mb-3" />
-          <p className="text-surface-500">No therapy sessions found</p>
+        {/* Filters */}
+        <div className="flex flex-col sm:flex-row gap-3 mb-5">
+          <div className="relative flex-1 min-w-0">
+            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-surface-400" />
+            <input
+              type="text"
+              placeholder="Search..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-10 pr-4 py-3 text-sm rounded-xl bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 focus:ring-2 focus:ring-emerald-500 outline-none transition-all"
+            />
+          </div>
+          <input
+            type="date"
+            value={dateFilter}
+            onChange={(e) => setDateFilter(e.target.value)}
+            className="px-4 py-3 text-sm rounded-xl bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 min-h-[48px]"
+          />
+          <div className="flex gap-1.5 overflow-x-auto pb-1">
+            {['all', ...THERAPY_STATUS].map((s) => (
+              <button
+                key={s}
+                onClick={() => setStatusFilter(s)}
+                className={`px-3 py-2 text-xs font-semibold rounded-lg capitalize min-h-[36px] whitespace-nowrap border transition-all ${
+                  statusFilter === s
+                    ? 'bg-emerald-600 text-white border-emerald-600 shadow-sm'
+                    : 'bg-white dark:bg-surface-900 text-surface-600 dark:text-surface-400 border-surface-200 dark:border-surface-800 hover:bg-surface-50'
+                }`}
+              >
+                {s}
+              </button>
+            ))}
+          </div>
         </div>
-      ) : (
-        <div className="space-y-2">
-          {filteredSessions.map((s) => (
-            <div key={s.id} className="p-4 bg-white dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700">
-              <div className="flex items-start justify-between">
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <span className="font-medium text-surface-900 dark:text-white">{s.therapyName}</span>
-                    <span className="text-xs px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400">{s.therapyCategory}</span>
-                    <span className={`text-xs px-2 py-0.5 rounded-full capitalize ${
-                      s.status === 'completed' ? 'bg-emerald-100 text-emerald-700' :
-                      s.status === 'in-progress' ? 'bg-amber-100 text-amber-700' :
-                      s.status === 'cancelled' ? 'bg-red-100 text-red-700' :
-                      'bg-surface-100 dark:bg-surface-700 text-surface-600 dark:text-surface-400'
-                    }`}>{s.status}</span>
+
+        {/* Sessions */}
+        {filteredSessions.length === 0 ? (
+          <EmptyState
+            icon={Calendar}
+            title="No therapy sessions found"
+            description="Schedule a therapy session to get started"
+            action={
+              <Button size="sm" onClick={() => openForm()}>
+                <Plus className="w-4 h-4" /> New Session
+              </Button>
+            }
+          />
+        ) : (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+            {filteredSessions.map((s) => (
+              <div
+                key={s.id}
+                className="bg-white dark:bg-surface-900 rounded-xl border border-surface-200/60 dark:border-surface-800 p-5 hover:shadow-sm transition-all"
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2 flex-wrap mb-1">
+                      <span className="font-semibold text-sm text-surface-900 dark:text-white">{s.therapyName}</span>
+                      <StatusBadge label={s.status} variant={getStatusVariant(s.status)} dot />
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-blue-50 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 font-medium">
+                        {s.therapyCategory}
+                      </span>
+                    </div>
                   </div>
-                  <p className="text-sm text-surface-500 mt-1">{s.patientName} · {s.doctorName} · Therapist: {s.therapistName}</p>
-                  <p className="text-xs text-surface-400 mt-1 flex items-center gap-3">
+                  <div className="flex gap-1 shrink-0">
+                    <button
+                      onClick={() => openForm(s)}
+                      className="text-xs px-2.5 py-1 rounded-lg bg-surface-50 dark:bg-surface-800 text-surface-600 dark:text-surface-400 hover:bg-surface-100 dark:hover:bg-surface-700 font-medium transition-colors"
+                    >
+                      Edit
+                    </button>
+                    {s.status === 'scheduled' && (
+                      <>
+                        <button
+                          onClick={() => updateStatus(s.id, 'in-progress')}
+                          className="text-xs px-2.5 py-1 rounded-lg bg-amber-50 dark:bg-amber-500/10 text-amber-700 dark:text-amber-400 hover:bg-amber-100 dark:hover:bg-amber-500/20 font-medium transition-colors"
+                        >
+                          Start
+                        </button>
+                        <button
+                          onClick={() => updateStatus(s.id, 'cancelled')}
+                          className="text-xs px-2.5 py-1 rounded-lg bg-red-50 dark:bg-red-500/10 text-red-600 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-500/20 font-medium transition-colors"
+                        >
+                          Cancel
+                        </button>
+                      </>
+                    )}
+                    {s.status === 'in-progress' && (
+                      <button
+                        onClick={() => updateStatus(s.id, 'completed')}
+                        className="text-xs px-2.5 py-1 rounded-lg bg-emerald-50 dark:bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 hover:bg-emerald-100 dark:hover:bg-emerald-500/20 font-medium transition-colors"
+                      >
+                        Complete
+                      </button>
+                    )}
+                  </div>
+                </div>
+                <div className="space-y-1 text-sm text-surface-500">
+                  <p>{s.patientName} &middot; {s.doctorName} &middot; Therapist: {s.therapistName}</p>
+                  <div className="flex items-center gap-3 text-xs text-surface-400">
                     <span className="flex items-center gap-1"><Calendar className="w-3 h-3" />{s.scheduledDate}</span>
-                    <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{s.scheduledTime} · {s.duration}min</span>
-                    <span>₹{s.cost.toLocaleString('en-IN')}</span>
-                  </p>
+                    <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{s.scheduledTime} &middot; {s.duration}min</span>
+                    <span className="font-semibold text-surface-700 dark:text-surface-300">₹{s.cost.toLocaleString('en-IN')}</span>
+                  </div>
                 </div>
-                <div className="flex gap-1">
-                  <Button variant="secondary" onClick={() => openForm(s)} className="text-xs px-2 py-1">Edit</Button>
-                  {s.status === 'scheduled' && (
-                    <>
-                      <button onClick={() => updateStatus(s.id, 'in-progress')} className="px-2 py-1 text-xs rounded bg-amber-100 text-amber-700">Start</button>
-                      <button onClick={() => updateStatus(s.id, 'cancelled')} className="px-2 py-1 text-xs rounded bg-red-100 text-red-700">Cancel</button>
-                    </>
-                  )}
-                  {s.status === 'in-progress' && (
-                    <button onClick={() => updateStatus(s.id, 'completed')} className="px-2 py-1 text-xs rounded bg-emerald-100 text-emerald-700">Complete</button>
-                  )}
-                </div>
+                {s.notes && <p className="text-xs text-surface-400 mt-2">{s.notes}</p>}
               </div>
-              {s.notes && <p className="text-xs text-surface-400 mt-2">{s.notes}</p>}
-            </div>
-          ))}
-        </div>
-      )}
+            ))}
+          </div>
+        )}
+      </div>
 
-      {/* Form Modal */}
       {showForm && (
         <Modal isOpen={true} onClose={() => { setShowForm(false); resetForm(); }} title={editingSession ? 'Edit Session' : 'New Therapy Session'} maxWidth="max-w-lg">
           <div className="space-y-4">
             <div className="space-y-1.5">
               <label className="block text-sm font-medium text-surface-700 dark:text-surface-300">Patient *</label>
               {patientId ? (
-                <div className="p-3 bg-emerald-50 dark:bg-emerald-900/20 rounded-lg border border-emerald-200 dark:border-emerald-800">
+                <div className="p-3 bg-emerald-50 dark:bg-emerald-500/10 rounded-lg border border-emerald-200 dark:border-emerald-800">
                   <span className="font-medium">{patients.find((p) => p.id === patientId)?.name}</span>
                   <button onClick={() => setPatientId('')} className="ml-2 text-sm text-surface-500">Change</button>
                 </div>
               ) : (
-                <div className="max-h-40 overflow-y-auto border border-surface-200 dark:border-surface-700 rounded-lg">
+                <div className="max-h-40 overflow-y-auto border border-surface-200 dark:border-surface-800 rounded-lg">
                   {patients.slice(0, 8).map((p) => (
                     <button key={p.id} onClick={() => setPatientId(p.id)}
                       className="w-full text-left px-3 py-2 hover:bg-surface-50 dark:hover:bg-surface-800 text-sm border-b border-surface-100 dark:border-surface-800 last:border-0">
@@ -185,36 +239,34 @@ export default function HimsTherapy() {
                 </div>
               )}
             </div>
-
             <Input label="Therapy Name *" value={therapyName} onChange={(e) => setTherapyName(e.target.value)} placeholder="e.g. Abhyanga, Shirodhara" />
-
             <div className="space-y-1.5">
               <label className="block text-sm font-medium text-surface-700 dark:text-surface-300">Category</label>
               <div className="flex flex-wrap gap-2">
                 {THERAPY_CATEGORIES.map((cat) => (
                   <button key={cat} onClick={() => setTherapyCategory(cat)}
-                    className={`px-3 py-2 text-xs font-medium rounded-lg min-h-[36px] ${therapyCategory === cat ? 'bg-emerald-600 text-white' : 'bg-surface-100 dark:bg-surface-800 text-surface-600 dark:text-surface-400'}`}>
+                    className={`px-3 py-2 text-xs font-medium rounded-lg min-h-[36px] border transition-all ${
+                      therapyCategory === cat
+                        ? 'bg-emerald-600 text-white border-emerald-600'
+                        : 'bg-white dark:bg-surface-900 text-surface-600 dark:text-surface-400 border-surface-200 dark:border-surface-800'
+                    }`}>
                     {cat}
                   </button>
                 ))}
               </div>
             </div>
-
             <div className="grid grid-cols-2 gap-4">
               <Select label="Doctor" value={doctorName} onChange={(e) => setDoctorName(e.target.value)}>
                 {DOCTORS.map((d) => <option key={d} value={d}>{d}</option>)}
               </Select>
               <Input label="Therapist" value={therapistName} onChange={(e) => setTherapistName(e.target.value)} placeholder="Therapist name" />
             </div>
-
             <div className="grid grid-cols-3 gap-4">
               <Input label="Date *" type="date" value={scheduledDate} onChange={(e) => setScheduledDate(e.target.value)} />
               <Input label="Time *" type="time" value={scheduledTime} onChange={(e) => setScheduledTime(e.target.value)} />
               <Input label="Duration (min)" type="number" value={duration} onChange={(e) => setDuration(e.target.value)} min={15} />
             </div>
-
             <Input label="Cost (₹)" type="number" value={cost} onChange={(e) => setCost(e.target.value)} min={0} placeholder="0" />
-
             <div className="flex gap-3 pt-2">
               <Button variant="secondary" onClick={() => { setShowForm(false); resetForm(); }} className="flex-1">Cancel</Button>
               <Button onClick={handleSubmit} disabled={!patientId || !therapyName.trim()} className="flex-1">
