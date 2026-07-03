@@ -32,3 +32,5 @@ start-openclaude.sh
 
 .vercel
 supabase/.temp/
+reference-hospital/
+*.xlsx

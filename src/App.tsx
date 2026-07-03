@@ -14,10 +14,6 @@ import { Spinner } from './components/ui/Spinner';
 
 // HIMS imports
 import HimsLayout from './features/hims/layout/HimsLayout';
-import { HimsPatientProvider } from './features/hims/contexts/HimsPatientContext';
-import { OpdProvider } from './features/hims/contexts/OpdContext';
-import { BillingProvider } from './features/hims/contexts/BillingContext';
-import { PharmacyProvider } from './features/hims/contexts/PharmacyContext';
 import { ToastProvider } from './contexts/ToastContext';
 import { GoogleCalendarProvider } from './contexts/GoogleCalendarContext';
 import HimsDashboard from './features/hims/pages/HimsDashboard';
@@ -69,15 +65,7 @@ export default function App() {
               </Route>
               <Route path="/hims" element={
                 <GoogleCalendarProvider>
-                <HimsPatientProvider>
-                  <OpdProvider>
-                    <BillingProvider>
-                      <PharmacyProvider>
-                        <HimsLayout />
-                      </PharmacyProvider>
-                    </BillingProvider>
-                  </OpdProvider>
-                </HimsPatientProvider>
+                  <HimsLayout />
                 </GoogleCalendarProvider>
               }>
                 <Route index element={<Navigate to="/hims/dashboard" replace />} />

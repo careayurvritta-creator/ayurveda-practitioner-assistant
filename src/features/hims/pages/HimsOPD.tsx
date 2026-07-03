@@ -1,15 +1,17 @@
-import { useState } from 'react';
-import { Plus, Clock, CheckCircle, XCircle, Loader, Calendar, ChevronLeft, ChevronRight, Receipt, Pill, CalendarDays } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Plus, Clock, CheckCircle, XCircle, Loader, Calendar, ChevronLeft, ChevronRight, Receipt, Pill, CalendarDays, Pencil, Trash2 } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { ConfirmationDialog } from '../../../components/ui/ConfirmationDialog';
-import { useOpd } from '../contexts/OpdContext';
-import { useBilling } from '../contexts/BillingContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { fetchVisits, updateVisitStatus, deleteVisit } from '../slices/opdSlice';
+import { fetchInvoices } from '../slices/billingSlice';
 import { useToast } from '../../../contexts/ToastContext';
 import { CreateVisitModal } from '../components/CreateVisitModal';
+import { EditVisitModal } from '../components/EditVisitModal';
 import { QuickInvoiceModal } from '../components/QuickInvoiceModal';
 import { DispenseMedicineModal } from '../components/DispenseMedicineModal';
 import { CalendarSyncButton } from '../components/CalendarSyncButton';
-import type { OpdVisit } from '../types';
+import type { VisitRecord } from '../db/VisitRepository';
 
 type FilterType = 'all' | 'waiting' | 'in-progress' | 'completed' | 'cancelled';
 
@@ -21,17 +23,25 @@ const STATUS_STYLES: Record<string, string> = {
 };
 
 export default function HimsOPD() {
-  const { visits, updateVisitStatus, cancelVisit, getVisitStats } = useOpd();
-  const { invoices } = useBilling();
+  const dispatch = useAppDispatch();
+  const { visits, isLoading } = useAppSelector((state) => state.hims.opd);
+  const { invoices } = useAppSelector((state) => state.hims.billing);
   const { showToast } = useToast();
   const [showCreate, setShowCreate] = useState(false);
-  const [billingVisit, setBillingVisit] = useState<OpdVisit | null>(null);
-  const [dispenseVisit, setDispenseVisit] = useState<OpdVisit | null>(null);
+  const [editingVisit, setEditingVisit] = useState<VisitRecord | null>(null);
+  const [billingVisit, setBillingVisit] = useState<VisitRecord | null>(null);
+  const [dispenseVisit, setDispenseVisit] = useState<VisitRecord | null>(null);
   const [filter, setFilter] = useState<FilterType>('all');
   const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
   const [showAllVisits, setShowAllVisits] = useState(false);
-  const [cancellingVisit, setCancellingVisit] = useState<OpdVisit | null>(null);
-  const [statusChangeVisit, setStatusChangeVisit] = useState<{ visit: OpdVisit; newStatus: OpdVisit['status'] } | null>(null);
+  const [cancellingVisit, setCancellingVisit] = useState<VisitRecord | null>(null);
+  const [statusChangeVisit, setStatusChangeVisit] = useState<{ visit: VisitRecord; newStatus: VisitRecord['status'] } | null>(null);
+  const [deletingVisit, setDeletingVisit] = useState<VisitRecord | null>(null);
+
+  useEffect(() => {
+    dispatch(fetchVisits());
+    dispatch(fetchInvoices());
+  }, [dispatch]);
 
   const dateVisits = showAllVisits
     ? visits
@@ -39,7 +49,13 @@ export default function HimsOPD() {
 
   const filteredVisits = filter === 'all' ? dateVisits : dateVisits.filter((v) => v.status === filter);
 
-  const stats = getVisitStats(showAllVisits ? undefined : selectedDate);
+  const stats = {
+    total: dateVisits.length,
+    waiting: dateVisits.filter((v) => v.status === 'waiting').length,
+    inProgress: dateVisits.filter((v) => v.status === 'in-progress').length,
+    completed: dateVisits.filter((v) => v.status === 'completed').length,
+    cancelled: dateVisits.filter((v) => v.status === 'cancelled').length,
+  };
 
   const navigateDate = (delta: number) => {
     const d = new Date(selectedDate);
@@ -75,25 +91,32 @@ export default function HimsOPD() {
     }
   };
 
-  const handleStatusChange = (visit: OpdVisit, newStatus: OpdVisit['status']) => {
+  const handleStatusChange = (visit: VisitRecord, newStatus: VisitRecord['status']) => {
     setStatusChangeVisit({ visit, newStatus });
   };
 
   const confirmStatusChange = () => {
     if (!statusChangeVisit) return;
-    updateVisitStatus(statusChangeVisit.visit.id, statusChangeVisit.newStatus);
+    dispatch(updateVisitStatus({ id: statusChangeVisit.visit.id, status: statusChangeVisit.newStatus }));
     showToast(`Visit status updated to ${statusChangeVisit.newStatus}`, 'success');
     setStatusChangeVisit(null);
   };
 
   const handleCancel = () => {
     if (!cancellingVisit) return;
-    cancelVisit(cancellingVisit.id);
+    dispatch(updateVisitStatus({ id: cancellingVisit.id, status: 'cancelled' }));
     showToast('Visit cancelled', 'success');
     setCancellingVisit(null);
   };
 
-  const statusActions = (visit: OpdVisit) => {
+  const handleDeleteVisit = () => {
+    if (!deletingVisit) return;
+    dispatch(deleteVisit(deletingVisit.id));
+    showToast('Visit deleted', 'success');
+    setDeletingVisit(null);
+  };
+
+  const statusActions = (visit: VisitRecord) => {
     switch (visit.status) {
       case 'waiting':
         return (
@@ -227,7 +250,11 @@ export default function HimsOPD() {
           </div>
 
           {/* Visit List */}
-          {filteredVisits.length === 0 ? (
+          {isLoading ? (
+            <div className="text-center py-12 text-surface-500">
+              <p>Loading visits...</p>
+            </div>
+          ) : filteredVisits.length === 0 ? (
             <div className="text-center py-12 text-surface-500">
               <CalendarDays className="w-12 h-12 mx-auto mb-4 text-surface-300" />
               <p className="text-lg mb-2">
@@ -298,6 +325,20 @@ export default function HimsOPD() {
                         {visit.status}
                       </span>
                       {statusActions(visit)}
+                      <div className="flex gap-1">
+                        <button
+                          onClick={() => setEditingVisit(visit)}
+                          className="text-xs px-2 py-1 rounded bg-surface-100 text-surface-600 hover:bg-surface-200 dark:bg-surface-700 dark:text-surface-400 min-h-[28px] flex items-center gap-1"
+                        >
+                          <Pencil className="w-3 h-3" /> Edit
+                        </button>
+                        <button
+                          onClick={() => setDeletingVisit(visit)}
+                          className="text-xs px-2 py-1 rounded bg-red-100 text-red-600 hover:bg-red-200 dark:bg-red-900/30 dark:text-red-400 min-h-[28px] flex items-center gap-1"
+                        >
+                          <Trash2 className="w-3 h-3" /> Del
+                        </button>
+                      </div>
                       {visit.status === 'completed' && !invoices.some((inv) => inv.visitId === visit.id) && (
                         <button
                           onClick={() => setBillingVisit(visit)}
@@ -314,7 +355,7 @@ export default function HimsOPD() {
                         </span>
                       )}
                       {visit.status === 'completed' && (
-                        <CalendarSyncButton visit={visit} />
+                        <CalendarSyncButton visit={visit as any} />
                       )}
                       {visit.status === 'completed' && visit.prescription.length > 0 && (
                         <button
@@ -335,11 +376,12 @@ export default function HimsOPD() {
       </div>
 
       {showCreate && <CreateVisitModal onClose={() => setShowCreate(false)} />}
+      {editingVisit && <EditVisitModal visit={editingVisit} onClose={() => setEditingVisit(null)} />}
       {billingVisit && (
-        <QuickInvoiceModal visit={billingVisit} onClose={() => setBillingVisit(null)} />
+        <QuickInvoiceModal visit={billingVisit as any} onClose={() => setBillingVisit(null)} />
       )}
       {dispenseVisit && (
-        <DispenseMedicineModal visit={dispenseVisit} onClose={() => setDispenseVisit(null)} />
+        <DispenseMedicineModal visit={dispenseVisit as any} onClose={() => setDispenseVisit(null)} />
       )}
 
       <ConfirmationDialog
@@ -359,6 +401,16 @@ export default function HimsOPD() {
         title="Update Visit Status"
         message={`Change status of ${statusChangeVisit?.visit.patientName} to ${statusChangeVisit?.newStatus}?`}
         confirmLabel="Update"
+      />
+
+      <ConfirmationDialog
+        isOpen={!!deletingVisit}
+        onClose={() => setDeletingVisit(null)}
+        onConfirm={handleDeleteVisit}
+        title="Delete Visit"
+        message={`Are you sure you want to delete the visit for ${deletingVisit?.patientName}? This cannot be undone.`}
+        confirmLabel="Delete"
+        destructive
       />
     </div>
   );

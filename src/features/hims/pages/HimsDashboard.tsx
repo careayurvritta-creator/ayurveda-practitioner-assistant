@@ -1,15 +1,25 @@
+import { useEffect } from 'react';
 import { Users, Stethoscope, IndianRupee, Pill, AlertTriangle } from 'lucide-react';
-import { useHimsPatients } from '../contexts/HimsPatientContext';
-import { useOpd } from '../contexts/OpdContext';
-import { useBilling } from '../contexts/BillingContext';
-import { usePharmacy } from '../contexts/PharmacyContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { fetchPatients } from '../slices/himsPatientSlice';
+import { fetchVisits } from '../slices/opdSlice';
+import { fetchInvoices } from '../slices/billingSlice';
+import { fetchMedicines } from '../slices/pharmacySlice';
 import { HimsStatsCard } from '../layout/HimsStatsCard';
 
 export default function HimsDashboard() {
-  const { patients } = useHimsPatients();
-  const { todayVisits } = useOpd();
-  const { todayRevenue, totalRevenue } = useBilling();
-  const { lowStockMedicines, medicines } = usePharmacy();
+  const dispatch = useAppDispatch();
+  const { patients } = useAppSelector((state) => state.hims.patients);
+  const { todayVisits } = useAppSelector((state) => state.hims.opd);
+  const { todayRevenue, totalRevenue } = useAppSelector((state) => state.hims.billing);
+  const { lowStockMedicines, medicines } = useAppSelector((state) => state.hims.pharmacy);
+
+  useEffect(() => {
+    dispatch(fetchPatients());
+    dispatch(fetchVisits());
+    dispatch(fetchInvoices());
+    dispatch(fetchMedicines());
+  }, [dispatch]);
 
   const recentVisits = todayVisits.slice(0, 5);
 

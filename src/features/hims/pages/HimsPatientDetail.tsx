@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Phone, Mail, Droplets, AlertTriangle, Pencil, Receipt, User } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
-import { useHimsPatients } from '../contexts/HimsPatientContext';
-import { useOpd } from '../contexts/OpdContext';
-import { useBilling } from '../contexts/BillingContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { fetchPatients } from '../slices/himsPatientSlice';
+import { fetchVisits } from '../slices/opdSlice';
+import { fetchInvoices } from '../slices/billingSlice';
 import { PatientFormModal } from '../components/PatientFormModal';
 
 const STATUS_STYLES: Record<string, string> = {
@@ -17,14 +18,21 @@ const STATUS_STYLES: Record<string, string> = {
 export default function HimsPatientDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const { getPatient } = useHimsPatients();
-  const { getVisitsByPatient } = useOpd();
-  const { getInvoicesByPatient } = useBilling();
+  const dispatch = useAppDispatch();
+  const { patients } = useAppSelector((state) => state.hims.patients);
+  const { visits } = useAppSelector((state) => state.hims.opd);
+  const { invoices } = useAppSelector((state) => state.hims.billing);
   const [showEdit, setShowEdit] = useState(false);
 
-  const patient = getPatient(id || '');
-  const visits = id ? getVisitsByPatient(id) : [];
-  const invoices = id ? getInvoicesByPatient(id) : [];
+  useEffect(() => {
+    dispatch(fetchPatients());
+    dispatch(fetchVisits());
+    dispatch(fetchInvoices());
+  }, [dispatch]);
+
+  const patient = patients.find((p) => p.id === id);
+  const patientVisits = id ? visits.filter((v) => v.patientId === id) : [];
+  const patientInvoices = id ? invoices.filter((inv) => inv.patientId === id) : [];
 
   if (!patient) {
     return (
@@ -158,16 +166,16 @@ export default function HimsPatientDetail() {
         <div className="bg-white dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700">
           <div className="px-4 py-3 border-b border-surface-200 dark:border-surface-700">
             <h2 className="text-sm font-medium text-surface-900 dark:text-white">
-              Visit History ({visits.length})
+              Visit History ({patientVisits.length})
             </h2>
           </div>
           <div className="divide-y divide-surface-100 dark:divide-surface-700">
-            {visits.length === 0 ? (
+            {patientVisits.length === 0 ? (
               <div className="px-4 py-8 text-center text-surface-500 text-sm">
                 No visits recorded
               </div>
             ) : (
-              visits.map((visit) => (
+              patientVisits.map((visit) => (
                 <div key={visit.id} className="px-4 py-3">
                   <div className="flex items-center justify-between mb-1">
                     <span className="text-sm font-medium text-surface-900 dark:text-white">
@@ -178,7 +186,7 @@ export default function HimsPatientDetail() {
                       })}
                     </span>
                     <div className="flex items-center gap-2">
-                      {invoices.some((inv) => inv.visitId === visit.id) && (
+                      {patientInvoices.some((inv) => inv.visitId === visit.id) && (
                         <span className="text-xs text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
                           <Receipt className="w-3 h-3" />
                           Billed
@@ -210,7 +218,7 @@ export default function HimsPatientDetail() {
           </div>
         </div>
       </div>
-      {showEdit && <PatientFormModal patient={patient} onClose={() => setShowEdit(false)} />}
+      {showEdit && <PatientFormModal patient={patient as any} onClose={() => setShowEdit(false)} />}
     </div>
   );
 }

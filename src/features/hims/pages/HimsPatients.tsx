@@ -1,28 +1,37 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { UserPlus, Search, Trash2, Eye, Pencil, X, Users } from 'lucide-react';
+import { UserPlus, Search, Trash2, Eye, Pencil, X, Users, Download } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { ConfirmationDialog } from '../../../components/ui/ConfirmationDialog';
-import { useHimsPatients } from '../contexts/HimsPatientContext';
-import { useOpd } from '../contexts/OpdContext';
-import { useBilling } from '../contexts/BillingContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { fetchPatients, searchPatients, deletePatient } from '../slices/himsPatientSlice';
+import { fetchVisits } from '../slices/opdSlice';
+import { fetchInvoices } from '../slices/billingSlice';
 import { useToast } from '../../../contexts/ToastContext';
 import { PatientFormModal } from '../components/PatientFormModal';
-import type { HimsPatient } from '../types';
+import { exportPatients } from '../utils/export';
+import type { PatientRecord } from '../db/PatientRepository';
 
 export default function HimsPatients() {
   const navigate = useNavigate();
-  const { patients, deletePatient } = useHimsPatients();
-  const { visits } = useOpd();
-  const { invoices } = useBilling();
+  const dispatch = useAppDispatch();
+  const { patients, isLoading } = useAppSelector((state) => state.hims.patients);
+  const { visits } = useAppSelector((state) => state.hims.opd);
+  const { invoices } = useAppSelector((state) => state.hims.billing);
   const { showToast } = useToast();
 
   const [search, setSearch] = useState('');
   const [debouncedSearch, setDebouncedSearch] = useState('');
   const [showRegister, setShowRegister] = useState(false);
-  const [editingPatient, setEditingPatient] = useState<HimsPatient | null>(null);
-  const [deletingPatient, setDeletingPatient] = useState<HimsPatient | null>(null);
+  const [editingPatient, setEditingPatient] = useState<PatientRecord | null>(null);
+  const [deletingPatient, setDeletingPatient] = useState<PatientRecord | null>(null);
   const debounceTimer = useRef<ReturnType<typeof setTimeout>>(null);
+
+  useEffect(() => {
+    dispatch(fetchPatients());
+    dispatch(fetchVisits());
+    dispatch(fetchInvoices());
+  }, [dispatch]);
 
   useEffect(() => {
     if (debounceTimer.current) clearTimeout(debounceTimer.current);
@@ -31,6 +40,14 @@ export default function HimsPatients() {
     }, 300);
     return () => { if (debounceTimer.current) clearTimeout(debounceTimer.current); };
   }, [search]);
+
+  useEffect(() => {
+    if (debouncedSearch.length >= 2) {
+      dispatch(searchPatients(debouncedSearch));
+    } else if (debouncedSearch.length === 0) {
+      dispatch(fetchPatients());
+    }
+  }, [debouncedSearch, dispatch]);
 
   const filteredPatients = patients.filter((p) => {
     if (debouncedSearch.length < 2) return true;
@@ -55,7 +72,7 @@ export default function HimsPatients() {
       setDeletingPatient(null);
       return;
     }
-    deletePatient(deletingPatient.id);
+    dispatch(deletePatient(deletingPatient.id));
     showToast('Patient deleted successfully', 'success');
     setDeletingPatient(null);
   };
@@ -75,10 +92,16 @@ export default function HimsPatients() {
               ({patients.length})
             </span>
           </h1>
-          <Button size="sm" onClick={() => setShowRegister(true)}>
-            <UserPlus className="w-4 h-4" />
-            Register
-          </Button>
+          <div className="flex items-center gap-2">
+            <Button size="sm" variant="secondary" onClick={() => exportPatients(patients)}>
+              <Download className="w-4 h-4" />
+              Export
+            </Button>
+            <Button size="sm" onClick={() => setShowRegister(true)}>
+              <UserPlus className="w-4 h-4" />
+              Register
+            </Button>
+          </div>
         </div>
       </div>
 
@@ -103,7 +126,11 @@ export default function HimsPatients() {
             )}
           </div>
 
-          {filteredPatients.length === 0 ? (
+          {isLoading ? (
+            <div className="text-center py-12 text-surface-500">
+              <p>Loading patients...</p>
+            </div>
+          ) : filteredPatients.length === 0 ? (
             <div className="text-center py-12 text-surface-500">
               <Users className="w-12 h-12 mx-auto mb-4 text-surface-300" />
               <p className="text-lg mb-2">
@@ -181,7 +208,7 @@ export default function HimsPatients() {
 
       {showRegister && <PatientFormModal onClose={() => setShowRegister(false)} />}
       {editingPatient && (
-        <PatientFormModal patient={editingPatient} onClose={() => setEditingPatient(null)} />
+        <PatientFormModal patient={editingPatient as any} onClose={() => setEditingPatient(null)} />
       )}
       <ConfirmationDialog
         isOpen={!!deletingPatient}

@@ -1,19 +1,28 @@
-import { useState } from 'react';
-import { Plus, Search, Pill, AlertTriangle } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Plus, Search, Pill, AlertTriangle, Download, Pencil, Trash2 } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { ConfirmationDialog } from '../../../components/ui/ConfirmationDialog';
-import { usePharmacy } from '../contexts/PharmacyContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { fetchMedicines, deleteMedicine } from '../slices/pharmacySlice';
 import { useToast } from '../../../contexts/ToastContext';
 import { AddMedicineModal } from '../components/AddMedicineModal';
-import type { Medicine } from '../types';
+import { EditMedicineModal } from '../components/EditMedicineModal';
+import { exportMedicines } from '../utils/export';
+import type { MedicineRecord } from '../db/MedicineRepository';
 
 export default function HimsPharmacy() {
-  const { medicines, lowStockMedicines, deleteMedicine } = usePharmacy();
+  const dispatch = useAppDispatch();
+  const { medicines, lowStockMedicines, isLoading } = useAppSelector((state) => state.hims.pharmacy);
   const { showToast } = useToast();
   const [search, setSearch] = useState('');
   const [showAdd, setShowAdd] = useState(false);
+  const [editingMedicine, setEditingMedicine] = useState<MedicineRecord | null>(null);
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
-  const [deletingMedicine, setDeletingMedicine] = useState<Medicine | null>(null);
+  const [deletingMedicine, setDeletingMedicine] = useState<MedicineRecord | null>(null);
+
+  useEffect(() => {
+    dispatch(fetchMedicines());
+  }, [dispatch]);
 
   const filteredMedicines = medicines.filter((m) => {
     const matchesSearch =
@@ -22,6 +31,13 @@ export default function HimsPharmacy() {
     const matchesCategory = categoryFilter === 'all' || m.category === categoryFilter;
     return matchesSearch && matchesCategory;
   });
+
+  const handleDelete = () => {
+    if (!deletingMedicine) return;
+    dispatch(deleteMedicine(deletingMedicine.id));
+    showToast(`${deletingMedicine.name} deleted`, 'success');
+    setDeletingMedicine(null);
+  };
 
   return (
     <div className="h-full flex flex-col">
@@ -33,10 +49,16 @@ export default function HimsPharmacy() {
               ({medicines.length} items)
             </span>
           </h1>
-          <Button size="sm" onClick={() => setShowAdd(true)}>
-            <Plus className="w-4 h-4" />
-            Add Medicine
-          </Button>
+          <div className="flex items-center gap-2">
+            <Button size="sm" variant="secondary" onClick={() => exportMedicines(medicines)}>
+              <Download className="w-4 h-4" />
+              Export
+            </Button>
+            <Button size="sm" onClick={() => setShowAdd(true)}>
+              <Plus className="w-4 h-4" />
+              Add Medicine
+            </Button>
+          </div>
         </div>
       </div>
 
@@ -77,7 +99,11 @@ export default function HimsPharmacy() {
           </div>
 
           {/* Medicine List */}
-          {filteredMedicines.length === 0 ? (
+          {isLoading ? (
+            <div className="text-center py-12 text-surface-500">
+              <p>Loading medicines...</p>
+            </div>
+          ) : filteredMedicines.length === 0 ? (
             <div className="text-center py-12 text-surface-500">
               <Pill className="w-12 h-12 mx-auto mb-3 text-surface-300" />
               <p className="text-lg mb-2">
@@ -125,12 +151,22 @@ export default function HimsPharmacy() {
                       <div className="font-bold text-surface-900 dark:text-white">
                         ₹{med.price}
                       </div>
-                      <button
-                        onClick={() => setDeletingMedicine(med)}
-                        className="text-xs text-red-500 hover:text-red-700 mt-1"
-                      >
-                        Delete
-                      </button>
+                      <div className="flex gap-1 mt-1">
+                        <button
+                          onClick={() => setEditingMedicine(med)}
+                          className="text-xs text-blue-500 hover:text-blue-700 p-1"
+                          title="Edit"
+                        >
+                          <Pencil className="w-3 h-3" />
+                        </button>
+                        <button
+                          onClick={() => setDeletingMedicine(med)}
+                          className="text-xs text-red-500 hover:text-red-700 p-1"
+                          title="Delete"
+                        >
+                          <Trash2 className="w-3 h-3" />
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -141,17 +177,14 @@ export default function HimsPharmacy() {
       </div>
 
       {showAdd && <AddMedicineModal onClose={() => setShowAdd(false)} />}
+      {editingMedicine && (
+        <EditMedicineModal medicine={editingMedicine} onClose={() => setEditingMedicine(null)} />
+      )}
 
       <ConfirmationDialog
         isOpen={!!deletingMedicine}
         onClose={() => setDeletingMedicine(null)}
-        onConfirm={() => {
-          if (deletingMedicine) {
-            deleteMedicine(deletingMedicine.id);
-            showToast(`${deletingMedicine.name} deleted`, 'success');
-            setDeletingMedicine(null);
-          }
-        }}
+        onConfirm={handleDelete}
         title="Delete Medicine"
         message={`Are you sure you want to delete ${deletingMedicine?.name}? This cannot be undone.`}
         confirmLabel="Delete"

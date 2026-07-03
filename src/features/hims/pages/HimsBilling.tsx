@@ -1,13 +1,20 @@
-import { useState } from 'react';
-import { Plus, Receipt, IndianRupee } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Plus, Receipt, IndianRupee, Download } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
-import { useBilling } from '../contexts/BillingContext';
+import { useAppDispatch, useAppSelector } from '../../../store/hooks';
+import { fetchInvoices } from '../slices/billingSlice';
 import { CreateInvoiceModal } from '../components/CreateInvoiceModal';
+import { exportInvoices } from '../utils/export';
 
 export default function HimsBilling() {
-  const { invoices, todayRevenue, totalRevenue } = useBilling();
+  const dispatch = useAppDispatch();
+  const { invoices, todayRevenue, totalRevenue, isLoading } = useAppSelector((state) => state.hims.billing);
   const [showCreate, setShowCreate] = useState(false);
   const [filter, setFilter] = useState<'all' | 'paid' | 'pending'>('all');
+
+  useEffect(() => {
+    dispatch(fetchInvoices());
+  }, [dispatch]);
 
   const filteredInvoices = filter === 'all' ? invoices : invoices.filter((inv) => inv.paymentStatus === filter);
 
@@ -21,10 +28,16 @@ export default function HimsBilling() {
               ({invoices.length} invoices)
             </span>
           </h1>
-          <Button size="sm" onClick={() => setShowCreate(true)}>
-            <Plus className="w-4 h-4" />
-            New Invoice
-          </Button>
+          <div className="flex items-center gap-2">
+            <Button size="sm" variant="secondary" onClick={() => exportInvoices(invoices)}>
+              <Download className="w-4 h-4" />
+              Export
+            </Button>
+            <Button size="sm" onClick={() => setShowCreate(true)}>
+              <Plus className="w-4 h-4" />
+              New Invoice
+            </Button>
+          </div>
         </div>
       </div>
 
@@ -70,7 +83,11 @@ export default function HimsBilling() {
           </div>
 
           {/* Invoice List */}
-          {filteredInvoices.length === 0 ? (
+          {isLoading ? (
+            <div className="text-center py-12 text-surface-500">
+              <p>Loading invoices...</p>
+            </div>
+          ) : filteredInvoices.length === 0 ? (
             <div className="text-center py-12 text-surface-500">
               <p className="text-lg mb-2">No invoices yet</p>
               <Button size="sm" onClick={() => setShowCreate(true)}>

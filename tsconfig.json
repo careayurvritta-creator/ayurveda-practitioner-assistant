@@ -29,6 +29,7 @@
     "scripts",
     "tests",
     "knowledge-base",
-    "vite.config.ts"
+    "vite.config.ts",
+    "reference-hospital"
   ]
 }
