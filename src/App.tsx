@@ -25,6 +25,7 @@ import HimsPharmacy from './features/hims/pages/HimsPharmacy';
 import HimsIPD from './features/hims/pages/HimsIPD';
 import HimsTherapy from './features/hims/pages/HimsTherapy';
 import HimsTreatmentPlan from './features/hims/pages/HimsTreatmentPlan';
+import HimsAppointments from './features/hims/pages/HimsAppointments';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { isLoggedIn, loading } = useAuth();
@@ -75,6 +76,7 @@ export default function App() {
                 <Route path="dashboard" element={<HimsDashboard />} />
                 <Route path="patients" element={<HimsPatients />} />
                 <Route path="patients/:id" element={<HimsPatientDetail />} />
+                <Route path="appointments" element={<HimsAppointments />} />
                 <Route path="opd" element={<HimsOPD />} />
                 <Route path="ipd" element={<HimsIPD />} />
                 <Route path="therapy" element={<HimsTherapy />} />

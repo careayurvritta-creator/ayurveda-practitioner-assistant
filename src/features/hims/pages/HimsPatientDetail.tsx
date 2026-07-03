@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Phone, Mail, Droplets, AlertTriangle, Pencil, Receipt, User } from 'lucide-react';
+import { ArrowLeft, Phone, Mail, Droplets, AlertTriangle, Pencil, Receipt, User, Calendar, Stethoscope } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { useAppDispatch, useAppSelector } from '../../../store/hooks';
 import { fetchPatients } from '../slices/himsPatientSlice';
@@ -74,10 +74,20 @@ export default function HimsPatientDetail() {
                 {patient.mrn}
               </span>
             </div>
-            <Button size="sm" variant="secondary" onClick={() => setShowEdit(true)}>
-              <Pencil className="w-4 h-4" />
-              Edit
-            </Button>
+            <div className="flex items-center gap-2">
+              <Button size="sm" onClick={() => navigate('/hims/appointments', { state: { patientId: patient.id, patientName: patient.name, uhid: patient.mrn } })}>
+                <Calendar className="w-4 h-4" />
+                Book Appointment
+              </Button>
+              <Button size="sm" variant="secondary" onClick={() => navigate('/hims/opd', { state: { patientId: patient.id, patientName: patient.name } })}>
+                <Stethoscope className="w-4 h-4" />
+                New Visit
+              </Button>
+              <Button size="sm" variant="secondary" onClick={() => setShowEdit(true)}>
+                <Pencil className="w-4 h-4" />
+                Edit
+              </Button>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">

@@ -44,6 +44,7 @@ const navGroups: NavGroup[] = [
     title: 'Clinical',
     items: [
       { path: '/hims/patients', label: 'Patients', icon: Users },
+      { path: '/hims/appointments', label: 'Appointments', icon: Calendar },
       { path: '/hims/opd', label: 'OPD', icon: Stethoscope },
       { path: '/hims/ipd', label: 'IPD', icon: Bed },
     ],

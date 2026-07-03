@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Modal } from '../../../components/ui/Modal';
 import { Button } from '../../../components/ui/Button';
 import { Input } from '../../../components/ui/Input';
@@ -28,6 +29,7 @@ const FREQUENCIES = [
 
 export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
   const dispatch = useAppDispatch();
+  const navigate = useNavigate();
   const { patients } = useAppSelector((s) => s.hims.patients);
   const { medicines } = useAppSelector((s) => s.hims.pharmacy);
   const { showToast } = useToast();
@@ -196,6 +198,21 @@ export function CreateVisitModal({ onClose }: CreateVisitModalProps) {
                         </span>
                       </button>
                     ))}
+                  </div>
+                )}
+                {showPatientDropdown && filteredPatients.length === 0 && debouncedSearch.length >= 2 && (
+                  <div className="absolute z-10 top-full left-0 right-0 mt-1 bg-white dark:bg-surface-800 border border-surface-200 dark:border-surface-700 rounded-lg shadow-lg p-4 text-center">
+                    <p className="text-sm text-surface-500 mb-2">No patients found</p>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        onClose();
+                        navigate('/hims/patients');
+                      }}
+                      className="text-sm text-emerald-600 dark:text-emerald-400 font-medium hover:underline"
+                    >
+                      + Register New Patient
+                    </button>
                   </div>
                 )}
               </div>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Modal } from '../../../components/ui/Modal';
 import { Input } from '../../../components/ui/Input';
 import { Select } from '../../../components/ui/Select';
@@ -10,16 +11,18 @@ import { createPatient, updatePatient } from '../slices/himsPatientSlice';
 import { useToast } from '../../../contexts/ToastContext';
 import { useFormValidation } from '../../../hooks/useFormValidation';
 import type { PatientRecord } from '../db/PatientRepository';
-import { GENDERS, BLOOD_GROUPS, PRAKRITI_TYPES } from '../types';
+import { GENDERS, BLOOD_GROUPS, PRAKRITI_TYPES, AGNI_TYPES, KOSHTA_TYPES } from '../types';
 
 interface PatientFormModalProps {
   isOpen?: boolean;
   onClose: () => void;
   patient?: PatientRecord;
+  onRegistered?: (patientId: string, patientName: string, uhid: string) => void;
 }
 
-export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFormModalProps) {
+export function PatientFormModal({ isOpen = true, onClose, patient, onRegistered }: PatientFormModalProps) {
   const dispatch = useAppDispatch();
+  const navigate = useNavigate();
   const { patients } = useAppSelector((s) => s.hims.patients);
   const { showToast } = useToast();
   const { errors, validate, clearErrors, clearFieldError, getFieldError } = useFormValidation();
@@ -34,8 +37,21 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
   const [address, setAddress] = useState('');
   const [bloodGroup, setBloodGroup] = useState<string>('');
   const [emergencyContact, setEmergencyContact] = useState('');
+  const [occupation, setOccupation] = useState('');
+  const [referredBy, setReferredBy] = useState('');
+  const [pastHistory, setPastHistory] = useState('');
+  const [familyHistory, setFamilyHistory] = useState('');
   const [prakriti, setPrakriti] = useState('');
   const [vikriti, setVikriti] = useState('');
+  const [agni, setAgni] = useState('');
+  const [koshta, setKoshta] = useState('');
+  const [sara, setSara] = useState('');
+  const [samhanana, setSamhanana] = useState('');
+  const [satmya, setSatmya] = useState('');
+  const [sattva, setSattva] = useState('');
+  const [aharaShakti, setAharaShakti] = useState('');
+  const [vyayamaShakti, setVyayamaShakti] = useState('');
+  const [vaya, setVaya] = useState('');
   const [allergies, setAllergies] = useState('');
 
   const [duplicateWarning, setDuplicateWarning] = useState<{
@@ -43,6 +59,13 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
     message: string;
     existingPatient?: PatientRecord;
   }>({ isOpen: false, message: '' });
+
+  const [postRegistrationDialog, setPostRegistrationDialog] = useState<{
+    isOpen: boolean;
+    patientId: string;
+    patientName: string;
+    uhid: string;
+  }>({ isOpen: false, patientId: '', patientName: '', uhid: '' });
 
   useEffect(() => {
     if (isOpen) {
@@ -56,8 +79,21 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
         setAddress(patient.address || '');
         setBloodGroup(patient.bloodGroup || '');
         setEmergencyContact(patient.emergencyContact || '');
+        setOccupation(patient.occupation || '');
+        setReferredBy(patient.referredBy || '');
+        setPastHistory(patient.pastHistory || '');
+        setFamilyHistory(patient.familyHistory || '');
         setPrakriti(patient.prakriti || '');
         setVikriti(patient.vikriti || '');
+        setAgni(patient.agni || '');
+        setKoshta(patient.koshta || '');
+        setSara(patient.sara || '');
+        setSamhanana(patient.samhanana || '');
+        setSatmya(patient.satmya || '');
+        setSattva(patient.sattva || '');
+        setAharaShakti(patient.aharaShakti || '');
+        setVyayamaShakti(patient.vyayamaShakti || '');
+        setVaya(patient.vaya || '');
         setAllergies(patient.allergies || '');
       } else {
         setName('');
@@ -68,8 +104,21 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
         setAddress('');
         setBloodGroup('');
         setEmergencyContact('');
+        setOccupation('');
+        setReferredBy('');
+        setPastHistory('');
+        setFamilyHistory('');
         setPrakriti('');
         setVikriti('');
+        setAgni('');
+        setKoshta('');
+        setSara('');
+        setSamhanana('');
+        setSatmya('');
+        setSattva('');
+        setAharaShakti('');
+        setVyayamaShakti('');
+        setVaya('');
         setAllergies('');
       }
     }
@@ -153,19 +202,50 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
       address: address.trim() || undefined,
       bloodGroup: (bloodGroup || undefined) as PatientRecord['bloodGroup'],
       emergencyContact: emergencyContact.trim() || undefined,
+      occupation: occupation.trim() || undefined,
+      referredBy: referredBy.trim() || undefined,
+      pastHistory: pastHistory.trim() || undefined,
+      familyHistory: familyHistory.trim() || undefined,
       prakriti: prakriti || undefined,
       vikriti: vikriti || undefined,
+      agni: agni || undefined,
+      koshta: koshta || undefined,
+      sara: sara || undefined,
+      samhanana: samhanana || undefined,
+      satmya: satmya || undefined,
+      sattva: sattva || undefined,
+      aharaShakti: aharaShakti || undefined,
+      vyayamaShakti: vyayamaShakti || undefined,
+      vaya: vaya || undefined,
       allergies: allergies.trim() || undefined,
     };
 
     if (isEdit && patient) {
-      await dispatch(updatePatient({ id: patient.id, updates: patientData }));
-      showToast('Patient updated successfully', 'success');
+      try {
+        await dispatch(updatePatient({ id: patient.id, updates: patientData })).unwrap();
+        showToast('Patient updated successfully', 'success');
+        onClose();
+      } catch {
+        showToast('Failed to update patient. Please try again.', 'error');
+      }
     } else {
-      await dispatch(createPatient(patientData));
-      showToast('Patient registered successfully', 'success');
+      try {
+        const result = await dispatch(createPatient(patientData)).unwrap();
+        showToast('Patient registered successfully', 'success');
+        if (onRegistered) {
+          onRegistered(result.id, result.name, result.mrn);
+        } else {
+          setPostRegistrationDialog({
+            isOpen: true,
+            patientId: result.id,
+            patientName: result.name,
+            uhid: result.mrn,
+          });
+        }
+      } catch {
+        showToast('Failed to register patient. Please try again.', 'error');
+      }
     }
-    onClose();
   };
 
   return (
@@ -288,12 +368,51 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
           <div className="border-t border-surface-200 dark:border-surface-700 pt-4">
             <fieldset className="space-y-4">
               <legend className="text-sm font-medium text-surface-700 dark:text-surface-300">
+                Additional Details (Optional)
+              </legend>
+
+              <div className="grid grid-cols-2 gap-3">
+                <Input
+                  label="Occupation"
+                  value={occupation}
+                  onChange={(e) => setOccupation(e.target.value)}
+                  placeholder="e.g. Teacher"
+                />
+                <Input
+                  label="Referred By"
+                  value={referredBy}
+                  onChange={(e) => setReferredBy(e.target.value)}
+                  placeholder="Doctor or source"
+                />
+              </div>
+
+              <Textarea
+                label="Past Medical History"
+                value={pastHistory}
+                onChange={(e) => setPastHistory(e.target.value)}
+                placeholder="Previous surgeries, chronic conditions..."
+                rows={2}
+              />
+
+              <Textarea
+                label="Family History"
+                value={familyHistory}
+                onChange={(e) => setFamilyHistory(e.target.value)}
+                placeholder="Hereditary conditions, family illnesses..."
+                rows={2}
+              />
+            </fieldset>
+          </div>
+
+          <div className="border-t border-surface-200 dark:border-surface-700 pt-4">
+            <fieldset className="space-y-4">
+              <legend className="text-sm font-medium text-surface-700 dark:text-surface-300">
                 Ayurveda Assessment (Optional)
               </legend>
 
               <div className="space-y-1.5">
                 <label className="block text-sm font-medium text-surface-700 dark:text-surface-300">
-                  Prakriti
+                  Prakriti (Constitution)
                 </label>
                 <div className="flex flex-wrap gap-2" role="radiogroup" aria-label="Prakriti">
                   {PRAKRITI_TYPES.map((p) => (
@@ -315,16 +434,125 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
                 </div>
               </div>
 
-              <Select
-                label="Vikriti"
-                value={vikriti}
-                onChange={(e) => setVikriti(e.target.value)}
-              >
-                <option value="">Select</option>
-                {PRAKRITI_TYPES.map((v) => (
-                  <option key={v} value={v}>{v}</option>
-                ))}
-              </Select>
+              <div className="grid grid-cols-2 gap-3">
+                <Select
+                  label="Vikriti (Current Imbalance)"
+                  value={vikriti}
+                  onChange={(e) => setVikriti(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  {PRAKRITI_TYPES.map((v) => (
+                    <option key={v} value={v}>{v}</option>
+                  ))}
+                </Select>
+
+                <Select
+                  label="Agni (Digestive Fire)"
+                  value={agni}
+                  onChange={(e) => setAgni(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  {AGNI_TYPES.map((a) => (
+                    <option key={a} value={a}>{a}</option>
+                  ))}
+                </Select>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3">
+                <Select
+                  label="Koshta (Bowel Habit)"
+                  value={koshta}
+                  onChange={(e) => setKoshta(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  {KOSHTA_TYPES.map((k) => (
+                    <option key={k} value={k}>{k}</option>
+                  ))}
+                </Select>
+
+                <Select
+                  label="Sara (Tissue Excellence)"
+                  value={sara}
+                  onChange={(e) => setSara(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  <option value="Pravara">Pravara (Excellent)</option>
+                  <option value="Madhyama">Madhyama (Medium)</option>
+                  <option value="Avara">Avara (Poor)</option>
+                </Select>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3">
+                <Select
+                  label="Samhanana (Compactness)"
+                  value={samhanana}
+                  onChange={(e) => setSamhanana(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  <option value="Pravara">Pravara (Firm)</option>
+                  <option value="Madhyama">Madhyama (Medium)</option>
+                  <option value="Avara">Avara (Loose)</option>
+                </Select>
+
+                <Select
+                  label="Satmya (Adaptability)"
+                  value={satmya}
+                  onChange={(e) => setSatmya(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  <option value="Sattvika">Sattvika</option>
+                  <option value="Rajasika">Rajasika</option>
+                  <option value="Tamasika">Tamasika</option>
+                </Select>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3">
+                <Select
+                  label="Ahara Shakti (Digestive Power)"
+                  value={aharaShakti}
+                  onChange={(e) => setAharaShakti(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  <option value="Pravara">Pravara (Strong)</option>
+                  <option value="Madhyama">Madhyama (Medium)</option>
+                  <option value="Avara">Avara (Weak)</option>
+                </Select>
+
+                <Select
+                  label="Vyayama Shakti (Exercise Capacity)"
+                  value={vyayamaShakti}
+                  onChange={(e) => setVyayamaShakti(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  <option value="Pravara">Pravara (Strong)</option>
+                  <option value="Madhyama">Madhyama (Medium)</option>
+                  <option value="Avara">Avara (Weak)</option>
+                </Select>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3">
+                <Select
+                  label="Sattva (Mental Strength)"
+                  value={sattva}
+                  onChange={(e) => setSattva(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  <option value="Sattvika">Sattvika</option>
+                  <option value="Rajasika">Rajasika</option>
+                  <option value="Tamasika">Tamasika</option>
+                </Select>
+
+                <Select
+                  label="Vaya (Age Group)"
+                  value={vaya}
+                  onChange={(e) => setVaya(e.target.value)}
+                >
+                  <option value="">Select</option>
+                  <option value="Bala">Bala (Child)</option>
+                  <option value="Madhya">Madhya (Adult)</option>
+                  <option value="Jirna">Jirna (Elderly)</option>
+                </Select>
+              </div>
 
               <Textarea
                 label="Known Allergies"
@@ -359,6 +587,24 @@ export function PatientFormModal({ isOpen = true, onClose, patient }: PatientFor
         message={duplicateWarning.message}
         confirmLabel="Create New"
         cancelLabel="Use Existing"
+      />
+
+      <ConfirmationDialog
+        isOpen={postRegistrationDialog.isOpen}
+        onClose={() => {
+          setPostRegistrationDialog({ isOpen: false, patientId: '', patientName: '', uhid: '' });
+          onClose();
+        }}
+        onConfirm={() => {
+          const { patientId, patientName, uhid } = postRegistrationDialog;
+          setPostRegistrationDialog({ isOpen: false, patientId: '', patientName: '', uhid: '' });
+          onClose();
+          navigate('/hims/appointments/new', { state: { patientId, patientName, uhid } });
+        }}
+        title="Patient Registered Successfully"
+        message={`${postRegistrationDialog.patientName} (${postRegistrationDialog.uhid}) has been registered. Would you like to book an appointment now?`}
+        confirmLabel="Book Appointment"
+        cancelLabel="Done"
       />
     </>
   );

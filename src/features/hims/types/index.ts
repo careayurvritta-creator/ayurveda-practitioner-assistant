@@ -82,10 +82,7 @@ export interface Medicine {
 }
 
 export const DOCTORS = [
-  'Dr. Rajesh Sharma',
-  'Dr. Priya Verma',
-  'Dr. Amit Patel',
-  'Dr. Sunita Gupta',
+  'Dr. Jinendradutt Sharma',
 ];
 
 export const MEDICINE_CATEGORIES = ['Ayurvedic', 'Allopathic', 'Siddha'] as const;
@@ -119,6 +116,38 @@ export const PRAKRITI_TYPES = [
   'Pitta-Kapha',
   'Vata-Kapha',
   'Tridosha',
+] as const;
+
+export const AGNI_TYPES = [
+  'Sama',
+  'Manda',
+  'Tikshna',
+  'Vishama',
+] as const;
+
+export const KOSHTA_TYPES = [
+  'Regular',
+  'Loose',
+  'Constipated',
+  'Mixed',
+] as const;
+
+export const APPOINTMENT_TYPES = [
+  'consultation',
+  'follow-up',
+  'therapy',
+  'panchakarma',
+  'emergency',
+  'walk-in',
+] as const;
+
+export const APPOINTMENT_STATUS = [
+  'scheduled',
+  'confirmed',
+  'checked-in',
+  'completed',
+  'cancelled',
+  'no-show',
 ] as const;
 
 export const GENDERS = ['Male', 'Female', 'Other'] as const;

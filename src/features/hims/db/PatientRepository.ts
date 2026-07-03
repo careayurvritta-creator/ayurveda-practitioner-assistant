@@ -10,9 +10,23 @@ export interface PatientRecord extends BaseEntity {
   email?: string;
   address?: string;
   bloodGroup?: 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-' | 'O+' | 'O-';
+  occupation?: string;
+  referredBy?: string;
   prakriti?: string;
   vikriti?: string;
+  agni?: string;
+  koshta?: string;
+  sara?: string;
+  samhanana?: string;
+  pramana?: { height?: string; weight?: string; chest?: string; waist?: string };
+  satmya?: string;
+  sattva?: string;
+  aharaShakti?: string;
+  vyayamaShakti?: string;
+  vaya?: string;
   allergies?: string;
+  pastHistory?: string;
+  familyHistory?: string;
   emergencyContact?: string;
   lastVisit?: string;
 }
@@ -22,12 +36,20 @@ class PatientRepository extends Repository<PatientRecord> {
     super('hims_patients');
   }
 
+  async generateUHID(): Promise<string> {
+    const { count } = await supabase
+      .from(this.tableName)
+      .select('*', { count: 'exact', head: true });
+    const nextNum = (count || 0) + 1;
+    return `AAH${String(nextNum).padStart(4, '0')}`;
+  }
+
   async searchByName(name: string): Promise<PatientRecord[]> {
     const { data, error } = await supabase
       .from(this.tableName)
       .select('*')
       .ilike('name', `%${name}%`)
-      .order('createdAt', { ascending: false });
+      .order('created_at', { ascending: false });
     if (error) throw error;
     return (data || []) as PatientRecord[];
   }

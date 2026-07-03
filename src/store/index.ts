@@ -3,6 +3,7 @@ import himsPatientReducer from '../features/hims/slices/himsPatientSlice';
 import opdReducer from '../features/hims/slices/opdSlice';
 import billingReducer from '../features/hims/slices/billingSlice';
 import pharmacyReducer from '../features/hims/slices/pharmacySlice';
+import appointmentReducer from '../features/hims/slices/appointmentSlice';
 
 const rootReducer = combineReducers({
   hims: combineReducers({
@@ -10,6 +11,7 @@ const rootReducer = combineReducers({
     opd: opdReducer,
     billing: billingReducer,
     pharmacy: pharmacyReducer,
+    appointments: appointmentReducer,
   }),
 });
 

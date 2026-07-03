@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
-import { Users, Stethoscope, IndianRupee, Pill, AlertTriangle, TrendingUp, Clock, ArrowRight, Activity } from 'lucide-react';
+import { Users, Stethoscope, IndianRupee, Pill, AlertTriangle, TrendingUp, Clock, ArrowRight, Activity, Calendar, UserPlus, FileText, Plus } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../../../store/hooks';
 import { fetchPatients } from '../slices/himsPatientSlice';
 import { fetchVisits } from '../slices/opdSlice';
 import { fetchInvoices } from '../slices/billingSlice';
 import { fetchMedicines } from '../slices/pharmacySlice';
+import { fetchAppointments } from '../slices/appointmentSlice';
 import { HimsStatsCard } from '../layout/HimsStatsCard';
 import { Breadcrumbs } from '../../../components/ui/Breadcrumb';
 import { StatusBadge, getStatusVariant } from '../../../components/ui/StatusBadge';
@@ -17,16 +18,22 @@ export default function HimsDashboard() {
   const { todayVisits, visits } = useAppSelector((state) => state.hims.opd);
   const { todayRevenue, totalRevenue, invoices } = useAppSelector((state) => state.hims.billing);
   const { lowStockMedicines, medicines } = useAppSelector((state) => state.hims.pharmacy);
+  const { todayAppointments } = useAppSelector((state) => state.hims.appointments);
 
   useEffect(() => {
     dispatch(fetchPatients());
     dispatch(fetchVisits());
     dispatch(fetchInvoices());
     dispatch(fetchMedicines());
+    dispatch(fetchAppointments(new Date().toISOString().split('T')[0]));
   }, [dispatch]);
 
   const recentVisits = todayVisits.slice(0, 5);
   const pendingInvoices = invoices.filter((inv) => inv.paymentStatus === 'pending').length;
+  const waitingCount = todayVisits.filter((v) => v.status === 'waiting').length;
+  const inProgressCount = todayVisits.filter((v) => v.status === 'in-progress').length;
+  const completedCount = todayVisits.filter((v) => v.status === 'completed').length;
+  const pendingTasks = pendingInvoices + lowStockMedicines.length;
 
   return (
     <div className="h-full overflow-y-auto">
@@ -44,11 +51,18 @@ export default function HimsDashboard() {
           </div>
           <div className="flex items-center gap-2">
             <button
-              onClick={() => navigate('/hims/opd')}
+              onClick={() => navigate('/hims/patients')}
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 text-white text-sm font-semibold hover:bg-emerald-700 transition-colors shadow-lg shadow-emerald-500/25 min-h-[44px]"
             >
-              <Stethoscope className="w-4 h-4" />
-              New OPD Visit
+              <UserPlus className="w-4 h-4" />
+              Register Patient
+            </button>
+            <button
+              onClick={() => navigate('/hims/appointments')}
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors shadow-lg shadow-blue-500/25 min-h-[44px]"
+            >
+              <Calendar className="w-4 h-4" />
+              New Appointment
             </button>
           </div>
         </div>
@@ -63,81 +77,203 @@ export default function HimsDashboard() {
             trend={`${totalRevenue.toLocaleString('en-IN')} total`}
           />
           <HimsStatsCard
+            label="Appointments Today"
+            value={todayAppointments.length}
+            icon={Calendar}
+            color="blue"
+            trend={`${todayAppointments.filter((a) => a.status === 'checked-in').length} checked in`}
+          />
+          <HimsStatsCard
             label="OPD Visits Today"
             value={todayVisits.length}
             icon={Stethoscope}
-            color="blue"
+            color="purple"
             trend={`${visits.length} all time`}
           />
           <HimsStatsCard
-            label="Total Patients"
-            value={patients.length}
-            icon={Users}
-            color="purple"
-            trend="Registered patients"
-          />
-          <HimsStatsCard
-            label="Low Stock Items"
-            value={lowStockMedicines.length}
+            label="Pending Tasks"
+            value={pendingTasks}
             icon={AlertTriangle}
-            color={lowStockMedicines.length > 0 ? 'red' : 'amber'}
-            trend={`${medicines.length} total medicines`}
+            color={pendingTasks > 0 ? 'red' : 'amber'}
+            trend={`${pendingInvoices} unpaid · ${lowStockMedicines.length} low stock`}
           />
         </div>
 
         {/* Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
-          {/* Recent OPD Visits — 2 cols */}
-          <div className="lg:col-span-2 bg-white dark:bg-surface-900 rounded-xl border border-surface-200/60 dark:border-surface-800 overflow-hidden">
-            <div className="flex items-center justify-between px-5 py-4 border-b border-surface-100 dark:border-surface-800">
-              <div className="flex items-center gap-2">
-                <Activity className="w-4 h-4 text-emerald-500" />
-                <h2 className="font-semibold text-surface-900 dark:text-white text-sm">Recent OPD Visits</h2>
-              </div>
-              <button
-                onClick={() => navigate('/hims/opd')}
-                className="text-xs text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 font-medium flex items-center gap-1"
-              >
-                View all <ArrowRight className="w-3 h-3" />
-              </button>
-            </div>
-            <div className="divide-y divide-surface-100 dark:divide-surface-800">
-              {recentVisits.length === 0 ? (
-                <div className="px-5 py-12 text-center">
-                  <Clock className="w-8 h-8 mx-auto text-surface-300 dark:text-surface-600 mb-2" />
-                  <p className="text-sm text-surface-500">No visits today</p>
-                  <button
-                    onClick={() => navigate('/hims/opd')}
-                    className="mt-3 text-xs text-emerald-600 dark:text-emerald-400 font-medium hover:underline"
-                  >
-                    Create a visit
-                  </button>
+          {/* Left column: Today's Schedule + OPD Flow */}
+          <div className="lg:col-span-2 space-y-4 sm:space-y-6">
+            {/* Today's Schedule */}
+            <div className="bg-white dark:bg-surface-900 rounded-xl border border-surface-200/60 dark:border-surface-800 overflow-hidden">
+              <div className="flex items-center justify-between px-5 py-4 border-b border-surface-100 dark:border-surface-800">
+                <div className="flex items-center gap-2">
+                  <Clock className="w-4 h-4 text-blue-500" />
+                  <h2 className="font-semibold text-surface-900 dark:text-white text-sm">Today's Schedule</h2>
                 </div>
-              ) : (
-                recentVisits.map((visit) => (
-                  <div key={visit.id} className="px-5 py-3.5 flex items-center justify-between hover:bg-surface-50 dark:hover:bg-surface-800/50 transition-colors">
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-center gap-2">
-                        <span className="font-medium text-sm text-surface-900 dark:text-white truncate">
-                          {visit.patientName}
-                        </span>
-                        <StatusBadge label={visit.status} variant={getStatusVariant(visit.status)} dot />
-                      </div>
-                      <p className="text-xs text-surface-500 dark:text-surface-400 mt-0.5 truncate">
-                        {visit.doctorName} &middot; {visit.chiefComplaint}
-                      </p>
-                    </div>
-                    <span className="text-xs text-surface-400 dark:text-surface-500 ml-3 shrink-0">
-                      ₹{visit.consultationFee}
-                    </span>
+                <button
+                  onClick={() => navigate('/hims/appointments')}
+                  className="text-xs text-blue-600 dark:text-blue-400 hover:text-blue-700 font-medium flex items-center gap-1"
+                >
+                  View all <ArrowRight className="w-3 h-3" />
+                </button>
+              </div>
+              <div className="divide-y divide-surface-100 dark:divide-surface-800">
+                {todayAppointments.length === 0 ? (
+                  <div className="px-5 py-12 text-center">
+                    <Calendar className="w-8 h-8 mx-auto text-surface-300 dark:text-surface-600 mb-2" />
+                    <p className="text-sm text-surface-500">No appointments today</p>
+                    <button
+                      onClick={() => navigate('/hims/appointments')}
+                      className="mt-3 text-xs text-blue-600 dark:text-blue-400 font-medium hover:underline"
+                    >
+                      Book an appointment
+                    </button>
                   </div>
-                ))
-              )}
+                ) : (
+                  todayAppointments.slice(0, 5).map((apt) => (
+                    <div key={apt.id} className="px-5 py-3.5 flex items-center justify-between hover:bg-surface-50 dark:hover:bg-surface-800/50 transition-colors">
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center gap-2">
+                          <span className="font-medium text-sm text-surface-900 dark:text-white truncate">
+                            {apt.patientName}
+                          </span>
+                          <StatusBadge label={apt.status} variant={getStatusVariant(apt.status)} dot />
+                        </div>
+                        <p className="text-xs text-surface-500 dark:text-surface-400 mt-0.5 truncate">
+                          {apt.startTime} - {apt.endTime} · {apt.reason || 'No reason specified'}
+                        </p>
+                      </div>
+                      <span className="text-xs text-surface-400 dark:text-surface-500 ml-3 shrink-0">
+                        {apt.type}
+                      </span>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
+
+            {/* OPD Flow */}
+            <div className="grid grid-cols-3 gap-3">
+              <div className="bg-white dark:bg-surface-900 rounded-xl border border-surface-200/60 dark:border-surface-800 p-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="w-3 h-3 rounded-full bg-amber-500" />
+                  <span className="text-xs font-medium text-surface-500">Waiting</span>
+                </div>
+                <p className="text-2xl font-bold text-surface-900 dark:text-white">{waitingCount}</p>
+              </div>
+              <div className="bg-white dark:bg-surface-900 rounded-xl border border-surface-200/60 dark:border-surface-800 p-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="w-3 h-3 rounded-full bg-blue-500" />
+                  <span className="text-xs font-medium text-surface-500">In Progress</span>
+                </div>
+                <p className="text-2xl font-bold text-surface-900 dark:text-white">{inProgressCount}</p>
+              </div>
+              <div className="bg-white dark:bg-surface-900 rounded-xl border border-surface-200/60 dark:border-surface-800 p-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="w-3 h-3 rounded-full bg-green-500" />
+                  <span className="text-xs font-medium text-surface-500">Completed</span>
+                </div>
+                <p className="text-2xl font-bold text-surface-900 dark:text-white">{completedCount}</p>
+              </div>
+            </div>
+
+            {/* Recent OPD Visits */}
+            <div className="bg-white dark:bg-surface-900 rounded-xl border border-surface-200/60 dark:border-surface-800 overflow-hidden">
+              <div className="flex items-center justify-between px-5 py-4 border-b border-surface-100 dark:border-surface-800">
+                <div className="flex items-center gap-2">
+                  <Activity className="w-4 h-4 text-emerald-500" />
+                  <h2 className="font-semibold text-surface-900 dark:text-white text-sm">Recent OPD Visits</h2>
+                </div>
+                <button
+                  onClick={() => navigate('/hims/opd')}
+                  className="text-xs text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 font-medium flex items-center gap-1"
+                >
+                  View all <ArrowRight className="w-3 h-3" />
+                </button>
+              </div>
+              <div className="divide-y divide-surface-100 dark:divide-surface-800">
+                {recentVisits.length === 0 ? (
+                  <div className="px-5 py-12 text-center">
+                    <Clock className="w-8 h-8 mx-auto text-surface-300 dark:text-surface-600 mb-2" />
+                    <p className="text-sm text-surface-500">No visits today</p>
+                    <button
+                      onClick={() => navigate('/hims/opd')}
+                      className="mt-3 text-xs text-emerald-600 dark:text-emerald-400 font-medium hover:underline"
+                    >
+                      Create a visit
+                    </button>
+                  </div>
+                ) : (
+                  recentVisits.map((visit) => (
+                    <div key={visit.id} className="px-5 py-3.5 flex items-center justify-between hover:bg-surface-50 dark:hover:bg-surface-800/50 transition-colors">
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center gap-2">
+                          <span className="font-medium text-sm text-surface-900 dark:text-white truncate">
+                            {visit.patientName}
+                          </span>
+                          <StatusBadge label={visit.status} variant={getStatusVariant(visit.status)} dot />
+                        </div>
+                        <p className="text-xs text-surface-500 dark:text-surface-400 mt-0.5 truncate">
+                          {visit.doctorName} &middot; {visit.chiefComplaint}
+                        </p>
+                      </div>
+                      <span className="text-xs text-surface-400 dark:text-surface-500 ml-3 shrink-0">
+                        ₹{visit.consultationFee}
+                      </span>
+                    </div>
+                  ))
+                )}
+              </div>
             </div>
           </div>
 
-          {/* Right column: Low Stock + Quick Actions */}
+          {/* Right column: Quick Actions + Low Stock + Revenue */}
           <div className="space-y-4 sm:space-y-6">
+            {/* Quick Actions */}
+            <div className="bg-white dark:bg-surface-900 rounded-xl border border-surface-200/60 dark:border-surface-800 overflow-hidden">
+              <div className="px-5 py-4 border-b border-surface-100 dark:border-surface-800">
+                <h2 className="font-semibold text-surface-900 dark:text-white text-sm">Quick Actions</h2>
+              </div>
+              <div className="p-4 grid grid-cols-2 gap-2">
+                <button
+                  onClick={() => navigate('/hims/patients')}
+                  className="flex flex-col items-center gap-2 p-3 rounded-lg hover:bg-surface-50 dark:hover:bg-surface-800/50 transition-colors"
+                >
+                  <div className="w-10 h-10 rounded-full bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center">
+                    <UserPlus className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+                  </div>
+                  <span className="text-xs font-medium text-surface-700 dark:text-surface-300">Register Patient</span>
+                </button>
+                <button
+                  onClick={() => navigate('/hims/appointments')}
+                  className="flex flex-col items-center gap-2 p-3 rounded-lg hover:bg-surface-50 dark:hover:bg-surface-800/50 transition-colors"
+                >
+                  <div className="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
+                    <Calendar className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+                  </div>
+                  <span className="text-xs font-medium text-surface-700 dark:text-surface-300">New Appointment</span>
+                </button>
+                <button
+                  onClick={() => navigate('/hims/opd')}
+                  className="flex flex-col items-center gap-2 p-3 rounded-lg hover:bg-surface-50 dark:hover:bg-surface-800/50 transition-colors"
+                >
+                  <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center">
+                    <Stethoscope className="w-5 h-5 text-purple-600 dark:text-purple-400" />
+                  </div>
+                  <span className="text-xs font-medium text-surface-700 dark:text-surface-300">New OPD Visit</span>
+                </button>
+                <button
+                  onClick={() => navigate('/hims/billing')}
+                  className="flex flex-col items-center gap-2 p-3 rounded-lg hover:bg-surface-50 dark:hover:bg-surface-800/50 transition-colors"
+                >
+                  <div className="w-10 h-10 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
+                    <FileText className="w-5 h-5 text-amber-600 dark:text-amber-400" />
+                  </div>
+                  <span className="text-xs font-medium text-surface-700 dark:text-surface-300">Create Invoice</span>
+                </button>
+              </div>
+            </div>
+
             {/* Low Stock Alert */}
             <div className="bg-white dark:bg-surface-900 rounded-xl border border-surface-200/60 dark:border-surface-800 overflow-hidden">
               <div className="flex items-center justify-between px-5 py-4 border-b border-surface-100 dark:border-surface-800">

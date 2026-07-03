@@ -35,8 +35,7 @@ export const searchPatients = createAsyncThunk(
 export const createPatient = createAsyncThunk(
   'hims/patients/create',
   async (patient: Omit<PatientRecord, 'id' | 'mrn' | 'createdAt' | 'updatedAt'>) => {
-    const today = new Date().toISOString().split('T')[0].replace(/-/g, '');
-    const mrn = `MRN-${today}-${String(Date.now()).slice(-6)}`;
+    const mrn = await PatientRepository.generateUHID();
     return await PatientRepository.create({ ...patient, mrn });
   }
 );

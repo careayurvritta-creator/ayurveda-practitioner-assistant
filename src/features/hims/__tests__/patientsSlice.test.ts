@@ -14,6 +14,7 @@ jest.mock('../db/PatientRepository', () => ({
     update: jest.fn().mockImplementation((id, updates) => Promise.resolve({ id, ...updates })),
     delete: jest.fn().mockResolvedValue(undefined),
     searchByName: jest.fn().mockResolvedValue([]),
+    generateUHID: jest.fn().mockResolvedValue('AAH0001'),
   },
 }));
 
