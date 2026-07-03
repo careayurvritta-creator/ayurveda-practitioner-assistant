@@ -93,6 +93,7 @@ export function QuickInvoiceModal({ visit, onClose }: QuickInvoiceModalProps) {
       paymentMethod,
       paymentStatus,
       paidAmount: finalPaidAmount,
+      paymentReference: paymentReference || undefined,
     });
     showToast('Invoice created successfully', 'success');
     onClose();

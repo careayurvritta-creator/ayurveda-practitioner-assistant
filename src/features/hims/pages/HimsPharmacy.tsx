@@ -1,14 +1,19 @@
 import { useState } from 'react';
 import { Plus, Search, Pill, AlertTriangle } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
+import { ConfirmationDialog } from '../../../components/ui/ConfirmationDialog';
 import { usePharmacy } from '../contexts/PharmacyContext';
+import { useToast } from '../../../contexts/ToastContext';
 import { AddMedicineModal } from '../components/AddMedicineModal';
+import type { Medicine } from '../types';
 
 export default function HimsPharmacy() {
   const { medicines, lowStockMedicines, deleteMedicine } = usePharmacy();
+  const { showToast } = useToast();
   const [search, setSearch] = useState('');
   const [showAdd, setShowAdd] = useState(false);
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
+  const [deletingMedicine, setDeletingMedicine] = useState<Medicine | null>(null);
 
   const filteredMedicines = medicines.filter((m) => {
     const matchesSearch =
@@ -121,9 +126,7 @@ export default function HimsPharmacy() {
                         ₹{med.price}
                       </div>
                       <button
-                        onClick={() => {
-                          if (confirm(`Delete ${med.name}?`)) deleteMedicine(med.id);
-                        }}
+                        onClick={() => setDeletingMedicine(med)}
                         className="text-xs text-red-500 hover:text-red-700 mt-1"
                       >
                         Delete
@@ -138,6 +141,22 @@ export default function HimsPharmacy() {
       </div>
 
       {showAdd && <AddMedicineModal onClose={() => setShowAdd(false)} />}
+
+      <ConfirmationDialog
+        isOpen={!!deletingMedicine}
+        onClose={() => setDeletingMedicine(null)}
+        onConfirm={() => {
+          if (deletingMedicine) {
+            deleteMedicine(deletingMedicine.id);
+            showToast(`${deletingMedicine.name} deleted`, 'success');
+            setDeletingMedicine(null);
+          }
+        }}
+        title="Delete Medicine"
+        message={`Are you sure you want to delete ${deletingMedicine?.name}? This cannot be undone.`}
+        confirmLabel="Delete"
+        destructive
+      />
     </div>
   );
 }

@@ -7,11 +7,11 @@ import { HimsStatsCard } from '../layout/HimsStatsCard';
 
 export default function HimsDashboard() {
   const { patients } = useHimsPatients();
-  const { todayVisits, visits } = useOpd();
+  const { todayVisits } = useOpd();
   const { todayRevenue, totalRevenue } = useBilling();
   const { lowStockMedicines, medicines } = usePharmacy();
 
-  const recentVisits = visits.slice(0, 5);
+  const recentVisits = todayVisits.slice(0, 5);
 
   return (
     <div className="h-full overflow-y-auto">

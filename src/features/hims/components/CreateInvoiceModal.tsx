@@ -3,7 +3,6 @@ import { Modal } from '../../../components/ui/Modal';
 import { Button } from '../../../components/ui/Button';
 import { Input } from '../../../components/ui/Input';
 import { useHimsPatients } from '../contexts/HimsPatientContext';
-import { useOpd } from '../contexts/OpdContext';
 import { useBilling } from '../contexts/BillingContext';
 
 interface CreateInvoiceModalProps {
@@ -12,7 +11,6 @@ interface CreateInvoiceModalProps {
 
 export function CreateInvoiceModal({ onClose }: CreateInvoiceModalProps) {
   const { patients } = useHimsPatients();
-  const { visits } = useOpd();
   const { addInvoice } = useBilling();
 
   const [patientSearch, setPatientSearch] = useState('');

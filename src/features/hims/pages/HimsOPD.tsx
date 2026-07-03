@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Plus, Clock, CheckCircle, XCircle, Loader, Calendar, ChevronLeft, ChevronRight, Receipt, Pill, X, CalendarDays } from 'lucide-react';
+import { Plus, Clock, CheckCircle, XCircle, Loader, Calendar, ChevronLeft, ChevronRight, Receipt, Pill, CalendarDays } from 'lucide-react';
 import { Button } from '../../../components/ui/Button';
 import { ConfirmationDialog } from '../../../components/ui/ConfirmationDialog';
 import { useOpd } from '../contexts/OpdContext';

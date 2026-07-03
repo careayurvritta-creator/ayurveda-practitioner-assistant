@@ -62,6 +62,7 @@ export interface Invoice {
   paymentMethod: 'cash' | 'card' | 'upi' | 'insurance';
   paymentStatus: 'paid' | 'pending' | 'partial';
   paidAmount: number;
+  paymentReference?: string;
   createdAt: string;
 }
 
